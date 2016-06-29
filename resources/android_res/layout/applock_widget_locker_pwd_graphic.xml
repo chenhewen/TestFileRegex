@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.function.applock.view.widget.graphic.LockerGraphicPassword xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/layout1"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip">
+        <include
+            android:id="@+id/graphic1"
+            layout="@layout/applock_widget_locker_pwd_graphic_cell"/>
+        <include
+            android:id="@+id/graphic2"
+            layout="@layout/applock_widget_locker_pwd_graphic_cell"/>
+        <include
+            android:id="@+id/graphic3"
+            layout="@layout/applock_widget_locker_pwd_graphic_cell"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/layout2"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip">
+        <include
+            android:id="@+id/graphic4"
+            layout="@layout/applock_widget_locker_pwd_graphic_cell"/>
+        <include
+            android:id="@+id/graphic5"
+            layout="@layout/applock_widget_locker_pwd_graphic_cell"/>
+        <include
+            android:id="@+id/graphic6"
+            layout="@layout/applock_widget_locker_pwd_graphic_cell"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/layout3"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip">
+        <include
+            android:id="@+id/graphic7"
+            layout="@layout/applock_widget_locker_pwd_graphic_cell"/>
+        <include
+            android:id="@+id/graphic8"
+            layout="@layout/applock_widget_locker_pwd_graphic_cell"/>
+        <include
+            android:id="@+id/graphic9"
+            layout="@layout/applock_widget_locker_pwd_graphic_cell"/>
+    </LinearLayout>
+</com.gto.zero.zboost.function.applock.view.widget.graphic.LockerGraphicPassword>

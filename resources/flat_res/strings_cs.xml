@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Z Speed+</string>
+    <string name="action_settings">Nastavení</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_yes">Ano</string>
+    <string name="common_no">Ne</string>
+    <string name="common_ok">OK</string>
+    <string name="common_select">Vybrat</string>
+    <string name="common_delete">Odstranit</string>
+    <string name="common_others">Ostatní</string>
+    <string name="common_stop">Stop</string>
+    <string name="common_uninstall">Odinstalovat</string>
+    <string name="common_back_up">Zálohovat</string>
+    <string name="common_cancel">Zrušit</string>
+    <string name="common_install">Instalovat</string>
+    <string name="common_installed">Instalováno</string>
+    <string name="common_vertion">Verze</string>
+    <string name="common_update">Aktualizovat</string>
+    <string name="common_insufficient_storate">Nedostatečné místo na disku</string>
+    <string name="common_no_sdcard">SD Karta nebyla nalezena</string>
+    <string name="common_warning">Varování</string>
+    <string name="common_no_content">Žádný obsah</string>
+    <string name="common_comma">,</string>
+    <string name="common_period">.</string>
+    <string name="common_slogan">Zrychlete na lepší telefon</string>
+    <string name="common_download">Stáhnout</string>
+    <string name="common_uninstalled">Odinstalováno</string>
+    <string name="common_more">Více</string>
+    <string name="common_on">ZAPNUTO</string>
+    <string name="common_off">VYPNUTO</string>
+    <string name="common_new">nové</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="available">Dostupné</string>
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">PAMĚŤ</string>
+    <string name="main_button_boost">Zrychlení paměti</string>
+    <string name="main_button_storage">Nevyžádané soubory</string>
+    <string name="main_button_manage">Správce aplikací</string>
+    <string name="main_ram_total">%s Celkem</string>
+    <string name="main_storage_total">%s Celkem</string>
+    <string name="tip_press_again_to_exit">Stiskněte znovu pro ukončení</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Nastavení</string>
+    <string name="menu_update">Aktualizace</string>
+    <string name="menu_feedback">Zpětná vazba</string>
+    <string name="menu_about">O</string>
+    <string name="menu_shuffle">Náhodné</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">Vánoce</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">Zrychlení paměti</string>
+    <string name="boost_main_act_tab_running">Běží</string>
+    <string name="boost_main_act_tab_autostart">Autostart</string>
+    <string name="boost_running_apps_custom">%1$d aplikací vybráno</string>
+    <string name="boosting_memory_act_title">Zrychlení paměti</string>
+    <string name="boosting_tips">Zrychlení</string>
+    <string name="boosting_power_tips">Silné zrychlení</string>
+    <string name="boosted_to_optimus_tips">Zrychleno do optimálního stavu!</string>
+    <string name="boosted_active_power_mode_tips">Ups! %1$d aplikací se samo znovu spustilo.\nAktivujte Silný mód pro vyřešení!</string>
+    <string name="enable_super_boost_enable">Povolit</string>
+    <string name="enable_super_boost_title">Povolit Silný mód</string>
+    <string name="enable_super_boost_main_text">Za účelem efektivnějšího zrychlení vám doporučujeme zapnout funkce Usnadnění.</string>
+    <string name="enable_super_boost_content_text1" formatted="false">Pomoci vám zastavit nebo zakázat aplikace kompletně.</string>
+    <string name="enable_super_boost_content_text2" formatted="false">Snižuje spotřebu baterie.</string>
+    <string name="enable_super_boost_content_text3" formatted="false">Více než 85 % uživatelů povolilo tuto funkci.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">Klepněte na Z Speed+ při běhu</string>
+    <string name="boost_groups_list_title_running_app">Běžící aplikace</string>
+    <string name="boost_groups_list_title_cpu_temperature">Teplota CPU</string>
+    <string name="boost_groups_list_title_lag_detected">Detekováno sekání</string>
+
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Zapněte tlačítko výše pro aktivaci Z Speed+ Silného módu pro maximální zrychlení!\n\nZ Speed+ využívá funkce usnadnění aby pomohlo zastavit nepoužíváné aplikace. Prosím nemějte strach, pokud uvidíte připomenutí ohrožení soukromí, to je jen běžné informativní varování pro jakoukoliv službu usnadnění. 
+    \n\nSlibujeme, že NEshromažďujeme ŽÁDNÉ informace.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Možnosti</string>
+    <string name="autostart_optimization_desr">Mohou být optimalizovány</string>
+    <string name="autostart_type_optimization">Pro optimalizaci</string>
+    <string name="autostart_type_allowed">Povolené</string>
+    <string name="autostart_type_blocked">Blokované</string>
+    <string name="autostart_type_system">Předinstalované aplikace</string>
+    <string name="autostart_type_system_description">Blokování automatického spuštění předinstalovaných aplikací může způsobit nestabilitu systému. Postupujte opatrně</string>
+    <string name="autostart_preinstll_system">Předinstalované aplikace</string>
+    <string name="autostart_on_boot_up">Spustit</string>
+    <string name="autostart_on_background">Pozadí</string>
+    <string name="autostart_on_boot_up_and_background">Spustit/Pozadí</string>
+    <string name="autostart_detail_title">Autostart v %1$d situacích:</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="ignore_list_act_title">Seznam ignorovaných</string>
+    <string name="add_to_ignore_list_act_title">Přidat na seznam ignorovaných</string>
+    <string name="dialog_memory_footprint">Použitá paměť</string>
+    <string name="dialog_add_to_ignorelist">Přidat na seznam ignorovaných</string>
+    <string name="dialog_remove_from_ignorelist">Odebrat ze seznamu ignorovaných</string>
+    <string name="tip_ignore_list_appunchecked">Tyto aplikace budou odoznačené do základního nastavení po skenování.</string>
+    <string name="tip_ignore_list_appadd">Klepněte na \'+\' pro přidání ignorovaných aplikací.</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443">%s&lt;/font> nebude skenováno.</string>
+    <string name="clean_ignore_empty_tips">Dlouhé tiskové položky v nevyžádané poště budou přidané do ignor listu.</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">Správce aplikací</string>
+    <string name="app_manager_my_backups">Moje zálohy</string>
+    <string name="app_manager_others">Ostatní</string>
+    <string name="app_manager_back_up_success_tips">aplikace byly zálohovány do:</string>
+    <string name="app_manager_back_up_success_tips_for_one">aplikace byly zálohovány do:</string>
+    <string name="app_manager_back_up_fail_tips">aplikace selhaly</string>
+    <string name="app_manager_back_up_fail_tips_for_one">aplikace selhala</string>
+    <string name="app_manager_pre_installed_apps">Předinstalované aplikace</string>
+    <string name="app_manager_backing_up">Zálohuji</string>
+    <string name="app_manager_running">Běží</string>
+    <string name="app_manager_stop">Stop</string>
+    <string name="app_manager_apps_running">Aplikace běží</string>
+    <string name="app_manager_apps_desc">Zakázání předinstalovaných aplikací, které jsou zřídka používány, pomáhá snížit spotřebu.</string>
+    <string name="app_manager_path">Cesta</string>
+    <string name="app_manager_no_backup_found">Nenalezena žádná záloha</string>
+    <string name="app_manager_tap_to_disable">Klepněte na Zakázat/Vypnout pro zakázání</string>
+    <string name="app_manager_tap_to_enable">Klepněte na Povolit/Zapnout pro povolení</string>
+    <string name="app_manager_select_app_first">Prosím nejdříve vyberte aplikace</string>
+    <string name="app_manager_shit">OK</string>
+    <string name="app_manager_freed">Uvolněno</string>
+    <string name="app_manager_use_rare_month">Zřídka použité za měsíc</string>
+    <string name="app_manager_use_rare_days">Zřídka použité za %s dní</string>
+    <string name="app_manager_use_commonly">Běžně používané</string>
+    <string name="app_manager_android_system">Systém Android</string>
+    <string name="app_manager_use_rare">Zřídka používané</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Uživatelské aplikace</string>
+    <string name="app_manager_tab_system">Předinstalované</string>
+    <string name="app_manager_tab_text_date">Datum</string>
+    <string name="app_manager_tab_text_frequance">Frekvence</string>
+    <string name="app_manager_tab_text_size">Velikost</string>
+    <string name="app_manager_tab_text_battery">Baterie</string>
+    <string name="app_manager_tab_text_name">Název</string>
+    <string name="app_manager_dialog_cancel">Zrušit</string>
+    <string name="app_manager_dialog_backup">Zálohovat</string>
+    <string name="app_manager_dialog_uninstall">Odinstalovat</string>
+    <string name="app_manager_preinstall_noyice"><![CDATA[&nbsp&nbsp&nbsp&nbsp<font color="#76B54B"> %s Apps running </font> Disabling reduces consumption. It is completely safe]]></string>
+    <string name="app_manager_no_uerapp">Žádné aplikace</string>
+    <string name="app_manager_preinstall_disbale_list">Aplikace zakázány</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Zakázány</string>
+    <string name="app_manager_preinstall_reommend_disable">%s uživatelů zakázáno</string>
+    <string name="app_manager_preinstall_reommend_keep">Doporučené ponechat</string>
+    <string name="app_manager_preinstall_reommend_none">Ponechat tak, jak je</string>
+    <string name="app_manager_preinstall_tip">Zakázání předinstalovaných aplikací, které jsou zřídka používány, snižuje spotřebu.</string>
+    <string name="app_manager_preinstall_disable_toast">bylo zakázáno.</string>
+    <string name="app_manager_preinstall_enable_toast">bylo povoleno.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Balíček zakázán</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Upozornění</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[Disabling this app might <font color="#fe6969">affect normal function</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Jste si jisti, že to chcete vybrat?</string>
+    <string name="app_manager_preinstall_disable_loading">Nahrávám&#8230;</string>
+    <string name="diable_lab_dialog_title">Z Speed+ Lab</string>
+    <string name="diable_lab_dialog_content_text"><![CDATA[You\'re invited to try our Lab feature: <font color="#76b54b">Batch Disabling Pre-installed Apps. </font>Any issues, write us zpětná vazba and let\'s improve it together!]]></string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">Nevyžádané soubory</string>
+    <string name="clean_main_suggest">Navrhované</string>
+    <string name="clean_main_selected">Vybrané</string>
+    <string name="clean_dialog_title">Upozornění</string>
+    <string name="clean_dialog_message1">Vámi vybraný soubor obsahuje obsah níže:</string>
+    <string name="clean_dialog_btn_all">Přesto vybrat</string>
+    <string name="clean_dialog_btn_next">Překontrolovat</string>
+    <string name="gallery_thumbnails">Galerie náhledů</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">Po smazání by se mohla galerie načítat pomaleji.</string>
+    <string name="clean_group_app_cache">Mezipaměť aplikace</string>
+    <string name="clean_group_residue">Zbytky souborů</string>
+    <string name="clean_group_cache">Mezipaměť nevyžádaných souborů</string>
+    <string name="clean_group_temp">Systémové dočasné soubory</string>
+    <string name="clean_group_apk">Zastaralé apks</string>
+    <string name="clean_group_big_file">Velké soubory</string>
+    <string name="clean_group_ad">Nevyžádané soubory reklam</string>
+    <string name="clean_group_memory">Nevyžádané soubory paměti</string>
+    <string name="clean_item_sys_cache">Systémová mezipaměť</string>
+    <string name="clean_done_tips">Vyčištěno</string>
+    <string name="clean_dialog_app_cache_yes_btn">Ruční čištění</string>
+    <string name="clean_dialog_folder_yes_btn">Zobrazit</string>
+    <string name="clean_dialog_file_yes_btn">Otevřít</string>
+    <string name="clean_dialog_media_yes_btn">Přehrát</string>
+    <string name="clean_dialog_message_size">Velikost</string>
+    <string name="clean_dialog_message_contain">Obsahuje</string>
+    <string name="clean_dialog_message_path">Cesta</string>
+    <string name="clean_dialog_message_file">soubory</string>
+    <string name="clean_dialog_message_folder">složky</string>
+    <string name="clean_done_none_tips">Excelentní</string>
+    <string name="clean_file_browser_no_files">žádné soubory</string>
+    <string name="clean_days_ago"> dní staré</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969">Buďte opatrní! &lt;/font>%1$s</string>
+    <string name="clean_subitem_detail_connect">Toto je %1$s z %2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443">Vaše soubory nebudou po čištění ovlivněny.&lt;/font></string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443">Čištění je zcela bezpečné.&lt;/font></string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969">Bude třeba je znovu stáhnout.&lt;/font></string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969">Čištění je odstraní navždy!&lt;/font></string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Vyčistit</string>
+    <string name="uninstall_dialog_message_1">&lt;b>%1$s&lt;/b> zbývá &lt;font color="#85c443">%2$s&lt;/font> zbytků souborů.</string>
+    <string name="uninstall_dialog_message_2">Obsahuje: </string>
+    <string name="uninstall_clean_tips">&#160;zbytků souborů bylo vyčištěno!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">Nastavení</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Zpětná vazba</string>
+    <string name="container_hint_setting_feedback">Prosím zde napište vaše komentáře, poskytněte co nejvíce detailů co můžete. My vždy nasloucháme a zlepšujeme.</string>
+    <string name="mial_hint_setting_feedback">Email</string>
+    <string name="notice_setting_feedback">Model a verze telefonu budou shromážděny pro diagnózu vašeho problému. My nikdy nebude shromažďovat osobní informace bez vašeho svolení.</string>
+    <string name="no_contain_setting_feedback">Ahoj,říkáte něco?</string>
+    <string name="sendok_setting_feedback">Děkujeme za vašizpětnou vazbu!</string>
+    <string name="checknet_setting_feedback">Prosím zkontrolujte vaše připojení k síti.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">&lt;u>Dejte nám like na facebooku&lt;/u></string>
+    <string name="googleplus_about_setting">&lt;u>Přidejte se k naší komunikaci na Google+&lt;/u></string>
+    <string name="googleplay_about_setting">&lt;u>Ohodnoťe nás na GooglePlay&lt;/u></string>
+    <string name="title_about_setting">O</string>
+    <string name="share_setting_about">Z Speed+ zrychlí a vyčistí můj telefon. Zkuste to! Získejte jej: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014&#8211;2015 ZERO Tým. Všechna práva vyhrazena.</string>
+    <string name="law_jump_setting_about">&lt;u>Zásady ochrany soukromí&lt;/u></string>
+    <string name="share_title_setting_about">sdílet Z Speed+</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">Není možné otevřít připojení</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Plovoucí widget</string>
+    <string name="title_notice">Upozornění</string>
+    <string name="junk_clean_setting">Čištění nevyžádaných souborů</string>
+    <string name="enable_widget_setting_setting">Povolit</string>
+    <string name="hide_widget_setting_setting">Schovat položku stavového řádku</string>
+    <string name="show_widget_setting_setting">Zobrazit pouze na ploše</string>
+    <string name="memory_setting_setting">Je třeba zrychlení paměti</string>
+    <string name="storge_setting_setting">Dochází volné místo</string>
+    <string name="junk_setting_setting">Zbytky nevyžádaných souborů</string>
+    <string name="autostart_setting_setting">Nová žádost o automatické spuštění</string>
+    <string name="ignore_setting_setting">Seznam ignorovaných</string>
+    <string name="memery_boost_setting_setting">Spuštěné aplikace</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">Obecné</string>
+    <string name="menu_general_setting_language">Jazyk</string>
+    <string name="menu_general_setting_shortcut">Vytvořit zástupce</string>
+    <string name="menu_junk_setting">Nevyžádané soubory</string>
+    <string name="menu_junk_setting_scan_memory">Skenovat pamět na nevyžádané soubory</string>
+    <string name="menu_join_uep_plan">&lt;u>Program zkušeností uživatelů&lt;/u></string>
+     <string name="clean_ignore_title">Ignor List Nepotřebných Souborů</string>
+    <string name="clean_ignore_list_tips">Tyto položky nebudou vnímané jako nevyžádané soubory</string>
+    <string name="menu_smart_boost">Inteligentní podpora</string>
+    <string name="smart_boost_screen_lock">Inteligentní podpora zámku obrazovky</string>
+    <string name="smart_boost_show_result">Zobrazit výsledky po inteligentní kontrole</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Zakázat plovoucí widget?</string>
+    <string name="float_hide_float_message">Můžete také schovat plovoucí widget do času stavového řádku.</string>
+    <string name="float_dialog_ok">OK</string>
+    <string name="float_dialog_cancel">Zrušit</string>
+    <string name="float_dialog_hide_ok">Zkuste to!</string>
+    <string name="float_dialog_hide_cancel">Přesto zakázat</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Žádné oprávnění. Operace selhala!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram_black">&lt;font color="#1d1d1d">Dostupná paměť je &lt;/font>&lt;font color="#fe6969">&lt;b>nižší než %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_white">&lt;font color="#ffffff">Dostupná paměť je &lt;/font>&lt;font color="#fe6969">&lt;b>nižší než %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_line2">Zařízení se může extrémně zpomalit</string>
+    <string name="notification_boost">Zrychlit</string>
+    <string name="notification_sdcard">Dochází vám volné místo. Klepněte pro vyčištění!</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d">Dochází volné místo.&lt;/font>&lt;font color="#fe6969">&lt;b>Pouze %s%% zbývá&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff">Dochází volné místo.&lt;/font>&lt;font color="#fe6969">&lt;b>Pouze %s%% zbývá&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_line2">Volné místo může být nedostatečné pro stahování</string>
+    <string name="notification_release_more"><![CDATA[%s MB Freed. <font color="#85c443">Release More!</font>]]></string>
+    <string name="notification_boost_phone_optimum"><![CDATA[Your phone is at its optimum. <font color="#85c443">More Features!</font>]]></string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d">Zařízení &lt;/font>&lt;font color="#fe6969">&lt;b>běží pomaleji&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff">Zařízení &lt;/font>&lt;font color="#fe6969">&lt;b>běží pomaleji&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block2">Aplikace silně zatěžuje CPU</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d">CPU se &lt;/font>&lt;font color="#fe6969">&lt;b>silně přehřívá&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff">CPU se &lt;/font>&lt;font color="#fe6969">&lt;b>silně přehřívá&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat2">Aplikace abnormálně vytěžuje CPU</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d">Teplota CPU &lt;/font>&lt;font color="#fe6969">&lt;b>rychle stoupá&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff">Teplota CPU &lt;/font>&lt;font color="#fe6969">&lt;b>rychle stoupá&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp2">Aplikace abnormálně vytěžuje CPU</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#1d1d1d">nevyžádaných souborů zabírá místo&lt;/font></string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#ffffff">nevyžádaných souborů zabírá místo&lt;/font></string>
+    <string name="notification_clean_scan_message">Vyčistit pro uvolnění místa v telefonu</string>
+     <string name="notification_ram_help_black">&lt;font color="#1d1d1d"> %s apps are &lt;/font>&lt;font color="#fe6969">vybití baterie&lt;/font></string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"> %s apps are &lt;/font>&lt;font color="#fe6969">vybití baterie&lt;/font></string>
+    <string name="notification_ram_help_line2">Navýšení životnosti baterie</string>
+    <string name="notification_release_sleep">Zrychlení o %s MB během spánku</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969">Nový odpad &lt;/font>&lt;font color="#1d1d1d">byl vytvořený&lt;/font></string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969">Nový odpad &lt;/font>&lt;font color="#ffffff">byl vytvořený&lt;/font></string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d">Nejlepší Aplikace Počasí Pro Vás&lt;/font></string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff">Nejlepší Aplikace Počasí Pro Vás&lt;/font></string>
+    <string name="notification_go_weather_message">Vydané Nové Vánoční Widgety!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d">Znudění výchozí zprávou?&lt;/font></string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff">Znudění výchozí zprávou?&lt;/font></string>
+    <string name="notification_go_sms_message">Přizpůsobte si nyní vlastní zprávu!</string>
+    <string name="go_launcher">GO Launcher Z</string>
+    <string name="go_weather">GO Weather - Předpověď počasí &amp; Widget</string>
+    <string name="go_weather_done_message">Poskytuje aktuální &amp; předpověď počasí, nádnerné widgety &amp; živé tapety.</string>
+    <string name="notification_guide_text">Zapněte svůj vlastní přepínač</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Otevřít jako</string>
+    <string name="filetype_text">Text</string>
+    <string name="filetype_video">Video</string>
+    <string name="filetype_audio">Audio</string>
+    <string name="filetype_image">Obrázek</string>
+    <string name="filetype_music">Hudba</string>
+    <string name="filetype_document">Dokument</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">Komprese</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Nová vezre</string>
+    <string name="update_update">Aktualizovat</string>
+    <string name="update_later">Později</string>
+    <string name="update_cancel">Zrušit</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">Zruchlit</string>
+    <string name="shortcut">Zástupce</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">Po spuštění</string>
+    <string name="auto_start_on_connectivity_change">Při změně sítě</string>
+    <string name="auto_start_on_package_changed">Při změně stavu aplikace</string>
+    <string name="auto_start_on_package_added">Při instalaci aplikací</string>
+    <string name="auto_start_on_package_removed">Při odinstalaci aplikací</string>
+    <string name="auto_start_on_package_replaced">Při změně aplikací</string>
+    <string name="auto_start_on_any_data_state">Při změně dat</string>
+    <string name="auto_start_on_outgoing_call">Během odchozího hovoru</string>
+    <string name="auto_start_on_phone_state_changed">Při zavěšení hovoru</string>
+    <string name="auto_start_on_user_present">Při odemykání</string>
+    <string name="auto_start_on_wifi_state_change">Při při připojování k Wi-Fi</string>
+    <string name="auto_start_on_wifi_enable_change">Při zapínánívypínání Wi-Fi</string>
+    <string name="auto_start_on_time_set">Při nastavení času</string>
+    <string name="auto_start_on_bluetooth_state_change">Při změně stavu Bluetooth</string>
+    <string name="auto_start_on_power_connected">Při připojení napájecího kabelu</string>
+    <string name="auto_start_on_power_disconnected">Při odpojení napájecího kabelu</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">Přepínač oznámení</string>
+    <string name="notification_toggle_nocal">Kalkulačka nenalezena!</string>
+    <string name="notification_toggle_open">Z Speed+ přepínač oznámení povolen.</string>
+    <string name="notification_toggle_noflash">Vaše zařízení nemá svítilnu!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">Z Speed+ Podpora %s, přihlásit se nynní?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Chyba při spojení.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">Nepodařilo se stáhnout jazyk.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Paměť</string>
+    <string name="storage_main_act_details">Detaily</string>
+    <string name="storage_main_act_tab_used_space">Využitá paměť</string>
+    <string name="storage_main_act_tab_app_total">%s aplikací</string>
+    <string name="storage_main_act_tab_audio_total">%s hudby</string>
+    <string name="storage_main_act_tab_image_total">%s fotografií</string>
+    <string name="storage_main_act_tab_document_total">%s dokumentů</string>
+    <string name="storage_main_act_tab_other_total">Ostatní</string>
+    <string name="file_category_image_title">Fotografie</string>
+    <string name="file_category_image_delete_dialog_msg_1">soubor(y) budou odstraňeny.</string>
+    <string name="file_category_image_delete_dialog_msg_2">Odstraněné soubor(y) nelze obnovit!</string>
+    <string name="file_category_video_no_content">Bez Videa</string>
+    <string name="file_category_video_delete_msg">Videa budou smazané.</string>
+    
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">%s z celkového počtu videí</string>
+    <string name="video_title_selected">%s zvolených videí</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Hudba</string>
+    <string name="music_group_music">Hudba</string>
+    <string name="music_group_rings">Kruhy</string>
+    <string name="music_group_record">Nahrávka</string>
+    <string name="music_dialog_title">Varování</string>
+    <string name="music_dialog_delete_cancel">Zrušit</string>
+    <string name="music_dialog_delete_delete">Odstranit</string>
+    <string name="music_dialog_delete_notice">soubor(y) budou odstraněny.</string>
+    <string name="music_dialog_delete_notice_below">Odstraněné soubor(y) nelze obnovit!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">Dokumenty</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">OSTATNÍ</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">Odstranit</string>
+    <string name="image_dialog_text1">Tento soubor bude odstraněn.</string>
+    <string name="image_dialog_text2">Jste si jisti?</string>
+    <string name="image_no_selected">Nejsou vybrány žádné soubory.</string>
+    <string name="image_size_notice">%s bylo vyčištěno!</string>
+    <string name="image_delete_layout_text">Odstranit(%s)</string>
+    <string name="image_delete_ok">Ano</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Tyto soubory nemohou být odstraněny.</string>
+    <string name="no_app_to_open_file">Žádné místní aplikace nemohou otevřít tento soubor</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Přetáhněte to sem pro zrychlení vašeho telefonu.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">Zakazuji</string>
+    <string name="disable_apps_done_disable_count">%s Zakázána!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">Z Speed+ je udržuje neaktivní</string>
+    <string name="disable_apps_wait_to_stop_tips">Velmi se snažím je zastavit, čekejte&#8230;</string>
+    <string name="disable_list_no_app_tip">Žádné zakázané aplikace</string>
+    <string name="disable_group_most_disable_title">Nejvíce zakázané</string>
+    <string name="disable_group_recommend_keeping_title">Doporučené k ponechání</string>
+    <string name="disable_group_recommend_keeping_subtitle">Zakázání může způsobit systémové chyby</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Zakázat</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Povolit</string>
+    <string name="disable_app_info_dialog_consuming_tip">Tato aplikace spotřebovává systémovou paměť</string>
+    <string name="disable_app_info_dialog_system_error_tip">Zakázání může způsobit systémové chyby</string>
+    <string name="disable_app_info_dialog_no_statement">Můžete to zkusit zakázat, pokud není potřeba</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Výrobcem předinstalovaná služba</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&#60;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">Instalovat nyní</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Na zdraví!</string>
+    <string name="rate_gp_dialog_feedback_title">Zpětná vazba</string>
+    <string name="rate_gp_dialog_rate_title">Miluji Z Speed+</string>
+    <string name="rate_gp_dialog_one_notice_boost">Za posledních %1$s dní Z Speed+ pro vás zavřel &lt;font color="#85c443"> %2$s &lt;/font>sekajících se aplikací.&lt;br /> &lt;br/> &lt;font color="#85c443">Máte rádi Z Speed+?&lt;/font></string>
+    <string name="rate_gp_dialog_one_no_boost">Ani ne</string>
+    <string name="rate_gp_dialog_one_yes_boost">Ano!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Právě jste úspěšně vyčistili &lt;font color="#85c443"> %s &lt;/font>nevyžádaných souborů! &lt;br /> &lt;br/>Jak se vám líbí Z Speed+?</string>
+    <string name="rate_gp_dialog_one_no_clean">Nic moc</string>
+    <string name="rate_gp_dialog_one_yes_clean">Miluji to!</string>
+    <string name="rate_gp_dialog_two_notice">Nevadilo by vám poslat nám zpětnou vazbu? \nKaždé vaše slovo je pro nás hodnotné.</string>
+    <string name="rate_gp_dialog_two_no">Ne, děkuji</string>
+    <string name="rate_gp_dialog_two_yes">OK, jistě</string>
+    <string name="rate_gp_dialog_three_notice">A co takhle pětihvězdičkové hodnocení?</string>
+    <string name="rate_gp_dialog_three_no">Ne, děkuji</string>
+    <string name="rate_gp_dialog_three_yes">OK, jistě</string>
+    <string name="rate_gp_notification_notice">Doposud jste zavřeli %s sekajících se aplikací. Chcete se podívat?</string>
+
+    <!-- 启动页 -->
+    <string name="privacy_policy">&lt;u>Zásady ochrany soukromí&lt;/u></string>
+    <string name="private_agreement">Souhlasím s&#160;</string>
+    <string name="private_start">START</string>
+    <string name="private_join_uep">Přidejte se k našemu programu zkušeností uživatelů</string>
+    <string name="privacy_start_by_agree_policy">Souhlasím s &lt;u>Ochranou osobních údajů&lt;/u></string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">instalováno, vyčistěte nepotřebné apk pro úsporu</string>
+    <string name="install_listen_installed_multiple_msg">Aplikace nainstalovány, vyčistěte nepotřebná apks pro úsporu</string>
+    <string name="install_listen_delete_apk_tip">Vyčištěno</string>
+    <string name="install_listen_dialog_clean_btn_text">Vyčistit</string>
+    <string name="install_listen_dialog_cancel_btn_text">Zrušit</string>
+    <string name="install_listen_dialog_eye_tip_on">Neptat se 3 dny</string>
+    <string name="install_listen_dialog_eye_tip_off">Ptás se mě dále</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">Zrychlení her</string>
+    <string name="game_boost_add_to_game_title">Přidat hru</string>
+    <string name="game_boost_effect">Zrychlit &lt;font color="#85c443">%s &lt;/font> více běžící RAM pro hry.</string>
+    <string name="game_cell_add">Přidat hru</string>
+    <string name="game_cell_ok">Ok</string>
+    <string name="game_boost_menu_about">Jak to funguje</string>
+    <string name="game_boost_menu_add_shutcut">Vytvořit složku her</string>
+    <string name="game_boost_folder_create_success">Složka her úspěšně vytvořena.</string>
+    <string name="game_boost_box_shortcut_name">Zrychlení hry</string>
+    <string name="game_boost_add_card_view_title_popular">Populární hry</string>
+    <string name="game_boost_add_new_game_to_boost">%s přidáno do Zrychlení her</string>
+    <string name="game_boost_add_new_games_to_boost">%s nových her přidáno do Zrychlení her</string>
+    <!-- 游戏加速介绍 -->
+    <string name="game_boost_about_one">Chytře a automaticky zavře nesouvisející aplikace na pozadí, které ovlivňují herní výkon.</string>
+    <string name="game_boost_about_two">Dynamicky monitoruje váš telefon a čistí nepotřebnou RAM.</string>
+    <string name="game_boost_about_three">Otevře hry ze Složky her Z Speed+ Games při spuštění, zrychlí vaši hru až o 20~65%.</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Zrychluji&#8230;</string>
+    <string name="game_accel_anim_boost_toast_tip">Zrychleno, %s%%.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">CPU Problémy</string>
+    <string name="cpu_fix">OPRAVIT</string>
+    <string name="cpu_check">Zkontrolovat</string>
+    <string name="cpu_issue_type_temp_overheated">Přehřáno!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Rychle roste!</string>
+    <string name="cpu_issue_type_heavily_occupied">CPU silně vytížen!</string>
+    <string name="cpu_temp_issue_app">způsobuje tento problém</string>
+    <string name="cpu_occupied_issue_app">Spotřebovává &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">CPU Chladič</string>
+    <string name="cpu_coll_down_cpu">Schladí CPU</string>
+    <string name="cpu_temperature_issue">Problémy s teplotou</string>
+    <string name="cpu_device_running_slow">Zařízení běží pomalu</string>
+    <string name="cpu_issue_detected">Detekován problém</string>
+    <string name="cpu_cool_down_further">Dále schladit, vyčistit %s běžících aplikací</string>
+    <string name="cpu_temp_well">Teplota CPU je OK</string>
+    <string name="cpu_temp_hot">Trohu horký</string>
+    <string name="cpu_temp_overheated">Přehřátý</string>
+    <string name="cpu_temp_chilling">Zchlazuji</string>
+    <string name="cpu_temp_cooler">CPU Chladič</string>
+    <string name="cpu_occupy">Vytěžuje &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+    <string name="cpu_abnormal">Abnormální vytížení CPU: &lt;font color="#D46565"> %s &lt;/font></string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Právě optimalizováno</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Nechte zařízení chvíli odpočinout pro ochlazení</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Žádné zahřívající aplikace</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Zařízení se ochlazuje</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Zahřívající aplikace vyčištěny</string>
+    <string name="cpu_anim_cooldown_done_dropped">Klesla</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Začínám ochlazování&#8230;</string>
+    <string name="cpu_anim_scan_process_tip_text">Skenuji CPU&#8230;</string>
+    <string name="cpu_anim_lag_done_tip_text">Zrychleno!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">Prosím zkontrolujte připojení k síti a zkuste to znovu</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Zrychlení her</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Složka Zrychlení her úspěšně vytvořena na obrazovce, mrkněte na ni :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Povleno</string>
+    <string name="finish_page_card_game_booster_desc">Otevře hry ze složky zrychlení her, užijte si o 65% rychlejší spuštění hry</string>
+    <string name="finish_page_card_game_booster_desc_single_game">Aktivovat Herní Zrychlení k urychlení &lt;big>%s&lt;/big> až o 65%% ?</string>
+    <string name="finish_page_card_feedback_name">Řeněte Nám Co Si Myslíte</string>
+    <string name="finish_page_card_feedback_desc">Oblíbené funkce návrhy, cokoliv</string>
+    <string name="finish_page_card_feedback_btn">Zpětná vazba</string>
+    <string name="finish_page_card_game_booster_btn">Povolit nyní</string>
+    <string name="finish_page_card_whitelist_name">Seznam povolených zrychlení</string>
+    <string name="finish_page_card_whitelist_desc">Označit aplikace, které musí zůstat běžet</string>
+    <string name="finish_page_card_whitelist_btn">Upravit nyní</string>
+    <string name="finish_page_card_autostart_name">Automatická spuštění nalezena</string>
+    <string name="finish_page_card_autostart_desc">&lt;big>%s&lt;/big> automaticky spuštěné aplikaci pro optializaci</string>
+    <string name="finish_page_card_autostart_btn">Zkontrolovat</string>
+    <string name="finish_page_card_photo_name">Vyčistit fotografie</string>
+    <string name="finish_page_card_photo_desc">Více než &lt;big>%s fotografií&lt;/big> bylo pořízeno, ale stojí všechny za to, aby zabíraly místo?</string>
+    <string name="finish_page_card_photo_btn">Vyčistit</string>
+    <string name="finish_page_card_clean_1_name">Nevyžádané soubory k vyčištění</string>
+    <string name="finish_page_card_clean_1_desc">Zlobivý telefon nedávno vygeneroval &lt;big>%s&lt;/big> nevyžádaných souborů</string>
+    <string name="finish_page_card_clean_1_btn">Vyčistit</string>
+    <string name="finish_page_card_clean_2_name">&lt;big>%s&lt;/big> Nevyžádané soubory nalezeny</string>
+    <string name="finish_page_card_clean_2_desc">Po vyčištění, více než &lt;big>%s&lt;/big> nových fotografií může být pořízeno</string>
+    <string name="finish_page_card_clean_2_btn">Vyčistit nyní</string>
+    <string name="finish_page_card_activate_power_mode_title">%s aplikací &lt;big>se spustilo automaticky&lt;/big></string>
+    <string name="finish_page_card_activate_power_mode_desc">Aktivujte &lt;big>Silný mód&lt;/big> pro vyřešení</string>
+    <string name="finish_page_card_activate_power_mode_btn">Aktivovat</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Zrychlit telefon</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Uvolnit pamět pro zrychlení telefonu</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Zrychlit</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big>%s%% paměti&lt;/big> zbývá</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s běžících aplikací spotřebovává pamět, telefon může být velmi pomalý</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Zrychlit nyní</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Zakázat předinstalované</string>
+    <string name="finish_page_card_disable_desc">%1$s předinstalovaných aplikací, &lt;big>%2$s&lt;/big> může být zakázáno</string>
+    <string name="finish_page_card_disable_btn">Zkontrolovat</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Zkontrolujte, kdo se tajně spouští automaticky</string>
+    <string name="finish_page_no_ad_clean2_tips">Nevyžádané soubory zpomalí telefon</string>
+    <string name="finish_page_no_ad_clean1_tips">Nevyžádané soubory je třeba čistit každý den</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">Hry také potřebují zrychlení!</string>
+    <string name="finish_page_no_ad_disable_tips">Některé předinstalované aplikace jsou opravdu zbytečné</string>
+    <string name="finish_page_no_ad_photo_tips">Spousta místa může být ušetřeno!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">Silný mód dokáže zastavit ty zarputilé!</string>
+    <string name="finish_page_no_ad_whitelist_tips">Neukončujte aplikace, které potřebujete!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">Telefon běží pomalu</string>
+    <string name="finish_page_no_ad_boost_normal_tips">Telefon by mohl být rychlejší</string>
+
+     <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">Přidat hry</string>
+    <string name="game_accel_guide_title">Herní Zrychlení</string>
+    <string name="game_accel_guide_text2">bylo aktivované</string>
+    <string name="game_accel_guide_try_text">Vyzkoušet klepnutím!</string>
+    <string name="game_accel_guide_gamename_1">Vytvořený Zástupce</string>
+    <string name="game_accel_guide_gamename_2">Otevřít na plochu</string>
+    <string name="game_accel_guide_gamename_3">Prohledávání her…</string>
+    <string name="game_accel_guide_discovery_text_above">Channel Z</string>
+    <string name="game_accel_guide_discovery_text_below">také zde</string>
+    <string name="game_accel_sec_anim_title">HRY</string>
+    <string name="game_accel_shortcut_created">Vytvořeno</string>
+    <string name="game_accel_tip_dialog_content_text"  formatted="false" >Chtěli byste aktivovat herní zrychlení, které Vám pomůže zrychlit \"%\" až o 40%?</string>
+    <string name="game_accel_tip_dialog_content_text_new">Aktivujte Herní Zrychlení pro zvýšení &lt;font color="#85c443">\"%\"&lt;/font> až o 65%%?</string>
+    <string name="game_accel_sort_name">Jméno</string>
+    <string name="game_accel_sort_Date">Datum</string>
+    <string name="game_accel_sort_Frequency">Frekvence</string>
+    <string name="game_accel_game_box_title">Spravovat hry</string>
+    <string name="game_accel_add_shortcut">Přidat zástupce</string>
+    
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">OBJEVIT</string>
+    <string name="game_distribute_connection_failed">Připojení se nezdařil</string>
+    <string name="game_distribute_net_data_alert">Hra s WIFI může snižovat využitá data</string>
+    <string name="game_distribute_warning_title">Z Speed+ TV</string>
+    <string name="game_distribute_warning_content"> Pohyblivý obraz, obsažený ve videu, je neuvěřitelný.\nVidea jsou zobrazeny nejen pro domácí použití, ale i pro ostatní\n nároky. Jakékoliv poklepání nebo sledování těchto filmů jsou\n u Z Speed+ vítané. Upřímně Vám doporučujeme \n hraní her po přiměřenou dobu.</string>
+    <string name="game_distribute_video_title">Kanál</string>
+    <string name="game_distribute_game_searching">Vyhledávání Her...</string>
+    
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534">Nej Aplikace &lt;/font></string>
+    <string name="cpu_thieves_title">Top 3 &lt;font color="#6ac534">Dnešních CPU zlodějů &lt;/font></string>
+    <string name="num_times">%s z této doby</string>
+    
+     <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Volná pamět extrémně nízká!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+    <string name="home_guide_card_boost_button">Zvýšit nyní</string>
+
+    <string name="home_guide_card_photo_desc1">Fogografování je snadné</string>
+    <string name="home_guide_card_photo_desc2">jejich vymazání nikoliv</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+    <string name="home_guide_card_photo_button">Vyčistit Nyní</string>
+
+    <string name="home_guide_card_cpu_desc">Přehřátý CPU vyprázdňuje baterii</string>
+    <string name="home_guide_card_cpu_button">Ochladit</string>
+
+    <string name="home_guide_card_disbale_desc">Vypořádat se s předinstalací!</string>
+    <string name="home_guide_card_disbale_desc2">Váš telefon by mohl být rychlejší!</string>
+    <string name="home_guide_card_disbale_desc_big">%s Aplikací</string>
+    <string name="home_guide_card_disbale_button">Zakázat nyní</string>
+    
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Navýšení Režimu Napájení</string>
+    <string name="enable_super_boost_mode_normal">Běžné navýšení</string>
+    <string name="enable_super_boost_desc_super">&lt;b>Posílení:&lt;/b> Běžných Aplikací, &lt;mark>&lt;font color="red">Automaticky Spuštěné Aplikace&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">Nabízí posílení výkonu o 60% pro použité telefony.&lt;/font>&lt;/b>&lt;br>
+        (Zapněte prosím přístup pro Z Speed+ v dalším kroku)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b>Posílení:&lt;/b> Běžných Aplikací, &lt;mark>&lt;font color="red">Automaticky Spuštěné Aplikace&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">Nabízí posílení výkonu o 60% pro použité telefony.&lt;/font>&lt;/b>&lt;br>
+        (Zapněte prosím opět přístup pro Z Speed+ v dalším kroku)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b>Posílení:&lt;/b> Běžných Aplikací&lt;br>
+      Automaticky spuštěné aplikace by neměly mimo řežim nápájení posílené.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">Posílit nyní můj teleon!</string>
+
+
+    <string name="enable_super_disable_mode_super">Odbojení Dávky</string>
+    <string name="enable_super_disable_mode_normal">Manuální Odpojení</string>
+    <string name="enable_super_disable_desc_super">&lt;mark>&lt;font color="red">&lt;b>Funkce:&lt;/b> Odpojení dávky nepotřebných aplikací pouhým 1 kliknutím.&lt;/font> &lt;/mark>&lt;br>
+        (Zapněte prosím přístup pro Z Speed+ v dalším kroku)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark>&lt;font color="red">&lt;b>Funkce:&lt;/b> Odpojení dávky nepotřebných aplikací pouhým 1 kliknutím.&lt;/font> &lt;/mark>&lt;br>
+        (Zapněte prosím opět přístup pro Z Speed+ a Váš telefon bude restartovaný)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b>Funkce:&lt;/b> Odpojení nepotřebných funkcí jedním prstem. &lt;br>
+                    &lt;mark>&lt;font color="red">Funkce odpojení dávky pro jednoduchou kontrolu je velmi doporučené.&lt;/font> &lt;/mark>
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Zapojení Funkce Odpojení Dávek</string>
+    
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Nastavení Oznámení Přepnutí</string>
+    <string name="notification_toggle_settings_label_themes">Témata</string>
+    <string name="notification_toggle_settings_label_toggles">Přepnout</string>
+    <string name="notification_toggle_settings_label_zspeed">KLASICKÉ</string>
+    <string name="notification_toggle_settings_label_popular">POPULÁRNÍ</string>
+    <string name="notification_toggle_theme_name_green">Demeter</string>
+    <string name="notification_toggle_theme_name_pink">Athena</string>
+    <string name="notification_toggle_theme_name_black">Erebus</string>
+    <string name="notification_toggle_theme_name_silver">Uranus</string>
+    <string name="notification_toggle_theme_name_golden">Kronos</string>
+    <string name="notification_toggle_toggle_name_app">Domů</string>
+    <string name="notification_toggle_toggle_name_boost">Posílení</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">Baterka</string>
+    <string name="notification_toggle_toggle_name_brightness">Jas</string>
+    <string name="notification_toggle_toggle_name_Témata">Témata</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">Data</string>
+    <string name="notification_toggle_toggle_name_camera">Kamera</string>
+    <string name="notification_toggle_toggle_name_calculator">Kalkulačka</string>
+    <string name="notification_toggle_toggle_name_rotate">Otočit</string>
+    <string name="notification_toggle_toggle_name_sound">Zvuk</string>
+    <string name="notification_toggle_bright_auto">AUTO</string>
+    <string name="notification_toggle_notification_ticker">Panel nástrojů Z Speed+ pouze na pozadí</string>
+    <string name="notification_toggle_notification_ticker_initializing">Panel nástrojů je inicalizovaný&#8230;</string>
+    
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Psaní obsahu pro vyhledávání</string>
+    <string name="hot_word_search_next_batch">Více</string>
+    
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Zdvojené fotky</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s  vyčistěných fotek!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Všechny zdvojené fotky vymazané!</string>
+    <string name="duplicate_photos_delete_alert_title">Trvalé vymazání</string>
+    <string name="duplicate_photos_delete_alert_desc">Jste si jistí, že chcete mazat natrvalo?</string>
+    <string name="duplicate_photos_leave_alert_title">Opravdu chcete odejít?</string>
+    <string name="duplicate_photos_leave_alert_desc">Zvolili jste %s obrázků k vymazání.&lt;br>Opravdu chcete odejít?</string>
+    <string name="duplicate_photos_leave_alert_leave_btn">odejít</string>
+    <string name="duplicate_photos_scan_alert">Skenování může chvíli trvat, vyčkejte prosím</string>
+    <string name="duplicate_photos_no_content">Gratulujeme! Žádné zdvojené fotky!</string>
+    <string name="duplicate_photos_suffix_selected">%s zvolených</string>
+    <string name="duplicate_photos_suffix_total">%s ze všech fotek</string>
+    
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">Nejlepší Hry Týdne</string>
+    <string name="game_ad_notification_label_weekly_best_app">Nejlepší Hry Týdne</string>
+    
+     <!-- app lock -->
+    <string name="activity_applock_title">APLIKACE ZÁMKU</string>
+    <string name="app_lock_perm_settings_title">Nastavení</string>
+    <string name="app_lock_perm_settings_message">Povolení</string>
+    <string name="app_lock_notice_enable_usage_stats">Na systému Android 5.0 nebo vyšším musíte povolit přístup pro použití AppLock, abyste funkce AppLock mohli použít.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_notice_enable_usage_stats1">Pokud je instalace neúspěšná, povolte ji pomocí Nastavení systému > bezpečnost > Aplikace s přístupem</string>
+    <string name="app_lock_enable_usage_stats">Povolení</string>
+    <string name="install_app_mointor_locker">Nutnost uzamčení</string>
+    <string name="locker_header_forget_pwd">Zapoměl jsem heslo</string>
+    <string name="locker_header_replce_number_locker">Přepnout na přístupový kód</string>
+    <string name="locker_header_replce_graphic_locker">Přepnout na strukturu zámku</string>
+    <string name="initializationpassword_frist_prompt">nastavit přístupový kód</string>
+    <string name="initializationpassword_second_prompt">Pro potvrzení opět zadejte přístupový kód</string>
+    <string name="initializationpassword_pwd_not_equals">Přístupové kódy nesouhlasí, zadejte je znovu</string>
+    <string name="init_email_prompt">Odelslat E-mail pro zapomenuté heslo</string>
+    <string name="init_email_prompt1">Zadejte prosím správný email</string>
+    <string name="init_mail_btn_text">Další</string>
+    <string name="forget_reset_pwd_success">Přístupový kód úspěšně obnovený</string>
+    <string name="activity_applock_group_apps">APLIKACE</string>
+    <string name="activity_applock_menu_update">upgradovat na Pro</string>
+     <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">Nastavení AppLock</string>
+    <string name="app_lock_setting_parent_unlock_mode">Mód Odemčení</string>
+    <string name="app_lock_setting_passcode">Přístupový kód</string>
+    <string name="app_lock_setting_others">Ostatní</string>
+    <string name="app_lock_setting_unlock_mode_numbers">Čísla</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Formát</string>
+    <string name="app_lock_setting_passcode_change_passcode">Změnit Přístupový Kód</string>
+    <string name="app_lock_setting_passcode_email_setting">Nastavení E-mailu</string>
+    <string name="app_lock_setting_others_brief_eixt">Potvrdit rychlý konec</string>
+    <string name="app_lock_setting_others_relock">Zamčení obrazovky po</string>
+    <string name="app_lock_setting_brief_eixt_seconds">sekundách</string>
+    <string name="app_lock_setting_brief_eixt_minutes">minutách</string>
+    <string name="app_lock_setting_pro">Pro</string>
+    <string name="app_lock_setting_pro_update">aktualizovat hlavní zámek</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">Zapomenutý přístupový kód</string>
+    <string name="forget_email_prompt1">1)Na Váš e-mail zašleme potvrzovací kód.</string>
+    <string name="forget_email_prompt2">2)Zadejte potvrzovací kód a získejte Váš přístupový kód.</string>
+    <string name="forget_email_btn_prompt">Odeslat</string>
+    <string name="forget_email_btn_prompt2">Resetování přístupového hesla</string>
+    <string name="forget_email_edit_prompt">Potvrzovací Kód</string>
+    <string name="forget_check_code_not_right">Nesprávný</string>
+    <string name="forget_check_code_out_of_time">Potvrzovací kód vypršel, požádejte znovu.</string>
+    <string name="forget_send_email_error">Odeslání emailu se nezdařilo, zkuste to znovu.</string>
+    <string name="forget_send_email_success">Email úspěšně odeslaný, zkontrolujte Vaši schránku.</string>
+    <string name="set_graphic_password_message_draw">Nakreslete vzor pro odemčení</string>
+    <string name="set_graphic_password_message_too_short">Propojte alespoň 4 tečky. Zkuste to znovu:</string>
+    <string name="set_graphic_password_message_stored">Vzor nahraný.</string>
+    <string name="set_graphic_password_message_redraw">Pro potvrzení opět nakreslete vzor:</string>
+    <string name="set_graphic_password_btn_redraw">Opakovat</string>
+    <string name="set_graphic_password_message">Nastavení Přístupového Kódu</string>
+    <string name="set_graphic_password_message_wrong">Chyba, zkuste to znovu:</string>
+    <string name="applock_recommend_dialog_title">Doporučené aplikace</string>
+    <string name="applock_recommend_dialog_lockall">Zamknout vše</string>
+    <string name="applock_recommend_dialog_ok">OK</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">Zablokování Pro zdarma k Použití!</string>
+    <string name="lokcer_init_instruction_first">Nastavení hesla k uzamčení Vašich soukromích aplikací</string>
+    <string name="lokcer_init_instruction_second">Potvrďte znovu Vaše heslo</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">App Lock</string>
+    <string name="finish_page_card_app_locker_desc">Držte &lt;big>%s&lt;/big> díky funkci App lock daleko všechny čmuchaly!</string>
+    <string name="finish_page_card_app_locker_btn">Ochránit Nyní</string>
+    <string name="finish_page_no_ad_app_lock_tips">Telefon by mohl být rychlejší</string>
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff">%1$s&lt;/font></string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff">%1$s&lt;/font></string>
+    
+</resources>

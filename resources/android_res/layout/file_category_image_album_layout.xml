@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/file_category_image_activity_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        layout="@layout/common_base_right_title_layout"/>
+
+    <FrameLayout
+        android:id="@+id/file_category_duplicate_photos_entrance_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/duplicate_photos_entrance_gray_bg_selector" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/duplicate_photos_icon_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@null"
+                android:src="@drawable/duplicate_photos_small_icon" />
+
+            <TextView
+                android:id="@+id/duplicate_photos_title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="18dp"
+                android:fontFamily="@string/font_families_roboto"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/storage_main_act_details"
+                android:textColor="#FF777777"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <ImageView
+                android:id="@+id/duplicate_photos_next_icon_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@null"
+                android:src="@drawable/common_icon_next" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <GridView
+        android:id="@+id/file_category_image_album_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF3F3F3"
+        android:horizontalSpacing="2dp"
+        android:listSelector="#00FFFFFF"
+        android:numColumns="2"
+        android:verticalSpacing="2dp" />
+
+</LinearLayout>

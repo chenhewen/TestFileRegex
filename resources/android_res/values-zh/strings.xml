@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GO Speed</string>
+
+    <!-- ==========字体模块========== -->
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_families_roboto_thin">sans-serif-thin</string>
+    <string name="font_families_roboto_light">sans-serif-light</string>
+    <string name="font_families_roboto_condensed">sans-serif-condensed</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_ok">確定</string>
+    <string name="common_select">選擇</string>
+    <string name="common_delete">删除</string>
+    <string name="common_others">其它</string>
+    <string name="common_uninstall">卸載</string>
+    <string name="common_back_up">備份</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_install">安装</string>
+    <string name="common_installed">已安装</string>
+    <string name="common_vertion">版本</string>
+    <string name="common_update">升級</string>
+    <string name="common_insufficient_storate">存儲空間不足</string>
+    <string name="common_no_sdcard">SDCard Not Found</string>
+    <string name="common_warning">警告</string>
+    <string name="common_no_content">無內容</string>
+    <string name="common_comma">，</string>
+    <string name="common_slogan">讓妳的手機煥然壹新</string>
+
+    <!-- 一周 -->
+    <string name="sunday">周日</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+
+    <!-- 月份 -->
+    <string name="jan">1月</string>
+    <string name="feb">2月</string>
+    <string name="mar">3月</string>
+    <string name="apr">4月</string>
+    <string name="may">5月</string>
+    <string name="june">6月</string>
+    <string name="july">7月</string>
+    <string name="aug">8月</string>
+    <string name="sept">9月</string>
+    <string name="oct">10月</string>
+    <string name="nov">11月</string>
+    <string name="dec">12月</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="main_ram_title">內存</string>
+    <string name="main_storage_title">存儲空間</string>
+    <string name="main_button_boost">內存加速</string>
+    <string name="main_button_storage">垃圾文件</string>
+    <string name="main_button_manage">程式管理</string>
+    <string name="tip_press_again_to_exit">再按一次退出</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">設置</string>
+    <string name="menu_update">升級</string>
+    <string name="menu_feedback">反饋</string>
+    <string name="menu_about">關於</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">內存加速</string>
+    <string name="boost_main_act_tab_running">正在運行</string>
+    <string name="boost_main_act_tab_autostart">開機自啟</string>
+    <string name="boost_running_apps_custom">%1$d 個程式已選中</string>
+    <string name="boosting_tips">正在加速</string>
+    <string name="boosting_power_tips">強力加速中</string>
+    <string name="boosted_to_optimus_tips">已加速到最佳狀態！</string>
+    <string name="boosted_active_power_mode_tips">檢測到%1$d 個進程又復活了。 使用強力模式徹底解決它們!</string>
+    <string name="enable_super_boost_enable">立即開啟</string>
+    <string name="enable_super_boost_title">開啟強力模式</string>
+    <string name="enable_super_boost_main_text">為了更有效地加速手機，建議您開啟輔助功能選項：</string>
+    <string name="enable_super_boost_content_text1" formatted="false">更徹底地結束或停用進程,媲美已root效果。</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">點擊“服務”中的“GO Speed”</string>
+    <string name="boost_groups_list_title_running_app">正在運行的程式</string>
+    <string name="boost_groups_list_title_cpu_temperature">CPU溫度</string>
+    <string name="boost_groups_list_title_lag_detected">查到內存占用過多</string>
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">點擊右上角的開關激活GO Speed的強力模式，以達到最大的加速效果！ \n\nGO Speed使用輔助功能特性來幫您停止無用進程。請勿擔心接下來彈出的隱私風險提醒，我們承諾不會收集您的任何信息。</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">項</string>
+    <string name="autostart_type_optimization">待處理</string>
+    <string name="autostart_type_allowed">允許自啟</string>
+    <string name="autostart_type_blocked">禁止自啟</string>
+    <string name="autostart_type_system">系統預裝</string>
+    <string name="autostart_type_system_description">禁止系統預裝軟件的自啟動可能會導致系統不穩定，請謹慎操作！</string>
+    <string name="autostart_preinstll_system">系統預裝</string>
+    <string name="autostart_on_boot_up">開機自啓</string>
+    <string name="autostart_on_background">後臺自啓</string>
+    <string name="autostart_on_boot_up_and_background">開機自啓/後臺自啓</string>
+    <string name="autostart_detail_title">在以下%1$d種情況會自啓動:</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="add_to_ignore_list_act_title">添加至忽略列表</string>
+    <string name="dialog_memory_footprint">內存使用</string>
+    <string name="dialog_add_to_ignorelist">添加至忽略列表</string>
+    <string name="dialog_remove_from_ignorelist">移出忽略列表</string>
+    <string name="tip_ignore_list_appunchecked">清理內存時默認不勾選以下程式</string>
+    <string name="tip_ignore_list_appadd">點擊+號添加需要忽略的程式</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">程式管理</string>
+    <string name="app_manager_back_up_success_tips">个应用已备份至：</string>
+    <string name="app_manager_back_up_success_tips_for_one">個程式已備份至：</string>
+    <string name="app_manager_back_up_fail_tips_for_one">個程式備份失敗</string>
+    <string name="app_manager_backing_up">正在備份</string>
+    <string name="app_manager_running">正在運行</string>
+    <string name="app_manager_path">路徑</string>
+    <string name="app_manager_no_backup_found">​​未找到備份文件</string>
+    <string name="app_manager_tap_to_disable">點擊停用/關閉</string>
+    <string name="app_manager_tap_to_enable">點擊啟用/啟動</string>
+    <string name="app_manager_select_app_first">請先選擇程式</string>
+    <string name="app_manager_shit">確定</string>
+    <string name="app_manager_freed">已釋放</string>
+    <string name="app_manager_use_rare_month">一個月內未使用</string>
+    <string name="app_manager_use_rare_days">%s天未使用</string>
+    <string name="app_manager_use_commonly">最近使用</string>
+    <string name="app_manager_android_system">Android系統</string>
+    <string name="app_manager_use_rare">未使用</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">用戶軟件</string>
+    <string name="app_manager_tab_system">預裝軟件</string>
+    <string name="app_manager_tab_text_date">日期</string>
+    <string name="app_manager_tab_text_frequance">頻率</string>
+    <string name="app_manager_tab_text_size">大小</string>
+    <string name="app_manager_tab_text_battery">電量</string>
+    <string name="app_manager_dialog_cancel">取消</string>
+    <string name="app_manager_dialog_backup">備份</string>
+    <string name="app_manager_dialog_uninstall">卸載</string>
+    <string name="app_manager_no_uerapp">沒有程式</string>
+    <string name="app_manager_preinstall_disbale_list">已停用程式</string>
+    <string name="app_manager_preinstall_disbale_title">恢復禁用</string>
+    <string name="app_manager_preinstall_disbale_subtitle">再次恢復禁用應用，可修復禁用帶來的系統錯誤</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">已停用</string>
+    <string name="app_manager_preinstall_reommend_disable">% 用戶已停用</string>
+    <string name="app_manager_preinstall_reommend_keep">建議保留</string>
+    <string name="app_manager_preinstall_reommend_none">保持現狀</string>
+    <string name="app_manager_preinstall_tip">停用不常用的預裝程式能減少系統消耗</string>
+    <string name="app_manager_preinstall_disable_toast">已停用</string>
+    <string name="app_manager_preinstall_enable_toast">已啟用</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">批量禁用</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">註意</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[停用此程式可能會<font color="#fe6969">影響手機正常功能</font>。]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">確定選中？</string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">垃圾文件</string>
+    <string name="clean_main_suggest">建議清理</string>
+    <string name="clean_main_selected">已選擇</string>
+    <string name="clean_dialog_title">注意</string>
+    <string name="clean_dialog_message1">您選擇的項目中包含以下文件</string>
+    <string name="clean_dialog_btn_all">全選</string>
+    <string name="clean_dialog_btn_next">再確認一下</string>
+    <string name="gallery_thumbnails">縮略圖緩存</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">清理後載入相冊和視頻中內容的縮略圖時會緩慢。</string>
+    <string name="clean_group_residue">殘留文件</string>
+    <string name="clean_group_cache">緩存文件</string>
+    <string name="clean_group_temp">臨時文件</string>
+    <string name="clean_group_apk">安装包</string>
+    <string name="clean_group_big_file">大文件</string>
+    <string name="clean_group_memory">内存垃圾</string>
+    <string name="clean_done_tips">已清理</string>
+    <string name="clean_dialog_app_cache_yes_btn">手動清理</string>
+    <string name="clean_dialog_folder_yes_btn">瀏覽</string>
+    <string name="clean_dialog_file_yes_btn">打開</string>
+    <string name="clean_dialog_media_yes_btn">播放</string>
+    <string name="clean_dialog_message_size">大小</string>
+    <string name="clean_dialog_message_contain">包含</string>
+    <string name="clean_dialog_message_path">路徑</string>
+    <string name="clean_dialog_message_file">個文件</string>
+    <string name="clean_dialog_message_folder">個文件夾</string>
+    <string name="clean_done_none_tips">很乾淨了</string>
+    <string name="clean_file_browser_no_files">空文件夾</string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">清理</string>
+    <string name="uninstall_dialog_message_1">檢測到&lt;b>%1$s&lt;/b> 的&lt;font color="#85c443">%2$s&lt;/font>殘留文件</string>
+    <string name="uninstall_dialog_message_2">包含有: </string>
+    <string name="uninstall_clean_tips">殘留文件已釋放!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">設置</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">反饋</string>
+    <string name="container_hint_setting_feedback">請盡可能詳細地描述，感謝您的反饋。</string>
+    <string name="notice_setting_feedback">為了更好地定位問題，機型與系統信息將會一起發送。未經允許，不會收集您的個人信息。</string>
+    <string name="no_contain_setting_feedback">不想說點什麼嗎？</string>
+    <string name="sendok_setting_feedback">感謝您的反饋</string>
+    <string name="checknet_setting_feedback">請檢查網絡連接</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting"><u>在Facebook上關注我們</u></string>
+    <string name="googleplus_about_setting"><u>加入我們的Google+社區</u></string>
+    <string name="googleplay_about_setting"><u>評分點贊</u></string>
+    <string name="title_about_setting">關於</string>
+    <string name="share_title_setting_about">分享GO Speed</string>
+    <string name="share_setting_about">GO Speed輕鬆地幫我加速清理了手機，快來試試！下載地址：http://goo.gl/q10oHl</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_cn.htm</string>
+    <string name="menu_general_setting">通用</string>
+    <string name="menu_general_setting_language">語言</string>
+    <string name="gp_not_connect">無法打開連接</string>
+    <string name="menu_junk_setting">垃圾清理</string>
+    <string name="menu_junk_setting_scan_memory">掃描内存垃圾</string>
+    <string name="menu_join_uep_plan">&lt;u>用戶體驗計劃&lt;/u></string>
+    <string name="menu_smart_boost">智慧加速</string>
+    <string name="smart_boost_screen_lock">鎖屏後只能加速</string>
+    <string name="smart_boost_show_result">智慧加速後顯示結果</string>
+
+    <!-- ========= 菜单settings ========== -->
+    <string name="title_float_widget">悬浮窗</string>
+    <string name="title_notice">通知提醒</string>
+    <string name="enable_widget_setting_setting">使用悬浮窗</string>
+    <string name="hide_widget_setting_setting">隐藏至状态栏时间</string>
+    <string name="show_widget_setting_setting">仅在桌面上显示</string>
+    <string name="memory_setting_setting">内存空间不足</string>
+    <string name="storge_setting_setting">存储空间不足</string>
+    <string name="junk_setting_setting">卸载残留清理</string>
+    <string name="autostart_setting_setting">新的自启动请求</string>
+    <string name="ignore_setting_setting">忽略列表</string>
+    <string name="memery_boost_setting_setting">进程忽略列表</string>
+    <string name="menu_general_setting_shortcut">創建快捷方式</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">確定要關閉懸浮窗嗎？</string>
+    <string name="float_hide_float_message">你可以將這個功能隱藏到狀態欄的時間上，想試一下嗎？</string>
+    <string name="float_dialog_ok">確定</string>
+    <string name="float_dialog_cancel">取消</string>
+    <string name="float_dialog_hide_ok">體驗一下</string>
+    <string name="float_dialog_hide_cancel">繼續關閉</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">未獲取到Root權限，操作失敗！</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram_black">&lt;font color="#1d1d1d">可用內存 &lt;/font>&lt;font color="#fe6969">&lt;b>低於 %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_white">&lt;font color="#ffffff">可用內存 &lt;/font>&lt;font color="#fe6969">&lt;b>低於 %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_boost">加速</string>
+    <string name="notification_release_more"><![CDATA[%s MB 已釋放. <font color="#85c443">釋放更多!</font>]]></string>
+    <string name="notification_release_more_banner">已釋放. 釋放更多!</string>
+    <string name="notification_release_sleep">在休眠下為你釋放%s MB內存</string>
+    <string name="notification_boost_phone_optimum"><![CDATA[手機已處在最佳狀態. <font color="#85c443">體驗更多!</font>]]></string>
+    <string name="notification_sdcard2_line2">无法保证手机正常使用</string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d">設備 &lt;/font>&lt;font color="#fe6969">&lt;b>運行緩慢&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff">設備 &lt;/font>&lt;font color="#fe6969">&lt;b>運行緩慢&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block2">有程式正瘋狂佔用CPU</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d">CPU &lt;/font>&lt;font color="#fe6969">&lt;b>嚴重過熱&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff">CPU &lt;/font>&lt;font color="#fe6969">&lt;b>嚴重過熱&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat2">有程式正瘋狂佔用CPU</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d">CPU溫度正 &lt;/font>&lt;font color="#fe6969">&lt;b>急速升高&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff">CPU溫度正 &lt;/font>&lt;font color="#fe6969">&lt;b>急速升高&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp2">有程式正異常佔用CPU</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">打開為</string>
+    <string name="filetype_text">文本</string>
+    <string name="filetype_video">視頻</string>
+    <string name="filetype_audio">音頻</string>
+    <string name="filetype_image">圖片</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">一鍵加速</string>
+    <string name="shortcut">創建快捷方式</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">新版本</string>
+    <string name="update_update">更新</string>
+    <string name="update_later">稍後</string>
+    <string name="update_cancel">取消</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">開機後</string>
+    <string name="auto_start_on_connectivity_change">任何網絡連接時</string>
+    <string name="auto_start_on_package_changed">程式狀態改變時</string>
+    <string name="auto_start_on_package_added">新裝程式時</string>
+    <string name="auto_start_on_package_removed">卸載程式時</string>
+    <string name="auto_start_on_package_replaced">替換程式時</string>
+    <string name="auto_start_on_any_data_state">移動網絡開啟或關閉時</string>
+    <string name="auto_start_on_outgoing_call">撥打電話時</string>
+    <string name="auto_start_on_phone_state_changed">掛斷電話時</string>
+    <string name="auto_start_on_user_present">手機解鎖時</string>
+    <string name="auto_start_on_wifi_state_change">Wifi連接成功時</string>
+    <string name="auto_start_on_wifi_enable_change">Wifi開啟或關閉時</string>
+    <string name="auto_start_on_time_set">設置時間時</string>
+    <string name="auto_start_on_bluetooth_state_change">更改藍牙狀態時</string>
+    <string name="auto_start_on_power_connected">連接電源時</string>
+    <string name="auto_start_on_power_disconnected">斷開電源時</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">快捷通知欄</string>
+    <string name="notification_toggle_nocal">計算器未找到!</string>
+    <string name="notification_toggle_open">GO Speed快捷通知欄已打開</string>
+    <string name="notification_toggle_noflash">妳的設備不支持閃光燈</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">GO Speed支持%s, 你是否願意切換該語言顯示?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">網路鏈接錯誤</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">下載語言失敗</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">空間分析</string>
+    <string name="storage_main_act_details">詳情</string>
+    <string name="storage_main_act_tab_used_space">占用空間</string>
+    <string name="storage_main_act_tab_app_total">%s個程式程序</string>
+    <string name="storage_main_act_tab_audio_total">%s個音樂文件</string>
+    <string name="storage_main_act_tab_image_total">%s個圖片文件</string>
+    <string name="storage_main_act_tab_document_total">%s個文檔文件</string>
+    <string name="storage_main_act_tab_other_total">%s個其他文件</string>
+    <string name="file_category_image_title">圖片</string>
+    <string name="file_category_image_delete_dialog_msg_1">張圖片被選中刪除。</string>
+    <string name="file_category_image_delete_dialog_msg_2">刪除操作不可恢複。</string>
+    <string name="file_category_video_no_content">沒有視頻</string>
+    <string name="file_category_video_delete_msg">視頻將會被刪除</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">音樂</string>
+    <string name="music_group_music">音樂</string>
+    <string name="music_group_rings">鈴聲</string>
+    <string name="music_group_record">錄音</string>
+    <string name="music_dialog_title">警告</string>
+    <string name="music_dialog_delete_cancel">取消</string>
+    <string name="music_dialog_delete_delete">删除</string>
+    <string name="music_dialog_delete_notice">個文件正要被刪除！</string>
+    <string name="music_dialog_delete_notice_below">刪除操作不可恢復！</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">文檔</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">其他</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">注意</string>
+    <string name="image_dialog_text1">照片將會被刪除</string>
+    <string name="image_dialog_text2">是否继续？</string>
+    <string name="image_no_selected">請選中需要刪除的文件</string>
+    <string name="image_size_notice">已釋放%s的存儲空間!</string>
+    <string name="image_delete_layout_text">刪除(%s)</string>
+    <string name="image_delete_ok">確認</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">選中的文件無法被刪除.</string>
+    <string name="no_app_to_open_file">暫無支持打開該類文件的程式程序.</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">拖拽到這裏來釋放加速</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">正在停用</string>
+    <string name="disable_apps_done_disable_count">已停用%s個程式！</string>
+    <string name="disable_apps_done_speed_up">速度提升%s！</string>
+    <string name="disable_apps_done_description">GO Speed讓它們保持凍結</string>
+    <string name="disable_apps_wait_to_stop_tips">正在努力停止，請稍等&#8230;</string>
+    <string name="disable_list_no_app_tip">無已停用程式</string>
+    <string name="disable_group_most_disable_title">禁用最多</string>
+    <string name="disable_group_recommend_keeping_title">推薦保留</string>
+    <string name="disable_group_recommend_keeping_subtitle">禁用極有可能引起系統錯誤</string>
+    <string name="disable_app_info_dialog_disable_btn_text">禁用</string>
+    <string name="disable_app_info_dialog_enable_btn_text">啟用</string>
+    <string name="disable_app_info_dialog_consuming_tip">該程式正在佔用系統內存</string>
+    <string name="disable_app_info_dialog_system_error_tip">禁用極有可能引起系統錯誤</string>
+    <string name="disable_app_info_dialog_no_statement">若不需要此程式，可以嘗試禁用</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">廠商預裝服務</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">太棒了!</string>
+    <string name="rate_gp_dialog_feedback_title">反饋</string>
+    <string name="rate_gp_dialog_rate_title">Love GO Speed</string>
+    <string name="rate_gp_dialog_one_notice_boost">在過去 %1$s 天, GO Speed已為您終止了 &lt;font color="#85c443"> %2$s &lt;/font>卡頓程式.&lt;br /> &lt;br/> &lt;font color="#85c443">您GO Speed用的還開心麽?&lt;/font></string>
+    <string name="rate_gp_dialog_one_no_boost">不</string>
+    <string name="rate_gp_dialog_one_yes_boost">開心!</string>
+    <string name="rate_gp_dialog_one_notice_clean">您剛成功清除了 &lt;font color="#85c443">%s &lt;/font>垃圾! &lt;br/> &lt;br/>您覺得GO Speed如何?</string>
+    <string name="rate_gp_dialog_one_no_clean">很難用</string>
+    <string name="rate_gp_dialog_one_yes_clean">挺棒的!</string>
+    <string name="rate_gp_dialog_two_notice">介意告訴我們您的意見麽? \n您打的每個字對我們都很重要.</string>
+    <string name="rate_gp_dialog_two_no">不用</string>
+    <string name="rate_gp_dialog_two_yes">好的</string>
+    <string name="rate_gp_dialog_three_notice">那，給我們評個分?</string>
+    <string name="rate_gp_dialog_three_no">不用</string>
+    <string name="rate_gp_dialog_three_yes">當然可以！</string>
+    <string name="rate_gp_notification_notice">目前為止妳總共終止了 %s 個卡頓程式. 來看看?</string>
+
+    <!-- 启动页 -->
+    <string name="private_start">進入</string>
+    <string name="private_join_uep">&lt;u>用戶體驗計劃&lt;/u></string>
+    <string name="privacy_start_by_agree_policy">進入程序意味著妳同意&lt;u>隱私政策&lt;/u></string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">正在加速...</string>
+    <string name="game_accel_anim_boost_toast_tip">已加速%s%%</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">遊戲加速</string>
+    <string name="game_boost_add_to_game_title">添加遊戲</string>
+    <string name="game_boost_effect">加速成功可以提升&lt;font color="#85c443"> %s &lt;/font>可用內存</string>
+    <string name="game_cell_add">添加游戏</string>
+    <string name="game_cell_ok">完成</string>
+    <string name="game_boost_menu_about">遊戲加速介紹</string>
+    <string name="game_boost_menu_add_shutcut">創建加速文件夾</string>
+    <string name="game_boost_folder_create_success">遊戲文件夾創建成功</string>
+    <string name="game_boost_box_shortcut_name">遊戲加速</string>
+    <string name="game_boost_box_shortcut_name_new">我的遊戲</string>
+    <string name="game_boost_add_card_view_title_popular">熱門遊戲</string>
+    <string name="game_boost_add_new_game_to_boost">已將%s添加到遊戲加速</string>
+    <string name="game_boost_add_new_games_to_boost">%s個遊戲已添加到遊戲加速</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">CPU問題</string>
+    <string name="cpu_fix">處理</string>
+    <string name="cpu_check">查看</string>
+    <string name="cpu_issue_type_temp_overheated">CPU過熱！</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">正快速升高!</string>
+    <string name="cpu_issue_type_heavily_occupied">CPU被嚴重佔用</string>
+    <string name="cpu_temp_issue_app">佔用CPU異常</string>
+    <string name="cpu_occupied_issue_app">佔用&lt;font color="#D46565"> %s &lt;/font> CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">CPU降溫</string>
+    <string name="cpu_coll_down_cpu">CPU降溫</string>
+    <string name="cpu_temperature_issue">溫度問題</string>
+    <string name="cpu_device_running_slow">設備運行緩慢</string>
+    <string name="cpu_issue_detected">查到問題</string>
+    <string name="cpu_cool_down_further">繼續降溫, 清理%s個後台程序</string>
+    <string name="cpu_temp_well">CPU溫度正常</string>
+    <string name="cpu_temp_hot">溫度偏高</string>
+    <string name="cpu_temp_overheated">溫度過高</string>
+    <string name="cpu_temp_chilling">溫度下降中</string>
+    <string name="cpu_temp_cooler">CPU降溫中</string>
+    <string name="cpu_occupy">佔用&lt;font color="#D46565"> %s &lt;/font> CPU</string>
+    <string name="cpu_abnormal">CPU佔用率異常: &lt;font color="#D46565"> %s &lt;/font></string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">剛剛優化完畢</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">讓設備休息可幫助冷卻</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">已無發熱程式</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">設備正在冷卻</string>
+    <string name="cpu_anim_cooldown_done_no_temp">已清理發熱程式</string>
+    <string name="cpu_anim_cooldown_done_dropped">已降溫</string>
+    <string name="cpu_anim_cooldown_process_tip_text">降溫中...</string>
+    <string name="cpu_anim_scan_process_tip_text">正掃描CPU狀態...</string>
+    <string name="cpu_anim_lag_done_tip_text">加速完畢!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">請檢查網絡連接後再試壹次</string>
+
+    <!--  完成页跳转卡片  -->
+    <string name="finish_page_card_game_booster_name">遊戲加速器</string>
+    <string name="finish_page_card_game_booster_desc_enabled">遊戲加速器創建成功，快到桌面看看吧 :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">已啟用</string>
+    <string name="finish_page_card_game_booster_desc">掌遊必備！激活最有效炫酷的遊戲加速內核</string>
+    <string name="finish_page_card_game_booster_desc_single_game">即刻開啟遊戲加速為 &lt;big>%s&lt;/big> 等熱門遊戲提升65%%的遊戲性能！</string>
+    <string name="finish_page_card_game_booster_btn">即刻激活</string>
+    <string name="finish_page_card_whitelist_name">加速白名單</string>
+    <string name="finish_page_card_whitelist_desc">加速時將忽略白名單裡的應用，您可以對白名單進行自定義</string>
+    <string name="finish_page_card_whitelist_btn">查看</string>
+    <string name="finish_page_card_autostart_name">發現自啟程式</string>
+    <string name="finish_page_card_autostart_desc">&lt;big>%s&lt;/big>個自啟程式等待優化</string>
+    <string name="finish_page_card_autostart_btn">去優化</string>
+    <string name="finish_page_card_photo_name">照片大掃除</string>
+    <string name="finish_page_card_photo_desc">您已經拍了超過 &lt;big>%s 的照片&lt;/big>，但有相當一部分是沒用的，不是嗎？</string>
+    <string name="finish_page_card_photo_btn">查看</string>
+    <string name="finish_page_card_clean_1_name">清理垃圾</string>
+    <string name="finish_page_card_clean_1_desc">調皮的手機又產生&lt;big>%s&lt;/big>垃圾</string>
+    <string name="finish_page_card_clean_1_btn">去清理</string>
+    <string name="finish_page_card_activate_power_mode_title">噢! %s個程式又&lt;big>自動重啟&lt;/big>了</string>
+    <string name="finish_page_card_activate_power_mode_desc">開啟&lt;big>強力模式&lt;/big>解決頑固自啟</string>
+    <string name="finish_page_card_activate_power_mode_btn">立即開啟</string>
+    <string name="finish_page_card_feedback_name">告訴我們您的想法</string>
+    <string name="finish_page_card_feedback_desc">吐槽、建議、任何想說的話</string>
+    <string name="finish_page_card_feedback_btn">反饋</string>
+    <string name="finish_page_card_activate_usage_stats_permission_title">安卓&lt;big>5.0+&lt;/big>專屬查殺引擎</string>
+    <string name="finish_page_card_activate_usage_stats_permission_desc">允許GO Speed查看使用情況，利用安卓新特性為你更徹底、專業的加速手機！</string>
+    <string name="finish_page_card_activate_usage_stats_permission_btn">即刻開啟</string>
+
+    <!--  内存加速卡片  -->
+    <string name="finish_page_card_memory_boost_normal_name">加速手機</string>
+    <string name="finish_page_card_memory_boost_normal_desc">釋放手機內存，提高手機運行速度</string>
+    <string name="finish_page_card_memory_boost_normal_btn">立即加速</string>
+    <string name="finish_page_card_memory_boost_strong_name">內存僅剩%s%%</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s個程式嚴重占用內存，手機可能會卡頓</string>
+    <string name="finish_page_card_memory_boost_strong_btn">立即加速</string>
+    <!--  禁用应用  -->
+    <string name="finish_page_card_disable_name">預裝程式</string>
+    <string name="finish_page_card_disable_desc">發現%1$s個預裝程式, 其中%2$s個可以被禁用</string>
+    <string name="finish_page_card_disable_btn">查看</string>
+    <!--  无广告时的提示语  -->
+    <string name="finish_page_no_ad_autostart_tips">看看誰又偷偷啟動了</string>
+    <string name="finish_page_no_ad_clean2_tips">垃圾會拖慢手機速度喔</string>
+    <string name="finish_page_no_ad_clean1_tips">每天都要清一清垃圾喔</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">遊戲更需要加速!</string>
+    <string name="finish_page_no_ad_disable_tips">有些預裝真的很沒用</string>
+    <string name="finish_page_no_ad_photo_tips">可以省出很多空間!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">強力模式可以解決頑固程式!</string>
+    <string name="finish_page_no_ad_whitelist_tips">別錯殺了你需要的程式!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">現在手機可能十分卡頓</string>
+    <string name="finish_page_no_ad_boost_normal_tips">你的手機可以更快</string>
+
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">添加遊戲</string>
+    <string name="game_accel_guide_title">遊戲加速</string>
+    <string name="game_accel_guide_text2">已經激活成功</string>
+    <string name="game_accel_guide_try_text">點擊看看!</string>
+    <string name="game_accel_guide_gamename_1">快捷方式已生成</string>
+    <string name="game_accel_guide_gamename_2">從桌面進入遊戲加速</string>
+    <string name="game_accel_guide_gamename_3">掃描遊戲中…</string>
+    <string name="game_accel_guide_discovery_text_above">尋找熱門遊戲</string>
+    <string name="game_accel_sec_anim_title">遊戲</string>
+    <string name="game_accel_shortcut_created">已創建</string>
+    <string name="game_accel_tip_dialog_content_text_new">立刻激活遊戲加速來提升&lt;font color="#85c443">%s&lt;/font>至少65%%的遊戲性能？</string>
+    <string name="game_accel_sort_name">名稱排序</string>
+    <string name="game_accel_sort_Date">安裝時間排序</string>
+    <string name="game_accel_sort_Frequency">頻率排序</string>
+    <string name="game_accel_game_box_title">遊戲管理</string>
+    <string name="game_accel_add_shortcut">桌面快捷方式</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">熱門手遊</string>
+    <string name="game_distribute_connection_failed">網路連接錯誤</string>
+    <string name="game_distribute_net_data_alert">在wifi下播放可以節省流量</string>
+    <string name="game_distribute_game_searching">查找遊戲中...</string>
+
+    <string name="common_uninstalled">已卸載</string>
+    <string name="big_app_title">&lt;font color="#6ac534">佔用空間&lt;/font>Top 3</string>
+    <string name="cpu_thieves_title">&lt;font color="#6ac534">偷偷耗用CPU&lt;/font> Top 3</string>
+    <string name="num_times">%s 次</string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">可用內存極低!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+
+    <string name="home_guide_card_photo_desc1">拍照容易</string>
+    <string name="home_guide_card_photo_desc2">刪除難</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+
+    <string name="home_guide_card_cpu_desc">CPU過熱，加速耗電！</string>
+
+    <string name="home_guide_card_disbale_desc">預裝應用急需處理!</string>
+    <string name="home_guide_card_disbale_desc2">手機其實可以更快!</string>
+    <string name="home_guide_card_disbale_desc_big">%s Apps</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">強力加速</string>
+    <string name="enable_super_boost_mode_normal">普通加速</string>
+    <string name="enable_super_boost_desc_super">&lt;b>加速：&lt;/b>普通程序，&lt;mark>&lt;font color="red">自啟程序&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">給予妳媲美root模式的強力加速效果。&lt;/font>&lt;/b>&lt;br>
+        (請在下壹步中為GO Speed開啟輔助功能開關)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b>加速：&lt;/b>普通程序，&lt;mark>&lt;font color="red">自啟程序&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">給予妳媲美root模式的強力加速效果。&lt;/font>&lt;/b>&lt;br>
+        (手機重啟後需要為GO Speed再次開啟輔助功能開關)
+    </string>
+    <string name="enable_super_boost_desc_normal">&lt;b>加速：&lt;/b>普通程序&lt;br>
+      普通加速對自啟應用無加速效果</string>
+    <string name="enable_super_mode_check_desc_boost">立即開啟強力加速！</string>
+
+
+    <string name="enable_super_disable_mode_super">批量禁用</string>
+    <string name="enable_super_disable_mode_normal">手動禁用</string>
+    <string name="enable_super_disable_desc_super">&lt;mark>&lt;font color="red">&lt;b>特性：&lt;/b>為您輕松批量禁用無用程序。&lt;/font> &lt;/mark>&lt;br>
+        (請在下壹步為GO Speed開啟輔助功能開關)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark>&lt;font color="red">&lt;b>特性：&lt;/b>為您輕松批量禁用無用程序。&lt;/font> &lt;/mark>&lt;br>
+        (手機重啟後需要為GO Speed再次開啟輔助功能開關。)</string>
+    <string name="enable_super_disable_desc_normal">&lt;b>特性：&lt;/b>手動逐個禁用無用程序&lt;br>
+                    &lt;mark>&lt;font color="red">為了更方便的使用，我們建議您開啟批量禁用功能&lt;/font> &lt;/mark>
+    </string>
+    <string name="enable_super_mode_check_desc_disable">開啟批量禁用模式</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">快捷通知欄設置</string>
+    <string name="notification_toggle_settings_label_themes">主題</string>
+    <string name="notification_toggle_settings_label_toggles">開關組合</string>
+    <string name="notification_toggle_settings_label_zspeed">經典搭配</string>
+    <string name="notification_toggle_settings_label_popular">最受歡迎</string>
+    <string name="notification_toggle_theme_name_green">Demeter</string>
+    <string name="notification_toggle_theme_name_pink">Athena</string>
+    <string name="notification_toggle_theme_name_black">Erebus</string>
+    <string name="notification_toggle_theme_name_silver">Uranus</string>
+    <string name="notification_toggle_theme_name_golden">Kronos</string>
+    <string name="notification_toggle_toggle_name_app">主頁</string>
+    <string name="notification_toggle_toggle_name_boost">加速</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">手電筒</string>
+    <string name="notification_toggle_toggle_name_brightness">亮度</string>
+    <string name="notification_toggle_toggle_name_themes">自定義</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">移動數據</string>
+    <string name="notification_toggle_toggle_name_camera">相機</string>
+    <string name="notification_toggle_toggle_name_calculator">計算器</string>
+    <string name="notification_toggle_toggle_name_rotate">方向</string>
+    <string name="notification_toggle_toggle_name_sound">聲音</string>
+    <string name="notification_toggle_notification_ticker">GO Speed工具欄已準備就緒</string>
+    <string name="notification_toggle_notification_ticker_initializing">快捷通知欄準備中&#8230;</string>
+
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">輸入搜索內容</string>
+    <string name="hot_word_search_next_batch">更多熱詞</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">重複照片</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s張照片清理成功!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">重複照片已全部清理!</string>
+    <string name="duplicate_photos_delete_alert_title">彻底刪除</string>
+    <string name="duplicate_photos_delete_alert_desc">您確定彻底刪除 這些照片?</string>
+    <string name="duplicate_photos_scan_alert">掃描需要花些時間，請耐心等待</string>
+    <string name="duplicate_photos_no_content">恭喜！沒有重複照片！</string>
+    <string name="duplicate_photos_suffix_selected">已選擇%s張</string>
+    <string name="duplicate_photos_suffix_total">共%s張</string>
+
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">一周最佳遊戲</string>
+    <string name="game_ad_notification_label_weekly_best_app">一周最佳應用</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">應用鎖</string>
+    <string name="app_lock_perm_settings_title">設置</string>
+    <string name="app_lock_perm_settings_message">權限申請</string>
+    <string name="app_lock_notice_enable_usage_stats">對於安卓5.0及以上用戶, 妳必須為GO Speed授權才能正常使用應用鎖功能。</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_enable_usage_stats">允許</string>
+    <string name="install_app_mointor_locker">需要加鎖</string>
+    <string name="locker_header_forget_pwd">忘記密碼</string>
+    <string name="locker_header_replce_number_locker">切換到數字鎖</string>
+    <string name="locker_header_replce_graphic_locker">切換到圖案鎖</string>
+    <string name="initializationpassword_frist_prompt">設置密碼</string>
+    <string name="initializationpassword_second_prompt">再次確認密碼</string>
+    <string name="initializationpassword_pwd_not_equals">密碼不正確, 請再輸入壹次</string>
+    <string name="init_email_prompt">輸入你的密碼保護郵箱</string>
+    <string name="init_email_prompt1">請輸入正確格式的郵箱</string>
+    <string name="init_mail_btn_text">完成</string>
+    <string name="forget_reset_pwd_success">密碼重置成功</string>
+    <string name="activity_applock_group_apps">應用</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">應用鎖設置</string>
+    <string name="app_lock_setting_parent_unlock_mode">解鎖方式</string>
+    <string name="app_lock_setting_passcode">密碼</string>
+    <string name="app_lock_setting_others">其他</string>
+    <string name="app_lock_setting_unlock_mode_numbers">數字</string>
+    <string name="app_lock_setting_unlock_mode_pattern">圖案</string>
+    <string name="app_lock_setting_passcode_change_passcode">改變密碼</string>
+    <string name="app_lock_setting_passcode_email_setting">郵箱設置</string>
+    <string name="app_lock_setting_others_brief_eixt">臨時離開時間</string>
+    <string name="app_lock_setting_others_relock">鎖屏後自動加鎖</string>
+    <string name="app_lock_setting_brief_eixt_seconds">秒</string>
+    <string name="app_lock_setting_brief_eixt_minutes">分鐘</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">忘記密碼</string>
+    <string name="forget_email_prompt1">1)我們將會向妳的郵箱發送驗證碼</string>
+    <string name="forget_email_prompt2">2)輸入驗證碼後獲取密碼</string>
+    <string name="forget_email_btn_prompt">發送</string>
+    <string name="forget_email_btn_prompt2">重置密碼</string>
+    <string name="forget_email_edit_prompt">驗證碼</string>
+    <string name="forget_check_code_not_right">不正確</string>
+    <string name="forget_check_code_out_of_time">認證超時，請重新輸入</string>
+    <string name="forget_send_email_error">發送郵件失敗，請重試</string>
+    <string name="forget_send_email_success">郵件已發送，請檢查妳的郵箱</string>
+    <string name="set_graphic_password_message_draw">設置應用解鎖圖案</string>
+    <string name="set_graphic_password_message_too_short">請輸入至少4位密碼，請重試</string>
+    <string name="set_graphic_password_message_stored">圖案已記錄</string>
+    <string name="set_graphic_password_message_redraw">再次確認解鎖圖案</string>
+    <string name="set_graphic_password_btn_redraw">重試</string>
+    <string name="set_graphic_password_message">密碼設置</string>
+    <string name="set_graphic_password_message_wrong">錯誤，請重試：</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">免費使用應用鎖高級版</string>
+    <string name="lokcer_init_instruction_first">為你的應用設定解鎖密碼</string>
+    <string name="lokcer_init_instruction_second">再次確認解鎖圖案</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">應用鎖</string>
+    <string name="finish_page_card_app_locker_desc">開啟應用鎖來保護 &lt;big>%s&lt;/big> 和其他程式遠離陌生人的騷擾</string>
+    <string name="finish_page_card_app_locker_btn">開啟保護</string>
+
+    <!-- Storage 2.0改版 -->
+    <string name="filecategory_sec_picture_title">圖片</string>
+    <string name="filecategory_sec_picture_unit">張</string>
+    <string name="filecategory_sec_deep_clean_title">程式專清</string>
+    <string name="filecategory_sec_music_title">音樂</string>
+    <string name="filecategory_sec_music_unit">首歌曲</string>
+    <string name="filecategory_sec_music_units">首歌曲</string>
+    <string name="filecategory_sec_music_instruction">清理不再聆聽的音樂</string>
+    <string name="filecategory_sec_video_title">視頻</string>
+    <string name="filecategory_sec_video_unit">個視頻</string>
+    <string name="filecategory_sec_video_units">個視頻</string>
+    <string name="filecategory_sec_video_instruction">刪除不再觀看​​的視頻</string>
+    <string name="filecategory_sec_uninstall_title">卸載</string>
+    <string name="filecategory_sec_uninstall_unit">個程式</string>
+    <string name="filecategory_sec_uninstall_units">個程式</string>
+    <string name="filecategory_sec_uninstall_instruction">卸載不再使用的程式</string>
+    <string name="filecategory_sec_big_file_title">大文件</string>
+    <string name="filecategory_sec_big_file_unit">個文件</string>
+    <string name="filecategory_sec_big_file_units">個文件</string>
+    <string name="filecategory_sec_big_file_instruction">找出佔用空間的文件及文件夾</string>
+    <string name="filecategory_sec_picture_duplicate_unit">張重複</string>
+    <string name="filecategory_sec_deep_clean_other_instuction">其他%s程式</string>
+    <string name="filecategory_sec_header_top_text">%1$s 佔用%2$s 總計</string>
+    <string name="filecategory_sec_bar_instuction_pic">圖片</string>
+    <string name="filecategory_sec_bar_instuction_app">程式</string>
+    <string name="filecategory_sec_bar_instuction_video">視頻</string>
+    <string name="filecategory_sec_bar_instuction_music">音樂</string>
+    <string name="filecategory_sec_bar_instuction_other">其他</string>
+    <string name="filecategory_sec_list_item_scanning">正在掃描...</string>
+    <string name="filecategory_sec_list_item_check">查看</string>
+    <string name="filecategory_sec_list_item_collapse">收起</string>
+    <string name="filecategory_sec_list_item_empty_text">無文件</string>
+    <string name="filecategory_sec_list_item_empty_text_duplicate">無重複圖片</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_null">未知文件</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_image">圖片文件</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_other">其他文件</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_video">視頻文件</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_audio">音頻文件</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_resource">資源包</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_apk">安裝包</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_game">遊戲文件</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_ad">廣告文件</string>
+    <!-- 帶刪除的文件管理器-->
+    <string name="filecategory_broswer_group_title">所有文件</string>
+    <!-- BigFile -->
+    <string name="filecategory_bigfile_title">大文件</string>
+    <string name="filecategory_bigfile_title_select_text_one">&lt;font color="#f77071">文件刪除後無法恢復!&lt;/font></string>
+    <string name="filecategory_bigfile_title_select_text_two">確認選擇？</string>
+    <string name="filecategory_bigfile_title_select_text_check">本次不再顯示</string>
+    <string name="big_file_group_item_size">&lt;font color="#ff0000">大小:%1$s&lt;/font></string>
+    <string name="big_file_group_item_path">路徑:%1$s</string>
+    <string name="big_file_scan_text">掃描%1$s個大文件</string>
+    <string name="big_file_all_size">共%1$s個文件</string>
+    <string name="big_file_selected_size">已選中%1$s文件</string>
+    <string name="big_file_delete">刪除</string>
+    <string name="big_file_detail_view">查看</string>
+    <string name="big_file_delete_detail">確認刪除這些文件?</string>
+    <string name="big_file_delete_size">%1$s個文件已刪除!</string>
+    <!-- 應用專清頁面-->
+    <string name="deep_clean_single_page_title_suggestion">已掃出</string>
+    <string name="deep_clean_single_page_card_clean">清理</string>
+    <string name="deep_clean_single_page_card_to_clean">查看</string>
+    <string name="deep_clean_single_page_card_cleaning">清理中</string>
+    <string name="deep_clean_single_page_card_cleaned">已清理</string>
+    <string name="deep_clean_warn_level_0_desc">清理後系統不受影響</string>
+    <string name="deep_clean_warn_level_1_desc">可以進行清理</string>
+    <string name="deep_clean_warn_level_2_desc">清理後需聯網重新加載</string>
+    <string name="deep_clean_warn_level_10_desc">清理後文件無法恢復</string>
+    <string name="deep_clean_warn_level_11_desc">不建議清理</string>
+    <!-- 主界面2.0 -->
+    <string name="home_page_ram_info_text">%1$s 可用/ %2$s 總量</string>
+    <string name="home_page_storage_info_text">%1$s 可用/ %2$s 總量</string>
+    <!--側邊欄頁面-->
+    <string name="home_page_drawer_like_us">點贊</string>
+    <string name="home_page_drawer_go_security">防毒安全</string>
+    <string name="home_page_drawer_z_family">GO Family</string>
+    <string name="home_page_drawer_theme">主題</string>
+
+    <!-- 充电锁屏 -->
+    <string name="setting_charge_group">省電加速</string>
+    <string name="setting_charge">快速充電</string>
+    <string name="power_saving_charging_text">充滿剩余時間 &lt;font color="#ffce54">%1$s&lt;/font></string>
+    <string name="power_saving_left_power_text">剩余電量可用時間 &lt;font color="#ffce54">%1$s&lt;/font></string>
+    <string name="power_saving_mode_speed">快速充電</string>
+    <string name="power_saving_mode_contiuous">持續充電</string>
+    <string name="power_saving_mode_trickle">涓流充電</string>
+    <string name="power_saving_mode_speed_instruction">能夠迅速充電至80%</string>
+    <string name="power_saving_mode_contiuous_instruction">逐漸減小充電電流並持續充電</string>
+    <string name="power_saving_mode_trickle_instruction">繼續進行小電流充電，讓電子保持流動，延長電池壽命 </string>
+    <string name="power_saving_accel_result_text">加速了&lt;font color="#ffce54">%1$s&lt;/font>個耗電程序，為妳節省了&lt;font color="#ffce54">%2$s&lt;/font>的充電時間</string>
+    <string name="power_saving_menu_clost">關閉快速充電</string>
+    <string name="power_saving_menu_dialog_title">嘗試關閉快速充電功能</string>
+    <string name="power_saving_menu_dialog_content">關閉快速充電將不能為妳節省充電時間。是否繼續關閉？</string>
+    <string name="power_saving_menu_dialog_cancel">暫不處理</string>
+    <string name="power_saving_menu_dialog_confim">確認</string>
+    <string name="power_saving_time_unit_hour">小時</string>
+    <string name="power_saving_time_unit_minute">分鐘</string>
+    <string name="power_saving_unlock_slide">滑動解鎖 ></string>
+
+    <string name="power_saving_guide_title">快速充電</string>
+    <string name="power_saving_guide_desc">開啟快速充電功能專業地為你縮短充電時間以及保護電池</string>
+    <string name="power_saving_guide_btn_enable">開啟</string>
+
+    <string name="power_saving_ad_open">打開</string>
+    <string name="power_saving_ad_cancel">刪除</string>
+
+    <!--facebook点赞弹窗引导-->
+    <string name="facebook_like_dialog_title">效果可否令您滿意?</string>
+    <string name="facebook_like_dialog_desc">给GO Speed&lt;font color="#4a89dc">臉書&lt;/font>点赞, 獲取更多手機優化貼士</string>
+    <string name="facebook_like_dialog_btn_like">點贊</string>
+    <string name="facebook_like_dialog_btn_cancel">取消</string>
+
+    <!-- AppLock 优化 -->
+    <string name="applock_pre_header_text1_new">&lt;big>%1$s&lt;/big> 個推薦上鎖的敏感應用</string>
+    <string name="applock_pre_header_text2_new">確保這些應用的隱私數據</string>
+    <string name="applock_pre_header_last_step_text1">還差一步得到全面保護</string>
+    <string name="applock_pre_header_last_step_text2">為GO Speed打開設置開關</string>
+    <string name="applock_pre_dialog_title">還差一步</string>
+    <string name="applock_pre_dialog_content">還差一步得到全面保護</string>
+    <string name="applock_pre_dialog_cancel">退出</string>
+    <string name="applock_pre_dialog_confim">繼續</string>
+
+    <!-- Applock 入侵者 -->
+    <string name="intruder_shot_info_title">偷拍入侵者</string>
+    <string name="intruder_shot_info_desc">連續輸錯密碼2次則自動拍下入侵者</string>
+    <string name="app_lock_setting_intruder">入侵者設置</string>
+    <string name="app_lock_setting_reveal_intruder">發現入侵者</string>
+    <string name="app_lock_setting_intruder_wrong_times">密碼錯誤輸入上限</string>
+    <string name="app_lock_setting_intruder_twice">2次</string>
+    <string name="app_lock_setting_intruder_times">次</string>
+    <string name="app_lock_setting_intruder_setting">偷拍入侵者設置</string>
+    <string name="intruder_gallery_no_content">恭喜！沒有發現入侵者</string>
+    <string name="app_lock_new_intruders">&lt;b>%s 新的&lt;/b>入侵者</string>
+    <string name="app_lock_all_intruders">%s 名入侵者</string>
+    <string name="intruder_gallery_menu_clear_all_pohtos">清除所有圖片</string>
+    <string name="intruder_main_no_content">一旦連續輸錯密碼，立即拍下入侵者。</string>
+
+    <!--推荐应用锁场景引导-->
+    <string name="recommend_app_lock_dialog_title">保護妳的隱私應用</string>
+    <string name="recommend_app_lock_dialog_desc">立即爲&lt;font color="#4a89dc">%s&lt;/font>加鎖來預防其他人偷看。</string>
+    <string name="recommend_app_lock_notify_title_black">&lt;font color="#1d1d1d">有人視圖偷窺你的應用內容？&lt;/font></string>
+    <string name="recommend_app_lock_notify_title_white">&lt;font color="#ffffff">有人視圖偷窺你的應用內容？&lt;/font></string>
+    <string name="recommend_app_lock_notify_desc">立即為敏感應用上鎖防止入侵者！</string>
+
+    <!--应用锁屏偷拍照片详情页-->
+    <string name="app_lock_image_share_text_tip">看看我發現了什麼?你也裝來保護下自己的隱私吧</string>
+    <string name="app_lock_camera_auth_tip">允許GO Speed使用相機抓拍手機入侵者</string>
+
+    <!-- 强力加速快捷方式 -->
+    <string name="power_boost_shortcut_name">超強加速</string>
+    <string name="power_boost_shortcut_dialog_title">輔助功能全面提升加速：</string>
+    <string name="power_boost_shortcut_dialog_text1">1.加速自啟應用</string>
+    <string name="power_boost_shortcut_dialog_text2">2.加速頑固進程</string>
+    <string name="power_boost_shortcut_dialog_text3">3.媲美root的加速效果</string>
+    <string name="power_boost_shortcut_init_boost">正在啟動強力加速&#8230;</string>
+    <string name="power_boost_shortcut_dialog_ok">啟用加速</string>
+
+    <!--GoSecurity内置卡片-->
+    <string name="build_in_ad_go_security_title">殺毒掃描</string>
+    <string name="build_in_ad_go_security_desc">保證手機的安全性</string>
+    <string name="build_in_ad_go_security_btn">立即保護</string>
+
+    <!-- 开机加速 -->
+    <string name="boot_up_time_title">開機需要時間</string>
+    <string name="boot_up_memory_title">自動啟動程式</string>
+    <string name="boot_up_time_intro_desc">手機完全啟動所需耗時。</string>
+    <string name="boot_up_memory_intro_desc">手機開機後自動運行啟動的手機程式。</string>
+    <string name="boot_up_optimize">優化</string>
+    <string name="setting_boot_up_notice">開機檢測</string>
+    <string name="boot_up_notify_msg">發現開機自啟應用！立即檢查</string>
+
+    <!-- WhatsApp专清 -->
+    <string name="common_deep_clean_cache">無用緩存</string>
+    <string name="common_deep_clean_image">相冊</string>
+    <string name="common_deep_clean_video">視頻</string>
+    <string name="common_deep_clean_music">音樂</string>
+    <string name="common_deep_clean_document">文檔</string>
+    <string name="common_deep_clean_backup">備份</string>
+    <string name="common_deep_clean_clean_view">查看</string>
+    <string name="common_deep_clean_clean_clean">清理</string>
+
+    <string name="common_deep_clean_clean_cache_deleting">正在刪除...</string>
+
+    <string name="deep_clean_whatsapp_desc_cache">你可以放心清除的无用数据缓存</string>
+    <string name="deep_clean_whatsapp_desc_gallery">WhatsApp聊天中的圖片。</string>
+    <string name="deep_clean_whatsapp_desc_video">WhatsApp聊天中的視頻。</string>
+    <string name="deep_clean_whatsapp_desc_music">WhatsApp聊天中的音樂。</string>
+    <string name="deep_clean_whatsapp_desc_document">WhatsApp聊天中的文檔。</string>
+    <string name="deep_clean_whatsapp_desc_backup">WhatsApp本地的自動備份。</string>
+
+    <string name="deep_clean_whatsapp_no_cache">無用緩存已清空</string>
+    <string name="deep_clean_whatsapp_no_gallery">本地聊天圖片已清空</string>
+    <string name="deep_clean_whatsapp_no_video">本地聊天视频已清空</string>
+    <string name="deep_clean_whatsapp_no_music">本地聊天視頻已清空</string>
+    <string name="deep_clean_whatsapp_no_document">本地聊天文檔已清空</string>
+    <string name="deep_clean_whatsapp_no_backup">本地無自動備份文件</string>
+
+    <string name="whatsapp_media_sent_tag">發出的</string>
+    <string name="whatsapp_media_receive_tag">收到的</string>
+    <string name="whatsapp_deleted_msg">%1$s 個文件 %2$s 已清除</string>
+    <string name="whatsapp_media_menu_select_all">全選</string>
+    <string name="whatsapp_delete_alert_desc">您確定徹底刪除這些文件？</string>
+
+    <!-- v2.3.3 应用锁优化 -->
+    <string name="applock_pre_last_step_usage_guide_title">安卓5.0+ 用戶還有最後壹個關鍵步驟</string>
+    <string name="applock_pre_last_step_usage_guide_explanation">爲GO Speed開啓授權開關激活安全加鎖</string>
+
+    <!-- 新版设置页 -->
+    <string name="menu_group_notification">通知欄</string>
+    <string name="menu_group_notification_notification">通知欄</string>
+    <string name="notification_setting_mode">推送模式</string>
+    <string name="notification_setting_auto">智能模式</string>
+    <string name="notification_setting_manual">手动模式</string>
+    <string name="notification_setting_manual_boost">手機加速</string>
+    <string name="notification_setting_manual_clean">垃圾清理</string>
+    <string name="setting_boost_ignorelist">手機加速白名單</string>
+
+
+    <!-- Facebook专清 -->
+    <string name="facebook_deep_clean_title_cache">無用緩存</string>
+    <string name="facebook_deep_clean_desc_cache">刪除無效文件緩存來釋放空間</string>
+    <string name="facebook_deep_clean_title_fb_img">Facebook相冊</string>
+    <string name="facebook_deep_clean_desc_fb_img">管理妳的Facebook相冊</string>
+    <string name="facebook_deep_clean_title_message_img">Messenger相册</string>
+    <string name="facebook_deep_clean_desc_message_img">管理你的Messenger相册</string>
+    <string name="facebook_deep_clean_title_message_video">Messenger視頻</string>
+    <string name="facebook_deep_clean_desc_message_video">管理妳的Messenger視頻</string>
+
+    <string name="facebook_media_posted_tag">PO圖</string>
+    <string name="facebook_media_saved_tag">保存圖</string>
+    <string name="notification_facebook_deep_clean_title_black">&lt;font color="#1d1d1d">深度清理妳的FB應用。&lt;/font></string>
+    <string name="notification_facebook_deep_clean_title_white">&lt;font color="#ffffff">深度清理妳的FB應用。&lt;/font></string>
+
+    <string name="notification_box_settings_title">防通知打擾設置</string>
+    <string name="notification_box_settings_notice">防打擾通知尚未激活。</string>
+    <string name="notification_box_switch_label">打開防通知打擾</string>
+    <string name="notification_box_guide_first_desc">請為GO速度開啟權限來激活防通知打擾</string>
+    <string name="notification_box_guide_second_desc">想要一個更加清爽的通知欄？立即使用防通知打擾吧</string>
+
+    <string name="shuffle_store_break_notice">探索更多新奇趣!</string>
+
+    <!-- 应用商店 -->
+    <string name="app_store_shortcut_name">應用市集</string>
+
+</resources>

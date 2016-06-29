@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/fragment_duplicate_child_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/file_category_image_item_bg"
+        android:scaleType="centerCrop"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000">
+
+        <View
+            android:id="@+id/fragment_duplicate_child_img_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_50p_black"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/fragment_duplicate_child_img_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="6dp"
+            android:paddingTop="6dp"
+            android:src="@drawable/common_select_null_2"/>
+
+        <ImageView
+            android:id="@+id/fragment_duplicate_child_img_unread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/intruder_unread_tag"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</FrameLayout>

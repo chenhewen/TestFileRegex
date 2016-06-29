@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEEEEEE" >
+
+    <include
+        android:id="@+id/filebrowser_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/common_title_layout" />
+    
+    <View
+        android:id="@+id/bg_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/boost_main_tab_title_height"
+        android:background="@color/common_title_background"
+        android:layout_below="@id/filebrowser_title_layout"
+        />
+
+    <View
+        android:id="@+id/bg_streak_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/boost_main_tab_title_height"
+        android:background="@drawable/storage_main_act_bg"
+        android:layout_below="@id/filebrowser_title_layout"/>
+
+    <com.gto.zero.zboost.common.ui.BreadcrumbNavigation
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filebrowser_title_layout"
+        android:overScrollMode="never"
+        android:paddingLeft="@dimen/common_margin"
+        android:paddingRight="@dimen/common_margin"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/boost_main_tab_title_height"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" />
+    </com.gto.zero.zboost.common.ui.BreadcrumbNavigation>
+    
+    <RelativeLayout
+        android:id="@+id/group_item"
+	    android:layout_width="match_parent"
+	    android:layout_height="42dp"
+	    android:background="#FFFFFFFF"
+	    android:layout_below="@id/navigation">
+	
+	    <TextView
+	        android:id="@+id/group_item_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="16dp"
+	        android:textColor="#FF808080"
+	        android:text="@string/filecategory_broswer_group_title"
+	        />
+	
+	    <com.gto.zero.zboost.view.GroupSelectBox
+	        android:id="@+id/group_item_selectbox"
+	        android:layout_width="56dp"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:paddingRight="18dp"
+	        android:paddingLeft="18dp"
+	        />
+	
+	</RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/group_item" >
+
+        <ListView
+            android:id="@id/android:list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:overScrollFooter="@null"
+            android:overScrollMode="never" />
+
+        <TextView
+            android:id="@id/android:empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableBottom="@drawable/filebrowser_nofiles"
+            android:drawablePadding="15dp"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="center"
+            android:text="@string/clean_file_browser_no_files"
+            android:textColor="#FFDDDDDD"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    
+    <include
+        android:id="@+id/clean_btn"
+        layout="@layout/common_round_button_layout"
+        android:layout_width="@dimen/common_round_button_layout_width"
+        android:layout_height="@dimen/common_round_button_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+    
+</RelativeLayout>

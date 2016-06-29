@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/confirm_dialog_style3_message1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/font_families_roboto"
+        android:textColor="@color/dialog_common_detail_color"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/confirm_dialog_style3_message2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirm_dialog_style3_message1"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@string/font_families_roboto_condensed"
+        android:textColor="@color/common_dialog_text_red"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+</merge>

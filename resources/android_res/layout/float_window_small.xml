@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="@dimen/float_small_window_width"
+    android:layout_height="@dimen/float_small_window_height" >
+
+    <LinearLayout
+        android:id="@+id/small_window_layout"
+        android:layout_width="@dimen/float_small_window_width"
+        android:layout_height="@dimen/float_small_window_height"
+        android:background="@drawable/float_small_window_bg"
+        android:orientation="horizontal" >
+
+        <com.gto.zero.zboost.floatwindow.FloatWindowSmallTextView
+            android:id="@+id/percent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.gto.zero.zboost.floatwindow.FloatWindowSmallTextView>
+    </LinearLayout>
+
+</RelativeLayout>

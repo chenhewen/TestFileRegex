@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/theme_icon_layout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/notification_toggle_theme_icon_bg_alpha" >
+
+        <ImageView
+            android:id="@+id/theme_icon_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/shortcut_boost_element" />
+
+        <View
+            android:id="@+id/selected_bg_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/notification_toggle_theme_selected_bg"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/selected_icon_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/fragment_enable_super_button_label"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/theme_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:fontFamily="@string/font_families_roboto"
+        android:singleLine="true"
+        android:text="@string/notification_toggle_theme_name_green"
+        android:textColor="@color/notification_settings_theme_selected_text_selector"
+        android:textSize="10dp"
+        android:textStyle="normal" />
+
+</LinearLayout>

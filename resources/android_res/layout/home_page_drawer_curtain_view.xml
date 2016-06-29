@@ -1,0 +1,18 @@
+<com.gto.zero.zboost.common.ui.BevelFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_page_drawer_theme_item_bevel_view"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:background="#FF434A54" >
+
+    <View
+        android:id="@+id/home_page_drawer_theme_item_tile_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/storage_main_act_bg" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/home_page_drawer_theme_item_layout" />
+
+</com.gto.zero.zboost.common.ui.BevelFrameLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_item_alternative">
+
+    <com.gto.zero.zboost.view.list.ListCoverView
+        android:id="@+id/file_category_video_main_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/clean_main_top_height"
+        android:layout_alignParentTop="true"
+        android:background="#FF76B54B">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@null"
+            android:src="@drawable/video_main_top_bg"/>
+    </com.gto.zero.zboost.view.list.ListCoverView>
+
+    <include
+        android:id="@+id/file_category_video_title"
+        layout="@layout/common_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:background="#000000"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/file_category_video_title">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/clean_main_scrollview_float_height">
+
+            <com.gto.zero.zboost.common.ui.floatlistview.FloatingGroupExpandableListView
+                android:id="@+id/file_category_video_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:childDivider="@color/common_listview_divider"
+                android:divider="#00000000"
+                android:fadingEdge="none"
+                android:overScrollFooter="@null"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:visibility="gone"/>
+
+            <include
+                android:id="@+id/file_category_video_empty"
+                layout="@layout/common_empty_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+
+
+            <com.gto.zero.zboost.view.ProgressWheel
+                android:id="@+id/file_category_video_progress_wheel"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                wheel:matProg_barColor="@color/common_green_normal"
+                wheel:matProg_barWidth="3dp"
+                wheel:matProg_progressIndeterminate="true"/>
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/file_category_video_scrollview"
+            layout="@layout/fragment_clean_main_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/clean_main_scrollview_height"/>
+    </FrameLayout>
+
+    <include
+        android:id="@+id/file_category_video_btn"
+        layout="@layout/common_round_button_layout"
+        android:layout_width="@dimen/common_round_button_layout_width"
+        android:layout_height="@dimen/common_round_button_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+</RelativeLayout>

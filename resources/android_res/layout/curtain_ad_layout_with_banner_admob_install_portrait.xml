@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.NativeAppInstallAdView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/curtain_ad_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/curtain_ad_layout_padding"
+            android:layout_above="@+id/curtain_ad_button"
+            android:layout_alignRight="@+id/curtain_ad_button"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/curtain_ad_banner"
+                android:layout_alignBottom="@+id/curtain_ad_banner"
+                android:layout_alignTop="@+id/curtain_ad_banner">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/admob_ad_attribution"
+                    android:layout_alignTop="@id/curtain_ad_icon"
+                    android:layout_marginLeft="4dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/curtain_ad_icon"
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:layout_marginLeft="@dimen/curtain_ad_layout_padding"
+                    android:layout_above="@+id/curtain_ad_name"
+                    android:contentDescription="@null"
+                    />
+
+                <TextView
+                    android:id="@+id/curtain_ad_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:layout_above="@+id/curtain_ad_desc"
+                    android:focusableInTouchMode="true"
+                    android:layout_marginLeft="@dimen/curtain_ad_layout_padding"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:maxEms="25"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#7e7e7e"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:id="@+id/curtain_ad_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_alignParentBottom="true"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:maxLines="4"
+                    android:layout_marginLeft="@dimen/curtain_ad_layout_padding"
+                    android:text=""
+                    android:textColor="#7e7e7e"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/curtain_ad_banner"
+                android:layout_width="110dp"
+                android:layout_height="195dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/curtain_ad_layout_padding"
+                android:layout_marginTop="10dp"
+                android:antialias="true"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/curtain_ad_button"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/curtain_ad_layout_padding"
+            android:layout_marginRight="@dimen/curtain_ad_layout_padding"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/ad_button_red_selector"
+            android:gravity="center"
+            android:text="@string/storage_main_act_details"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</com.google.android.gms.ads.formats.NativeAppInstallAdView>

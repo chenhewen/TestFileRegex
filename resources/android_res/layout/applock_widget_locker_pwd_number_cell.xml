@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.function.applock.view.widget.number.LockerNumberPasswordCell xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/locker_pwd_number_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="center"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/locker_pwd_number_fg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:ignore="ContentDescription" />
+
+</com.gto.zero.zboost.function.applock.view.widget.number.LockerNumberPasswordCell>

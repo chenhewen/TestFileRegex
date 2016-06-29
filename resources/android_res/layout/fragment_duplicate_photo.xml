@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:wheel="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/common_item_alternative">
+
+    <RelativeLayout
+        android:id="@+id/duplicate_main_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/clean_main_top_height"
+        android:layout_alignParentTop="true"
+        android:background="#FF76B54B">
+
+        <View
+            android:id="@+id/duplicate_main_top_streak_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/storage_main_act_bg"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@null"
+            android:src="@drawable/duplicate_photo_top_bg"/>
+    </RelativeLayout>
+
+
+    <include
+    android:id="@+id/duplicate_main_title_common_title"
+    layout="@layout/common_title_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_title_height"
+    android:background="#000000"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/duplicate_main_title_common_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/clean_main_scrollview_float_height"
+                android:visibility="invisible"/>
+
+            <com.gto.zero.zboost.common.ui.floatlistview.FloatingGroupExpandableListView
+                android:id="@+id/duplicate_main_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:childDivider="@color/common_listview_divider"
+                android:divider="#00000000"
+                android:fadingEdge="none"
+                android:overScrollFooter="@null"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                />
+
+            <RelativeLayout
+                android:id="@+id/duplicate_main_scan_alert_block"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/duplicate_main_scan_alert_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/duplicate_photos_scan_alert"
+                    android:textColor="#8a000000"
+                    android:textSize="14sp"/>
+
+                <com.gto.zero.zboost.view.ProgressWheel
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_above="@id/duplicate_main_scan_alert_text"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="16dp"
+                    wheel:matProg_barColor="@color/common_green_normal"
+                    wheel:matProg_barWidth="2dp"
+                    wheel:matProg_progressIndeterminate="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/duplicate_main_no_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/duplicate_main_no_content_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/no_content"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/duplicate_main_no_content_img"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/duplicate_photos_no_content"
+                    android:textColor="#8a000000"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <include
+            android:id="@+id/duplicate_scrollview"
+            layout="@layout/fragment_duplicate_main_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/clean_main_scrollview_height"/>
+    </FrameLayout>
+
+    <com.gto.zero.zboost.common.ui.CommonRoundButton
+        android:id="@+id/duplicate_main_clean_btn"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/common_round_button_layout_width"
+        android:layout_height="@dimen/common_round_button_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_shadow"/>
+
+        <ImageView
+            android:id="@+id/common_round_button_icon"
+            android:layout_width="@dimen/common_round_button_size"
+            android:layout_height="@dimen/common_round_button_size"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/common_button_round_red_selector"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/apkmanager_delete"/>
+
+    </com.gto.zero.zboost.common.ui.CommonRoundButton>
+
+</RelativeLayout>

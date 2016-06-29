@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.function.boost.accessibility.disable.view.AppsDisableDoneAnimPage xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_title_background"
+    android:clipChildren="false" >
+
+    <com.gto.zero.zboost.anim.AnimView
+        android:id="@+id/boost_disable_done_anim_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/boost_disable_done_ok_button_layout"
+        android:layout_width="@dimen/common_round_button_layout_width"
+        android:layout_height="108dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/common_round_button_white_layout" />
+
+    <TextView
+        android:id="@+id/boost_disable_done_description_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:fontFamily="@string/font_families_roboto"
+        android:maxLines="2"
+        android:maxWidth="@dimen/boost_disable_apps_done_description_view_width"
+        android:singleLine="false"
+        android:text="@string/disable_apps_done_description"
+        android:textColor="#A0FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/boost_disable_done_count_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/boost_disable_done_description_view"
+        android:layout_marginBottom="13dp"
+        android:fontFamily="@string/font_families_roboto_thin"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="@string/disable_apps_done_speed_up"
+        android:textColor="#A0FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/boost_disable_done_speeded_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/boost_disable_done_count_view"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@string/font_families_roboto_thin"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="@string/disable_apps_done_disable_count"
+        android:textColor="#A0FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="normal" />
+
+    <ViewStub
+        android:id="@+id/function_ad_cards_layout_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/function_ad_cards_layout" />
+
+</com.gto.zero.zboost.function.boost.accessibility.disable.view.AppsDisableDoneAnimPage>

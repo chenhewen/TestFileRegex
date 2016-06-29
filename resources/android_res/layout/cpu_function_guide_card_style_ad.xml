@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#8f000000"
+        android:textStyle="bold"
+        android:text="@string/cpu_thieves_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="24dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/item_container"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="184dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/function_ad_more_bg_selector"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_below="@id/item_container"
+        android:text="@string/common_more"
+        android:layout_marginTop="48dp"
+        android:visibility="gone"
+        android:textSize="16sp" />
+
+</RelativeLayout>

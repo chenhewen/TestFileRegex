@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.view.FlipRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/function_entrance_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_button_selector" >
+
+        <com.gto.zero.zboost.activity.ui.AutoResizeTextView
+            android:id="@+id/function_entrance_text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="4dp"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/main_button_boost"
+            android:textColor="#FF434A54"
+            android:textSize="@dimen/z_home_main_bottom_tab_text"
+            android:textStyle="normal"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/function_entrance_new_flag_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/common_new_flag_bg_red"
+            android:ellipsize="end"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="2dp"
+            android:singleLine="true"
+            android:text="@string/common_new"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="normal"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/function_tips_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_button_selector" >
+
+        <com.gto.zero.zboost.activity.ui.AutoResizeTextView
+            android:id="@+id/function_tips_text1_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/icon_storage_transparent"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/boost_main_act_tab_autostart"
+            android:textColor="#FF434A54"
+            android:textSize="@dimen/z_home_main_bottom_tab_text"
+            android:textStyle="normal"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/function_tips_text2_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/function_tips_text1_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"
+            android:fontFamily="@string/font_families_roboto"
+            android:text="APPs"
+            android:textColor="#FFFE6969"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/function_tips_text3_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/function_tips_text2_tv"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@string/font_families_roboto"
+            android:includeFontPadding="false"
+            android:text="7"
+            android:textColor="#FFFE6969"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/function_tips_new_flag_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/common_new_flag_bg_red"
+            android:ellipsize="end"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="2dp"
+            android:singleLine="true"
+            android:text="@string/common_new"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="normal"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</com.gto.zero.zboost.view.FlipRelativeLayout>

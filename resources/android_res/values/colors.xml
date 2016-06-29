@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="status_bar_color">#1E000000</color>
+    <color name="common_green_normal">#FF85C443</color>
+    <color name="common_green_pressed">#FF77b03c</color>
+    <color name="common_red_normal">#ED5565</color>
+    <color name="common_red_pressed">#ED5565</color>
+    <color name="common_blue_normal">#ff4fc1e9</color>
+    <color name="common_blue_pressed">#ff4fc1e9</color>
+    <color name="common_item_alternative">#FFF6F6F6</color>
+    <color name="common_item_name">#FF787878</color>
+    <color name="common_module_name">#FF858585</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="common_dialog_green">#FF85C443</color>
+    <color name="common_dialog_grey">#BCBCBC</color>
+    <color name="common_listview_divider">@color/common_listview_divider_level0</color>
+    <color name="common_listview_divider_level0">#E6E9ED</color>
+    <color name="common_listview_divider_level1">#E6E9ED</color>
+    <color name="common_fire_unit">#BCBCBC</color>
+    <color name="common_item_info">#BEBEBE</color>
+    <color name="common_title_background">#FF76B54B</color>
+    <color name="common_list_item_text_color">#FF777777</color>
+
+    <!-- Dialog -->
+    <color name="common_dialog_btn_normal">#00FFFFFF</color>
+    <color name="common_dialog_btn_press">#F5F7FA</color>
+    <color name="common_dialog_btn_red">#daedc6</color>
+    <color name="common_dialog_text_red">#FFF77071</color>
+    <color name="dialog_common_detail_color">#777777</color>
+    <color name="dialog_common_button_light">#a4a4a4</color>
+    <color name="dialog_common_button_green">#FF85C443</color>
+    <color name="dialog_common_button_uninstall">#d46565</color>
+    <color name="dialog_common_button_title_gray">#FF555555</color>
+    <color name="dialog_rate_button_light">#FFc8c8c8</color>
+
+    <!-- 清理界面 -->
+    <color name="clean_group_size_color">#ababab</color>
+    <color name="clean_list_unit_color">#FFBDBDBD</color>
+
+    <!-- 主界面 -->
+    <color name="menu_item_normal">#FFFFFFFF</color>
+    <color name="menu_item_pressed">#FFEDEDED</color>
+
+    <!-- 菜单界面 -->
+    <color name="menu_setting_title">@color/common_title_background</color>
+    <color name="menu_setting_no">@color/default_text_color_light</color>
+    <color name="menu_setting_ok">@color/default_text_color_deep</color>
+
+    <!-- 悬浮窗颜色 -->
+    <color name="float_background_color">#7F000000</color>
+    <color name="float_smallview_red">#d46565</color>
+    <color name="float_smallview_green">#99d465</color>
+    <color name="float_smallview_yellow">#cc7150</color>
+    <color name="float_cleanview_bg">#7f000000</color>
+
+    <!-- 应用管理 -->
+    <color name="common_item_name_half_transparent">#8F787878</color>
+    <color name="common_red_half_transparent">#8FCE5050</color>
+
+    <!-- wy -->
+    <color name="trans">#00000000</color>
+
+    <!-- 10%透明黑色 -->
+    <color name="color_10p_black">#1A000000</color>
+    <!-- 50%透明黑色 -->
+    <color name="color_50p_black">#80000000</color>
+    <!-- 75%透明黑色 -->
+    <color name="color_75p_black">#bf000000</color>
+
+    <!-- 对话框 -->
+    <color name="dialog_item_press">#FFEBEBEB</color>
+
+    <!-- 首页底部图标翻转后文字颜色 -->
+    <color name="main_screen_bottom_back_grey_color">#9898a0</color>
+    <color name="main_screen_bottom_back_red_color">#fe6969</color>
+
+    <!-- notification toggle -->
+    <color name="notification_toggle_click_click">#26FFFFFF</color>
+    <color name="notification_toggle_click_normal">#00FFFFFF</color>
+
+    <!-- 磁盘分析图片浏览的Title -->
+    <color name="file_category_image_item_bg">#FFE8E8E8</color>
+
+    <!-- 可展开ListView的子项下划线 -->
+    <color name="listview_expand_item_below">#FFCFCFCF</color>
+
+    <!-- 批量禁用模块 -->
+    <color name="preinstall_disable_text_color_green">#ff76b54b</color>
+    <color name="preinstall_disable_text_color_red">#fe6969</color>
+    <color name="preinstall_disable_text_color_grey">#9e9e9e</color>
+    <color name="preinstall_disable_list_group_subtitle_color">#b8b8b8</color>
+
+    <!-- V1.13对话框UI调整 -->
+    <color name="common_dialog_title_color_v1_13">#555555</color>
+
+    <!-- NotificationHelper的第二行字体颜色 -->
+    <color name="notification_common_text_two_white">#676767</color>
+    <color name="notification_common_text_two_black">#ababab</color>
+
+    <!-- V1.25辅助引导 -->
+    <color name="enable_super_devider">#e5e5e5</color>
+    <color name="enable_super_normal_yellow">#FFED5565</color>
+
+    <!-- Title -->
+    <color name="light_gray_title">#C0323232</color>
+
+    <!-- App Lock -->
+    <color name="locker_header_menu_item">#e2e5e1</color>
+    <color name="locker_header_btn_color">#4c000000</color>
+    <color name="locker_anti_peep_img_title_bg">#C0252525</color>
+    <!--启动时设置密码邮箱-->
+    <color name="start_set_bg">#dde0e5</color>
+    <!-- 设置图形密码相关 -->
+    <color name="set_graphic_password_message_text_color">#ffffffff</color>
+    <color name="set_graphic_password_message_text_color_warn">#ed4141</color>
+    <color name="set_graphic_password_btn_clickable">#ff002446</color>
+    <color name="item_clicked_bg">#19000000</color>
+    <color name="actionbar_bg">#ff1e8bf2</color>
+    <color name="actionbar_title_color">#ffffffff</color>
+
+    <!-- 主界面2.0 -->
+    <drawable name="common_button_bg_pressed">#FFF5F7FA</drawable>
+    <!-- Storage2.0 -->
+    <color name="filebrowser_list_item_selector_grey">#FFEEEEEE</color>
+    <color name="filebrowser_list_item_selector_bg_pressed">#FFF5F7FA</color>
+
+    <color name="simple_theme_background_color">#FF434A54</color>
+
+    <!-- 主界面功能引导 -->
+    <color name="home_guide_page_orange">#FFFA904A</color>
+    <color name="home_guide_page_simple_text">#C6FFFFFF</color>
+
+    <!-- 文字颜色统一 -->
+    <!-- 深色 -->
+    <color name="default_text_color_deep">#434A54</color>
+    <!-- 浅色 -->
+    <color name="default_text_color_light">#CCD1D9</color>
+    <!-- 主色 -->
+    <color name="default_text_color_main">#8CC152</color>
+
+    <color name="app_lock_ad_download_normal">#39b942</color>
+    <color name="app_lock_ad_download_pressed">#28a931</color>
+
+    <color name="shuffle_round_button_normal">#32b18e</color>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 意大利语 -->
+    <!-- 建立含至少一个字符串的语言文件夹是为了上传到GooglePlay后能被显示为支持此语言， 会作为外部语言包下发 -->
+   <string name="app_name">GO Speed</string>
+
+</resources>

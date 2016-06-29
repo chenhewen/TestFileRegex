@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+
+    <!-- 泰语 -->
+     <string name="app_name">GO Speed</string>
+
+    <!-- ==========字体模块========== -->
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_families_roboto_thin">sans-serif-thin</string>
+    <string name="font_families_roboto_light">sans-serif-light</string>
+    <string name="font_families_roboto_condensed">sans-serif-condensed</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_ok">ตกลง</string>
+    <string name="common_select">เลือก</string>
+    <string name="common_delete">ลบ</string>
+    <string name="common_others">อื่นๆ</string>
+    <string name="common_uninstall">ยกเลิกการติดตั้ง</string>
+    <string name="common_back_up">สำรอง</string>
+    <string name="common_cancel">ยกเลิก</string>
+    <string name="common_install">ติดตั้ง</string>
+    <string name="common_installed">ได้ติดตั้ง</string>
+    <string name="common_vertion">รุ่น</string>
+    <string name="common_update">อัพเดท</string>
+    <string name="common_insufficient_storate">พื้นที่เก็บไม่เพียงพอ</string>
+    <string name="common_no_sdcard">ไม่พบ SD Card</string>
+    <string name="common_uninstalled">ยังไม่ได้ติดตั้ง</string>
+    <string name="common_warning">ตักเตือน</string>
+    <string name="common_no_content">ไม่มีเนื้อหา</string>
+    <string name="common_comma">,</string>
+    <string name="common_slogan">ส่งเสริมให้เป็นมือถือที่ดีกว่าเดิม</string>
+    <string name="common_download">ดาวน์โหลด</string>
+    <string name="common_more">มากกว่านี้</string>
+    <string name="common_on">ไม่</string>
+    <string name="common_off">ปิด</string>
+    <string name="common_new">ใหม่</string>
+    
+    <!-- 一周 -->
+    <string name="sunday">วันอาทิตย์</string>
+    <string name="monday">วันจันทร์</string>
+    <string name="tuesday">วันอังคาร</string>
+    <string name="wednesday">วันพุธ</string>
+    <string name="thursday">วันพฤหัสบดี</string>
+    <string name="friday">วันศุกร์</string>
+    <string name="saturday">วันเสาร์</string>
+
+    <!-- 月份 -->
+    <string name="jan">มกราคม.</string>
+    <string name="feb">กุมภาพันธ์</string>
+    <string name="mar">มีนาคม</string>
+    <string name="apr">เมษายน</string>
+    <string name="may">พฤษภาคม</string>
+    <string name="june">มิถุนายน</string>
+    <string name="july">กรกฎาคม</string>
+    <string name="aug">สิงหาคม</string>
+    <string name="sept">กันยายน</string>
+    <string name="oct">ตุลาคม</string>
+    <string name="nov">พฤศจิกายน</string>
+    <string name="dec">ธันวาคม</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">พื้นที่เก็บ</string>
+    <string name="main_button_boost">ส่งเสริมหน่วยความจำ</string>
+    <string name="main_button_storage">ไฟล์ขยะ</string>
+    <string name="main_button_manage">แป มาเนเจร</string>
+    <string name="tip_press_again_to_exit">กดอีกครั้งเพื่อออก</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">การตั้งค่า</string>
+    <string name="menu_update">การปรับปรุง</string>
+    <string name="menu_feedback">ความคิดเห็นของคุณ</string>
+    <string name="menu_about">เกี่ยวกับ</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">คริสต์มาส</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+    <string name="boost_main_act_title">ส่งเสริมหน่วยความจำ</string>
+    <string name="boost_main_act_tab_running">กำลังทำงาน</string>
+    <string name="boost_main_act_tab_autostart">เริ่มต้นโดยอัติโนมติ</string>
+    <string name="boost_running_apps_custom">%1$d App(s) ที่เลือกไว้</string>
+    <string name="boosting_tips">กำลังส่งเสริม</string>
+    <string name="boosting_power_tips">เสริมพลังงาน</string>
+    <string name="boosted_to_optimus_tips">ถึงสถานะสูงสุดแล้ว!</string>
+    <string name="boosted_active_power_mode_tips">อู๊ปส์! %1$d แอ็ปอัตโนมัติจะเริ่มต้นอีกครั้ง \n แอคทีฟ พาวเวอร์โหมดจะจัดการกับมัน!</string>
+    <string name="enable_super_boost_enable">เปิดใช้งาน</string>
+    <string name="enable_super_boost_title">เปิดใช้งานในโหมดซูเปอร์</string>
+    <string name="enable_super_boost_main_text">เพื่อให้มีเร่งอย่างมีมีประสิทธิภาพมากขึ้น เราขอแนะนำให้คุณเปิด Accessibility features</string>
+    <string formatted="false" name="enable_super_boost_content_text1">เพื่อช่วยให้คุณหยุดแอพพลิเคชันที่ไม่จำเป็นได้อย่างสมบูรณ์</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">แตะ  SERVICE - GO Speed</string>
+    <string name="boost_groups_list_title_running_app">เเอพส์ที่กำลังดำเนินงานอยู่</string>
+    <string name="boost_groups_list_title_cpu_temperature">อุณหภูมิCPU</string>
+    <string name="boost_groups_list_title_lag_detected">แอพส์ที่ทำงานช้า</string>
+
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">เปิดปุ่มด้านบนเพื่อเปิดใช้งานโหมด  GO Speed Power สำหรับการเร่งความเร็วสูงสุด! \n \ n GO Speed เพิ่มการใช้ accessibility features เพื่อหยุดแอพพลิเคชันที่ไม่ได้ใช้ ไม่ต้องกังวลถ้าคุณเห็นการแจ้งเตือนความเสี่ยงของความเป็นส่วนตัว เป็นเพียงแค่การเตือนปกติ สำหรับการให้บริการการเข้าถึงใด ๆ \ n \ n เราสัญญาว่าจะไม่เก็บข้อมูลใด ๆ</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">ตัวเลือก</string>
+    <string name="autostart_type_optimization">ที่จะเพิ่มประสิทธิภาพ</string>
+    <string name="autostart_type_allowed">ที่ได้รับอนุญาต</string>
+    <string name="autostart_type_blocked">ถูกบล็อค</string>
+    <string name="autostart_type_system">แอพพลิเคชันที่ได้ติดตั้งไว้ก่อนแล้ว</string>
+    <string name="autostart_type_system_description">การปิดกั้นแอพพลิเคชันที่ได้ติดตั้งไว้ให้เริ่มทำงานโดยอัติโนมัติอาจทำให้ระบบไม่คงที่ ดำเนินการต่อด้วยความระมัดระวัง</string>
+    <string name="autostart_preinstll_system">แอพพลิเคชันที่ได้ติดตั้งไว้ก่อนแล้ว</string>
+    <string name="autostart_on_boot_up">เพิ่มความเร็ว</string>
+    <string name="autostart_on_background">ภูมิหลัง</string>
+    <string name="autostart_on_boot_up_and_background">เพิ่มความเร็ว/ภูมิหลัง</string>
+    <string name="autostart_detail_title">เเอพส์ที่เปิดใช้โดยอัตโนมัติ%1$d :</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="add_to_ignore_list_act_title">เติมในรายชื่อที่ไม่สนใจ</string>
+    <string name="dialog_memory_footprint">หน่วยความจำที่ใช้</string>
+    <string name="dialog_add_to_ignorelist">เติมในรายชื่อที่ไม่สนใจ</string>
+    <string name="dialog_remove_from_ignorelist">ลบออกจากรายชื่อที่ไม่สนใจ</string>
+    <string name="tip_ignore_list_appunchecked">แอพพลิเคชันเหล่านี้จะไม่ถูกเลือกหลังจากการสแกน</string>
+    <string name="tip_ignore_list_appadd">แตะ \'+\' เพื่อเพิ่มในแอพพลิเคชั่นที่ไม่สนใจ</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443"&gt;%s&lt;/font&gt; จะไม่ถูกสเเกน.</string>
+    <string name="clean_ignore_empty_tips">กดค้างรายการที่อยู่ในเเฟ้่มขยะเพื่อเพิ่มเป็นรายการที่ไม่สนใจ</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">แป มาเนเจร</string>
+    <string name="app_manager_back_up_success_tips">แอพพลิเคชันได้รับการสำรองถึง:</string>
+    <string name="app_manager_back_up_success_tips_for_one">แอพพลิเคชันได้รับการสำรองถึง:</string>
+    <string name="app_manager_back_up_fail_tips_for_one">แอพพลิเคชันล้มเหลว</string>
+    <string name="app_manager_backing_up">กำลังสำรองไว้</string>
+    <string name="app_manager_running">กำลังทำงาน</string>
+    <string name="app_manager_path">เส้นทาง</string>
+    <string name="app_manager_no_backup_found">ไม่พบข้อมูลสำรอง</string>
+    <string name="app_manager_tap_to_disable">แตะเพื่อปิดการใช้งาน / ปิดการใช้งาน</string>
+    <string name="app_manager_tap_to_enable">แตะเพื่อเปิดการใช้งาน / เปิดการใช้งาน</string>
+    <string name="app_manager_select_app_first">กรุณาเลือกแอพพลิเคชันก่อน</string>
+    <string name="app_manager_shit">ตกลง</string>
+    <string name="app_manager_freed">ให้เป็นอิสระ</string>
+    <string name="app_manager_use_rare_month">ที่ไม่ค่อยได้ใช้ในเดือน</string>
+    <string name="app_manager_use_rare_days">ที่ไม่ค่อยได้ใช้ใน %s วัน</string>
+    <string name="app_manager_use_commonly">ที่ใช้กันทั่วไป</string>
+    <string name="app_manager_android_system">ระบบแอนดรอยด์</string>
+    <string name="app_manager_use_rare">ที่ไม่ค่อยได้ใช้</string>
+
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">ผู้ใช้แอพ</string>
+    <string name="app_manager_tab_system">แปที่มากับเครื่ง แปที่มียู่I</string>
+    <string name="app_manager_tab_text_date">วันที่:</string>
+    <string name="app_manager_tab_text_frequance">ความถี่</string>
+    <string name="app_manager_tab_text_size">ขนาด</string>
+    <string name="app_manager_tab_text_battery">แบตเตอรี่</string>
+    <string name="app_manager_dialog_cancel">ยกเลิก</string>
+    <string name="app_manager_dialog_backup">สำรอง</string>
+    <string name="app_manager_dialog_uninstall">ยกเลิกการติดตั้ง</string>
+    <string name="app_manager_no_uerapp">ไม่มีแอพพลิเคชั่น</string>
+    <string name="app_manager_preinstall_disbale_list">เเอพส์ที่จะปิดใช้งาน</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">ปิด</string>
+    <string name="app_manager_preinstall_reommend_disable">ผู้ใช้%เลือกที่จะปิดเเอพส์นี้</string>
+    <string name="app_manager_preinstall_reommend_keep">เเนะนำให้เก็บไว้</string>
+    <string name="app_manager_preinstall_reommend_none">คงเดิม</string>
+    <string name="app_manager_preinstall_tip">ปิดเเอพส์ที่ติดตั้งไว้ล่วงหน้าซึ่งไม่ค่อยได้ใช้เพื่อเพิ่มหน่วยเก็บ</string>
+    <string name="app_manager_preinstall_disable_toast">ปิดเสียเเล้ว.</string>
+    <string name="app_manager_preinstall_enable_toast">เปิดใช้งานแล้ว.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">ปิดเป็นหมู่</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">ตักเตือน</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[ปิดเเอพส์นี้เสีย <font color="#fe6969">อาจเกิดผลกระทบต่อการใช้งานตามปกติของฟังก์ชั่นอื่น</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">ตกลงจะเลือกข้อนี้หรือเปล่าคะ</string>
+    <string name="app_manager_preinstall_disable_loading">กำลังโหลดอยู่…</string>
+
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">ไฟล์ขยะ</string>
+    <string name="clean_main_suggest">ที่แนะนำ</string>
+    <string name="clean_main_selected">ที่เลือกไว้</string>
+    <string name="clean_dialog_title">ข้อควรระวัง</string>
+    <string name="clean_dialog_message1">ไฟล์ที่คุณเลือกมีเนื้อหาดังข้างล่างนี้:</string>
+    <string name="gallery_thumbnails">แกลเลอรี่ภาพขนาดย่อ</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">หลังจากลบมันแล้ว จะช้าลงในการโหลดในแกลเลอรี่</string>
+    <string name="clean_group_residue">ไฟล์ที่เหลือ</string>
+    <string name="clean_group_cache">แคชไฟล</string>
+    <string name="clean_group_temp">ไฟล์ระบบชั่วคราว</string>
+    <string name="clean_group_apk">apks ที่เลิกใช้</string>
+    <string name="clean_group_big_file">ไฟล์ขนาดใหญ่</string>
+    <string name="clean_done_tips">ได้ทำความสะอาด</string>
+    <string name="clean_dialog_app_cache_yes_btn"> คู่มือการบำรุงรักษา</string>
+    <string name="clean_dialog_folder_yes_btn">มุมมอง</string>
+    <string name="clean_dialog_file_yes_btn">เปิด</string>
+    <string name="clean_dialog_media_yes_btn">เล่น</string>
+    <string name="clean_dialog_message_size">ขนาด</string>
+    <string name="clean_dialog_message_contain">บรรจุ</string>
+    <string name="clean_dialog_message_path">เส้นทาง</string>
+    <string name="clean_dialog_message_file">ไฟล์</string>
+    <string name="clean_dialog_message_folder">โฟลเดอร์</string>
+    <string name="clean_done_none_tips">ยอดเยี่ยมมาก!</string>
+    <string name="clean_dialog_btn_all">เลือกอย่างใดอย่างหนึ่ง</string>
+    <string name="clean_dialog_btn_next">ตรวจสอบ</string>
+    <string name="clean_group_ad">AD ขยะ</string>
+    <string name="clean_group_memory">หน่วยจำขยะ</string>
+    <string name="clean_item_sys_cache">หน่วยเก็บของระบบ</string>
+    <string name="clean_file_browser_no_files">ไม่ได้พบเเฟ้มใดๆ</string>
+    <string name="clean_days_ago"> วันก่อน</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969"&gt;ระวัง! &lt;/font&gt;%1$s</string>
+    <string name="clean_subitem_detail_connect">อันนี้คือ %1$sของ %2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443"&gt;เเฟ้มของคุณจะไม่ได้รับผลกระทบหลังการชำระ</string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443"&gt;การชำระเป็นรับรองความปลอดภัยรอยเปอร์เซ็น&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969"&gt;แอพส์เหล่านี้ต้องดาวน์โหลดอีกที.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969"&gt;การชำระจะลบข้อมูลทั้งหมดนี้อย่างถาวร!&lt;/font&gt;</string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">สะอาด</string>
+    <string name="uninstall_dialog_message_1">&lt;b&gt;%1$s&lt;/b&gt; left &lt;font color="#85c443"&gt;%2$s&lt;/font&gt;  ไฟล์ตกค้าง.</string>
+    <string name="uninstall_dialog_message_2">ประกอบด้วย: </string>
+    <string name="uninstall_clean_tips">  ไฟล์ตกค้างได้รับการทำความสะอาดแล้ว!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">การตั้งค่า</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">ความคิดเห็นของคุณ</string>
+    <string name="container_hint_setting_feedback">กรุณาเขียนความคิดเห็นของคุณที่นี่ ให้รายละเอียดมากที่สุดเท่าที่จะเป็นไปได้ เราจะฟังและปรับปรุงเสมอ</string>
+    <string name="notice_setting_feedback">แบบของโทรศัพท์และรุ่นจะถูกเก็บรวบรวมสำหรับการวินิจฉัยปัญหาของคุณ เราจะไม่เก็บข้อมูลส่วนบุคคลของคุณโดยไม่ได้รับอนุญาต</string>
+    <string name="no_contain_setting_feedback">สวัสดี, พูดอะไรสักอย่าง?</string>
+    <string name="sendok_setting_feedback">ขอบคุณสำหรับความคิดเห็นของคุณ!</string>
+    <string name="checknet_setting_feedback">กรุณาตรวจสอบเครือข่ายของคุณ</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">
+        <u>"ไลค์"เราใน Facebook</u>
+    </string>
+    <string name="googleplus_about_setting">
+        <u>เข้าร่วมกับ Google+</u>
+    </string>
+    <string name="googleplay_about_setting">
+        <u>ประเมินเราได้ใน GooglePlay</u>
+    </string>
+    <string name="title_about_setting">เกี่ยวกับ</string>
+    <string name="share_setting_about">GO Speed ทำให้โทรศัพท์ของฉันทำงานได้เร็วขึ้นและสะอาดขึ้น ลองดู! ลองใช้ที่: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">© ซีโร่ทีม 2014-2015 สงวนลิขสิทธิ์</string>
+    <string name="law_jump_setting_about">
+        <u>นโยบายความเป็นส่วนตัว</u>
+    </string>
+    <string name="share_title_setting_about">แชร์ GO Speed</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+     <string name="gp_not_connect">ไม่สามารถเปิดการเชือมต่อได้</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Widget ลอย</string>
+    <string name="title_notice">การแจ้งเตือน</string>
+    <string name="enable_widget_setting_setting">เปิดใช้งาน</string>
+    <string name="hide_widget_setting_setting">ซ่อนในส่วนเวลาของ status bar</string>
+    <string name="show_widget_setting_setting">แสดงบนเดสก์ทอปเท่านั้น</string>
+    <string name="memory_setting_setting">จำเป็นที่ต้องเพิ่มหน่วยความจำ</string>
+    <string name="storge_setting_setting">หน่วยความจำได้ถูกใช้หมดแล้ว</string>
+    <string name="junk_setting_setting">ไฟล์ขยะที่เหลืออยู่</string>
+    <string name="autostart_setting_setting">คำขอเริ่มอัติโนมัติใหม่</string>
+    <string name="ignore_setting_setting">รายชื่อที่ไม่สนใจ</string>
+    <string name="memery_boost_setting_setting">แอพพลิเคชันที่วิ่งอยู่</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">ทั่วไป</string>
+    <string name="menu_general_setting_language">ภาษา</string>
+    <string name="junk_clean_setting">ชำระขยะ</string>
+    <string name="clean_ignore_title">แฟ้มขยะของรายการที่ไม่สนใจ</string>
+    <string name="clean_ignore_list_tips">รายการเหล่านี้จะไม่ถูกสเเกนเป็นเเฟ้มขยะ</string>
+    <string name="menu_general_setting_shortcut">ตั้งปุ่มลัด</string>
+    <string name="menu_junk_setting">แฟ้มขยะ</string>
+    <string name="menu_junk_setting_scan_memory">สเเกนขยะในหน่วยความจำ</string>
+    <string name="menu_join_uep_plan">&lt;u&gt;โปรเเกรมสำหรับประสบการณ์ของผู้ใช้&lt;/u&gt;</string>
+    <string name="menu_smart_boost">เพิ่มความเร็วอย่างสมาร์ท</string>
+    <string name="smart_boost_screen_lock">เพิ่มความเร็วอย่างสมาร์ทบนหน้าจอล็อค</string>
+    <string name="smart_boost_show_result">เเสดงผลหลังเพิ่มความเร็วอย่างสมาร์ท</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">ปิดการใช้งานของ widget ลอยหรือ?</string>
+    <string name="float_hide_float_message">นอกจากนี้คุณยังสามารถซ่อน widget ลอยในส่วนเวลาของ status bar</string>
+    <string name="float_dialog_ok">ตกลง</string>
+    <string name="float_dialog_cancel">ยกเลิก</string>
+    <string name="float_dialog_hide_ok"> ลองดูสิ !</string>
+    <string name="float_dialog_hide_cancel">ปิดการใช้งานอยู่แล้ว</string>
+
+    <!-- ==Root 相关 == -->
+    <string name="fail_to_Operation">ไม่ได้รับการอนุญาต การดำเนินการล้มเหลว!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_boost">ส่งเสริม</string>
+    <string name="notification_release_more"><![CDATA[พื้นที่ว่าง %s MB. <font color="#85c443">ทำให้ว่างมากขึ้นอีก!</font>]]></string>
+    <string name="notification_ram_black">&lt;font color="#1d1d1d"&gt;หน่วยความจำทีือ่เหลคคือ &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;น้อยกว่า%s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_white">&lt;font color="#ffffff"&gt;หน่วยคำจำที่เหลือ &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;น้อยกว่า %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_line2">Device may get extremely slow</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"&gt; %s เเอพส์&lt;/font&gt;&lt;font color="#fe6969"&gt;กำลังใช้เเบบเตอร์รี่อยู่&lt;/font&gt;</string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"&gt; %sเเอพส์&lt;/font&gt;&lt;font color="#fe6969"&gt;กำลังใช้เเบบเตอร์รี่อยู่&lt;/font&gt;</string>
+    <string name="notification_ram_help_line2">Boost to save battery life</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d"&gt;หน่วยเก็บที่ใช้ไปเเล้ว.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;เพียง %s%% left&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff"&gt;หน่วยเก็บที่ใช้ไปเเล้ว.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;เพียง %s%% left&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_line2">อาจไม่มีที่ว่างพอสำหรับดาวน์โหลดเเอพส์นี้</string>
+    <string name="notification_release_more_banner">ปล่อยเสร็จเเล้ว ปล่อยให้มากกว่านี้</string>
+    <string name="notification_release_sleep">เพิ่มขึ้น %s MBระหว่างสลีบ </string>
+    <string name="notification_boost_phone_optimum"><![CDATA[มือถือคุณอยู่ในภาวะที่ดีที่สุดเเล้ว<font color="#85c443">ฟีเจอร์ที่มากกว่านี้</font>]]></string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d"&gt;อุปกรณ์กำลัง &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;ทำงานช้าลง&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff"&gt;อุปกรณ์กำลัง&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;ทำงานช้าลง&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block2">มีเเอพส์หนึ่งกำลังใช้ CPUมาก</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d"&gt;CPU กำลัง &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;ทำงานหนักเกินไป&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff"&gt;CPU กำลัง &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;ทำงานหนักเกินไป;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat2">มีเเอพส์หนึ่งกำลังใช้CPUอย่างผิดปกติ</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d"&gt;CPU Temp. กำลัง &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;เพิ่มขึ้นอย่างรวดเร็ว&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff"&gt;CPU Temp. กำลัง&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;เพิ่มขึ้นอย่างรวดเร็ว&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp2">มีแอพส์หนึ่งกำลังใช้ CPUอย่างผิดปกติ </string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#1d1d1d"&gt;ขยะกำลังใช้หน่วยความไปจำเรื่อยๆ&lt;/font&gt;</string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#ffffff"&gt;ขยะกำลังใช้หน่วยความจำไปเรื่อยๆ&lt;/font&gt;</string>
+    <string name="notification_clean_scan_message">ชำระเพื่อเพิ่มหน่วยเก็บของมือถือ</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969"&gt;ขยะ &lt;/font&gt;&lt;font color="#1d1d1d"&gt;ได้ถูกสร้างขึ้นมาใหม่&lt;/font&gt;</string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969"&gt;ขยะ &lt;/font&gt;&lt;font color="#ffffff"&gt;ได้ถูกสร้างขึ้นมาใหม่&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d"&gt;เเอพส์อากาศที่ดีที่สุดสำหรับคุณBest &lt;/font&gt;</string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff"&gt;เเอพส์อากาศที่ดีที่สุดสำหรับคุณ&lt;/font&gt;</string>
+    <string name="notification_go_weather_message">วิตเเกจคริสต์มาสใหม่ออกมาเเล้ว!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d"&gt;เบื่อกับระบบข้อความเดิมหรือยังBored&lt;/font&gt;</string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff"&gt;เบื่อกับระบบข้อความเดิมหรือยัง&lt;/font&gt;</string>
+    <string name="notification_go_sms_message">ออกเเบบข้อความของคุณได้เดี๋ยวนี้เลย!</string>
+    <string name="go_weather">GO อากาศ -การพยากรณ์อากาศ &amp;เเอมวิตเกจ</string>
+    <string name="go_weather_done_message">อำนวย current &amp; ข้อมูลอากาศของอนาคต,วิตเกจสวยๆ &amp; วอลเปเปอร์ออนไลน์.</string>
+    <string name="notification_guide_text">เปิดใช้สลักของคุณเอ</string>
+    
+    <!-- 文件类型 -->
+    <string name="file_open_as">เปิดเป็น</string>
+    <string name="filetype_text">ข้อความ</string>
+    <string name="filetype_video">วิดีโอ</string>
+    <string name="filetype_audio">ระบบเสียง</string>
+    <string name="filetype_image">ภาพ</string>
+    <string name="filetype_music">ดนตรี</string>
+    <string name="filetype_document">ไฟล์</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">การบีดอัด</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">สลับการแจ้งเตือน</string>
+    <string name="notification_toggle_nocal">ไม่พบเครื่องคำนวณ!</string>
+    <string name="notification_toggle_open">การแจ้งเตือน GO Speed เปิดใช้งาน</string>
+    <string name="notification_toggle_noflash">เครื่องของคุณไม่มีไฟฉาย!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">GO Speed สนับสนุน %s, ติดตั้งเลย?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">การเชื่อมต่อล้มเหลว</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">การดาวน์โหลดภาษาล้มเหลว</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">พื้นที่จัดเก็บ</string>
+    <string name="storage_main_act_details">รายละเอียด</string>
+    <string name="storage_main_act_tab_used_space">พื้นที่ใช้งาน</string>
+    <string name="storage_main_act_tab_app_total">%s แอพ</string>
+    <string name="storage_main_act_tab_audio_total">%sเพลง</string>
+    <string name="storage_main_act_tab_image_total">%s รูปภาพ</string>
+    <string name="storage_main_act_tab_document_total">%s เอกสาร</string>
+    <string name="storage_main_act_tab_other_total">อื่นๆ</string>
+    <string name="file_category_image_title">รูปภาพ</string>
+    <string name="file_category_image_delete_dialog_msg_1">ไฟล์จะถูกลบ</string>
+    <string name="file_category_image_delete_dialog_msg_2">ไฟล์ที่ถูกลsบจะไม่สามารถกู้คืนได้!</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">เพลง</string>
+    <string name="music_group_music">เพลง</string>
+    <string name="music_group_rings">ริงโทน</string>
+    <string name="music_group_record">บันทึก</string>
+    <string name="music_dialog_title">เตือน</string>
+    <string name="music_dialog_delete_cancel">ยกเลิก</string>
+    <string name="music_dialog_delete_delete">ลบ</string>
+    <string name="music_dialog_delete_notice">ไฟล์จะถูกลบ</string>
+    <string name="music_dialog_delete_notice_below">ไฟล์ที่ถูกลบจะไม่สามารถกู้คืนได้!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">เอกสาร</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">อื่นๆ</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">ลบ</string>
+    <string name="image_dialog_text1">ไฟล์นี้จะถูกลบ</string>
+    <string name="image_dialog_text2">คุณแน่ใจ?</string>
+    <string name="image_no_selected">ไม่ได้เลือกไฟล์</string>
+    <string name="image_size_notice">%s ปลอดภัย!</string>
+    <string name="image_delete_layout_text">ลบ(%s)</string>
+    <string name="image_delete_ok">ตกลง</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">ไฟล์เหล่านี้ไม่สามารถลบได้</string>
+    <string name="no_app_to_open_file">ไม่มีแอพในเครื่องที่สามารถเปิดไฟล์ได้</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">ลากมาตรงนี้เพื่อเร่งมือถือคุณ</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">รุ่นใหม่</string>
+    <string name="update_update">การปรับปรุง</string>
+    <string name="update_later">ต่อมา</string>
+    <string name="update_cancel">ยกเลิก</string>
+    
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">เพิ่มความเร็ว</string>
+    <string name="shortcut">ปุ่มลัด</string>
+    
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">เปิดภายหลัง</string>
+    <string name="auto_start_on_connectivity_change">เปิดเมื่อเปลี่ยนเน็ตเวิร์ค</string>
+    <string name="auto_start_on_package_changed">เปิดเมื่อภาวะของเเอพส์เปลี่ยนเเปลง</string>
+    <string name="auto_start_on_package_added">เปิดเมื่อติดตั้งเเอพส์</string>
+    <string name="auto_start_on_package_removed">เปิดเมื่อถอนการติดตั้งเเอพส์</string>
+    <string name="auto_start_on_package_replaced">เปิดเมื่อเปลี่ยนเเอพส์</string>
+    <string name="auto_start_on_any_data_state">เปิดเมื่อข้อมูลเปลี่ยนเเปลง</string>
+    <string name="auto_start_on_outgoing_call">เปิดตอนที่โทร.ออก</string>
+    <string name="auto_start_on_phone_state_changed">เปิดเมื่อวางสาย</string>
+    <string name="auto_start_on_user_present">เปิดเมื่อปลดล็อค</string>
+    <string name="auto_start_on_wifi_state_change">เปิดเมื่อเชื่อมต่อ Wi-Fi</string>
+    <string name="auto_start_on_wifi_enable_change">เปิดเมื่อเปิดหรือปิด Wi-Fi</string>
+    <string name="auto_start_on_time_set">เปิดเมื่อถึงเวลาที่ตั้งไว้</string>
+    <string name="auto_start_on_bluetooth_state_change">เปิดเมื่อภาวะบลูธูสเปลี่ยนเเปลง</string>
+    <string name="auto_start_on_power_connected">เปิดเมือชาก์ทเเบบ</string>
+    <string name="auto_start_on_power_disconnected">เปิดเมื่อหยุดการชาก์ทเเบบ</string>
+    
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">กำลังปิดการใช้งาน</string>
+    <string name="disable_apps_done_disable_count">%s ปิดการใช้งานแล้ว!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">GO Speed ทำให้มันไม่สามารถใช้งานได้</string>
+    <string name="disable_apps_wait_to_stop_tips">พยายามที่จะปิด รอ…</string>
+    <string name="disable_list_no_app_tip">ไม่มีแอพที่ถูกปิด</string>
+    <string name="disable_group_most_disable_title">ควรปิดการใช้งาน</string>
+    <string name="disable_group_recommend_keeping_title">แนะนำให้เปิดใช้งาน</string>
+    <string name="disable_group_recommend_keeping_subtitle">การปิดการใช้งานอาจทำให้ระบบล้มเหลว</string>
+    <string name="disable_app_info_dialog_disable_btn_text">ปิดใช้งาน</string>
+    <string name="disable_app_info_dialog_enable_btn_text">เปิดใช้งาน</string>
+    <string name="disable_app_info_dialog_consuming_tip">แอพนี้กินหน่วยความจำระบบ</string>
+    <string name="disable_app_info_dialog_system_error_tip">การปิดการใช้งานอาจทำให้ระบบล้มเหลว</string>
+    <string name="disable_app_info_dialog_no_statement">คุณสามารถลองปิดใช้งานถ้ามันไม่จำเป็น</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">บริการที่ติดตั้งมาตั้งแต่โรงงาน</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&lt;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">ติดตั้งเลย</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="file_category_video_no_content">ไม่มีวิดีโอ</string>
+    <string name="file_category_video_delete_msg">Videos จะถูกลบไป.</string>
+
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">%sวิดีโอทั้งหมด</string>
+    <string name="video_title_selected">%sวิดีโอที่เลือก</string>
+
+    <!-- 音乐分析模块 -->
+    <!-- 文档分析模块 -->
+    <!-- V1.13 wy 添加 -->
+    <!-- 文件没有删除成功 -->
+    <!-- 浮窗引导 -->
+    <!-- 预装应用禁用 -->
+    <!-- 广告 -->
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">ชัยโย!</string>
+    <string name="rate_gp_dialog_feedback_title">การตอบสนอง</string>
+    <string name="rate_gp_dialog_rate_title">รักGO Speed</string>
+    <string name="rate_gp_dialog_one_notice_boost">เมื่อ %1$s ที่ผ่านมา, GO Speed ได้จัดการ &lt;font color="#85c443"&gt; %2$s &lt;/font&gt;เเอพส์ไร้ประสิทธิภาพให้คุณ.&lt;br /&gt; &lt;br/&gt; &lt;font color="#85c443"&gt;คุณพอใจกับGO Speedไหมคะ?&lt;/font&gt;</string>
+    <string name="rate_gp_dialog_one_no_boost">ไม่ค่ะ</string>
+    <string name="rate_gp_dialog_one_yes_boost">ค่ะ!</string>
+    <string name="rate_gp_dialog_one_notice_clean">คุณเพิ่งชำระขยะ &lt;font color="#85c443"&gt; %s &lt;/font&gt; อย่างสำเร็จ! &lt;br /&gt; &lt;br/&gt;คิดว่า GO Speed เป็นไงบ้างสำหรับคุณ?</string>
+    <string name="rate_gp_dialog_one_no_clean">ไม่ดีพอ</string>
+    <string name="rate_gp_dialog_one_yes_clean">ชอบมากเลย!</string>
+    <string name="rate_gp_dialog_two_notice">ไม่ทราบว่าคุณยอมที่จะส่งข้อความตอบสนองให้กับเราไหม\nคำทุกคำของตุณมีค่าสำหรับเรามากๆ</string>
+    <string name="rate_gp_dialog_two_no">ไม่ค่ะ ขอบคุณค่ะ</string>
+    <string name="rate_gp_dialog_two_yes">โอเค เเน่นอนค่ะ</string>
+    <string name="rate_gp_dialog_three_notice">งั้น,ให้คะเเนนเราห้าดาวได้ปะ?</string>
+    <string name="rate_gp_dialog_three_no">ไม่ ขอบคุณค่ะ</string>
+    <string name="rate_gp_dialog_three_yes">โอเค เเน่นอนค่ะ</string>
+    <string name="rate_gp_notification_notice">คุณกำลังจัดการเเอพส์ที่ดำเนินการล่าช้า %s ได้เรียบร้อยเเล้ว ต้องการเช็ครายละเอียดไหม?</string>
+
+    <!-- 启动页 -->
+    <string name="private_start">เริ่ม</string>
+    <string name="private_join_uep">&lt;u&gt;โปรเเกรมประสบการณ์ของผู้ใช้;/u&gt;</string>
+    <string name="privacy_start_by_agree_policy">คุณคิดว่าโอเคกับนโยบายความเป็นส่วนตัวไหม&lt;u&gt;Privacy Policy&lt;/u&gt;</string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">ติดตั้งเสร็จเเล้ว ต้องการลบapkที่ไม่ใช้อีกเเล้วไหม </string>
+    <string name="install_listen_installed_multiple_msg">เเอพส์ติดตั้งเรียบร้อยเเล้ว ลบ apksที่ไม่ใช้อีกเเล้วเพื่อความปลอดภัย </string>
+    <string name="install_listen_delete_apk_tip">ลบหมดเเล้ว</string>
+    <string name="install_listen_dialog_clean_btn_text">ลบ</string>
+    <string name="install_listen_dialog_cancel_btn_text">ยกเลิก</string>
+    <string name="install_listen_dialog_eye_tip_on">ไม่ต้องถามอีกเเล้วภายในสามวันต่อไป</string>
+    <string name="install_listen_dialog_eye_tip_off">ถามทุกครั้ง</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">ตัวเพิ่มความเร็วการเล่นเกมส์</string>
+    <string name="game_boost_add_to_game_title">เพิ่มเติมเกมส์</string>
+    <string name="game_boost_effect">Boost &lt;font color="#85c443"&gt;%s &lt;/font&gt; ต้องการใช้RAMที่มากกว่าเดิมสำหรับการเล่นเกมส์.</string>
+    <string name="game_cell_add">เพิ่มเติมเกมส์</string>
+    <string name="game_cell_ok">โอเค</string>
+    <string name="game_boost_menu_about">เล่นยังไง</string>
+    <string name="game_boost_menu_add_shutcut">ตั้งฟอนเตอร์สำหรับเกมส์</string>
+    <string name="game_boost_folder_create_success">ตั้งฟอนเตอร์เรียบร้อยเเล้ว.</string>
+    <string name="game_boost_box_shortcut_name">ตัวเพิ่มความเร็วการเล่นเกมส์</string>
+    <string name="game_boost_box_shortcut_name_new">เกมส์ของฉัน</string>
+    <string name="game_boost_add_card_view_title_popular">เกมส์ที่ได้รับความนิยม</string>
+    <string name="game_boost_add_new_game_to_boost">เกมส์%s ถูกจัดเข้าไปในตัวเพิ่มความเร็วการเล่นเกมส์เเล้ว</string>
+    <string name="game_boost_add_new_games_to_boost">เกมส์ใหม่%s ถูกจัดเข้าไปในตัวเพิ่มความเร็วการเล่นเกมส์เเล้ว</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">กำลังเพิ่มความเร็ว…</string>
+    <string name="game_accel_anim_boost_toast_tip">เพิ่มความเร็วขึ้นไป, %s%% เเล้ว</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">ปัญหาของCPU</string>
+    <string name="cpu_fix">เเก้ไข</string>
+    <string name="cpu_check">เช็ค</string>
+    <string name="cpu_issue_type_temp_overheated">ร้อนเกินไป!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">กำลังเพิ่มขึ้นอย่างรวดเร็ว!</string>
+    <string name="cpu_issue_type_heavily_occupied">CPU ทำงานหนักเกินไป!</string>
+    <string name="cpu_temp_issue_app">เป็นต้นเหตุที่ทำให้ปัญหานี้เกิดขึ้น</string>
+    <string name="cpu_occupied_issue_app">กำลังใช้CPU &lt;font color="#D46565"&gt; %s &lt;/font&gt; </string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">ตัวลดความร้อนของCPU</string>
+    <string name="cpu_coll_down_cpu">ลดความร้อน CPU</string>
+    <string name="cpu_temperature_issue">ปัญหาอุณหภูมิ</string>
+    <string name="cpu_device_running_slow">อุปกรณ์ดำเนินการเฉื่อยช้า</string>
+    <string name="cpu_issue_detected">ตรวจเช็คปัญหา</string>
+    <string name="cpu_cool_down_further">ลดความร้อนให้ต่ำลงไปอีก, ชำระเเอพส์ %sที่กำลังดำเนินการอยู่ </string>
+    <string name="cpu_temp_well">อุณหภูมิของCPUปกติดี</string>
+    <string name="cpu_temp_hot">ยังร้อนอยู่นิดหนึ่ง</string>
+    <string name="cpu_temp_overheated">ร้อนเกินไป</string>
+    <string name="cpu_temp_chilling">กำลังลดความร้อนอยู่</string>
+    <string name="cpu_temp_cooler">ตัวลดความร้อนของCPU</string>
+    <string name="cpu_occupy">กำลังใช้ปริมาตร&lt;font color="#D46565"&gt; %s &lt;/font&gt; ของCPU</string>
+    <string name="cpu_abnormal">การใช้CPUอย่างผิดปกติ: &lt;font color="#D46565"&gt; %s &lt;/font&gt;</string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">เริ่มปรับปรุง</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">ให้อุปกรณ์หยุดทำงานสักพักเพื่อลดความร้อนลง</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">ไม่มีเเอพส์ที่ทำความร้อนอยู่</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">อุณหภูมิของอุปกรณ์กำลังลดลง</string>
+    <string name="cpu_anim_cooldown_done_no_temp">ได้ชำระแอพส์ที่ทำความร้อนเรียบร้อยเเล้ว</string>
+    <string name="cpu_anim_cooldown_done_dropped">โดนจับเเล้ว</string>
+    <string name="cpu_anim_cooldown_process_tip_text">เริ่มลดความร้อนลง…</string>
+    <string name="cpu_anim_scan_process_tip_text">กำลังสเเกน CPUอยู่…</string>
+    <string name="cpu_anim_lag_done_tip_text">เพิ่มความเร็วเสร็จเเล้ว!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">โปรดเช็คภาวะการเชื่อมต่อเน็ตเเล้วลองอีกที</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">ลองใช้ตัวเพิ่มความเร็วการเล่นเกมส์ดู</string>
+    <string name="finish_page_card_game_booster_desc_enabled">ติดตั้งตัวเพิ่มความเร็วการเล่นเกมส์บนหน้าจอเรียบร้อยเเล้ว,ไปเช็คดูหน่อยเถอะ :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">เปิดใช้งานเเล้ว</string>
+    <string name="finish_page_card_game_booster_desc">ของขวัญสำหรังผู้เล่นเกมส์!ประสิทธิภาพสูงสุด&amp;ตัวเพิ่มความเร็วการเล่นเกมส์ที่เท่มากๆ</string>
+    <string name="finish_page_card_game_booster_desc_single_game">กระตุ้นการใช้งานของตัวเพิ่มความเร็วการเล่นเกมส์เพื่อเพิ่มความเร็วขึ้นไป &lt;big&gt;%s&lt;/big&gt; 65%% ?</string>
+    <string name="finish_page_card_game_booster_btn">ลองดูหน่อย</string>
+
+    <string name="finish_page_card_whitelist_name">อะไรที่จำไม่ถูกชำระ</string>
+    <string name="finish_page_card_whitelist_desc">เเอพส์สำคัญที่อยู่ในรายการมี่ไม่สนใจจะไม่ถูกชำระโดยตัวเพิ่มความเร็ว.รายการนั้นสามารถปรับเปลี่ยนได้ </string>
+    <string name="finish_page_card_whitelist_btn">เช็คดูหน่อย</string>
+    <string name="finish_page_card_autostart_name">ค้นเจอเเอพส์ที่เปิดโดยอัตโนมัติ</string>
+    <string name="finish_page_card_autostart_desc">&lt;big&gt;%s&lt;/big&gt; เเอพส์ที่เปิดโดยอัตโนมัติถูกปรับปรุงเสียเเล้ว</string>
+    <string name="finish_page_card_autostart_btn">เช็ค</string>
+    <string name="finish_page_card_photo_name">จัดการรูปภาพให้เป็นระเบียบ</string>
+    <string name="finish_page_card_photo_desc">คุณได้ถ่ายรูปมากกว่า &lt;big&gt;%s &lt;/big&gt;รูป,เเต่อาจมีบางรูปภาพที่สามารถลบได้, ถูกไหมคะ?</string>
+    <string name="finish_page_card_photo_btn">จัดให้เป็นระเบียบ</string>
+    <string name="finish_page_card_clean_1_name">ขยะที่จะถูกชำระเสีย</string>
+    <string name="finish_page_card_clean_1_desc">มือถือคุณได้ผลิตขยะ &lt;big&gt;%s&lt;/big&gt;ในช่วงเร็วๆนี้</string>
+    <string name="finish_page_card_clean_1_btn">ชำระ</string>
+    <string name="finish_page_card_activate_power_mode_title">เเอพส์%sถูกเปิดใช้โดยอัตโนมัติpps &lt;big&gt;&lt;/big&gt;</string>
+    <string name="finish_page_card_activate_power_mode_desc">เปิด&lt;big&gt;โหมดพลังงาน;/big&gt;เพื่อเเก้ไขปัญหานี้</string>
+    <string name="finish_page_card_activate_power_mode_btn">เปิด</string>
+    <string name="finish_page_card_feedback_name">เสนอความคิดเห็นของคุ๊ให้เราทราบ</string>
+    <string name="finish_page_card_feedback_desc">ฟีเจอร์ที่ชอบมากที่สุด,ข้อเสนอ,อะไรก็ได้</string>
+    <string name="finish_page_card_feedback_btn">การตอบสนอง</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">เพิ่มความเร็วของมือถือ</string>
+    <string name="finish_page_card_memory_boost_normal_desc">ปล่อยหน่วยความจำเพื่อเพิ่มความเร็วมือถือ</string>
+     <string name="finish_page_card_memory_boost_normal_btn">เพิ่มความเร็ว</string>
+    <string name="finish_page_card_memory_boost_strong_name">หน่วยความจำยังคงเหลือ&lt;big&gt;%s%%&lt;/big&gt; </string>
+    <string name="finish_page_card_memory_boost_strong_desc">เเอพส์%s ซึ่งกำลังดำเนอนการอยู่ได้ใช้หน่วยความจำ มือถือจะปฏิบัติการอย่างเฉื่อยช้า</string>
+    <string name="finish_page_card_memory_boost_strong_btn">เพิ่มความเร็ว</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">ปิดเเอพส์ที่ติดตั้งโดยล่วงหน้า</string>
+    <string name="finish_page_card_disable_desc">เเอพส์%1$s ที่ติดตั้งโดยล่วงหน้า, &lt;big&gt;%2$s&lt;/big&gt; จะถูกปิดเสียหมด</string>
+    <string name="finish_page_card_disable_btn">เช็ค</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">เช็คดูว่ามีแอพส์อะไรบ้างที่เเอบเปิดโดยอัตโนมัติ</string>
+    <string name="finish_page_no_ad_clean2_tips">ขยะจะลดความเร็วปฏิบัติการของมือถือ</string>
+    <string name="finish_page_no_ad_clean1_tips">ขยะต้องชำระทุกวัน</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">เกมส์ก็ต้องเพิ่มความเร็วอีกเช่นกัน!</string>
+    <string name="finish_page_no_ad_disable_tips">เเอพส์บางอย่างที่ติดตั้งโดยล่วงหน้านั้นไร้ประโยชน์จริงๆ</string>
+    <string name="finish_page_no_ad_photo_tips">ยังสามารถกันหน่วยเก็บออกมาให้มากกว่านี้!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">โหมดพลังงานสามารถเเก้ไขเเอพส์ที่หยุดยากได้!</string>
+    <string name="finish_page_no_ad_whitelist_tips">ระวังอย่าชำระเเอพส์ที่ต้องการไปด้วย!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">มือถืออยู่ในสภาพที่ปฏิบัติการเฉื่อยช้า</string>
+    <string name="finish_page_no_ad_boost_normal_tips">มือถือคุณสามารถเร็วกว่านี้อีก</string>
+
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">เพิ่มเติมเกมส์</string>
+    <string name="game_accel_guide_title">เพิ่มความเร็วการเล่นเกมส์</string>
+    <string name="game_accel_guide_text2">ถูกเปิดใช้งานเเล้ว</string>
+    <string name="game_accel_guide_try_text">ลองกดดู!</string>
+    <string name="game_accel_guide_gamename_1">ตั้งปุ่มลัดเรียบร้อยเเล้ว</string>
+    <string name="game_accel_guide_gamename_2">เปิดบนเดสทอป</string>
+    <string name="game_accel_guide_gamename_3">กำลังสเเกนเกมส์อยู่…</string>
+    <string name="game_accel_guide_discovery_text_above">ช่องZ</string>
+    <string name="game_accel_sec_anim_title">เกมส์</string>
+    <string name="game_accel_shortcut_created">ตั้งเสร็จเเล้ว</string>
+    <string name="game_accel_tip_dialog_content_text_new">เปิดตัวเพิ่มความเร็วการเล่นเกมส์เพื่อเพิ่มความเร็วขึ้นไป &lt;font color="#85c443"&gt;\"%s\"&lt;/font&gt; 65%%?</string>
+    <string name="game_accel_sort_name">ชื่อ</string>
+    <string name="game_accel_sort_Date">วันที่</string>
+    <string name="game_accel_sort_Frequency">ความถี่</string>
+    <string name="game_accel_game_box_title">จัดการเกมส์</string>
+    <string name="game_accel_add_shortcut">เพิ่มปุ่มลัด</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">ค้นพบ</string>
+    <string name="game_distribute_connection_failed">เชื่อมต่อล้มเหลว</string>
+    <string name="game_distribute_net_data_alert">เล่นตอนที่มี WIFIจะช่วยประหยัดเเพคเกจได้ </string>
+    <string name="game_distribute_warning_title">GO Speed ทีวี</string>
+    <string name="game_distribute_warning_content"> ภาพยนตร์ที่อยู่ในวิดีโอนี้เลิศมากเลย\nวิดีโอนี้ไม่เพียงฉายภายในประเทศเท่านั้น ยังมีสิทธี์อื่นๆอีกด้วย\n การกดทุกครั้งหรือการดูภาพยนตร์นั้นเป็นที่ต้อนรับของ Z Speedด+. เราเเนะนำให้คุณเล่นเกมส์ในเวลาที่เหมาะสมด้วยความจริงใจ</string>
+    <string name="game_distribute_video_title">ช่อง</string>
+    <string name="game_distribute_game_searching">กำลังค้นหาเกมส์อยู่...</string>
+
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534"&gt;บิ๊กเเอพส์ &lt;/font&gt;</string>
+    <string name="cpu_thieves_title">เเอพส์ติดอันดับสามขั้นไป &lt;font color="#6ac534"&gt;ที่ใช้CPUมากที่สุดในวันนี้&lt;/font&gt;</string>
+    <string name="num_times">%sครั้ง</string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">หน่วยความจำที่เหลืออยู่น้อยมาก</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+
+    <string name="home_guide_card_photo_desc1">การถ่านรูปนั้นง่ายมาก</string>
+    <string name="home_guide_card_photo_desc2">เเต่ตอนที่จะลบมันหมดนั้นยาก</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+
+    <string name="home_guide_card_cpu_desc">CPUที่ทำงานหนักไปนั้นจะใช้batteryไปอย่างรวดเร็ว</string>
+
+    <string name="home_guide_card_disbale_desc">จัดการเเอพส์ที่ติดตั้งโดยล่วงหน้าเสีย!</string>
+    <string name="home_guide_card_disbale_desc2">มือถือของคุณสามารถเร็วกว่านี้อีก!</string>
+    <string name="home_guide_card_disbale_desc_big">เเอพส์%s</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">โหมดพลังงานกำลังเพิ่มความเร็วอยู่</string>
+    <string name="enable_super_boost_mode_normal">เพิ่มความเร็วในภาวะปกติ</string>
+    <string name="enable_super_boost_desc_super">&lt;b&gt;Boost:&lt;/b&gt; เเอพส์ธรรมดา, &lt;mark&gt;&lt;font color="red"&gt;เเอพส์ที่ติดตั้งโดยล่วงหน้า&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;ให้พลังงานการเพิ่มความเร็ว60% อย่างมอถือที่Rootไปเเล้ว .&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (โปรดเปิดสิทธิการเข้าถึงให้ GO Speed ในขั้นตอนต่อไป)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b&gt;Boost:&lt;/b&gt; เเอพส์ธรรมดา, &lt;mark&gt;&lt;font color="red"&gt;แอพส์ที่ติดตั้งโดยอัตโนมัติ&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;ให้พลังงานการเพิ่มความเร็ว60%อย่างมือถือที่Rootไปเเล้ว.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+         (โปรดเปิดสิทธิการเข้าถึงให้ GO Speed ในขั้นตอนต่อไป)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b&gt;เพิ่มความเร็ว:&lt;/b&gt; เเอพส์ธรรมดา&lt;br&gt;
+      เเอพส์ที่ติดตั้งโดยล่วงหน้าจะไม่ได้รับการเพิ่มความเร็วนอกจะในโหมดพลังงาน.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">เปิดโหมดพลังงานเพื่อเพิ่มความเร็วมือถือตอนนี้!</string>
+
+
+    <string name="enable_super_disable_mode_super">ปิดเป็นหมู่</string>
+    <string name="enable_super_disable_mode_normal">ปิดด้วยมือ</string>
+    <string name="enable_super_disable_desc_super">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;ฟีเจอร์:&lt;/b&gt;ปิดเเอพส์ที่ไร้ประโยชน์เป็นหมู่เพียงกดครั้งเดียว &lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (โปรดเปิดสิทธิการเข้าถึงให้ GO Speedไนขั้นตอนต่อไป)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;ฟีเจอร์:&lt;/b&gt; ปิดเเอพส์ที่ไร้ประโยชน์เพียงกดครั้งเดียว&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (โปรดเปิดGO Speed อีกทีหนึ่งหลังจากที่รีสตาร์ทมือถือ)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b&gt;ฟีเจอร์:&lt;/b&gt; ปิดเเอพส์ที่ไร้ประโยชน์โดยทีละคน. &lt;br&gt;
+                    &lt;mark&gt;&lt;font color="red"&gt;เลือกฟีเจอร์ปิดเป็นหมู่เพื่อควบคุมได้ง่ายๆ.&lt;/font&gt; &lt;/mark&gt;
+    </string>
+    <string name="enable_super_mode_check_desc_disable">เปิดฟีเจอร์ปิดเป็นหมู่</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">การตั้งค่าสลักเเจ้งเตือน</string>
+    <string name="notification_toggle_settings_label_themes">ธีม</string>
+    <string name="notification_toggle_settings_label_toggles">สลัก</string>
+    <string name="notification_toggle_settings_label_zspeed">คลาสิก</string>
+    <string name="notification_toggle_settings_label_popular">ยอดนิยม</string>
+    <string name="notification_toggle_theme_name_green">เเตเมอเตอร์</string>
+    <string name="notification_toggle_theme_name_pink">อธีนา</string>
+    <string name="notification_toggle_theme_name_black">เอรีบัส</string>
+    <string name="notification_toggle_theme_name_silver">ยูรานัส</string>
+    <string name="notification_toggle_theme_name_golden">ครอนส</string>
+    <string name="notification_toggle_toggle_name_app">โฮม</string>
+    <string name="notification_toggle_toggle_name_boost">บูสท์</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">ไฟฉาย</string>
+    <string name="notification_toggle_toggle_name_brightness">ความสว่าง</string>
+    <string name="notification_toggle_toggle_name_themes">ธีม</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">ข้อมูล</string>
+    <string name="notification_toggle_toggle_name_camera">กล้องถ่ายรูป</string>
+    <string name="notification_toggle_toggle_name_calculator">เครื่องคิดเลข</string>
+    <string name="notification_toggle_toggle_name_rotate">หมุนหน้าจอ</string>
+    <string name="notification_toggle_toggle_name_sound">เสียง</string>
+    <string name="notification_toggle_bright_auto">อัตโนมัติ</string>
+    <string name="notification_toggle_notification_ticker">เเถบเครื่องมือGO Speedกำลังเตรียมไว้อยู่</string>
+    <string name="notification_toggle_notification_ticker_initializing">เเถบเครื่องมือกำลังกำหนดค่าเริ่มต้นอยู่</string>
+
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">ป้อนเนื้อหาเพื่อค้นหา</string>
+    <string name="hot_word_search_next_batch">อื่นๆ</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">รูปซ้ำ</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s รูปชำระเสร็จเเล้ว!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">ชำระรูปที่ซ้ำกันให้หมดเเล้ว!</string>
+    <string name="duplicate_photos_delete_alert_title">ลบอย่างถาวร</string>
+    <string name="duplicate_photos_delete_alert_desc">ตกลงที่จะลบทั้งหมดนี้อย่างถาวรไหม?</string>
+    <string name="duplicate_photos_scan_alert">การสเเกนอาจจะต้องใช้เวลาหน่อย โปรดรอสักครู่ค่ะ</string>
+    <string name="duplicate_photos_no_content">โอเคเเล้ว!ไม่มีรูปซ้ำที่เหลือเเล้วค่ะ!</string>
+    <string name="duplicate_photos_suffix_selected">ได้เลือกมา%s </string>
+    <string name="duplicate_photos_suffix_total">%s ของรูปทั้งหมด</string>
+
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">เกมส์ยอดนิยมของอาทิต์ที่เเล้ว</string>
+    <string name="game_ad_notification_label_weekly_best_app">แอพส์ยอดนิยมของอาทิตย์ที่เเล้ว</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">ล็อคเเอพส์</string>
+    <string name="app_lock_perm_settings_title">การตั้งค่า</string>
+    <string name="app_lock_perm_settings_message">การขออนุญาต</string>
+    <string name="app_lock_notice_enable_usage_stats">สำหรับเเอนดรอยด์เวอร์ชั่น 5.0 หรือเวอร์ชั่นขึนไปนั้น คุณต้องขอสิทธิการเข้าถึงเพื่อที่จะสามารถใช้ฟีเจอร์ล็อคเเอพส์ได้e.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_enable_usage_stats">อนุญาตt</string>
+    <string name="install_app_mointor_locker">ต้องการจะล็อคมันไว้</string>
+    <string name="locker_header_forget_pwd">ลืมรหัสผ่าน</string>
+    <string name="locker_header_replce_number_locker">สลับไปเป็นล็อคป้อนรหัสผ่าน</string>
+    <string name="locker_header_replce_graphic_locker">สลับไปเป็นล็อคเขียนรูปแบบ</string>
+    <string name="initializationpassword_frist_prompt">ตั้งรหัสผ่าน</string>
+    <string name="initializationpassword_second_prompt">ป้อนรหัสผ่านอีกทีเพื่อเป็นการรับรอง</string>
+    <string name="initializationpassword_pwd_not_equals">รหัสผ่านไม่ถูก โปรดป้อนรหัสอีกที</string>
+    <string name="init_email_prompt">อีเมล์ที่ใช้สำหรับค้นรหัสผ่านกลับมาใหม่</string>
+    <string name="init_email_prompt1">โปรดป้อนใส่อีเมล์ที่ถูกต้อง</string>
+    <string name="init_mail_btn_text">เรียบร้อย</string>
+    <string name="forget_reset_pwd_success">ตั้งรหัสใหม่สำเร็จ</string>
+    <string name="activity_applock_group_apps">เเอพส์</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">การตั้งค่าของเเอพส์ล็อค</string>
+    <string name="app_lock_setting_parent_unlock_mode">โหมดปลดล็อค</string>
+    <string name="app_lock_setting_passcode">รหัสผ่าน</string>
+    <string name="app_lock_setting_others">Others</string>
+    <string name="app_lock_setting_unlock_mode_numbers">หมายเลข</string>
+    <string name="app_lock_setting_unlock_mode_pattern">รูปเเบบ</string>
+    <string name="app_lock_setting_passcode_change_passcode">เปลี่ยนรหัสผ่าน</string>
+    <string name="app_lock_setting_passcode_email_setting">การตั้งค่าของอีเมล์</string>
+    <string name="app_lock_setting_others_brief_eixt">อนุญาตให้เเก้ไขนิดหนึ่ง</string>
+    <string name="app_lock_setting_others_relock">ล็อคอีทีหลังเปิดหน้าจอ</string>
+    <string name="app_lock_setting_brief_eixt_seconds">วินาที</string>
+    <string name="app_lock_setting_brief_eixt_minutes">นาที</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">ลืมรหัสผ่าน</string>
+    <string name="forget_email_prompt1">1)เราจะส่งรหัสยืนยันไปที่อีเมล์ของคุณ</string>
+    <string name="forget_email_prompt2">2)ป้อนรหัสยืนยันเเล้วได้รหัสผ่านของคุณกลับมา</string>
+    <string name="forget_email_btn_prompt">ส่ง</string>
+    <string name="forget_email_btn_prompt2">ตั้งรหัสผ่านใหม่</string>
+    <string name="forget_email_edit_prompt">รหัสยืนยัน</string>
+    <string name="forget_check_code_not_right">ไม่ถูก</string>
+    <string name="forget_check_code_out_of_time">รหัสยืนยันนี้หมดอายุเเล้ว โปรดขอรหัสยืนยันอีกทีหนึ่ง.</string>
+    <string name="forget_send_email_error">ส่งอีเมล์ล้มเหลว โปรดลองอีกครั้งหนึ่ง</string>
+    <string name="forget_send_email_success">อีเมล์ส่งเรียบร้อยเเล้ว ไปเช็คที่อีเมล์ของคุณเถอะ.</string>
+    <string name="set_graphic_password_message_draw">เขียนรูปแบบปลดล็อค</string>
+    <string name="set_graphic_password_message_too_short">ต้องเชื่อมอย่างน้อยสี่จุด โปรดลองทีครั้งหนึ่ง:</string>
+    <string name="set_graphic_password_message_stored">บันทึกรูปแบบเรียบร้อยเเล้ว</string>
+    <string name="set_graphic_password_message_redraw">เขียนรูปแบบอีกทีเพื่อเป็นการรับรอง:</string>
+    <string name="set_graphic_password_btn_redraw">ลองใหม่</string>
+    <string name="set_graphic_password_message">การตั้งค่าของรหัสผ่าน</string>
+    <string name="set_graphic_password_message_wrong">ผิด ลองใหม่:</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">ใช้โปรล็อคความลับได้อย่างอิสระ</string>
+    <string name="lokcer_init_instruction_first">ตั้งรหัสผ่านเพื่อล็อคเเอพส์ที่เป็นความลับของคุณ</string>
+    <string name="lokcer_init_instruction_second">ยืนยันรหัสอีกที </string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">เเอพส์ล็อค</string>
+    <string name="finish_page_card_app_locker_desc">ป้องกัน &lt;big&gt;%s&lt;/big&gt;เเละอื่นๆไห้พ้นจากคนสอดเเนมโดยใช้แอพส์ล็อค</string>
+    <string name="finish_page_card_app_locker_btn">ป้องกันตอนนี้</string>
+    <string name="finish_page_no_ad_app_lock_tips">มือถือสามารถปฏิบัติการได้เร็วกว่านี้</string>
+
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+
+    <!-- Storage 2.0改版 -->
+    <string name="filecategory_sec_picture_title">รูป</string>
+    <string name="filecategory_sec_picture_unit">ทั้งหมด</string>
+    <string name="filecategory_sec_deep_clean_title">ชำระโดยสิ้นเชิง</string>
+    <string name="filecategory_sec_music_title">ดนตรี</string>
+    <string name="filecategory_sec_music_unit">เพลง</string>
+    <string name="filecategory_sec_music_units">เพลง</string>
+    <string name="filecategory_sec_music_instruction">ชำระเพลงที่คุณไม่อยากฟังอีกเเล้ว</string>
+    <string name="filecategory_sec_video_title">วิดีโอ</string>
+    <string name="filecategory_sec_video_unit">วิดีโอ</string>
+    <string name="filecategory_sec_video_units">วิดีโอ</string>
+    <string name="filecategory_sec_video_instruction">ชำระวิดีโอที่ดูไปเเล้วเพื่อเพิ่มหน่วยเก็บ</string>
+    <string name="filecategory_sec_uninstall_title">ถอนติดตั้ง</string>
+    <string name="filecategory_sec_uninstall_unit">เเอพ</string>
+    <string name="filecategory_sec_uninstall_units">เเอพส์</string>
+    <string name="filecategory_sec_uninstall_instruction">ถอนติดตั้งเเอพส์ที่ตุณไม่ต้องการ</string>
+    <string name="filecategory_sec_big_file_title">บิ๊กไฟล์</string>
+    <string name="filecategory_sec_big_file_unit">ไฟล์</string>
+    <string name="filecategory_sec_big_file_units">ไฟล์ช</string>
+    <string name="filecategory_sec_big_file_instruction">ค้นหาฟอนเตอร์เเละไฟล์ขนาดใหม่</string>
+    <string name="filecategory_sec_picture_duplicate_unit">สำเนา</string>
+    <string name="filecategory_sec_deep_clean_other_instuction">เเอพส์อื่นๆอีก %s</string>
+    <string name="filecategory_sec_header_top_text">%1$s ถูกใช้เเล้ว  %2$s ทั้งหมด</string>
+    <string name="filecategory_sec_bar_instuction_pic">รูป</string>
+    <string name="filecategory_sec_bar_instuction_app">แอพส์</string>
+    <string name="filecategory_sec_bar_instuction_video">วิดีโอ</string>
+    <string name="filecategory_sec_bar_instuction_music">ดนตรี</string>
+    <string name="filecategory_sec_bar_instuction_other">อื่นๆ</string>
+    <string name="filecategory_sec_list_item_scanning">กำลังสเเกนอยู่...</string>
+    <string name="filecategory_sec_list_item_check">เช็ค</string>
+    <string name="filecategory_sec_list_item_collapse">เจ๊ง</string>
+    <string name="filecategory_sec_list_item_empty_text">ไม่พบไฟล์</string>
+    <string name="filecategory_sec_list_item_empty_text_duplicate">ไม่มีรูปซ่ำ</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_null">ไฟล์ที่ไม่รู้ชื่อ</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_image">ไฟล์รูปภาพ</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_other">ไฟล์อื่นๆ</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_video">ไฟล์วิดีโอ</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_audio">ไฟล์เสียง</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_resource">เเพคเกจเเหล่งข้อมูล</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_apk">APKs</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_game">ไฟล์เกมส์</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_ad">ไฟล์โฆษณา</string>
+    <!-- 带删除的文件管理器 -->
+    <string name="filecategory_broswer_group_title">ไฟล์ทั้งหมด</string>
+
+    <!-- BigFile -->
+    <string name="filecategory_bigfile_title">ไฟล์ขนาดใหญ่</string>
+    <string name="filecategory_bigfile_title_select_text_one">&lt;font color="#f77071"&gt;การลบไฟล์จะไม่สามารถคืนค่าอีก!&lt;/font&gt;</string>
+    <string name="filecategory_bigfile_title_select_text_two">ตกลงจะเลือกไหม?</string>
+    <string name="filecategory_bigfile_title_select_text_check">ไม่ต้องเเสดงเเล้วในช่วงนี้</string>
+    <string name="big_file_group_item_size">&lt;font color="#ff0000"&gt;Size:%1$s&lt;/font&gt;</string>
+    <string name="big_file_group_item_path">ทาง:%1$s</string>
+    <string name="big_file_scan_text">กำลังสเเกน%1$s ไฟล์ขนาดใหญ่</string>
+    <string name="big_file_all_size"> %1$sของไฟล์ทั้งหมด</string>
+    <string name="big_file_selected_size">%1$sไฟล์ได้ถูกเลือก</string>
+    <string name="big_file_delete">ลบ</string>
+    <string name="big_file_detail_view">ดู</string>
+    <string name="big_file_delete_detail">ตกลงจะลบไฟล์ที่เลือกมาทั้งหมดนี้ไหม?</string>
+    <string name="big_file_delete_size">%1$s ไฟล์ถูกลบไปเเล้ว!</string>
+
+    <!-- 应用专清页面 -->
+    <string name="deep_clean_single_page_title_suggestion">ทั้งหมด</string>
+    <string name="deep_clean_single_page_card_clean">ชำระ</string>
+    <string name="deep_clean_single_page_card_to_clean">เช็ค</string>
+    <string name="deep_clean_single_page_card_cleaning">กำลังชำระ</string>
+    <string name="deep_clean_single_page_card_cleaned">ชำระเสร็จเเล้ว</string>
+    <string name="deep_clean_warn_level_0_desc">ไฟล์ของคุณจะไม่ได้รับผลกระทบหลังการชำระ</string>
+    <string name="deep_clean_warn_level_1_desc">การชำระจะรับรองความปลอดภัยร้อยเปอร์เซ็น</string>
+    <string name="deep_clean_warn_level_2_desc">เเอพส์เหล่านี้ต้องการดาวน์โหลดใหม่หลังการชำระ</string>
+    <string name="deep_clean_warn_level_10_desc">การชำระจะลบทั้งหมดนี้อย่างถาวร</string>
+    <string name="deep_clean_warn_level_11_desc">ไม่เเนะนำให้ชำระ</string>
+
+    <!-- 主界面2.0 -->
+    <string name="home_page_ram_info_text">%1$s ฟรี / %2$sทั้งหมดl</string>
+    <string name="home_page_storage_info_text">%1$sฟรี/ %2$s ทั้งหมด</string>
+    <!-- 侧边栏页面 -->
+    <string name="home_page_drawer_like_us">ชอบเรา</string>
+    <string name="home_page_drawer_z_family">ครอบครัวGO</string>
+    <string name="home_page_drawer_theme">ธีม</string>
+
+
+    <!-- 省电 -->
+    <string name="setting_charge_group">ตัวประหยัดเเบบ</string>
+    <string name="setting_charge">ชาร์ตเเบบอย่างเรวดเร็ว</string>
+	<string name="power_saving_charging_text">เเบบเหลือ &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+	<string name="power_saving_left_power_text">เวลาใช้เเบบเหลือ &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+    <string name="power_saving_mode_speed">เร่งความเร็ว</string>
+    <string name="power_saving_mode_contiuous">ต่อเนื่อง</string>
+    <string name="power_saving_mode_trickle">ตัวควบคุมความเร็ว</string>
+    <string name="power_saving_mode_speed_instruction">ชาร์ตเเบบเต็มเป็น 80%อย่างรวดเร็ว</string>
+    <string name="power_saving_mode_contiuous_instruction">กระเเสไฟฟ้าต่ำเกินไปที่จะชารืตเเบบได้</string>
+    <string name="power_saving_mode_trickle_instruction">ใช้ตัวควบคุมความเร็วเพื่อขยายอายุการใช้งานของเเบบเตอร์รี่</string>
+    <string name="power_saving_accel_result_text">&lt;font color="#ffce54"&gt;%1$s&lt;/font&gt; หยุดใช้เเอพส์&lt;font color="#ffce54"&gt;%2$s&lt;/font&gt; ในขณะที่ชาร์ตเเบบอยู่</string>
+    <string name="power_saving_menu_clost">ปิด</string>
+    <string name="power_saving_menu_dialog_title">ลองปิดโหมดชาร์ตเเบบอย่างรวดเร็วดู</string>
+    <string name="power_saving_menu_dialog_content">ความเร็วการชาร์ตเเบบจะไม่ถูกเพิ่มขึ้น.ยังต้องการปิดไหม?</string>
+    <string name="power_saving_menu_dialog_cancel">ไม่ใช่ตอนนี้</string>
+    <string name="power_saving_menu_dialog_confim">ปิด</string>
+    <string name="power_saving_time_unit_hour">ชั่วโมง</string>
+    <string name="power_saving_time_unit_minute">นาที</string>
+    <string name="power_saving_unlock_slide">สไลต์เพื่อปลดล็อค &gt;</string>
+
+    <string name="power_saving_guide_title">โหมดชาร์ตเเบบอย่างรวดเร็ว</string>
+    <string name="power_saving_guide_desc">เปิดใช้ฟีเจอร์ชาร์ตเเบบอย่างรวดเร็วเพื่อรักษาเเบบเตอร์รี่อย่างมรประสิทธิภาพเเเละลดเวลาการชาร์ตเเบบ</string>
+    <string name="power_saving_guide_btn_enable">เปิด</string>
+
+    <string name="power_saving_ad_open">เปิด</string>
+    <string name="power_saving_ad_cancel">ลบ</string>
+
+    <!--facebook点赞弹窗引导-->
+    <string name="facebook_like_dialog_title">ใช้จนถึงตอนนี้คุณคิดว่าเป็นงั้นบ้างคะ</string>
+    <string name="facebook_like_dialog_desc">ค้นพบรายละเอียดที่เกี่ยวกับ GO Speedให้มากกว่านี้ที่  &lt;font color="#4a89dc"&gt;Facebook&lt;/font&gt;</string>
+    <string name="facebook_like_dialog_btn_like">ชอบเรา</string>
+    <string name="facebook_like_dialog_btn_cancel">ไม่ใช่ตอนนี้</string>
+    
+    <!-- AppLock 优化 -->
+    <string name="applock_pre_header_last_step_text1">ผ่านอีกหนึ่งขั้นตอนก็จะได้ป้องกันมือถืออย่างรอบด้าน</string>
+    <string name="applock_pre_header_last_step_text2">เปิดสวิตช์ให้GO Speed</string>
+    <string name="applock_pre_dialog_title">อีกหนึ่งขั้นตอน</string>
+    <string name="applock_pre_dialog_content">ผ่านอีกหนึ่งขั้นตอนก็จะได้ป้องกันมือถืออย่างรอบด้าน</string>
+    <string name="applock_pre_dialog_cancel">ยกเลิก</string>
+    <string name="applock_pre_dialog_confim">ไปต่อ</string>
+
+    <!--GO输入法推广弹窗-->
+    <string name="go_input_prom_pop_theme_desc">การพิมพ์ที่เฉื่อยช้าเเละเบื่อตาย? ไปได้อีโมย์เเละกธีม 800+ เพื่อทำให้การพิมพ์ทุกครั้งสนุกมากขึ้น!</string>
+    <string name="go_input_prom_pop_theme_btn">ไปได้ตอนนี้เลย</string>
+    <string name="go_input_prom_pop_memory_desc">หน่วยความจำของคีย์บอร์ดคุณกำลังทำให้มือถือทำงานช้าลง!</string>
+    <string name="go_input_prom_pop_memory_btn">เพิ่มความเร็วตอนนี้</string>
+
+    <string name="boost_banner_ad_toast_good">ดีมาก</string>
+<string name="adchoice_about_setting">ข้อเลือก AD</string>
+    <string name="app_lock_all_intruders">%s ผู้บุกรุก</string>
+    <string name="app_lock_anti_peep_img_app_info">&lt;font color="#FFFFFF"&gt;จับได้เเล้ว!  ปลอดล็อค &lt;/font&gt;&lt;font color="#da4453"&gt;%1$s&lt;/font&gt;</string>
+    <string name="app_lock_camera_access_tips_fail">ไม่อนุญาตให้ใช้กล้องถ่ายรูป, ค้นพบผู้สอดเเนมล้มเหลว.</string>
+    <string name="app_lock_camera_access_tips_suc">ค้นพบผู้สอดเเนมอย่างสำเร็จ.</string>
+    <string name="app_lock_camera_auth_tip">อนุญาตให้ Go Speedใช้กล้องถ่ายรูปเพื่อจับผู้สอดเเนม.</string>
+    <string name="app_lock_image_share_text_tip">ลองทายดูสิว่าได้ค้นพบอะไรบ้าง! คุณควรใช้อันนี้เพื่อความปลอดภัยบ้าง.</string>
+    <string name="app_lock_new_intruders">&lt;b&gt;%s NEW&lt;/b&gt; ผู้บุกรุก</string>
+    <string name="app_lock_setting_intruder">ผู้บุกรุก</string>
+    <string name="app_lock_setting_intruder_setting">การตั้งค่าผู้บุกรุก</string>
+    <string name="app_lock_setting_intruder_times">ครั้ง</string>
+    <string name="app_lock_setting_intruder_twice">สอง</string>
+    <string name="app_lock_setting_intruder_wrong_times">อนุญาตให้ป้อนรหัสผิด</string>
+    <string name="app_lock_setting_reveal_intruder">ค้นพบผู้บุกรุก</string>
+    <string name="app_manager_preinstall_disbale_subtitle">พลิกฟื้นดิสเอโปวต์สามารถเเก้ความผิดพลาดที่เกิดจากการดิสเอโปวต์ผิด</string>
+    <string name="app_manager_preinstall_disbale_title">พลิกฟื้นดิสเอโปวต์</string>
+    <string name="applock_pre_header_text1_new">ท็อป &lt;big&gt;%1$s&lt;/big&gt;เเอพส์ที่เเนะนำให้ล็อคอัพ</string>
+    <string name="applock_pre_header_text2_new">ป้องกันข้อมูลส่วนตัวของเเอพส์เหล่านี้</string>
+    <string name="applock_pre_last_step_usage_guide_explanation">เปิดใช้ Go Speedเพื่อได้รับการป้องกันอย่างรอบด้าน.</string>
+    <string name="applock_pre_last_step_usage_guide_title">อีกขั้นตอนหนึ่งสำหรับการเป็นผู้ใช้เเอนดรอยด์5.0+.</string>
+    <string name="boot_up_memory_intro_desc">เเอพส์จะเปิดโดยอัตโนมัติหลักจากผ่านบูสต์โดยไม่ต้องควบคุมด้วยตัวเอง.</string>
+    <string name="boot_up_memory_title">เปิดเเอพส์โดนอัตโนมัติ</string>
+    <string name="boot_up_notify_msg">ตรวจพบเเอพส์ที่เปิดโดยอัตโนมัติ!  เช็คทันที.</string>
+    <string name="boot_up_optimize">ปรับปรุง</string>
+    <string name="boot_up_time_intro_desc">เวลาที่ต้องการใช้ในการเริ่มต้นมือถือตั้งเเต่บูสต์.</string>
+    <string name="boot_up_time_title">ขออนุญาตบูสต์มือถือ</string>
+    <string name="build_in_ad_go_battery_saver_btn">เริ่มเลย</string>
+    <string name="build_in_ad_go_battery_saver_desc">ประหยัดเเบบอย่างเห็นได้ชัด</string>
+    <string name="build_in_ad_go_battery_saver_title">ประหยัดเเบบด้วยการกดครั้งเดียว</string>
+    <string name="build_in_ad_go_security_btn">กำลังสเเกน</string>
+    <string name="build_in_ad_go_security_desc">รักษาความปลอดภัยของมือถือคุณ</string>
+    <string name="build_in_ad_go_security_title">ต้านไวรัส</string>
+    <string name="build_in_ad_safe_box_btn">ใส่รหัสลับ</string>
+    <string name="build_in_ad_safe_box_desc">ป้องกันความเป็นส่วนตัวของคุณให้ปลอดภัยเหมือนธนาคาร</string>
+    <string name="build_in_ad_safe_box_title">ใส่รหัสลับ &amp; ภาพลักษณ์</string>
+    <string name="common_days">เวลา</string>
+    <string name="common_deep_clean_backup">เเบคอัพ</string>
+    <string name="common_deep_clean_cache">หน่วยความจำแคช</string>
+    <string name="common_deep_clean_clean_cache_deleting">ตรวจอยู่...</string>
+    <string name="common_deep_clean_clean_clean">คลิน</string>
+    <string name="common_deep_clean_clean_done">คลินเสร็จเเล้ว%1$s !</string>
+    <string name="common_deep_clean_clean_view">วิว</string>
+    <string name="common_deep_clean_document">เอกสาร</string>
+    <string name="common_deep_clean_image">รูปภาพ</string>
+    <string name="common_deep_clean_music">เพลง</string>
+    <string name="common_deep_clean_video">วิดีโอ</string>
+    <string name="common_dismiss">ลบ</string>
+    <string name="common_dismiss_message">ลบข้อความทั้งหมดนี้.</string>
+    <string name="common_view">ตรวจดู</string>
+    <string name="deep_clean_promote_dialog_content">หน่วยความจำเเคช &amp;ค้นพบเอกสารเเนบ.</string>
+    <string name="deep_clean_whatsapp_desc_backup">แบคอัพที่เก็บโดยWhatsAppโดยอัตโนมัติ.</string>
+    <string name="deep_clean_whatsapp_desc_cache">ข้อมูลไร้ประโยชน์ที่คุณสามารถลบได้อย่างไม่มีความกังวล</string>
+    <string name="deep_clean_whatsapp_desc_document">เอกสารที่ได้รับในขณะที่เเชทบนWhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_gallery">พวกรูปภาพที่ได้รับในขณะที่เเชทบนwhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_music">เพลงที่ได้รับในขณะที่เเชทบนWhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_video">พวกวิดีโอที่ได้รับในขณะที่เเชทบนWhatsApp.</string>
+    <string name="deep_clean_whatsapp_no_backup">ไม่มีเเบคอัพที่เก็บไว้ในมือถือโดยอัตโนมัติขณะเเชท.</string>
+    <string name="deep_clean_whatsapp_no_cache">ไม่ได้พบข้อมูลที่ไร้ประโยชน์.</string>
+    <string name="deep_clean_whatsapp_no_document">ไม่มีเอกสารที่เก็บไว้ในมือถือขณะเเชท.</string>
+    <string name="deep_clean_whatsapp_no_gallery">ไม่มีรูปภาพที่เก็บไว้ในมือถือขณะเเชท</string>
+    <string name="deep_clean_whatsapp_no_music">ไม่มีเพลงที่เก็บไว้ในมือถือขณะเเชท.</string>
+    <string name="deep_clean_whatsapp_no_video">ไม่มีวิดีโอที่เก็บไว้ในมือถือขณะเเชท.</string>
+    <string name="facebook_deep_clean_desc_cache">ลบหน่วยความจำเเคชที่ไม่จำเป็นเพื่อปล่อยหน่วยเก็บ.</string>
+    <string name="facebook_deep_clean_desc_fb_img">จัดการรูปภาพของFacebook.</string>
+    <string name="facebook_deep_clean_desc_message_img">จัดการรูปภาพของMessenger.</string>
+    <string name="facebook_deep_clean_desc_message_video">จัดการกล้องถ่ายรูปของMessenger.</string>
+    <string name="facebook_deep_clean_title_cache">ข้อมูลของหน่วยความจำเเคช</string>
+    <string name="facebook_deep_clean_title_fb_img">รูปภาพของFacebook </string>
+    <string name="facebook_deep_clean_title_message_img">รูปภาพของMessenger </string>
+    <string name="facebook_deep_clean_title_message_video"> กล้องถ่ายรูปของMessenger</string>
+    <string name="facebook_media_posted_tag">โพสต์</string>
+    <string name="facebook_media_saved_tag">เก็บ</string>
+    <string name="finish_page_card_activate_usage_stats_permission_btn">อนุญาต</string>
+    <string name="finish_page_card_activate_usage_stats_permission_desc">อนุญาตGo Speedใช้ฟีเจอร์ใหม่ของเเอนดรอยเพื่อเพิ่มประสิทธิภาพการทำงานของมือถือ!</string>
+    <string name="finish_page_card_activate_usage_stats_permission_title"> เพิ่มพลังให้กับเเอนดรอยด์&lt;big&gt;5.0+&lt;/big&gt;</string>
+    <string name="function_ad_page_chglock_desc_1">เพิ่มความเร็วการชาร์ทเเบบในคราวต่อไป.</string>
+    <string name="function_ad_page_chglock_desc_2">เปิดโหมดการชาร์ทเเบบเร็วเพื่อขยายเวลาการใช้งานของมือถือ.</string>
+    <string name="function_ad_page_chglock_desc_3">เปิดโหมดการชาร์ทเเบบเร็วเพื่อลดเวลาให้สั้นลง.</string>
+    <string name="function_ad_page_chglock_desc_4">เปิดโหมดชาร์ทเเบบด้วยกระเเสไฟฟ้าเล็กเพื่อป้องกันเเบบเตอร์รี่ของคุณ</string>
+    <string name="function_ad_page_chglock_title_1">การชาร์ทเเบบที่เป็นมืออาชีพเเละรวดเร็วกว่านี้?</string>
+    <string name="function_ad_page_chglock_title_2">เเบบเตอร์รี่เหลือเพียง %s%%!</string>
+    <string name="function_ad_page_chglock_title_3">ต้องใช้เวลาอีก %sในการชาร์ทเเบบ</string>
+    <string name="function_ad_page_chglock_title_4">เเบบเตอร์รี่ของคุณใกล้จะเต็มเเล้ว</string>
+    <string name="home_page_drawer_go_security">ต้านไวรัส</string>
+    <string name="home_page_drawer_notification_box">หน้าต่างเเจ้งเตือน</string>
+    <string name="http_adchoice">https://m.facebook.com/ads/ad_choices</string>
+    <string name="intruder_gallery_menu_clear_all_pohtos">ลบรูปภาพทั้งหมด</string>
+    <string name="intruder_gallery_no_content">ยินดีด้วย! ไม่มีผู้บุกรุกที่ตรวจพบ!</string>
+    <string name="intruder_main_no_content">ป้อนรหัสผิดมากกว่าจำนวนที่กำหนดจะถือเป็นผู้บุกรุก</string>
+    <string name="intruder_shot_info_desc">ป้อนรหัสผิดมากกว่าสองครั้งจะถือว่าเป็นผู้บุกรุกโดยอัตโนมัติ.</string>
+    <string name="intruder_shot_info_title">ช็อตผู้บุกรุก</string>
+    <string name="menu_group_notification">การเเจ้งเตือน</string>
+    <string name="menu_group_notification_notification">การเเจ้งเตือน</string>
+    <string name="menu_junk_file_interval">สเเกนทุกเมื่อ</string>
+    <string name="menu_junk_file_scan">กำลังสเเกนขยะ</string>
+    <string name="menu_junk_file_size">ขยะมีมากเกินไป</string>
+    <string name="notification_box">Quiet การเเจ้งเตือน</string>
+    <string name="notification_box_guide_first_desc">โปรดให้การอนุญาตเเก่Go Speedเพื่อเริ่มต้นใช้งานการเเจ้งเจือนเเบบเงียบ.</string>
+    <string name="notification_box_guide_float_title">เปิดตัวจัดการการเเจ้งเตือน</string>
+    <string name="notification_box_guide_second_desc">ได้วิธีการเเจ้งเตือนที่สดใสกว่านี้? ลองใช้ใช้การเเจ้งเตือนเเบบเงียบ.</string>
+    <string name="notification_box_main_fragment_empty_tips">ไม่มีการเเจ้งเตือน</string>
+    <string name="notification_box_main_group_title">%1$s จาก %2$s</string>
+    <string name="notification_box_main_launch_tips">ไปยัง %1$s</string>
+    <string name="notification_box_main_title">&lt;font color="#f6bb42"&gt;%1$s  &lt;/font&gt;&lt;font color="#8cc152"&gt;ประกาศเงียบ&lt;/font&gt;</string>
+    <string name="notification_box_settings_notice">การเเจ้งเตือนเเบบเงียบใช้งานไม่ได้.</string>
+    <string name="notification_box_settings_title">การตั้งค่าการเเจ้งเตือนเเบบเงียบ</string>
+    <string name="notification_box_switch_label">ใช้การเเจ้งเตือนเเบบเงียบ</string>
+    <string name="notification_facebook_deep_clean_title_black">&lt;font color="#1d1d1d"&gt;คลินขยะของFBอย่างลึก.&lt;/font&gt;</string>
+    <string name="notification_facebook_deep_clean_title_white">&lt;font color="#ffffff"&gt;คลินขยะของFBอย่างลึก.&lt;/font&gt;</string>
+    <string name="notification_like_us_one_line_one">พอใช้ได้ไหม?</string>
+    <string name="notification_like_us_one_line_two">ค้นพบGo Speedบนfbให้มากกว่านี้.</string>
+    <string name="notification_like_us_two_line_one">อยากได้ข้อมูลเกี่ยวกับเเอนดรอนด์ที่ดีกว่านี้ไหม</string>
+    <string name="notification_like_us_two_line_two">Go Speedมี.  ชอบเรา&amp;ได้ข้อมูลที่มีประโยชน์!</string>
+    <string name="notification_service_label">บริการเเจ้งเตือน</string>
+    <string name="notification_setting_auto">โหมดสมาร์ท</string>
+    <string name="notification_setting_boost_level">หน่วยความจำหมด</string>
+    <string name="notification_setting_boost_switch">หน่วยความจำต้องการบูสต์</string>
+    <string name="notification_setting_cpu_switch">มอนิเตอร์CPU</string>
+    <string name="notification_setting_manual">โหมดใช้มือ</string>
+    <string name="notification_setting_manual_boost">การบูสต์มือถือ</string>
+    <string name="notification_setting_manual_clean">ชำระขยะ</string>
+    <string name="notification_setting_mode">โหมด</string>
+    <string name="notification_setting_storage_level">หน่วยเก็บที่เหลืออยู่</string>
+    <string name="notification_setting_storage_switch">ที่เก็บใกล้จะหมด</string>
+    <string name="power_boost_shortcut_dialog_ok">ตกลง</string>
+    <string name="power_boost_shortcut_dialog_text1">1. ลบเเอพส์ที่สตาร์ทโดยอันโนมัติ.</string>
+    <string name="power_boost_shortcut_dialog_text2">2. ลบเเอพส์ที่รื้อรัง.</string>
+    <string name="power_boost_shortcut_dialog_text3">3. เพิ่มความเร็วของมือถือทำให้ราบรื่นเหมือนเครื่องใหม่.</string>
+    <string name="power_boost_shortcut_dialog_title">ความสำคัญของการเข้าถึงสำหรับการเพิ่มความเร็ว</string>
+    <string name="power_boost_shortcut_init_boost"> กำลังเริ่มต้นพิ่มความเร็ว…</string>
+    <string name="power_boost_shortcut_name">เพิ่มความเร็ว</string>
+    <string name="recommend_app_lock_dialog_desc">ล็อคอัพ &lt;font color="#4a89dc"&gt;%s&lt;/font&gt;เพื่อต่อต้านผู้สอดเเนม!</string>
+    <string name="recommend_app_lock_dialog_title">ป้องกันเเอพส์ส่วนตัวของคุณ</string>
+    <string name="recommend_app_lock_notify_desc">ช็อคอัดเเอพส์เซ็นซิทิฟเพื่อต่อต้านมัน!</string>
+    <string name="recommend_app_lock_notify_title_black">&lt;font color="#1d1d1d"&gt;มีใครกำลังเเอบดูมือถือคุณหรือเปล่า?&lt;/font&gt;</string>
+    <string name="recommend_app_lock_notify_title_white">&lt;font color="#ffffff"&gt;มีใครกำลังเเอบดูมือถือคุณหรือเปล่า?&lt;/font&gt;</string>
+    <string name="recommend_notification_box_notify_desc">ลองใช้ใช้การเเจ้งเตือนเเบบเงียบ!</string>
+    <string name="recommend_notification_box_notify_title_black">&lt;font color="#1d1d1d"&gt;ได้วิธีการเเจ้งเตือนที่สดใสกว่านี้?&lt;/font&gt;</string>
+    <string name="recommend_notification_box_notify_title_white">&lt;font color="#ffffff"&gt;ได้วิธีการเเจ้งเตือนที่สดใสกว่านี้?&lt;/font&gt;</string>
+    <string name="setting_boost_ignorelist">รายการเเอพส์ใช้งานอยู่ที่จะถูกมองข้าม</string>
+    <string name="setting_boot_up_notice">เช็คกระบวนบูสต์</string>
+    <string name="setting_whatsapp_promote">รายงานของขยะWhatsApp</string>
+    <string name="uninstalled_app">ลบเเอพ</string>
+    <string name="whatsapp_delete_alert_desc">เเน่ใจหรือยังว่าจะลบทั้งหมดนี้เสีย?</string>
+    <string name="whatsapp_deleted_msg">%1$s ไฟล์ %2$s ถูกคลินเสียเเล้ว</string>
+    <string name="whatsapp_media_menu_select_all">เลือกทั้งหมด</string>
+    <string name="whatsapp_media_receive_tag">รับ</string>
+    <string name="whatsapp_media_sent_tag">ส่งเเล้ว</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zboost="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/whole_ads_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="16dp">
+
+    <RelativeLayout
+        android:id="@+id/game_boost_distribute_img_ads"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/game_boost_distribute_big_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#333"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:id="@+id/game_boost_distribute_small_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="#33000000" />
+        </RelativeLayout>
+
+        <com.gto.zero.zboost.function.gameboost.view.GameAccelLoadingView
+            android:id="@+id/game_ads_banner_img_progress"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            zboost:loading_width="40dp" />
+
+        <RelativeLayout
+            android:id="@+id/game_boost_distribute_noconnection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#99000000"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/game_boost_distribute_noconnection_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/game_boost_distribute_noconnection" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/game_boost_distribute_noconnection_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Tap to reload"
+                android:textColor="#8affffff"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/game_boost_distribute_ads_title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_below="@id/game_boost_distribute_img_ads"
+        android:background="#66dedede">
+
+        <TextView
+            android:id="@+id/game_ads_banner_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_toLeftOf="@+id/game_ads_banner_promoted"
+            android:maxLines="1"
+            android:text="game title"
+            android:textColor="#deffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/game_ads_banner_promoted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="PROMOTED"
+            android:textColor="#deffffff"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/game_boost_distribute_ads_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@id/game_boost_distribute_ads_title_bg"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>

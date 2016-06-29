@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Z Speed+</string>
+    <string name="action_settings">Indstillinger</string>
+
+    <!-- ==========字体模块========== -->
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_families_roboto_thin">sans-serif-thin</string>
+    <string name="font_families_roboto_light">sans-serif-light</string>
+    <string name="font_families_roboto_condensed">sans-serif-condensed</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_yes">Ja</string>
+    <string name="common_no">Nej</string>
+    <string name="common_ok">OK</string>
+    <string name="common_select">Vælg</string>
+    <string name="common_delete">Slet</string>
+    <string name="common_others">Andre</string>
+    <string name="common_stop">Stop</string>
+    <string name="common_uninstall">Afinstallér</string>
+    <string name="common_back_up">Back Up</string>
+    <string name="common_cancel">Fortryd</string>
+    <string name="common_install">Installér</string>
+    <string name="common_installed">Installeret</string>
+    <string name="common_vertion">Version</string>
+    <string name="common_update">Opdatér</string>
+    <string name="common_insufficient_storate">Ikke tilstrækkelig lagerplads</string>
+    <string name="common_no_sdcard">SDCard ikke fundet</string>
+    <string name="common_warning">Advarsel</string>
+    <string name="common_no_content">Intet indhold</string>
+    <string name="common_comma">,</string>
+    <string name="common_period">.</string>
+    <string name="common_slogan">Boost til en bedre telefon</string>
+    <string name="common_download">Download</string>
+    <string name="common_uninstalled">Ikke installeret</string>
+    <string name="common_more">Mere</string>
+    <string name="common_on">TÆND</string>
+    <string name="common_off">SLUK</string>
+    <string name="common_new">ny</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="available">Tilgængelig</string>
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">LAGER</string>
+    <string name="main_button_boost">Hukommelses Boost</string>
+    <string name="main_button_storage">Junk Filer</string>
+    <string name="main_button_manage">App Administrator</string>
+    <string name="main_ram_total">%s Total</string>
+    <string name="main_storage_total">%s Total</string>
+    <string name="tip_press_again_to_exit">Tryk igen for at afslutte</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Indstillinger</string>
+    <string name="menu_update">Opdatér</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_about">Om</string>
+    <string name="menu_shuffle">Bland</string>
+    <string name="menu_zero_plus">NUL+</string>
+    <string name="menu_chrimas">Jul</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">Hukommelses Boost</string>
+    <string name="boost_main_act_tab_running">Kører</string>
+    <string name="boost_main_act_tab_autostart">Autostart</string>
+    <string name="boost_running_apps_custom">%1$d App(s) Valgt</string>
+    <string name="boosting_memory_act_title">Hukommelses Boost</string>
+    <string name="boosting_tips">Boosting</string>
+    <string name="boosting_power_tips">Ydeevne Boosting</string>
+    <string name="boosted_to_optimus_tips">Boosted til optimal brug!</string>
+    <string name="boosted_active_power_mode_tips">Opps! %1$d Apps auto startede igen.\nAktivér Power Modus for at løse problemet!</string>
+    <string name="enable_super_boost_enable">Aktivér</string>
+    <string name="enable_super_boost_title">Aktivér Power Modus</string>
+    <string name="enable_super_boost_main_text">For at kunne accelerere mere effektivt, anbefaler vi, at du aktiverer tilgængelighedsfunktionerne.</string>
+    <string name="enable_super_boost_content_text1" formatted="false">For at hjælpe dig med at deaktivere eller stoppe apps fuldstændigt.</string>
+    <string name="enable_super_boost_content_text2" formatted="false">Reducér batteriforbrug.</string>
+    <string name="enable_super_boost_content_text3" formatted="false">Mere end 85% af vores brugere har aktiveret denne funktion.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">Tryk på Z Speed+ i tjenester</string>
+    <string name="boost_groups_list_title_running_app">Kørende Apps</string>
+    <string name="boost_groups_list_title_cpu_temperature">CPU Temperatur</string>
+    <string name="boost_groups_list_title_lag_detected">Tidsforsinkelse opdaget</string>
+
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Tryk på den ovenstående knap, for at aktivere Z Speed+ Power Modus, for at få maximal acceleration!\n\nZ Speed+ bruger tilgængeligshedsfunktionerne for at hjælpe dig med at stoppe de apps du ikke bruger. Du behøver ikke at bekymre dig, hvis du ser en påmindelse om privatlivssikkerhed, det er blot en regulær informativ advarsel for enhver tilgængeligshedstjeneste. 
+    \n\nVi lover, at vi ikke indsamler noget som helst information.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Indstillinger</string>
+    <string name="autostart_optimization_desr">Kan ikke optimeres</string>
+    <string name="autostart_type_optimization">At blive optimeret</string>
+    <string name="autostart_type_allowed">Tilladt</string>
+    <string name="autostart_type_blocked">Blokeret</string>
+    <string name="autostart_type_system">Pre-installerede Apps</string>
+    <string name="autostart_type_system_description">Blokering af pre-installerede apps autostarter kan muligvis skabe ustabilitet i systemet. Fortsæt med varsomhed.</string>
+    <string name="autostart_preinstll_system">Pre-installerede Apps</string>
+    <string name="autostart_on_boot_up">Boot op</string>
+    <string name="autostart_on_background">Baggrund</string>
+    <string name="autostart_on_boot_up_and_background">Boot op/Baggrund</string>
+    <string name="autostart_detail_title">Autostart i %1$d situation(er):</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="ignore_list_act_title">Ignorér Liste</string>
+    <string name="add_to_ignore_list_act_title">Tilføj til liste over ignorerede</string>
+    <string name="dialog_memory_footprint">Hukommelse brugt</string>
+    <string name="dialog_add_to_ignorelist">Tilføj til liste over ignorerede</string>
+    <string name="dialog_remove_from_ignorelist">Fjern fra liste over ignorerede</string>
+    <string name="tip_ignore_list_appunchecked">Disse apps vil blive afmarkeret som standard efter scanning.</string>
+    <string name="tip_ignore_list_appadd">Tryk på '+' for at tilføje apps til liste over ignorerede.</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443">%s&lt;/font> vil ikke blive scannet.</string>
+    <string name="clean_ignore_empty_tips">Langt tryk post i junk filer for at tilføje til ignoreringsliste.</string>
+    <string name="clean_ignore_title">Junkfiler Ignoreringsliste</string>
+    <string name="clean_ignore_list_tips">Disse filer vil ikke blive scannet som junkfiler</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">App Administrator</string>
+    <string name="app_manager_my_backups">Mine Backups</string>
+    <string name="app_manager_others">Andre</string>
+    <string name="app_manager_back_up_success_tips">apps er blevet backup til:</string>
+    <string name="app_manager_back_up_success_tips_for_one">app er blevet backup til:</string>
+    <string name="app_manager_back_up_fail_tips">apps fejlede</string>
+    <string name="app_manager_back_up_fail_tips_for_one">app fejlede</string>
+    <string name="app_manager_pre_installed_apps">Pre-Installerede Apps</string>
+    <string name="app_manager_backing_up">Laver backup</string>
+    <string name="app_manager_running">Kører</string>
+    <string name="app_manager_stop">Stop</string>
+    <string name="app_manager_apps_running">Apps kører</string>
+    <string name="app_manager_apps_desc">Deaktivér pre-installerede apps, som sjældent bruges, hjælper med at reducere forbrug.</string>
+    <string name="app_manager_path">Sti</string>
+    <string name="app_manager_no_backup_found">Ingen backup fundet</string>
+    <string name="app_manager_tap_to_disable">Tryk Deaktivér/Sluk for at deaktivere</string>
+    <string name="app_manager_tap_to_enable">Tryk Aktivér/Tænd for at aktivere</string>
+    <string name="app_manager_select_app_first">Vælg venligst apps først</string>
+    <string name="app_manager_shit">OK</string>
+    <string name="app_manager_freed">Frigjort</string>
+    <string name="app_manager_use_rare_month">Sjældent brugt i måneden</string>
+    <string name="app_manager_use_rare_days">Sjældent brugt i %s dage</string>
+    <string name="app_manager_use_commonly">Ofte brugt</string>
+    <string name="app_manager_android_system">Android System</string>
+    <string name="app_manager_use_rare">Sjældent brugt</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Bruger Apps</string>
+    <string name="app_manager_tab_system">Pre-installerede</string>
+    <string name="app_manager_tab_text_date">Dato</string>
+    <string name="app_manager_tab_text_frequance">Frekvens</string>
+    <string name="app_manager_tab_text_size">Størrelse</string>
+    <string name="app_manager_tab_text_battery">Batteri</string>
+    <string name="app_manager_tab_text_name">Navn</string>
+    <string name="app_manager_dialog_cancel">Fortryd</string>
+    <string name="app_manager_dialog_backup">Back Up</string>
+    <string name="app_manager_dialog_uninstall">Afinstallér</string>
+    <string name="app_manager_preinstall_noyice"><![CDATA[&nbsp&nbsp&nbsp&nbsp<font color="#76B54B"> %s Apps kører </font> Deaktivering reducerer forbrug. Det er helt sikkert]]></string>
+    <string name="app_manager_no_uerapp">Ingen apps</string>
+    <string name="app_manager_preinstall_disbale_list">Apps Deaktiveret</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Deaktiveret</string>
+    <string name="app_manager_preinstall_reommend_disable">% brugere deaktiveret</string>
+    <string name="app_manager_preinstall_reommend_keep">Anbefalet at beholde</string>
+    <string name="app_manager_preinstall_reommend_none">Forbliv som det er</string>
+    <string name="app_manager_preinstall_tip">Deaktivér pre-installerede apps, som sjældent bruges, hjælper med at reducere forbrug.</string>
+    <string name="app_manager_preinstall_disable_toast">er blevet deaktiveret.</string>
+    <string name="app_manager_preinstall_enable_toast">er blevet aktiveret.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Batch Deaktivering</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Vær påpasselig</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[Deaktivering af denne app kan muligvis <font color="#fe6969">påvirke normal funktionalitet</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Er du sikker på, at du ønsker at vælge det?</string>
+    <string name="app_manager_preinstall_disable_loading">Indlæser&#8230;</string>
+    <string name="diable_lab_dialog_title">Z Speed+ Lab</string>
+    <string name="diable_lab_dialog_content_text"><![CDATA[Du er blevet inviteret til at prøve vores Lab funktion: <font color="#76b54b">Batch Deaktivering Pre-installerede Apps. </font>Hvis nogen problemer, send os feedback og lad os forbedre det sammen!]]></string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">Junk Filer</string>
+    <string name="clean_main_suggest">Foreslåede</string>
+    <string name="clean_main_selected">Valgte</string>
+    <string name="clean_dialog_title">Advarelser</string>
+    <string name="clean_dialog_message1">De valgte filer indeholder det nedenstående indhold:</string>
+    <string name="clean_dialog_btn_all">Vælg alligevel</string>
+    <string name="clean_dialog_btn_next">Tjek færdigt</string>
+    <string name="gallery_thumbnails">Galleri Miniaturer</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">Efter sletning, vil den være længere om at indlæse i galleriet.</string>
+    <string name="clean_group_app_cache">App Cache</string>
+    <string name="clean_group_residue">Resterende Filer</string>
+    <string name="clean_group_cache">Cache Junk</string>
+    <string name="clean_group_temp">System Midlertidige Filer</string>
+    <string name="clean_group_apk">Forældede apk'er</string>
+    <string name="clean_group_big_file">Store filer</string>
+    <string name="clean_group_ad">AD Junk</string>
+    <string name="clean_group_memory">Hukommelses Junk</string>
+    <string name="clean_item_sys_cache">System Cache</string>
+    <string name="clean_done_tips">Renset</string>
+    <string name="clean_dialog_app_cache_yes_btn">Manuel Rensning</string>
+    <string name="clean_dialog_folder_yes_btn">Se</string>
+    <string name="clean_dialog_file_yes_btn">Open</string>
+    <string name="clean_dialog_media_yes_btn">Afspil</string>
+    <string name="clean_dialog_message_size">Størrelse</string>
+    <string name="clean_dialog_message_contain">Indeholder</string>
+    <string name="clean_dialog_message_path">Sti</string>
+    <string name="clean_dialog_message_file">filer</string>
+    <string name="clean_dialog_message_folder">mapper</string>
+    <string name="clean_done_none_tips">Udemærket</string>
+    <string name="clean_file_browser_no_files">Ingen Filer</string>
+    <string name="clean_days_ago"> dage gemmel</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969">Vær forsigtig! &lt;/font>%1$s</string>
+    <string name="clean_subitem_detail_connect">Dette er %1$s af %2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443">Dine filer vil ikke blive påvirket efter rensning.&lt;/font></string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443">Det er helt sikkert at rense.&lt;/font></string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969">De bliver nødt til, at blive downloadet.&lt;/font></string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969">En rensning vil fjerne disse for evigt!&lt;/font></string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Rens</string>
+    <string name="uninstall_dialog_message_1">&lt;b>%1$s&lt;/b> tilbage &lt;font color="#85c443">%2$s&lt;/font> resterende filer.</string>
+    <string name="uninstall_dialog_message_2">Indeholder: </string>
+    <string name="uninstall_clean_tips">&#160;resterende filer blev renset!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">Indstillinger</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Feedback</string>
+    <string name="container_hint_setting_feedback">Skriv venligst dine kommentarer her, giv så mange detaljer som muligt. Vi lytter altid og lavet forbedringer.</string>
+    <string name="mial_hint_setting_feedback">Email</string>
+    <string name="notice_setting_feedback">Telefonmodel og version vil blive indsamlet for at kunne diagnostisere dit problem. Vi vil aldrig indsamlet personlig information uden din tilladelse.</string>
+    <string name="no_contain_setting_feedback">Hej,sig et eller andet?</string>
+    <string name="sendok_setting_feedback">Tak for din feedback!</string>
+    <string name="checknet_setting_feedback">Tjek venligst din netværksforbindelse.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">&lt;u>Like os på facebook&lt;/u></string>
+    <string name="googleplus_about_setting">&lt;u>Tilmeld dig Google+ kommunikation&lt;/u></string>
+    <string name="googleplay_about_setting">&lt;u>Bedøm os på GooglePlay&lt;/u></string>
+    <string name="title_about_setting">Om</string>
+    <string name="share_setting_about">Z Speed+ gør min telefon hurtigere og renere. Prøv det! Få det her: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014&#8211;2015 ZERO Team. Alle rettigheder forbeholdes.</string>
+    <string name="law_jump_setting_about">&lt;u>Fortrolighedspolitik&lt;/u></string>
+    <string name="share_title_setting_about">del Z Speed+</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">Ikke i stand til at åbne en forbindelse</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Svævende Widget</string>
+    <string name="title_notice">Notifikationer</string>
+    <string name="junk_clean_setting">Junk Rensning</string>
+    <string name="enable_widget_setting_setting">Aktivér</string>
+    <string name="hide_widget_setting_setting">Gem tidsvisningen i statuslinjen</string>
+    <string name="show_widget_setting_setting">Vis kun på skrivebordet</string>
+    <string name="memory_setting_setting">Hukommelses boost påkrævet</string>
+    <string name="storge_setting_setting">Lagerplads er ved at løbe ud</string>
+    <string name="junk_setting_setting">Resterende junk filer</string>
+    <string name="autostart_setting_setting">Ny autostart anmodning</string>
+    <string name="ignore_setting_setting">Liste over ignorerede</string>
+    <string name="memery_boost_setting_setting">Kørende apps</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">Generelt</string>
+    <string name="menu_general_setting_language">Sprog</string>
+    <string name="menu_general_setting_shortcut">Opret genvej</string>
+    <string name="menu_junk_setting">Junk Filer</string>
+    <string name="menu_junk_setting_scan_memory">Scan Hukommelses Junk</string>
+    <string name="menu_join_uep_plan">&lt;u>Brugeroplevelsesprogram&lt;/u></string>
+   <string name="menu_smart_boost">Smart boost</string>
+    <string name="smart_boost_screen_lock">Smart boost på skærmlås</string>
+    <string name="smart_boost_show_result">Vis resultater efter smart boost</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Deaktivér svævende widget?</string>
+    <string name="float_hide_float_message">Du kan også gemme den svævende widget til tiden på statuslinjen.</string>
+    <string name="float_dialog_ok">OK</string>
+    <string name="float_dialog_cancel">Fortryd</string>
+    <string name="float_dialog_hide_ok">Prøv det!</string>
+    <string name="float_dialog_hide_cancel">Deaktivér alligevel</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Ingen tilladelser. Operation fejlede!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram_black">&lt;font color="#1d1d1d">Tilgængelig hukommelse er &lt;/font>&lt;font color="#fe6969">&lt;b>mindre end %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_white">&lt;font color="#ffffff">Tilgængelig hukommelse er &lt;/font>&lt;font color="#fe6969">&lt;b>mindre end %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_line2">Enheden kan blive meget langsom</string>
+    <string name="notification_boost">Boost</string>
+    <string name="notification_sdcard">Dit lager er ved at være fyldt. Tryk for at rense!</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d">Lager er ved at være fyldt.&lt;/font>&lt;font color="#fe6969">&lt;b>Kun %s%% tilbage&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff">Lager er ved at være fyldt.&lt;/font>&lt;font color="#fe6969">&lt;b>Kun %s%% tilbage&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_line2">Der er muligvis ikke nok plads til downloads</string>
+    <string name="notification_release_more"><![CDATA[%s MB frigjort. <font color="#85c443">Frigør mere!</font>]]></string>
+    <string name="notification_boost_phone_optimum"><![CDATA[Din telefon arbejder på sit optimale niveau. <font color="#85c443">Flere funktioner!</font>]]></string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d">Enheden &lt;/font>&lt;font color="#fe6969">&lt;b>kører langsommere&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff">Enheden &lt;/font>&lt;font color="#fe6969">&lt;b>kører langsommere&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block2">En app forbruger meget af din CPU</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d">CPU er &lt;/font>&lt;font color="#fe6969">&lt;b>meget overophedet&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff">CPU er &lt;/font>&lt;font color="#fe6969">&lt;b>meget overophedet&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat2">En app bruger unormalt meget af din CPU</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d">CPU Temp. &lt;/font>&lt;font color="#fe6969">&lt;b>stiger hastigt&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff">CPU Temp. &lt;/font>&lt;font color="#fe6969">&lt;b>stiger hastigt&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp2">En app bruger unormalt meget af din CPU</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#1d1d1d">junk fylder din lagerplads&lt;/font></string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#ffffff">junk fylder din lagerplads&lt;/font></string>
+    <string name="notification_clean_scan_message">Rens for at frigøre lagerplads på din telefon</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"> %s applikationer &lt;/font>&lt;font color="#fe6969">dræner batteriet&lt;/font></string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"> %s applikationer &lt;/font>&lt;font color="#fe6969">dræner batteriet&lt;/font></string>
+    <string name="notification_ram_help_line2">Boost for at spare batterilevetid</string>
+    <string name="notification_release_sleep">Fremskynd % MB under søvnen</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969">Nyt junk &lt;/font>&lt;font color="#1d1d1d">er blevet dannet&lt;/font></string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969">Nyt junk &lt;/font>&lt;font color="#ffffff">er blevet dannet&lt;/font></string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d">Bedste vejrapplikation for dig&lt;/font></string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff">Bedste vejrapplikation for dig&lt;/font></string>
+    <string name="notification_go_weather_message">Nye julewidgets udgivet!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d">Kedeligt med standard besked?&lt;/font></string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff">Kedeligt med standard besked?&lt;/font></string>
+    <string name="notification_go_sms_message">Tilpas din egen besked nu!</string>
+    <string name="go_launcher">GO Launcher Z</string>
+    <string name="go_weather">GO Weather - Vejrudsigt &amp; Widget</string>
+    <string name="go_weather_done_message">Giver nuværende &amp; fremtidig vejr information, smukke widgets &amp; levende tapeter.</string>
+    <string name="notification_guide_text">Tænd din egen flippe</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Åben som</string>
+    <string name="filetype_text">Tekst</string>
+    <string name="filetype_video">Video</string>
+    <string name="filetype_audio">Lyd</string>
+    <string name="filetype_image">Billede</string>
+    <string name="filetype_music">Musik</string>
+    <string name="filetype_document">Dokument</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">Komprimering</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Ny Version</string>
+    <string name="update_update">Opdatér</string>
+    <string name="update_later">Senere</string>
+    <string name="update_cancel">Fortryd</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">Boost</string>
+    <string name="shortcut">Genvej</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">Efter opstart</string>
+    <string name="auto_start_on_connectivity_change">Når du skifter netværk</string>
+    <string name="auto_start_on_package_changed">Når app status ændres</string>
+    <string name="auto_start_on_package_added">Når du installerer apps</string>
+    <string name="auto_start_on_package_removed">Når du afinstallerer apps</string>
+    <string name="auto_start_on_package_replaced">Når du skifter apps</string>
+    <string name="auto_start_on_any_data_state">Når data bliver ændret</string>
+    <string name="auto_start_on_outgoing_call">Under udgående opkald</string>
+    <string name="auto_start_on_phone_state_changed">Når du lægger på</string>
+    <string name="auto_start_on_user_present">Når du låser din telefon op</string>
+    <string name="auto_start_on_wifi_state_change">Når du forbinder til Wi-Fi</string>
+    <string name="auto_start_on_wifi_enable_change">Når du sætter Wi-Fi til/fra</string>
+    <string name="auto_start_on_time_set">Når tiden bliver indstillet</string>
+    <string name="auto_start_on_bluetooth_state_change">Når Bluetooth status ændres</string>
+    <string name="auto_start_on_power_connected">Når du forbinder strømkablet</string>
+    <string name="auto_start_on_power_disconnected">Når du tager strømkablet ud</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">Notifikation Skift</string>
+    <string name="notification_toggle_nocal">Lommeregner ikke fundet!</string>
+    <string name="notification_toggle_open">Z Speed+ Notifikation Skift aktiveret.</string>
+    <string name="notification_toggle_noflash">din enhed har ingen lommelygte!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">Z Speed+ understøtter %s, tilmeld dig nu?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Fejl ved forbindelse.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">Det mislykkedes at hente sproget.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Lager</string>
+    <string name="storage_main_act_details">Detaljer</string>
+    <string name="storage_main_act_tab_used_space">Lagerplads brugt</string>
+    <string name="storage_main_act_tab_app_total">%s APPs</string>
+    <string name="storage_main_act_tab_audio_total">%s Musik</string>
+    <string name="storage_main_act_tab_image_total">%s Billeder</string>
+    <string name="storage_main_act_tab_document_total">%s Dokumenter</string>
+    <string name="storage_main_act_tab_other_total">Andre</string>
+    <string name="file_category_image_title">Billeder</string>
+    <string name="file_category_image_delete_dialog_msg_1">fil(er) vil blive slettet.</string>
+    <string name="file_category_image_delete_dialog_msg_2">Den slettede fil(er) kan ikke gendannes!</string>
+    <string name="file_category_video_no_content">Ingen Video</string>
+    <string name="file_category_video_delete_msg">Videoer vil blive slettet.</string>
+    
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">%s videoer totalt</string>
+    <string name="video_title_selected">%s videoer valgt</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Musik</string>
+    <string name="music_group_music">Musik</string>
+    <string name="music_group_rings">Ringer</string>
+    <string name="music_group_record">Optag</string>
+    <string name="music_dialog_title">Advarsel</string>
+    <string name="music_dialog_delete_cancel">Fortryd</string>
+    <string name="music_dialog_delete_delete">Slet</string>
+    <string name="music_dialog_delete_notice">fil(er) vil blive slettet.</string>
+    <string name="music_dialog_delete_notice_below">De slettede fil(er) kan ikke gendannes!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">Dokumenter</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">ANDRE</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">Slet</string>
+    <string name="image_dialog_text1">Denne fil vil blive slettet.</string>
+    <string name="image_dialog_text2">Er du sikker?</string>
+    <string name="image_no_selected">Ingen filer er valgt.</string>
+    <string name="image_size_notice">%s blev renset!</string>
+    <string name="image_delete_layout_text">Slet(%s)</string>
+    <string name="image_delete_ok">Ja</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Disse filer kan ikke slettes.</string>
+    <string name="no_app_to_open_file">Ingen lokale apps kan åbne filen</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Træk det her, for at booste din telefon.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">Deaktiverer</string>
+    <string name="disable_apps_done_disable_count">%s Deaktiveret!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">Z Speed+ holder dem inaktive</string>
+    <string name="disable_apps_wait_to_stop_tips">Prøver hårdt for at stoppe, vent&#8230;</string>
+    <string name="disable_list_no_app_tip">Ingen deaktiverede apps</string>
+    <string name="disable_group_most_disable_title">Mest deaktiverede</string>
+    <string name="disable_group_recommend_keeping_title">Anbefalet at beholde</string>
+    <string name="disable_group_recommend_keeping_subtitle">Deaktivering kan muligvis skabe system fejl</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Deaktivér</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Aktivér</string>
+    <string name="disable_app_info_dialog_consuming_tip">Denne app forbruger systemhukommelse</string>
+    <string name="disable_app_info_dialog_system_error_tip">Deaktivering kan muligvis skabe system fejl</string>
+    <string name="disable_app_info_dialog_no_statement">Du kan prøve at deaktivere det, hvis du ikke har brug for det</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Producerer pre-installeret tjeneste</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&#60;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">Installér Nu</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Hurra!</string>
+    <string name="rate_gp_dialog_feedback_title">Feedback</string>
+    <string name="rate_gp_dialog_rate_title">Elsk Z Speed+</string>
+    <string name="rate_gp_dialog_one_notice_boost">I de sidste %1$s dage, har Z Speed+ dræbt &lt;font color="#85c443"> %2$s &lt;/font>langsomme apps for dig.&lt;br /> &lt;br/> &lt;font color="#85c443">Kan du godt lide Z Speed+?&lt;/font></string>
+    <string name="rate_gp_dialog_one_no_boost">Ikke rigtig</string>
+    <string name="rate_gp_dialog_one_yes_boost">Ja!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Du har lige renset &lt;font color="#85c443"> %s &lt;/font> junk! &lt;br /> &lt;br/>Hvordan virker Z Speed+ for dig?</string>
+    <string name="rate_gp_dialog_one_no_clean">Ikke særlig godt</string>
+    <string name="rate_gp_dialog_one_yes_clean">Jeg elsker det!</string>
+    <string name="rate_gp_dialog_two_notice">Ville du have lyst til, at give os feedback? \nHvert af dine ord er værdifulde for os.</string>
+    <string name="rate_gp_dialog_two_no">Nej tak</string>
+    <string name="rate_gp_dialog_two_yes">OK, selvfølgelig</string>
+    <string name="rate_gp_dialog_three_notice">Hvad så med en 5 stjernet bedømmelse?</string>
+    <string name="rate_gp_dialog_three_no">Nej tak</string>
+    <string name="rate_gp_dialog_three_yes">OK, selvfølgelig</string>
+    <string name="rate_gp_notification_notice">Du har dræbt %s langsomme apps indtil videre. Vil du se?</string>
+
+    <!-- 启动页 -->
+    <string name="privacy_policy">&lt;u>Fortrolighedspolitik&lt;/u></string>
+    <string name="private_agreement">Jeg er enig med&#160;</string>
+    <string name="private_start">START</string>
+    <string name="private_join_uep">Tilmeld dig vores brugeroplevelsesprogram</string>
+    <string name="privacy_start_by_agree_policy">Godkend &lt;u>Privatlivspolitikken&lt;/u></string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">installeret, rens den unødvendige apk for at gemme</string>
+    <string name="install_listen_installed_multiple_msg">Apps installeret, rens de unødvendige apk for at gemme</string>
+    <string name="install_listen_delete_apk_tip">Renset</string>
+    <string name="install_listen_dialog_clean_btn_text">Rens</string>
+    <string name="install_listen_dialog_cancel_btn_text">Fortryd</string>
+    <string name="install_listen_dialog_eye_tip_on">Spørg ikke i 3 dage</string>
+    <string name="install_listen_dialog_eye_tip_off">Bliv ved med at spørge mig</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">Spil Boost</string>
+    <string name="game_boost_add_to_game_title">Tilføj Spil</string>
+    <string name="game_boost_effect">Boost &lt;font color="#85c443">%s &lt;/font> mere tilgængelig RAM til spil.</string>
+    <string name="game_cell_add">Tilføj spil</string>
+    <string name="game_cell_ok">Ok</string>
+    <string name="game_boost_menu_about">Hvordan det virker</string>
+    <string name="game_boost_menu_add_shutcut">Opret Spilmappe</string>
+    <string name="game_boost_folder_create_success">Det lykkedes at oprette en spilmappe.</string>
+    <string name="game_boost_box_shortcut_name">Spil Boost</string>
+    <string name="game_boost_add_card_view_title_popular">Populære Spil</string>
+    <string name="game_boost_add_new_game_to_boost">%s tilføjet til Spil Boost</string>
+    <string name="game_boost_add_new_games_to_boost">%s nye spil blev tilføjet til spil Boost</string>
+    <!-- 游戏加速介绍 -->
+    <string name="game_boost_about_one">Luk automatisk ned for urelaterede baggrunds apps, som kan have en indflydelse på din telefons ydeevne i spil.</string>
+    <string name="game_boost_about_two">Overvåg dynamisk din telefon og rens det unødvendige RAM.</string>
+    <string name="game_boost_about_three">Åben spil fra Z Speed+ spilmappen i launcher, Boost dine spil med op til 20~65%.</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Booster&#8230;</string>
+    <string name="game_accel_anim_boost_toast_tip">Boosted, %s%% op.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">CPU Problemer</string>
+    <string name="cpu_fix">FIX</string>
+    <string name="cpu_check">Tjek</string>
+    <string name="cpu_issue_type_temp_overheated">Overophedet!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Øges hastigt!</string>
+    <string name="cpu_issue_type_heavily_occupied">CPU stærkt optaget!</string>
+    <string name="cpu_temp_issue_app">skaber problemet</string>
+    <string name="cpu_occupied_issue_app">Forbruger &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">CPU Køler</string>
+    <string name="cpu_coll_down_cpu">Køl din CPU ned</string>
+    <string name="cpu_temperature_issue">Temperatur problem</string>
+    <string name="cpu_device_running_slow">Enheden kører langsomt</string>
+    <string name="cpu_issue_detected">Problem opdaget</string>
+    <string name="cpu_cool_down_further">Køl yderligere ned, rens %s kørende apps</string>
+    <string name="cpu_temp_well">CPU temp. er OK</string>
+    <string name="cpu_temp_hot">En smale varmt</string>
+    <string name="cpu_temp_overheated">Overophedet</string>
+    <string name="cpu_temp_chilling">Køler ned</string>
+    <string name="cpu_temp_cooler">CPU Køler</string>
+    <string name="cpu_occupy">Optager &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+    <string name="cpu_abnormal">Abnormal CPU usage: &lt;font color="#D46565"> %s &lt;/font></string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Lige optimeret</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Lad enheden hvile et stykke tid for at køle ned</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Ingen apps der overopheder</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Enheden er ved at køle ned</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Overophedede apps er renset</string>
+    <string name="cpu_anim_cooldown_done_dropped">Aflyst</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Begynder at køle ned&#8230;</string>
+    <string name="cpu_anim_scan_process_tip_text">Scanner CPU'en&#8230;</string>
+    <string name="cpu_anim_lag_done_tip_text">Boosted!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">Tjek venligst din netværksforbindelse og prøv igen</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Spil Booster</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Spil Booster mappe blev oprettet på skærmen, åbn og se :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Aktiveret</string>
+    <string name="finish_page_card_game_booster_desc">Åbn spil fra spil booster mappen, nyd 65% hutigere opstartshatighed</string>
+    <string name="finish_page_card_game_booster_btn">Aktivér Nu</string>
+    <string name="finish_page_card_whitelist_name">Redigér booster Whitelist</string>
+    <string name="finish_page_card_whitelist_desc">Markér apps som skal forblive kørende</string>
+    <string name="finish_page_card_whitelist_btn">Redigér Nu</string>
+    <string name="finish_page_card_autostart_name">Autostarter Fundet</string>
+    <string name="finish_page_card_autostart_desc">&lt;big>%s&lt;/big> autostart app(s) som skal optimeres</string>
+    <string name="finish_page_card_autostart_btn">Tjek</string>
+    <string name="finish_page_card_photo_name">Ryd op i dine billeder</string>
+    <string name="finish_page_card_photo_desc">Mere end &lt;big>%s billeder&lt;/big> er blevet taget, men måske ikke alle fortjener den plads de bruger?</string>
+    <string name="finish_page_card_photo_btn">Ryd op</string>
+    <string name="finish_page_card_clean_1_name">Junk til Rengjort</string>
+    <string name="finish_page_card_clean_1_desc">Uartig telefon genererede &lt;big>%s&lt;/big> junk på det seneste</string>
+    <string name="finish_page_card_clean_1_btn">Rens</string>
+    <string name="finish_page_card_clean_2_name">&lt;big>%s&lt;/big> Junk fundet</string>
+    <string name="finish_page_card_clean_2_desc">Efter rensning, mere end &lt;big>%s&lt;/big> nye billeder kan tages</string>
+    <string name="finish_page_card_clean_2_btn">Rens nu</string>
+    <string name="finish_page_card_activate_power_mode_title">%s apps &lt;big>auto-startede&lt;/big></string>
+    <string name="finish_page_card_activate_power_mode_desc">Aktivér &lt;big>Power Modus&lt;/big> for at klare problemet</string>
+    <string name="finish_page_card_activate_power_mode_btn">Aktivér</string>
+    <string name="finish_page_card_feedback_name">Fortæl os hvordan du tænker</string>
+    <string name="finish_page_card_feedback_desc">Favorit funktion,foreslag,noget</string>
+    <string name="finish_page_card_feedback_btn">Tilbagemelding</string>
+    <string name="finish_page_no_ad_whitelist_tips">Lad vær at dræbe applikationerne du behøver!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">Telefonen er langsom</string>
+    <string name="finish_page_no_ad_boost_normal_tips">Telefonen kunne være hurtigere</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Boost Telefon</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Frigør hukommelse, for at huttiggøre din telefon</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Boost</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big>%s%% Hukommelse&lt;/big> Tilbage</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s kørende apps har brugt hukommelse, telefonen kan være meget langsom</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Boost Nu</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Deaktivér Pre-installerede</string>
+    <string name="finish_page_card_disable_desc">%1$s pre-installerede apps, &lt;big>%2$s&lt;/big> kan deaktiveres</string>
+    <string name="finish_page_card_disable_btn">Tjek</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Tjek hvem der autostartede skjult</string>
+    <string name="finish_page_no_ad_clean2_tips">Junk vil gøre din telefon langsommere</string>
+    <string name="finish_page_no_ad_clean1_tips">Junk skal renses hver dag</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">Spil har også brug for en booster!</string>
+    <string name="finish_page_no_ad_disable_tips">Nogle preinstallerede er virkelig ubrugelige</string>
+    <string name="finish_page_no_ad_photo_tips">Meget plads kan frigøres!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">Power Modus kan stoppe selv de svære!</string>
+    <string name="finish_page_no_ad_whitelist_tips">Lad være med at dræbe de apps som du behøver!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">Telefonen kører langsomt</string>
+    <string name="finish_page_no_ad_boost_normal_tips">Telefonen kunne køre hurtigere</string>
+
+     <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">Tilføj Spil</string>
+    <string name="game_accel_guide_title">Spil Boost</string>
+    <string name="game_accel_guide_text2">er blevet aktiveret</string>
+    <string name="game_accel_guide_try_text">Tryk for at prøve!</string>
+    <string name="game_accel_guide_gamename_1">Genvej oprettet</string>
+    <string name="game_accel_guide_gamename_2">Åben på skrivebord</string>
+    <string name="game_accel_guide_gamename_3">Scanner spil…</string>
+    <string name="game_accel_guide_discovery_text_above">Kanal Z</string>
+    <string name="game_accel_guide_discovery_text_below">også her</string>
+    <string name="game_accel_sec_anim_title">SPIL</string>
+    <string name="game_accel_shortcut_created">Oprettet</string>
+    <string name="game_accel_tip_dialog_content_text">Kunne du tænke dig at aktivere Spil Boost for at hjælpe med at booste \"%s\" op til 40%%?</string>
+    <string name="game_accel_tip_dialog_content_text_new">Aktiver Spil Boost for at fremskynde &lt;font color="#85c443">\"%s\"&lt;/font> op til 65%%?</string>
+    <string name="game_accel_sort_name">Navn</string>
+    <string name="game_accel_sort_Date">Dato</string>
+    <string name="game_accel_game_box_title">Håndter Spil</string>
+    <string name="game_accel_add_shortcut">Tilføj Genvej</string>
+    
+     <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">OPDAG</string>
+    <string name="game_distribute_connection_failed">Forbindelse mislykkedes</string>
+    <string name="game_distribute_net_data_alert">Spil tilsluttet WIFI kan reducere dataforbrug</string>
+    <string name="game_distribute_warning_title">Z Speed+ TV</string>
+    <string name="game_distribute_warning_content"> Filmen i videoerne er utrolig.\nVideoerne er ikke kun vist for hjemmebrug men også andre rettigheder\n . Enhver aflytning eller kiggeri af disse film er\n velkomne til Z Hastighed+. Vi anbefaler dig oprigtigt at \n spille spil i rimelige tidspunkter.</string>
+    <string name="game_distribute_video_title">Kanal</string>
+    <string name="game_distribute_game_searching">Søger Spil...</string>
+    
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534">Store Applikationer &lt;/font></string>
+    <string name="cpu_thieves_title">Top 3 &lt;font color="#6ac534">CPU Tyve Idag &lt;/font></string>
+    <string name="num_times">%s antal</string>
+    
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Tilgængelig hukommelse ekstremt lav!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+    <string name="home_guide_card_boost_button">Boost Nu</string>
+
+    <string name="home_guide_card_photo_desc1">At tage billeder er nemt</string>
+    <string name="home_guide_card_photo_desc2">At slette dem er ikke</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+    <string name="home_guide_card_photo_button">Ryd Nu</string>
+
+    <string name="home_guide_card_cpu_desc">Overophedet CPU dræner batteriet</string>
+    <string name="home_guide_card_cpu_button">Nedkøl</string>
+    <string name="home_guide_card_disbale_desc2">Din telefon kunne være hurtigere!</string>
+    <string name="home_guide_card_disbale_desc_big">%s Applikationer</string>
+    <string name="home_guide_card_disbale_button">Deaktiver Nu</string>
+    
+     <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Energibesparende tilstand</string>
+    <string name="enable_super_boost_mode_normal">Normal Tilstand</string>
+    <string name="enable_super_boost_desc_super">&lt;b>Boost:&lt;/b> Normale Applikationer, &lt;mark>&lt;font color="red">Automatiske Applikationer&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">Giver 60% mere batteri øgelse ligesom rodfæstede telefoner.&lt;/font>&lt;/b>&lt;br>
+        (Venligst tænd for Z Speed+ tilgængeligheden igen i næste trin)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b>Boost:&lt;/b> Normale Applikationer, &lt;mark>&lt;font color="red">Automatiske Applikationer&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">Giver 60% mere batteri øgelse ligesom rodfæstede telefoner.&lt;/font>&lt;/b>&lt;br>
+        (Venligst tænd for Z Speed+ tilgængeligheden igen i næste trin)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b>Boost:&lt;/b> Normale Applikationer&lt;br>
+      Automatiske applikationer vil ikke blive boosted undtagen i strøm tilstand.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">Strøm Boost min telefon nu!</string>
+    <string name="enable_super_disable_mode_super">Deaktiver parti</string>
+    <string name="enable_super_disable_mode_normal">Manuel Deaktivering</string>
+    <string name="enable_super_disable_desc_super">&lt;mark>&lt;font color="red">&lt;b>Feature:&lt;/b> Parti deaktivering ubrugelige applikationer med bare 1 klik.&lt;/font> &lt;/mark>&lt;br>
+        (Venligst tænd for Z Speed+ tilgængeligheden igen i næste trin)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark>&lt;font color="red">&lt;b>Feature:&lt;/b> Parti deaktivering ubrugelige applikationer med bare 1 klik.&lt;/font> &lt;/mark>&lt;br>
+        (Venligst tænd for Z Speed+ igen da din telefon har genstartet)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b>Feature:&lt;/b> Deaktiver ubrugelige applikationer 1 efter 1. &lt;br>
+                    &lt;mark>&lt;font color="red">Parti deaktiveringsfunktion for let kontrol er kraftigt anbefalet.&lt;/font> &lt;/mark>
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Muliggør parti deaktiveringsfunktion</string>
+    
+     <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Notifikation Flippe Indstillinger</string>
+    <string name="notification_toggle_settings_label_themes">Temaer</string>
+    <string name="notification_toggle_settings_label_toggles">Flippe</string>
+    <string name="notification_toggle_settings_label_zspeed">KLASSISK</string>
+    <string name="notification_toggle_settings_label_popular">MEST POPULÆRE</string>
+    <string name="notification_toggle_theme_name_green">Demeter</string>
+    <string name="notification_toggle_theme_name_pink">Athena</string>
+    <string name="notification_toggle_theme_name_black">Erebus</string>
+    <string name="notification_toggle_theme_name_silver">Uranus</string>
+    <string name="notification_toggle_toggle_name_app">Hjem</string>
+    <string name="notification_toggle_toggle_name_boost">Boost</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">Fakkel</string>
+    <string name="notification_toggle_toggle_name_brightness">Lysstyrke</string>
+    <string name="notification_toggle_toggle_name_themes">Temaer</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">Data</string>
+    <string name="notification_toggle_toggle_name_camera">Kamera</string>
+    <string name="notification_toggle_toggle_name_calculator">Lommeregner</string>
+    <string name="notification_toggle_toggle_name_rotate">Roter</string>
+    <string name="notification_toggle_toggle_name_sound">Lyd</string>
+    <string name="notification_toggle_bright_auto">AUTOMATISK</string>
+    <string name="notification_toggle_notification_ticker">Z Speed+ værktøjslinje bare stå ved</string>
+    <string name="notification_toggle_notification_ticker_initializing">værktøjslinje initialiserer&#8230;</string>
+    
+     <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Skriv indhold for at søge</string>
+    <string name="hot_word_search_next_batch">Mere</string>
+    
+     <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Kopier Billeder</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s billedet ryddet!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Alle kopierede billeder ryddet!</string>
+    <string name="duplicate_photos_delete_alert_title">Permanent slet</string>
+    <string name="duplicate_photos_delete_alert_desc">Er du sikker på at du vil slette dem permanent?</string>
+    <string name="duplicate_photos_leave_alert_title">Siker på at forlade?</string>
+    <string name="duplicate_photos_leave_alert_desc">Du har valgt at % billeder bliver slettet.&lt;br>Er du sikker på at forlade?</string>
+    <string name="duplicate_photos_leave_alert_leave_btn">Forlad</string>
+    <string name="duplicate_photos_scan_alert">Scanningen kan tage et øjeblik, venligst vent</string>
+    <string name="duplicate_photos_no_content">Tillykke! Ingen kopierede billeder!</string>
+    <string name="duplicate_photos_suffix_selected">% valgt</string>
+    <string name="duplicate_photos_suffix_total">% billeder totalt</string>
+    
+     <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">Ugens Bedste Spil</string>
+    <string name="game_ad_notification_label_weekly_best_app">Ugens Bedste Applikation</string>
+    
+     <!-- app lock -->
+    <string name="activity_applock_title">APPLIKATIONSLÅS</string>
+    <string name="app_lock_perm_settings_title">Indstilling</string>
+    <string name="app_lock_perm_settings_message">Tilladelse forespørgsel</string>
+    <string name="app_lock_notice_enable_usage_stats">I Android 5.0 eller mere, skal du tillade brugeradgang for Applikationslås så du kan benytte Applikationslåsefunktionen.</string>
+     <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_notice_enable_usage_stats1">Hvis opsætningen mislykkedes, venligst muliggør det via Indstillinger > Låseskærm og sikkerhed > Ukendte kilder</string>
+    <string name="app_lock_enable_usage_stats">Tillad</string>
+    <string name="install_app_mointor_locker">Behøver at låses</string>
+    <string name="locker_header_forget_pwd">Glemt kodeord</string>
+    <string name="locker_header_replce_number_locker">Skift til kodeordslås</string>
+    <string name="locker_header_replce_graphic_locker">Skift til mønsterkode</string>
+    <string name="initializationpassword_frist_prompt">angiv PIN-kode</string>
+    <string name="initializationpassword_second_prompt">Indtast PIN-koden igen for bekræftelse</string>
+    <string name="initializationpassword_pwd_not_equals">PIN-koden stemmer ikke overens, venligst indtast den igen</string>
+    <string name="init_email_prompt">Email for glemt kodeord</string>
+    <string name="init_email_prompt1">Venligst indtast den korrekte email</string>
+    <string name="init_mail_btn_text">Næste</string>
+    <string name="forget_reset_pwd_success">PIN-kode gendannet succesfuldt</string>
+    <string name="activity_applock_group_apps">APPLIKATIONER</string>
+    <string name="activity_applock_menu_update">Opgrader til Pro</string>
+     <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">AppLock Indstilling</string>
+    <string name="app_lock_setting_parent_unlock_mode">Oplåst Tilstand</string>
+    <string name="app_lock_setting_passcode">PIN-kode</string>
+    <string name="app_lock_setting_others">Andet</string>
+    <string name="app_lock_setting_unlock_mode_numbers">Cifre</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Mønster</string>
+    <string name="app_lock_setting_passcode_change_passcode">Skift PIN-kode</string>
+    <string name="app_lock_setting_passcode_email_setting">Email Indstilling</string>
+    <string name="app_lock_setting_others_brief_eixt">Tillad en kort udgang</string>
+    <string name="app_lock_setting_others_relock">Genlås efter skærm til</string>
+    <string name="app_lock_setting_brief_eixt_seconds">sekunder</string>
+    <string name="app_lock_setting_brief_eixt_minutes">minutter</string>
+    <string name="app_lock_setting_pro">Pro</string>
+    <string name="app_lock_setting_pro_update">Opdater til mester lås</string>
+     <!-- 应用锁找回密码 -->
+    <string name="forget_title">Glemt PIN-kode</string>
+    <string name="forget_email_prompt1">1)Vi vil sende verifikationskode til din mail.</string>
+    <string name="forget_email_prompt2">2)Indtast verifikationskoden og få din PIN-kode.</string>
+    <string name="forget_email_btn_prompt">Send</string>
+    <string name="forget_email_btn_prompt2">Gendan PIN-kode</string>
+    <string name="forget_email_edit_prompt">Verifikationskode</string>
+    <string name="forget_check_code_not_right">Forkert</string>
+    <string name="forget_check_code_out_of_time">Verifikationen er udløbet, venligst forespørg igen.</string>
+    <string name="forget_send_email_error">Mislykkedes at sende mailen, prøv igen.</string>
+    <string name="forget_send_email_success">Email sendt succesfuldt, tjek din indboks.</string>
+    <string name="set_graphic_password_message_draw">Tegn et oplåsningsmønster</string>
+    <string name="set_graphic_password_message_too_short">Forbind mindst 4 prikker. Prøv igen:</string>
+    <string name="set_graphic_password_message_stored">Mønster gemt.</string>
+    <string name="set_graphic_password_message_redraw">Tegn mønster igen for at bekræfte:</string>
+    <string name="set_graphic_password_btn_redraw">Prøv igen</string>
+    <string name="set_graphic_password_message">PIN-kode Instilling</string>
+    <string name="set_graphic_password_message_wrong">Fejl, prøv igen:</string>
+    <string name="applock_recommend_dialog_title">Anbefalede applikationer</string>
+    <string name="applock_recommend_dialog_lockall">Lås alle</string>
+    <string name="applock_recommend_dialog_ok">OK</string>
+     <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">Gratis at prøve Pro Privatlivslås!</string>
+    <string name="lokcer_init_instruction_first">Indstillingskode til at låse dine privatlivsapplikationer</string>
+    <string name="lokcer_init_instruction_second">Bekræft dit kodeord igen</string>
+     <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">Applikationslås</string>
+    <string name="finish_page_card_app_locker_desc">Hold &lt;big>%s&lt;/big> andre væk fra at snage med Applikationslåsefunktionen!</string>
+    <string name="finish_page_card_app_locker_btn">Beskyt Nu</string>
+    
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff">%1$s&lt;/font></string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff">%1$s&lt;/font></string>
+    
+</resources>

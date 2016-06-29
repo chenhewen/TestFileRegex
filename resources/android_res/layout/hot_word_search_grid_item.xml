@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/hot_word_search_grid_item_fire_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hot_word_search_hot_icon" />
+
+    <TextView
+        android:id="@+id/hot_word_search_grid_item_hot_wrod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:maxLines="2"
+        android:text="hot word"
+        android:textColor="@drawable/hot_word_grid_item_text_selector"
+        android:textSize="14sp" />
+</LinearLayout>

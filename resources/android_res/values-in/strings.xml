@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 印尼语 -->
+    <string name="app_name">GO Speed</string>
+
+    <!-- ==========字体模块========== -->
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_families_roboto_thin">sans-serif-thin</string>
+    <string name="font_families_roboto_light">sans-serif-light</string>
+    <string name="font_families_roboto_condensed">sans-serif-condensed</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_ok">OK</string>
+    <string name="common_select">Pilih</string>
+    <string name="common_delete">Hapus</string>
+    <string name="common_others">Lain-lain</string>
+    <string name="common_uninstall">Copot Pemasangan</string>
+    <string name="common_back_up">Cadangan</string>
+    <string name="common_cancel">Batal</string>
+    <string name="common_install">Pasang</string>
+    <string name="common_installed">Terpasang</string>
+    <string name="common_vertion">Versi</string>
+    <string name="common_update">Perbaruan</string>
+    <string name="common_insufficient_storate">Ruang Penyimpanan Tidak Cukup</string>
+    <string name="common_no_sdcard">Kartu SD Tidak Ditemukan</string>
+    <string name="common_warning">Peringatan</string>
+    <string name="common_no_content">Kosong</string>
+    <string name="common_comma">,</string>
+    <string name="common_slogan">Tingkatkan kemampuan ponsel Anda</string>
+    <string name="common_download">Unduh</string>
+    <string name="common_uninstalled">Terhapus</string>
+    <string name="common_more">Lebih</string>
+    <string name="common_on">ON</string>
+    <string name="common_off">OFF</string>
+    <string name="common_new">baru</string>
+    
+    <!-- 一周 -->
+    <string name="sunday">MINGGU</string>
+    <string name="monday">SENIN</string>
+    <string name="tuesday">SELASA</string>
+    <string name="wednesday">RABU</string>
+    <string name="thursday">KAMIS</string>
+    <string name="friday">JUMAT</string>
+    <string name="saturday">SABTU</string>
+
+    <!-- 月份 -->
+    <string name="jan">Jan.</string>
+    <string name="feb">Feb.</string>
+    <string name="mar">Mar.</string>
+    <string name="apr">Apr.</string>
+    <string name="may">Mei.</string>
+    <string name="june">Juni.</string>
+    <string name="july">Juli.</string>
+    <string name="aug">Agus.</string>
+    <string name="sept">Sept.</string>
+    <string name="oct">Okt.</string>
+    <string name="nov">Nov.</string>
+    <string name="dec">Des.</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">PENYIMPANAN</string>
+    <string name="main_button_boost">Penguatan</string>
+    <string name="main_button_storage">Berkas Sampah</string>
+    <string name="main_button_manage">Manajer Aplikasi</string>
+    <string name="tip_press_again_to_exit">Tekan lagi untuk keluar.</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Pengaturan</string>
+    <string name="menu_update">Memperbarui</string>
+    <string name="menu_feedback">Umpan Balik</string>
+    <string name="menu_about">Tentang</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">Natal</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">Penguatan Memori</string>
+    <string name="boost_main_act_tab_running">Berjalan</string>
+    <string name="boost_main_act_tab_autostart">Mulai Automatik</string>
+    <string name="boost_running_apps_custom">%1$d Aplikasi Terpilih</string>
+    <string name="boosting_tips">Boosting</string>
+    <string name="boosting_power_tips">Penguatan Daya</string>
+    <string name="boosted_to_optimus_tips">Dikuatkan ke status optimum!</string>
+    <string name="boosted_active_power_mode_tips">Duh! %1$d Aplikasi aktif lagi secara otomatis.\nActive PowerMode untuk mengatasinya!</string>
+    <string name="enable_super_boost_enable">Izinkan</string>
+    <string name="enable_super_boost_title">Izinkan Mode Super</string>
+    <string name="enable_super_boost_main_text">Untuk mempercepat dengan lebih efektif, kami sarankan Anda untuk mengaktifkan fitur Aksesibilitas.</string>
+    <string formatted="false" name="enable_super_boost_content_text1">Untuk membantu Anda menghentikan total aplikasi yang tidak dibutuhkan.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">Ketuk LAYANAN - GO Speed</string>
+    <string name="boost_groups_list_title_running_app">Aplikasi yang sedang berjalan</string>
+    <string name="boost_groups_list_title_cpu_temperature">Suhu CPU</string>
+    <string name="boost_groups_list_title_lag_detected">Lag terdeteksi</string>
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Turn on the above button to activate GO Speed Power Mode for maximum acceleration!\n\nGO Speed use accessibility features to help stopping not-using apps. Please don\'t worry if you see the privacy risk reminder, that\'s just a regular informative warning for any accessibility service. 
+    \n\nWe promise NOT to collect ANY information.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Pilihan</string>
+    <string name="autostart_type_optimization">Akan dioptimasi</string>
+    <string name="autostart_type_allowed">Diizinkan</string>
+    <string name="autostart_type_blocked">Diblokir</string>
+    <string name="autostart_type_system">Aplikasi Bawaan</string>
+    <string name="autostart_type_system_description">Pembokliran mulai automatik aplikasi bawaan bisa mengakibatkan ketidakstabilan sistem. Hati-hati sebelum melanjutkan</string>
+    <string name="autostart_preinstll_system">Aplikasi Bawaan</string>
+    <string name="autostart_on_boot_up">Pengebutan</string>
+    <string name="autostart_on_background">Latar Belakang</string>
+    <string name="autostart_on_boot_up_and_background">Pengebutan/Latar Belakang</string>
+    <string name="autostart_detail_title">Aktif secara otomatis pada %1$d situasi:</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="add_to_ignore_list_act_title">Tambahkan ke Daftar Abai</string>
+    <string name="dialog_memory_footprint">Memori Terpakai</string>
+    <string name="dialog_add_to_ignorelist">Tambahkan ke Daftar Abai</string>
+    <string name="dialog_remove_from_ignorelist">Hilangkan dari Daftar Abai</string>
+    <string name="tip_ignore_list_appunchecked">Aplikasi-aplikasi ini tidak lagi dicentang dalam pengaturan awal setelah pemindaian</string>
+    <string name="tip_ignore_list_appadd">Ketuk \'+\' untuk menambahkan aplikasi yang diabaikan</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443"&gt;%s&lt;/font&gt; will not be scanned.</string>
+    <string name="clean_ignore_empty_tips">Long press items in Junk Files to add to Ignore List.</string>
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">Manajer APLIKASI</string>
+    <string name="app_manager_back_up_success_tips">aplikasi-aplikasi sudah dicadangkan ke:</string>
+    <string name="app_manager_back_up_success_tips_for_one">aplikasi sudah dicadangkan ke:</string>
+    <string name="app_manager_back_up_fail_tips_for_one">aplikasi gagal</string>
+    <string name="app_manager_backing_up">Pencadangan</string>
+    <string name="app_manager_running">Berjalan</string>
+    <string name="app_manager_path">Jalur</string>
+    <string name="app_manager_no_backup_found">Cadangan Tidak Ditemukan</string>
+    <string name="app_manager_tap_to_disable">Ketuk Non Aktif/Mati untuk menonaktifkan</string>
+    <string name="app_manager_tap_to_enable">Ketuk Aktif/Hidup untuk mengaktifkan</string>
+    <string name="app_manager_select_app_first">Silahkan pilih aplikasi dahulu</string>
+    <string name="app_manager_shit">OK</string>
+    <string name="app_manager_freed">Dibersihkan</string>
+    <string name="app_manager_use_rare_month">Jarang digunakan dalam sebulan</string>
+    <string name="app_manager_use_rare_days">Jarang digunakan dalam %s hari</string>
+    <string name="app_manager_use_commonly">Biasa digunakan</string>
+    <string name="app_manager_android_system">Sistem Android</string>
+    <string name="app_manager_use_rare">Jarang digunakan</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Aplikasi Pengguna</string>
+    <string name="app_manager_tab_system">Pra-pasang</string>
+    <string name="app_manager_tab_text_date">Tanggal</string>
+    <string name="app_manager_tab_text_frequance">Frekuensi</string>
+    <string name="app_manager_tab_text_size">Ukuran</string>
+    <string name="app_manager_tab_text_battery">Baterai</string>
+    <string name="app_manager_dialog_cancel">Batal</string>
+    <string name="app_manager_dialog_backup">Cadangkan</string>
+    <string name="app_manager_dialog_uninstall">Copot</string>
+    <string name="app_manager_no_uerapp">Tidak ada aplikasi</string>
+    <string name="app_manager_preinstall_disbale_list">Aplikasi Dinonaktifkan</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Dinonaktifkan</string>
+    <string name="app_manager_preinstall_reommend_disable">% pengguna dinonaktifkan</string>
+    <string name="app_manager_preinstall_reommend_keep">Sarankan untuk disimpan</string>
+    <string name="app_manager_preinstall_reommend_none">Biarkan apa adanya</string>
+    <string name="app_manager_preinstall_tip">Menonaktifkan aplikasi pra-pasang yang jarang digunakan mengurangi pemakaian.</string>
+    <string name="app_manager_preinstall_disable_toast">sudah dinonaktifkan.</string>
+    <string name="app_manager_preinstall_enable_toast">sudah diaktifkan.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Nonaktifkan Sekaligus</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Peringatan</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[Menonaktifkan aplikasi ini mungkin akan <font color="#fe6969">memengaruhi fungsi yang normal</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Anda yakin ingin memilihnya?</string>
+    <string name="app_manager_preinstall_disable_loading">Memuat…</string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">Berkas Sampah</string>
+    <string name="clean_main_suggest">Disarankan</string>
+    <string name="clean_main_selected">Terpilih</string>
+    <string name="clean_dialog_title">Perhatian</string>
+    <string name="clean_dialog_message1">Berkas yang Anda pilih berisi berikut ini:</string>
+    <string name="clean_dialog_btn_all">Pilih toh</string>
+    <string name="clean_dialog_btn_next">Periksakan</string>
+    <string name="gallery_thumbnails">Galeri Gambar Kecil</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">Setelah menghapusnya proses memuat dalam galeri akan lebih lambat.</string>
+    <string name="clean_group_residue">Berkas Residu</string>
+    <string name="clean_group_cache">Berkas Tembolok</string>
+    <string name="clean_group_temp">Berkas Sementara Sistem</string>
+    <string name="clean_group_apk">APK usang</string>
+    <string name="clean_group_big_file">Berkas Besar</string>
+    <string name="clean_group_ad">Sampah Iklan</string>
+    <string name="clean_group_memory">Sampah memori</string>
+    <string name="clean_item_sys_cache">Sistem Cache</string>
+    <string name="clean_done_tips">Dibersihkan</string>
+    <string name="clean_dialog_app_cache_yes_btn">Pembersihan Manual</string>
+    <string name="clean_dialog_folder_yes_btn">Lihat</string>
+    <string name="clean_dialog_file_yes_btn">Buka</string>
+    <string name="clean_dialog_media_yes_btn">Mainkan</string>
+    <string name="clean_dialog_message_size">Ukuran</string>
+    <string name="clean_dialog_message_contain">Berisi</string>
+    <string name="clean_dialog_message_path">Path</string>
+    <string name="clean_dialog_message_file">berkas</string>
+    <string name="clean_dialog_message_folder">folder</string>
+    <string name="clean_done_none_tips">Hebat</string>
+    <string name="clean_file_browser_no_files">Tidak ada file</string>
+    <string name="clean_days_ago"> hari lalu</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969"&gt;Hati-hati! &lt;/font&gt;%1$s</string>
+    <string name="clean_subitem_detail_connect">Ini adalah %1$s , %2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443"&gt;File Anda tidak akan terpengaruh setelah proses pembersihan.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443"&gt;Proses pembersihan ini sangat aman.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969"&gt;Ini memerlukan unduh ulang.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969"&gt;Proses pembersihan akan menghapus ini selamanya!&lt;/font&gt;</string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Bersihkan</string>
+    <string name="uninstall_dialog_message_1">&lt;b&gt;%1$s&lt;/b&gt; tersisa &lt;font color="#85c443"&gt;%2$s&lt;/font&gt; berkas sisa.</string>
+    <string name="uninstall_dialog_message_2">Berisi: </string>
+    <string name="uninstall_clean_tips"> berkas sisa sudah dibersihkan!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">Pengaturan</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Umpan Balik</string>
+    <string name="container_hint_setting_feedback">Silahkan tulis komentar Anda di sini, berikan sedetail mungkin. Kami selalu siap menampung dan meningkatkan aplikasi.</string>
+    <string name="notice_setting_feedback">Model dan versi telepon akan dicatat untuk mendiagnosis masalah Anda. Kami tidak pernah menyimpan informasi pribadi tanpa izin Anda</string>
+    <string name="no_contain_setting_feedback">Hai, apa ada saran?</string>
+    <string name="sendok_setting_feedback">Terimakasih atas umpan balik Anda!</string>
+    <string name="checknet_setting_feedback">Periksa koneksi jaringan Anda.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">
+        <u>Beri tanda suka pada kami di facebook</u>
+    </string>
+    <string name="googleplus_about_setting">
+        <u>Gabung komunikasi Google+</u>
+    </string>
+    <string name="googleplay_about_setting">
+        <u>Beri peringkat pada kami di GooglePlay</u>
+    </string>
+    <string name="title_about_setting">Tentang</string>
+    <string name="share_setting_about">GO Speed  membuat telepon saya lebih cepat dan bersih. Silahkan coba! Dapatkan di http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014-2015 ZERO Team. All Rights Reserved.</string>
+    <string name="law_jump_setting_about">
+        <u>Kebijakan Privasi</u>
+    </string>
+    <string name="share_title_setting_about">Bagikan GO Speed</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">Tidak bisa membuka koneksi</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Gawit Melayang</string>
+    <string name="title_notice">Notifikasi</string>
+    <string name="junk_clean_setting">Pembersihan Sampah</string>
+    <string name="enable_widget_setting_setting">Aktifkan</string>
+    <string name="hide_widget_setting_setting">Sembunyikan ke waktu baris status</string>
+    <string name="show_widget_setting_setting">Tampilkan hanya di desktop</string>
+    <string name="memory_setting_setting">Penguatan memori diperlukan</string>
+    <string name="storge_setting_setting">Ruang penyimpanan hampir habis</string>
+    <string name="junk_setting_setting">Berkas sampah residu</string>
+    <string name="autostart_setting_setting">Permintaan mulai automatik baru</string>
+    <string name="ignore_setting_setting">Daftar Abai</string>
+    <string name="memery_boost_setting_setting">Penguatan Memori</string>
+    <string name="clean_ignore_title">Junk Files Ignore List</string>
+    <string name="clean_ignore_list_tips">These items will not be scan as junk files</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">Umum</string>
+    <string name="menu_general_setting_language">Bahasa</string>
+    <string name="menu_general_setting_shortcut">Buat Pintasan</string>
+    <string name="menu_junk_setting">File Sampah</string>
+    <string name="menu_junk_setting_scan_memory">Periksa Memori Sampah</string>
+    <string name="menu_join_uep_plan">&lt;u&gt;Program Pengalaman Pengguna&lt;/u&gt;</string>
+    <string name="menu_smart_boost">Boost Cerdas</string>
+    <string name="smart_boost_screen_lock">Boost Cerdas pada layar kunci</string>
+    <string name="smart_boost_show_result">Tunjukkan hasil setelah Boost cerdas</string>
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Nonaktifkan gawit melayang?</string>
+    <string name="float_hide_float_message">Anda bisa menyembunyikan gawit melayang ke baris status. Apa Anda ingin mencobanya?</string>
+    <string name="float_dialog_ok">OK</string>
+    <string name="float_dialog_cancel">Batal</string>
+    <string name="float_dialog_hide_ok">Silahkan mencoba!</string>
+    <string name="float_dialog_hide_cancel">Nonaktifkan saja</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Tidak ada izin. Operasi gagal!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram_black">&lt;font color="#1d1d1d"&gt;Memori yang tersedia &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;kurang dari %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_white">&lt;font color="#ffffff"&gt;Memori yang tersedia &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;kurang dari %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_line2">Alat akan menjadi sangat lamban</string>
+    <string name="notification_boost">Penguatan</string>
+    <string name="notification_release_more"><![CDATA[%s MB ang nabawas. <font color="#85c443">Bawasan ng higit pa!</font>]]></string>
+    <string name="notification_boost_phone_optimum"><![CDATA[Ponsel Anda sudah optimal. <font color="#85c443">Fitur Lainnya!</font>]]></string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d"&gt;Kehabisan ruang.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;hanya %s%% sisa&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff"&gt;Kehabisan ruang.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;hanya %s%% sisa&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_line2">Ruang mungkin tidak cukup untuk pengunduhan</string>
+    <string name="notification_release_sleep">Mempercepat %s MB selagi tidur</string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d"&gt;Alat nya &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;berjalan pelan&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff"&gt;Alat nya &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;berjalan pelan&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block2">Sebuah aplikasi sedang mengkonsumsi CPU dengan berat</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d"&gt;CPU nya &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;serius kepanasan&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff"&gt;CPU nya &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;serius kepanasan&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat2">Sebuah aplikasi sedang memenuhi CPU dengan tidak normal</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d"&gt;Suhu CPU nya &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;naik pesat&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff"&gt;Suhu CPU nya &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;naik pesat&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp2">Sebuah aplikasi sedang memenuhi CPU dengan tidak normal</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#1d1d1d"&gt;Sampah memakan habis ruang&lt;/font&gt;</string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#ffffff"&gt;Sampah memakan habis ruang&lt;/font&gt;</string>
+    <string name="notification_clean_scan_message">Bersihkan utk membebaskan penyimpanan ponsel</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"&gt; %s app ialah &lt;/font&gt;&lt;font color="#fe6969"&gt;menguras bateri&lt;/font&gt;</string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"&gt; %s app ialah &lt;/font&gt;&lt;font color="#fe6969"&gt;menguras bateri&lt;/font&gt;</string>
+    <string name="notification_ram_help_line2">Boost untuk hemat bateri</string>
+    <string name="notification_release_more_banner">Bebaskan. Bebaskan Selebihnya!</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969"&gt;Sampah baru &lt;/font&gt;&lt;font color="#1d1d1d"&gt;telah dihasilkan&lt;/font&gt;</string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969"&gt;Sampah baru &lt;/font&gt;&lt;font color="#ffffff"&gt;telah dihasilkan&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d"&gt;Aplikasi cuaca terbaik untuk anda&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff"&gt;Aplikasi cuaca terbaik untuk anda&lt;/font&gt;</string>
+    <string name="notification_go_weather_message">Beredar Widget natal terbaru !</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d"&gt;Bosan dengan pesan biasa?&lt;/font&gt;</string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff"&gt;Bosan dengan pesan biasa?&lt;/font&gt;</string>
+    <string name="notification_go_sms_message">Kustomisasi pesan anda sekarang!</string>
+    <string name="go_weather">GO Weather - Ramalan &amp; Widget</string>
+    <string name="go_weather_done_message">Menyajikan sekarang &amp; info cuaca kedepan, widgets indah &amp; walpaper animasi.</string>
+    <string name="notification_guide_text">Aktifkan tombol anda sendiri</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Buka sebagai</string>
+    <string name="filetype_text">Teks</string>
+    <string name="filetype_video">Video</string>
+    <string name="filetype_audio">Audio</string>
+    <string name="filetype_image">Gambar</string>
+    <string name="filetype_music">Musik</string>
+    <string name="filetype_document">Dokumen</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">Kompresi</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Versi Baru</string>
+    <string name="update_update">Perbaharui</string>
+    <string name="update_later">Nanti</string>
+    <string name="update_cancel">Batal</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">Tingkatkan</string>
+    <string name="shortcut">Pintasan</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">Setelah pengebutan</string>
+    <string name="auto_start_on_connectivity_change">Ketika mengganti jaringan</string>
+    <string name="auto_start_on_package_changed">Ketika status aplikasi berubah</string>
+    <string name="auto_start_on_package_added">Ketika memasang aplikasi</string>
+    <string name="auto_start_on_package_removed">Ketika mencopot aplikasi</string>
+    <string name="auto_start_on_package_replaced">Ketika mengganti aplikasi</string>
+    <string name="auto_start_on_any_data_state">Ketika data berubah</string>
+    <string name="auto_start_on_outgoing_call">Selama panggilan telepon</string>
+    <string name="auto_start_on_phone_state_changed">Ketika menutup panggilan</string>
+    <string name="auto_start_on_user_present">Ketika membuka</string>
+    <string name="auto_start_on_wifi_state_change">Ketika menghubungkan ke Wi-Fi</string>
+    <string name="auto_start_on_wifi_enable_change">Ketika menghidupkan/mematikan Wi-Fi</string>
+    <string name="auto_start_on_time_set">Ketika waktu dipasang</string>
+    <string name="auto_start_on_bluetooth_state_change">Ketika status Bluetooth berubah</string>
+    <string name="auto_start_on_power_connected">Ketika menghubungkan kabel daya</string>
+    <string name="auto_start_on_power_disconnected">Ketika memutuskan kabel daya</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">pemberitahuan beralih</string>
+    <string name="notification_toggle_nocal">kalkulator tidak ditemukan!</string>
+    <string name="notification_toggle_open">GO Speed pemberitahuan beralih diaktifkan.</string>
+    <string name="notification_toggle_noflash">perangkat Anda tidak memiliki FlashLight!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">GO Speed Mendukung %s, daftar sekarang?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Kesalahan pada koneksi Anda.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">Gagal mengunduh bahasa.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Ruang</string>
+    <string name="storage_main_act_details">Rincian</string>
+    <string name="storage_main_act_tab_used_space">Memori Terpakai</string>
+    <string name="storage_main_act_tab_app_total">%s Aplikasi</string>
+    <string name="storage_main_act_tab_audio_total">%s Musik</string>
+    <string name="storage_main_act_tab_image_total">%s Foto</string>
+    <string name="storage_main_act_tab_document_total">%s Dokumen</string>
+    <string name="storage_main_act_tab_other_total">Lain-lain</string>
+    <string name="file_category_image_title">Foto</string>
+    <string name="file_category_image_delete_dialog_msg_1">berkas akan dihapus.</string>
+    <string name="file_category_image_delete_dialog_msg_2">Berkas yang dihapus tidak dapat dikembalikan!</string>
+    <string name="file_category_video_no_content">Tidak ada Video</string>
+    <string name="file_category_video_delete_msg">Videos akan dihapus.</string>
+    
+     <!-- 视频分析模块 -->
+    <string name="video_title_total">%s total video</string>
+    <string name="video_title_selected">%s video pilihan</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Musik</string>
+    <string name="music_group_music">Musik</string>
+    <string name="music_group_rings">Dering</string>
+    <string name="music_group_record">Rekam</string>
+    <string name="music_dialog_title">Peringatan</string>
+    <string name="music_dialog_delete_cancel">Batal</string>
+    <string name="music_dialog_delete_delete">Hapus</string>
+    <string name="music_dialog_delete_notice">berkas akan dihapus.</string>
+    <string name="music_dialog_delete_notice_below">Berkas yang dihapus tidak dapat dikembalikan!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">Dokumen</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">LAIN-LAIN</string>
+    <string name="image_dialog_title">Hapus</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_text1">Berkas ini akan dihapus.</string>
+    <string name="image_dialog_text2">Apakah Anda yakin?</string>
+    <string name="image_no_selected">Tidak ada berkas yang terpilih.</string>
+    <string name="image_size_notice">%s sudah dibersihkan!</string>
+    <string name="image_delete_layout_text">Hapus(%s)</string>
+    <string name="image_delete_ok">Ya</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Berkas-berkas ini tidak dapat dihapus.</string>
+    <string name="no_app_to_open_file">Tidak ada Aplikasi Lokal yang dapat membuka berkas tersebut</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Geser ke sini untuk meningkatkan kinerja ponsel Anda.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">Menonaktifkan</string>
+    <string name="disable_apps_done_disable_count">%s Dinonaktifkan!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">GO Speed tetap menonaktifkannya</string>
+    <string name="disable_apps_wait_to_stop_tips">Berusaha untuk menghentikan, tunggu…</string>
+    <string name="disable_list_no_app_tip">Tidak ada aplikasi yang dinonaktifkan</string>
+    <string name="disable_group_most_disable_title">Paling banyak dinonaktifkan</string>
+    <string name="disable_group_recommend_keeping_title">Sarankan untuk Disimpan</string>
+    <string name="disable_group_recommend_keeping_subtitle">Menonaktifkannya mungkin akan mengakibatkan kesalahan sistem</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Nonaktifkan</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Aktifkan</string>
+    <string name="disable_app_info_dialog_consuming_tip">Aplikasi ini menggunakan memori sistem</string>
+    <string name="disable_app_info_dialog_system_error_tip">Menonaktifkannya mungkin akan mengakibatkan kesalahan sistem</string>
+    <string name="disable_app_info_dialog_no_statement">Anda bisa mencoba menonaktifkannya kalau tidak diperlukan</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Service pra-pasang produsen</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&lt;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">Pasang Sekarang</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Selamat!</string>
+    <string name="rate_gp_dialog_feedback_title">Masukan</string>
+    <string name="rate_gp_dialog_rate_title">Saya suka GO Speed</string>
+    <string name="rate_gp_dialog_one_notice_boost">Dalam %1$s hari terakhir, GO Speed telah menghentikan &lt;font color="#85c443"&gt; %2$s &lt;/font&gt;aplikasi lamban untuk Anda.&lt;br /&gt; &lt;br/&gt; &lt;font color="#85c443"&gt;Apakah Anda menyukai GO Speed? &lt;/font&gt;</string>
+    <string name="rate_gp_dialog_one_no_boost">Tidak juga</string>
+    <string name="rate_gp_dialog_one_yes_boost">Ya!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Anda telah membersihkan &lt;font color="#85c443"&gt; %s &lt;/font&gt; sampah! &lt;br /&gt; &lt;br/&gt;Bagaimana pendapat Anda tentang GO Speed ?</string>
+    <string name="rate_gp_dialog_one_no_clean">Kurang bagus</string>
+    <string name="rate_gp_dialog_one_yes_clean">Saya menyukainya!</string>
+    <string name="rate_gp_dialog_two_notice">Maukah Anda memberikan masukan untuk kami? \nPendapat Anda sangat berguna untuk kami.</string>
+    <string name="rate_gp_dialog_two_no">Tidak, terimakasih</string>
+    <string name="rate_gp_dialog_two_yes">Ya, tentu saja</string>
+    <string name="rate_gp_dialog_three_notice">Apakah Anda mau memberikan kami nilai bintang 5?</string>
+    <string name="rate_gp_dialog_three_no">Tidak, terimakasih</string>
+    <string name="rate_gp_dialog_three_yes">Ya, tentu saja</string>
+    <string name="rate_gp_notification_notice">Anda telah menghentikan  %s aplikasi lamban sejauh ini. Periksa lagi?</string>
+
+    <!-- 启动页 -->
+    <string name="private_start">MULAI</string>
+    <string name="private_join_uep">Gabung dalam Program Pengalaman Pengguna</string>
+    <string name="privacy_start_by_agree_policy">Setuju dengane &lt;u&gt;Kebijakan Privasi&lt;/u&gt;</string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">terpasang, bersihkan apk tak terpakai untuk menghemat</string>
+    <string name="install_listen_installed_multiple_msg">Aplikasi terpasang, bersihkan apk tak terpakai untuk menghemat</string>
+    <string name="install_listen_delete_apk_tip">Terbersihkan</string>
+    <string name="install_listen_dialog_clean_btn_text">Bersih</string>
+    <string name="install_listen_dialog_cancel_btn_text">Batal</string>
+    <string name="install_listen_dialog_eye_tip_on">Jangan meminta sampai 3 hari lagi</string>
+    <string name="install_listen_dialog_eye_tip_off">Selalu meminta</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">Tingkatkan Kecepatan Game</string>
+    <string name="game_boost_add_to_game_title">Tambahkan Game</string>
+    <string name="game_boost_effect">Tingkatkan &lt;font color="#85c443"&gt;%s &lt;/font&gt; RAM lebih untuk game.</string>
+    <string name="game_cell_add">Tambahkan Game</string>
+    <string name="game_cell_ok">Ok</string>
+    <string name="game_boost_menu_about">Bagaimana cara kerjanya</string>
+    <string name="game_boost_menu_add_shutcut">Buat Folder Game</string>
+    <string name="game_boost_folder_create_success">Folder Game telah berhasil dibuat.</string>
+    <string name="game_boost_box_shortcut_name">Tingkatkan Kecepatan Game</string>
+    <string name="game_boost_box_shortcut_name_new">Game Saya</string>
+    <string name="game_boost_add_card_view_title_popular">Game Populer</string>
+    <string name="game_boost_add_new_game_to_boost">%s ditambahkan ke Tingkatkan Kecepatan Game</string>
+    <string name="game_boost_add_new_games_to_boost">%s game baru ditambahkan ke Tingkatkan Kecepatan Game</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Meningkatkan…</string>
+    <string name="game_accel_anim_boost_toast_tip">Telah ditingkatkan, %s%% up.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">Masalah CPU</string>
+    <string name="cpu_fix">PERBAIKI</string>
+    <string name="cpu_check">Periksa</string>
+    <string name="cpu_issue_type_temp_overheated">Overheat!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Meningkat dengan cepat!</string>
+    <string name="cpu_issue_type_heavily_occupied">CPU sangat dikuras!</string>
+    <string name="cpu_temp_issue_app">yang menyebabkan masalah ini</string>
+    <string name="cpu_occupied_issue_app">Menguras &lt;font color="#D46565"&gt; %s &lt;/font&gt; CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">Pendingin CPU</string>
+    <string name="cpu_coll_down_cpu">Dinginkan suhu CPU</string>
+    <string name="cpu_temperature_issue">Masalah Suhu</string>
+    <string name="cpu_device_running_slow">Device berjalan lamban</string>
+    <string name="cpu_issue_detected">Masalah terdeteksi</string>
+    <string name="cpu_cool_down_further">Mendinginkan lebih jauh, Membersihkan  %s aplikasi berjalan</string>
+    <string name="cpu_temp_well">Suhu CPU sudah OK</string>
+    <string name="cpu_temp_hot">Agak panas</string>
+    <string name="cpu_temp_overheated">Overheat</string>
+    <string name="cpu_temp_chilling">Mendinginkan kembali</string>
+    <string name="cpu_temp_cooler">Pendingin CPU</string>
+    <string name="cpu_occupy">Menguasai &lt;font color="#D46565"&gt; %s &lt;/font&gt; CPU</string>
+    <string name="cpu_abnormal">Penggunaan CPU tidak normal: &lt;font color="#D46565"&gt; %s &lt;/font&gt;</string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Hanya Optimalisasi</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Hentikan penggunaan device untuk pendinginan</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Tidak ada aplikasi pemanas</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Device sedang didinginkan</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Aplikasi pemanas sudah dibersihan</string>
+    <string name="cpu_anim_cooldown_done_dropped">Hentikan</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Mulai mendinginkan…</string>
+    <string name="cpu_anim_scan_process_tip_text">Memeriksa CPU…</string>
+    <string name="cpu_anim_lag_done_tip_text">Berhasil ditingkatkan!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">Mohon periksa koneksi jaringan dan coba lagi</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Game Booster</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Folder Game Booster berhasil dibuat di layar, silahkan dicek:)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Dihidupkan</string>
+    <string name="finish_page_card_game_booster_desc">Buka game dari folder game booster, nikmati peluncuran game 65%lebih cepat</string>
+    <string name="finish_page_card_game_booster_btn">Hidupkan sekarang</string>
+    <string name="finish_page_card_whitelist_name">Sunting sekarang Daftar putih</string>
+    <string name="finish_page_card_whitelist_desc">Tandai aplikasi yang perlu tetap berjalan</string>
+    <string name="finish_page_card_whitelist_btn">Sunting sekarang</string>
+    <string name="finish_page_card_autostart_name">Ketemu Autostart</string>
+    <string name="finish_page_card_autostart_desc">&lt;big&gt;%s&lt;/big&gt; autostart aplikasi dioptimalkan</string>
+    <string name="finish_page_card_autostart_btn">Periksa</string>
+    <string name="finish_page_card_photo_name">Rapikan foto-foto</string>
+    <string name="finish_page_card_photo_desc">Lebih dari &lt;big&gt;%s photos&lt;/big&gt; telah diambil, tapi mungkin tidak semua bermanfaat bagi ruang ?</string>
+    <string name="finish_page_card_photo_btn">Rapikan</string>
+    <string name="finish_page_card_clean_1_name">Sampah untuk dibersihkan</string>
+    <string name="finish_page_card_clean_1_desc">Telepon ugal menghasilkan &lt;big&gt;%s&lt;/big&gt; sampah baru saja</string>
+    <string name="finish_page_card_clean_1_btn">Bersih</string>
+    <string name="finish_page_card_activate_power_mode_title">%s Aplikasi &lt;big&gt;auto-started&lt;/big&gt;</string>
+    <string name="finish_page_card_activate_power_mode_desc">Aktifkan &lt;big&gt;Power Mode&lt;/big&gt; untuk atasi</string>
+    <string name="finish_page_card_activate_power_mode_btn">Aktifkan</string>
+    <string name="finish_page_card_game_booster_desc_single_game">Aktifkan Game Boost untuk percepat &lt;big&gt;%s&lt;/big&gt; ke atas 65%% ?</string>
+    <string name="finish_page_card_feedback_name">Kasih tahu kami saran anda</string>
+    <string name="finish_page_card_feedback_desc">Fitur favorit,saran,apa saja</string>
+    <string name="finish_page_card_feedback_btn">Umpan Balik</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Boost Ponsel</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Bersihkan memori untuk mempercepat ponsel</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Boost</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big&gt;%s%% Memori&lt;/big&gt; Sisa</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s Aplikasi yang berjalan memakan habis memori, ponsel akan menjadi sangat pelan</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Boost Sekarang</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Matikan Pra-instal</string>
+    <string name="finish_page_card_disable_desc">%1$s preinstal aplikasi, &lt;big&gt;%2$s&lt;/big&gt; bisa dimatikan</string>
+    <string name="finish_page_card_disable_btn">Periksa</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Cek siapa yang autostart diam diam</string>
+    <string name="finish_page_no_ad_clean2_tips">Sampah akan memperlamban ponsel</string>
+    <string name="finish_page_no_ad_clean1_tips">Sampah perlu dibersihkan setiap hari</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">Game game perlu didorong juga</string>
+    <string name="finish_page_no_ad_disable_tips">Ada pra-instal yang benar benar tak berguna</string>
+    <string name="finish_page_no_ad_photo_tips">Banyak ruang yang bisa dihemat</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">Power Mode bisa menghentikan yang sukar!</string>
+    <string name="finish_page_no_ad_whitelist_tips">Jangan salah mematikan aplikasi yang anda perlukan</string>
+    <string name="finish_page_no_ad_boost_strong_tips">Ponsel berjalan lambat</string>
+    <string name="finish_page_no_ad_boost_normal_tips">Ponsel bisa lebih cepat</string>
+    
+    <!-- 游戏加速动画二期 -->
+	<string name="game_accel_sec_add_game">Tambah Game</string>
+	<string name="game_accel_guide_title">Game Boost</string>
+	<string name="game_accel_guide_text2">Telah diaktifkan</string>
+	<string name="game_accel_guide_try_text">Ketuk untuk coba！</string>
+	<string name="game_accel_guide_gamename_1">Masuk dalam desktop</string>
+	<string name="game_accel_guide_gamename_2">ketuk game utk didorong</string>
+	<string name="game_accel_guide_gamename_3">Temukan Game ngetren disini juga</string>
+	<string name="game_accel_guide_discovery_text_above">Temukan Game ngetren</string>
+	<string name="game_accel_sec_anim_title">GAME</string>
+	<string name="game_accel_shortcut_created">Dibuat</string>
+	<string name="game_accel_sort_name">Nama</string>
+	<string name="game_accel_sort_Date">Tanggal</string>
+	<string name="game_accel_sort_Frequency">Frekuensi</string>
+	<string name="game_accel_tip_dialog_content_text_new">Aktifkan Game Boost untuk percepat &lt;font color="#85c443"&gt;\"%s\"&lt;/font&gt; keatas 65%%?</string>
+    <string name="game_accel_game_box_title">Atur Game</string>
+    <string name="game_accel_add_shortcut">Tambah Shortcut</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">TEMUKAN</string>
+    <string name="game_distribute_connection_failed">Koneksi Gagal</string>
+    <string name="game_distribute_net_data_alert">Main dibawah WIFI bisa kurangin konsumsi data</string>
+    <string name="game_distribute_warning_title">GO Speed TV</string>
+    <string name="game_distribute_warning_content"> Gambar didlm video sangat luar biasa.\nHak video yang ditayangkan tidak hanya untuk kegunaan di rumah saja tetapi juga untuk lainnya\n. Setiap penyadapan atau tontonan gambar adalah \n diperbolehkan di GO Speed\n. Kami merekomendasikan anda \n bermain game di waktu wajar.</string>
+    <string name="game_distribute_video_title">Saluran</string>
+    <string name="game_distribute_game_searching">Pencarian game...</string>
+    
+    
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534"&gt;App gede &lt;/font&gt;</string>
+    <string name="cpu_thieves_title">Top 3 &lt;font color="#6ac534"&gt;Maling CPU hari ini &lt;/font&gt;</string>
+    <string name="num_times">%s waktu</string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Memori yang tersisa sangat sedikit!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+
+    <string name="home_guide_card_photo_desc1">Pengambilan foto sangat mudah</string>
+    <string name="home_guide_card_photo_desc2">Menghapus mereka adalah tidak</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+
+    <string name="home_guide_card_cpu_desc">CPU kepanasan menguras baterai</string>
+
+    <string name="home_guide_card_disbale_desc">Urus dengan Pre-install!</string>
+    <string name="home_guide_card_disbale_desc2">Ponsel anda lebih cepat!</string>
+    <string name="home_guide_card_disbale_desc_big">%s App</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Mode Power Boost</string>
+    <string name="enable_super_boost_mode_normal">Normal Boost</string>
+    <string name="enable_super_boost_desc_super">&lt;b&gt;Boost:&lt;/b&gt; App Normal, &lt;mark&gt;&lt;font color="red"&gt;App autostart &lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;Berikan tenaga  boost 60% lebih seperti ponsel Root.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (Silakan aktifkan akses GO Speed di langkah berikutnya)</string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b&gt;Boost:&lt;/b&gt; App Normal, &lt;mark&gt;&lt;font color="red"&gt;Auto-start App&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;Berikan tenaga  boost 60% lebih seperti ponsel Root.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (Silakan aktifkan akses GO Speed di langkah berikutnya)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b&gt;Boost:&lt;/b&gt; Normal Apps&lt;br&gt;
+      Auto-start app tidak akan kena boost kecuali power mode.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">Power Boost ponsel saya sekarang!</string>
+
+
+    <string name="enable_super_disable_mode_super">Non aktifkan setumpuk</string>
+    <string name="enable_super_disable_mode_normal">Manual-non aktif</string>
+    <string name="enable_super_disable_desc_super">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;Fitur:&lt;/b&gt; Non aktifkan setumpuk app tak guna dengan hanya satu klik.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (Silakan aktifkan akses GO Speed di langkah berikutnya)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;Fitur:&lt;/b&gt; Non aktifkan setumpuk app tak guna dengan hanya satu klik.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (Silakan hidupkan kembali tombol GO Speed ketika ponsel anda buka ulang)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b&gt;Feature:&lt;/b&gt; Matikan app satu demi satu. &lt;br&gt;
+                    &lt;mark&gt;&lt;font color="red"&gt;Fitur non aktif setumpuk sangat disarankan.&lt;/font&gt; &lt;/mark&gt;
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Aktifkan fitur non aktif setumpuk</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Pengaturan notifikasi tombol</string>
+    <string name="notification_toggle_settings_label_themes">Tema</string>
+    <string name="notification_toggle_settings_label_toggles">Tombol</string>
+    <string name="notification_toggle_settings_label_zspeed">KLASIK</string>
+    <string name="notification_toggle_settings_label_popular">PALING POPULER</string>
+    <string name="notification_toggle_theme_name_green">Demeter</string>
+    <string name="notification_toggle_theme_name_pink">Athena</string>
+    <string name="notification_toggle_theme_name_black">Erebus</string>
+    <string name="notification_toggle_theme_name_silver">Uranus</string>
+    <string name="notification_toggle_theme_name_golden">Kronos</string>
+    <string name="notification_toggle_toggle_name_app">Home</string>
+    <string name="notification_toggle_toggle_name_boost">Boost</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">Senter</string>
+    <string name="notification_toggle_toggle_name_brightness">Brightness</string>
+    <string name="notification_toggle_toggle_name_themes">Tema</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">Data</string>
+    <string name="notification_toggle_toggle_name_camera">Kamera</string>
+    <string name="notification_toggle_toggle_name_calculator">Kalkulator</string>
+    <string name="notification_toggle_toggle_name_rotate">Rotasi</string>
+    <string name="notification_toggle_toggle_name_sound">Suara</string>
+    <string name="notification_toggle_bright_auto">AUTO</string>
+    <string name="notification_toggle_notification_ticker">GO Speed toolbar siap siaga</string>
+    <string name="notification_toggle_notification_ticker_initializing">Inisialisasi Toolbar…</string>
+
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Ketik isi untuk mencari</string>
+    <string name="hot_word_search_next_batch">Lebih</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Foto duplikasi</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s  Foto terhapus!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Semua foto duplikasi terhapus!</string>
+    <string name="duplicate_photos_delete_alert_title">Hapus selamanya</string>
+    <string name="duplicate_photos_delete_alert_desc">Anda yakin untuk menghapus selamanya?</string>
+    <string name="duplicate_photos_scan_alert">Silakan tunggu, pengecekan memakan waktu cukup lama</string>
+    <string name="duplicate_photos_no_content">Selamat! Tidak ada duplikasi foto!</string>
+    <string name="duplicate_photos_suffix_selected">%s terpilih</string>
+    <string name="duplicate_photos_suffix_total">%s total foto</string>
+
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">Game Terbaik Mingguan</string>
+    <string name="game_ad_notification_label_weekly_best_app">App Terbaik Mingguan</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">APP LOCK</string>
+    <string name="app_lock_perm_settings_title">Pengaturan</string>
+    <string name="app_lock_perm_settings_message">Permintaan izin</string>
+    <string name="app_lock_notice_enable_usage_stats">Android 5.0 keatas, anda harus ada izin akses untuk penggunaan fitur APP LOCK.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_enable_usage_stats">Izin</string>
+    <string name="install_app_mointor_locker">Perlu untuk dikunci</string>
+    <string name="locker_header_forget_pwd">Lupa kode sandi</string>
+    <string name="locker_header_replce_number_locker">Ganti ke kunci sandi</string>
+    <string name="locker_header_replce_graphic_locker">Ganti ke kunci pola</string>
+    <string name="initializationpassword_frist_prompt">atur kunci sandi</string>
+    <string name="initializationpassword_second_prompt">Masukkan kode akses lagi untuk konfirmasi</string>
+    <string name="initializationpassword_pwd_not_equals">Kode sandi tidak cocok, masukkan lagi</string>
+    <string name="init_email_prompt">Email untuk lupa kode sandi</string>
+    <string name="init_email_prompt1">Silakan masukkan email yang benar</string>
+    <string name="init_mail_btn_text">Selesai</string>
+    <string name="forget_reset_pwd_success">Reset kode sandi sukses</string>
+    <string name="activity_applock_group_apps">APPS</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">Pengaturan AppLock </string>
+    <string name="app_lock_setting_parent_unlock_mode">Mode Buka</string>
+    <string name="app_lock_setting_passcode">Passcode</string>
+    <string name="app_lock_setting_others">Lainnya</string>
+    <string name="app_lock_setting_unlock_mode_numbers">Jumlah</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Pola</string>
+    <string name="app_lock_setting_passcode_change_passcode">Ubah Kode sandi</string>
+    <string name="app_lock_setting_passcode_email_setting">Pengaturan Email</string>
+    <string name="app_lock_setting_others_brief_eixt">Izinkan keluar singkat</string>
+    <string name="app_lock_setting_others_relock">Kunci lagi setelah layar-aktif</string>
+    <string name="app_lock_setting_brief_eixt_seconds">detik</string>
+    <string name="app_lock_setting_brief_eixt_minutes">menit</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">Lupa kode sandi</string>
+    <string name="forget_email_prompt1">1)Kami akan mengirim kode verifikasi ke email anda.</string>
+    <string name="forget_email_prompt2">2)Masukkan kode verifikasi dan dapatkan kode sandi anda.</string>
+    <string name="forget_email_btn_prompt">Kirim</string>
+    <string name="forget_email_btn_prompt2">Reset Kode sandi</string>
+    <string name="forget_email_edit_prompt">Kode verifikasi</string>
+    <string name="forget_check_code_not_right">Salah</string>
+    <string name="forget_check_code_out_of_time">Verifikasi kadaluwarsa, silakan minta lagi .</string>
+    <string name="forget_send_email_error">.</string>
+    <string name="forget_send_email_success">Gagal mengirim email, coba lagi.</string>
+    <string name="set_graphic_password_message_draw">Gambar pola untuk buka kunci</string>
+    <string name="set_graphic_password_message_too_short">Hubungkan setidaknya 4 titik. Coba lagi:</string>
+    <string name="set_graphic_password_message_stored">Pola teringat.</string>
+    <string name="set_graphic_password_message_redraw">Gambar pola lagi untuk konfirmasi:</string>
+    <string name="set_graphic_password_btn_redraw">Ulang</string>
+    <string name="set_graphic_password_message">Pengaturan kode sandi</string>
+    <string name="set_graphic_password_message_wrong">Error, coba lagi:</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">Gratis untuk memakai Pro privacy lock!</string>
+    <string name="lokcer_init_instruction_first">Pengaturan kata sandi untuk kunci app pribadi</string>
+    <string name="lokcer_init_instruction_second">Konfirmasi kata sandi anda lagi</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">App Lock</string>
+    <string name="finish_page_card_app_locker_desc">Simpan &lt;big&gt;%s&lt;/big&gt; dan lainnya dari pengintai dengan fitur App lock!</string>
+    <string name="finish_page_card_app_locker_btn">Lindungi sekarang</string>
+    <string name="finish_page_no_ad_app_lock_tips">Ponsel bisa lebih cepat</string>
+
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+
+    <!-- Storage 2.0改版 -->
+    <string name="filecategory_sec_picture_title">Gambar</string>
+    <string name="filecategory_sec_picture_unit">Semua</string>
+    <string name="filecategory_sec_deep_clean_title">Bersih mendalam</string>
+    <string name="filecategory_sec_music_title">Musik</string>
+    <string name="filecategory_sec_music_unit">Lagu</string>
+    <string name="filecategory_sec_music_units">Lagu-lagu</string>
+    <string name="filecategory_sec_music_instruction">Hapus semua lagu yang sudah tidak didengar</string>
+    <string name="filecategory_sec_video_title">Video</string>
+    <string name="filecategory_sec_video_unit">Video</string>
+    <string name="filecategory_sec_video_units">Video-video</string>
+    <string name="filecategory_sec_video_instruction">Clean what you\'tertonton ke tempat penyimpanan</string>
+    <string name="filecategory_sec_uninstall_title">Hapus</string>
+    <string name="filecategory_sec_uninstall_unit">App</string>
+    <string name="filecategory_sec_uninstall_units">App-app</string>
+    <string name="filecategory_sec_uninstall_instruction">Hapus yang anda tidak pakai lagi</string>
+    <string name="filecategory_sec_big_file_title">Berkas gede</string>
+    <string name="filecategory_sec_big_file_unit">Berkas</string>
+    <string name="filecategory_sec_big_file_units">Berkas-berkas</string>
+    <string name="filecategory_sec_big_file_instruction">Temukan man dan berkas besar</string>
+    <string name="filecategory_sec_picture_duplicate_unit">Duplikasi</string>
+    <string name="filecategory_sec_deep_clean_other_instuction">App %s Lain</string>
+    <string name="filecategory_sec_header_top_text">%1$s dipakai  %2$s Total</string>
+    <string name="filecategory_sec_bar_instuction_pic">Gbr</string>
+    <string name="filecategory_sec_bar_instuction_app">App</string>
+    <string name="filecategory_sec_bar_instuction_video">Video</string>
+    <string name="filecategory_sec_bar_instuction_music">Musik</string>
+    <string name="filecategory_sec_bar_instuction_other">Lainnya</string>
+    <string name="filecategory_sec_list_item_scanning">Teliti...</string>
+    <string name="filecategory_sec_list_item_check">Cek</string>
+    <string name="filecategory_sec_list_item_collapse">Runtuh</string>
+    <string name="filecategory_sec_list_item_empty_text">Tidak ada berkas</string>
+    <string name="filecategory_sec_list_item_empty_text_duplicate">Tidak ada foto duplikasi</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_null">Berkas Asing</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_image">Berkas gambar</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_other">Berkas lainnya</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_video">Berkas video</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_audio">Berkas audio</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_resource">Paket sumber</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_apk">APKs</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_game">Berkas Game</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_ad">Berkas iklan</string>
+    <!-- 带删除的文件管理器 -->
+    <string name="filecategory_broswer_group_title">Semua Berkas</string>
+
+    <!-- BigFile -->
+    <string name="filecategory_bigfile_title">Berkas gede</string>
+    <string name="filecategory_bigfile_title_select_text_one">&lt;font color="#f77071"&gt;Berkas yang terhapus tidak bisa dipulihkan lagi!&lt;/font&gt;</string>
+    <string name="filecategory_bigfile_title_select_text_two">Yakin untuk memilihnya?</string>
+    <string name="filecategory_bigfile_title_select_text_check">Jangan ditunjukkan untuk sementara</string>
+    <string name="big_file_group_item_size">&lt;font color="#ff0000"&gt;Size:%1$s&lt;/font&gt;</string>
+    <string name="big_file_group_item_path">Path:%1$s</string>
+    <string name="big_file_scan_text">Teliti %1$s big files</string>
+    <string name="big_file_all_size"> %1$s Total berkas</string>
+    <string name="big_file_selected_size">%1$s Berkas pilihan</string>
+    <string name="big_file_delete">Hapus</string>
+    <string name="big_file_detail_view">Lihat</string>
+    <string name="big_file_delete_detail">Yakin untuk menghapus berkas yang dipilih?</string>
+    <string name="big_file_delete_size">%1$s berkas terhapus!</string>
+
+    <!-- 应用专清页面 -->
+    <string name="deep_clean_single_page_title_suggestion">Total</string>
+    <string name="deep_clean_single_page_card_clean">BERSIH</string>
+    <string name="deep_clean_single_page_card_to_clean">CEK</string>
+    <string name="deep_clean_single_page_card_cleaning">PEMBERSIHAN</string>
+    <string name="deep_clean_single_page_card_cleaned">BERSIHIN</string>
+    <string name="deep_clean_warn_level_0_desc">Berkas anda tidak terpengaruh setelah pembersihan</string>
+    <string name="deep_clean_warn_level_1_desc">Pembersihan adalah aman</string>
+    <string name="deep_clean_warn_level_2_desc">Mereka perlu diunduh lagi setelah pembersihan</string>
+    <string name="deep_clean_warn_level_10_desc">Pembersihan akan menghapus ini selamanya</string>
+    <string name="deep_clean_warn_level_11_desc">Pembersihan TIDAK direkomendasi</string>
+
+    <!-- 主界面2.0 -->
+    <string name="home_page_ram_info_text">%1$s Bebas / %2$s Total</string>
+    <string name="home_page_storage_info_text">%1$s Bebas / %2$s Total</string>
+    <!-- 侧边栏页面 -->
+    <string name="home_page_drawer_like_us">Sukai Kami</string>
+    <string name="home_page_drawer_z_family">GO  Famili</string>
+    <string name="home_page_drawer_theme">Tema</string>
+
+
+    <!-- 省电 -->
+    <string name="setting_charge_group">Penghemat baterai</string>
+    <string name="setting_charge">Ngecas cepat</string>
+	<string name="power_saving_charging_text">Terisi penuh &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+	<string name="power_saving_left_power_text">Waktu tersedia &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+    <string name="power_saving_mode_speed">Cepat</string>
+    <string name="power_saving_mode_contiuous">Bersambung</string>
+    <string name="power_saving_mode_trickle">Hambur</string>
+    <string name="power_saving_mode_speed_instruction">Baterai ngecas cepat ke 80%</string>
+    <string name="power_saving_mode_contiuous_instruction">Arus listrik diturunkan untuk isi baterai</string>
+    <string name="power_saving_mode_trickle_instruction">Gunakan hamburan cas untuk bantu perpanjang nyawa baterai </string>
+    <string name="power_saving_accel_result_text">&lt;font color="#ffce54"&gt;%1$s&lt;/font&gt; berhentikan aplikasi yang boros dan hemat &lt;font color="#ffce54"&gt;%2$s&lt;/font&gt; dengan waktu ngecas</string>
+    <string name="power_saving_menu_clost">Matikan</string>
+    <string name="power_saving_menu_dialog_title">Coba untuk matikan Rapid Charging</string>
+    <string name="power_saving_menu_dialog_content">Ngecas adna tidak akan diboost. Masih untuk dimatikan?</string>
+    <string name="power_saving_menu_dialog_cancel">Tidak sekarang</string>
+    <string name="power_saving_menu_dialog_confim">Off</string>
+    <string name="power_saving_time_unit_hour">h</string>
+    <string name="power_saving_time_unit_minute">min</string>
+    <string name="power_saving_unlock_slide">Geser untuk buka &gt;</string>
+
+    <string name="power_saving_guide_title">Rapid Changing</string>
+    <string name="power_saving_guide_desc">Nyalakan fitur Rapid Charging untuk melindungi baterai dan persingkat masa cas</string>
+    <string name="power_saving_guide_btn_enable">AKTIFKAN</string>
+
+    <string name="power_saving_ad_open">BUKA</string>
+    <string name="power_saving_ad_cancel">HAPUS</string>
+
+    <!--facebook点赞弹窗引导-->
+    <string name="facebook_like_dialog_title">Bagus sejauh ini?</string>
+    <string name="facebook_like_dialog_desc"> CAri tahu lebih lanjut tentang GO Speed di &lt;font color="#4a89dc"&gt;Facebook&lt;/font&gt;</string>
+    <string name="facebook_like_dialog_btn_like">Sukai Kami</string>
+    <string name="facebook_like_dialog_btn_cancel">Tidak Sekarang</string>
+    
+    <!-- AppLock 优化 -->
+    <string name="applock_pre_header_last_step_text1">Satu langkah lagi untuk mendapatkan perlindungan penuh</string>
+    <string name="applock_pre_header_last_step_text2">Aktifkan  tombol GO Speed</string>
+    <string name="applock_pre_dialog_title">Satu langkah lagi</string>
+    <string name="applock_pre_dialog_content">Satu langkah lagi untuk mendapatkan perlindungan penuh</string>
+    <string name="applock_pre_dialog_cancel">Keluar</string>
+    <string name="applock_pre_dialog_confim">Sambung</string>
+
+    <!--GO输入法推广弹窗-->
+    <string name="go_input_prom_pop_theme_desc">Input terlalu pelan dan membosankan? Tekan lanjut untuk 800+ emoji dan tema!</string>
+    <string name="go_input_prom_pop_theme_btn">Dapatkan sekarang</string>
+    <string name="go_input_prom_pop_memory_desc">Memori keyboard anda memperlambat ponsel anda!</string>
+    <string name="go_input_prom_pop_memory_btn">Boost Sekarang</string>
+
+    <string name="boost_banner_ad_toast_good">Bagus</string>
+<string name="adchoice_about_setting">AD Pilihan</string>
+    <string name="app_lock_all_intruders">%s penyusup</string>
+    <string name="app_lock_anti_peep_img_app_info">&lt;font color="#FFFFFF"&gt;Kena kamu! Buka saya &lt;/font&gt;&lt;font color="#da4453"&gt;%1$s&lt;/font&gt;</string>
+    <string name="app_lock_camera_access_tips_fail">Tidak ada izin memakai kamera, gagal utk ungkap penyusup.</string>
+    <string name="app_lock_camera_access_tips_suc">Mengungkap penyusup berhasil di.</string>
+    <string name="app_lock_camera_auth_tip">Izinkan GO Speed utk paki kamera menangkap pengintai.</string>
+    <string name="app_lock_image_share_text_tip">Tebak yg saya temukan! Anda hrs coba spy aman jg.</string>
+    <string name="app_lock_new_intruders">&lt;b&gt;%s BARU&lt;/b&gt; penyusup</string>
+    <string name="app_lock_setting_intruder">Penyusup</string>
+    <string name="app_lock_setting_intruder_setting">Pengaturan penyusup</string>
+    <string name="app_lock_setting_intruder_times">kali</string>
+    <string name="app_lock_setting_intruder_twice">dua kali</string>
+    <string name="app_lock_setting_intruder_wrong_times">Izin kata sandi salah</string>
+    <string name="app_lock_setting_reveal_intruder">Tunjukkan penyusup</string>
+    <string name="app_manager_preinstall_disbale_subtitle">Pemulihan cacat dpt perbaiki kesalahan yg disebabkan</string>
+    <string name="app_manager_preinstall_disbale_title">Pulihkan cacat</string>
+    <string name="applock_pre_header_text1_new">Top &lt;big&gt;%1$s&lt;/big&gt; rekomendasi app utk di kunci</string>
+    <string name="applock_pre_header_text2_new">Pastikan data pribadi app ini</string>
+    <string name="applock_pre_last_step_usage_guide_explanation">Hidupkan tombol GO Speed utk dapatkan perlindungan penuh.</string>
+    <string name="applock_pre_last_step_usage_guide_title">Satu langkah utk pemakai Android 5.0+ .</string>
+    <string name="boot_up_memory_intro_desc">Aplikasi auto-start setelah boot tanpa anda kontrol.</string>
+    <string name="boot_up_memory_title">App Auto start</string>
+    <string name="boot_up_notify_msg">Auto start app terdeteksi.</string>
+    <string name="boot_up_optimize">Optimalkan</string>
+    <string name="boot_up_time_intro_desc">Waktu di ponsel  perlu di inisialisasi sejak diboot.</string>
+    <string name="boot_up_time_title">ponsel perlu diboot</string>
+    <string name="build_in_ad_go_battery_saver_btn">Optimalkan skrg</string>
+    <string name="build_in_ad_go_battery_saver_desc">Benaran menghemat  baterai anda</string>
+    <string name="build_in_ad_go_battery_saver_title">Satu sentuhan hemat baterai</string>
+    <string name="build_in_ad_go_security_btn">Periksa</string>
+    <string name="build_in_ad_go_security_desc">Pastikan keamanan ponsel anda</string>
+    <string name="build_in_ad_go_security_title">anti-virus</string>
+    <string name="build_in_ad_safe_box_btn">Enkripsi</string>
+    <string name="build_in_ad_safe_box_desc">Melindungi privasi anda aman spt Bank</string>
+    <string name="build_in_ad_safe_box_title">Enkripsi kata sandi &amp; gambar</string>
+    <string name="common_days">Hari</string>
+    <string name="common_deep_clean_backup">Backup</string>
+    <string name="common_deep_clean_cache">Cache</string>
+    <string name="common_deep_clean_clean_cache_deleting">Hapus...</string>
+    <string name="common_deep_clean_clean_clean">Bersih</string>
+    <string name="common_deep_clean_clean_done">%1$s BERSIH!</string>
+    <string name="common_deep_clean_clean_view">Lihat</string>
+    <string name="common_deep_clean_document">Dokumen</string>
+    <string name="common_deep_clean_image">Galeri</string>
+    <string name="common_deep_clean_music">Musik</string>
+    <string name="common_deep_clean_video">Video(s)</string>
+    <string name="common_dismiss">Tolak</string>
+    <string name="common_dismiss_message">Tolak semua pesan.</string>
+    <string name="common_view">Lihat</string>
+    <string name="deep_clean_promote_dialog_content">Cache &amp; ditemukan lampiran.</string>
+    <string name="deep_clean_whatsapp_desc_backup">Auto-backups simpan di WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_cache">Data tidak berguna anda bersihkan tanpa kwatir.</string>
+    <string name="deep_clean_whatsapp_desc_document">Dokumen selama chatting di WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_gallery">Gambar selama chatting di WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_music">Musik selama chatting di WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_video">Video selama chatting di WhatsApp.</string>
+    <string name="deep_clean_whatsapp_no_backup">Tidak ketemu backup auto simpan.</string>
+    <string name="deep_clean_whatsapp_no_cache">Tidak ditemukan data tak berguna.</string>
+    <string name="deep_clean_whatsapp_no_document">Tidak ada dokumen chat tersimpan di ponsel.</string>
+    <string name="deep_clean_whatsapp_no_gallery">Tidak ada foto chat tersimpan di ponsel.</string>
+    <string name="deep_clean_whatsapp_no_music">Tidak ada musik chat tersimpan di ponsel.</string>
+    <string name="deep_clean_whatsapp_no_video">Tidak ada video chat tersimpan di ponsel.</string>
+    <string name="facebook_deep_clean_desc_cache">Hapus cache utk melepas lbh byk.</string>
+    <string name="facebook_deep_clean_desc_fb_img">Atur gambar anda di Facebook.</string>
+    <string name="facebook_deep_clean_desc_message_img">Atur gambar anda in Messenger.</string>
+    <string name="facebook_deep_clean_desc_message_video">Atur quickcams in Messenger.</string>
+    <string name="facebook_deep_clean_title_cache">Cache Data</string>
+    <string name="facebook_deep_clean_title_fb_img">Facebook Galeri</string>
+    <string name="facebook_deep_clean_title_message_img">Messenger Galeri</string>
+    <string name="facebook_deep_clean_title_message_video">Messenger QuickCams</string>
+    <string name="facebook_media_posted_tag">Pasang</string>
+    <string name="facebook_media_saved_tag">Simpan</string>
+    <string name="finish_page_card_activate_usage_stats_permission_btn">Izin</string>
+    <string name="finish_page_card_activate_usage_stats_permission_desc">Izinkan GO Speed memakai fitur android baru utk meningkatkan ponsel efektif!</string>
+    <string name="finish_page_card_activate_usage_stats_permission_title">Power Boost utk Android &lt;big&gt;5.0+&lt;/big&gt;</string>
+    <string name="function_ad_page_chglock_desc_1">Aktifkan Rapid Charging utk cas berikutnya.</string>
+    <string name="function_ad_page_chglock_desc_2">Aktifkan Rapid Charging utk perpanjang penggunaan ponsel.</string>
+    <string name="function_ad_page_chglock_desc_3">Aktifkan Rapid Charging utk perpendek waktu.</string>
+    <string name="function_ad_page_chglock_desc_4">Aktifkan Pengecasan Trickle utk melindungi baterai anda</string>
+    <string name="function_ad_page_chglock_title_1">Sebuah pengecasan baterai cepat dan lbh profesional?</string>
+    <string name="function_ad_page_chglock_title_2">Baterai tersedia adalah %s%%!</string>
+    <string name="function_ad_page_chglock_title_3">%s sisa utk cas</string>
+    <string name="function_ad_page_chglock_title_4">Baterai anda siap tk penuh</string>
+    <string name="home_page_drawer_go_security">Anti-virus</string>
+    <string name="home_page_drawer_notification_box">Kotak notifikasi</string>
+    <string name="http_adchoice">https://m.facebook.com/ads/ad_choices</string>
+    <string name="intruder_gallery_menu_clear_all_pohtos">hapus semua foto</string>
+    <string name="intruder_gallery_no_content">Selamat! Tak ada penyusup!</string>
+    <string name="intruder_main_no_content">masukan kode salah memungkinkan diambil foto sbg penyusup.</string>
+    <string name="intruder_shot_info_desc">Masukan kode salah lbh dua kali akan ambil foto sbg penyusup.</string>
+    <string name="intruder_shot_info_title">Foto penyusup</string>
+    <string name="menu_group_notification">Notifikasi</string>
+    <string name="menu_group_notification_notification">Notifikasi</string>
+    <string name="menu_junk_file_interval">Periksa setiap sampah</string>
+    <string name="menu_junk_file_scan">Periksa sampah</string>
+    <string name="menu_junk_file_size">Ukuran sampah lebih</string>
+    <string name="notification_box">Notifikasi Diam</string>
+    <string name="notification_box_guide_first_desc">Mohon izin GO Speed utk aktifkan Notifikasi Diam.</string>
+    <string name="notification_box_guide_float_title">Nyalakan Notifikasi Manager</string>
+    <string name="notification_box_guide_second_desc">Dapatkan Notifikasi baru? Coba pakai Notifikasi Diam.</string>
+    <string name="notification_box_main_fragment_empty_tips">Tidak ada notifikasi</string>
+    <string name="notification_box_main_group_title">%1$s dari %2$s</string>
+    <string name="notification_box_main_launch_tips">ke %1$s</string>
+    <string name="notification_box_main_title">&lt;font color="#f6bb42"&gt;%1$s  &lt;/font&gt;&lt;font color="#8cc152"&gt;&lt;/font&gt;</string>
+    <string name="notification_box_settings_notice">Notifikasi Diam non aktifkan.</string>
+    <string name="notification_box_settings_title">Pengaturan notifikasi diam</string>
+    <string name="notification_box_switch_label">Pakai Notifikasi Diam</string>
+    <string name="notification_facebook_deep_clean_title_black">&lt;font color="#1d1d1d"&gt;Hapus dalam sampah di FB.&lt;/font&gt;</string>
+    <string name="notification_facebook_deep_clean_title_white">&lt;font color="#ffffff"&gt;Hapus dalam sampah di FB.&lt;/font&gt;</string>
+    <string name="notification_like_us_one_line_one">Baik baik saja?</string>
+    <string name="notification_like_us_one_line_two">Temukan lbh byk GO Speed di Fb.</string>
+    <string name="notification_like_us_two_line_one">Ingin info optimal Android?</string>
+    <string name="notification_like_us_two_line_two">GO Speed punya. Sukai kami &amp; dapatkan info berguna!</string>
+    <string name="notification_service_label">servis notifikasi</string>
+    <string name="notification_setting_auto">Mode Cerdas</string>
+    <string name="notification_setting_boost_level">Memori lebih</string>
+    <string name="notification_setting_boost_switch">Dibutuhkan mermori boost</string>
+    <string name="notification_setting_cpu_switch">CPU Monitor</string>
+    <string name="notification_setting_manual">Mode Manual</string>
+    <string name="notification_setting_manual_boost">Phone Boost</string>
+    <string name="notification_setting_manual_clean">Pembersihan Sampah</string>
+    <string name="notification_setting_mode">Mode</string>
+    <string name="notification_setting_storage_level">Ruangan simpan tersisa</string>
+    <string name="notification_setting_storage_switch">Kehabisan ruangan simpan</string>
+    <string name="power_boost_shortcut_dialog_ok">Aktifkan Boost</string>
+    <string name="power_boost_shortcut_dialog_text1">1. Bunuh aplikasi auto start.</string>
+    <string name="power_boost_shortcut_dialog_text2">2. Bunuh aplikasi bandel.</string>
+    <string name="power_boost_shortcut_dialog_text3">3. Tingkatkan ponsel anda seperti sdh diroot.</string>
+    <string name="power_boost_shortcut_dialog_title">Aksesibilitas penting utk boost:</string>
+    <string name="power_boost_shortcut_init_boost">Memulai power boost…</string>
+    <string name="power_boost_shortcut_name">Power Boost</string>
+    <string name="recommend_app_lock_dialog_desc">Kunci &lt;font color="#4a89dc"&gt;%s&lt;/font&gt; melawan pengintai!</string>
+    <string name="recommend_app_lock_dialog_title">Lindungi privasi app anda</string>
+    <string name="recommend_app_lock_notify_desc">Kunci aplikasi sensitif anda!</string>
+    <string name="recommend_app_lock_notify_title_black">&lt;font color="#1d1d1d"&gt;Seorang mungkin mengintai ponsel anda?&lt;/font&gt;</string>
+    <string name="recommend_app_lock_notify_title_white">&lt;font color="#ffffff"&gt;Sorang mungkin mengintai ponsel anda?&lt;/font&gt;</string>
+    <string name="recommend_notification_box_notify_desc">Coba Notifikasi Diam!</string>
+    <string name="recommend_notification_box_notify_title_black">&lt;font color="#1d1d1d"&gt;P\'m?&lt;/font&gt;</string>
+    <string name="recommend_notification_box_notify_title_white">&lt;font color="#ffffff"&gt;Dapatkan notifikasi baru?&lt;/font&gt;</string>
+    <string name="setting_boost_ignorelist">Jalankan daftar abai app</string>
+    <string name="setting_boot_up_notice">Cek Boot</string>
+    <string name="setting_whatsapp_promote">Laporan sampah WhatsApp </string>
+    <string name="uninstalled_app">app terhapus</string>
+    <string name="whatsapp_delete_alert_desc">Anda yakin utk menghapus permanen?</string>
+    <string name="whatsapp_deleted_msg">%1$s dokumen %2$s bersih</string>
+    <string name="whatsapp_media_menu_select_all">Pilih semua</string>
+    <string name="whatsapp_media_receive_tag">Trima</string>
+    <string name="whatsapp_media_sent_tag">Kirim</string>
+</resources>

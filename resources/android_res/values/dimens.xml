@@ -1,0 +1,282 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 通用title高度 -->
+    <dimen name="common_title_height">48dp</dimen>
+    <!-- 通用title的标题字体大小, title高度固定,所以用字体大小用dp,不用sp -->
+    <dimen name="common_title_main_text_size">19dp</dimen>
+    <!-- 通用title返回键宽度 -->
+    <dimen name="common_title_main_text_margin_left">56dp</dimen>
+    <!-- 通用title返回键左边距 -->
+    <dimen name="common_title_back_padding_left">16dp</dimen>
+    <!-- 通用title拓展按钮右边距 -->
+    <dimen name="common_title_extra_padding_right">16dp</dimen>
+    <!-- 通用item项高度 -->
+    <dimen name="common_item_height">64dp</dimen>
+    <!-- 通用标题类item项高度 -->
+    <dimen name="common_title_item_height">40dp</dimen>
+    <!-- 通用header项高度 -->
+    <dimen name="common_header_height">40dp</dimen>
+    <!-- 通用模块item项高度 -->
+    <dimen name="common_module_item_height">48dp</dimen>
+    <!-- 通用icon高度、宽度 -->
+    <dimen name="common_icon_width">40dp</dimen>
+    <!-- 通用checkbox, icon 左右边距 -->
+    <dimen name="common_margin">16dp</dimen>
+    <!-- 通用圆形按钮的大小 -->
+    <dimen name="common_round_button_size">80dp</dimen>
+    <dimen name="common_round_button_layout_height">100dp</dimen>
+    <dimen name="common_round_button_layout_width">80dp</dimen>
+    <!-- 通用tab标题的高度 -->
+    <dimen name="common_tab_title_height">34dp</dimen>
+    <!-- 通用tab标题的文字大小 -->
+    <dimen name="common_tab_title_text_size">16dp</dimen>
+    <!-- 通用标题+tab标题的高度 -->
+    <dimen name="common_title_and_tab_height">82dp</dimen>
+    <!-- 通用顶部内容面板的高度 -->
+    <dimen name="common_top_content_panel_height">100dp</dimen>
+    <!-- 通用顶部内容面板的滚动缩小后的高度 -->
+    <dimen name="common_top_content_panel_small_height">48dp</dimen>
+    <!-- listView 可滚动占位头部view的高度, 等于common_top_content_panel_height与common_top_content_panel_small_height之差 -->
+    <dimen name="common_listview_scroll_space_headview_height">52dp</dimen>
+    <!-- 通用顶部面板区, 标题区+tab标题区+内容面板 -->
+    <dimen name="common_top_panel_height">182dp</dimen>
+    <!-- 通用顶部面板区(无tab标题), 标题区+内容面板 -->
+    <dimen name="common_top_panel_no_tab_height">148dp</dimen>
+
+    <!-- 通用xxl醒目数字大小 -->
+    <dimen name="common_text_size_xxl">60sp</dimen>
+    <!-- 通用l醒目文字大小 -->
+    <dimen name="common_text_size_l">15sp</dimen>
+    <!-- 通用应用名称文字大小 -->
+    <dimen name="common_text_size_item_name">16sp</dimen>
+    <!-- 通用模块名称文字大小 -->
+    <dimen name="common_text_size_module_name">15sp</dimen>
+    <!-- 通用文件大小单位文字大小 -->
+    <dimen name="common_fire_unit">12sp</dimen>
+    <!-- 通用header文字大小 -->
+    <dimen name="common_header_tip_text_size">13sp</dimen>
+    <!-- 通用列表的分隔线的大小 -->
+    <dimen name="common_listview_divider_height">@dimen/common_listview_divider_height_level0</dimen>
+    <dimen name="common_listview_divider_height_level0">1px</dimen>
+    <dimen name="common_listview_divider_height_level1">1px</dimen>
+    <dimen name="common_listview_divider_margin_bottom">1px</dimen>
+
+    <!-- 主界面 -->
+    <dimen name="z_home_main_bottom_tab_text">14sp</dimen>
+
+    <!-- 用户安装应用界面tab下的4个小tab的字体大小 -->
+
+    <dimen name="user_app_manager_tab_small_size">14sp</dimen>
+
+    <!-- 对话框icon高度、宽度 -->
+    <dimen name="dialog_icon_width">40dp</dimen>
+    <dimen name="dialog_common_large_height">205dp</dimen>
+    <dimen name="dialog_common_height">180dp</dimen>
+    <dimen name="dialog_common_appmanager_height">220dp</dimen>
+    <dimen name="dialog_residue_height">280dp</dimen>
+
+    <!-- 更新提示Dialog高度 -->
+    <dimen name="dialog_update_height">241dp</dimen>
+
+    <!-- 主界面 -->
+    <!-- 菜单 -->
+    <dimen name="main_menu_width">180dp</dimen>
+    <dimen name="main_menu_item_height">36dp</dimen>
+    <dimen name="main_menu_offset_x">8dp</dimen>
+
+    <!-- 加速模块 -->
+    <dimen name="boost_main_tab_title_height">@dimen/common_tab_title_height</dimen>
+    <dimen name="boost_main_title_and_tab_title_height">@dimen/common_title_and_tab_height</dimen>
+    <dimen name="boost_main_top_panel_with_tab_title_height">@dimen/common_top_panel_height</dimen>
+    <dimen name="boost_main_top_panel_no_tab_title_height">@dimen/common_top_panel_no_tab_height</dimen>
+    <dimen name="boost_main_top_panel_info_layout_height">@dimen/common_top_content_panel_height</dimen>
+
+    <!-- 清理模块 -->
+    <dimen name="clean_list_common_horizontal_margin">16dp</dimen>
+    <dimen name="clean_list_common_text_size">16dp</dimen>
+    <dimen name="clean_main_top_height">@dimen/common_top_panel_no_tab_height</dimen>
+    <dimen name="clean_list_group_height">48dp</dimen>
+    <dimen name="clean_list_common_content_horizontal_margin">56dp</dimen>
+    <dimen name="clean_list_group_total_size_text_size">17dp</dimen>
+    <dimen name="clean_list_item_title_margin_left">80dp</dimen>
+    <dimen name="clean_main_scrollview_height">@dimen/common_top_content_panel_height</dimen>
+    <dimen name="clean_main_scrollview_float_height">48dp</dimen>
+    <dimen name="clean_main_scrollview_float_height_plus">@dimen/common_listview_scroll_space_headview_height</dimen>
+    <dimen name="clean_main_scrollview_totalView">148dp</dimen>
+    <dimen name="clean_main_list_item_title_max_length">165dp</dimen>
+    <dimen name="clean_main_list_sub_item_title_size">14dp</dimen>
+    <dimen name="clean_main_list_sub_item_icon_size">20dp</dimen>
+    <dimen name="clean_main_list_sub_item_icon_horizontal_margin">39dp</dimen>
+
+    <!-- 应用卸载 -->
+    <dimen name="uninstall_dialog_height">194dp</dimen>
+    <dimen name="uninstall_dialog_common_padding">17dp</dimen>
+
+    <!-- 应用管理 -->
+    <dimen name="user_app_tab_heght">48dp</dimen>
+    <dimen name="appmanager_main_title_and_tab_title_height">@dimen/common_title_and_tab_height</dimen>
+    <dimen name="appmanager_main_top_panel_no_tab_title_height">@dimen/common_top_panel_no_tab_height</dimen>
+    <dimen name="appmanager_common_text_size">14dp</dimen>
+
+    <!-- 辅助功能开记引导浮层 -->
+    <dimen name="float_view_boost_accessibility_service_tips_layout_size">196dp</dimen>
+
+    <!-- Dialog 通用尺寸 -->
+    <dimen name="dialog_common_title_size">20sp</dimen>
+    <dimen name="dialog_common_version_text_size">12sp</dimen>
+    <dimen name="dialog_common_versionname_size">60sp</dimen>
+    <dimen name="dialog_common_detail_size">16sp</dimen>
+    <dimen name="dialog_common_button_text_size">16sp</dimen>
+    <dimen name="dialog_common_icon_widthorheght">40dp</dimen>
+    <dimen name="dialog_common_padding">16dp</dimen>
+    <dimen name="dialog_common_margin">16dp</dimen>
+
+    <!-- 一键加速 -->
+    <dimen name="shortcut_boost_length">60dp</dimen>
+    <dimen name="shortcut_boost_padding_left">13dp</dimen>
+    <dimen name="shortcut_boost_padding_top">2dp</dimen>
+    <dimen name="shortcut_boost_padding">2dp</dimen>
+    <dimen name="shortcut_widget_scale_size">1.02px</dimen>
+    <dimen name="shortcut_widget_minwidth">40dp</dimen>
+    <dimen name="shortcut_widget_minheight">42dp</dimen>
+
+    <!-- 黑洞 -->
+    <dimen name="float_small_window_width">40dp</dimen>
+    <dimen name="float_small_window_height">30dp</dimen>
+
+    <!-- 语言设置 -->
+    <dimen name="language_setting_item_height">56dp</dimen>
+
+    <!-- ===========Storage模块========== -->
+    <dimen name="file_category_image_album_text_size">16dp</dimen>
+
+    <!-- 应用管理预安装，禁用模块 -->
+    <dimen name="fragment_appmanager_preinstall_batch_button_height">48dp</dimen>
+    <dimen name="fragment_appmanager_preinstall_batch_button_image_width">20dp</dimen>
+    <dimen name="fragment_appmanager_preinstall_batch_button_image_margin_right">12dp</dimen>
+    <dimen name="fragment_appmanager_preinstall_batch_button_textsize">18dp</dimen>
+    <dimen name="preinstall_lab_icon_width">20dp</dimen>
+    <dimen name="preinstall_lab_icon_margin_right">10dp</dimen>
+    <dimen name="preinstall_disable_list_no_data_image_height">127dp</dimen>
+    <dimen name="preinstall_disable_list_no_data_image_width">74.7dp</dimen>
+    <dimen name="preinstall_disable_list_no_data_image_margin_bottom">48dp</dimen>
+
+    <!-- 预装应用批量禁用 -->
+    <dimen name="boost_disable_apps_app_icon_size">72dp</dimen>
+    <dimen name="boost_disable_apps_done_numuber_size">47dp</dimen>
+    <dimen name="boost_disable_apps_done_description_view_width">316dp</dimen>
+    <dimen name="preinstall_disable_list_group_item_icon_margin_left">19dp</dimen>
+    <dimen name="preinstall_disable_list_group_item_icon_width">18dp</dimen>
+    <dimen name="preinstall_disable_list_group_item_subtitle_textsize">10dp</dimen>
+    <dimen name="preinstall_disable_list_child_item_rate_textsize">16dp</dimen>
+    <dimen name="preinstall_disable_app_info_dialog_header_margin_bottom">24dp</dimen>
+    <dimen name="preinstall_disable_app_info_dialog_icon_width">37dp</dimen>
+    <dimen name="preinstall_disable_app_info_dialog_atleast_height">158dp</dimen>
+
+    <!-- V1.13对话框UI调整 -->
+    <dimen name="dialog_common_title_size_v1_13">20sp</dimen>
+
+    <!-- 新装应用对话框 -->
+    <dimen name="install_listen_icon_layout_margin_top">6dp</dimen>
+    <dimen name="install_listen_icon_margin_right_2">70dp</dimen>
+    <dimen name="install_listen_icon_margin_right_3">40dp</dimen>
+    <dimen name="install_listen_dialog_icon_scrollview_height_at_least_1">90dp</dimen>
+    <dimen name="install_listen_dialog_icon_scrollview_height_at_least_2">186dp</dimen>
+    <dimen name="install_listen_dialog_height_at_least_1">210dp</dimen>
+    <dimen name="install_listen_dialog_height_at_least_2">290dp</dimen>
+    <dimen name="install_listen_dialog_content_apksize_textSize">20dp</dimen>
+    <dimen name="install_listen_dialog_content_text_margin_left">50dp</dimen>
+    <dimen name="install_listen_dialog_margin_left">20dp</dimen>
+    <dimen name="install_listen_icon_view_width">65dp</dimen>
+    <dimen name="install_listen_icon_view_icon_width">48dp</dimen>
+    <dimen name="install_listen_icon_view_icon_container_width">53dp</dimen>
+    <dimen name="install_listen_icon_view_icon_margin_top">12dp</dimen>
+    <dimen name="install_listen_icon_view_select_box_width">24dp</dimen>
+    <dimen name="install_listen_icon_view_text_margin_top">10dp</dimen>
+    <dimen name="install_listen_icon_view_textsize">13dp</dimen>
+    <dimen name="install_listen_dialog_corner_width">50dp</dimen>
+    <dimen name="install_listen_dialog_scroll_margin_top">14dp</dimen>
+    <dimen name="install_listen_dialog_scroll_margin_bottom">26dp</dimen>
+    <dimen name="install_listen_dialog_content_textsize">16dp</dimen>
+    <dimen name="install_listen_dialog_eye_width">30dp</dimen>
+    <dimen name="install_listen_dialog_eye_margin_left">16dp</dimen>
+    <dimen name="install_listen_dialog_eye_footer_btn_textsize">18dp</dimen>
+    <dimen name="install_listen_dialog_diver_height">0.5dp</dimen>
+
+    <!-- 游戏加速动画 -->
+    <dimen name="game_accel_anim_icon_width">60dp</dimen>
+    <dimen name="game_accel_anim_cloak_width">86.7dp</dimen>
+    <dimen name="game_accel_anim_bubble_max_width">20dp</dimen>
+    <dimen name="game_accel_anim_icon_anim_max_offset">15dp</dimen>
+    <dimen name="game_accel_anim_text_margin_top">150dp</dimen>
+    <dimen name="game_accel_anim_round_rect_radius">15dp</dimen>
+    <dimen name="game_accel_anim_toast_margin_bottom">50dp</dimen>
+    <dimen name="game_accel_anim_toast_height">52dp</dimen>
+    <dimen name="game_accel_anim_toast_padding_left">18dp</dimen>
+    <dimen name="game_accel_anim_toast_icon_width">24dp</dimen>
+    <dimen name="game_accel_anim_toast_text_margin_left">12dp</dimen>
+    <dimen name="game_accel_anim_toast_text_textsize">14dp</dimen>
+    <dimen name="game_accel_anim_fly_away_offset">25dp</dimen>
+
+    <!-- ICON -->
+    <dimen name="launcher_icon_width">48dp</dimen>
+    <dimen name="launcher_icon_label">18dp</dimen>
+    <dimen name="launcher_icon_common_margin">5dp</dimen>
+    <dimen name="launcher_icon_common_cell_length">17dp</dimen>
+
+    <!-- 游戏加速模块 -->
+    <dimen name="game_boost_cell_item_width">72dp</dimen>
+    <dimen name="game_boost_cell_item_icon_size">60dp</dimen>
+    <dimen name="game_boost_folder_baseheight">45dp</dimen>
+
+    <!-- 通用Notification -->
+    <dimen name="notification_common_text_one">16sp</dimen>
+    <dimen name="notification_common_text_two">14sp</dimen>
+
+    <!-- 试试手气 -->
+    <dimen name="dialog_width">300dp</dimen>
+    
+    <!-- 游戏加速动画二期 -->
+	<dimen name="game_accel_guide_ok_width">60dp</dimen>
+	<dimen name="game_accel_guide_ok_margin_top">210dp</dimen>
+	<dimen name="game_accel_guide_text1_margin_top">24dp</dimen>
+	<dimen name="game_accel_guide_text2_margin_top">5dp</dimen>
+	<dimen name="game_accel_guide_textsize">18dp</dimen>
+	<dimen name="game_accel_guide_try_btn_width">60dp</dimen>
+	<dimen name="game_accel_guide_try_btn_margin_top">150dp</dimen>
+	<dimen name="game_accel_guide_try_text_margin_top">16dp</dimen>
+	<dimen name="game_accel_guide_try_text_textsize">12dp</dimen>
+	<dimen name="game_accel_tip_dialog_at_least_height">165dp</dimen>
+	<dimen name="game_boost_pager_tab_height">48dp</dimen>
+	
+	<!--app lock  -->
+	<dimen name="locker_header_menu_item_width">173dip</dimen>
+    <dimen name="locker_header_menu_item_height">48dip</dimen>
+    <!-- 首次设置密码 -->
+    <dimen name="curtain_ad_layout_ad_padding">30dp</dimen>
+    <dimen name="curtain_ad_layout_padding">32dp</dimen>
+
+    <!-- 主界面功能引导 -->
+    <dimen name="home_guide_page_button_size">60dp</dimen>
+    <dimen name="home_guide_page_button_shadow_height">68dp</dimen>
+    <dimen name="home_guide_page_content_layout_top">45dp</dimen>
+    <dimen name="home_guide_page_btn_top">60dp</dimen>
+
+    <!--主页面侧边栏-->
+    <dimen name="home_drawer_item_margin">8dp</dimen>
+    <dimen name="home_drawer_item_margin_for_num">11dp</dimen>
+
+    <!--toast 广告样式-->
+    <dimen name="boost_ad_toast_banner_font_size">40sp</dimen>
+
+    <!--应用锁界面适配-->
+    <dimen name="applock_lock_panel_top">280dp</dimen>
+    <dimen name="applock_number_lock_panel_text_buttom">18dp</dimen>
+    <dimen name="applock_init_bevel_top">204dp</dimen>
+    <dimen name="applock_unlock_bevel_top">230dp</dimen>
+
+</resources>

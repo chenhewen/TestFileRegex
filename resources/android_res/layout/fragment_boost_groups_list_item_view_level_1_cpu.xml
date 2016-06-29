@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_item_height"
+    android:background="@drawable/common_list_item_white_selector"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="@dimen/common_icon_width"
+        android:layout_height="@dimen/common_icon_width"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin" >
+
+        <ImageView
+            android:id="@+id/boost_group_list_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/cpu_icon_normal" />
+
+        <com.gto.zero.zboost.activity.ui.AutoResizeTextView
+            android:id="@+id/boost_list_group_cpu_temp_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:fontFamily="@string/font_families_roboto"
+            android:maxLines="1"
+            android:paddingLeft="4dp"
+            android:text="33°"
+            android:textColor="#CCFFFFFF"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/boost_list_group_issue_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="4dp"
+            android:ellipsize="end"
+            android:fontFamily="@string/font_families_roboto"
+            android:maxLines="1"
+            android:text="@string/boost_groups_list_title_running_app"
+            android:textColor="#FF808080"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:id="@+id/boost_group_list_issue_app_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/boost_group_list_issue_app_icon"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/boost_group_list_issue_app_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:fontFamily="@string/font_families_roboto"
+                android:maxLines="1"
+                android:text="@string/boost_groups_list_title_running_app"
+                android:textColor="#FFA7A7A7"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/boost_list_group_fix_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/common_margin"
+        android:background="@drawable/memory_cpu_check_btn_bg_selector"
+        android:ellipsize="end"
+        android:fontFamily="@string/font_families_roboto"
+        android:gravity="center"
+        android:maxLines="1"
+        android:minWidth="52dp"
+        android:paddingLeft="14dp"
+		android:paddingRight="14dp"
+        android:text="@string/cpu_fix"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+</LinearLayout>

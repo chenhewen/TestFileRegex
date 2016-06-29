@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 阿拉伯语 -->
+     <string name="app_name">GO Speed</string>
+
+    <!-- ==========字体模块========== -->
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_families_roboto_thin">sans-serif-thin</string>
+    <string name="font_families_roboto_light">sans-serif-light</string>
+    <string name="font_families_roboto_condensed">sans-serif-condensed</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_ok">تماما</string>
+    <string name="common_select">اختار</string>
+    <string name="common_delete">حذف</string>
+    <string name="common_others">الآخر</string>
+    <string name="common_uninstall">إزالة</string>
+    <string name="common_uninstalled">تم الإزالة</string>
+    <string name="common_back_up">النسخ الاحتياطي</string>
+    <string name="common_cancel">إلغاء</string>
+    <string name="common_install">تثبيت</string>
+    <string name="common_installed">قد ثبت</string>
+    <string name="common_vertion">إصدار</string>
+    <string name="common_update">تحديث</string>
+    <string name="common_insufficient_storate">تخزين غير كافية</string>
+    <string name="common_no_sdcard">عدم وجود بطاقة الذاكرة</string>
+    <string name="common_warning">تحذير</string>
+    <string name="common_no_content">لا محتويات</string>
+    <string name="common_comma"> </string>
+    <string name="common_slogan">تسريع إلى أفضل هاتف</string>
+    <string name="common_download">تحميل</string>
+    <string name="common_more">المزيد</string>
+    <string name="common_on">ON</string>
+    <string name="common_off">OFF</string>
+    <string name="common_new">جديد</string>
+
+    <!-- 一周 -->
+    <string name="sunday">الأحد</string>
+    <string name="monday">الإثنين</string>
+    <string name="tuesday">الثلاثاء</string>
+    <string name="wednesday">الأربعاء</string>
+    <string name="thursday">الخميس</string>
+    <string name="friday">الجمعة</string>
+    <string name="saturday">السبت</string>
+
+    <!-- 月份 -->
+    <string name="jan">يناير</string>
+    <string name="feb">فبراير.</string>
+    <string name="mar">مارس.</string>
+    <string name="apr">ابريل.</string>
+    <string name="may">مايو.</string>
+    <string name="june">يونيو.</string>
+    <string name="july">يوليو.</string>
+    <string name="aug">آب.</string>
+    <string name="sept">سبتمبر.</string>
+    <string name="oct">اوكتوبر.</string>
+    <string name="nov">نوفمبر.</string>
+    <string name="dec">ديسمبر.</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="main_ram_title">رام</string>
+    <string name="main_storage_title">التخزين</string>
+    <string name="main_button_boost">التسريع</string>
+    <string name="main_button_storage">الملف غير المرغوب فيه</string>
+    <string name="main_button_manage">مدير التطبيقات</string>
+    <string name="tip_press_again_to_exit">اضغط مرة أخرى للخروج</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">الإعدادات</string>
+    <string name="menu_update">تحديث</string>
+    <string name="menu_feedback">التعليقات</string>
+    <string name="menu_about">عنها</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">عيد الميلاد</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">تسريع الرام</string>
+    <string name="boost_main_act_tab_running">تشغيل</string>
+    <string name="boost_main_act_tab_autostart">بدء تلقائي</string>
+    <string name="boost_running_apps_custom">اختار تطبيق %1$d</string>
+    <string name="boosting_tips">تسارع الآن</string>
+    <string name="boosting_power_tips">تسارع بقوة</string>
+    <string name="boosted_to_optimus_tips">قد تسارع إلى الأفضل!</string>
+    <string name="boosted_active_power_mode_tips">وجد تطبيق %1$d مرة أخري.و افتح وضع القوة لإلغائه !</string>
+    <string name="enable_super_boost_enable">افتح الآن</string>
+    <string name="enable_super_boost_title">افتح وضع القوة</string>
+    <string name="enable_super_boost_main_text">نقترح عليك أن تفتح إمكانية الوصول لتسريع الهاتف فعالية：</string>
+    <string name="enable_super_boost_content_text1" formatted="false">إنهاء العملية بأكثر دقة，و الحصول على التأثير الأحسن。</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">انقر “GO Speed” في الخدمة</string>
+    <string name="boost_groups_list_title_running_app">تشغيل التطبيقات</string>
+    <string name="boost_groups_list_title_cpu_temperature">درجة الحرارة لCPU</string>
+    <string name="boost_groups_list_title_lag_detected">تأخر الكشف</string>
+    
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">انقر على أعلى الزاوية اليمنى لتفعيل وضع القوة لمعزز GO, لكي يصبح أسرع！\n\nيوقف معزز GO العمليات غير المرغوب فيها بميزة إمكانية الوصول，فلا تقلق بشأن المخاطر تذكير الخصوصية المنبثقة, و نتعهد بعدم جمع أي معلومات عنك。</string>
+
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">خيارات</string>
+    <string name="autostart_type_optimization">ريثما</string>
+    <string name="autostart_type_allowed">مسموح بدء تلقائي</string>
+    <string name="autostart_type_blocked">ممنوع بدء تلقائي</string>
+    <string name="autostart_type_system">نظام مثبتة مسبقا</string>
+    <string name="autostart_type_system_description">ممنوع بدء تلقائي لنظام مثبتة مسبقا هو ربما سيؤدي إلى عدم استقرار النظام,فتشغله بعناية! </string>
+    <string name="autostart_preinstll_system">نظام مثبتة مسبقا</string>
+    <string name="autostart_on_boot_up">بدء التشغيل تلقائي</string>
+    <string name="autostart_on_background">بدء تلقائي وراء الكواليس</string>
+    <string name="autostart_on_boot_up_and_background">بدء التشغيل تلقائي/بدء تلقائي وراء الكواليس</string>
+    <string name="autostart_detail_title">سيبدأ تلقائي في أحوال %1$d التالية:</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="add_to_ignore_list_act_title">يضيف إلى قائمة التجاهل</string>
+    <string name="dialog_memory_footprint">استخدام الذاكرة</string>
+    <string name="dialog_add_to_ignorelist">يضيف إلى قائمة التجاهل</string>
+    <string name="dialog_remove_from_ignorelist">خروج من قائمة التجاهل</string>
+    <string name="tip_ignore_list_appunchecked">لا يختار التطبيقات التالية بشكل افتراضي عندما تنظيف الذاكرة</string>
+    <string name="tip_ignore_list_appadd">انقر+ لإضافة تطبيقات يمكن تجاهلها</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443">%s&lt;/font> will not be scanned.</string>
+    <string name="clean_ignore_empty_tips">Long press items in Junk Files to add to Ignore List.</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">مدير التطبيقات</string>
+    <string name="app_manager_back_up_success_tips">تم النسخ الاحتياطي لهذا التطبيق إلى：</string>
+    <string name="app_manager_back_up_success_tips_for_one">تم النسخ الاحتياطي لهذا التطبيق إلى：</string>
+    <string name="app_manager_back_up_fail_tips_for_one">فشل النسخ الاحتياطي للتطبيق</string>
+    <string name="app_manager_backing_up">جاري النسخ الاحتياطي</string>
+    <string name="app_manager_running">جاري تشغيل</string>
+    <string name="app_manager_path">مسار</string>
+    <string name="app_manager_no_backup_found">لم يتم العثور ملف النسخ الاحتياطي</string>
+    <string name="app_manager_tap_to_disable">انقر تعطيل / إلغاء</string>
+    <string name="app_manager_tap_to_enable">انقر تشغيل / بدء </string>
+    <string name="app_manager_select_app_first">اختار التطبيق أولا</string>
+    <string name="app_manager_shit">تماما</string>
+    <string name="app_manager_freed">تم تحرير</string>
+    <string name="app_manager_use_rare_month">عدم استخدام في غضون الشهر</string>
+    <string name="app_manager_use_rare_days">عدم استخدام لمدة %s يوما</string>
+    <string name="app_manager_use_commonly">حديث</string>
+    <string name="app_manager_android_system">نظام الروبوت</string>
+    <string name="app_manager_use_rare">لم يستخدم </string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">تطبيقات المستخدم</string>
+    <string name="app_manager_tab_system">تثبيت التطبيقات مسبقا</string>
+    <string name="app_manager_tab_text_date">التاريخ</string>
+    <string name="app_manager_tab_text_frequance">تردد</string>
+    <string name="app_manager_tab_text_size">الحجم</string>
+    <string name="app_manager_tab_text_battery">بطارية</string>
+    <string name="app_manager_dialog_cancel">إلغاء</string>
+    <string name="app_manager_dialog_backup">النسخ الاحتياطي</string>
+    <string name="app_manager_dialog_uninstall">إزالة</string>
+    <string name="app_manager_no_uerapp">لا التطبيقات</string>
+    <string name="app_manager_preinstall_disbale_list">التطبيقات المعطلة</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">تعطيل</string>
+    <string name="app_manager_preinstall_reommend_disable">من المستخدمين لتعطيله%</string>
+    <string name="app_manager_preinstall_reommend_keep">يوصي حفظ</string>
+    <string name="app_manager_preinstall_reommend_none">تبقى كما هي</string>
+    <string name="app_manager_preinstall_tip">تعطيل التطبيقات المثبتة مسبقا التي نادرا ما تستخدم لتقليل من استهلاك .</string>
+    <string name="app_manager_preinstall_disable_toast">تم تعطيل</string>
+    <string name="app_manager_preinstall_enable_toast">تم تشغيله</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">دفعة تعطيل</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">الحذر</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[تعطيل هذا التطبيق <font color="#fe6969">سيؤثر على وظيفة طبيعية</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">هل أنت متأكد أنك تريد تحديده؟</string>
+    <string name="app_manager_preinstall_disable_loading">جار التحميل&#8230;</string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">الملفات غير المرغوب فيه</string>
+    <string name="clean_main_suggest">اقتراح لتنظيف</string>
+    <string name="clean_main_selected">مختار</string>
+    <string name="clean_dialog_title">ملاحظة</string>
+    <string name="clean_dialog_message1">يشمل البرامج الذي تختاره على الملفات التالية</string>
+    <string name="clean_dialog_btn_all">حدد على أي حال</string>
+    <string name="clean_dialog_btn_next">تفتيش</string>
+    <string name="gallery_thumbnails">صورة مصغرة الكاش</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">تحميل مصغرة ألبومات ومحتوى الفيديو سيكون بطيئا بعد التنظيف.</string>
+    <string name="clean_group_residue">الملفات المتبقية</string>
+    <string name="clean_group_cache">ملف مخبأ</string>
+    <string name="clean_group_temp">الملفات المؤقتة</string>
+    <string name="clean_group_apk">حزمة التثبيت</string>
+    <string name="clean_group_big_file">ملف كبير</string>
+    <string name="clean_group_ad">AD القمامة</string>
+    <string name="clean_group_memory">ذاكرة القمامة</string>
+    <string name="clean_item_sys_cache">نظام الكاش</string>
+    <string name="clean_done_tips">تم تنظيف</string>
+    <string name="clean_dialog_app_cache_yes_btn">التنظيف اليدوي</string>
+    <string name="clean_dialog_folder_yes_btn">صفح</string>
+    <string name="clean_dialog_file_yes_btn">فتح</string>
+    <string name="clean_dialog_media_yes_btn">يبدأ</string>
+    <string name="clean_dialog_message_size">حجم</string>
+    <string name="clean_dialog_message_contain">يشمل</string>
+    <string name="clean_dialog_message_path">مسار</string>
+    <string name="clean_dialog_message_file">ملف واحد</string>
+    <string name="clean_dialog_message_folder">مجلد واحد</string>
+    <string name="clean_done_none_tips">نظيف جدا</string>
+    <string name="clean_file_browser_no_files">لا توجد ملفات</string>
+    <string name="clean_days_ago"> الأيام الخوالي</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969">احذر! &lt;/font>%1$s</string>
+    <string name="clean_subitem_detail_connect">هذا %1$s ل%2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443">لا تتأثر ملفاتك بعد التنظيف.&lt;/font></string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443">التنظيف في أمنة تماما.&lt;/font></string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969">هي ستحتاج إلى إعادة تحميلها.&lt;/font></string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969">التنظيف سيزال هذه إلى الأبد !&lt;/font></string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">تنظيف</string>
+    <string name="uninstall_dialog_message_1">فحص %1$s &lt;font color="#85c443">%2$s&lt;/font>الملفات المتبقية</string>
+    <string name="uninstall_dialog_message_2">يشمل على: </string>
+    <string name="uninstall_clean_tips">تم تحرير الملفات المتبقية</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">الإعدادات</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">التعليقات</string>
+    <string name="container_hint_setting_feedback">يرجى وصف بالتفصيل،,و شكرا لك على ملاحظاتك.</string>
+    <string name="notice_setting_feedback">من أجل تحديد أفضل للمشكلة، سيتم إرسال نموذج ونظام المعلومات معا.و لا تجمع معلوماتك الشخصية دون تصريح بك。</string>
+    <string name="no_contain_setting_feedback">هل تريد أن تقول شيء ؟ </string>
+    <string name="sendok_setting_feedback">شكرا على تعليقاتك</string>
+    <string name="checknet_setting_feedback">افحص اتصال الشبكة</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting"><u>اتصل بنا على فيس بوك</u></string>
+    <string name="googleplus_about_setting"><u>انضم إلى مجتمعنا Google+</u></string>
+    <string name="googleplay_about_setting"><u>تقييم</u></string>
+    <string name="title_about_setting">عن</string>
+    <string name="share_title_setting_about">مشاركة معزز GO</string>
+    <string name="law_one_setting_about">© 2014-2015 ZERO فريق. جميع الحقوق محفوظة.</string>
+    <string name="law_jump_setting_about"><u>سياسة الخصوصية</u></string>
+    <string name="share_setting_about">معزز GO يساعدني بسهولة على تسريع تنظيف الهاتف，تعال و جربه!عنوان التحميل：http://goo.gl/q10oHl</string>
+	<string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+	<string name="gp_not_connect">غير قادر على فتح اتصال</string>
+    
+    <!-- ========= 菜单settings ========== -->
+    <string name="title_float_widget">نافذة عوامة</string>
+    <string name="title_notice">إشعار</string>
+    <string name="junk_clean_setting">تنظيف الزباله</string>
+    <string name="enable_widget_setting_setting">استخدام نافذة عوامة</string>
+    <string name="hide_widget_setting_setting">إخفاء شريط الحالة</string>
+    <string name="show_widget_setting_setting">إظهار في واجهة المستخدم فقط</string>
+    <string name="memory_setting_setting">الذاكرة غير كافية</string>
+    <string name="storge_setting_setting">التخزين غير كافية</string>
+    <string name="junk_setting_setting">إزالة تنظيف الملفات المتبقية</string>
+    <string name="autostart_setting_setting">طلب جديد لتشغيل تلقائي</string>
+    <string name="ignore_setting_setting">قائمة التجاهل</string>
+    <string name="memery_boost_setting_setting">تشغيل قائمة التجاهل</string>
+    <string name="clean_ignore_title">Junk Files Ignore List</string>
+    <string name="clean_ignore_list_tips">These items will not be scan as junk files</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">عام</string>
+    <string name="menu_general_setting_language">لغة</string>
+    <string name="menu_general_setting_shortcut">اصنع اختصارات</string>
+    <string name="menu_junk_setting">خردة ملفات</string>
+    <string name="menu_junk_setting_scan_memory">مسح الذاكرة الزباله</string>
+    <string name="menu_join_uep_plan">&lt;u>برنامج خبرة المستخدم&lt;/u></string>
+    <string name="menu_smart_boost">تسريع ذكية</string>
+    <string name="smart_boost_screen_lock">دفعة الذكية في قفل الشاشة</string>
+    <string name="smart_boost_show_result">مشاهدة النتائج بعد دفعة الذكية</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">هل متأكد إغلاق نافذة عوامة ؟</string>
+    <string name="float_hide_float_message">يمكنك إخفاء هذه الميزة في شريط الحالة, هل تريد أن تحاول ؟ </string>
+    <string name="float_dialog_ok">تماما</string>
+    <string name="float_dialog_cancel">إلغاء</string>
+    <string name="float_dialog_hide_ok">تجارب</string>
+    <string name="float_dialog_hide_cancel">إغلاق باستمار</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">لا يتم الحصول على امتيازات الجذر, فشل التشغيل！</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram_black">&lt;font color="#1d1d1d">الذاكرة المتوفرة أقل &lt;/font>&lt;font color="#fe6969">&lt;b>من %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_white">&lt;font color="#ffffff">الذاكرة المتوفرة أقل &lt;/font>&lt;font color="#fe6969">&lt;b>من %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_line2">الجهاز قد تحصل ببطء شديد</string>
+    <string name="notification_boost">تسارع</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d">تخزين ينفد.&lt;/font>&lt;font color="#fe6969">&lt;b>Only %s%% left&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff">تخزين ينفد.&lt;/font>&lt;font color="#fe6969">&lt;b>Only %s%% left&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_line2">الفضاء قد يكون غير كاف على التحميل</string>
+    <string name="notification_release_more"><![CDATA[%s MB تحرير. <font color="#85c443">تحرير أكثر!</font>]]></string>
+    <string name="notification_release_sleep">تسريع%s ميغابايت أثناء النوم</string>
+    <string name="notification_boost_phone_optimum"><![CDATA[الهاتف هو في أفضل حالة. <font color="#85c443">تمتع أكثر!</font>]]></string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d">الجهاز &lt;/font>&lt;font color="#fe6969">&lt;b>يشغل بطء&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff">الجهاز &lt;/font>&lt;font color="#fe6969">&lt;b>يشغل بطء&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block2">التطبيق يحتل CPU بشكل غير طبيعي</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d">محموما &lt;/font>&lt;font color="#fe6969">&lt;b>على محمل الجد&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff">محموما &lt;/font>&lt;font color="#fe6969">&lt;b>على محمل الجد&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat2">التطبيق يحتل CPU بشكل غير طبيعي</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d">درجة الحرارة &lt;/font>&lt;font color="#fe6969">&lt;b>ترتفع سريعا&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff">درجة الحرارة &lt;/font>&lt;font color="#fe6969">&lt;b>ترتفع سريعا&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp2">التطبيق يحتل CPU بشكل غير طبيعي</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#1d1d1d">قمامة تلتهم الفضاء&lt;/font></string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#ffffff">قمامة تلتهم الفضاء&lt;/font></string>
+    <string name="notification_clean_scan_message">نظيفة لتحرير تخزين الهاتف</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"&gt; %التطبيقات التي &lt;/font&gt;&lt;font color="#fe6969"&gt;تفرغ بطاريتك&lt;/font&gt;</string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"&gt; %التطبيقات التي &lt;/font&gt;&lt;font color="#fe6969"&gt;تفرغ بطاريتك&lt;/font&gt;</string>
+    <string name="notification_ram_help_line2">عزز من الحفاظ على بطاريتك</string>
+    <string name="notification_release_more_banner">تم التحرير. حررّ أكثر!</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969"&gt;خردة جديدة &lt;/font&gt;&lt;font color="#1d1d1d"&gt;تم خلقها&lt;/font&gt;</string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969"&gt;خردة جديدة &lt;/font&gt;&lt;font color="#ffffff"&gt;تم خلقها&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d"&gt;أفضل تطبيق طقس خاص بك&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff"&gt;أفضل تطبيق طقس خاص بك&lt;/font&gt;</string>
+    <string name="notification_go_weather_message">ويدجتات عيد الميلاد الحديثة قدنشرت!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d"&gt;تشعر بالملل من الرسائل الإفتراضية?&lt;/font&gt;</string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff"&gt;تشعر بالملل من الرسائل الإفتراضية?&lt;/font&gt;</string>
+    <string name="notification_go_sms_message">قم بتخصيص رسالتم الآن!</string>
+    <string name="go_weather">GO Weather - ويدجت &amp; التوقع</string>
+    <string name="go_weather_done_message">يوفر أحدث &amp; معلومات الطقس &amp; الخلفيات المتحركة.</string>
+    <string name="notification_guide_text">تشغيل عملية التبديل الخاصة بك</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">فتح كما</string>
+    <string name="filetype_text">النص</string>
+    <string name="filetype_video">فيديو</string>
+    <string name="filetype_audio">سمعي</string>
+    <string name="filetype_image">صورة</string>
+    <string name="filetype_music">موسيقى</string>
+    <string name="filetype_document">Document</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">Compression</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">إصدار جديد</string>
+    <string name="update_update">تحديث</string>
+    <string name="update_later">فيما بعد</string>
+    <string name="update_cancel">إلغاء</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">مفتاح لتسريع</string>
+    <string name="shortcut">الاختصار</string>
+    
+    <!-- 自启方式 -->
+	<string name="auto_start_on_boot">بعد تشغيل الهاتف</string>
+	<string name="auto_start_on_connectivity_change">عندما اتصال أي الشبكة</string>
+	<string name="auto_start_on_package_changed">عند تغيير حالة التطبيق</string>
+	<string name="auto_start_on_package_added">عند تثبيت التطبيق الجديد</string>
+	<string name="auto_start_on_package_removed">عند إزالة التطبيق</string>
+	<string name="auto_start_on_package_replaced">عند استبدال التطبيق</string>
+	<string name="auto_start_on_any_data_state">عند فتح أو إغلاق شبكة للهاتف المحمول</string>
+	<string name="auto_start_on_outgoing_call">عند اتصال بالهاتف</string>
+	<string name="auto_start_on_phone_state_changed">عند شنق الهاتف</string>
+	<string name="auto_start_on_user_present">عند قفل الهاتف</string>
+	<string name="auto_start_on_wifi_state_change">عند اتصال واي فاي نجاحا</string>
+	<string name="auto_start_on_wifi_enable_change">عند فتح أو إغلاق واي فاي</string>
+	<string name="auto_start_on_time_set">عند تعديد الوقت</string>
+	<string name="auto_start_on_bluetooth_state_change">عند تغيير وضع بلوتوث</string>
+	<string name="auto_start_on_power_connected">عند توصيل الكهرباء</string>
+	<string name="auto_start_on_power_disconnected">عند تفصل الكهرباء</string>
+	
+	<!-- 通知栏快捷开关 -->
+	<string name="notificationtoggle_notificationtoggle">شريط الإعلام سريع</string>
+    <string name="notification_toggle_nocal">آلة حاسبة غير موجود!</string> 
+    <string name="notification_toggle_open">قد فتح شريط الإعلام سريع لمعزز GO</string> 
+    <string name="notification_toggle_noflash">جهازك لا يدعم الفلاش</string>
+  
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">معزز GO يدعم %s,هل ترغب في تبديل اللغة ؟</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">خطأ اتصال الشبكة</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">فشل تحميل اللغة</string>
+    
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">تخزين</string>
+    <string name="storage_main_act_details">تفاصيل</string>
+    <string name="storage_main_act_tab_used_space">التخزين المستخدمة</string>
+    <string name="storage_main_act_tab_app_total">التطبيقات  %s</string>
+    <string name="storage_main_act_tab_audio_total"> موسيقي %s</string>
+    <string name="storage_main_act_tab_image_total"> الصور%s </string>
+    <string name="storage_main_act_tab_document_total">%s Documents</string>
+    <string name="storage_main_act_tab_other_total">آخر</string>
+    <string name="file_category_image_title">الصور</string>
+    <string name="file_category_image_delete_dialog_msg_1">سيتم حذف الملف (الملفات).</string>
+    <string name="file_category_image_delete_dialog_msg_2">الملف المحذوف (ق) لا يمكن استردادها!</string>
+    <string name="file_category_video_no_content">لا يوجد فيديو</string>
+    <string name="file_category_video_delete_msg">الفيديوات سوف تحذف</string>
+    
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">%sمجموع الفيديوات</string>
+    <string name="video_title_selected">%sالفيديوات المختارة</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">موسيقى</string>
+    <string name="music_group_music">موسيقى</string>
+    <string name="music_group_rings">خواتم</string>
+    <string name="music_group_record">سجل</string>
+    <string name="music_dialog_title">تحذير</string>
+    <string name="music_dialog_delete_cancel">إلغاء</string>
+    <string name="music_dialog_delete_delete">حذف</string>
+    <string name="music_dialog_delete_notice">سيتم حذف الملف (الملفات).</string>
+    <string name="music_dialog_delete_notice_below">الملف المحذوف (ق) لا يمكن استردادها!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">الوثائق</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">آخر</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">حذف</string>
+    <string name="image_dialog_text1">سيتم حذف هذا الملف.</string>
+    <string name="image_dialog_text2">هل أنت متأكد؟</string>
+    <string name="image_no_selected">لم يتم تحديد أي ملفات.</string>
+    <string name="image_size_notice">ت%s تنظيف٪ S!</string>
+    <string name="image_delete_layout_text">حذف(%s)</string>
+    <string name="image_delete_ok">نعم ! </string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">لا يمكن حذف هذه الملفات.</string>
+    <string name="no_app_to_open_file">لا يمكن لتطبيقات المحلية فتح الملف</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">اسحبه هنا لتعزيز هاتفك.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">تعطيل </string>
+    <string name="disable_apps_done_disable_count">معطلة%s !</string>
+    <string name="disable_apps_done_speed_up"> زيادة السرعة %s!</string>
+    <string name="disable_apps_done_description">معزز GO يجعلها نشيطة  </string>
+    <string name="disable_apps_wait_to_stop_tips">حاول إيقاف ، انتظر&#8230;</string>
+    <string name="disable_list_no_app_tip">لا تطبيقات معطّلة</string>
+    <string name="disable_group_most_disable_title">معظم المعطّلة</string>
+    <string name="disable_group_recommend_keeping_title">يوصي حفظ</string>
+    <string name="disable_group_recommend_keeping_subtitle">ربما التعطيل يؤدي إلى مشاكل النظام</string>
+    <string name="disable_app_info_dialog_disable_btn_text">تعطيل</string>
+    <string name="disable_app_info_dialog_enable_btn_text">تمكين</string>
+    <string name="disable_app_info_dialog_consuming_tip">هذا التطبيق يستهلك ذاكرة النظام</string>
+    <string name="disable_app_info_dialog_system_error_tip">ربما التعطيل يؤدي إلى مشاكل النظام</string>
+    <string name="disable_app_info_dialog_no_statement">يمكنك محاولة تعطيله إذا هو ليس في حاجة </string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">الصانع للجهاز المثبت سابقا</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&#60;10%</string>
+    
+     <!-- 广告 -->
+    <string name="ad_install_now">تثبيت الآن</string>
+    
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">في صحتك!</string>
+    <string name="rate_gp_dialog_feedback_title">تقييم</string>
+    <string name="rate_gp_dialog_rate_title">أحب معزز GO</string>
+    <string name="rate_gp_dialog_one_notice_boost">In the past %1$s days, GO Speed has killed &lt;font color="#85c443"> %2$s &lt;/font>laggy apps for you.&lt;br /> &lt;br/> &lt;font color="#85c443">Do you enjoy GO Speed?&lt;/font></string>
+    <string name="rate_gp_dialog_one_no_boost">ليس حقيقية</string>
+    <string name="rate_gp_dialog_one_yes_boost">نعم ! </string>
+    <string name="rate_gp_dialog_one_notice_clean">قد نظفت بنجاح   &lt;font color="#85c443"> %s &lt;/font> junk! &lt;br /> &lt;br/>ماذا تشعور بمعزز GO</string>
+    <string name="rate_gp_dialog_one_no_clean">ليس جيدة</string>
+    <string name="rate_gp_dialog_one_yes_clean">أحبه! </string>
+    <string name="rate_gp_dialog_two_notice">هل تمانع في منح لنا ردود الفعل؟ \ n تسجيلات كل كلمة هي قيمة بالنسبة لنا.</string>
+    <string name="rate_gp_dialog_two_no">لا ، شكرا</string>
+    <string name="rate_gp_dialog_two_yes">حسنا بالتأكيد</string>
+    <string name="rate_gp_dialog_three_notice">ماذا عن تصنيف الخمس نجوم، وبعد ذلك؟</string>
+    <string name="rate_gp_dialog_three_no">لا ، شكرا</string>
+    <string name="rate_gp_dialog_three_yes">حسنا بالتأكيد</string>
+    <string name="rate_gp_notification_notice">قد قتلت %s  التطبيقات ، تحقق من ذلك؟</string>
+
+    <!-- 启动页 -->
+    <string name="private_start">بدأ</string>
+    <string name="private_join_uep"> إضافة  المستخدم  تجربة البرنامج </string>
+    <string name="privacy_start_by_agree_policy">الموافقة على &lt;u&gt;إتفاق الخصوصية&lt;/u&gt;</string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">تثبيت، وتنظيف APK لزوم لها لإنقاذ</string>
+    <string name="install_listen_installed_multiple_msg">تطبيقات مثبتة، وتنظيف apks غير الضرورية لإنقاذ</string>
+    <string name="install_listen_delete_apk_tip">قد تنظيف</string>
+    <string name="install_listen_dialog_clean_btn_text">تنظيف</string>
+    <string name="install_listen_dialog_cancel_btn_text">إلغاء</string>
+    <string name="install_listen_dialog_eye_tip_on">لا تسأل لمدة 3 أيام</string>
+    <string name="install_listen_dialog_eye_tip_off">يسألني</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">تسريع لعبة</string>
+    <string name="game_boost_add_to_game_title">إضافة لعبة</string>
+    <string name="game_boost_effect">الحالي أكثر من ذاكرة الوصول العشوائي للألعاب &lt;font color="#85c443">%s &lt;/font> </string>
+    <string name="game_cell_add">إضافة لعبة</string>
+    <string name="game_cell_ok">أوكي</string>
+    <string name="game_boost_menu_about">كيف يعمل</string>
+    <string name="game_boost_menu_add_shutcut">إنشاء مجلد لعبة</string>
+    <string name="game_boost_folder_create_success">مكون مجلد الألعاب النجاح.</string>
+    <string name="game_boost_box_shortcut_name">تسريع لعبة</string>
+    <string name="game_boost_box_shortcut_name_new">ألعابي</string>
+    <string name="game_boost_add_card_view_title_popular">الألعاب الشعبية</string>
+    <string name="game_boost_add_new_game_to_boost">%s ٪ ق وأضاف في لعبة دفعة</string>
+    <string name="game_boost_add_new_games_to_boost">%s ٪ ق ألعاب جديدة تضاف إلى لعبة دفعة</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">تسريع&#8230;</string>
+    <string name="game_accel_anim_boost_toast_tip"> فوق %s%% عزز.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">\u200fCPU مشاكل \u200f</string>
+    <string name="cpu_fix">حل</string>
+    <string name="cpu_check">تفتيش</string>
+    <string name="cpu_issue_type_temp_overheated">محموما!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">يزيد بسرعة!</string>
+    <string name="cpu_issue_type_heavily_occupied">تكون CPU محتلة بشكل كبير!</string>
+    <string name="cpu_temp_issue_app">يسبب المشكلة الآن </string>
+    <string name="cpu_occupied_issue_app">الاستهلاك &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">مبرد CPU</string>
+    <string name="cpu_coll_down_cpu">تبريد CPU</string>
+    <string name="cpu_temperature_issue">مشكلة درجة الحرارة</string>
+    <string name="cpu_device_running_slow">يشغل الجهاز بطىءا</string>
+    <string name="cpu_issue_detected">الكشف عن المشاكل</string>
+    <string name="cpu_cool_down_further">تبريد أعمق، تنظيف %s من التطبيقات المشغلة</string>
+    <string name="cpu_temp_well">درجة الحرارة لCPU   تكون جيدة</string>
+    <string name="cpu_temp_hot">حار قليلا</string>
+    <string name="cpu_temp_overheated">محموما</string>
+    <string name="cpu_temp_chilling">تبريد</string>
+    <string name="cpu_temp_cooler">CPU مبرد </string>
+    <string name="cpu_occupy">الاحتلال &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+    <string name="cpu_abnormal">استخدام CPU غير طبيعي: &lt;font color="#D46565"> %s &lt;/font></string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">تحسين فقط</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">جهاز الراحة بعض الوقت ليبرد</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">لا التطبيقات التدفئة</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">الجهاز يصبح باردا</string>
+    <string name="cpu_anim_cooldown_done_no_temp">تطبيقات التدفئة تنظيفها</string>
+    <string name="cpu_anim_cooldown_done_dropped">إسقاط</string>
+    <string name="cpu_anim_cooldown_process_tip_text">يبدأ باردا&#8230;</string>
+    <string name="cpu_anim_scan_process_tip_text">مسح CPU&#8230;</string>
+    <string name="cpu_anim_lag_done_tip_text">تسريع !</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">التحقق من اتصال الشبكة والمحاولة مرة أخرى</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">معزز الألعاب</string>
+    <string name="finish_page_card_game_booster_desc_enabled">مجلد معزز الألعاب خلق على الشاشة بنجاح</string>
+    <string name="finish_page_card_game_booster_btn_enabled">تمكين </string>
+    <string name="finish_page_card_game_booster_desc">ألعاب مفتوحة من مجلد اللعبة معززة ، يتمتع 65٪ أسرع لعبة سرعة اطلاق</string>
+    <string name="finish_page_card_game_booster_desc_single_game" formatted="false" >تفعيل داعم الألعاب للتسريع &lt;big>%s&lt;/big> حتى 65% ?</string>
+    <string name="finish_page_card_feedback_name">أخبرنا بما تفكر</string>
+    <string name="finish_page_card_feedback_desc">ميزة مفضلة، اقتراح، أي شيء</string>
+    <string name="finish_page_card_feedback_btn">ردود الفعل</string>
+    <string name="finish_page_card_game_booster_btn">تمكين الآن</string>
+    <string name="finish_page_card_whitelist_name">تحريرمعززة البيضاء</string>
+    <string name="finish_page_card_whitelist_desc">كافة التطبيقات التي تحتاج إلى البقاء قيد التشغيل</string>
+    <string name="finish_page_card_whitelist_btn">تحرير الآن</string>
+    <string name="finish_page_card_autostart_name">وجدت بدء التشغيل التلقائي</string>
+    <string name="finish_page_card_autostart_desc">&lt;big>%s&lt;/big> التطبيق تلقائي (ق) ليكون الأمثل</string>
+    <string name="finish_page_card_autostart_btn">تفتيش</string>
+    <string name="finish_page_card_photo_name">مرتبة أعلى صور</string>
+    <string name="finish_page_card_photo_desc">أكثر من  الصور قد مأخوذ، ولكن ليس كل منهم يستحق الفضاء، ربما؟ More than &lt;big>%s photos&lt;/big></string>
+    <string name="finish_page_card_photo_btn">تنظيف</string>
+    <string name="finish_page_card_clean_1_name">تنظيف القمامة</string>
+    <string name="finish_page_card_clean_1_desc">الهاتف مطيع ولدت &lt;big>%s&lt;/big> مؤخرا القمامة</string>
+    <string name="finish_page_card_clean_1_btn">تنظيف</string>
+    <string name="finish_page_card_activate_power_mode_title"> من التطبيقات  %s &lt;big>بدء التشغيل التلقائي &lt;/big></string>
+    <string name="finish_page_card_activate_power_mode_desc">نشيط  &lt;big>قوية&lt;/big> للتعامل معها</string>
+    <string name="finish_page_card_activate_power_mode_btn">نشيط</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">تسريع الهاتف</string>
+    <string name="finish_page_card_memory_boost_normal_desc">تحرير الذاكرة لتسريع الهاتف</string>
+    <string name="finish_page_card_memory_boost_normal_btn">تسريع</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big>%s%% تبقي&lt;/big> من ذاكرة</string>
+    <string name="finish_page_card_memory_boost_strong_desc"> ، %s من التطبيقات المشغلة قد أكلت الذاكرة ، يصبح الهاتف بطىءا جدا </string>
+    <string name="finish_page_card_memory_boost_strong_btn">تسريع الآن</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">تعطيل ما قبل تثبيت</string>
+    <string name="finish_page_card_disable_desc"> %1$sالتثبيت المسبق تطبيقات
+يمكن تعطيل &lt;big>%2$s&lt;/big></string>
+    <string name="finish_page_card_disable_btn">تفتيش</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">تحقق من الذي تسغيل سرا</string>
+    <string name="finish_page_no_ad_clean2_tips">القمامة تبطئ الهاتف</string>
+    <string name="finish_page_no_ad_clean1_tips">يجب تنظيفها كل يوم</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">ألعاب تحتاج معززة في غاية!</string>
+    <string name="finish_page_no_ad_disable_tips">بعض ما قبل تثبيت فعلا عديم النفع</string>
+    <string name="finish_page_no_ad_photo_tips">يمكن حفظ الكثير من الفضاء!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">وضع الطاقة يمكن أن تتوقف تلك صعبة!</string>
+    <string name="finish_page_no_ad_whitelist_tips">لا قتل التطبيقات التي تحتاج إليها!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">وهاتف يعمل ببطء</string>
+    <string name="finish_page_no_ad_boost_normal_tips">الهاتف يمكن أن يكون أسرع</string>
+    
+    <!-- 游戏加速动画二期 -->
+	<string name="game_accel_sec_add_game">إضافة ألعاب</string>
+	<string name="game_accel_guide_title">تسريع لعبة</string>
+	<string name="game_accel_guide_text2">تم تفعيل</string>
+	<string name="game_accel_guide_try_text">اضغط لمحاولة!</string>
+	<string name="game_accel_guide_gamename_1">أدخل في سطح المكتب</string>
+	<string name="game_accel_guide_gamename_2">اضغط المباراة لتعزيز</string>
+	<string name="game_accel_guide_gamename_3">اكتشاف مباريات ساخنة هنا أيضا…</string>
+	<string name="game_accel_guide_discovery_text_above">اكتشاف ألعاب موبايل</string>
+	<string name="game_accel_sec_anim_title">ألعاب</string>
+	<string name="game_accel_shortcut_created">خلق</string>
+	<string name="game_accel_sort_name">اسم</string>
+	<string name="game_accel_sort_Date">تاريخ</string>
+	<string name="game_accel_sort_Frequency">تردد</string>
+	<string name="game_accel_tip_dialog_content_text_new" formatted="false">تفعيل داعم الألعاب للتسريع &lt;font color="#85c443">\"%s\"&lt;/font>  حتى 65%?</string>
+	<string name="game_accel_game_box_title">إدارة الألعاب</string>
+    <string name="game_accel_add_shortcut">إضافة إختصار</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">إكتشف</string>
+    <string name="game_distribute_connection_failed">فشل الإتصال</string>
+    <string name="game_distribute_net_data_alert">ألعب على شبكة الواي فاي لتخفيف إستهلاك البيانات</string>
+    <string name="game_distribute_warning_title">GO Speed TV</string>
+    <string name="game_distribute_warning_content"> الصور الحركية الواردة في الفيديو لا تصدق. \ يتم عرض الفيديو ليس فقط للاستخدام المنزلي ولكن أيضا غيرها من \ ن الحقوق. أي تنصت أو مشاهدة لهذه الفيديوات و\ ن مرحب بها في  GO Speed. نحن ننصح \ N باللعب في أوقات معقولة.</string>
+    <string name="game_distribute_video_title">القناة</string>
+    <string name="game_distribute_game_searching">البحث عن الألعاب...</string>
+    
+    
+    <!--完成页文案 -->
+    <string name="big_app_title">أول ثلاثة &lt;font color="#6ac534"&gt;تطبيقات كبيرة &lt;/font&gt;</string>
+    <string name="cpu_thieves_title">أول ثلاثة &lt;font color="#6ac534"&gt;مستخدمين لوحدة المعالجة المركزية حالياً &lt;/font&gt;</string>
+    <string name="num_times">%أوقات</string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">الذاكرة المتوفرة منخفضة للغاية!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+
+    <string name="home_guide_card_photo_desc1">إلتقاط الصور سهل</string>
+    <string name="home_guide_card_photo_desc2">حذفهم ليس بالسهل</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+
+    <string name="home_guide_card_cpu_desc">إرتفاع حرارة وحدة المعالجة المركزية يستهلك البطارية</string>
+
+    <string name="home_guide_card_disbale_desc">تعامل مع المثبتة مسبقاً!</string>
+    <string name="home_guide_card_disbale_desc2">يمكنك لجوالك أن يكون أسرع!</string>
+    <string name="home_guide_card_disbale_desc_big">%sتطبيقات</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">تعزيز وضع الطاقة</string>
+    <string name="enable_super_boost_mode_normal">تعزيز عادي</string>
+    <string name="enable_super_boost_desc_super">&lt;b&gt;عززّ:&lt;/b&gt; التطبيقات العادية, &lt;mark&gt;&lt;font color="red"&gt;التطبيقات التلقائيةlt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;تعطي تعزيز حتى 60% للجوالات التي فيها روت.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (رجاء قم بتشغيل خصاية إمكانية الوصول ل GO Speed في الخطوة التالية)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b&gt;عزز:&lt;/b&gt; التطبيقات العادية, &lt;mark&gt;&lt;font color="red"&gt;التطبيقات التلقائية &lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;تعطي تعزيز حتى 60% للجوالات التي فيها روت.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (رجاء قم بتشغيل خصاية إمكانية الوصول ل GO Speed في الخطوة التالية)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b&gt;عززّ:&lt;/b&gt; التطبيقات العادية&lt;br&gt;
+      لن تعزز التطبيقات التلقائية إلا في وضعية القوة
+    </string>
+    <string name="enable_super_mode_check_desc_boost">تعزيز قوة جوالي الآن!</string>
+
+
+    <string name="enable_super_disable_mode_super">دفعة - تعطيل</string>
+    <string name="enable_super_disable_mode_normal">تعطيل - يدوي</string>
+    <string name="enable_super_disable_desc_super">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;ميزة:&lt;/b&gt; تعطيل التطبيقات الغير نافعة بنقرة واحدة.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (رجاء قم بتشغيل خصاية إمكانية الوصول ل GO Speed في الخطوة التالية)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;ميزة:&lt;/b&gt; تعطيل التطبيقات الغير نافعة بنقرة واحدة.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (رجاء قك بتشغيل   GO Speed كون جهازك أعيد تشغيله)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b&gt;ميزة:&lt;/b&gt; تعطيل التطبيقات البدون فائدة. &lt;br&gt;
+                    &lt;mark&gt;&lt;font color="red"&gt;ينصح بشدةإستخدام ميزة تعطيل - دفعة للسيطرةالسهلة..&lt;/font&gt; &lt;/mark&gt;
+    </string>
+    <string name="enable_super_mode_check_desc_disable">دفعة-تمكين ميزة تعطيل</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">إعداداتت إشعارات التبديل</string>
+    <string name="notification_toggle_settings_label_themes">ثيمات</string>
+    <string name="notification_toggle_settings_label_toggles">تبديل</string>
+    <string name="notification_toggle_settings_label_zspeed">كلاسيك</string>
+    <string name="notification_toggle_settings_label_popular">الأكثر شعبية</string>
+    <string name="notification_toggle_theme_name_green">ديميتر</string>
+    <string name="notification_toggle_theme_name_pink">اثينا</string>
+    <string name="notification_toggle_theme_name_black">ايريبس</string>
+    <string name="notification_toggle_theme_name_silver">ايرانوس</string>
+    <string name="notification_toggle_theme_name_golden">كرونوس</string>
+    <string name="notification_toggle_toggle_name_app">الصفحة الرئيسية</string>
+    <string name="notification_toggle_toggle_name_boost">تعزيز</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">مصباح يدوي</string>
+    <string name="notification_toggle_toggle_name_brightness">السطوع</string>
+    <string name="notification_toggle_toggle_name_themes">ثيمات</string>
+    <string name="notification_toggle_toggle_name_wifi">واي فاي</string>
+    <string name="notification_toggle_toggle_name_data">بيانات</string>
+    <string name="notification_toggle_toggle_name_camera">كاميرا</string>
+    <string name="notification_toggle_toggle_name_calculator">الحاسبة</string>
+    <string name="notification_toggle_toggle_name_rotate">الدوران</string>
+    <string name="notification_toggle_toggle_name_sound">الصوت</string>
+    <string name="notification_toggle_bright_auto">تلقائي</string>
+    <string name="notification_toggle_notification_ticker">شريط أدوات GO Speed طور التهيئة</string>
+    <string name="notification_toggle_notification_ticker_initializing">يتم تهيئة شريط الأدوات…</string>
+
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">كتابة محتوى للبحث عنه</string>
+    <string name="hot_word_search_next_batch">المزيد</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">الصور المزدوجة</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s  تم تنظيف الصور</string>
+    <string name="duplicate_photo_detail_toast_clean_all">كل الصور المزدوجة حذفت</string>
+    <string name="duplicate_photos_delete_alert_title">حذف نهائي</string>
+    <string name="duplicate_photos_delete_alert_desc">هل أنت متأكد من الحذف النهائي</string>
+    <string name="duplicate_photos_scan_alert">المسح قد يأخذ وقت، الرجاء الإنتظار</string>
+    <string name="duplicate_photos_no_content">مبروك! لا يوجد صور مزدوجة</string>
+    <string name="duplicate_photos_suffix_selected">%s مختارة</string>
+    <string name="duplicate_photos_suffix_total">%sمجموع الصور </string>
+
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">أفضل لعبة أسبوعية</string>
+    <string name="game_ad_notification_label_weekly_best_app">أفضل التطبيقات الأسبوعية</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">قفل التطبيق</string>
+    <string name="app_lock_perm_settings_title">إعدادات</string>
+    <string name="app_lock_perm_settings_message">طلب إذن</string>
+    <string name="app_lock_notice_enable_usage_stats">في أندرويد 5.0 أو أعلى، يجب السماح بالوصول لإستخدام قفل التطبيقات بحيث يمكنك استخدامها.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_enable_usage_stats">سمماح</string>
+    <string name="install_app_mointor_locker">يحتاج إلى الإقفال</string>
+    <string name="locker_header_forget_pwd">نسيت كلمة السر</string>
+    <string name="locker_header_replce_number_locker">تحول إلى قفل بكلمة سر</string>
+    <string name="locker_header_replce_graphic_locker">تحول إلى قفل بنمط</string>
+    <string name="initializationpassword_frist_prompt">إضبط كلمة السر</string>
+    <string name="initializationpassword_second_prompt">أدخل كلمة السر مرة آخرى للتأكيد</string>
+    <string name="initializationpassword_pwd_not_equals">كلمة السر لا تتطابق، الرجاء إدخالها مجدداً</string>
+    <string name="init_email_prompt">البريد لكلمة السر المنسية</string>
+    <string name="init_email_prompt1">الرجاء إدخال البريد الصحيح</string>
+    <string name="init_mail_btn_text">تم</string>
+    <string name="forget_reset_pwd_success">تم إعادة ضبط كلمة السر بنجاح</string>
+    <string name="activity_applock_group_apps">تطبيقات</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">إعدادات اب لوك</string>
+    <string name="app_lock_setting_parent_unlock_mode">حالة فك القفل</string>
+    <string name="app_lock_setting_passcode">كلمة سر</string>
+    <string name="app_lock_setting_others">آخرى</string>
+    <string name="app_lock_setting_unlock_mode_numbers">أرقام</string>
+    <string name="app_lock_setting_unlock_mode_pattern">نمط</string>
+    <string name="app_lock_setting_passcode_change_passcode">تغيير كلمة السر</string>
+    <string name="app_lock_setting_passcode_email_setting">إعدادات البريد</string>
+    <string name="app_lock_setting_others_brief_eixt">إسمح بالخروج السريع</string>
+    <string name="app_lock_setting_others_relock">أعد الإقفال بعد تشغيل الشاشة</string>
+    <string name="app_lock_setting_brief_eixt_seconds">ثواني</string>
+    <string name="app_lock_setting_brief_eixt_minutes">دقائق</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">نسيت الرمز السري</string>
+    <string name="forget_email_prompt1">1. سوف نرسل رمز التحقق على بريدك الألكتروني</string>
+    <string name="forget_email_prompt2">2)ادخل كود التحقق وكلمة السر</string>
+    <string name="forget_email_btn_prompt">أرسل</string>
+    <string name="forget_email_btn_prompt2">إعادة ضبط كلمة السر</string>
+    <string name="forget_email_edit_prompt">كود التحقق</string>
+    <string name="forget_check_code_not_right">غير صحيح</string>
+    <string name="forget_check_code_out_of_time">إنتعت صلاحية رمز التحقق، الرجاء المحاولة لاحقاً</string>
+    <string name="forget_send_email_error">فشل إرسال البريد، الرجاء المحاولة مرة آخرى</string>
+    <string name="forget_send_email_success">تم إرسال الإيميل بنجاح. الرجاء التأكد من صندوق البريد</string>
+    <string name="set_graphic_password_message_draw">ارسم نمط فك القفل</string>
+    <string name="set_graphic_password_message_too_short">اربط 4 نقاط على الأقل. حاول مجدداً:</string>
+    <string name="set_graphic_password_message_stored">تم تسجيل النمط.</string>
+    <string name="set_graphic_password_message_redraw">أرسم النمط مجدداً للتأكيد:</string>
+    <string name="set_graphic_password_btn_redraw">إعادة المحاولة</string>
+    <string name="set_graphic_password_message">إعداد الرمز السري</string>
+    <string name="set_graphic_password_message_wrong">خطأ، حاول مجدداً:</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">استخدم برو برايفيسي لوك مجاناً</string>
+    <string name="lokcer_init_instruction_first">إعداد كلمة لإقفال تطبيقاتك الخاصة</string>
+    <string name="lokcer_init_instruction_second">قم بتأكيد كلمة السر</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">قفل التطبيقات</string>
+    <string name="finish_page_card_app_locker_desc">حافظ &lt;big&gt;%s&lt;/big&gt; والآخرين من التطفل عبر ميزة قفل التطبيق !</string>
+    <string name="finish_page_card_app_locker_btn">احمي الآن</string>
+    <string name="finish_page_no_ad_app_lock_tips">بإمكان جوالك أن يكون أسرع</string>
+
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+
+    <!-- Storage 2.0改版 -->
+    <string name="filecategory_sec_picture_title">الصور</string>
+    <string name="filecategory_sec_picture_unit">الكل</string>
+    <string name="filecategory_sec_deep_clean_title">تنظيف عميق</string>
+    <string name="filecategory_sec_music_title">موسيقى</string>
+    <string name="filecategory_sec_music_unit">أغنية</string>
+    <string name="filecategory_sec_music_units">أغاني</string>
+    <string name="filecategory_sec_music_instruction">احذف الأغاني التي لا تستمع لها</string>
+    <string name="filecategory_sec_video_title">فيديوات</string>
+    <string name="filecategory_sec_video_unit">فيديو</string>
+    <string name="filecategory_sec_video_units">فيديوات</string>
+    <string name="filecategory_sec_video_instruction">احذف ما شاهدت لتوفير المساحة</string>
+    <string name="filecategory_sec_uninstall_title">إلغاء التثبيت</string>
+    <string name="filecategory_sec_uninstall_unit">تطبيق</string>
+    <string name="filecategory_sec_uninstall_units">تطبيقات</string>
+    <string name="filecategory_sec_uninstall_instruction">إلغاء تثبيت ما لم تعد تحتاجه</string>
+    <string name="filecategory_sec_big_file_title">ملفات كبيرة</string>
+    <string name="filecategory_sec_big_file_unit">ملف</string>
+    <string name="filecategory_sec_big_file_units">ملفات</string>
+    <string name="filecategory_sec_big_file_instruction">اكتشاف المجلدات الكبيرة والملفات</string>
+    <string name="filecategory_sec_picture_duplicate_unit">مزدوجة</string>
+    <string name="filecategory_sec_deep_clean_other_instuction">Oالتطبيقات %s الآخرى</string>
+    <string name="filecategory_sec_header_top_text">الإجمالي %2$s المستخدم  %1$s</string>
+    <string name="filecategory_sec_bar_instuction_pic">صور</string>
+    <string name="filecategory_sec_bar_instuction_app">تطبيقات</string>
+    <string name="filecategory_sec_bar_instuction_video">فيديوات</string>
+    <string name="filecategory_sec_bar_instuction_music">موسيقى</string>
+    <string name="filecategory_sec_bar_instuction_other">آخرى</string>
+    <string name="filecategory_sec_list_item_scanning">جاري المسح...</string>
+    <string name="filecategory_sec_list_item_check">تحقق</string>
+    <string name="filecategory_sec_list_item_collapse">انهيار</string>
+    <string name="filecategory_sec_list_item_empty_text">لا يوجد ملف</string>
+    <string name="filecategory_sec_list_item_empty_text_duplicate">لا يوجد صور مزدوجة</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_null">ملفات غير معروفة</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_image">ملفات الصور</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_other">ملفات آخرى</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_video">ملفات الفيديو</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_audio">ملفات الصوت</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_resource">حزم الموارد</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_apk">ملفات APK</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_game">ملفات الألعاب</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_ad">ملفات الإعلانات</string>
+    <!-- 带删除的文件管理器 -->
+    <string name="filecategory_broswer_group_title">كل الملفات</string>
+
+    <!-- BigFile -->
+    <string name="filecategory_bigfile_title">الملفات الكبيرة</string>
+    <string name="filecategory_bigfile_title_select_text_one">&lt;font color="#f77071"&gt;الملفات المحذوفة لا يمكن إستعادتها!&lt;/font&gt;</string>
+    <string name="filecategory_bigfile_title_select_text_two">واثق مما إخترت؟</string>
+    <string name="filecategory_bigfile_title_select_text_check">لا تظهرها مؤقتاً</string>
+    <string name="big_file_group_item_size">&lt;font color="#ff0000"&gt;Size:%1$s&lt;/font&gt;</string>
+    <string name="big_file_group_item_path">1$s المسار</string>
+    <string name="big_file_scan_text">جاري التحقق من s$1% الملفات الكبيرة</string>
+    <string name="big_file_all_size"> مجموع %1$s الملفات</string>
+    <string name="big_file_selected_size">الملفات المختارة %s</string>
+    <string name="big_file_delete">حذف</string>
+    <string name="big_file_detail_view">مشاهدة</string>
+    <string name="big_file_delete_detail">واثق من حذف الملفات المختارة؟</string>
+    <string name="big_file_delete_size">%1$s الملفات المحذوفة</string>
+
+    <!-- 应用专清页面 -->
+    <string name="deep_clean_single_page_title_suggestion">كامل</string>
+    <string name="deep_clean_single_page_card_clean">تنظيف</string>
+    <string name="deep_clean_single_page_card_to_clean">التحقق</string>
+    <string name="deep_clean_single_page_card_cleaning">جاري التنظيف</string>
+    <string name="deep_clean_single_page_card_cleaned">تم التنظيف</string>
+    <string name="deep_clean_warn_level_0_desc">لن تتأثر ملفاتك بعد التنظيف</string>
+    <string name="deep_clean_warn_level_1_desc">التنظيف آمن جداً</string>
+    <string name="deep_clean_warn_level_2_desc">عليك إعادة التحميل بعد الحذف</string>
+    <string name="deep_clean_warn_level_10_desc">التنظيف سيحذفهم للآبد</string>
+    <string name="deep_clean_warn_level_11_desc">لا يوصى بالتنظيف</string>
+
+    <!-- 主界面2.0 -->
+    <string name="home_page_ram_info_text">%1$s الإجمالي / %2$s الحر</string>
+    <string name="home_page_storage_info_text">%1$s الإجمالي / %2$s الحر</string>
+    <!-- 侧边栏页面 -->
+    <string name="home_page_drawer_like_us">أضف إعجابك</string>
+    <string name="home_page_drawer_z_family">عائلة GO</string>
+    <string name="home_page_drawer_theme">الثيمات</string>
+
+
+    <!-- 省电 -->
+    <string name="setting_charge_group">المحافظ على البطارية</string>
+    <string name="setting_charge">الشحن السريع</string>
+	<string name="power_saving_charging_text">كامل الشحن المتبقى &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+	<string name="power_saving_left_power_text">الوقت المتوفر &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+    <string name="power_saving_mode_speed">السرعة</string>
+    <string name="power_saving_mode_contiuous">متواصل</string>
+    <string name="power_saving_mode_trickle">التقطير</string>
+    <string name="power_saving_mode_speed_instruction">البطارية تشحن بسرعة حتى 80%</string>
+    <string name="power_saving_mode_contiuous_instruction">تم تخفيض التيار الكهربائي لشحن البطارية</string>
+    <string name="power_saving_mode_trickle_instruction">إستخدم شحن التقطير لتمديد حياة البطارية</string>
+    <string name="power_saving_accel_result_text">&lt;font color="#ffce54"&gt;%1$s&lt;/font&gt; توقفت التطبيقات التي تستهلك البطارية ووفرنا &lt;font color="#ffce54"&gt;%2$s&lt;/font&gt; في مدة الشحن</string>
+    <string name="power_saving_menu_clost">إطفاء</string>
+    <string name="power_saving_menu_dialog_title">حاول إطفاء خاص</string>
+    <string name="power_saving_menu_dialog_content">لم تتعزز سرعة الشحن الخاصة بك. لا تزال تريد الإيقاف?</string>
+    <string name="power_saving_menu_dialog_cancel">ليس الآن</string>
+    <string name="power_saving_menu_dialog_confim">Off</string>
+    <string name="power_saving_time_unit_hour">ساعة</string>
+    <string name="power_saving_time_unit_minute">دقيقة</string>
+    <string name="power_saving_unlock_slide">الإنزلاق لفتح القفل &gt;</string>
+
+    <string name="power_saving_guide_title">الشحن السريع</string>
+    <string name="power_saving_guide_desc">قم بتشغيل ميزة الشحن السريع لحماية البطارية وتقصير وقت الشحن الخاص بك بشكل محترف</string>
+    <string name="power_saving_guide_btn_enable">تمكين</string>
+
+    <string name="power_saving_ad_open">فتح</string>
+    <string name="power_saving_ad_cancel">حذف</string>
+
+    <!--facebook点赞弹窗引导-->
+    <string name="facebook_like_dialog_title">كل شيء تمام إلى الآن؟</string>
+    <string name="facebook_like_dialog_desc">إكتشف المزيد عن GO Pro  على  &lt;font color="#4a89dc"&gt;ف&lt;/font&gt;</string>
+    <string name="facebook_like_dialog_btn_like">اعطينا لايك</string>
+    <string name="facebook_like_dialog_btn_cancel">ليس الآن</string>
+    
+    <!-- AppLock 优化 -->
+    <string name="applock_pre_header_last_step_text1">خطوة واحدة إضافية للحصول على حماية كاملة</string>
+    <string name="applock_pre_header_last_step_text2">شغل للحصول على GO Speed</string>
+    <string name="applock_pre_dialog_title">خطوة إضافية</string>
+    <string name="applock_pre_dialog_content">خطوة واحدة إضافية للحصول على حماية كاملة</string>
+    <string name="applock_pre_dialog_cancel">خروج</string>
+    <string name="applock_pre_dialog_confim">متابعة</string>
+
+    <!--GO输入法推广弹窗-->
+    <string name="go_input_prom_pop_theme_desc"> الإدخال بطيء وممل؟ إستفد من أكثر من 800 رمز تعبيري ممتع وثيمات!</string>
+    <string name="go_input_prom_pop_theme_btn">إحصل عليه الآن!</string>
+    <string name="go_input_prom_pop_memory_desc">ذاكرة لوحة المفاتيح تبطئ من سرعة جهازك!</string>
+    <string name="go_input_prom_pop_memory_btn">عزز الآن</string>
+
+    <string name="boost_banner_ad_toast_good">جيد</string>
+</resources>

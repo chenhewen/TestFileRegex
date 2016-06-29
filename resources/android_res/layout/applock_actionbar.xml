@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@color/actionbar_bg">
+
+	<ImageView
+		android:id="@+id/actionbar_indicator"
+		android:layout_width="48dp"
+		android:layout_height="48dp"
+		android:layout_gravity="center_vertical"
+		android:layout_marginLeft="8dp"
+		android:background="@drawable/actionbar_indicator_bg"
+		android:clickable="true"
+		android:onClick="onDrawerIndicatorClick"
+		android:scaleType="center"/> 
+
+    <TextView
+        android:id="@+id/actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="40dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/actionbar_title_color"
+        android:textSize="17sp"/>
+
+    <ImageView
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        tools:ignore="ContentDescription"/>
+
+</FrameLayout>

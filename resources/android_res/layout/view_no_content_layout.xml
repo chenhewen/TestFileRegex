@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.common.ui.NoContentView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/no_content_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        android:src="@drawable/no_content" />
+
+    <TextView
+        android:id="@+id/no_content_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_content_imageview"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/common_no_content"
+        android:textColor="#6f6f6f"
+        android:textSize="16dp" />
+
+</com.gto.zero.zboost.common.ui.NoContentView>

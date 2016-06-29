@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFF5F7FA"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/notification_box_settings_title_layout"
+        layout="@layout/common_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"/>
+
+
+    <LinearLayout
+        android:id="@+id/notification_box_settings_switch_layout"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@drawable/common_list_item_white_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin">
+
+        <TextView
+            android:id="@+id/notification_box_settings_switch_label_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="center_vertical|left"
+            android:text="@string/notification_box_switch_label"
+            android:textColor="@color/common_module_name"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/notification_box_settings_switch_icon_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="@dimen/common_margin"
+            android:src="@drawable/common_switch_selector"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/notification_box_settings_app_list_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#00000000"
+            android:listSelector="#00000000"
+            android:overScrollFooter="@null"
+            android:scrollbars="none"/>
+
+        <ViewStub
+            android:id="@+id/notification_box_settings_guide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/notification_box_settings_guide"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#00ffffff"
+        android:text="测试使用一键加减锁功能"
+        android:visibility="gone"/>
+</LinearLayout>

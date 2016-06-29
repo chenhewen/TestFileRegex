@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_item_height" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/common_listview_divider_margin_bottom" >
+
+        <ImageView
+            android:id="@+id/music_item_icon"
+            android:layout_width="@dimen/common_icon_width"
+            android:layout_height="@dimen/common_icon_width"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:contentDescription="@null" />
+
+        <com.gto.zero.zboost.common.ui.Space
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:minWidth="24dp" />
+
+        <LinearLayout
+            android:id="@+id/music_item_size_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_toLeftOf="@id/space"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/music_item_size_num"
+                style="@style/music_item_size_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:text="128"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/music_item_size_unit"
+                style="@style/music_item_size_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="MB"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@id/music_item_size_layout"
+            android:layout_toRightOf="@id/music_item_icon"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/music_item_filename"
+                style="@style/common_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="wy"
+                android:textColor="#FF777777"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/music_item_caption_time"
+                    style="@style/music_item_size_filename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="hahah"
+                    android:textColor="#85c443"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/music_item_caption_author"
+                    style="@style/music_item_size_filename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:singleLine="true"
+                    android:text="hahah"
+                    android:textColor="#9c9c9c"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/music_item_foreground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00FFFFFF" />
+
+        <com.gto.zero.zboost.view.ItemCheckBox
+            android:id="@+id/music_item_checkbox"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            android:paddingLeft="@dimen/clean_list_common_horizontal_margin"
+            android:paddingRight="@dimen/clean_list_common_horizontal_margin"
+            android:scaleType="fitCenter" />
+
+        <include
+            android:id="@+id/music_item_below"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_listview_divider_height_level1"
+            android:layout_alignParentBottom="true"
+            layout="@layout/common_listview_divider_level0_layout" />
+    </RelativeLayout>
+
+</FrameLayout>

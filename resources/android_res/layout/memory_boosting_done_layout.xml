@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:curtain="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/memory_boosting_done_button_ok_layout"
+        android:layout_width="@dimen/common_round_button_layout_width"
+        android:layout_height="108dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        layout="@layout/common_round_button_white_layout" />
+
+    <com.gto.zero.zboost.function.boost.ui.SkewTextView
+        android:id="@+id/memory_boosting_done_active_power_mode_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/memory_boosting_done_button_ok_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:ellipsize="end"
+        android:fontFamily="@string/font_families_roboto"
+        android:gravity="center"
+        android:maxLines="4"
+        android:maxWidth="240dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="6dp"
+        android:textColor="@color/active_power_mode_tips_text_selector"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:textStyle="normal" />
+
+    <ViewStub
+        android:layout_width="84dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout="@layout/memory_boosting_done_advertisement_layout" />
+    
+    <ViewStub
+        android:id="@+id/curtain_ad_layout"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout="@layout/curtain_ad_layout" />
+
+</RelativeLayout>

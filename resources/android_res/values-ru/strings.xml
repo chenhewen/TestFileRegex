@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 俄语 -->
+    <string name="app_name">GO Speed</string>
+
+    <!-- ==========字体模块========== -->
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_families_roboto_thin">sans-serif-thin</string>
+    <string name="font_families_roboto_light">sans-serif-light</string>
+    <string name="font_families_roboto_condensed">sans-serif-condensed</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_ok">ОК</string>
+    <string name="common_select">Выбрать</string>
+    <string name="common_delete">Удалить</string>
+    <string name="common_others">Другое</string>
+    <string name="common_uninstall">Стереть</string>
+    <string name="common_back_up">Резервная копия</string>
+    <string name="common_cancel">Отменить</string>
+    <string name="common_install">Установить</string>
+    <string name="common_installed">Установлено</string>
+    <string name="common_vertion">Версия</string>
+    <string name="common_update">Обновление</string>
+    <string name="common_insufficient_storate">Недостаточно места</string>
+    <string name="common_no_sdcard">Карта памяти не обнаружена</string>
+    <string name="common_warning">Предупреждение</string>
+    <string name="common_no_content">Нет Содержания</string>
+    <string name="common_uninstalled">Удален</string>
+    <string name="common_comma">,</string>
+    <string name="common_slogan">Сделай свой телефон быстрее</string>
+    <string name="common_download">Скачать</string>
+    <string name="common_more">Далее</string>
+    <string name="common_on">ВКЛ</string>
+    <string name="common_off">ВЫКЛ</string>
+    <string name="common_new">новый</string>
+    
+    <!-- 一周 -->
+    <string name="sunday">ВСК</string>
+    <string name="monday">ПНД</string>
+    <string name="tuesday">ВТР</string>
+    <string name="wednesday">СРД</string>
+    <string name="thursday">ЧТВ</string>
+    <string name="friday">ПТН</string>
+    <string name="saturday">СБТ</string>
+
+    <!-- 月份 -->
+    <string name="jan">Янв.</string>
+    <string name="feb">Фев.</string>
+    <string name="mar">Мрт.</string>
+    <string name="apr">Апр.</string>
+    <string name="may">Май.</string>
+    <string name="june">Июн.</string>
+    <string name="july">Июл.</string>
+    <string name="aug">Авг.</string>
+    <string name="sept">Сент.</string>
+    <string name="oct">Окт.</string>
+    <string name="nov">Нбр.</string>
+    <string name="dec">Дек.</string>
+    
+    <!-- ========= 主界面 ========= -->
+    <string name="main_ram_title">Оперативная память</string>
+    <string name="main_storage_title">ПАМЯТЬ</string>
+    <string name="main_button_boost">Улучшение памяти</string>
+    <string name="main_button_storage">Ненужные файлы</string>
+    <string name="main_button_manage">Управление приложениями</string>
+    <string name="tip_press_again_to_exit">Нажмите еще раз для выхода</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Настройки</string>
+    <string name="menu_update">Oбновление</string>
+    <string name="menu_feedback">Отзыв</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">Рождество</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">Улучшение памяти</string>
+    <string name="boost_main_act_tab_running">В процессе</string>
+    <string name="boost_main_act_tab_autostart">Автозапуск</string>
+    <string name="boost_running_apps_custom">%1$d приложение(я) выбраны</string>
+    <string name="boosting_tips">ускорять</string>
+    <string name="boosted_to_optimus_tips">Прискорено до статуса Optimus!</string>
+    <string name="boosted_active_power_mode_tips">Ой! %1$d Прилошений автоматически включились.\nActive PowerMode, чтобы справиться с этим!</string>
+    <string name="enable_super_boost_enable">Включить</string>
+    <string name="enable_super_boost_title">Включить Супер Режим</string>
+    <string name="enable_super_boost_main_text">Чтобы ускоряться более эффективно, рекомендуем подключить настройки доступа</string>
+    <string formatted="false" name="enable_super_boost_content_text1">Чтобы ненужные приложения полностью отключились</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">Нажмите SERVICE - GO Speed</string>
+    <string name="boosting_power_tips">Усиление Мощности</string>
+    <string name="boost_groups_list_title_running_app">Работающие Приложения</string>
+    <string name="boost_groups_list_title_cpu_temperature">Температура Процессора</string>
+    <string name="boost_groups_list_title_lag_detected">Обнаружена Проблема</string>
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Уключыце вышэйпаказанай кнопкі для актывацыі GO Speed рэжыме супер максімальным паскарэннем!\n\nGO Speed Павышэння выкарыстанне спецыяльныя магчымасці, каб дапамагчы спыніць не выкарыстоўваюць прыкладання. Калі ласка, не хвалюйцеся, калі вы бачыце напамін рызыкі недатыкальнасць прыватнага жыцця, вось толькі рэгулярныя інфармацыйныя папярэджання для любой службы даступнасці. \n\nМы абяцаем не збіраць любую інфармацыю.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Настройки</string>
+    <string name="autostart_type_optimization">Оптимизировать</string>
+    <string name="autostart_type_allowed">Разрешен</string>
+    <string name="autostart_type_blocked">Заблокирован</string>
+    <string name="autostart_type_system">Ранее установленные приложения</string>
+    <string name="autostart_type_system_description">Блокировка ранее установленных приложений может вызвать нестабильность системы. Будьте осторожны </string>
+    <string name="autostart_preinstll_system">Ранее установленные приложения</string>
+    <string name="autostart_on_boot_up">Прискорить</string>
+    <string name="autostart_on_background">Фон</string>
+    <string name="autostart_on_boot_up_and_background">Прискорить/Фон</string>
+    <string name="autostart_detail_title">Автозапуск в %1$d случае(ях):</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="add_to_ignore_list_act_title">Добавить в черный список</string>
+    <string name="dialog_memory_footprint">Используемая память</string>
+    <string name="dialog_add_to_ignorelist">Добавить в черный список</string>
+    <string name="dialog_remove_from_ignorelist">Удалить из черного списка</string>
+    <string name="tip_ignore_list_appunchecked">Эти приложения будут проверены по умолчанию после сканирования.</string>
+    <string name="tip_ignore_list_appadd">Нажмите \'+\' , чтобы добавить игнорируемые приложения.</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443"&gt;%s&lt;/font&gt; не будет отсканирован.</string>
+    <string name="clean_ignore_empty_tips">Отправьте Ненужные Файлы в Игнор Лист с помощью долгого нажатия.</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">Управление приложениями</string>
+    <string name="app_manager_back_up_success_tips">приложения были скопированы в: </string>
+    <string name="app_manager_back_up_success_tips_for_one">app has been backed up to:</string>
+    <string name="app_manager_back_up_fail_tips_for_one">приложения не отвечают</string>
+    <string name="app_manager_backing_up">Резервная копия</string>
+    <string name="app_manager_running">В процессе</string>
+    <string name="app_manager_path">Путь</string>
+    <string name="app_manager_no_backup_found">Резервная копия не обнаружена</string>
+    <string name="app_manager_tap_to_disable">Нажмите Отключить/Выкл., чтобы отключить</string>
+    <string name="app_manager_tap_to_enable">Нажмите Подключить/Вкл., чтобы подключить</string>
+    <string name="app_manager_select_app_first">Пожалуйста, сначала выберите приложения</string>
+    <string name="app_manager_shit">OK</string>
+    <string name="app_manager_freed">Свободно</string>
+    <string name="app_manager_use_rare_month">Редко использовались за месяц</string>
+    <string name="app_manager_use_rare_days">Редко использовались за %s дней</string>
+    <string name="app_manager_use_commonly">Обычно используется</string>
+    <string name="app_manager_android_system">Система Android</string>
+    <string name="app_manager_use_rare">Редко использовались</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Приложения Пользователя</string>
+    <string name="app_manager_tab_system">Предварительно установленные</string>
+    <string name="app_manager_tab_text_date">Дата</string>
+    <string name="app_manager_tab_text_frequance">Переодичность</string>
+    <string name="app_manager_tab_text_size">Размер</string>
+    <string name="app_manager_tab_text_battery">Аккумулятор</string>
+    <string name="app_manager_dialog_cancel">Отмена</string>
+    <string name="app_manager_dialog_backup">Резервное копирование</string>
+    <string name="app_manager_dialog_uninstall">Удалить</string>
+    <string name="app_manager_no_uerapp">Нет приложений</string>
+    <string name="app_manager_preinstall_disbale_list">Отключенные приложения</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Выключено</string>
+    <string name="app_manager_preinstall_reommend_disable">% выключенные пользователи</string>
+    <string name="app_manager_preinstall_reommend_keep">Рекомендуется сохранить</string>
+    <string name="app_manager_preinstall_reommend_none">Оставить как есть</string>
+    <string name="app_manager_preinstall_tip">Отключение предустановленных приложений, которые редко используются снижает потребление.</string>
+    <string name="app_manager_preinstall_disable_toast">было отключено.</string>
+    <string name="app_manager_preinstall_enable_toast">было включино.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Отключить Пакет</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Внимание</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[Disabling this app might <font color="#fe6969">влияет на нормальную работу</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Вы уверены, что хотите выбрать его?</string>
+    <string name="app_manager_preinstall_disable_loading">Загрузка…</string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">Ненужные файлы</string>
+    <string name="clean_main_suggest">Рекомендуется</string>
+    <string name="clean_main_selected">Выбрано</string>
+    <string name="clean_dialog_title">Предупреждения</string>
+    <string name="clean_dialog_message1">Выбранный файл содержит следующее: </string>
+    <string name="gallery_thumbnails">Галерея аватаров</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">После удаления загрузка галереи будет медленнее</string>
+    <string name="clean_group_residue">Оставшиеся файлы</string>
+    <string name="clean_group_cache">Кэш-файлы</string>
+    <string name="clean_group_apk">Устаревшие приложения</string>
+    <string name="clean_group_big_file">Большие файлы</string>
+    <string name="clean_done_tips">Очищено</string>
+    <string name="clean_group_temp">Временные Системные Файлы</string>
+    <string name="clean_dialog_app_cache_yes_btn">Ручная Очистка</string>
+    <string name="clean_dialog_folder_yes_btn">Просмотр</string>
+    <string name="clean_dialog_file_yes_btn">Открыть</string>
+    <string name="clean_dialog_media_yes_btn">Воспроизвести</string>
+    <string name="clean_dialog_message_size">Размер</string>
+    <string name="clean_dialog_message_contain">Содержит</string>
+    <string name="clean_dialog_message_path">Путь</string>
+    <string name="clean_dialog_message_file">файлы</string>
+    <string name="clean_dialog_message_folder">папки</string>
+    <string name="clean_done_none_tips">Отлично</string>
+    <string name="clean_dialog_btn_all">Выбрать Любой Способ</string>
+    <string name="clean_dialog_btn_next">Проверить Заново</string>
+    <string name="clean_group_ad">Ненужные файлы Рекламы</string>
+    <string name="clean_group_memory">Ненужные Файлы Памяти</string>
+    <string name="clean_item_sys_cache">Кэш Системы</string>
+    <string name="clean_file_browser_no_files">Нет Файлов</string>
+    <string name="clean_days_ago"> дней назад</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969"&gt;Осторожно! &lt;/font&gt;%1$s</string>
+    <string name="clean_subitem_detail_connect">Это %1$s %2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443"&gt;Ваши файлы не будут повреждены после очистки.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443"&gt;Процесс очистки абсолютно безопасен.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969"&gt;Они должны быть загружены заново.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969"&gt;После очистки файлы будут безвозвратно удалены!&lt;/font&gt;</string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Очищено</string>
+    <string name="uninstall_dialog_message_1">&lt;b&gt;%1$s&lt;/b&gt; left &lt;font color="#85c443"&gt;%2$s&lt;/font&gt; остаточные файлы.</string>
+    <string name="uninstall_dialog_message_2">Содержит: </string>
+    <string name="uninstall_clean_tips"> остаточные файлы были очищены!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">Настройки</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Обратная связь</string>
+    <string name="container_hint_setting_feedback">Пожалуйста, оставьте ваши  подробные комментарии ниже. Мы всегда прислушиваемся к ним и развиваемся.</string>
+    <string name="notice_setting_feedback">Модель и версия телефона будут запрошены для определения вашей проблемы. Мы никогда не собираем личные данные без вашего разрешения</string>
+    <string name="no_contain_setting_feedback">Привет, хочешь что-то сказать?</string>
+    <string name="sendok_setting_feedback">Спасибо за отзыв!</string>
+    <string name="checknet_setting_feedback">Пожалуйста, проверьте ваше интернет-соединение </string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">
+        <u>Поставить лайк на Facebook</u>
+    </string>
+    <string name="googleplus_about_setting">
+        <u>Начать общение в  Google+ </u>
+    </string>
+    <string name="googleplay_about_setting">
+        <u>Оцените нас в GooglePlay</u>
+    </string>
+    <string name="title_about_setting">О приложении</string>
+    <string name="share_setting_about">GO Speed ускоряет и улучшает работу моего телефона. Попробуй и ты! Скачать: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014-2015 ZERO Team. All Rights Reserved.</string>
+    <string name="law_jump_setting_about">
+        <u>Политика конфиденциальности</u>
+    </string>
+    <string name="share_title_setting_about">поделиться GO Speed</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">Не удалось открыть подключение</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Плавающий виджет</string>
+    <string name="title_notice">Уведомления</string>
+    <string name="enable_widget_setting_setting">Подключить</string>
+    <string name="hide_widget_setting_setting">Спрятать в строку статуса</string>
+    <string name="show_widget_setting_setting">Показывать только рабочий стол</string>
+    <string name="memory_setting_setting">Необходимо улучшение памяти</string>
+    <string name="storge_setting_setting">Осталось мало места</string>
+    <string name="junk_setting_setting">Оставшиеся ненужные файлы</string>
+    <string name="autostart_setting_setting">Новый запрос автозапуска</string>
+    <string name="ignore_setting_setting">Черный список</string>
+    <string name="memery_boost_setting_setting">Улучшение памяти</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">генеральный</string>
+    <string name="menu_general_setting_language">язык</string>
+    <string name="menu_general_setting_shortcut">Создать Ярлыки</string>
+    <string name="junk_clean_setting">Очистка Ненужных Файлов</string>
+    <string name="clean_ignore_title">Игнор Лист Ненужных Файлов</string>
+    <string name="clean_ignore_list_tips">Эти файлы не будут считаться как ненужные при сканировании</string>
+    <string name="menu_junk_setting">Ненужные Файлы</string>
+    <string name="menu_junk_setting_scan_memory">Сканирование Файлов, Засоряющих Память</string>
+    <string name="menu_join_uep_plan">&lt;u&gt;Программа Опыта Пользователя&lt;/u&gt;</string>
+    <string name="menu_smart_boost">Смарт буст</string>
+    <string name="smart_boost_screen_lock">Смарт буст при заблокированном экране</string>
+    <string name="smart_boost_show_result">Показать результаты после смарт буст</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Отключить плавающий виджет?</string>
+    <string name="float_hide_float_message">Вы можете спрятать плавающий виджет в панель статуса. Хотите попробовать? </string>
+    <string name="float_dialog_ok">ОК</string>
+    <string name="float_dialog_cancel">Отменить</string>
+    <string name="float_dialog_hide_ok">Попробуйте!</string>
+    <string name="float_dialog_hide_cancel">Все равно отключить</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Нет разрешения. Операция неуспешна!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_boost">Прискорить</string>
+    <string name="notification_release_more"><![CDATA[%s МБ Очищено. <font color="#85c443">Освободить еще!</font>]]></string>
+     <string name="notification_ram_black">&lt;font color="#1d1d1d"&gt;Доступный объем памяти &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;менее чем %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_white">&lt;font color="#ffffff"&gt;Доступный объем памяти &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;менее чем %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_line2">Работа устройства может быть сильно замедлена</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"&gt; %s Приложения &lt;/font&gt;&lt;font color="#fe6969"&gt;разряжают батарею&lt;/font&gt;</string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"&gt; %s Приложения &lt;/font&gt;&lt;font color="#fe6969"&gt;разряжают батарею&lt;/font&gt;</string>
+    <string name="notification_ram_help_line2">Ускорить, чтобы сохранить заряд батареи</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d"&gt;Свободное пространство закончилось.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;Только %s%% осталось&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff"&gt;Свободное пространство закончилось.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;Только %s%% осталось&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_line2">Может быть недостаточно места для загрузки</string>
+    <string name="notification_release_more_banner">Место освобождено.Освободите Еще!</string>
+    <string name="notification_release_sleep">Ускорить %s MB в спящем режиме</string>
+    <string name="notification_boost_phone_optimum"><![CDATA[Ваш телефон находится в оптимальном режиме. <font color="#85c443">Больше Функций!</font>]]></string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d"&gt;Устройство &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;работает медленее&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff"&gt;Устройство &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;работает медленнее&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block2">Приложение сильно потребляет мощность процессора</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d"&gt;Процессор &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;сильно перегрет&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff"&gt;Процессор &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;сильно перегрет&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat2">Приложение чрезмерно потребляет мощность процессора</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d"&gt;Температура процессора &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;быстро растет&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff"&gt;Температура процессора &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;быстро растет&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp2">Приложение чрезмерно потребляет мощность процессора</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#1d1d1d"&gt;ненужные файлы занимают место&lt;/font&gt;</string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#ffffff"&gt;ненужные файлы занимают место&lt;/font&gt;</string>
+    <string name="notification_clean_scan_message">Очистите,чтобы освободить память телефона</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969"&gt;Новые ненужные файлы &lt;/font&gt;&lt;font color="#1d1d1d"&gt;были созданы&lt;/font&gt;</string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969"&gt;Новые ненужные файлы &lt;/font&gt;&lt;font color="#ffffff"&gt;были созданы&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d"&gt;Лучшее Погодное Приложение Для Вас&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff"&gt;Лучшее Погодное Приложение Для Вас&lt;/font&gt;</string>
+    <string name="notification_go_weather_message">Выпущены Новые Рождественские Виджеты!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d"&gt;Надоели Стандартные Сообщения?&lt;/font&gt;</string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff"&gt;Надоели Стандартные Сообщения?&lt;/font&gt;</string>
+    <string name="notification_go_sms_message">Создайте ваше собственное сообщение прямо сейчас!</string>
+    <string name="go_weather">GO Weather - Прогноз &amp; Виджет</string>
+    <string name="go_weather_done_message">Информирует о текущей &amp; будущей погоде, великолепные виджеты &amp; живые обои.</string>
+    <string name="notification_guide_text">Turn on your own toggle</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Открыть как</string>
+    <string name="filetype_text">Текст</string>
+    <string name="filetype_video">Видео</string>
+    <string name="filetype_audio">Аудио</string>
+    <string name="filetype_image">Изображение</string>
+    <string name="filetype_music">Музыка</string>
+    <string name="filetype_document">Документ</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">Компрессия</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Новая Версия</string>
+    <string name="update_update">Обновить</string>
+    <string name="update_later">Позже</string>
+    <string name="update_cancel">Отмена</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut">Ярлык</string>
+    <string name="shortcut_boost">Ускорение</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">После запуска</string>
+    <string name="auto_start_on_connectivity_change">При изменении сети</string>
+    <string name="auto_start_on_package_changed">При изменении статуса приложения</string>
+    <string name="auto_start_on_package_added">При установке приложения</string>
+    <string name="auto_start_on_package_removed">При удалении приложения</string>
+    <string name="auto_start_on_package_replaced">При изменении приложений</string>
+    <string name="auto_start_on_any_data_state">При изменении данных</string>
+    <string name="auto_start_on_outgoing_call">Во время исходящих вызовов</string>
+    <string name="auto_start_on_phone_state_changed">При окончании вызова</string>
+    <string name="auto_start_on_user_present">При разблокировке</string>
+    <string name="auto_start_on_wifi_state_change">При подключении к Wi-Fi</string>
+    <string name="auto_start_on_wifi_enable_change">При включении/выключении Wi-Fi</string>
+    <string name="auto_start_on_time_set">Если установлено время</string>
+    <string name="auto_start_on_bluetooth_state_change">При изменении состояния Bluetooth</string>
+    <string name="auto_start_on_power_connected">При подключении кабеля питания</string>
+    <string name="auto_start_on_power_disconnected">При отсоединении кабеля питания</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">Переключение Уведомления</string>
+    <string name="notification_toggle_nocal">Калькулятор не найден!</string>
+    <string name="notification_toggle_open">GO Speed Переключение Уведомления включено.</string>
+    <string name="notification_toggle_noflash">в устройстве нет фонарика!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">GO Speed Поддержка %s, применить сейчас?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Ошибка в связи.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language"> Не удалось загрузить язык.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Память</string>
+    <string name="storage_main_act_details">Детали</string>
+    <string name="storage_main_act_tab_used_space">Использовано памяти</string>
+    <string name="storage_main_act_tab_app_total">%s Приложения</string>
+    <string name="storage_main_act_tab_audio_total">%s Музыка</string>
+    <string name="storage_main_act_tab_image_total">%s Фото</string>
+    <string name="storage_main_act_tab_document_total">%s Документы</string>
+    <string name="storage_main_act_tab_other_total">Другое</string>
+    <string name="file_category_image_title">Фото</string>
+    <string name="file_category_image_delete_dialog_msg_1">файл(ы) будут удалены.</string>
+    <string name="file_category_image_delete_dialog_msg_2">Удаленный файл(ы) не могут быть восстановлены!</string>
+    <string name="file_category_video_no_content">Нет Видео</string>
+    <string name="file_category_video_delete_msg">Видео будет удалено.</string>
+    
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">%s видео всего</string>
+    <string name="video_title_selected">%s видео выбрано</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Музыка</string>
+    <string name="music_group_music">Музыка</string>
+    <string name="music_group_rings">Рингтоны</string>
+    <string name="music_group_record">Записи</string>
+    <string name="music_dialog_title">Предупреждение</string>
+    <string name="music_dialog_delete_cancel">Отмена</string>
+    <string name="music_dialog_delete_delete">Удалить</string>
+    <string name="music_dialog_delete_notice">файл(ы) будут удалены.</string>
+    <string name="music_dialog_delete_notice_below">Удаленный файл(ы) не могут быть восстановлены!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">ДРУГИЕ</string>
+    <string name="storage_document">Документы</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">Удалить</string>
+    <string name="image_dialog_text1">Этот файл будет удален.</string>
+    <string name="image_dialog_text2">Вы уверены?</string>
+    <string name="image_no_selected">Не выбрано ни одного файла.</string>
+    <string name="image_size_notice">%s был очищен!</string>
+    <string name="image_delete_layout_text">Удалить(%s)</string>
+    <string name="image_delete_ok">Да</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Эти файлы не могут быть удалены.</string>
+    <string name="no_app_to_open_file">Местные приложения не могут открыть файл</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Перетащите сюда, чтобы прискорить работу вашего телефона.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips" Выключение=""/>
+    <string name="disable_apps_done_disable_count">%s Выключено!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">GO Speed хранит их неактивными</string>
+    <string name="disable_apps_wait_to_stop_tips">Пытается остановить, ждите…</string>
+    <string name="disable_list_no_app_tip">Не отключаемые приложения</string>
+    <string name="disable_group_most_disable_title">Наиболее отключаемые</string>
+    <string name="disable_group_recommend_keeping_title">Рекомендуется сохранить</string>
+    <string name="disable_group_recommend_keeping_subtitle">Выключение может привести к системным ошибкам</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Выключить</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Включить</string>
+    <string name="disable_app_info_dialog_consuming_tip">Это приложение потребляет системную память</string>
+    <string name="disable_app_info_dialog_system_error_tip">Выключение может привести к системным ошибкам</string>
+    <string name="disable_app_info_dialog_no_statement">Вы можете выключить его, если в нем нет необходимости</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Предустановленная служба производителем</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&lt;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">Установить  Сейчас</string>
+
+    
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Поздравляем!</string>
+    <string name="rate_gp_dialog_feedback_title">Обратная связь</string>
+    <string name="rate_gp_dialog_rate_title">Мне нравится GO Speed</string>
+    <string name="rate_gp_dialog_one_notice_boost">За прошедшие %1$s дней, GO Speed уничтожил &lt;font color="#85c443"&gt; %2$s &lt;/font&gt;медленных приложений для вас.&lt;br /&gt; &lt;br/&gt; &lt;font color="#85c443"&gt;Вам понравился GO Speed?&lt;/font&gt;</string>
+    <string name="rate_gp_dialog_one_no_boost">Не Очень</string>
+    <string name="rate_gp_dialog_one_yes_boost">Да!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Вы успешно очистили ненужные &lt;font color="#85c443"&gt; %s &lt;/font&gt; файлы! &lt;br /&gt; &lt;br/&gt;Как вам GO Speed?</string>
+    <string name="rate_gp_dialog_one_no_clean">Не Очень Хорошо</string>
+    <string name="rate_gp_dialog_one_yes_clean">Мне нравится!</string>
+    <string name="rate_gp_dialog_two_notice">Не могли бы вы высказать свое мнение? \nОно очень ценно для нас.</string>
+    <string name="rate_gp_dialog_two_no">Нет, спасибо</string>
+    <string name="rate_gp_dialog_two_yes">Да, хорошо</string>
+    <string name="rate_gp_dialog_three_notice">Давайте оценим по пятибальной шкале?</string>
+    <string name="rate_gp_dialog_three_no">Нет, спасибо</string>
+    <string name="rate_gp_dialog_three_yes">Да, хорошо</string>
+    <string name="rate_gp_notification_notice">Вы уничтожили %s медленных приложений. Хотите проверить?</string>
+
+    <!-- 启动页 -->
+    <string name="private_start">СТАРТ</string>
+    <string name="private_join_uep">&lt;u&gt;Программа Опыта Пользователя&lt;/u&gt;</string>
+    <string name="privacy_start_by_agree_policy">Я согласен с &lt;u&gt;Политика Конфиденциальности&lt;/u&gt;</string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">установлено, очистите ненужный apk файл, чтобы сохранить</string>
+    <string name="install_listen_installed_multiple_msg">Приложения установлены, очистите ненужные apk файлы, чтобы сохранить</string>
+    <string name="install_listen_delete_apk_tip">Очищено</string>
+    <string name="install_listen_dialog_clean_btn_text">Очистка</string>
+    <string name="install_listen_dialog_cancel_btn_text">Отмена</string>
+    <string name="install_listen_dialog_eye_tip_on">Не спрашивать 3 дня</string>
+    <string name="install_listen_dialog_eye_tip_off">Продолжать спрашивать</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">Ускорение Игры</string>
+    <string name="game_boost_add_to_game_title">Добавить Игру</string>
+    <string name="game_boost_effect">Ускорить &lt;font color="#85c443"&gt;%s &lt;/font&gt; больше работающей памяти RAM для игр.</string>
+    <string name="game_cell_add">Добавить Игру</string>
+    <string name="game_cell_ok">Ok</string>
+    <string name="game_boost_menu_about">Как это работает</string>
+    <string name="game_boost_menu_add_shutcut">Создать Папку Игры</string>
+    <string name="game_boost_folder_create_success">Папка Игры Успешно Создана.</string>
+    <string name="game_boost_box_shortcut_name">Ускорение Игры</string>
+    <string name="game_boost_box_shortcut_name_new">Мои Игры</string>
+    <string name="game_boost_add_card_view_title_popular">Популярные Игры</string>
+    <string name="game_boost_add_new_game_to_boost">%s добавлено в Ускорение Игры</string>
+    <string name="game_boost_add_new_games_to_boost">%s новых игр добавлено в Ускорение Игры</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Ускоряется…</string>
+    <string name="game_accel_anim_boost_toast_tip">Ускорен, до %s%%.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">Проблемы с процессором</string>
+    <string name="cpu_fix">ИСПРАВИТЬ</string>
+    <string name="cpu_check">Проверить</string>
+    <string name="cpu_issue_type_temp_overheated">Перегрев!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Быстро растет!</string>
+    <string name="cpu_issue_type_heavily_occupied">Процессор сильно загружен!</string>
+    <string name="cpu_temp_issue_app">вызывает проблему</string>
+    <string name="cpu_occupied_issue_app">Consuming &lt;font color="#D46565"&gt; %s &lt;/font&gt; CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">Кулер Процессора</string>
+    <string name="cpu_coll_down_cpu">Охладить Процессор</string>
+    <string name="cpu_temperature_issue">Проблемы с Температурой</string>
+    <string name="cpu_device_running_slow">Устройство работает медленно</string>
+    <string name="cpu_issue_detected">Найдена Проблема</string>
+    <string name="cpu_cool_down_further">Охладите еще больше, очистите %s работающих приложений</string>
+    <string name="cpu_temp_well">Температура процессора в норме</string>
+    <string name="cpu_temp_hot">Немного горячий</string>
+    <string name="cpu_temp_overheated">Перегрев</string>
+    <string name="cpu_temp_chilling">Остывает</string>
+    <string name="cpu_temp_cooler">Кулер Процессора</string>
+    <string name="cpu_occupy">Занимает мощности &lt;font color="#D46565"&gt; %s &lt;/font&gt; Процессора</string>
+    <string name="cpu_abnormal">Нестандартное использование Процессора: &lt;font color="#D46565"&gt; %s &lt;/font&gt;</string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Только что Оптимизировано</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Дать отдохнуть устройству для охлаждения</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Нет горячих приложений</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Устройство охлаждается</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Очистка горячих приложений завершена</string>
+    <string name="cpu_anim_cooldown_done_dropped">Снижено</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Начинается охлаждение…</string>
+    <string name="cpu_anim_scan_process_tip_text">Сканирование Процессора…</string>
+    <string name="cpu_anim_lag_done_tip_text">Ускорено!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">Пожалуйста проверьте соединение с сетью и попробуйте еще раз</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Попробовать Ускоритель Игр</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Ускоритель Игр успешно создан на экране, может проверить его работу :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Включено</string>
+    <string name="finish_page_card_game_booster_desc">Подарок для Геймеров! Самая эффективная &amp; и крутая функция для ускорения игр</string>
+    <string name="finish_page_card_game_booster_desc_single_game">Активировать Ускоритель Игр для поднятия скорости &lt;big&gt;%s&lt;/big&gt; на 65%% ?</string>
+    <string name="finish_page_card_game_booster_btn">Попробовать</string>
+
+    <string name="finish_page_card_whitelist_name">Что Не Будет Уничтожено</string>
+    <string name="finish_page_card_whitelist_desc">Важные приложения в Игнор Листе не будут уничтожены ускорителем. Список можно редактировать.</string>
+    <string name="finish_page_card_whitelist_btn">Можете Попробовать</string>
+    <string name="finish_page_card_autostart_name">Найден Автозапуск</string>
+    <string name="finish_page_card_autostart_desc">&lt;big&gt;%s&lt;/big&gt; приложение(я) с автозапуском которые будут оптимизированы</string>
+    <string name="finish_page_card_autostart_btn">Проверка</string>
+    <string name="finish_page_card_photo_name">Привести в порядок Фото</string>
+    <string name="finish_page_card_photo_desc">Более чем &lt;big&gt;%s снимков&lt;/big&gt; было снято, но не все из них стоят того, чтобы занимать место в памяти, да?</string>
+    <string name="finish_page_card_photo_btn">Привести в порядок</string>
+    <string name="finish_page_card_clean_1_name">Ненужные Файлы подлежащие Очистки</string>
+    <string name="finish_page_card_clean_1_desc">За последнее время телефон создал &lt;big&gt;%s&lt;/big&gt; ненужных файлов</string>
+    <string name="finish_page_card_clean_1_btn">Очистка</string>
+    <string name="finish_page_card_activate_power_mode_title">%s приложений &lt;big&gt;автозапустились&lt;/big&gt;</string>
+    <string name="finish_page_card_activate_power_mode_desc">Активировать &lt;big&gt;Режим Мощности&lt;/big&gt; для работы</string>
+    <string name="finish_page_card_activate_power_mode_btn">Активировать</string>
+    <string name="finish_page_card_feedback_name">Скажите Что Вы Думаете</string>
+    <string name="finish_page_card_feedback_desc">Любимая функция, ваши предложения, что-нибудь еще</string>
+    <string name="finish_page_card_feedback_btn">Обратная Связь</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Ускорить Телефон</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Освободить память для ускорения телефона</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Ускорение</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big&gt;%s%% Памяти&lt;/big&gt; Осталось</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s работающие приложения занимают память, телефон может работать очень медленно</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Ускорить Сейчас</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Отключить Предустановленные Приложения</string>
+    <string name="finish_page_card_disable_desc">%1$s предустановленные приложения, &lt;big&gt;%2$s&lt;/big&gt; могут быть отключены</string>
+    <string name="finish_page_card_disable_btn">Проверка</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Проверить какое приложение автозапускается скрытно</string>
+    <string name="finish_page_no_ad_clean2_tips">Ненужные файлы будут делать работу телефона более медленной</string>
+    <string name="finish_page_no_ad_clean1_tips">Ненужные файлы нужно очищать каждый день</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">Играм тоже нужен ускоритель!</string>
+    <string name="finish_page_no_ad_disable_tips">Некоторые предустановленные приложения действительно бесполезны</string>
+    <string name="finish_page_no_ad_photo_tips">Можно высвободить много места!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">В Режиме Мощности можно остановить что угодно!</string>
+    <string name="finish_page_no_ad_whitelist_tips">Будьте внимательны, чтобы случайно не удалить нужные приложения!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">Телефон работает медленно</string>
+    <string name="finish_page_no_ad_boost_normal_tips">Телефон может работать быстрее</string>
+
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">Добавить Игры</string>
+    <string name="game_accel_guide_title">Ускорение Игры</string>
+    <string name="game_accel_guide_text2">было активировано</string>
+    <string name="game_accel_guide_try_text">Нажми, чтобы проверить!</string>
+    <string name="game_accel_guide_gamename_1">Ярлык Создан</string>
+    <string name="game_accel_guide_gamename_2">Открыть на рабочем столе</string>
+    <string name="game_accel_guide_gamename_3">Сканирование игр…</string>
+    <string name="game_accel_guide_discovery_text_above">Канал Z</string>
+    <string name="game_accel_sec_anim_title">ИГРЫ</string>
+    <string name="game_accel_shortcut_created">Создано</string>
+    <string name="game_accel_tip_dialog_content_text_new">Активировать Ускоритель Игры, чтобы сделать быстрее &lt;font color="#85c443"&gt;\"%s\"&lt;/font&gt; на 65%%?</string>
+    <string name="game_accel_sort_name">Имя</string>
+    <string name="game_accel_sort_Date">Дата</string>
+    <string name="game_accel_sort_Frequency">Частота</string>
+    <string name="game_accel_game_box_title">Управлять Играми</string>
+    <string name="game_accel_add_shortcut">Добавить Ярлык</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">ОБНАРУЖИТЬ</string>
+    <string name="game_distribute_connection_failed">Связь потеряна</string>
+    <string name="game_distribute_net_data_alert">Игра через WIFI может снизить объем потребляемых данных</string>
+    <string name="game_distribute_warning_title">GO Speed TV</string>
+    <string name="game_distribute_warning_content"> Качество картинки в видео просто изумительное.\nЭти видео предназначены не только для домашнего,но и для других\n видов использования. Вы можете с легкостью просматривать такие видео с помощью\n GO Speed. Мы настоятельно рекомендуем вам разумно ограничить\n время игры.</string>
+    <string name="game_distribute_video_title">Канал</string>
+    <string name="game_distribute_game_searching">Поиск Игр...</string>
+
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534"&gt;Большие Приложения &lt;/font&gt;</string>
+    <string name="cpu_thieves_title">Toп 3 &lt;font color="#6ac534"&gt; программ, отбирающих мощность у Процессора &lt;/font&gt;</string>
+    <string name="num_times">%s раз</string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Очень Мало Свободной Памяти!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+
+    <string name="home_guide_card_photo_desc1">Делать фотографии легко</string>
+    <string name="home_guide_card_photo_desc2">а удалять их - нет</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+
+    <string name="home_guide_card_cpu_desc">Перегретый Процессор разряжает батарею</string>
+
+    <string name="home_guide_card_disbale_desc">Воспользуйтесь Предустановкой!</string>
+    <string name="home_guide_card_disbale_desc2">Ваш телефон может работать быстрее!</string>
+    <string name="home_guide_card_disbale_desc_big">%s Приложений</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Ускорение в Режиме Мощности</string>
+    <string name="enable_super_boost_mode_normal">Нормальное Ускорение</string>
+    <string name="enable_super_boost_desc_super">&lt;b&gt;Boost:&lt;/b&gt; Нормальные Приложения, &lt;mark&gt;&lt;font color="red"&gt;Приложения с Авто-запуском&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt; Дает еще 60% ускорения как на телефонах с Root-доступом.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (Пожалуйста, откройте доступ для GO Speed в следующем шаге)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b&gt;Ускорение:&lt;/b&gt; Нормальные Приложения, &lt;mark&gt;&lt;font color="red"&gt;Приложения с Автозапуском&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;Дает еще 60% ускорения как на телефонах с Root-доступом.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (Пожалуйста, еще раз откройте доступ для GO Speed в следующем шаге)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b&gt;Ускорение:&lt;/b&gt; Нормальные Приложения&lt;br&gt;
+      Приложения с Авто-Запуском не будут ускорены кроме как в режиме мощности.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">Ускорить мой телефон в режиме мощности прямо сейчас!</string>
+
+
+    <string name="enable_super_disable_mode_super">Отключить Пакетные Файлы</string>
+    <string name="enable_super_disable_mode_normal">Отключить Вручную</string>
+    <string name="enable_super_disable_desc_super">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;Feature:&lt;/b&gt; Отключить пакетные файлы неиспользуемых приложений в один клик.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (Пожалуйста, откройте доступ для GO Speed в следующем шаге)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;Feature:&lt;/b&gt; Отключить пакетные файлы неиспользуемых приложений в один клик.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (Пожалуйста снова включите GO Speed как только ваш телефон перезагрузится)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b&gt;Feature:&lt;/b&gt; Отключить неиспользуемые приложения одно за другим. &lt;br&gt;
+                    &lt;mark&gt;&lt;font color="red"&gt;Отключение пакетных файлов настоятельно рекомендуется для облегчения управления.&lt;/font&gt; &lt;/mark&gt;
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Активировать функцию Отключения Пакетных Файлов</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Настройки Переключателя Уведомлений</string>
+    <string name="notification_toggle_settings_label_themes">Темы</string>
+    <string name="notification_toggle_settings_label_toggles">Переключатель</string>
+    <string name="notification_toggle_settings_label_zspeed">КЛАССИКА</string>
+    <string name="notification_toggle_settings_label_popular">САМЫЙ ПОПУЛЯРНЫЙ</string>
+    <string name="notification_toggle_theme_name_green">Деметра</string>
+    <string name="notification_toggle_theme_name_pink">Афина</string>
+    <string name="notification_toggle_theme_name_black">Эребус</string>
+    <string name="notification_toggle_theme_name_silver">Уран</string>
+    <string name="notification_toggle_theme_name_golden">Хронос</string>
+    <string name="notification_toggle_toggle_name_app">Домой</string>
+    <string name="notification_toggle_toggle_name_boost">Ускорение</string>
+    <string name="notification_toggle_toggle_name_cpu">Процессор</string>
+    <string name="notification_toggle_toggle_name_torch">Фонарь</string>
+    <string name="notification_toggle_toggle_name_brightness">Яркость</string>
+    <string name="notification_toggle_toggle_name_themes">Темы</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">Данные</string>
+    <string name="notification_toggle_toggle_name_camera">Камера</string>
+    <string name="notification_toggle_toggle_name_calculator">Калькулятор</string>
+    <string name="notification_toggle_toggle_name_rotate">Вращать</string>
+    <string name="notification_toggle_toggle_name_sound">Звук</string>
+    <string name="notification_toggle_bright_auto">АВТО</string>
+    <string name="notification_toggle_notification_ticker">Панель упавления GO Speed toolbar находится в режиме ожидания</string>
+    <string name="notification_toggle_notification_ticker_initializing">Панель инициализируется…</string>
+
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Помощь в поиске</string>
+    <string name="hot_word_search_next_batch">Еще</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Повторяющееся фотографии</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s  фото очищено!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Все повторяющееся фотографии очищены!</string>
+    <string name="duplicate_photos_delete_alert_title">Удалить без возможности восстановления</string>
+    <string name="duplicate_photos_delete_alert_desc">Вы уверены, что хотите стереть их без возможности восстановления?</string>
+    <string name="duplicate_photos_scan_alert">Сканирование может занять какое-то время, пожалуйста подождите</string>
+    <string name="duplicate_photos_no_content">Поздравляем! У Вас нет повторяющихся фотографий!</string>
+    <string name="duplicate_photos_suffix_selected">%s выбрано</string>
+    <string name="duplicate_photos_suffix_total">%s фото всего</string>
+
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">Лучашя Игра Недели</string>
+    <string name="game_ad_notification_label_weekly_best_app">Лучшее Приложение Недели</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">БЛОКИРОВКА ПРИЛОЖЕНИЯ</string>
+    <string name="app_lock_perm_settings_title">Настройки</string>
+    <string name="app_lock_perm_settings_message">Запрос прав доступа</string>
+    <string name="app_lock_notice_enable_usage_stats">В Андроиде версии 5.0 и выше вы должны дать права доступа для AppLock, чтобы вы могли пользоваться функциями приложения.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_enable_usage_stats">Разрешение</string>
+    <string name="install_app_mointor_locker">Нужно заблокировать</string>
+    <string name="locker_header_forget_pwd">Забыл пароль</string>
+    <string name="locker_header_replce_number_locker">Переключиться на блокировку с помощью пароля</string>
+    <string name="locker_header_replce_graphic_locker">Переключиться на блокировку с помощью комбинации</string>
+    <string name="initializationpassword_frist_prompt">Установить пароль</string>
+    <string name="initializationpassword_second_prompt">Введите еще раз пароль для подтверждения</string>
+    <string name="initializationpassword_pwd_not_equals">Пароль не подходит, пожалуйста введите его еще раз</string>
+    <string name="init_email_prompt">Электронная почта для забытого пароля</string>
+    <string name="init_email_prompt1">Пожалуйста, введите правильный адрес электронной почты</string>
+    <string name="init_mail_btn_text">Выполнено</string>
+    <string name="forget_reset_pwd_success">Пароль восстановлен успешно</string>
+    <string name="activity_applock_group_apps">ПРИЛОЖЕНИЯ</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">AppLock Настройки</string>
+    <string name="app_lock_setting_parent_unlock_mode">Режим Разблокировки</string>
+    <string name="app_lock_setting_passcode">Пароль</string>
+    <string name="app_lock_setting_others">Другое</string>
+    <string name="app_lock_setting_unlock_mode_numbers">Числа</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Пример</string>
+    <string name="app_lock_setting_passcode_change_passcode">Сменить Пароль</string>
+    <string name="app_lock_setting_passcode_email_setting">Настройки Электронной Почты</string>
+    <string name="app_lock_setting_others_brief_eixt">Разрешить быстрый выход</string>
+    <string name="app_lock_setting_others_relock">Заблокировать повторно после включения экрана</string>
+    <string name="app_lock_setting_brief_eixt_seconds">секунды</string>
+    <string name="app_lock_setting_brief_eixt_minutes">минуты</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">Забыл пароль</string>
+    <string name="forget_email_prompt1">1)Мы отправим проверочный код на вашу электронную почту.</string>
+    <string name="forget_email_prompt2">2)Введите проверочный код и получите ваш пароль.</string>
+    <string name="forget_email_btn_prompt">Послать</string>
+    <string name="forget_email_btn_prompt2">Сбросить пароль</string>
+    <string name="forget_email_edit_prompt">Проверочный Код</string>
+    <string name="forget_check_code_not_right">Неверно</string>
+    <string name="forget_check_code_out_of_time">Кончился срок действия проверочного кода, пожалуйста, запросите еще раз.</string>
+    <string name="forget_send_email_error">Не удалось отправить электронную почту, попробуйте еще раз.</string>
+    <string name="forget_send_email_success">Электронная почта успешно отправлена, проверьте ваш почтовый ящик.</string>
+    <string name="set_graphic_password_message_draw">Нарисовать комбинацию для разблокировки</string>
+    <string name="set_graphic_password_message_too_short">Соедините как минимум 4 точки. Попробуйте еще раз:</string>
+    <string name="set_graphic_password_message_stored">Комбинация сохранена.</string>
+    <string name="set_graphic_password_message_redraw">Нарисуйте комбинацию еще раз для подтверждения:</string>
+    <string name="set_graphic_password_btn_redraw">Попытаться еще раз</string>
+    <string name="set_graphic_password_message">Установки Пароля</string>
+    <string name="set_graphic_password_message_wrong">Ошибка, попробуйте еще раз:</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">Бесплатная блокировка безопасности версии Pro!</string>
+    <string name="lokcer_init_instruction_first">Установить пароль для блокировки ваших конфиденциальных приложений</string>
+    <string name="lokcer_init_instruction_second">Подтвердите ваш пароль снова</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">Блокировка Приложения</string>
+    <string name="finish_page_card_app_locker_desc">Защитите &lt;big&gt;%s&lt;/big&gt; и другое от любопытных глаз с помощью функции App lock!</string>
+    <string name="finish_page_card_app_locker_btn">Защитить Сейчас</string>
+    <string name="finish_page_no_ad_app_lock_tips">Телефон может работать быстрее</string>
+
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+
+    <!-- Storage 2.0改版 -->
+    <string name="filecategory_sec_picture_title">Изображения</string>
+    <string name="filecategory_sec_picture_unit">Все</string>
+    <string name="filecategory_sec_deep_clean_title">Глубокая Очистка</string>
+    <string name="filecategory_sec_music_title">Музыка</string>
+    <string name="filecategory_sec_music_unit">Песня</string>
+    <string name="filecategory_sec_music_units">Песни</string>
+    <string name="filecategory_sec_music_instruction">Очистить песни, которые вы никогда больше не слушаете</string>
+    <string name="filecategory_sec_video_title">Видео</string>
+    <string name="filecategory_sec_video_unit">Видео</string>
+    <string name="filecategory_sec_video_units">Видео</string>
+    <string name="filecategory_sec_video_instruction">Очистите то, что вы уже смотрели чтобы освободить память</string>
+    <string name="filecategory_sec_uninstall_title">Деинсталлировать</string>
+    <string name="filecategory_sec_uninstall_unit">Приложение</string>
+    <string name="filecategory_sec_uninstall_units">Приложения</string>
+    <string name="filecategory_sec_uninstall_instruction">Деинсталлировать то, что вам уже не нужно</string>
+    <string name="filecategory_sec_big_file_title">Большие Файлы</string>
+    <string name="filecategory_sec_big_file_unit">Файл</string>
+    <string name="filecategory_sec_big_file_units">Файлы</string>
+    <string name="filecategory_sec_big_file_instruction">Найти большие папки и файлы</string>
+    <string name="filecategory_sec_picture_duplicate_unit">Повторяющиеся</string>
+    <string name="filecategory_sec_deep_clean_other_instuction">Другие %s Приложения</string>
+    <string name="filecategory_sec_header_top_text">%1$s Использовано %2$s Всего</string>
+    <string name="filecategory_sec_bar_instuction_pic">Изображения</string>
+    <string name="filecategory_sec_bar_instuction_app">Приложения</string>
+    <string name="filecategory_sec_bar_instuction_video">Видео</string>
+    <string name="filecategory_sec_bar_instuction_music">Музыка</string>
+    <string name="filecategory_sec_bar_instuction_other">Другие</string>
+    <string name="filecategory_sec_list_item_scanning">СКАНИРОВАНИЕ…</string>
+    <string name="filecategory_sec_list_item_check">ПРОВЕРКА</string>
+    <string name="filecategory_sec_list_item_collapse">Сбой</string>
+    <string name="filecategory_sec_list_item_empty_text">Нет Файла</string>
+    <string name="filecategory_sec_list_item_empty_text_duplicate">Нет Повторяющихся Фото</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_null">Неизвестные Файлы</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_image">Файлы с изображениями</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_other">Другие файлы</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_video">Видео файлы</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_audio">Аудио файлы</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_resource">Ресурсные пакеты</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_apk">APK-файлы</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_game">Файлы с Играми</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_ad">Файлы с рекламой</string>
+    <!-- 带删除的文件管理器 -->
+    <string name="filecategory_broswer_group_title">Все файлы</string>
+
+    <!-- BigFile -->
+    <string name="filecategory_bigfile_title">Большие Файлы</string>
+    <string name="filecategory_bigfile_title_select_text_one">&lt;font color="#f77071"&gt; Удаленные файлы не могут быть восстановлены!&lt;/font&gt;</string>
+    <string name="filecategory_bigfile_title_select_text_two">Вы уверены, что хотите выбрать это?</string>
+    <string name="filecategory_bigfile_title_select_text_check">Временно не показывать</string>
+    <string name="big_file_group_item_size">&lt;font color="#ff0000"&gt;Размер:%1$s&lt;/font&gt;</string>
+    <string name="big_file_group_item_path">Путь доступа:%1$s</string>
+    <string name="big_file_scan_text">Сканирование %1$s больших файлов</string>
+    <string name="big_file_all_size"> %1$s файлов всего</string>
+    <string name="big_file_selected_size">%1$s файлов выбрано</string>
+    <string name="big_file_delete">Удалить</string>
+    <string name="big_file_detail_view">Просмотр</string>
+    <string name="big_file_delete_detail">Вы уверены, что хотите удалить выбранные файлы?</string>
+    <string name="big_file_delete_size">%1$s файлов удалено!</string>
+
+    <!-- 应用专清页面 -->
+    <string name="deep_clean_single_page_title_suggestion">Всего</string>
+    <string name="deep_clean_single_page_card_clean">ОЧИСТКА</string>
+    <string name="deep_clean_single_page_card_to_clean">ПРОВЕРКА</string>
+    <string name="deep_clean_single_page_card_cleaning">ПРОЦЕСС ОЧИСТКИ</string>
+    <string name="deep_clean_single_page_card_cleaned">ОЧИЩЕНО</string>
+    <string name="deep_clean_warn_level_0_desc">Ваши файлы не будут повреждены после очистки</string>
+    <string name="deep_clean_warn_level_1_desc">Очистка абсолютно безопасна</string>
+    <string name="deep_clean_warn_level_2_desc">Нужно будет скачать еще раз после очистки</string>
+    <string name="deep_clean_warn_level_10_desc">Очистка удалит это навсегда</string>
+    <string name="deep_clean_warn_level_11_desc">Очистка НЕ рекомендована</string>
+
+    <!-- 主界面2.0 -->
+    <string name="home_page_ram_info_text">%1$s Свободно / %2$s Всего</string>
+    <string name="home_page_storage_info_text">%1$s Свободно / %2$s Всего</string>
+    <!-- 侧边栏页面 -->
+    <string name="home_page_drawer_like_us">Поставьте нам лайк</string>
+    <string name="home_page_drawer_z_family">GO-Семья</string>
+    <string name="home_page_drawer_theme">Темы</string>
+
+
+    <!-- 省电 -->
+    <string name="setting_charge_group">Экономия Заряда Батареи</string>
+    <string name="setting_charge">Быстрая Зарядка</string>
+	<string name="power_saving_charging_text">Полностью заряжен Осталось &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+	<string name="power_saving_left_power_text">Оставшееся Время &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+    <string name="power_saving_mode_speed">Скорость</string>
+    <string name="power_saving_mode_contiuous">Неперерывный</string>
+    <string name="power_saving_mode_trickle">Trickle</string>
+    <string name="power_saving_mode_speed_instruction">Батарея быстро заряжается до 80%</string>
+    <string name="power_saving_mode_contiuous_instruction">Сила тока уменьшена для заряда батареи</string>
+    <string name="power_saving_mode_trickle_instruction">Используйте зарядку малым током, чтобы продлить срок службы батареи</string>
+    <string name="power_saving_accel_result_text">&lt;font color="#ffce54"&gt;%1$s&lt;/font&gt; приложения, разряжающие батарею остановлены и экономят &lt;font color="#ffce54"&gt;%2$s&lt;/font&gt; время зарядки</string>
+    <string name="power_saving_menu_clost">Выключить</string>
+    <string name="power_saving_menu_dialog_title">Попробуйте выключить Быструю Загрузку</string>
+    <string name="power_saving_menu_dialog_content">Скорость зарядки не будет увеличена. По-прежнему хотите отключить?</string>
+    <string name="power_saving_menu_dialog_cancel">Не Сейчас</string>
+    <string name="power_saving_menu_dialog_confim">Выкл</string>
+    <string name="power_saving_time_unit_hour">ч</string>
+    <string name="power_saving_time_unit_minute">мин</string>
+    <string name="power_saving_unlock_slide">Провести пальцем для разблокировки &gt;</string>
+
+    <string name="power_saving_guide_title">Быстрая Зарядка</string>
+    <string name="power_saving_guide_desc">Включить функцию Быстрой Подзарядки чтобы профессионально защитить батарею и сократить время зарядки</string>
+    <string name="power_saving_guide_btn_enable">ВКЛЮЧИТЬ</string>
+
+    <string name="power_saving_ad_open">ОТКРЫТЬ</string>
+    <string name="power_saving_ad_cancel">УДАЛИТЬ</string>
+
+    <!--facebook点赞弹窗引导-->
+    <string name="facebook_like_dialog_title">Пока все в порядке?</string>
+    <string name="facebook_like_dialog_desc">Узнать больше о GO Speed on &lt;font color="#4a89dc"&gt;Facebook&lt;/font&gt;</string>
+    <string name="facebook_like_dialog_btn_like">Поставьте нам лайк</string>
+    <string name="facebook_like_dialog_btn_cancel">Не Сейчас</string>
+    
+    <!-- AppLock 优化 -->
+    <string name="applock_pre_header_last_step_text1">Еще один шаг, чтобы получить полную защиту</string>
+    <string name="applock_pre_header_last_step_text2">Переключить на GO Speed</string>
+    <string name="applock_pre_dialog_title">Еще один шаг</string>
+    <string name="applock_pre_dialog_content">Еще один шаг, чтобы получить полную защиту</string>
+    <string name="applock_pre_dialog_cancel">Выход</string>
+    <string name="applock_pre_dialog_confim">Продолжить</string>
+
+    <!--GO输入法推广弹窗-->
+    <string name="go_input_prom_pop_theme_desc">Скучно и медленно печатать? Нажмите, чтобы получить 800+ эмодзи и тем!</string>
+    <string name="go_input_prom_pop_theme_btn">Получите это сейчас</string>
+    <string name="go_input_prom_pop_memory_desc">Память клавиатуры замедляет работу вашего телефона!</string>
+    <string name="go_input_prom_pop_memory_btn">Ускорить Сейчас</string>
+
+    <string name="boost_banner_ad_toast_good">Хорошо</string>
+    <string name="adchoice_about_setting">AD выбор</string>
+    <string name="app_lock_all_intruders">%s нарушителей</string>
+    <string name="app_lock_anti_peep_img_app_info">&lt;font color="#FFFFFF"&gt;Catch you! Unlock my &lt;/font&gt;&lt;font color="#da4453"&gt;%1$s&lt;/font&gt;</string>
+    <string name="app_lock_camera_access_tips_fail">Не удалось включать камеру и снимать шпионов.</string>
+    <string name="app_lock_camera_access_tips_suc">Раскрывать нарушитерей уже включено.</string>
+    <string name="app_lock_camera_auth_tip">Разрешать GO Speed использовать камеру и снимать шпионов</string>
+    <string name="app_lock_image_share_text_tip">Догадайтесь, что нашлось! Попробуйте защищать Вашу личность.</string>
+    <string name="app_lock_new_intruders">&lt;b&gt;%s новые &lt;/b&gt; нарушители</string>
+    <string name="app_lock_setting_intruder">Нарушители</string>
+    <string name="app_lock_setting_intruder_setting">Настройки нарушителей</string>
+    <string name="app_lock_setting_intruder_times">Раз</string>
+    <string name="app_lock_setting_intruder_twice">два</string>
+    <string name="app_lock_setting_intruder_wrong_times">Разрешать Ввод неправильного кода</string>
+    <string name="app_lock_setting_reveal_intruder">Раскрыть нарушителей</string>
+    <string name="app_manager_preinstall_disbale_subtitle">Восстановление выключения может решать проблему возникающую выключением.</string>
+    <string name="app_manager_preinstall_disbale_title">Восстановление выключения</string>
+    <string name="applock_pre_header_text1_new">Топ &lt;big&gt;%1$s&lt;/big&gt; Приложения рекомендованные блокировать</string>
+    <string name="applock_pre_header_text2_new">Обеспечивать личные данные</string>
+    <string name="applock_pre_last_step_usage_guide_explanation">Выключать замок GO Speed для получения полной защиты.</string>
+    <string name="applock_pre_last_step_usage_guide_title">Ещё один шаг для Android 5.0+ клиентов.</string>
+    <string name="boot_up_memory_intro_desc">Приложения авто включаются без Вашего контроля.</string>
+    <string name="boot_up_memory_title">Авто включенные приложения</string>
+    <string name="boot_up_notify_msg">Авто включение найдено! Проверьте сейчас.</string>
+    <string name="boot_up_optimize">Оптимизировать</string>
+    <string name="boot_up_time_intro_desc">Время для полного старта.</string>
+    <string name="boot_up_time_title">Для включения устроства требуется</string>
+    <string name="build_in_ad_go_battery_saver_btn">Оптимизировать сейчас</string>
+    <string name="build_in_ad_go_battery_saver_desc">Эконимить батарею</string>
+    <string name="build_in_ad_go_battery_saver_title">Одно-нажатие экономия батареи</string>
+    <string name="build_in_ad_go_security_btn">Под защитой</string>
+    <string name="build_in_ad_go_security_desc">Обеспечить безопасность устройства</string>
+    <string name="build_in_ad_go_security_title">Анти-вирус</string>
+    <string name="build_in_ad_safe_box_btn">Шифровать</string>
+    <string name="build_in_ad_safe_box_desc">Защищать Вашу личтность как банк</string>
+    <string name="build_in_ad_safe_box_title">Шифровать пароль&amp; фото</string>
+    <string name="common_days">Дней</string>
+    <string name="common_deep_clean_backup">Копии</string>
+    <string name="common_deep_clean_cache">Кэш</string>
+    <string name="common_deep_clean_clean_cache_deleting">Удаляется...</string>
+    <string name="common_deep_clean_clean_clean">Очистить</string>
+    <string name="common_deep_clean_clean_done">%1$s очищено!</string>
+    <string name="common_deep_clean_clean_view">Просмотр</string>
+    <string name="common_deep_clean_document">Документы</string>
+    <string name="common_deep_clean_image">Галерея</string>
+    <string name="common_deep_clean_music">Музыка</string>
+    <string name="common_deep_clean_video">Видео</string>
+    <string name="common_dismiss">Пропускать</string>
+    <string name="common_dismiss_message">Пропускать все сообщения.</string>
+    <string name="common_view">Просмотр</string>
+    <string name="deep_clean_promote_dialog_content">Кэш &amp; приложения найдены.</string>
+    <string name="deep_clean_whatsapp_desc_backup">Авто копии WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_cache">Вы можете очистить бесполезные данные как Вы хотите.</string>
+    <string name="deep_clean_whatsapp_desc_document">Документы WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_gallery">фото WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_music">Песнии WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_video">Видео WhatsApp.</string>
+    <string name="deep_clean_whatsapp_no_backup">Нет авто копий.</string>
+    <string name="deep_clean_whatsapp_no_cache">Кэш уже очищен.</string>
+    <string name="deep_clean_whatsapp_no_document">Нет документов.</string>
+    <string name="deep_clean_whatsapp_no_gallery">Нет фото.</string>
+    <string name="deep_clean_whatsapp_no_music">Нет песен.</string>
+    <string name="deep_clean_whatsapp_no_video">Нет видео.</string>
+    <string name="facebook_deep_clean_desc_cache">Удалить бесполезные файлы.</string>
+    <string name="facebook_deep_clean_desc_fb_img">Управлять фото в Facebook.</string>
+    <string name="facebook_deep_clean_desc_message_img">Управлять фото в Messenger.</string>
+    <string name="facebook_deep_clean_desc_message_video">Управлять видео в Messenger.</string>
+    <string name="facebook_deep_clean_title_cache">Кэш</string>
+    <string name="facebook_deep_clean_title_fb_img">Facebook галерея</string>
+    <string name="facebook_deep_clean_title_message_img">Messenger галерея</string>
+    <string name="facebook_deep_clean_title_message_video">Messenger видео</string>
+    <string name="facebook_media_posted_tag">Posted</string>
+    <string name="facebook_media_saved_tag">Сохранено</string>
+    <string name="finish_page_card_activate_usage_stats_permission_btn">Разрешать</string>
+    <string name="finish_page_card_activate_usage_stats_permission_desc">Разрешать GO Speed применить новые android функции для ускорения устройства!</string>
+    <string name="finish_page_card_activate_usage_stats_permission_title">Ускорение батареи для Android &lt;большой &gt;5.0+&lt;/big&gt;</string>
+    <string name="function_ad_page_chglock_desc_1">Включать быстрый заряд для следующего заряда.</string>
+    <string name="function_ad_page_chglock_desc_2">Включать быстрый заряд для расширения использования устройства.</string>
+    <string name="function_ad_page_chglock_desc_3">Включать быстрый заряд для экономии времени.</string>
+    <string name="function_ad_page_chglock_desc_4">Включать тонкий заряд для защиты батареи</string>
+    <string name="function_ad_page_chglock_title_1">Более профессиональный и быстрый заряд?</string>
+    <string name="function_ad_page_chglock_title_2">Доступная батарея %s%%!</string>
+    <string name="function_ad_page_chglock_title_3">%s остаётся</string>
+    <string name="function_ad_page_chglock_title_4">Заряд скоро кончится</string>
+    <string name="home_page_drawer_go_security">Анти-вирус</string>
+    <string name="home_page_drawer_notification_box">Коробка уведомлений</string>
+    <string name="http_adchoice">https://m.facebook.com/ads/ad_choices</string>
+    <string name="intruder_gallery_menu_clear_all_pohtos">Очистить все фото</string>
+    <string name="intruder_gallery_no_content">Поздравляем!Нет нарушителей</string>
+    <string name="intruder_main_no_content">Ввод неправильного кода больше лимита можно снимать фото и принимать как нарушитель.</string>
+    <string name="intruder_shot_info_desc">Ввод неправильного кода больше два раз можно снимать фото и принимать как нарушитель.</string>
+    <string name="intruder_shot_info_title">Стрелять нарушителей</string>
+    <string name="menu_group_notification">Уведомления</string>
+    <string name="menu_group_notification_notification">Уведомления</string>
+    <string name="menu_junk_file_interval">Скан мусоров каждый раз</string>
+    <string name="menu_junk_file_scan">Скан мусоров</string>
+    <string name="menu_junk_file_size">Размер мусоров</string>
+    <string name="notification_box">Бесшумные уведомления</string>
+    <string name="notification_box_guide_first_desc">Разрешите GO Speed активизировать бесшумные уведомления.</string>
+    <string name="notification_box_guide_float_title">Включить менеджер уведомлений</string>
+    <string name="notification_box_guide_second_desc">Получать новое сообщение? Попробуйте бесшумное уведомление.</string>
+    <string name="notification_box_main_fragment_empty_tips">Нет уведомлений</string>
+    <string name="notification_box_main_group_title">%1$s из %2$s</string>
+    <string name="notification_box_main_launch_tips">Переключается к %1$s</string>
+    <string name="notification_box_main_title">&lt;font color="#f6bb42"&gt;%1$s  &lt;/font&gt;&lt;font color="#8cc152"&gt; Notices Muted&lt;/font&gt;</string>
+    <string name="notification_box_settings_notice">Бесшумные уведомления пока не работают.</string>
+    <string name="notification_box_settings_title">Бесшумные уведомления</string>
+    <string name="notification_box_switch_label">Применить бесшумные уведомления</string>
+    <string name="notification_facebook_deep_clean_title_black">&lt;font color="#1d1d1d"&gt;Сильно очистить FB.&lt;/font&gt;</string>
+    <string name="notification_facebook_deep_clean_title_white">&lt;font color="#ffffff"&gt;Сильно очистить мусоры FB.&lt;/font&gt;</string>
+    <string name="notification_like_us_one_line_one">Нравится?</string>
+    <string name="notification_like_us_one_line_two">Найти больше о GO Speed на Fb.</string>
+    <string name="notification_like_us_two_line_one">Хотите оптимизировать инфо о Android?</string>
+    <string name="notification_like_us_two_line_two">У GO Speed. Нравится &amp; Получать полезные инфо!</string>
+    <string name="notification_service_label">Сервис уведомлений</string>
+    <string name="notification_setting_auto">Умный режим</string>
+    <string name="notification_setting_boost_level">Память больше</string>
+    <string name="notification_setting_boost_switch">Ускорение памяти</string>
+    <string name="notification_setting_cpu_switch">CPU монитор</string>
+    <string name="notification_setting_manual">Ручной режим</string>
+    <string name="notification_setting_manual_boost">Ускорение устройств</string>
+    <string name="notification_setting_manual_clean">Очистка Ненужных Файлов</string>
+    <string name="notification_setting_mode">Режим</string>
+    <string name="notification_setting_storage_level">Доступное место</string>
+    <string name="notification_setting_storage_switch">Места не хватает</string>
+    <string name="power_boost_shortcut_dialog_ok">Включать ускорение</string>
+    <string name="power_boost_shortcut_dialog_text1">1. Выключать авто включенные приложения.</string>
+    <string name="power_boost_shortcut_dialog_text2">2. Выключать непреклонные приложения.</string>
+    <string name="power_boost_shortcut_dialog_text3">3. Ускорить устройство как ускоренившеесь.</string>
+    <string name="power_boost_shortcut_dialog_title">Вспомогательные функции:</string>
+    <string name="power_boost_shortcut_init_boost">Старт…</string>
+    <string name="power_boost_shortcut_name">Сильное ускорение</string>
+    <string name="recommend_app_lock_dialog_desc">Блокировать &lt;font color="#4a89dc"&gt;%s&lt;/font&gt; от шпионов!</string>
+    <string name="recommend_app_lock_dialog_title">Защищать личные приложения</string>
+    <string name="recommend_app_lock_notify_desc">Блокировать личные приложения от шпионов!</string>
+    <string name="recommend_app_lock_notify_title_black">&lt;font color="#1d1d1d"&gt;Кто-то попробует шпионить Ваше устройство?&lt;/font&gt;</string>
+    <string name="recommend_app_lock_notify_title_white">&lt;font color="#ffffff"&gt;Кто-то попробует шпионить Ваше устройство?&lt;/font&gt;</string>
+    <string name="recommend_notification_box_notify_desc">Попробуйте бесшумное уведомление!</string>
+    <string name="recommend_notification_box_notify_title_black">&lt;font color="#1d1d1d"&gt;Получать новое сообщение?&lt;/font&gt;</string>
+    <string name="recommend_notification_box_notify_title_white">&lt;font color="#ffffff"&gt;Получать новое сообщение?&lt;/font&gt;</string>
+    <string name="setting_boost_ignorelist">Белый лист</string>
+    <string name="setting_boot_up_notice">Проверка при старте</string>
+    <string name="setting_whatsapp_promote">Доклад мусоров WhatsApp </string>
+    <string name="uninstalled_app">Удалённые приложения</string>
+    <string name="whatsapp_delete_alert_desc">Удалить эти файлы навсегда?</string>
+    <string name="whatsapp_deleted_msg">%1$s файлов %2$s очищены</string>
+    <string name="whatsapp_media_menu_select_all">Выбрать всё</string>
+    <string name="whatsapp_media_receive_tag">Полученные</string>
+    <string name="whatsapp_media_sent_tag">Отправленные</string>
+</resources>

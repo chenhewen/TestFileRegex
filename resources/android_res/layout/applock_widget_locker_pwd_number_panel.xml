@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.function.applock.view.widget.number.LockerNumberPasswordPanel xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/locker_pwd_number_panel"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/applock_number_lock_panel_text_buttom"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/locker_number_pwd_selector"
+            layout="@layout/applock_widget_locker_number_pwd_selector"/>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/locker_number_content"
+        layout="@layout/applock_widget_locker_pwd_number"/>
+</com.gto.zero.zboost.function.applock.view.widget.number.LockerNumberPasswordPanel>

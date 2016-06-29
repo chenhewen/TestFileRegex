@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.common.ui.ZoomItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:clipChildren="false" >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/file_category_image_item_bg" >
+
+    <ImageView
+        android:id="@+id/file_category_image_album_item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@null"
+        android:src="@drawable/file_category_image_album_shadow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/file_category_album_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/file_category_album_icon" />
+
+            <TextView
+                android:id="@+id/file_category_image_album_item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/file_category_album_icon"
+                android:ellipsize="middle"
+                android:fontFamily="@string/font_families_roboto"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/file_category_image_album_text_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/file_category_image_album_item_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font_families_roboto"
+            android:textColor="#99FFFFFF"
+            android:textSize="@dimen/file_category_image_album_text_size" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/file_category_image_album_item_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_50p_black"
+        android:visibility="gone" />
+
+    <com.gto.zero.zboost.view.GroupSelectBox
+        android:id="@+id/file_category_image_album_item_checkbox"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:paddingBottom="25dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:scaleType="fitCenter" />
+</RelativeLayout>
+ </com.gto.zero.zboost.common.ui.ZoomItemLayout>

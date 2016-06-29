@@ -1,0 +1,148 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.gto.zero.zboost.common.ui.RoundRelativeLayout
+
+        android:id="@+id/bg"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_centerInParent="true">
+
+        <!-- ad view-->
+
+        <include
+            android:id="@+id/second_page"
+            layout="@layout/custom_toast_ad_with_banner_core"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <!-- boost View-->
+
+        <RelativeLayout
+            android:id="@+id/first_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/second_page"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/second_page"
+            android:background="#ffffff"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="60dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/rocket"
+                android:layout_width="46dp"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/rocket_head"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home_image_rocket_head"
+                    />
+
+                <ImageView
+                    android:id="@+id/rocket_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home_image_rocket_body"
+                    />
+
+                <com.gto.zero.zboost.home.view.RocketJetView
+                    android:id="@+id/rocket_jet"
+                    android:layout_width="88dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:clipChildren="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/rocket"
+                android:layout_marginLeft="30dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/boost_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#9dd165"
+                        android:textSize="@dimen/boost_ad_toast_banner_font_size"
+                        />
+
+                    <TextView
+                        android:id="@+id/boost_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#9dd165"
+                        android:textSize="@dimen/boost_ad_toast_banner_font_size"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/boost_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notification_release_more_banner"
+                    android:textColor="#9dd165"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/start_1"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/boost_anim_done_star"
+                android:layout_toRightOf="@+id/rocket"
+                android:layout_alignParentBottom="true"
+                android:rotation="30"
+                android:layout_marginBottom="20dp"
+                />
+            <ImageView
+                android:id="@+id/start_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/boost_anim_done_star"
+                android:layout_toRightOf="@+id/start_1"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                />
+            <ImageView
+                android:id="@+id/start_3"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/boost_anim_done_star"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:rotation="20"
+                android:layout_marginBottom="25dp"
+                />
+        </RelativeLayout>
+    </com.gto.zero.zboost.common.ui.RoundRelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Z Speed+</string>
+    <string name="action_settings">Ustawienia</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_yes">Tak</string>
+    <string name="common_no">Nie</string>
+    <string name="common_ok">OK</string>
+    <string name="common_select">Wybierz</string>
+    <string name="common_delete">Usuń</string>
+    <string name="common_others">Inne</string>
+    <string name="common_stop">Zatrzymaj</string>
+    <string name="common_uninstall">Odinstaluj</string>
+    <string name="common_back_up">Kopia Zapasowa</string>
+    <string name="common_cancel">Anuluj</string>
+    <string name="common_install">Zainstaluj</string>
+    <string name="common_installed">Zainstalowany</string>
+    <string name="common_vertion">Wersja</string>
+    <string name="common_update">Aktualizuj</string>
+    <string name="common_insufficient_storate">Brak miejsca w Schowku</string>
+    <string name="common_no_sdcard">Nie znaleziono Karty SD</string>
+    <string name="common_warning">Ostrzeżenie</string>
+     <string name="common_uninstalled">Odinstalowano</string>
+    <string name="common_no_content">Brak zawartości</string>
+    <string name="common_comma">,</string>
+    <string name="common_period">.</string>
+    <string name="common_slogan">Zamień w lepszy telefon</string>
+    <string name="common_download">Pobierz</string>
+    <string name="common_more">Więcej</string>
+    <string name="common_on">Wł.</string>
+    <string name="common_off">Wył.</string>
+    <string name="common_new">nowy</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="available">Dostępny</string>
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">SCHOWEK</string>
+    <string name="main_button_boost">Zwiększanie Pamięci</string>
+    <string name="main_button_storage">Śmieci</string>
+    <string name="main_button_manage">Manager Aplikacji</string>
+    <string name="main_ram_total">%s Całkowity</string>
+    <string name="main_storage_total">%s Całkowity</string>
+    <string name="tip_press_again_to_exit">Dotknij ponownie, aby wyjść</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Ustawienia</string>
+    <string name="menu_update">Aktualizacja</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_about">O Nas</string>
+    <string name="menu_shuffle">Przesuń</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">Boże Narodzenie</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">Zwiększanie Pamięci</string>
+    <string name="boost_main_act_tab_running">Działa</string>
+    <string name="boost_main_act_tab_autostart">Autostart</string>
+    <string name="boost_running_apps_custom">%1$d Wybrana(e) Aplikacja(e)</string>
+    <string name="boosting_memory_act_title">Zwiększanie Pamięci</string>
+    <string name="boosting_tips">Zwiększanie</string>
+    <string name="boosting_power_tips">Zwiększanie Mocy</string>
+    <string name="boosted_to_optimus_tips">Zwiększanie do Stanu Optimus!</string>
+    <string name="boosted_active_power_mode_tips">Ups! %1$d Auto Aplikacje ponownie rozpoczęte.\Aktywuj PowerMode aby sobie z tym poradzić!</string>
+    <string name="enable_super_boost_enable">Włacz</string>
+    <string name="enable_super_boost_title">Włacz Super Mode</string>
+    <string name="enable_super_boost_main_text">W celu bardziej efektywnego przyspieszenia, zalecamy włączyć funkcje ułatwień dostępu.</string>
+    <string name="enable_super_boost_content_text1" formatted="false">Aby pomóc ci zatrzymać lub całkowicie wyłączyć aplikacje.</string>
+    <string name="enable_super_boost_content_text2" formatted="false">Zmniejszenie zużycia baterii.</string>
+    <string name="enable_super_boost_content_text3" formatted="false">Ponad 85% użytkowników włączyło to zadanie.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">Kliknij Z Speed+ w Usługach</string>
+    <string name="boost_groups_list_title_running_app">Uruchomione aplikacje</string>
+    <string name="boost_groups_list_title_cpu_temperature">Temperatura procesora</string>
+    <string name="boost_groups_list_title_lag_detected">Wykryto Lag</string>
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Włącz powyższy przycisk, aby włączyć tryb Z Speed + dla maksymalnego przyspieszenia!\n\nZ Speed+ użyj funkcji ułatwień dostępu, aby pomóc zatrzymać nieaktywne aplikacje. Proszę nie martw się, jeśli zobaczysz przypomnienia ryzyka prywatności, to jest zwykłe ostrzeżenie pouczające o usłudze dostępności. 
+    \n\nObiecujemy, że nie zbieramy ŻADNYCH danych.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Opcje</string>
+    <string name="autostart_optimization_desr">Może być zoptymalizowany</string>
+    <string name="autostart_type_optimization">Będzie zoptymalizowany</string>
+    <string name="autostart_type_allowed">Dostępny</string>
+    <string name="autostart_type_blocked">Zablokowany</string>
+    <string name="autostart_type_system">Aplikacje instalowane fabrycznie</string>
+    <string name="autostart_type_system_description">Blokowanie fabrycznie zainstalowanych aplikacji autostartu może spowodować niestabilność systemu. Postępuj ostrożnie</string>
+    <string name="autostart_preinstll_system">Aplikacje instalowane fabrycznie</string>
+    <string name="autostart_on_boot_up">Rozruchu</string>
+    <string name="autostart_on_background">Tło</string>
+    <string name="autostart_on_boot_up_and_background">Rozruch/Tło</string>
+    <string name="autostart_detail_title">Autostart w sytuacji(ach):</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="ignore_list_act_title">Lista Ignorowana</string>
+    <string name="add_to_ignore_list_act_title">Dodaj do Listy Ignorowanej</string>
+    <string name="dialog_memory_footprint">Użyta Pamięć</string>
+    <string name="dialog_add_to_ignorelist">Dodaj do Listy Ignorowanej</string>
+    <string name="dialog_remove_from_ignorelist">Usuń z Listy Ignorowanej</string>
+    <string name="tip_ignore_list_appunchecked">Te aplikacje zostaną domyślnie odznaczone po zeskanowaniu.</string>
+    <string name="tip_ignore_list_appadd">Dotknij \'+\' aby dodać ignorowaną aplikację.</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443">%s&lt;/font> nie będzie skanowany.</string>
+    <string name="clean_ignore_empty_tips">Przyciśnij dłużej pliki śmieci, aby dodać je do Listy Ignorowanych.</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">Manager Aplikacji</string>
+    <string name="app_manager_my_backups">Moje Kopie Zapasowe</string>
+    <string name="app_manager_others">Inne</string>
+    <string name="app_manager_back_up_success_tips">Aplikacja została zapisana do:</string>
+    <string name="app_manager_back_up_success_tips_for_one">Aplikacja została zapisana do:</string>
+    <string name="app_manager_back_up_fail_tips">Aplikacje nie powiodły się</string>
+    <string name="app_manager_back_up_fail_tips_for_one">Aplikacje nie powiodły się</string>
+    <string name="app_manager_pre_installed_apps">Aplikacje zainstalowane fabrycznie</string>
+    <string name="app_manager_backing_up">Tworzenie kopii zapasowej</string>
+    <string name="app_manager_running">Działające</string>
+    <string name="app_manager_stop">Zatrzymane</string>
+    <string name="app_manager_apps_running">Działające Aplikacje</string>
+    <string name="app_manager_apps_desc">Wyłączenie fabrycznie zainstalowanych aplikacji, które są rzadko używane pomaga zmniejszyć zużycie.</string>
+    <string name="app_manager_path">Ścieżka</string>
+    <string name="app_manager_no_backup_found">Nie znaleziono kopii zapasowej</string>
+    <string name="app_manager_tap_to_disable">Dotknij Wyłącz/Wyłącz, aby wyłączyć</string>
+    <string name="app_manager_tap_to_enable">Dotknij Włącz, aby włączyć</string>
+    <string name="app_manager_select_app_first">Proszę najpierw wybrać aplikacje</string>
+    <string name="app_manager_shit">OK</string>
+    <string name="app_manager_freed">Uwolniony</string>
+    <string name="app_manager_use_rare_month">Rzadko używane w miesiącu</string>
+    <string name="app_manager_use_rare_days">Rzadko używane w ciągu %s dni</string>
+    <string name="app_manager_use_commonly">Często używane</string>
+    <string name="app_manager_android_system">System Androida</string>
+    <string name="app_manager_use_rare">Rzadko Używane</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Aplikacje Użytkownika</string>
+    <string name="app_manager_tab_system">Zainstalowane fabrycznie</string>
+    <string name="app_manager_tab_text_date">Data</string>
+    <string name="app_manager_tab_text_frequance">Częstotliwoś</string>
+    <string name="app_manager_tab_text_size">Rozmiar</string>
+    <string name="app_manager_tab_text_battery">Bateria</string>
+    <string name="app_manager_tab_text_name">Nazwa</string>
+    <string name="app_manager_dialog_cancel">Anuluj</string>
+    <string name="app_manager_dialog_backup">Kopia Zapasowa</string>
+    <string name="app_manager_dialog_uninstall">Odinstaluj</string>
+    <string name="app_manager_preinstall_noyice"><![CDATA[&nbsp&nbsp&nbsp&nbsp<font color="#76B54B"> %s Apps running </font> Disabling reduces consumption. It is completely safe]]></string>
+    <string name="app_manager_no_uerapp">Brak Aplikacji</string>
+    
+    <string name="app_manager_preinstall_disbale_list">Aplikacje Wyłaczone</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Wyłączone</string>
+    <string name="app_manager_preinstall_reommend_disable">% użytkownicy wyłączeni</string>
+    <string name="app_manager_preinstall_reommend_keep">Zalecane utrzymania</string>
+    <string name="app_manager_preinstall_reommend_none">Pozostaw tak, jak jest</string>
+    <string name="app_manager_preinstall_tip">Wyłączenie fabrycznie zainstalowanych aplikacji, które są rzadko używane zmniejsza zużycie.</string>
+    <string name="app_manager_preinstall_disable_toast">zostało wyłączone.</string>
+    <string name="app_manager_preinstall_enable_toast">zostało włączone.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Wyłącz partię</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Ostrzeżenie
+       </string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[Disabling this app might <font color="#fe6969">affect normal function</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Jesteś pewien, że chcesz to wybrać?</string>
+    <string name="app_manager_preinstall_disable_loading">Ładowanie&#8230;</string>
+    <string name="diable_lab_dialog_title">Z Speed+ Lab</string>
+    <string name="diable_lab_dialog_content_text"><![CDATA[You\'re invited to try our Lab feature: <font color="#76b54b">Batch Disabling Pre-installed Apps. </font>Any issues, write us feedback and let\'s improve it together!]]></string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">Pliki Śmieci</string>
+    <string name="clean_main_suggest">Zasugerowane</string>
+    <string name="clean_main_selected">Wybrane</string>
+    <string name="clean_dialog_title">Ostrzeżenia</string>
+    <string name="clean_dialog_message1">Wybrany plik zawiera poniższe treści:</string>
+    <string name="gallery_thumbnails">Galeria Miniatur</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">Po usunięciu będzie wolniejsze podczas ładowania galerii.</string>
+    <string name="clean_group_residue">Pliki Resztkowe</string>
+    <string name="clean_group_cache">Pliki Cache</string>
+    <string name="clean_group_temp">Systemowe Pliki Tymczasowe</string>
+    <string name="clean_group_apk">Przestarzałe aplikacje</string>
+    <string name="clean_group_big_file">Duże Pliki</string>
+    <string name="clean_done_tips">Wyczyszczone</string>
+    <string name="clean_dialog_app_cache_yes_btn">Czyszczenie Manualne</string>
+    <string name="clean_dialog_folder_yes_btn">Widok</string>
+    <string name="clean_dialog_file_yes_btn">Otwórz</string>
+    <string name="clean_dialog_media_yes_btn">Graj</string>
+    <string name="clean_dialog_message_size">Rozmiar</string>
+    <string name="clean_dialog_message_contain">Zawiera</string>
+    <string name="clean_dialog_message_path">Ścieżka</string>
+    <string name="clean_dialog_message_file">pliki</string>
+    <string name="clean_dialog_message_folder">foldery</string>
+    <string name="clean_done_none_tips">Świetnie</string>
+    <string name="clean_dialog_btn_all">Wybierz i tak</string>
+    <string name="clean_dialog_btn_next">Sprawdź ponad</string>
+    <string name="clean_group_app_cache">Cache aplikacji</string>
+    <string name="clean_group_ad">Śmieciowa reklama</string>
+    <string name="clean_group_memory">Śmieci pamięci</string>
+    <string name="clean_item_sys_cache">Cache systemu</string>
+    <string name="clean_file_browser_no_files">Brak plików</string>
+    <string name="clean_days_ago"> dni temu</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969">Uważaj! &lt;/font>%1$s</string>
+    <string name="clean_subitem_detail_connect">To jest %1$s z %2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443">Twoje pliki nie zostaną zmienione po czyszczeniu.&lt;/font></string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443">Czyszczenie jest całkowicie bezpieczne.&lt;/font></string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969">Nie zostaną ponownie pobrane.&lt;/font></string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969">Czyszczenie usunie je na zawsze!&lt;/font></string>
+    <string name="junk_clean_setting">Czyszczenie śmieci</string>
+    <string name="clean_ignore_title">Pliki śmieciowe Listy Ignorowanych</string>
+    <string name="clean_ignore_list_tips">Te pozycje nie będą skanowane jako pliki śmieciowe</string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Czysty</string>
+    <string name="uninstall_dialog_message_1">%1$s left &lt;front color="#85c443">%2$s&lt;/font> pozostałe pliki.</string>
+    <string name="uninstall_dialog_message_2">Zawiera: </string>
+    <string name="uninstall_clean_tips">&#160;pozostałe pliki zostały oczyszczone!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">Ustawienia</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Feedback</string>
+    <string name="container_hint_setting_feedback">Tutaj proszę wpisać uwagi, podaj tak wiele szczegółów, jak to możliwe. Zawsze słuchamy i poprawiamy.</string>
+    <string name="mial_hint_setting_feedback">Email</string>
+    <string name="notice_setting_feedback">Model telefonu i wersja będą zbierane do diagnozowania problemu. Nigdy nie gromadzimy danych osobowych bez zgody.</string>
+    <string name="no_contain_setting_feedback">Cześć, powiedz coś?</string>
+    <string name="sendok_setting_feedback">Dziękujemy za feedback!</string>
+    <string name="checknet_setting_feedback">Proszę sprawdzić swoje połączenie sieciowe.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">&lt;u>Polub nas na facebooku&lt;/u></string>
+    <string name="googleplus_about_setting">&lt;u>Dołącz do Google+&lt;/u></string>
+    <string name="googleplay_about_setting">&lt;u>Oceń nas na GooglePlay&lt;/u></string>
+    <string name="title_about_setting">O nas</string>
+    <string name="share_setting_about">Z Speed+ sprawia, że mój telefon jest szybszy i czystszy. Spróbuj! Pobierz: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014&#8211;2015 ZERO Team. Wszystkie prawa zastrzeżone.</string>
+    <string name="law_jump_setting_about">&lt;u>Polityka Prywatności&lt;/u></string>
+    <string name="share_title_setting_about">podziel się Z Speed+</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">Nie można otworzyć połączenia</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Widget Pływający</string>
+    <string name="title_notice">Powiadomienia</string>
+    <string name="enable_widget_setting_setting">Dostępny</string>
+    <string name="hide_widget_setting_setting">Ukryj w czasie na pasku stanu</string>
+    <string name="show_widget_setting_setting">Pokaż tylko na pulpicie</string>
+    <string name="memory_setting_setting">Potrzebna Pamięć Boost</string>
+    <string name="storge_setting_setting">Wyczerpuje się miejsce w schowku</string>
+    <string name="junk_setting_setting">Pozostałości niepotrzebnych plików</string>
+    <string name="autostart_setting_setting">Prośba o nowy autostart</string>
+    <string name="ignore_setting_setting">Lista Ignorowana</string>
+    <string name="memery_boost_setting_setting">Włączone aplikacje</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">Ogólne</string>
+    <string name="menu_general_setting_language">Język</string>
+    <string name="menu_general_setting_shortcut">Stwórz Skrót</string>
+    <string name="menu_junk_setting">Pliki śmieciowe</string>
+    <string name="menu_junk_setting_scan_memory">Skanuj śmieci pamięci</string>
+    <string name="menu_join_uep_plan">&lt;u>Program doświadczenia użytkownika&lt;/u></string>
+    <string name="menu_smart_boost">Sprytne ulepszenie</string>
+    <string name="smart_boost_screen_lock">Sprytne ulepszenie na blokadzie ekranu</string>
+    <string name="smart_boost_show_result">Pokaż wyniki po sprytnym ulepszeniu</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Wyłączyć Widget Pływający?</string>
+    <string name="float_hide_float_message">Można również ukryć pływających widget do czasu na pasku stanu.</string>
+    <string name="float_dialog_ok">OK</string>
+    <string name="float_dialog_cancel">Anuluj</string>
+    <string name="float_dialog_hide_ok">Spróbuj!</string>
+    <string name="float_dialog_hide_cancel">Mimo wszystko wyłącz</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Brak uprawnień. Operacja nie powiodła się!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram">Dostępna pamięć jest mniejsza niż %s%%</string>
+    <string name="notification_boost">Rozbudowa</string>
+    <string name="notification_release_more"><![CDATA[%s MB Freed. <font color="#85c443">Release More!</font>]]></string>
+    <string name="notification_boost_phone_optimum"><![CDATA[Your phone is at its optimum. <font color="#85c443">More Features!</font>]]></string>
+    <string name="notification_ram_black">&lt;font color="#1d1d1d">Dostępna pamięć to &lt;/font>&lt;font color="#fe6969">&lt;b>mniej niż %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_white">&lt;font color="#ffffff">Dostępna pamięć to &lt;/font>&lt;font color="#fe6969">&lt;b>mniej niż %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"> %s aplikacje &lt;/font>&lt;font color="#fe6969">rozładowują baterię&lt;/font></string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"> %s aplikacje &lt;/font>&lt;font color="#fe6969">rozładowują baterię&lt;/font></string>
+    <string name="notification_ram_help_line2">Ulepsz, aby zaoszczędzić życie baterii</string>
+    <string name="notification_sdcard">Twoja pamięć się zmniejsza. Stuknij, aby wyczyścić!</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d">Przestrzeń się zmniejsza.&lt;/font>&lt;font color="#fe6969">&lt;b>Pozostało jedynie %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff">Przestrzeń się zmniejsza.&lt;/font>&lt;font color="#fe6969">&lt;b>Pozostało jedynie %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_release_sleep">Przyśpiesz do %s MB podczas spoczynku</string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d">Urządzenie &lt;/font>&lt;font color="#fe6969">&lt;b>działa wolniej&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff">Urządzenie &lt;/font>&lt;font color="#fe6969">&lt;b>działa wolniej&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block2">Aplikacja bardzo zużywa procesor</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d">Procesor jest &lt;/font>&lt;font color="#fe6969">&lt;b>poważnie przegrzany&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff">Procesor jest &lt;/font>&lt;font color="#fe6969">&lt;b>poważnie przegrzany&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat2">Aplikacja nienormalnie okupuje procesor</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d">Temperatura procesora &lt;/font>&lt;font color="#fe6969">&lt;b>gwałtownie się podnosi&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff">Temperatura procesora &lt;/font>&lt;font color="#fe6969">&lt;b>gwałtownie się podnosi&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp2">Aplikacja nienormalnie okupuje procesor</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#1d1d1d">śmieci zajmują miejsce&lt;/font></string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#ffffff">śmieci zajmują miejsce&lt;/font></string>
+    <string name="notification_clean_scan_message">Wyczyść, aby zwolnić przestrzeń telefonu</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969">Powstał nowy &lt;/font>&lt;font color="#1d1d1d">śmieć&lt;/font></string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969">Powstał nowy &lt;/font>&lt;font color="#ffffff">śmieć&lt;/font></string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d">Najlepsza aplikacja pogodowa dla ciebie&lt;/font></string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff">Najlepsza aplikacja pogodowa dla ciebie&lt;/font></string>
+    <string name="notification_go_weather_message">Nowe widżety bożonarodzeniowe!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d">Znudzony domyślą wiadomością?&lt;/font></string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff">Znudzony domyślą wiadomością?&lt;/font></string>
+    <string name="notification_go_sms_message">Dostosuj teraz swoją własną wiadomość!</string>
+    <string name="go_launcher">GO Launcher Z</string>
+    <string name="go_weather">GO Weather - Widżet prognozy pogody</string>
+    <string name="go_weather_done_message">Zapewnia obecną i przyszłą informację pogodową, piękne widżety i żywe tapety.</string>
+    <string name="notification_guide_text">Włącz swój własny przełącznik</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Otwórz jako</string>
+    <string name="filetype_text">Tekst</string>
+    <string name="filetype_video">Wideo</string>
+    <string name="filetype_audio">Audio</string>
+    <string name="filetype_image">Obraz</string>
+    <string name="filetype_music">Muzyka</string>
+    <string name="filetype_document">Dokument</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">Kompresja</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Nowa Wersja</string>
+    <string name="update_update">Aktualizuj</string>
+    <string name="update_later">Później</string>
+    <string name="update_cancel">Anuluj</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">Boost</string>
+    <string name="shortcut">Skrót</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">Po Uruchomieniu</string>
+    <string name="auto_start_on_connectivity_change">Gdy zmienia się sieć</string>
+    <string name="auto_start_on_package_changed">Gdy zmienia się status aplikacji</string>
+    <string name="auto_start_on_package_added">gdy instaluje aplikacje</string>
+    <string name="auto_start_on_package_removed">Gdy odinstalowuje aplikacje</string>
+    <string name="auto_start_on_package_replaced">Gdy zmienia aplikacje</string>
+    <string name="auto_start_on_any_data_state">Gdy zmienia się data</string>
+    <string name="auto_start_on_outgoing_call">Podczas rozmów wychodzących</string>
+    <string name="auto_start_on_phone_state_changed">Podczas odkładania słuchawki</string>
+    <string name="auto_start_on_user_present">Kiedy odblokowuje</string>
+    <string name="auto_start_on_wifi_state_change">Gdy łączy się z Wi-Fi</string>
+    <string name="auto_start_on_wifi_enable_change">Gdy włącza/wyłącza Wi-Fi</string>
+    <string name="auto_start_on_time_set">Gdy ustawiony jest czas</string>
+    <string name="auto_start_on_bluetooth_state_change">Gdy zmienia się status Bouetooth</string>
+    <string name="auto_start_on_power_connected">Gdy podłączony jest kabel zasilający</string>
+    <string name="auto_start_on_power_disconnected">Gdy odłączony jest kabel zasilający</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">Włącz powiadomienia</string>
+    <string name="notification_toggle_nocal">Kalkulator nie znaleziony!</string>
+    <string name="notification_toggle_open">Z Speed+ Powiadomienia Włączone.</string>
+    <string name="notification_toggle_noflash">twoje urządzenie nie ma FlashLight!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">Z Speed+ Wsparcie %s, zastosuj teraz?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Błąd w połączeniu.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">Nie udało się pobrać języka.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Przechowywanie</string>
+    <string name="storage_main_act_details">Szczegóły</string>
+    <string name="storage_main_act_tab_used_space">Uzyte Przechowywanie</string>
+    <string name="storage_main_act_tab_app_total">%s Aplikacje</string>
+    <string name="storage_main_act_tab_audio_total">%s Muzyka</string>
+    <string name="storage_main_act_tab_image_total">%s Zdjęcia</string>
+    <string name="storage_main_act_tab_document_total">%s Dokumenty</string>
+    <string name="storage_main_act_tab_other_total">Inne</string>
+    <string name="file_category_image_title">Zdjęcia</string>
+    <string name="file_category_image_delete_dialog_msg_1">plik(i) będzie(ą) usunięte.</string>
+    <string name="file_category_image_delete_dialog_msg_2">Usunięty(e) plik(i) nie może(gą) być przywrócony(e)!</string>
+    <string name="file_category_video_no_content">Brak filmu</string>
+    <string name="file_category_video_delete_msg">Filmy zostaną usunięte.</string>
+    
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">%s filmów w sumie</string>
+    <string name="video_title_selected">%s wybranych filmów</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Muzyka</string>
+    <string name="music_group_music">Muzyka</string>
+    <string name="music_group_rings">Dzwonki</string>
+    <string name="music_group_record">Nagranie</string>
+    <string name="music_dialog_title">Ostrzeżenie</string>
+    <string name="music_dialog_delete_cancel">Anuluj</string>
+    <string name="music_dialog_delete_delete">Usuń</string>
+    <string name="music_dialog_delete_notice">plik(i) będzie(ą) usunięty(e).</string>
+    <string name="music_dialog_delete_notice_below">Usunięty(e) plik(i) nie może(gą) być przywrócony(e)!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">Dokumenty</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">INNE</string>
+    <string name="image_dialog_title">Usuń</string>
+    <string name="image_dialog_text1">Ten plik zostanie usunięty.</string>
+    <string name="image_dialog_text2">Jesteś pewny?</string>
+    <string name="image_no_selected">Nie wybrano plików.</string>
+    <string name="image_size_notice">%s zostało wyczyszczone!</string>
+    <string name="image_delete_layout_text">Usuń(%s)</string>
+    <string name="image_delete_ok">Yes</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Pliki nie moga być usunięte.</string>
+    <string name="no_app_to_open_file">Żadna aplikacja nie może otworzyć pliku</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Przeciągnij tutaj, aby przyspieszyć swój telefon.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">Wyłączenie</string>
+    <string name="disable_apps_done_disable_count">%s jest wyłączany!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">Z Speed+ utrzymuje je nieaktywne</string>
+    <string name="disable_apps_wait_to_stop_tips">mocno stara się zatrzymać, czekaj&#8230;</string>
+    <string name="disable_list_no_app_tip">Brak wyłączonych aplikacji</string>
+    <string name="disable_group_most_disable_title">Większość wyłączona</string>
+    <string name="disable_group_recommend_keeping_title">Poleć kontynuowanie</string>
+    <string name="disable_group_recommend_keeping_subtitle">Wyłączenie może spowodować błędy systemu</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Wyłącz</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Włącz</string>
+    <string name="disable_app_info_dialog_consuming_tip">Ta aplikacja zużywa pamięć systemu</string>
+    <string name="disable_app_info_dialog_system_error_tip">Wyłączenie może spowodować błędy systemu</string>
+    <string name="disable_app_info_dialog_no_statement">Możesz spróbować wyłączyć ją, jeśli nie jest potrzebna</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Usługa preinstalowana przez producenta</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&#60;10%</string>
+    
+    <!-- 广告 -->
+    <string name="ad_install_now">Zainstaluj teraz</string>
+    
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Pozdrowienia!</string>
+    <string name="rate_gp_dialog_feedback_title">Opinia</string>
+    <string name="rate_gp_dialog_rate_title">Love Z Speed+</string>
+    <string name="rate_gp_dialog_one_notice_boost">W ostatnich %1$s dniach, Z Speed+ zabił &lt;font color="#85c443"> %2$s &lt;/font>dla ciebie spowalniających aplikacji.&lt;br /> &lt;br/> &lt;font color="#85c443">Lubisz Z Speed+?&lt;/font></string>
+    <string name="rate_gp_dialog_one_no_boost">Raczej nie</string>
+    <string name="rate_gp_dialog_one_yes_boost">Tak!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Właśnie skutecznie wyczyściłeś &lt;font color="#85c443"> %s &lt;/font> śmieci! &lt;br /> &lt;br/>Jaki jest dla ciebie Z Speed+?</string>
+    <string name="rate_gp_dialog_one_no_clean">Nie doskonały</string>
+    <string name="rate_gp_dialog_one_yes_clean">Uwielbiam go!</string>
+    <string name="rate_gp_dialog_two_notice">Zechciałbyś podzielić się swoją opinią? \nKażde twoje słowo jest dla nas ważne.</string>
+    <string name="rate_gp_dialog_two_no">Nie, dzięki</string>
+    <string name="rate_gp_dialog_two_yes">OK, pewnie</string>
+    <string name="rate_gp_dialog_three_notice">Może zatem dasz nam 5 gwiazdek?</string>
+    <string name="rate_gp_dialog_three_no">Nie, dzięki</string>
+    <string name="rate_gp_dialog_three_yes">OK, pewnie</string>
+    <string name="rate_gp_notification_notice">Do tej pory zabiłeś %s spowalniających aplikacji. Chcesz sprawdzić?</string>
+   
+    <!-- 启动页 -->
+    <string name="privacy_policy">&lt;u>Polityka prywatności&lt;/u></string>
+    <string name="private_agreement">Zgadzam się z&#160;</string>
+    <string name="private_start">START</string>
+    <string name="private_join_uep">&lt;u>Program doświadczenia użytkownika&lt;/u></string>
+    <string name="privacy_start_by_agree_policy">Zgadzam się z &lt;u>Polityką prywatności&lt;/u></string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+    
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">zainstalowano, wyczyść niepotrzebne apk, aby zapisać</string>
+    <string name="install_listen_installed_multiple_msg">Zainstalowane aplikacje, wyszyść niepotrzebne apki, aby zapisać</string>
+    <string name="install_listen_delete_apk_tip">Wyczyszczone</string>
+    <string name="install_listen_dialog_clean_btn_text">Czyść</string>
+    <string name="install_listen_dialog_cancel_btn_text">Anuluj</string>
+    <string name="install_listen_dialog_eye_tip_on">Nie pytaj przez 3 dni</string>
+    <string name="install_listen_dialog_eye_tip_off">Nadal mnie pytaj</string>
+    
+     <!-- 游戏加速 -->
+    <string name="game_boost_title">Ulepszenie gry</string>
+    <string name="game_boost_add_to_game_title">Dodaj grę</string>
+    <string name="game_boost_effect">Ulepszenie &lt;font color="#85c443">%s &lt;/font> większości uruchomionej RAM dla gier.</string>
+    <string name="game_cell_add">Dodaj grę</string>
+    <string name="game_cell_ok">Ok</string>
+    <string name="game_boost_menu_about">Jak to działa</string>
+    <string name="game_boost_menu_add_shutcut">Utwórz folder gry</string>
+    <string name="game_boost_folder_create_success">Pomyślnie utworzono folder gier.</string>
+    <string name="game_boost_box_shortcut_name">Ulepsz grę</string>
+    <string name="game_boost_box_shortcut_name_new">Moje gry</string>
+    <string name="game_boost_add_card_view_title_popular">Popularne gry</string>
+    <string name="game_boost_add_new_game_to_boost">%s dodano do Ulepszenia gry</string>
+    <string name="game_boost_add_new_games_to_boost">%s nowych gier dodano do Ulepszenia gry</string>
+    <!-- 游戏加速介绍 -->
+    <string name="game_boost_about_one">Sprytnie i automatycznie zamknij niepowiązane aplikacje w tle, które wpływają na wydajność gry.</string>
+    <string name="game_boost_about_two">Dynamicznie monitoruj swój telefon i wyczyść niepotrzebną RAM.</string>
+    <string name="game_boost_about_three">Otwórz gry z folderu gier Z Speed+ dla launchera. Ulepsz swoją grę o 20~65%.</string>
+    
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Ulepszanie&#8230;</string>
+    <string name="game_accel_anim_boost_toast_tip">Ulepszono do %s%%.</string>
+    
+     <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">Problemy procesora</string>
+    <string name="cpu_fix">NAPRAW</string>
+    <string name="cpu_check">Sprawdź</string>
+    <string name="cpu_issue_type_temp_overheated">Przegrzany!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Szybko rośnie!</string>
+    <string name="cpu_issue_type_heavily_occupied">Mocno zajęty procesor!</string>
+    <string name="cpu_temp_issue_app">powoduje problem</string>
+    <string name="cpu_occupied_issue_app">Zużywa &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+    
+     <!-- cpu页面 -->
+    <string name="cpu_cooler">Chłodnica procesora</string>
+    <string name="cpu_coll_down_cpu">Ochłódź procesor</string>
+    <string name="cpu_temperature_issue">Problem temperatury</string>
+    <string name="cpu_device_running_slow">Urządzenie działa wolno</string>
+    <string name="cpu_issue_detected">Wykryty problem</string>
+    <string name="cpu_cool_down_further">Chłódź dalej, czyść %s uruchomionych aplikacji</string>
+    <string name="cpu_temp_well">Temp. procesora OK?</string>
+    <string name="cpu_temp_hot">Trochę zbyt gorący</string>
+    <string name="cpu_temp_overheated">Przegrzany</string>
+    <string name="cpu_temp_chilling">Schładzanie</string>
+    <string name="cpu_temp_cooler">Chłodnica procesora</string>
+    <string name="cpu_occupy">Zajmuje &lt;font color="#D46565"> %s &lt;/font> procesor</string>
+    <string name="cpu_abnormal">Nienormalne zużycie procesora: &lt;font color="#D46565"> %s &lt;/font></string>
+    
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Właśnie zoptymalizowano</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Zostaw urządzenie przez chwilę dla ochłodzenia</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Brak grzejących aplikacji</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Urządzenie się chłodzi</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Grzejące aplikacje wyczyszczone</string>
+    <string name="cpu_anim_cooldown_done_dropped">Upuszczone</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Rozpoczynanie chłodzenia down&#8230;</string>
+    <string name="cpu_anim_scan_process_tip_text">Skanowanie procesora &#8230;</string>
+    <string name="cpu_anim_lag_done_tip_text">Ulepszono!</string>
+    
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">Sprawdź połączenie sieciowe i spróbuj ponownie</string>
+    
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Wypróbuj Ulepszenie gry</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Skuteczne utworzono Ulepszenie Gry na ekranie, sprawdź je :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Włączone</string>
+    <string name="finish_page_card_game_booster_desc">Prezent graczy! Najskuteczniejsza funkcja chłodzenia gry</string>
+    <string name="finish_page_card_game_booster_desc_single_game">Aktywuj Ulepszenie gry, aby przyśpieszyć &lt;big>%s&lt;/big> do 65%% ?</string>
+    <string name="finish_page_card_game_booster_btn">Wypróbuj</string>
+
+    <string name="finish_page_card_whitelist_name">Co nie zostało zabite</string>
+    <string name="finish_page_card_whitelist_desc">Ważne aplikacjena Liście ignorowanych nie zostaną zabite przez ulepszenie. Ta lista jest nieedytowalna.</string>
+    <string name="finish_page_card_whitelist_btn">Sprawdź to</string>
+    <string name="finish_page_card_autostart_name">Znaleziono autostart</string>
+    <string name="finish_page_card_autostart_desc">&lt;big>%s&lt;/big> Aplikacja(e) autostartu do zoptymalizowania</string>
+    <string name="finish_page_card_autostart_btn">Sprawdź</string>
+    <string name="finish_page_card_photo_name">Uporządkuj zdjęcia</string>
+    <string name="finish_page_card_photo_desc">Ponad &lt;big>%s zdjęć&lt;/big> zostało zabranych, ale może nie wszystkie z nich są warte miejsca?</string>
+    <string name="finish_page_card_photo_btn">Uporządkuj</string>
+    <string name="finish_page_card_clean_1_name">Śmieci do czyszczenia</string>
+    <string name="finish_page_card_clean_1_desc">Niegrzeczny telefon wygenerował później &lt;big>%s&lt;/big> śmieci</string>
+    <string name="finish_page_card_clean_1_btn">Czyść</string>
+    <string name="finish_page_card_clean_2_name">&lt;big>%s&lt;/big> Znaleziono śmieci</string>
+    <string name="finish_page_card_clean_2_desc">Po czyszczeniu, zabranych zostanie ponad &lt;big>%s&lt;/big> nowych zdjęć</string>
+    <string name="finish_page_card_clean_2_btn">Czyść teraz</string>
+    <string name="finish_page_card_activate_power_mode_title">%s aplikacji &lt;big>auto-started&lt;/big></string>
+    <string name="finish_page_card_activate_power_mode_desc">Aktywuj &lt;big>Tryb mocyP&lt;/big>, aby je obsłużyć</string>
+    <string name="finish_page_card_activate_power_mode_btn">Aktywuj</string>
+    <string name="finish_page_card_feedback_name">Powiedz nam, co myślisz</string>
+    <string name="finish_page_card_feedback_desc">Ulubiona funkcja, sugestia, cokolwiek</string>
+    <string name="finish_page_card_feedback_btn">Opinia</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Ulepsz telefon</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Darmowa dodatkowa pamięć, aby przyśpieszyć telefon</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Ulepsz</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big>%s%% pozostałej &lt;/big> pamięci</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s uruchomionych aplikacji zużyło energię, telefon mógł być bardzo wolny</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Ulepsz teraz</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Wyłącz preinstalowane</string>
+    <string name="finish_page_card_disable_desc">%1$s preinstalowanych aplikacji &lt;big>%2$s&lt;/big> może być wyłączonych</string>
+    <string name="finish_page_card_disable_btn">Sprawdź</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Sprawdź, co się sekretnie uruchamia przy starcie</string>
+    <string name="finish_page_no_ad_clean2_tips">Śmieci wolno spowolnią telefon</string>
+    <string name="finish_page_no_ad_clean1_tips">Śmieci muszą być czyszczone codziennie</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">Gry również muszą być ulepszone!</string>
+    <string name="finish_page_no_ad_disable_tips">Niektóre preinstalowane są naprawdę bezużyteczne</string>
+    <string name="finish_page_no_ad_photo_tips">Można by zaoszczędzić wiele miejsca!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">Tryb mocy może zatrzymać oporne!</string>
+    <string name="finish_page_no_ad_whitelist_tips">Nie zabij przypadkowo aplikacji, które potrzebujesz!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">Telefon działa powoli</string>
+    <string name="finish_page_no_ad_boost_normal_tips">Telefon mógłby być szybszy</string>
+    
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">Dodaj gry</string>
+    <string name="game_accel_guide_title">Ulepszenie gry</string>
+    <string name="game_accel_guide_text2">zostało aktywowane</string>
+    <string name="game_accel_guide_try_text">Stuknij, by wypróbować!</string>
+    <string name="game_accel_guide_gamename_1">Utworzono skrót</string>
+    <string name="game_accel_guide_gamename_2">Otwórz na Pulpicie</string>
+    <string name="game_accel_guide_gamename_3">Skanowanie gier…</string>
+    <string name="game_accel_guide_discovery_text_above">Kanał Z</string>
+    <string name="game_accel_guide_discovery_text_below">tutaj również</string>
+    <string name="game_accel_sec_anim_title">GRY</string>
+    <string name="game_accel_shortcut_created">Utworzono</string>
+    <string name="game_accel_tip_dialog_content_text">Chciałbyś aktywować Ulepszenie gry, aby pomóc sobie \"%s\" o nawet 40%%?</string>
+    <string name="game_accel_tip_dialog_content_text_new">Aktywuj Ulepszenie gry, aby przyśpieszyć do &lt;font color="#85c443">\"%s\"&lt;/font> o nawet 65%%?</string>
+    <string name="game_accel_sort_name">Nazwa</string>
+    <string name="game_accel_sort_Date">Data</string>
+    <string name="game_accel_sort_Frequency">Częstotliwość</string>
+    <string name="game_accel_game_box_title">Zarządzaj grami</string>
+    <string name="game_accel_add_shortcut">Dodaj skrót</string>
+    
+     <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">ODKRYJ</string>
+    <string name="game_distribute_connection_failed">Połączenie nie powiodło się</string>
+    <string name="game_distribute_net_data_alert">Granie przez WIFI może zmniejszyć zużycie danych</string>
+    <string name="game_distribute_warning_title">Z Speed+ TV</string>
+    <string name="game_distribute_warning_content"> Obraz ruchu w filmach jest niesamowity.\nFilmy są wyświetlane wyłącznie dla praw domowych, ale również innych\n. Wszelkie stukanie lub oglądanie takich ruchomych obrazów jest mile widziane\n w Z Speed+. Zdecydowanie polecamy ci \n granie w gry przez rozsądny czas.</string>
+    <string name="game_distribute_video_title">Kanał</string>
+    <string name="game_distribute_game_searching">Szukanie gier...</string>
+    
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534">Wielkie aplikacje &lt;/font></string>
+    <string name="cpu_thieves_title">Top 3 &lt;font color="#6ac534">Dzisiejsi złodzieje procesora &lt;/font></string>
+    <string name="num_times">%s czasu</string>
+    
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Niezwykle niska dostępna pamięć!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+    <string name="home_guide_card_boost_button">Ulepsz teraz</string>
+
+    <string name="home_guide_card_photo_desc1">Robienie zdjęć jest łatwe</string>
+    <string name="home_guide_card_photo_desc2">ich usuwanie nie jest</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+    <string name="home_guide_card_photo_button">Czyść teraz</string>
+
+    <string name="home_guide_card_cpu_desc">Przegrzany procesor wysusza baterię</string>
+    <string name="home_guide_card_cpu_button">Ochłódź</string>
+
+    <string name="home_guide_card_disbale_desc">Uporządkuj preinstalowane!</string>
+    <string name="home_guide_card_disbale_desc2">Twój telefon mógłby być szybszy!</string>
+    <string name="home_guide_card_disbale_desc_big">%s aplikacji</string>
+    <string name="home_guide_card_disbale_button">Wyłącz teraz</string>
+    
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Ulepszanie Trybu mocy</string>
+    <string name="enable_super_boost_mode_normal">Normalne ulepszanie</string>
+    <string name="enable_super_boost_desc_super">&lt;b>Ulepsz:&lt;/b> Normalne aplikacje, &lt;mark>&lt;font color="red">Auto-uruchamiane aplikacje&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">Daje kolejne 60% ulepszonej mocy, jak zrootowane telefony.&lt;/font>&lt;/b>&lt;br>
+        (W następnym kroku włącz dostępność dla Z Speed+)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b>Ulepsz:&lt;/b> Normalne aplikacje, &lt;mark>&lt;font color="red">Auto-uruchamiane aplikacje&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">Daje kolejne 60% ulepszonej mocy, jak zrootowane telefony.&lt;/font>&lt;/b>&lt;br>
+        (W następnym kroku ponownie włącz dostępność dla Z Speed+)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b>Ulepsz:&lt;/b> Normalne aplikacje&lt;br>
+      Auto-uruchamiane aplikacje nie byłyby ulepszone z wyłączeniem trybu mocy.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">Ulepszanie mocy mojego telefonu teraz!</string>
+
+
+    <string name="enable_super_disable_mode_super">Partiowe wyłączenie</string>
+    <string name="enable_super_disable_mode_normal">Manualne wyłączenie</string>
+    <string name="enable_super_disable_desc_super">&lt;mark>&lt;font color="red">&lt;b>Funkcja:&lt;/b> Partiowe wyłączenie nieużytecznych aplikacji 1 klinięciem.&lt;/font> &lt;/mark>&lt;br>
+        (W następnym kroku ponownie włącz dostępność dla Z Speed+)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark>&lt;font color="red">&lt;b>Funkcja:&lt;/b> Partiowe wyłączenie nieużytecznych aplikacji 1 klinięciem.&lt;/font> &lt;/mark>&lt;br>
+        (Włącz ponownie przełącznik dla Z Speed+, ponieważ twój telefon został zrestartowany)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b>Funkcja:&lt;/b> Wyłącz nieużyteczne aplikacje 1 kliknięciem. &lt;br>
+                    &lt;mark>&lt;font color="red">Funkcja partiowego wyłączania dla łatwej kontroli jest silnie zalecana.&lt;/font> &lt;/mark>
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Włącz funkcję partiowego wyłączania</string>
+    
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Ustawienia powiadomienia Toggle</string>
+    <string name="notification_toggle_settings_label_themes">Motywy</string>
+    <string name="notification_toggle_settings_label_toggles">Toggle</string>
+    <string name="notification_toggle_settings_label_zspeed">KLASYCZNY</string>
+    <string name="notification_toggle_settings_label_popular">NAJPOPULARNIEJSZY</string>
+    <string name="notification_toggle_theme_name_green">Demeter</string>
+    <string name="notification_toggle_theme_name_pink">Atena</string>
+    <string name="notification_toggle_theme_name_black">Ereb</string>
+    <string name="notification_toggle_theme_name_silver">Uranu</string>
+    <string name="notification_toggle_theme_name_golden">Kronos</string>
+    <string name="notification_toggle_toggle_name_app">Dom</string>
+    <string name="notification_toggle_toggle_name_boost">Ulepsz</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">Latarka</string>
+    <string name="notification_toggle_toggle_name_brightness">Jasność</string>
+    <string name="notification_toggle_toggle_name_themes">Motywy</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">Dane</string>
+    <string name="notification_toggle_toggle_name_camera">Aparat</string>
+    <string name="notification_toggle_toggle_name_calculator">Kalkulator</string>
+    <string name="notification_toggle_toggle_name_rotate">Obróć</string>
+    <string name="notification_toggle_toggle_name_sound">Dźwięk</string>
+    <string name="notification_toggle_bright_auto">AUTO</string>
+    <string name="notification_toggle_notification_ticker">Pasek Z Speed+ w gotowości</string>
+    <string name="notification_toggle_notification_ticker_initializing">Pasek narzędzi jest inicjowany&#8230;</string>
+    
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Wpisywanie treści do wyszukiwania</string>
+    <string name="hot_word_search_next_batch">Więcej</string>
+    
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Zduplikowane zdjęcia</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s wyczyszczonych zdjęć!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Wszystkie zduplikowane zdjęcia wyczyszczone!</string>
+    <string name="duplicate_photos_delete_alert_title">Usuń na stałe</string>
+    <string name="duplicate_photos_delete_alert_desc">Jesteś pewny, że chcesz je usunąć na stałe?</string>
+    <string name="duplicate_photos_leave_alert_title">Na pewno wychodzisz?</string>
+    <string name="duplicate_photos_leave_alert_desc">Wybrałeś %s zdjęć do usunięcia.&lt;br>Na pewno chcesz wyjść?</string>
+    <string name="duplicate_photos_leave_alert_leave_btn">wyjście</string>
+    <string name="duplicate_photos_scan_alert">Skan może trochę potrwać, zaczekaj</string>
+    <string name="duplicate_photos_no_content">Gratulacje! Brak zduplikowanych zdjęć!</string>
+    <string name="duplicate_photos_suffix_selected">%s wybrane</string>
+    <string name="duplicate_photos_suffix_total">%s wszystkich zdjęć</string>
+    
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">Najlepsza gra tygodnia</string>
+    <string name="game_ad_notification_label_weekly_best_app">Najlepsza aplikacja tygodnia</string>
+    
+    <!-- app lock -->
+    <string name="activity_applock_title">BLOKADA APLIKACJI</string>
+    <string name="app_lock_perm_settings_title">Ustawienie</string>
+    <string name="app_lock_perm_settings_message">Prośba o pozwolenie</string>
+    <string name="app_lock_notice_enable_usage_stats">W przypadku Android 5.0 lub wyższego, musisz przyznać dostęp AppLock, aby użyć funkcji AppLock.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_notice_enable_usage_stats1">Jeśli konfiguracja się powiodła, włącz ją poprzez ustawienia Systemu > bezpieczeństwo > Aplikacje z dostępem użycia</string>
+    <string name="app_lock_enable_usage_stats">Pozwól</string>
+    <string name="install_app_mointor_locker">Musi być zablokowany</string>
+    <string name="locker_header_forget_pwd">Zapomniałem hasła</string>
+    <string name="locker_header_replce_number_locker">Zamień na blokadę hasłem</string>
+    <string name="locker_header_replce_graphic_locker">Zamień na blokadę wzorem</string>
+    <string name="initializationpassword_frist_prompt">ustaw hasło</string>
+    <string name="initializationpassword_second_prompt">Wprowadź hasło ponownie dla potwierdzenia</string>
+    <string name="initializationpassword_pwd_not_equals">Hasło nie pasuje, wprowadź je ponownie</string>
+    <string name="init_email_prompt">E-mail z zapomnianym hasłem</string>
+    <string name="init_email_prompt1">Wprowadź poprawny e-mail</string>
+    <string name="init_mail_btn_text">Następny</string>
+    <string name="forget_reset_pwd_success">Skutecznie zresetowano hasło</string>
+    <string name="activity_applock_group_apps">APLIKACJE</string>
+    <string name="activity_applock_menu_update">aktualizuj do Pro</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">Ustawienie Blokady Aplikacji</string>
+    <string name="app_lock_setting_parent_unlock_mode">Odblokuj tryb</string>
+    <string name="app_lock_setting_passcode">Hasło</string>
+    <string name="app_lock_setting_others">Inni</string>
+    <string name="app_lock_setting_unlock_mode_numbers">Numery</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Wzór</string>
+    <string name="app_lock_setting_passcode_change_passcode">Zmień hasło</string>
+    <string name="app_lock_setting_passcode_email_setting">Ustawienia e-maila</string>
+    <string name="app_lock_setting_others_brief_eixt">Dozwól szybkie wyjście</string>
+    <string name="app_lock_setting_others_relock">Zamknij ponownie po włączeniu ekranu</string>
+    <string name="app_lock_setting_brief_eixt_seconds">sekundy</string>
+    <string name="app_lock_setting_brief_eixt_minutes">minuty</string>
+    <string name="app_lock_setting_pro">Pro</string>
+    <string name="app_lock_setting_pro_update">aktualizuj do blokady master</string>
+     <!-- 应用锁找回密码 -->
+    <string name="forget_title">Zapomniałeś hasła</string>
+    <string name="forget_email_prompt1">1)Wyślemy ci kod weryfikacyjny na twój e-mail.</string>
+    <string name="forget_email_prompt2">2)Wprowadź kod weryfikacyjny i zdobądź hasło.</string>
+    <string name="forget_email_btn_prompt">Wyślij</string>
+    <string name="forget_email_btn_prompt2">Resetuj hasło</string>
+    <string name="forget_email_edit_prompt">Kod weryfikacyjny</string>
+    <string name="forget_check_code_not_right">Nieprawidłowy</string>
+    <string name="forget_check_code_out_of_time">Kod weryfikacyjny wygasł, wyślij prośbę ponownie.</string>
+    <string name="forget_send_email_error">Wysłanie e-maila nie powiodło się, spróbuj ponownie.</string>
+    <string name="forget_send_email_success">Pomyślnie wysłano e-mail, sprawdź swoją pocztę.</string>
+    <string name="set_graphic_password_message_draw">Narysuj wzór odblokowania</string>
+    <string name="set_graphic_password_message_too_short">Połącz przynajmniej 4 kropki. Spróbuj ponownie:</string>
+    <string name="set_graphic_password_message_stored">Wzór zapisany.</string>
+    <string name="set_graphic_password_message_redraw">Narysuj wzór ponownie, aby potwierdzić:</string>
+    <string name="set_graphic_password_btn_redraw">Spróbuj ponownie</string>
+    <string name="set_graphic_password_message">Ustawienia hasła</string>
+    <string name="set_graphic_password_message_wrong">Błąd, spróbuj ponownie:</string>
+    <string name="applock_recommend_dialog_title">Polecane aplikacje</string>
+    <string name="applock_recommend_dialog_lockall">Zablokuj wszystkie</string>
+    <string name="applock_recommend_dialog_ok">OK</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">Można użyć blokady prywatności Pro!</string>
+    <string name="lokcer_init_instruction_first">Ustawianie hasła do zablokowania twoich prywatnych aplikacji</string>
+    <string name="lokcer_init_instruction_second">Ponownie potwierdź swoje hasło</string>
+     <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">Blokada aplikacji</string>
+    <string name="finish_page_card_app_locker_desc">Trzymaj &lt;big>%s&lt;/big> i innych daleko od szpiegowania funkcją blokady aplikacji!</string>
+    <string name="finish_page_card_app_locker_btn">Zabezpiecz teraz</string>
+    <string name="finish_page_no_ad_app_lock_tips">Telefon mógłby być szybszy</string>
+    
+     <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff">%1$s&lt;/font></string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff">%1$s&lt;/font></string>
+</resources>

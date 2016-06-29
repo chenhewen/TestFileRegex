@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zboost="http://schemas.android.com/apk/res-auto"
+    android:background="#CC000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/game_boost_distribute_temp_title_bar"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="64dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/game_boost_distribute_header_main_icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/game_boost_distribute_tv_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/game_boost_distribute_header_main_icon2"
+            android:text="@string/game_distribute_discover"
+            android:textColor="#8affffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/game_boost_distribute_content_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.gto.zero.zboost.function.gameboost.view.XListView
+                android:id="@+id/game_boost_ads_listview"
+                android:divider="#00000000"
+                android:dividerHeight="0dp"
+                android:scrollbars="none"
+                android:listSelector="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/game_boost_distribute_content_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.gto.zero.zboost.function.gameboost.view.GameAccelLoadingView
+            android:id="@+id/xlistview_footer_progressbar"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            zboost:loading_width="40dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/game_boost_distribute_connection_fail"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/game_boost_distribute_noconnection_icon2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/game_boost_distribute_noconnection" />
+        <TextView
+            android:layout_below="@id/game_boost_distribute_noconnection_icon2"
+            android:layout_centerInParent="true"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_distribute_connection_failed"/>
+    </RelativeLayout>
+</RelativeLayout>

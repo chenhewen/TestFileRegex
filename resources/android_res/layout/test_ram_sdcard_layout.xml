@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/ram_value_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="ram pop pct:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/ram_value_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ram_value_textView" />
+
+    <TextView
+        android:id="@+id/sdcard_value_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ram_value_seekBar"
+        android:text="sdcard pop pct:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/sdcard_value_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sdcard_value_textView" />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/default_btn"
+        android:layout_marginLeft="23dp"
+        android:layout_toRightOf="@+id/default_btn"
+        android:text="ok" />
+
+    <Button
+        android:id="@+id/default_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sdcard_value_seekBar"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="48dp"
+        android:text="defaultValue" />
+
+</RelativeLayout>

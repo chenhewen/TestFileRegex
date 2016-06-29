@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/go_input_promote_cover_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000"/>
+
+    <LinearLayout
+        android:id="@+id/go_input_promote_dialog"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin"
+        android:background="@drawable/remote_pop_up_dialog_round_bg"
+        android:orientation="vertical"
+        android:paddingTop="24dp">
+
+        <ImageView
+            android:id="@+id/go_input_promote_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/go_input_prom_icon1"/>
+
+        <TextView
+            android:id="@+id/go_input_promote_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/go_input_prom_pop_theme_desc"
+            android:textColor="#4d4d4d"
+            android:textSize="14sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#ededed"/>
+
+        <TextView
+            android:id="@+id/go_input_promote_btn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/common_dialog_btn_selector"
+            android:gravity="center"
+            android:text="@string/go_input_prom_pop_theme_btn"
+            android:textColor="#02afea"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+</RelativeLayout>

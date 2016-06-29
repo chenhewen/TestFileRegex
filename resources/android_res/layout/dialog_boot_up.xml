@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="130dp">
+
+    <com.gto.zero.zboost.view.SlideDeleteView
+        android:id="@+id/boot_up_dialog_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/boot_up_dialog_shadow">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/boot_up_dialog_bg"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/boot_up_dialog_green_bg">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/boot_up_dialog_line_bg">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="9dp">
+
+                    <TextView
+                        android:id="@+id/boot_up_dialog_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:text="Booting Speed"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <RelativeLayout
+                        android:id="@+id/dialog_boot_up_desc_all"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/boot_up_dialog_title">
+
+                        <TextView
+                            android:id="@+id/dialog_boot_up_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="20s"
+                            android:textColor="@color/white"
+                            android:textSize="40sp"
+                            android:textStyle="bold"
+                            android:visibility="visible"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/dialog_boot_up_icon1"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginRight="8dp"
+                                android:scaleType="fitCenter"/>
+
+                            <ImageView
+                                android:id="@+id/dialog_boot_up_icon2"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginRight="8dp"
+                                android:scaleType="fitCenter"/>
+
+                            <ImageView
+                                android:id="@+id/dialog_boot_up_icon3"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginRight="8dp"
+                                android:scaleType="fitCenter"/>
+
+                            <ImageView
+                                android:id="@+id/dialog_boot_up_icon4"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginRight="8dp"
+                                android:scaleType="fitCenter"/>
+
+                            <ImageView
+                                android:id="@+id/dialog_boot_up_icon5"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:scaleType="fitCenter"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:visibility="gone"
+                        android:id="@+id/dialog_boot_up_intro_all"
+                        android:layout_marginTop="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/boot_up_dialog_title">
+
+                        <TextView
+                            android:id="@+id/boot_up_dialog_intro"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="left"
+                            android:maxLines="2"
+                            android:text="@string/boot_up_time_intro_desc"
+                            android:textColor="@color/white"
+                            android:textSize="14sp"
+                            android:textStyle="bold"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/boot_up_dialog_intro"
+                            android:layout_marginTop="6dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/dialog_boot_up_intr_icon1"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginRight="8dp"
+                                    android:scaleType="fitCenter"/>
+
+                                <ImageView
+                                    android:id="@+id/dialog_boot_up_intr_icon2"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginRight="8dp"
+                                    android:scaleType="fitCenter"/>
+
+                                <ImageView
+                                    android:id="@+id/dialog_boot_up_intr_icon3"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginRight="8dp"
+                                    android:scaleType="fitCenter"/>
+
+                                <ImageView
+                                    android:id="@+id/dialog_boot_up_intr_icon4"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginRight="8dp"
+                                    android:scaleType="fitCenter"/>
+
+                                <ImageView
+                                    android:id="@+id/dialog_boot_up_intr_icon5"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:scaleType="fitCenter"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/boot_up_dialog_intr_btn"
+                                android:layout_width="102dp"
+                                android:layout_height="36dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/boot_up_button_bg_selector"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:paddingBottom="6dp">
+
+                                <ImageView
+                                    android:id="@+id/boot_up_dialog_intr_btn_arrow"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="4dp"
+                                    android:src="@drawable/boot_up_boost_arrow"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/boot_up_optimize"
+                                    android:textColor="#434a54"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold"/>
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/boot_up_dialog_btn"
+                        android:layout_width="144dp"
+                        android:layout_height="36dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/boot_up_button_bg_selector"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingBottom="6dp">
+
+                        <ImageView
+                            android:id="@+id/boot_up_dialog_btn_arrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="4dp"
+                            android:src="@drawable/boot_up_boost_arrow"/>
+
+                        <TextView
+                            android:id="@+id/boot_up_dialog_btn_str"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/boot_up_optimize"
+                            android:textColor="#434a54"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/boot_up_dialog_question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:padding="6dp"
+                    android:src="@drawable/boot_up_question_icon"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.gto.zero.zboost.view.SlideDeleteView>
+</RelativeLayout>

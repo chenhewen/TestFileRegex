@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <color android:color="@color/simple_theme_background_color" />
+    </item>
+    <item android:drawable="@drawable/storage_main_act_bg" />
+</layer-list>

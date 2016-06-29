@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Z Speed+</string>
+    <string name="action_settings">Beállítások</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_yes">Igen</string>
+    <string name="common_no">Nem</string>
+    <string name="common_ok">OK</string>
+    <string name="common_select">Kiválaszt</string>
+    <string name="common_delete">Töröl</string>
+    <string name="common_others">Egyebek</string>
+    <string name="common_stop">Stop</string>
+    <string name="common_uninstall">Eltávolítás</string>
+    <string name="common_back_up">Biztonsági mentés</string>
+    <string name="common_cancel">Mégsem</string>
+    <string name="common_install">Telepítés</string>
+    <string name="common_installed">Telepítve</string>
+    <string name="common_vertion">Verzió</string>
+    <string name="common_update">Frissítés</string>
+    <string name="common_insufficient_storate">Kevés tárhely</string>
+    <string name="common_no_sdcard">SD kártya nem található</string>
+    <string name="common_warning">Figyelem</string>
+    <string name="common_no_content">Nincs tartalom</string>
+    <string name="common_comma">,</string>
+    <string name="common_period">.</string>
+    <string name="common_slogan">Gyorsíts fel jobban a telefonod</string>
+    <string name="common_download">Letöltés</string>
+    <string name="common_uninstalled">Eltávolítva</string>
+    <string name="common_more">Több</string>
+    <string name="common_on">BE</string>
+    <string name="common_off">KI</string>
+    <string name="common_new">új</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="available">Elérhető</string>
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">TÁRHELY</string>
+    <string name="main_button_boost">Memória-gyorsítás</string>
+    <string name="main_button_storage">Felesleges fájlok</string>
+    <string name="main_button_manage">Alkalmazásmenedzser</string>
+    <string name="main_ram_total">%s összesen</string>
+    <string name="main_storage_total">%s összesen</string>
+    <string name="tip_press_again_to_exit">Nyomd meg újra a kilépéshez</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Beállítások</string>
+    <string name="menu_update">Frissítés</string>
+    <string name="menu_feedback">Visszajelzés</string>
+    <string name="menu_about">Névjegy</string>
+    <string name="menu_shuffle">Keverés</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">Karácsony</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">Memória-gyorsítás</string>
+    <string name="boost_main_act_tab_running">Fut</string>
+    <string name="boost_main_act_tab_autostart">Automatikus indítás</string>
+    <string name="boost_running_apps_custom">%1$d alkalmazás kiválasztva</string>
+    <string name="boosting_memory_act_title">Memória-gyorsítás</string>
+    <string name="boosting_tips">Gyorsítás</string>
+    <string name="boosting_power_tips">Erősebb gyorsítás</string>
+    <string name="boosted_to_optimus_tips">Optimálisra gyorsítva!</string>
+    <string name="boosted_active_power_mode_tips">Hoppá! %1$d alkalmazás újra elindult magától.\nAktivál a Power módot a kezelésükhöz!</string>
+    <string name="enable_super_boost_enable">Engedélyezés</string>
+    <string name="enable_super_boost_title">Power mód engedélyezése</string>
+    <string name="enable_super_boost_main_text">A még hatékonyabb gyorsítás végett ajánlott bekapcsolni a Kisegítő lehetőségeket.</string>
+    <string name="enable_super_boost_content_text1" formatted="false">Így teljesen leállíthatóak vagy letilthatóak az alkalmazások.</string>
+    <string name="enable_super_boost_content_text2" formatted="false">Továbbá, az akkuhasználat is csökken.</string>
+    <string name="enable_super_boost_content_text3" formatted="false">A felhasználók több, mint 85%-a használja ezt.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">Érintse meg a Z Speed + -ot a szolgáltatásoknál.</string>
+    <string name="boost_groups_list_title_running_app">Futó alkalmazások</string>
+    <string name="boost_groups_list_title_cpu_temperature">CPU hőmérséklete</string>
+    <string name="boost_groups_list_title_lag_detected">Lassulást észleltem</string>
+
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Kapcsold be a fenti gombot a Z Speed+ Power módjának aktiválásához és a legnagyobb gyorsításhoz!\n\nA Z Speed+ a Kisegítő lehetőségek révén állítja le a használatban nem lévő alkalmazásokat. Ne aggódjon az adatvédelmi figyelmeztetés miatt, az csak a Kiegészítő lehetőségeknél megszokott tájékoztatás. \n\nGarantáljuk, hogy NEM gyűjtünk össze semmilyen adatot.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Opciók</string>
+    <string name="autostart_optimization_desr">Optimalizálható</string>
+    <string name="autostart_type_optimization">Optimalizálandó</string>
+    <string name="autostart_type_allowed">Engedélyezett</string>
+    <string name="autostart_type_blocked">Tiltott</string>
+    <string name="autostart_type_system">Gyári alkalmazások</string>
+    <string name="autostart_type_system_description">A gyárilag telepített alkalmazások letiltása instabil rendszert eredményezhet. Csak óvatosan!</string>
+    <string name="autostart_preinstll_system">Gyári alkalmazások</string>
+    <string name="autostart_on_boot_up">Induláskor</string>
+    <string name="autostart_on_background">Háttérben</string>
+    <string name="autostart_on_boot_up_and_background">Induláskor/Háttérben</string>
+    <string name="autostart_detail_title">%1$d helyzetben automatikusan elindul:</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="ignore_list_act_title">Feketelista</string>
+    <string name="add_to_ignore_list_act_title">Hozzáadás a feketelistához</string>
+    <string name="dialog_memory_footprint">Lefoglalt memória</string>
+    <string name="dialog_add_to_ignorelist">Hozzáadás a feketelistához</string>
+    <string name="dialog_remove_from_ignorelist">Eltávolítás a feketelistáról</string>
+    <string name="tip_ignore_list_appunchecked">Ezen alkalmazások alapból nem lesznek kijelölve a keresést követően.</string>
+    <string name="tip_ignore_list_appadd">Érintse meg a \'+\' gombot a hozzáadáshoz.</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443">%s&lt;/font> nem kerül átvizsgálásra.</string>
+    <string name="clean_ignore_empty_tips">A régi Felesleges Fájlokat adja hozzá a Mellőzési Listához.</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">Alkamazásmenedzser</string>
+    <string name="app_manager_my_backups">Biztosági mentések</string>
+    <string name="app_manager_others">Egyebek</string>
+    <string name="app_manager_back_up_success_tips">alkalmazás biztonsági mentése megtörtént ide:</string>
+    <string name="app_manager_back_up_success_tips_for_one">alkalmazás biztonsági mentése megtörtént ide:</string>
+    <string name="app_manager_back_up_fail_tips">alkalmazás biztonsági mentése sikertelen</string>
+    <string name="app_manager_back_up_fail_tips_for_one">alkalmazás biztonsági mentése sikertelen</string>
+    <string name="app_manager_pre_installed_apps">Gyári alkalmazások</string>
+    <string name="app_manager_backing_up">Mentés...</string>
+    <string name="app_manager_running">Fut</string>
+    <string name="app_manager_stop">Leállítás</string>
+    <string name="app_manager_apps_running">Futó alkalmazások</string>
+    <string name="app_manager_apps_desc">A ritkán használt gyári alkalmazások letiltásával memória szabadítható fel.</string>
+    <string name="app_manager_path">Útvonal</string>
+    <string name="app_manager_no_backup_found">Biztonsági mentés nem található</string>
+    <string name="app_manager_tap_to_disable">Érintsd meg a Letiltás/Kikapcsolás-t a letiltáshoz</string>
+    <string name="app_manager_tap_to_enable">Érintsd meg az Engedélyezés/Bekapcsolás-t az engedélyezéshez</string>
+    <string name="app_manager_select_app_first">Először válaszd ki az alkalmazásokat</string>
+    <string name="app_manager_shit">OK</string>
+    <string name="app_manager_freed">felszabadítva</string>
+    <string name="app_manager_use_rare_month">Egy hónap során ritkán használt</string>
+    <string name="app_manager_use_rare_days">%s nap alatt ritkán használt</string>
+    <string name="app_manager_use_commonly">Gyakran használt</string>
+    <string name="app_manager_android_system">Android rendszer</string>
+    <string name="app_manager_use_rare">Ritkán használt</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Felhasználói alkalmazások</string>
+    <string name="app_manager_tab_system">Gyári</string>
+    <string name="app_manager_tab_text_date">Dátum</string>
+    <string name="app_manager_tab_text_frequance">Gyakoriság</string>
+    <string name="app_manager_tab_text_size">Méret</string>
+    <string name="app_manager_tab_text_battery">Akkumulátor</string>
+    <string name="app_manager_tab_text_name">Név</string>
+    <string name="app_manager_dialog_cancel">Mégsem</string>
+    <string name="app_manager_dialog_backup">Biztonsági mentés</string>
+    <string name="app_manager_dialog_uninstall">Eltávolítás</string>
+    <string name="app_manager_preinstall_noyice"><![CDATA[&nbsp&nbsp&nbsp&nbsp<font color="#76B54B"> %s alkalmazás fut </font> A letiltás csökkenti a memória-lefoglalást. Teljesen biztonságos!]]></string>
+    <string name="app_manager_no_uerapp">Nincsenek alkalmazások</string>
+    <string name="app_manager_preinstall_disbale_list">Letiltott alkalmazások</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Letiltott</string>
+    <string name="app_manager_preinstall_reommend_disable">%s felhasználó tiltotta le ezt</string>
+    <string name="app_manager_preinstall_reommend_keep">Megtartásra ajánlás</string>
+    <string name="app_manager_preinstall_reommend_none">Változatlanul hagyni</string>
+    <string name="app_manager_preinstall_tip">A ritkán használt gyári alkalmazások letiltása csökkenti a memória-használatot.</string>
+    <string name="app_manager_preinstall_disable_toast">letiltva.</string>
+    <string name="app_manager_preinstall_enable_toast">engedélyezve.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Csoportos letiltás</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Figyelem!</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[Az alkalmazás letiltása <font color=”#fe6969”>befolyásolhatja a rendes működést.</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Biztosan kiválasztod?</string>
+    <string name="app_manager_preinstall_disable_loading">Betöltés...</string>
+    <string name="diable_lab_dialog_title">Z Speed+ Lab</string>
+    <string name="diable_lab_dialog_content_text"><![CDATA[Próbáld ki kísérleti funkciónkat is: <font color=”#76b54b”>gyári alkalmazások csoportos letiltása. </font>Hibák esetén írj nekünk visszajelzést és együtt tesszük jobbá!]]></string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">Felesleges fájlok</string>
+    <string name="clean_main_suggest">Javasolt</string>
+    <string name="clean_main_selected">Kiválasztva</string>
+    <string name="clean_dialog_title">Figyelmeztetés</string>
+    <string name="clean_dialog_message1">A kiválasztott fájl az alábbiakat tartalmazza:</string>
+    <string name="clean_dialog_btn_all">Kiválasztás mégis</string>
+    <string name="clean_dialog_btn_next">Újra ellenőrzés</string>
+    <string name="gallery_thumbnails">Galéria bélyegképek</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">Ezek törlése után a fényképgaléria betöltése lassabb lesz.</string>
+    <string name="clean_group_app_cache">Alkalmazás gyorsítótár</string>
+    <string name="clean_group_residue">Hátramaradt fájlok</string>
+    <string name="clean_group_cache">Gyorsítótár szemét</string>
+    <string name="clean_group_temp">Ideiglenes rendszerfájlok</string>
+    <string name="clean_group_apk">Régi APK fájlok</string>
+    <string name="clean_group_big_file">Nagy fájlok</string>
+    <string name="clean_group_ad">Hirdetés szemét</string>
+    <string name="clean_group_memory">Memóriaszemét</string>
+    <string name="clean_item_sys_cache">Rendszer gyorsítótár</string>
+    <string name="clean_done_tips">Kitisztítva</string>
+    <string name="clean_dialog_app_cache_yes_btn">Kézi takarítás</string>
+    <string name="clean_dialog_folder_yes_btn">Megtekintés</string>
+    <string name="clean_dialog_file_yes_btn">Megnyitás</string>
+    <string name="clean_dialog_media_yes_btn">Lejátszás</string>
+    <string name="clean_dialog_message_size">Méret</string>
+    <string name="clean_dialog_message_contain">Tartalom</string>
+    <string name="clean_dialog_message_path">Elérési útvonal</string>
+    <string name="clean_dialog_message_file">fájl</string>
+    <string name="clean_dialog_message_folder">mappa</string>
+    <string name="clean_done_none_tips">Kiváló</string>
+    <string name="clean_file_browser_no_files">Nincsenek fájlok</string>
+    <string name="clean_days_ago"> nappal ezelőtti</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color=”#FE6969”>Óvatosan! &lt;/font>%1$s</string>
+    <string name="clean_subitem_detail_connect">Ez %1$s a %2$s-ből</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color=”#85C443”>A fájlaid a törlés után is sértetlenek maradnak.&lt;/font></string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color=”#85C443”>A törlés teljesen biztonságos.&lt;/font></string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color=”#FE6969”>Újra le kell majd tölteni őket.&lt;/font></string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color=”#FE6969”>A törlés ezeket végleg eltávolítja!&lt;/font></string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Clean</string>
+    <string name="uninstall_dialog_message_1">&lt;b>%1$s&lt;/b> left &lt;font color="#85c443">%2$s&lt;/font> fennmaradt fájl.</string>
+    <string name="uninstall_dialog_message_2">Tartalom: </string>
+    <string name="uninstall_clean_tips"> fennmaradt fájlok törölve!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">Beállítások</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Visszajelzés</string>
+    <string name="container_hint_setting_feedback">Ide írhatod a hozzászólásodat. Kérjük, adj meg minél több részletet. Mindig meghallgatunk és tovább fejlesztjük az alkalmazást.</string>
+    <string name="mial_hint_setting_feedback">E-mail</string>
+    <string name="notice_setting_feedback">A telefonszámra és a verzióra szükségünk lesz a problémád kivizsgálásánál. Személyes információkat az engedélyed nélkül sosem gyűjtünk össze.</string>
+    <string name="no_contain_setting_feedback">Írj valamit!</string>
+    <string name="sendok_setting_feedback">Köszönjük a visszajelzésed!</string>
+    <string name="checknet_setting_feedback">Kérjük, ellenőrízd a hálózati kapcsolatot.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">&lt;u>Like-olj minket Facebook-on&lt;/u></string>
+    <string name="googleplus_about_setting">&lt;u>Google+ beszélgetés&lt;/u></string>
+    <string name="googleplay_about_setting">&lt;u>Értékeld a Google Play-en&lt;/u></string>
+    <string name="title_about_setting">Névjegy</string>
+    <string name="share_setting_about">A Z Speed+ gyorsabbá és tisztábbá teszi a telefonomat. Próbáld ki! Töltsd le itt: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014–2015 ZERO csapat. Minden jog fenntartva.</string>
+    <string name="law_jump_setting_about">&lt;u>Adatvédelmi tájékoztató.&lt;/u></string>
+    <string name="share_title_setting_about">Z Speed+ megosztása</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">Kapcsolat megnyitása sikertelen</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Lebegő widget</string>
+    <string name="title_notice">Értesítések</string>
+    <string name="junk_clean_setting">Szemét takarítás</string>
+    <string name="enable_widget_setting_setting">Engedélyezés</string>
+    <string name="hide_widget_setting_setting">Státusz sáv idejének elrejtése</string>
+    <string name="show_widget_setting_setting">Csak az asztalon mutat</string>
+    <string name="memory_setting_setting">Memória-gyorsítás szükséges</string>
+    <string name="storge_setting_setting">Kevés a tárhely</string>
+    <string name="junk_setting_setting">Fennmaradt szemét fájlok</string>
+    <string name="autostart_setting_setting">Új automatikus indítási kérelem</string>
+    <string name="ignore_setting_setting">Feketelista</string>
+    <string name="memery_boost_setting_setting">Futó alkalmazások</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">Általános</string>
+    <string name="menu_general_setting_language">Nyelv</string>
+    <string name="menu_general_setting_shortcut">Parancsikon létrehozása</string>
+    <string name="menu_junk_setting">Szemét fájlok</string>
+    <string name="menu_junk_setting_scan_memory">Memóriaszemét keresése</string>
+    <string name="menu_join_uep_plan">&lt;u>Felhasználói Élményprogram&lt;/u></string>
+    <string name="clean_ignore_title">Felesleges Fájlok Mellőzési Lista</string>
+    <string name="clean_ignore_list_tips">Ezeket a fájlokat nem tekinti feleslegesnek</string>
+    <string name="menu_smart_boost">Okos gyorsítás</string>
+    <string name="smart_boost_screen_lock">Okos gyorsítás a képernyőzárnál</string>
+    <string name="smart_boost_show_result">Az okos gyorsítás utáni eredmények kijelzése</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Lebegő widget kikapcsolása?</string>
+    <string name="float_hide_float_message">A lebegő widget-et a státuszsávba is elrejtheted.</string>
+    <string name="float_dialog_ok">OK</string>
+    <string name="float_dialog_cancel">Mégsem</string>
+    <string name="float_dialog_hide_ok">Próbáld ki!</string>
+    <string name="float_dialog_hide_cancel">Mégis tiltás</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Nincsenek engedélyek. Sikertelen művelet!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram_black">&lt;font color=”#1d1d1d”>Az elérhető memória &lt;/font>&lt;font color=”#fe6969”>&lt;b>kevesebb, mint %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_white">&lt;font color=”#ffffff”>Az elérhető memória &lt;/font>&lt;font color=”#fe6969”>&lt;b>kevesebb, mint  %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_line2">Az eszköz nagyon lelassulhat</string>
+    <string name="notification_boost">Gyorsítás</string>
+    <string name="notification_sdcard">Fogy a tárhelyed Érintsd meg a takarításhoz!</string>
+    <string name="notification_sdcard2_black">&lt;font color=”#1d1d1d”>A tárhely fogyóban van .&lt;/font>&lt;font color=”#fe6969”>&lt;b>Csak %s%% maradt&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_white">&lt;font color=”#ffffff”>A tárhely fogyóban van.&lt;/font>&lt;font color=”#fe6969”>&lt;b>Csak %s%% maradt&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_line2">A tárhely kevés lehet a letöltésekhez.</string>
+    <string name="notification_release_more"><![CDATA[%s MB felszabadítva. <font color=”#85c443”>Még több felszabadítása!</font>]]></string>
+    <string name="notification_boost_phone_optimum"><![CDATA[Telefonod optimálisan működik. <font color=”#85c443”>További funkciók!</font>]]></string>
+    <string name="notification_cpu_block1_black">&lt;font color=”#1d1d1d”>Az eszköz &lt;/font>&lt;font color=”#fe6969”>&lt;b>lelassult&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block1_white">&lt;font color=”#ffffff”>Az eszköz &lt;/font>&lt;font color=”#fe6969”>&lt;b>lelassult&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block2">Egy alkalmazás nagyon sok CPU erőforrást fogyaszt</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color=”#1d1d1d”>A CPU &lt;/font>&lt;font color=”#fe6969”>&lt;b>erősen túlmelegedett&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat1_white">&lt;font color=”#ffffff”>A CPU &lt;/font>&lt;font color=”#fe6969”>&lt;b>erősen túlmelegedett&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat2">Egy alkalmazás abnormális nagyságban terheli a CPU-t</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color=”#1d1d1d”>A CPU hőmérséklete &lt;/font>&lt;font color=”#fe6969”>&lt;b>gyorsan növekszik&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color=”#ffffff”>A CPU hőmérséklete&lt;/font>&lt;font color=”#fe6969”>&lt;b>gyorsan növekszik&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp2">An app is occupying CPU abnormally</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969">%s &lt;/font>&lt;font color=”#1d1d1d”>szemét foglal helyet&lt;/font></string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969">%s &lt;/font>&lt;font color=”#ffffff”>szemét foglal helyet&lt;/font></string>
+    <string name="notification_clean_scan_message">Takarítás tárhely felszabadítás végett</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"> %s az alkamazások &lt;/font>&lt;font color="#fe6969">lemerítik az akkumulátort&lt;/font></string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"> %s az alkamazások &lt;/font>&lt;font color="#fe6969">lemerítik az akkumulátort&lt;/font></string>
+    <string name="notification_release_sleep">Nyugalmi állapotban gyorsuljon fel %s MB-ra</string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969">Új szemét &lt;/font>&lt;font color="#ffffff">keletkezett&lt;/font></string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d">A Legjobb Időjárás Alkalmazás&lt;/font></string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff">A Legjobb Időjárás Alkalmazás&lt;/font></string>
+    <string name="notification_go_weather_message">Új Karácsonyi Minialkalmazások Jelentek Meg!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d">Unod az alapértelmezett üzenetet?&lt;/font></string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff">Unod az alapértelmezett üzenetet?&lt;/font></string>
+    <string name="notification_go_sms_message">Állítsd be saját üzenetedet!</string>
+    <string name="go_launcher">GO Launcher Z</string>
+    <string name="go_weather">GO Weather - Előrejelzés &amp; Minialkalmazás</string>
+    <string name="go_weather_done_message">Megjeleníthetők current &amp; az időjárás előrejelézek, csodás minialkalmazások &amp; élő háttérképek.</string>
+    <string name="notification_guide_text">Kapcsold be a saját használni kívánt funkcióidat</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Megnyitás, mint...</string>
+    <string name="filetype_text">Szöveg</string>
+    <string name="filetype_video">Videó</string>
+    <string name="filetype_audio">Hang</string>
+    <string name="filetype_image">Kép</string>
+    <string name="filetype_music">Zene</string>
+    <string name="filetype_document">Dokumentum</string>
+    <string name="filetype_apk">APK fájl</string>
+    <string name="filetype_compression">Tömörített fájl</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Új verzió</string>
+    <string name="update_update">Frissítés</string>
+    <string name="update_later">Később</string>
+    <string name="update_cancel">Mégsem</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">Gyorsítás</string>
+    <string name="shortcut">Parancsikon</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">Indítás után</string>
+    <string name="auto_start_on_connectivity_change">Hálózatváltáskor</string>
+    <string name="auto_start_on_package_changed">Alkalmazás státuszának megváltozásakor</string>
+    <string name="auto_start_on_package_added">Alkalmazások telepítésekor</string>
+    <string name="auto_start_on_package_removed">Alkalmazások eltávolításakor</string>
+    <string name="auto_start_on_package_replaced">Alkalmazások váltásakor</string>
+    <string name="auto_start_on_any_data_state">Adatok megváltoztatásakor</string>
+    <string name="auto_start_on_outgoing_call">Kimenő hívások alatt</string>
+    <string name="auto_start_on_phone_state_changed">Hívás befejezésekor</string>
+    <string name="auto_start_on_user_present">Feloldáskor</string>
+    <string name="auto_start_on_wifi_state_change">Wi-Fi csatlakozáskor</string>
+    <string name="auto_start_on_wifi_enable_change">Wi-Fi ki/bekapcsolásakor</string>
+    <string name="auto_start_on_time_set">Adott időpontban</string>
+    <string name="auto_start_on_bluetooth_state_change">Bluetooth állapot megváltozásakor</string>
+    <string name="auto_start_on_power_connected">Töltőkábel csatlakoztatásakor</string>
+    <string name="auto_start_on_power_disconnected">Töltőkábel kihúzásakor</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">Értesítések ki/be</string>
+    <string name="notification_toggle_nocal">Számológép nem található!</string>
+    <string name="notification_toggle_open">Z Speed+ értesítések engedélyezve</string>
+    <string name="notification_toggle_noflash">Az eszközön nincs zseblámpa funkció!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">A Z Speed+ támogatja: %s. Alkalmazod most?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Hiba a kapcsolatban.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">Nem sikerült letölteni a nyelvet.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Tárhely</string>
+    <string name="storage_main_act_details">Részletek</string>
+    <string name="storage_main_act_tab_used_space">Felhasznált tárhely</string>
+    <string name="storage_main_act_tab_app_total">%s alkalmazás</string>
+    <string name="storage_main_act_tab_audio_total">%s zene</string>
+    <string name="storage_main_act_tab_image_total">%s fénykép</string>
+    <string name="storage_main_act_tab_document_total">%s dokumentum</string>
+    <string name="storage_main_act_tab_other_total">Egyebek</string>
+    <string name="file_category_image_title">Fényképek</string>
+    <string name="file_category_image_delete_dialog_msg_1">fájl lesz törölve.</string>
+    <string name="file_category_image_delete_dialog_msg_2">A törölt fájlok nem állíthatóak vissza!</string>
+    <string name="file_category_video_no_content">Nincs Videó</string>
+    <string name="file_category_video_delete_msg">A videók törlésre kerülnek.</string>
+    
+     <!-- 视频分析模块 -->
+    <string name="video_title_total">%s összes videó</string>
+    <string name="video_title_selected">%s kiválaszott videók</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Zene</string>
+    <string name="music_group_music">Zene</string>
+    <string name="music_group_rings">Csengőhang</string>
+    <string name="music_group_record">Felvétel</string>
+    <string name="music_dialog_title">Figyelmeztetés</string>
+    <string name="music_dialog_delete_cancel">Mégsem</string>
+    <string name="music_dialog_delete_delete">Törlés</string>
+    <string name="music_dialog_delete_notice">fájl lesz törölve.</string>
+    <string name="music_dialog_delete_notice_below">A törölt fájlok nem állíthatóak vissza!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">Dokumentum</string>
+    <string name="document_group_word">WORD </string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">Egyebek</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">Törlés</string>
+    <string name="image_dialog_text1">A fájl törölve lesz.</string>
+    <string name="image_dialog_text2">Biztos vagy benne?</string>
+    <string name="image_no_selected">Nincsenek kiválasztott fájlok.</string>
+    <string name="image_size_notice">%s kitakarítva!</string>
+    <string name="image_delete_layout_text">Törlés(%s)</string>
+    <string name="image_delete_ok">Igen</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Ezen fájlokat nem lehet törölni.</string>
+    <string name="no_app_to_open_file">Egyetlen helyi alkalmazás sem tudja ezt a fájlt megnyitni </string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Húzd ide a telefonod gyorsításához</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">Letiltás..</string>
+    <string name="disable_apps_done_disable_count">%s letiltva!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">A Z Speed+ inaktív állapotban tartja őket</string>
+    <string name="disable_apps_wait_to_stop_tips">Leállítási kísérlet, várj...</string>
+    <string name="disable_list_no_app_tip">Nincsenek letiltott alkalmazások</string>
+    <string name="disable_group_most_disable_title">Legtöbbet tiltott</string>
+    <string name="disable_group_recommend_keeping_title">Megtartásra javasolt</string>
+    <string name="disable_group_recommend_keeping_subtitle">A letiltás rendszerhibákat okozhat</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Letiltás</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Engedélyezés</string>
+    <string name="disable_app_info_dialog_consuming_tip">Az alkalmazás rendszermemóriát fogyaszt</string>
+    <string name="disable_app_info_dialog_system_error_tip">Letiltása rendszerhibákat okozhat</string>
+    <string name="disable_app_info_dialog_no_statement">Megpróbálhatod letiltani, ha nincs rá szükséged</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Gyártó által előre telepített szolgáltatás</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&lt;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">Telepítés most</string>
+    <string name="ad_btn_detail">@string/storage_main_act_details</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Üdv!</string>
+    <string name="rate_gp_dialog_feedback_title">Visszajelzés</string>
+    <string name="rate_gp_dialog_rate_title">Szeretem a Z Speed + -ot!</string>
+    <string name="rate_gp_dialog_one_notice_boost">Az elmúlt %1$s nap során a Z Speed+  &lt;font color="#85c443"> %2$s &lt;/font>lassú alkalmazást intézett el az eszközödön.&lt;br /> &lt;br/> &lt;font color=”#85c443”>Tetszik neked a Z Speed+?&lt;/font></string>
+    <string name="rate_gp_dialog_one_no_boost">Nem igazán</string>
+    <string name="rate_gp_dialog_one_yes_boost">Igen!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Sikeresen kitakarítottál &lt;font color="#85c443"> %s &lt;/font> szemetet! &lt;br /> &lt;br/>Mi a véleményed a Z Speed + -ról?</string>
+    <string name="rate_gp_dialog_one_no_clean">Nem a legjobb</string>
+    <string name="rate_gp_dialog_one_yes_clean">Nagyon tetszik!</string>
+    <string name="rate_gp_dialog_two_notice">Kérjük, küldd el nekünk a véleményedet. \nMinden szavadat nagyra értékeljük!</string>
+    <string name="rate_gp_dialog_two_no">Köszönöm, nem</string>
+    <string name="rate_gp_dialog_two_yes">Rendben</string>
+    <string name="rate_gp_dialog_three_notice">Kérhetünk 5 csillagos értékelést tőled?</string>
+    <string name="rate_gp_dialog_three_no">Köszönöm, nem</string>
+    <string name="rate_gp_dialog_three_yes">Rendben</string>
+    <string name="rate_gp_notification_notice">%s lassú alkalmazást intéztél el eddig. Megnézed?</string>
+
+    <!-- 启动页 -->
+    <string name="privacy_policy">&lt;u>Adatvédelmi tájékoztató&lt;/u></string>
+    <string name="private_agreement">Elfogadom a </string>
+    <string name="private_start">START</string>
+    <string name="private_join_uep">Csatlakozz a Felhasználói Élményprogramhoz</string>
+    <string name="privacy_start_by_agree_policy">Elfogadom az &lt;u>Adatvédelmi Szabályzatot&lt;/u></string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">telepítve, töröld a szükségtelen APK fájlt a megtakarításhoz</string>
+    <string name="install_listen_installed_multiple_msg">Alkalmazások telepítve, töröld a szükségtelen APK fájlokat a megtakarításhoz</string>
+    <string name="install_listen_delete_apk_tip">Kitakarítva</string>
+    <string name="install_listen_dialog_clean_btn_text">Takarítás</string>
+    <string name="install_listen_dialog_cancel_btn_text">Mégsem</string>
+    <string name="install_listen_dialog_eye_tip_on">Ne kérdezd újra 3 napig</string>
+    <string name="install_listen_dialog_eye_tip_off">Kérdezd újra rendszeresen</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">Játék gyorsítás</string>
+    <string name="game_boost_add_to_game_title">Játék hozzáadása</string>
+    <string name="game_boost_effect">Gyorsítsd fel: &lt;font color="#85c443">%s &lt;/font> további RAM-hoz a játékok számára.</string>
+    <string name="game_cell_add">Játék hozzáadása</string>
+    <string name="game_cell_ok">OK</string>
+    <string name="game_boost_menu_about">Hogyan működik</string>
+    <string name="game_boost_menu_add_shutcut">Játék mappa létrehozása</string>
+    <string name="game_boost_folder_create_success">Játék mappa sikeresen létrehozva.</string>
+    <string name="game_boost_box_shortcut_name">Játék gyorsítás</string>
+    <string name="game_boost_box_shortcut_name_new">Saját Játékok</string>
+    <string name="game_boost_add_card_view_title_popular">Népszerű játékok</string>
+    <string name="game_boost_add_new_game_to_boost">%s hozzáadva a gyorsítandó játékokhoz</string>
+    <string name="game_boost_add_new_games_to_boost">%s új játék hozzáadva a gyorsítandó játékokhoz</string>
+    <!-- 游戏加速介绍 -->
+    <string name="game_boost_about_one">Okosan és automatikusan leállítja az olyan nem oda tartozó, háttérben futó alkalmazásokat, amelyek lassíthatják a játékot.</string>
+    <string name="game_boost_about_two">Dinamikusan figyeli a telefont és felszabadítja a már nem használt memóriát.</string>
+    <string name="game_boost_about_three">Nyisd meg a játékokat a Z Speed+ Játék mappából és akár 20~65% gyorsítást is elérhetsz azoknál.</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Gyorsítás...</string>
+    <string name="game_accel_anim_boost_toast_tip">Gyorsítva, %s%%.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">CPU problémák</string>
+    <string name="cpu_fix">Javítás</string>
+    <string name="cpu_check">Ellenőrzés</string>
+    <string name="cpu_issue_type_temp_overheated">Túlmelegedett!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Gyorsan növekszik!</string>
+    <string name="cpu_issue_type_heavily_occupied">A CPU komolyan le van terhelve!</string>
+    <string name="cpu_temp_issue_app">okozza a hibát</string>
+    <string name="cpu_occupied_issue_app"> &lt;font color="#D46565"> %s &lt;/font> CPU-t fogyaszt</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">CPU hűtő</string>
+    <string name="cpu_coll_down_cpu">Lehűti a CPU-t</string>
+    <string name="cpu_temperature_issue">Hőmérsékleti gond</string>
+    <string name="cpu_device_running_slow">Az eszköz lelassult</string>
+    <string name="cpu_issue_detected">Hibát találtam</string>
+    <string name="cpu_cool_down_further">További lehűtés, %s futó alkalmazás kitakarítása</string>
+    <string name="cpu_temp_well">A CPU hőmérséklet OK</string>
+    <string name="cpu_temp_hot">Kicsit forró</string>
+    <string name="cpu_temp_overheated">Túlmelegedett</string>
+    <string name="cpu_temp_chilling">Lehűlőben</string>
+    <string name="cpu_temp_cooler">CPU hűtő</string>
+    <string name="cpu_occupy"> &lt;font color="#D46565"> %s &lt;/font> CPU-t hasznáé</string>
+    <string name="cpu_abnormal">Abnormális CPU használat: &lt;font color="#D46565"> %s &lt;/font></string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Éppen optimalizálva</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Pihentesd az eszközt egy kis ideig a lehűléshez</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Nincsenek túlmelegedést okozó alkalmazások</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Az eszköz lehűlőben van</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Túlmelegedést okozó alkalmazások kitakarítva</string>
+    <string name="cpu_anim_cooldown_done_dropped">Lecsökkent</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Lehűlés kezdése...</string>
+    <string name="cpu_anim_scan_process_tip_text">CPU ellenőrzése...</string>
+    <string name="cpu_anim_lag_done_tip_text">Gyorsítva!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">Ellenőrízd a hálózati kapcsolatot és próbáld újra</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Játék gyorsító</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Játékgyorsító mappa sikeresen létrehozva a főképernyőn, tekintsd meg :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Engedélyezve</string>
+    <string name="finish_page_card_game_booster_btn">Engedélyezés most</string>
+    <string name="finish_page_card_whitelist_name">Gyorsító engedélyezőlista szerkesztése</string>
+    <string name="finish_page_card_whitelist_desc">Nyitva hagyandó alkalmazások megjelölése</string>
+    <string name="finish_page_card_whitelist_btn">Szerkesztés most</string>
+    <string name="finish_page_card_autostart_name">Automatikus indítás található</string>
+    <string name="finish_page_card_autostart_desc">&lt;big>%s&lt;/big> automatikus indításos alkalmazás lesz optimalizálva</string>
+    <string name="finish_page_card_autostart_btn">Ellenőrzés</string>
+    <string name="finish_page_card_photo_name">Fényképek kitakarítása</string>
+    <string name="finish_page_card_photo_desc">Több, mint &lt;big>%s fényképet&lt;/big> készítettél, de talán nem mind érdemli meg a tárhelyet?</string>
+    <string name="finish_page_card_photo_btn">Takarítás</string>
+    <string name="finish_page_card_clean_1_name">Kitakarítandó szemét</string>
+    <string name="finish_page_card_clean_1_desc">A pajkos telefon &lt;big>%s&lt;/big> szemetet generált mostanában</string>
+    <string name="finish_page_card_clean_1_btn">Takarítás</string>
+    <string name="finish_page_card_clean_2_name">&lt;big>%s&lt;/big> szemét található</string>
+    <string name="finish_page_card_clean_2_desc">A takarítás után több, mint &lt;big>%s&lt;/big> új fénykép készíthető</string>
+    <string name="finish_page_card_clean_2_btn">Takarítás most</string>
+    <string name="finish_page_card_activate_power_mode_title">%s alkalmazás &lt;big>indult el indításkor automatikusan&lt;/big></string>
+    <string name="finish_page_card_activate_power_mode_desc">Aktiváld a &lt;big>Power módot&lt;/big> a kezelésükhöz</string>
+    <string name="finish_page_card_activate_power_mode_btn">Aktiválás</string>
+    <string name="finish_page_card_game_booster_desc">Ajándék Játékosoknak!  A leghatékonyabb &amp; szuper játékgyorsító funkció</string>
+    <string name="finish_page_card_feedback_name">Kíváncsial Vagyunk Véleményedre</string>
+    <string name="finish_page_card_feedback_desc">Kedvenc funkció,javaslat,megjegyzés</string>
+    <string name="finish_page_card_feedback_btn">Visszajelzés</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Telefon gyorsítása</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Memória felszabadítása a telefonon gyorsításához</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Gyorsítás</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big>%s%% memória&lt;/big> maradt</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s futó alkalmazás zabálja a memóriát, a telefon nagyon lassú lehet</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Gyorsítás most</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Gyári alkalmazások tiltása</string>
+    <string name="finish_page_card_disable_desc">%1$s gyári alkalmazás, &lt;big>%2$s&lt;/big> tiltható le</string>
+    <string name="finish_page_card_disable_btn">Ellenőrzés</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Rejtett automatikus indítások keresése</string>
+    <string name="finish_page_no_ad_clean2_tips">A szemét lelassítja a telefonod</string>
+    <string name="finish_page_no_ad_clean1_tips">A szemetet naponta ki kell takarítani</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">A játékoknak is szükségük van gyorsításra!</string>
+    <string name="finish_page_no_ad_disable_tips">Néhány gyári alkalmazás totál használhatatlan</string>
+    <string name="finish_page_no_ad_photo_tips">Így sok tárhely takarítható meg!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">A Power mode a nagyobbakat is le tudja tiltani!</string>
+    <string name="finish_page_no_ad_whitelist_tips">Ne tiltsd le tévesen azon alkalmazásokat, amelyekre szükséged van!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">A telefon lelassult</string>
+    <string name="finish_page_no_ad_boost_normal_tips">A telefon gyorsabb is lehetne</string>
+
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">Játékok Hozzáadása</string>
+    <string name="game_accel_guide_title">Játék Gyorsítás</string>
+    <string name="game_accel_guide_text2">aktiválva</string>
+    <string name="game_accel_guide_try_text">Érintéssel kipróbálhatod!</string>
+    <string name="game_accel_guide_gamename_1">Hivatkozás Létrehozva</string>
+    <string name="game_accel_guide_gamename_2">Megnyitás az asztalon</string>
+    <string name="game_accel_guide_gamename_3">Keresés a játékok közt…</string>
+    <string name="game_accel_guide_discovery_text_above">Csatorna Z</string>
+    <string name="game_accel_guide_discovery_text_below">itt szintén</string>
+    <string name="game_accel_sec_anim_title">JÁTÉKOK</string>
+    <string name="game_accel_shortcut_created">Létrehozva</string>
+    <string name="game_accel_tip_dialog_content_text">Szertnéd használni a Játék Gyorsítás alkamazást \"%s\" a 40%os gyorsításhoz%?</string>
+    <string name="game_accel_tip_dialog_content_text_new">Aktíválod a Game Boost alkalmazást &lt;font color="#85c443">\"%s\"&lt;/font> a 65%os gyorsításhoz%?</string>
+    <string name="game_accel_sort_name">Név</string>
+    <string name="game_accel_sort_Date">Dátum</string>
+    <string name="game_accel_sort_Frequency">Gyakoriság</string>
+    <string name="game_accel_game_box_title">Játékok Kezelése</string>
+    <string name="game_accel_add_shortcut">Hivatkozás Hozzáadása</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">FELFEDEZÉS</string>
+    <string name="game_distribute_connection_failed">A kapcsolat megszakadt</string>
+    <string name="game_distribute_net_data_alert">A WIFI használattal való játék lassíthatja az adatforgalmat</string>
+    <string name="game_distribute_warning_title">Z Speed+ TV</string>
+    <string name="game_distribute_warning_content">  A videókban látható felvételek hihetetlenek.\nA megjelenített videók nem csak otthoni használatra kerülnek bemutatásra, de egyéb\n vetítésre is jogszerűek. Ilyen jellegű felvételek érintő képernyőn való megjelenítését, vagy vetítését\n támogatja a Z Speed+. Javasoljuk a játékok \n megfelelő időben történő használatát.</string>
+    <string name="game_distribute_video_title">Csatorna</string>
+    <string name="game_distribute_game_searching">Játékok Keresése...</string>
+
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534">Nagyméretű Alkalmazások &lt;/font></string>
+    <string name="cpu_thieves_title">Top 3 &lt;font color="#6ac534">CPU Használók Ma &lt;/font></string>
+    <string name="num_times">%s alkalommal</string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Rendelkezésre Álló Memória Nagyon Kevés!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+    <string name="home_guide_card_boost_button">Gyorsítás Most</string>
+
+    <string name="home_guide_card_photo_desc1">A fényképezés egyszerű</string>
+    <string name="home_guide_card_photo_desc2">a képek törlése nem az</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+    <string name="home_guide_card_photo_button">Takarítás Most</string>
+
+    <string name="home_guide_card_cpu_desc">A túlmelegedett CPU lemeríti az akkumulátort</string>
+    <string name="home_guide_card_cpu_button">Hűtés</string>
+
+    <string name="home_guide_card_disbale_desc">Kezeld az előre telepített alkalmazásokat!</string>
+    <string name="home_guide_card_disbale_desc2">Telefonod felgyorsulhat!</string>
+    <string name="home_guide_card_disbale_desc_big">%s Alkalmazások</string>
+    <string name="home_guide_card_disbale_button">Letiltás Most</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Üzemmód Gyorsítás</string>
+    <string name="enable_super_boost_mode_normal">Normál Gyorsítás</string>
+    <string name="enable_super_boost_desc_super">&lt;b>Boost:&lt;/b> Normál Alkalmazások, &lt;mark>&lt;font color="red">Automatikusan indított Alkalmazások&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">A Rootolt telefonokhoz képest 60%-kal növeli a gyorsítást.&lt;/font>&lt;/b>&lt;br>
+         (A következő lépésbén kapcsold be a Z Speed+ hozzáférhetőségét)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b>Boost:&lt;/b> Normál Alkalmazások, &lt;mark>&lt;font color="red">Automatikusan indított Alkalmazások&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">A Rootolt telefonokhoz képest 60%-kal növeli a gyorsítást.&lt;/font>&lt;/b>&lt;br>
+        (A következő lépésben újra kapcsold be a Z Speed+ hozzáférhetőségét)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b>Boost:&lt;/b> Normál Alkalmazások&lt;br>
+      Az automatikusan indított alkalmazásokat az üzemmódon kívül nem gyorsítja.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">A telefon Üzemmódjának Gyorsítása most!</string>
+
+
+    <string name="enable_super_disable_mode_super">Csoportos Letiltás</string>
+    <string name="enable_super_disable_mode_normal">Kézi Letiltás</string>
+    <string name="enable_super_disable_desc_super">&lt;mark>&lt;font color="red">&lt;b>Funkció:&lt;/b> A használton kívüli alkalmazások csoportos letiltása 1 kattintással.&lt;/font> &lt;/mark>&lt;br>
+        (A következő lépésbén kapcsold be a Z Speed+ hozzáférhetőségét)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark>&lt;font color="red">&lt;b>Funkció:&lt;/b> A használton kívüli alkalmazások csoportos letiltása 1 kattintással.&lt;/font> &lt;/mark>&lt;br>
+        (A következő lépésben újra kapcsold be a Z Speed+ hozzáférhetőségét)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b>Funkció:&lt;/b> A használton kívüli alkalmazások letiltása egyesével. &lt;br>
+                    &lt;mark>&lt;font color="red">A könnyű kezelhetőség érdekében a csoportos letiltás funkció javasolt.&lt;/font> &lt;/mark>
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Csoportos Letiltás Funkció Engedélyezése</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Saját Használni Kívánt Funkciók Beállítása</string>
+    <string name="notification_toggle_settings_label_themes">Témák</string>
+    <string name="notification_toggle_settings_label_toggles">Használni Kívánt Funkció</string>
+    <string name="notification_toggle_settings_label_zspeed">HAGYOMÁNYOS</string>
+    <string name="notification_toggle_settings_label_popular">LEGNÉPSZERŰBB</string>
+    <string name="notification_toggle_theme_name_green">Demeter</string>
+    <string name="notification_toggle_theme_name_pink">Athena</string>
+    <string name="notification_toggle_theme_name_black">Erebus</string>
+    <string name="notification_toggle_theme_name_silver">Uranus</string>
+    <string name="notification_toggle_theme_name_golden">Kronos</string>
+    <string name="notification_toggle_toggle_name_app">Kezdőoldal</string>
+    <string name="notification_toggle_toggle_name_boost">Gyorsítás</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">Elemlámpa</string>
+    <string name="notification_toggle_toggle_name_brightness">Fényerő</string>
+    <string name="notification_toggle_toggle_name_themes">Témák</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">Adatok</string>
+    <string name="notification_toggle_toggle_name_camera">Kamera</string>
+    <string name="notification_toggle_toggle_name_calculator">Számológép</string>
+    <string name="notification_toggle_toggle_name_rotate">Elforgatás</string>
+    <string name="notification_toggle_toggle_name_sound">Hang</string>
+    <string name="notification_toggle_bright_auto">AUTOMATIKUS</string>
+    <string name="notification_toggle_notification_ticker">Z Speed+ eszköztár készletben</string>
+    <string name="notification_toggle_notification_ticker_initializing">Eszköztár inicializálása&#8230;</string>
+
+     <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Tartalom beírása a kereséshez</string>
+    <string name="hot_word_search_next_batch">Tovább</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Dupla Fényképek</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s  fénykép javítva!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Minden dupla fénykép javítva!</string>
+    <string name="duplicate_photos_delete_alert_title">Végleges törlés</string>
+    <string name="duplicate_photos_delete_alert_desc">Biztosan végleg törölni szeretnéd?</string>
+    <string name="duplicate_photos_leave_alert_title">Biztosan kilépsz?</string>
+    <string name="duplicate_photos_leave_alert_desc">Kiválasztottál\ %s képet törlésre.&lt;br>Biztosan kilépsz?</string>
+    <string name="duplicate_photos_leave_alert_leave_btn">kilépés</string>
+    <string name="duplicate_photos_scan_alert">A keresés eltarthat egy ideig, türelmet kérünk</string>
+    <string name="duplicate_photos_no_content">Gratulálunk! Nincs több dupla fénykép!</string>
+    <string name="duplicate_photos_suffix_selected">%s kiválasztott</string>
+    <string name="duplicate_photos_suffix_total">%s összes fénykép</string>
+
+   <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">A Hét Legjobb Játéka</string>
+    <string name="game_ad_notification_label_weekly_best_app">A Hét Legjobb Alkalmazása</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">ALKALMAZÁS LEZÁRÁSA</string>
+    <string name="app_lock_perm_settings_title">Beállítás</string>
+    <string name="app_lock_perm_settings_message">Engedély kérése</string>
+    <string name="app_lock_notice_enable_usage_stats">Android 5.0 vagy újabb esetén, az Alkalazás Lezárása funkció használatához engedélyezni kell az Alkalmazás Lezárását.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_notice_enable_usage_stats1">Ha a beállítás sikertelen, engedélyezd a Rendszerbeállítások > Biztonság > Alkalmazások menüponton keresztül</string>
+    <string name="app_lock_enable_usage_stats">Engedélyezás</string>
+    <string name="install_app_mointor_locker">Lezárás szükséges</string>
+    <string name="locker_header_forget_pwd">Elfelejtett jelszó</string>
+    <string name="locker_header_replce_number_locker">Váltás a jelszó zárhoz</string>
+    <string name="locker_header_replce_graphic_locker">Váltás a feloldó minta zárhoz</string>
+    <string name="initializationpassword_frist_prompt">jelszó beállítása</string>
+    <string name="initializationpassword_second_prompt">Jelszó újbóli megadása a visszaigazoláshoz</string>
+    <string name="initializationpassword_pwd_not_equals">A jelszó nem egyezik, írd be újra</string>
+    <string name="init_email_prompt">Email az elfelejtett jelszóhoz</string>
+    <string name="init_email_prompt1">Kérjük, add meg a helyes email címet</string>
+    <string name="init_mail_btn_text">Következő</string>
+    <string name="forget_reset_pwd_success">A jelszó újbóli beállítása sikeres</string>
+    <string name="activity_applock_group_apps">ALKALMAZÁSOK</string>
+    <string name="activity_applock_menu_update">frissítés a Pro verzióra</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">Alkalmazások Lezárásnak Beállítása</string>
+    <string name="app_lock_setting_parent_unlock_mode">Zárnyitási Mód</string>
+    <string name="app_lock_setting_passcode">Jelszó</string>
+    <string name="app_lock_setting_others">Egyebek</string>
+    <string name="app_lock_setting_unlock_mode_numbers">Számok</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Minta</string>
+    <string name="app_lock_setting_passcode_change_passcode">Jelszó Megváltoztatása</string>
+    <string name="app_lock_setting_passcode_email_setting">Email Beállítások</string>
+    <string name="app_lock_setting_others_brief_eixt">Rövid megszakítás engedélyezése</string>
+    <string name="app_lock_setting_others_relock">Újbóli lezárás a képernyő bekapcsolása után</string>
+    <string name="app_lock_setting_brief_eixt_seconds">másodperc</string>
+    <string name="app_lock_setting_brief_eixt_minutes">perc</string>
+    <string name="app_lock_setting_pro">Pro</string>
+    <string name="app_lock_setting_pro_update">frissítés a zárakhoz</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">Elfelejtett jelszó</string>
+    <string name="forget_email_prompt1">1)Email címedre visszaigazolást küldünk.</string>
+    <string name="forget_email_prompt2">2)Add meg a visszaigazolási kódot és megkapod jelszavadat.</string>
+    <string name="forget_email_btn_prompt">Küldés</string>
+    <string name="forget_email_btn_prompt2">Jelszó újbóli beállítása</string>
+    <string name="forget_email_edit_prompt">Visszaigazolási Kód</string>
+    <string name="forget_check_code_not_right">Helytelen</string>
+    <string name="forget_check_code_out_of_time">A visszaigazolás lejárt, igényelj újat.</string>
+    <string name="forget_send_email_error">Az emailt nem sikerült elküldeni, próbáld meg újra.</string>
+    <string name="forget_send_email_success">Az emailt sikeresen elküldtük, ellenőrizd a beérkezett leveleket.</string>
+    <string name="set_graphic_password_message_draw">Feloldó minta rajzolása</string>
+    <string name="set_graphic_password_message_too_short">Legalább 4 pontot köss össze.  Próbáld újra:</string>
+    <string name="set_graphic_password_message_stored">A minta elmentve.</string>
+    <string name="set_graphic_password_message_redraw">A megerősítéshez rajzold újra a mintát:</string>
+    <string name="set_graphic_password_btn_redraw">Újrapróbálás</string>
+    <string name="set_graphic_password_message">Jelszóbeállítások</string>
+    <string name="set_graphic_password_message_wrong">Hiba, próbáld újra:</string>
+    <string name="applock_recommend_dialog_title">Ajánlott alkalmazások</string>
+    <string name="applock_recommend_dialog_lockall">Összes lezárása</string>
+    <string name="applock_recommend_dialog_ok">OK</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">FHasználd ingyen a Pro adatvédelmi zárat!</string>
+    <string name="lokcer_init_instruction_first">SJelszó beállítása a saját alkalmazásaid lezárásához</string>
+    <string name="lokcer_init_instruction_second">Jelszavadat újra erősítsd meg</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">Alkalmazások Lezárása</string>
+    <string name="finish_page_card_app_locker_desc">Tartsd &lt;big>%s&lt;/big> és másokat távol a kíváncsiskodóktól az Alkalmazások lezárása funkció segítségével!</string>
+    <string name="finish_page_card_app_locker_btn">Védelem Indítása Most</string>
+    <string name="finish_page_no_ad_app_lock_tips">A telefon felgyorsulhat</string>
+
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff">%1$s&lt;/font></string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff">%1$s&lt;/font></string>
+</resources>

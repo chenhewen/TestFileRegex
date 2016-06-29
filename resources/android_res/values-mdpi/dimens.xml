@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- 主界面 -->
+    <!-- 菜单 -->
+    <dimen name="main_menu_width">160dp</dimen>
+    <dimen name="main_menu_item_height">36dp</dimen>
+    <dimen name="main_menu_offset_x">8dp</dimen>
+
+    <!-- 清理界面 -->
+    <dimen name="clean_main_list_item_title_max_length">115dp</dimen>
+
+    <!-- 一键加速 -->
+    <dimen name="shortcut_boost_padding_left">11dp</dimen>
+    <dimen name="shortcut_boost_padding_top">5dp</dimen>
+    <dimen name="shortcut_boost_length">50dp</dimen>
+
+</resources>

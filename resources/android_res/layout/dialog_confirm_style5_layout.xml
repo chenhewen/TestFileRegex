@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog_confirm_style5_layout_notice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/common_dialog_tips"
+        />
+
+    <TextView
+        android:id="@+id/dialog_confirm_style5_layout_notice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_confirm_style5_layout_notice1"
+        style="@style/common_dialog_tips"
+        />
+
+    <RelativeLayout
+        android:id="@+id/dialog_confirm_style5_layout_notice3_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_confirm_style5_layout_notice2">
+
+        <CheckBox
+            android:id="@+id/dialog_confirm_style5_layout_notice3_layout_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:button="@drawable/start_page_checkbox_selector"
+            android:paddingBottom="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/dialog_confirm_style5_layout_notice3_layout_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/dialog_confirm_style5_layout_notice3_layout_checkbox"
+            />
+    </RelativeLayout>
+
+</merge>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+      	<ImageView
+	        android:id="@+id/game_boost_pager_tab_red"
+	        android:layout_width="10dp"
+	        android:layout_height="10dp"
+	        android:layout_marginRight="10dp"
+	        android:src="@drawable/red_icon_bg"
+	        android:visibility="gone"/> 
+        <ImageView
+            android:id="@+id/game_boost_pager_tab_icon"
+            android:layout_width="23dp"
+            android:layout_height="20dp"
+            android:src="@drawable/game_accel_anim_indicator_game"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"/>
+        <TextView
+            android:id="@+id/game_boost_pager_tab_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Games"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#4CFFFFFF"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/game_boost_pager_tab_divier"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4CFFFFFF"
+        android:layout_gravity="bottom"/>
+</merge>

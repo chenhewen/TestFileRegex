@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f7fa">
+    
+    <RelativeLayout
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="26dp">
+        
+        <RelativeLayout 
+            android:id="@+id/filecategory_sec_item_left"
+            android:layout_width="80dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content">
+            
+<!--             <ImageView 
+                android:id="@+id/filecategory_sec_item_left_icon_false"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/storage_new_music"/>  -->
+            
+            <TextView 
+                android:id="@+id/filecategory_sec_item_left_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="14dp"
+                android:textColor="#DD000000"
+                android:text="Music"
+                />
+            
+            <TextView 
+                android:id="@+id/filecategory_sec_item_left_occupy_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/filecategory_sec_item_left_title"
+                android:layout_centerHorizontal="true"
+                android:textSize="12dp"
+                android:textColor="#89000000"
+                android:text="2.56GB"
+                />
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:id="@+id/filecategory_sec_item_click_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/filecategory_sec_item_left"
+            android:background="@drawable/filcategory_sec_item_bg_selector">
+            
+	        <RelativeLayout 
+	            android:id="@+id/filecategory_sec_item_right"
+	            android:layout_width="60dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="16dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:visibility="invisible">
+	            
+	            <ImageView 
+	                android:id="@+id/filecategory_sec_item_right_btn"
+	                android:layout_width="28dp"
+	                android:layout_height="28dp"
+	                android:src="@drawable/storage_new_next_btn"
+	                android:layout_alignParentRight="true"
+	                />
+	        </RelativeLayout>
+	        
+	        <RelativeLayout 
+	            android:id="@+id/filecategory_sec_item_middle"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="16dp"
+	            android:paddingTop="20dp"
+	            android:paddingBottom="20dp"
+	            android:layout_toLeftOf="@+id/filecategory_sec_item_right"
+	            android:visibility="invisible"
+	            >
+	            
+	            <TextView 
+	                android:id="@+id/filecategory_sec_item_middle_count_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textSize="24dp"
+	                android:textColor="#ED5565"
+	                android:text="678"
+	                />
+	            
+	            <TextView 
+	                android:id="@+id/filecategory_sec_item_middle_unit_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="6dp"
+	                android:layout_toRightOf="@id/filecategory_sec_item_middle_count_text"
+	                android:layout_alignBaseline="@id/filecategory_sec_item_middle_count_text"
+	                android:textSize="14dp"
+	                android:textColor="#ED5565"
+	                android:text="Songs"
+	                />
+	            
+	            <TextView 
+	                android:id="@+id/filecategory_sec_item_middle_instruction_text"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_below="@id/filecategory_sec_item_middle_count_text"
+	                android:layout_marginTop="12dp"
+	                android:textSize="14dp"
+	                android:textColor="#89000000"
+	                android:text="Clean songs you no more listen to"
+	                />
+	            
+			</RelativeLayout>
+			
+        </RelativeLayout>
+                
+		
+        <com.gto.zero.zboost.function.filecategory.view.FileCategoryItemProcessView
+            android:id="@+id/filecategory_sec_item_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/filecategory_sec_item_left"
+            android:layout_centerVertical="true"
+            />
+        
+    </RelativeLayout>
+    
+        
+    <ImageView 
+         android:id="@+id/filecategory_sec_item_left_icon"
+         android:layout_width="68dp"
+         android:layout_height="63.75dp"
+         android:layout_marginTop="15dp"
+         android:layout_marginLeft="22dp"
+         android:src="@drawable/storage_new_music"/>
+    
+
+</RelativeLayout>

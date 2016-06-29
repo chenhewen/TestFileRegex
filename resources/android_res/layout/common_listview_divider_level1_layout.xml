@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/common_listview_divider_level1"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/common_listview_divider_margin_bottom"
+    android:layout_height="@dimen/common_listview_divider_height_level1" />

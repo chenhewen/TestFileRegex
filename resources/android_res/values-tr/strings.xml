@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+
+    <!-- 土耳其语 -->
+    <string name="app_name">GO Speed</string>
+
+    <!-- ==========字体模块========== -->
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_families_roboto_thin">sans-serif-thin</string>
+    <string name="font_families_roboto_light">sans-serif-light</string>
+    <string name="font_families_roboto_condensed">sans-serif-condensed</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_ok">TAMAM</string>
+    <string name="common_select">Seç</string>
+    <string name="common_delete">Sil</string>
+    <string name="common_others">Diğerleri</string>
+    <string name="common_uninstall">Kurulumu Kaldır</string>
+    <string name="common_back_up">Yedekle</string>
+    <string name="common_cancel">Vazgeç</string>
+    <string name="common_install">Kur</string>
+    <string name="common_installed">Kuruldu</string>
+    <string name="common_vertion">Sürüm</string>
+    <string name="common_update">Güncelle</string>
+    <string name="common_insufficient_storate">Yetersiz Depolama Alanı</string>
+    <string name="common_no_sdcard">SDCard Bulunamadı</string>
+    <string name="common_warning">Uyarı</string>
+    <string name="common_no_content">İçerik Bulunmamaktadır.</string>
+    <string name="common_uninstalled">Kaldırıldı</string>
+    <string name="common_comma">,</string>
+    <string name="common_slogan">Daha iyi bir telefona yükseltin</string>
+    <string name="common_download">Yükle</string>
+    <string name="common_more">Daha fazlası</string>
+    <string name="common_on">AÇ</string>
+    <string name="common_off">KAPA</string>
+    <string name="common_new">Yeni</string>
+    
+    <!-- 一周 -->
+    <string name="sunday">PAZ</string>
+    <string name="monday">PZT</string>
+    <string name="tuesday">SAL</string>
+    <string name="wednesday">ÇAR</string>
+    <string name="thursday">PER</string>
+    <string name="friday">CUM</string>
+    <string name="saturday">CTS</string>
+
+    <!-- 月份 -->
+    <string name="jan">Oca.</string>
+    <string name="feb">Şub.</string>
+    <string name="mar">Mar.</string>
+    <string name="apr">Nis.</string>
+    <string name="may">May.</string>
+    <string name="june">Haz.</string>
+    <string name="july">Tem.</string>
+    <string name="aug">Agu.</string>
+    <string name="sept">Eyl.</string>
+    <string name="oct">Eki.</string>
+    <string name="nov">Kas.</string>
+    <string name="dec">Ara.</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">BELLEK</string>
+    <string name="main_button_boost">Hafıza Yükseltimi</string>
+    <string name="main_button_storage">İstenmeyen Dosyalar</string>
+    <string name="main_button_manage">Uygulama Yöneticisi</string>
+    <string name="tip_press_again_to_exit">Çıkmak için tekrar basın.</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Ayarlar</string>
+    <string name="menu_update">Güncelleştirme</string>
+    <string name="menu_feedback">Geri Bildirim</string>
+    <string name="menu_about">Hakkında</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">Yılbaşı</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+    <string name="boost_main_act_title">Hafıza Arttırma</string>
+    <string name="boost_main_act_tab_running">Çalışıyor</string>
+    <string name="boost_main_act_tab_autostart">Otomatik Başlama</string>
+    <string name="boost_running_apps_custom">%1$d Uygulama Seçili</string>
+    <string name="boosting_tips">Boosting</string>
+    <string name="boosting_power_tips">Güç Yükleme</string>
+    <string name="boosted_to_optimus_tips">Optimal duruma arttırıldı!</string>
+    <string name="boosted_active_power_mode_tips">Ups! %1$d Aplikasyonu otomatik olarak tekrar başlatılacaktır.  Active PowerMode, bu durumun üstesinden gelecektir.</string>
+    <string name="enable_super_boost_enable">Etkinleştir</string>
+    <string name="enable_super_boost_title">Süper Modu Etkinleştir</string>
+    <string name="enable_super_boost_main_text">Daha etkili hızlandırma için, Erişilebilirlik özelliklerini açmanızı tavsiye ediyoruz.</string>
+    <string formatted="false" name="enable_super_boost_content_text1">Gereksiz uygulamaları tamamen durdurmanıza yardım etmek için.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">SERVİS - GO Speed\'a Dokunun</string>
+    <string name="boost_groups_list_title_running_app">Çalışan Uygulamalar</string>
+    <string name="boost_groups_list_title_cpu_temperature">CPU Sıcaklığı</string>
+    <string name="boost_groups_list_title_lag_detected">Gecikme Algılandı</string>
+    
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Turn on the above button to activate GO Speed Power Mode for maximum acceleration!\n\nGO Speed use accessibility features to help stopping not-using apps. Please don\'t worry if you see the privacy risk reminder, that\'s just a regular informative warning for any accessibility service. 
+    \n\nWe promise NOT to collect ANY information.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Seçenekler</string>
+    <string name="autostart_type_optimization">En iyi hale getirilecek</string>
+    <string name="autostart_type_allowed">İzin Verildi</string>
+    <string name="autostart_type_blocked">Engellendi</string>
+    <string name="autostart_type_system">Önceden Kurulmuş Uygulamalar</string>
+    <string name="autostart_type_system_description">Önceden kurulmuş uygulamaların otomatik başlamasını engellemek, sistem kararsızlığına neden olabilir. İşlemi dikkatle yapın</string>
+    <string name="autostart_preinstll_system">Önceden Kurulmuş Uygulamalar</string>
+    <string name="autostart_on_boot_up">Başlat</string>
+    <string name="autostart_on_background">Arkaplan</string>
+    <string name="autostart_on_boot_up_and_background">Başlat/Arkaplan</string>
+    <string name="autostart_detail_title">%1$d durumlarında otomatik başlatma:</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="add_to_ignore_list_act_title">Gözardı Edilen Listesine Ekle</string>
+    <string name="dialog_memory_footprint">Kullanılan Hafıza</string>
+    <string name="dialog_add_to_ignorelist">Gözardı Edilen Listesine Ekle</string>
+    <string name="dialog_remove_from_ignorelist">Gözardı Edilen Listesinden Sil</string>
+    <string name="tip_ignore_list_appunchecked">Bu uygulamalar taramadan sonra varsayılan olarak kontrol edilmeyecektir.</string>
+    <string name="tip_ignore_list_appadd">Gözardı edilen uygulamalara eklemek için \'+\' şekline dokunun.</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443"&gt;%s&lt;/font&gt; taranmayacak.</string>
+    <string name="clean_ignore_empty_tips">Gereksiz Dosyaları Reddetme Listesine eklemek için uzun bas.</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">UYGULAMA Yöneticisi</string>
+    <string name="app_manager_back_up_success_tips">uygulamalar şuraya yedeklendi:</string>
+    <string name="app_manager_back_up_success_tips_for_one">uygulama şuraya yedeklendi:</string>
+    <string name="app_manager_back_up_fail_tips_for_one">uygulama başarısız oldu</string>
+    <string name="app_manager_backing_up">Yedekleniyor</string>
+    <string name="app_manager_running">Çalışıyor</string>
+    <string name="app_manager_path">Kısa Yol</string>
+    <string name="app_manager_no_backup_found">Yedekleme Bulunamadı</string>
+    <string name="app_manager_tap_to_disable">Pasifleştirmek için Pasifleştir/Kapat\'a dokunun</string>
+    <string name="app_manager_tap_to_enable">Etkinleştirmek için Etkinleştir/Aç\'a dokunun</string>
+    <string name="app_manager_select_app_first">Lütfen ilk olarak uygulamaları seçin</string>
+    <string name="app_manager_shit">TAMAM</string>
+    <string name="app_manager_freed">Arttırıldı</string>
+    <string name="app_manager_use_rare_month">Ay içinde seyrek olarak kullanılmıştır</string>
+    <string name="app_manager_use_rare_days">%s günlerinde seyrek olarak kullanılmıştır</string>
+    <string name="app_manager_use_commonly">Kullanımı yaygın</string>
+    <string name="app_manager_android_system">Android Sistemi</string>
+    <string name="app_manager_use_rare">Seyrek kullanım</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Kullanıcı Uygulaması</string>
+    <string name="app_manager_tab_system">Önden yüklenmiş</string>
+    <string name="app_manager_tab_text_date">Tarih</string>
+    <string name="app_manager_tab_text_frequance">Sıklık</string>
+    <string name="app_manager_tab_text_size">Boyut</string>
+    <string name="app_manager_tab_text_battery">Batarya</string>
+    <string name="app_manager_dialog_cancel">İptal</string>
+    <string name="app_manager_dialog_backup">Yedekleme</string>
+    <string name="app_manager_dialog_uninstall">Silme</string>
+    <string name="app_manager_no_uerapp">Uygulama yok</string>
+    <string name="app_manager_preinstall_disbale_list">Uygulamalar Devredışı</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Devredışı</string>
+    <string name="app_manager_preinstall_reommend_disable">%s kullanıcıları etkin değildir.</string>
+    <string name="app_manager_preinstall_reommend_keep">Tavsiye edilen saklama</string>
+    <string name="app_manager_preinstall_reommend_none">olarak devam ettir</string>
+    <string name="app_manager_preinstall_tip">Önyüklemeli uygulamaları etkinsizleştirme, tüketimi azaltmak için seyrek olarak kullanılmaktadır.</string>
+    <string name="app_manager_preinstall_disable_toast">Devredışı bırakılmıştır.</string>
+    <string name="app_manager_preinstall_enable_toast">Etkinleştirilmiştir..</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Yığın Devredışı</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Dikkat</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[Disabling this app might <font color="#fe6969">affect normal function</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Bunu seçmek istediğinizden emin misiniz?</string>
+    <string name="app_manager_preinstall_disable_loading">Yükleniyor…</string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">İstenmeyen Dosyalar</string>
+    <string name="clean_main_suggest">Önerilen</string>
+    <string name="clean_main_selected">Seçilen</string>
+    <string name="clean_dialog_title">Uyarılar</string>
+    <string name="clean_dialog_message1">Seçtiğiniz dosya aşağıdaki içeriği içeriyor:</string>
+    <string name="gallery_thumbnails">Galeri Öngörünümleri</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">Silindikten sonra, galeriye yükleme yavaş olabilir.</string>
+    <string name="clean_group_residue">Arda Kalan Dosyalar</string>
+    <string name="clean_group_cache">Önbellek Dosyaları</string>
+    <string name="clean_group_temp">Sistem Geçici Dosyaları</string>
+    <string name="clean_group_apk">Kullanılmaz Hale gelen APK\'lar</string>
+    <string name="clean_group_big_file">Büyük Dosyalar</string>
+    <string name="clean_done_tips">Temizlendi</string>
+    <string name="clean_dialog_app_cache_yes_btn">Elle Temizleme</string>
+    <string name="clean_dialog_folder_yes_btn">Görünüm</string>
+    <string name="clean_dialog_file_yes_btn">Aç</string>
+    <string name="clean_dialog_media_yes_btn">Oynat</string>
+    <string name="clean_dialog_message_size">Boyut</string>
+    <string name="clean_dialog_message_contain">İçerik</string>
+    <string name="clean_dialog_message_path">Yol</string>
+    <string name="clean_dialog_message_file">dosyalar</string>
+    <string name="clean_dialog_message_folder">klasörler</string>
+    <string name="clean_done_none_tips">Mükemmel</string>
+    <string name="clean_dialog_btn_all">Yine de Seçin</string>
+    <string name="clean_dialog_btn_next">İncele</string>
+    <string name="clean_group_ad">Reklam çöpü</string>
+    <string name="clean_group_memory">Hafızadaki çöp</string>
+    <string name="clean_item_sys_cache">Sistem Önbelleği</string>
+    <string name="clean_file_browser_no_files">Dosya Yok</string>
+    <string name="clean_days_ago">geçmiş günler</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969"&gt;Dikkatli Olun! &lt;/font&gt;%1$s</string>
+    <string name="clean_subitem_detail_connect">Bu %1$s ın %2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443"&gt;Dosyalarınız temizlenme sonrası etkilenmeyecek.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443"&gt;Temizleme tamamen güvenli.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969"&gt;Yeniden yükleme gerekli.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969"&gt;Temizleme bunu tamamen kaldıracak!&lt;/font&gt;</string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Temiz</string>
+    <string name="uninstall_dialog_message_1">&lt;b&gt;%1$s&lt;/b&gt; left &lt;font color="#85c443"&gt;%2$s&lt;/font&gt; residual files.</string>
+    <string name="uninstall_dialog_message_2">İçerik: </string>
+    <string name="uninstall_clean_tips"> artık dosyalar temizlenmiştir!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">Ayarlar</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Geri Bildirim</string>
+    <string name="container_hint_setting_feedback">Lütfen yorumlarınızı buraya yazın, olabildiğince çok detayı bize sunun. Size her zaman kulak verip kendimizi geliştiriyoruz.</string>
+    <string name="notice_setting_feedback">Sorununuzu tanılamak için telefonun modeli ve sürümü bilgisi de alınacaktır. Asla kişisel bilgilerinizi izniniz olmadan almayız</string>
+    <string name="no_contain_setting_feedback">Selam, birşeyler söyleyecek misin?</string>
+    <string name="sendok_setting_feedback">Geri bildiriminiz için teşekkür ederz !</string>
+    <string name="checknet_setting_feedback">Lütfen ağ bağlantınızı kontrol edin.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">
+        <u>Bizi Facebook\'ta beğenin</u>
+    </string>
+    <string name="googleplus_about_setting">
+        <u>Google+ iletişimine katılın</u>
+    </string>
+    <string name="googleplay_about_setting">
+        <u>Bize GooglePlay\'de puan verin</u>
+    </string>
+    <string name="title_about_setting">Hakkında</string>
+    <string name="share_setting_about">GO Speed, telefonumu daha hızlı ve daha temiz yaptı. Bi bakın deneyin derim! Şuradan edinebilirsiniz: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014-2015 ZERO Team. All Rights Reserved.</string>
+    <string name="law_jump_setting_about">
+        <u>Gizlilik Politikası</u>
+    </string>
+    <string name="share_title_setting_about">GO Speed\'u paylaş</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">Bağlantıyı açmak olanaksızdır</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Yüzen Parçacık</string>
+    <string name="title_notice">Bildirimler</string>
+    <string name="enable_widget_setting_setting">Etkinleştir</string>
+    <string name="hide_widget_setting_setting">Durum çubuğundaki zamana gizle</string>
+    <string name="show_widget_setting_setting">Sadece masaüstünde göster</string>
+    <string name="memory_setting_setting">Hafıza arttırımı gerekmektedir.</string>
+    <string name="storge_setting_setting">Depolama alanı tükeniyor</string>
+    <string name="junk_setting_setting">Arda Kalan İstenmeyen Dosyalar</string>
+    <string name="autostart_setting_setting">Yeni otomatik başlama talebi</string>
+    <string name="ignore_setting_setting">Gözardı Edilen Listesi</string>
+    <string name="memery_boost_setting_setting">Hafıza arttırımı</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">Genel</string>
+    <string name="menu_general_setting_language">Dil</string>
+    <string name="menu_general_setting_shortcut">Kısayollar Yarat</string>
+    <string name="junk_clean_setting">Çöp Temizleme</string>
+    <string name="clean_ignore_title">Çöp Dosyalar Red Listesi</string>
+    <string name="clean_ignore_list_tips">Bunlar çöp dosya olarak taranmayacak</string>
+    <string name="menu_junk_setting">Çöp Dosyalar</string>
+    <string name="menu_junk_setting_scan_memory">Hafızadaki Çöpü Tara</string>
+    <string name="menu_join_uep_plan">&lt;u&gt;Kullanıcı Deneyim Programı&lt;/u&gt;</string>
+    <string name="menu_smart_boost">Akıllı Yükseltme</string>
+    <string name="smart_boost_screen_lock">Ekran kilidinde akıllı yükseltme</string>
+    <string name="smart_boost_show_result">Akıllı yükseltme sonrası sonuçları göster</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Yüzen parçacık pasifleştirilsin mi?</string>
+    <string name="float_hide_float_message">Yüzen parçacığı durum çubuğunun zaman kısmında saklayabilirsiniz. Denemek ister misiniz?</string>
+    <string name="float_dialog_ok">TAMAM</string>
+    <string name="float_dialog_cancel">Vazgeç</string>
+    <string name="float_dialog_hide_ok">Bi deneyin!</string>
+    <string name="float_dialog_hide_cancel">Yine de pasifleştir</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Hiç izin yok. İşlem başarısız oldu!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_boost">Arttır</string>
+    <string name="notification_ram_black">&lt;font color="#1d1d1d"&gt;Kullanılabilir Hafıza &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;den daha az %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_white">&lt;font color="#ffffff"&gt;Kullanılabilir Hafıza &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;den daha az %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_line2">Cihaz son derece yavaş çalışabilir</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"&gt; %s uygulamalar &lt;/font&gt;&lt;font color="#fe6969"&gt;pili bitiriyor&lt;/font&gt;</string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"&gt; %s uygulamalar &lt;/font&gt;&lt;font color="#fe6969"&gt;pili bitiriyor&lt;/font&gt;</string>
+    <string name="notification_ram_help_line2">Pil ömrünü uzatmak için yükseltin</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d"&gt;Hafıza dolmak üzere.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;Sadece %s%% kaldı&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff"&gt;Hafıza dolmak üzere.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;Sadece %s%% kaldı&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_line2">Yüklemeler için yeterli alan olmayabilir</string>
+    <string name="notification_release_more_banner">Boşaltıldı.Daha fazla!</string>
+    <string name="notification_release_sleep">Hızlan %s MB uyku durumunda</string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d"&gt;Cihaz &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;yavaş çalışıyor&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff"&gt;Cihaz &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;yavaş çalışıyor&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block2">Bir uygulama CPU yu çok kullanıyor</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d"&gt;CPU &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;aşırı ısınmış&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff"&gt;CPU &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;aşırı ısınmış&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat2">Bir uygulama anormal derecede CPU yu işgal ediyor</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d"&gt;CPU ısısı &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;hızla yükseliyor&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff"&gt;CPU ısısı &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;hızla yükseliyor&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp2">Bir uygulama anormal derecede CPU yu işgal ediyor</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#1d1d1d"&gt;çöpler depoyu bitiriyor&lt;/font&gt;</string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#ffffff"&gt;çöpler depoyu bitiriyor&lt;/font&gt;</string>
+    <string name="notification_clean_scan_message">Yer açmak için telefonu temizle</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969"&gt;Yeni çöp &lt;/font&gt;&lt;font color="#1d1d1d"&gt;oluşturuldu&lt;/font&gt;</string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969"&gt;Yeni çöp &lt;/font&gt;&lt;font color="#ffffff"&gt;oluşturuldu&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d"&gt;En iyi Hava Durumu Programı&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff"&gt;En iyi Hava Durumu Programı&lt;/font&gt;</string>
+    <string name="notification_go_weather_message">Yeni yıl eklentileri kullanımda!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d"&gt;Varsayılan mesajlarından sıkıldın mı?&lt;/font&gt;</string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff"&gt;Varsayılan mesajlarından sıkıldın mı?&lt;/font&gt;</string>
+    <string name="notification_go_sms_message">Kendi mesajınızı oluşturun!</string>
+    <string name="go_weather">GO Weather - Forecast &amp; Eklentisi</string>
+    <string name="go_weather_done_message">Güzel eklentilerle &amp; güncel ve gelecek hava durumu tahmini sağlar &amp; canlı duvar kağıtları.</string>
+    <string name="notification_guide_text">Kendi araç kutunu çalıştır</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Farklı Aç</string>
+    <string name="filetype_text">Metin</string>
+    <string name="filetype_video">Video</string>
+    <string name="filetype_audio">Ses</string>
+    <string name="filetype_image">Resim</string>
+    <string name="filetype_music">Müzik</string>
+    <string name="filetype_document">Belge</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">Sıkıştırma</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Yeni Versiyon</string>
+    <string name="update_update">Güncelleme</string>
+    <string name="update_later">Sonra</string>
+    <string name="update_cancel">İptal</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">Yükselt</string>
+    <string name="shortcut">Kısayol</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">Açılış Sonrası</string>
+    <string name="auto_start_on_connectivity_change">Bağlantılar değiştiği zaman</string>
+    <string name="auto_start_on_package_changed">Uygulama statüleri değiştiği zaman </string>
+    <string name="auto_start_on_package_added">Uygulamalar yüklendiği zaman</string>
+    <string name="auto_start_on_package_removed">Uygulamalar silindiği zaman</string>
+    <string name="auto_start_on_package_replaced">Uygulamalar değiştiği zaman</string>
+    <string name="auto_start_on_any_data_state">Veri değiştirildiği zaman</string>
+    <string name="auto_start_on_outgoing_call">Giden aramalar süresince</string>
+    <string name="auto_start_on_phone_state_changed">Kapatılırken</string>
+    <string name="auto_start_on_user_present">Kilit açılırken</string>
+    <string name="auto_start_on_wifi_state_change">Wi-Fi\'ye bağlanırken</string>
+    <string name="auto_start_on_wifi_enable_change">Wi-Fi açılırken/kapanırken</string>
+    <string name="auto_start_on_time_set">Zaman ayarlandığında</string>
+    <string name="auto_start_on_bluetooth_state_change">Bluetooth durumu değiştiği zaman</string>
+    <string name="auto_start_on_power_connected">Güç kablosu bağlanırken</string>
+    <string name="auto_start_on_power_disconnected">Güç kablosu çıkartılırken</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">bildirim geçiş</string>
+    <string name="notification_toggle_nocal">hesap bulunamadı!</string>
+    <string name="notification_toggle_open">GO Speed Bildirim geçiş etkin.</string>
+    <string name="notification_toggle_noflash">Cihazınızda Flashlight bulunmamaktadır.</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">GO Speed Destek %s, şimdi uygula?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Bağlantı Hatası.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">Dil indirmesi başarısızdır.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Bellek</string>
+    <string name="storage_main_act_details">Detaylar</string>
+    <string name="storage_main_act_tab_used_space">Bellek Kullanılmıştır</string>
+    <string name="storage_main_act_tab_app_total">%s Uygulamalar</string>
+    <string name="storage_main_act_tab_audio_total">%s Müzik</string>
+    <string name="storage_main_act_tab_image_total">%s Fotoğraflar</string>
+    <string name="storage_main_act_tab_document_total">%s Dökümanlar</string>
+    <string name="storage_main_act_tab_other_total">Diğerleri</string>
+    <string name="file_category_image_title">Fotoğraflar</string>
+    <string name="file_category_image_delete_dialog_msg_1">dosya(lar) silinecektir.</string>
+    <string name="file_category_image_delete_dialog_msg_2">Silinen dosya(lar) geri kurtarılamaz!</string>
+    <string name="file_category_video_no_content">Video Yok</string>
+    <string name="file_category_video_delete_msg">Videolar silinecek</string>
+    
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">%s tüm videolar</string>
+    <string name="video_title_selected">%s videolar seçildi</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Müzik</string>
+    <string name="music_group_music">Müzik</string>
+    <string name="music_group_rings">Melodiler</string>
+    <string name="music_group_record">Kayıt</string>
+    <string name="music_dialog_title">Uyarı</string>
+    <string name="music_dialog_delete_cancel">İptal</string>
+    <string name="music_dialog_delete_delete">Sil</string>
+    <string name="music_dialog_delete_notice">dosya(lar) silinecektir.</string>
+    <string name="music_dialog_delete_notice_below">Silinen dosya(lar) geri kurtarılamaz!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">Dökümanlar</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">DİĞER</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">Sil</string>
+    <string name="image_dialog_text1">Bu dosya silinecektir.</string>
+    <string name="image_dialog_text2">Emin misin?</string>
+    <string name="image_no_selected">Herhangi bir dosya seçili değildir.</string>
+    <string name="image_size_notice">%s silinmiştir!</string>
+    <string name="image_delete_layout_text">(%s) Sil</string>
+    <string name="image_delete_ok">Evet</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Bu dosyalar silinememektedir.</string>
+    <string name="no_app_to_open_file">Herhangi bir lokal uygulama, bu dosyayı açamamaktadır.</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Telefonunuzu yükseltmek için lütfen buraya taşıyınız.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">Etkisizleştirme</string>
+    <string name="disable_apps_done_disable_count">%s Geçersiz</string>
+    <string name="disable_apps_done_speed_up">%sHız+!</string>
+    <string name="disable_apps_done_description">GO Speed korunuyor</string>
+    <string name="disable_apps_wait_to_stop_tips">Trying hard to stop, wait…</string>
+    <string name="disable_list_no_app_tip">Geçersiz uygulama yok</string>
+    <string name="disable_group_most_disable_title">En geçersiz</string>
+    <string name="disable_group_recommend_keeping_title">Tavsiye edilen saklama</string>
+    <string name="disable_group_recommend_keeping_subtitle">Devredışı bırakma, sistem hatalarına neden olabilir.</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Devredışı</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Etkin</string>
+    <string name="disable_app_info_dialog_consuming_tip">Bu uygulama, sistem belleğini kullanmaktadır.</string>
+    <string name="disable_app_info_dialog_system_error_tip">Devredışı bırakma, sistem hatalarına neden olabilir.</string>
+    <string name="disable_app_info_dialog_no_statement">İhtiyaç duyulmuyorsa, devredışı bırakmayı deneyebilirsiniz.</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Üretici ön kurulum servisi</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&lt;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">Şimdi Yükle</string>
+
+    
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Şerefe!</string>
+    <string name="rate_gp_dialog_feedback_title">Geri Bildirim</string>
+    <string name="rate_gp_dialog_rate_title">Sev GO Speed</string>
+    <string name="rate_gp_dialog_one_notice_boost">Geçmiş %1$s günde, GO Speed öldürdü &lt;font color="#85c443"&gt; %2$s &lt;/font&gt;gereksiz uygulamaları.&lt;br /&gt; &lt;br/&gt; &lt;font color="#85c443"&gt;Beğendin mi GO Speed?&lt;/font&gt;</string>
+    <string name="rate_gp_dialog_one_no_boost">Not Really</string>
+    <string name="rate_gp_dialog_one_yes_boost">Yes!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Başarılı bir şekilde temizlendiniz &lt;font color="#85c443"&gt; %s &lt;/font&gt; çöp! &lt;br /&gt; &lt;br/ GO Speed i nasıl buldun?</string>
+    <string name="rate_gp_dialog_one_no_clean">Fena Değil</string>
+    <string name="rate_gp_dialog_one_yes_clean">Çok Sevdim!</string>
+    <string name="rate_gp_dialog_two_notice">Bize geri bildirimde bulunur musunuz? Görüşleriniz bizim için değerli.</string>
+    <string name="rate_gp_dialog_two_no">Hayır, teşekkürler</string>
+    <string name="rate_gp_dialog_two_yes">Tabi, elbette</string>
+    <string name="rate_gp_dialog_three_notice">5 yıldızlı bir değerlendirmeye ne dersiniz?</string>
+    <string name="rate_gp_dialog_three_no">Hayır, Teşekkürler</string>
+    <string name="rate_gp_dialog_three_yes">Tabi, elbette</string>
+    <string name="rate_gp_notification_notice">Gereksiz birok uygulama temizlediniz Kontrol eder misin?</string>
+
+    <!-- 启动页 -->
+    <string name="private_start">BAŞLA</string>
+    <string name="private_join_uep">&lt;u&gt;Kullanıcı Deneyim Programı&lt;/u&gt;</string>
+    <string name="privacy_start_by_agree_policy">Kabul ediyorum &lt;u&gt;Gizlilik Politikası&lt;/u&gt;</string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">yüklendi, gereksiz uygulamaları temizle</string>
+    <string name="install_listen_installed_multiple_msg">Uygulamalar yüklendi, gereksiz uygulamaları temizle</string>
+    <string name="install_listen_delete_apk_tip">Temizlendi</string>
+    <string name="install_listen_dialog_clean_btn_text">Temizle</string>
+    <string name="install_listen_dialog_cancel_btn_text">İptal</string>
+    <string name="install_listen_dialog_eye_tip_on">3 gün boyunca sorma</string>
+    <string name="install_listen_dialog_eye_tip_off">Sormaya devam et</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">Oyun Yükseltme</string>
+    <string name="game_boost_add_to_game_title">Oyun Ekle</string>
+    <string name="game_boost_effect">Yükselt &lt;font color="#85c443"&gt;%s &lt;/font&gt; daha çok RAM için.</string>
+    <string name="game_cell_add">Oyun Ekle</string>
+    <string name="game_cell_ok">Tamam</string>
+    <string name="game_boost_menu_about">Nasıl Çalışır</string>
+    <string name="game_boost_menu_add_shutcut">Oyun dosyası Oluştur</string>
+    <string name="game_boost_folder_create_success">Oyun Dosyası Oluşturma Başarılı</string>
+    <string name="game_boost_box_shortcut_name">Oyun Yükseltme</string>
+    <string name="game_boost_box_shortcut_name_new">Oyunlarım</string>
+    <string name="game_boost_add_card_view_title_popular">Sevilen Oyunlar</string>
+    <string name="game_boost_add_new_game_to_boost">%s Oyun Yükseltmeye eklendi</string>
+    <string name="game_boost_add_new_games_to_boost">%s yeni oyunlar Oyun Yükselmeye eklendi</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Yükseltiyor</string>
+    <string name="game_accel_anim_boost_toast_tip">Yükseltildi, %s%%.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">CPU Sorunları</string>
+    <string name="cpu_fix">ÇÖZ</string>
+    <string name="cpu_check">Kontrol Et</string>
+    <string name="cpu_issue_type_temp_overheated">Aşırı Isınmış!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Hızla Artıyor!</string>
+    <string name="cpu_issue_type_heavily_occupied">CPU yoğun işgal altında!</string>
+    <string name="cpu_temp_issue_app">soruna neden oluyor</string>
+    <string name="cpu_occupied_issue_app">Tüketiyor &lt;font color="#D46565"&gt; %s &lt;/font&gt; CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">CPU Soğutucu</string>
+    <string name="cpu_coll_down_cpu">CPU Soğut</string>
+    <string name="cpu_temperature_issue">Isı Sorunu</string>
+    <string name="cpu_device_running_slow">Cihaz yavaş çalışıyor</string>
+    <string name="cpu_issue_detected">Sorun tespit edildi</string>
+    <string name="cpu_cool_down_further">Soğut ve temizle clean %s çalışan uygulamaları</string>
+    <string name="cpu_temp_well">CPU ısısı normal</string>
+    <string name="cpu_temp_hot">biraz sıcak</string>
+    <string name="cpu_temp_overheated">Aşırı Isınmış</string>
+    <string name="cpu_temp_chilling">Soğuyor</string>
+    <string name="cpu_temp_cooler">CPU Soğutucu</string>
+    <string name="cpu_occupy">İlgal ediyor &lt;font color="#D46565"&gt; %s &lt;/font&gt; CPU</string>
+    <string name="cpu_abnormal">Anormal CPU Kullanımı: &lt;font color="#D46565"&gt; %s &lt;/font&gt;</string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Optimize edildi</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Cihazı serinlemesi için dinlendir.</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Isınan uygulama yok</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Cihaz soğuyor</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Isınan uygulamalar temizlendi</string>
+    <string name="cpu_anim_cooldown_done_dropped">Düşürüldü</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Soğutmaya başlıyor</string>
+    <string name="cpu_anim_scan_process_tip_text">İşlmeciyi tarıyor</string>
+    <string name="cpu_anim_lag_done_tip_text">Yükseltildi!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">İnternet bağlantınızı kontrol edip tekrar deneyin</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Oyun Yükselticiyi Dene</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Oyun Yükseltici başarılı bir şekilde yüklendi, kontrol edin :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Etkinleştirildi</string>
+    <string name="finish_page_card_game_booster_desc">Oyunculara Hediye! En etkin &amp; havalı oyun yükseltme ürünü</string>
+    <string name="finish_page_card_game_booster_desc_single_game">Hızlanmak için Oyun Yükseltici yi başlatalım mı &lt;big&gt;%s&lt;/big&gt; 65%% -e kadar?</string>
+    <string name="finish_page_card_game_booster_btn">Dene</string>
+
+    <string name="finish_page_card_whitelist_name">Öldürülmesini istemediklerin</string>
+    <string name="finish_page_card_whitelist_desc"> Reddedilenler Listesindeki Önemli Uygulamalar güvende. Bu liste düzenlenebilir.</string>
+    <string name="finish_page_card_whitelist_btn">Kontrol edin!</string>
+    <string name="finish_page_card_autostart_name">Otomatik başlamalar tespit edildi</string>
+    <string name="finish_page_card_autostart_desc">&lt;big&gt;%s&lt;/big&gt; Otomatik başlayan programlar optimize edildi</string>
+    <string name="finish_page_card_autostart_btn">Kontrol et</string>
+    <string name="finish_page_card_photo_name">Fotoğraflarımı düzenle</string>
+    <string name="finish_page_card_photo_desc"> &lt;big&gt;%s fotoğraflar &lt;/big&gt; alındı ancak hepsi yer kaplayacak kadar değerli değildir belki?</string>
+    <string name="finish_page_card_photo_btn">Düzenle</string>
+    <string name="finish_page_card_clean_1_name">Temizle ve Çöpe gönder</string>
+    <string name="finish_page_card_clean_1_desc">Yaramaz telefon ayarlandı son olarak &lt;big&gt;%s&lt;/big&gt; çöpe gitti</string>
+    <string name="finish_page_card_clean_1_btn">Temizle</string>
+    <string name="finish_page_card_activate_power_mode_title">%s uygulamalar &lt;big&gt; otomatik başlayan &lt;/big&gt;</string>
+    <string name="finish_page_card_activate_power_mode_desc">Başlat &lt;big&gt;Güç Modunu&lt;/big&gt; başa çıkmak için</string>
+    <string name="finish_page_card_activate_power_mode_btn">Başlat</string>
+    <string name="finish_page_card_feedback_name">Bize ne üşündüğünü söyle</string>
+    <string name="finish_page_card_feedback_desc">Sorun, öneri, memnuniyet ne olursa</string>
+    <string name="finish_page_card_feedback_btn">Geri Bildirim</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Telefonu Yükselt</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Telefonu hızlandırmak için hafızayı boşalt</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Yükselt</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big&gt;%s%% Hafıza&lt;/big&gt; Kaldı</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s çalışan uygulamalar hafızayı bitiriyor ve cihazı yavaşlatıyor</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Şimdi Yükselt</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Önceki yüklemeleri durdur</string>
+    <string name="finish_page_card_disable_desc">%1$s önceki yüklenen uygulamalar, &lt;big&gt;%2$s&lt;/big&gt; durdurulabilir</string>
+    <string name="finish_page_card_disable_btn">Kontrol et</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Hangisi gizlice başlamış kontrol et</string>
+    <string name="finish_page_no_ad_clean2_tips">Çöp Telefonunu yavaşlatacaktır</string>
+    <string name="finish_page_no_ad_clean1_tips">JÇöp her zaman temizlenmeli</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">Oyunların da yükseltilmeye ihtiyacı var!</string>
+    <string name="finish_page_no_ad_disable_tips">bazı ön yüklemeler gerçekten gereksiz</string>
+    <string name="finish_page_no_ad_photo_tips">Daha fazla yer açılabilir!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">Güç Modu: zor kapananları halledebilir!</string>
+    <string name="finish_page_no_ad_whitelist_tips">İhtiyacın olanları da durdurma!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">Telefon yavaş çalışıyor</string>
+    <string name="finish_page_no_ad_boost_normal_tips">Telefon daha hızlı çalışabilir</string>
+
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">Oyun ekle</string>
+    <string name="game_accel_guide_title">Oyun yükselt</string>
+    <string name="game_accel_guide_text2">başlatıldı</string>
+    <string name="game_accel_guide_try_text">denemek için dokun!</string>
+    <string name="game_accel_guide_gamename_1">Kısayol ulaştırıldı</string>
+    <string name="game_accel_guide_gamename_2">MAsaüstünde aç</string>
+    <string name="game_accel_guide_gamename_3">Oyunları tarıyor…</string>
+    <string name="game_accel_guide_discovery_text_above">Kanal Z</string>
+    <string name="game_accel_sec_anim_title">OYUNLAR</string>
+    <string name="game_accel_shortcut_created">Oluşturuldu</string>
+    <string name="game_accel_tip_dialog_content_text_new">Hızlanmak için Oyun Yükselticiyi başlat &lt;font color="#85c443"&gt;\"%s\"&lt;/font&gt;  65%% e kadar?</string>
+    <string name="game_accel_sort_name">İsim</string>
+    <string name="game_accel_sort_Date">Tarih</string>
+    <string name="game_accel_sort_Frequency">Frekans</string>
+    <string name="game_accel_game_box_title">Oyunları Yönet</string>
+    <string name="game_accel_add_shortcut">Kısayol Oluştur</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">KEŞFET</string>
+    <string name="game_distribute_connection_failed">Bağlantı Başarısız</string>
+    <string name="game_distribute_net_data_alert">WIFI ile oynayın. Böylece veri tüketimi azalır</string>
+    <string name="game_distribute_warning_title">GO Speed TV</string>
+    <string name="game_distribute_warning_content"> Filmler ve videolar inanılmaz.\n Videolar sadece ev kullanımı için ancak diğer haklar da var. Bu tür film ve videoları izlemek için GO Speed e hoşgeldin. size istediğiniz zaman video izleme imkanı sunuyoruz.</string>
+    <string name="game_distribute_video_title">Kanal</string>
+    <string name="game_distribute_game_searching">Oyunlar aranıyor...</string>
+
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534"&gt;Big Apps &lt;/font&gt;</string>
+    <string name="cpu_thieves_title">3 uygulama &lt;font color="#6ac534"&gt;Bugünkü CPU Hırsızları &lt;/font&gt;</string>
+    <string name="num_times">%s kere </string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Kullanılabilir hafıza oldukça düşük!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+
+    <string name="home_guide_card_photo_desc1">Kolayca resim çekme</string>
+    <string name="home_guide_card_photo_desc2">ve onları silme</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+
+    <string name="home_guide_card_cpu_desc">Aşırı ısınan CPU pili tüketiyor</string>
+
+    <string name="home_guide_card_disbale_desc">Ön yüklemelerle başa çık!</string>
+    <string name="home_guide_card_disbale_desc2">Telefonun daha hızlı olabilir</string>
+    <string name="home_guide_card_disbale_desc_big">%s Uygulamalar</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Güç Modu Yükseltiliyor</string>
+    <string name="enable_super_boost_mode_normal">Normal Yükseltme</string>
+    <string name="enable_super_boost_desc_super">&lt;b&gt;Yükselt:&lt;/b&gt; Normal Ugulamalar, &lt;mark&gt;&lt;font color="red"&gt; Kendi başalayan programlar&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt; Yönlendirilmiş telefonlara yüzde 60 Daha fazla yükseltme gücü veriyor.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (Lütfen bir sonraki adım için GO Speed uygulamasını açın)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b&gt;Boost:&lt;/b&gt; Normal Uygulamalar, &lt;mark&gt;&lt;font color="red"&gt;Kendi başalayan programlar&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;Yönlendirilmiş telefonlara yüzde 60 Daha fazla yükseltme gücü veriyor.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (Lütfen bir sonraki adım için GO Speed uygulamasını açın))</string>
+    <string name="enable_super_boost_desc_normal">&lt;b&gt;Yükselt:&lt;/b&gt; Normal Uygulamalar&lt;br&gt;
+      Kendi başalayan programlargüç modu dışında yükseltilemezler.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">Telefonum için güçyükseltmesi şimdi!</string>
+
+
+    <string name="enable_super_disable_mode_super">Yğın Durdurma</string>
+    <string name="enable_super_disable_mode_normal">Elle Durdurma</string>
+    <string name="enable_super_disable_desc_super">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;Feature:&lt;/b&gt; Yığın durdurma bir tıkla kullanışsız hale gelir.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (Lütfen bir sonraki adım için GO Speed uygulamasını açın)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;Feature:&lt;/b&gt; Yığın durdurma bir tıkla kullanışsız hale gelir..&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (Lütfen telefonunuz yeniden başlatıldığında GO Speed uygulamasını açın)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b&gt;Feature:&lt;/b&gt; Gereksiz uygulamaları sırayla kapat. &lt;br&gt;
+                    &lt;mark&gt;&lt;font color="red"&gt;Yığın durdurma şiddetle önerilir.&lt;/font&gt; &lt;/mark&gt;
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Yığın durdurmayı etkinleştir</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Ayarlar sekmesi uyarıları</string>
+    <string name="notification_toggle_settings_label_themes">Temalar</string>
+    <string name="notification_toggle_settings_label_toggles">Sekme</string>
+    <string name="notification_toggle_settings_label_zspeed">KLASİK</string>
+    <string name="notification_toggle_settings_label_popular">EN ÇOK KULLANILAN</string>
+    <string name="notification_toggle_theme_name_green">Demeter</string>
+    <string name="notification_toggle_theme_name_pink">Athena</string>
+    <string name="notification_toggle_theme_name_black">Erebus</string>
+    <string name="notification_toggle_theme_name_silver">Uranus</string>
+    <string name="notification_toggle_theme_name_golden">Kronos</string>
+    <string name="notification_toggle_toggle_name_app">Ana Sayfa</string>
+    <string name="notification_toggle_toggle_name_boost">Yükselt</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">Fener</string>
+    <string name="notification_toggle_toggle_name_brightness">Parlakalık</string>
+    <string name="notification_toggle_toggle_name_themes">Temalar</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">Veri</string>
+    <string name="notification_toggle_toggle_name_camera">Kamera</string>
+    <string name="notification_toggle_toggle_name_calculator">Hesap makinası</string>
+    <string name="notification_toggle_toggle_name_rotate">Döndür</string>
+    <string name="notification_toggle_toggle_name_sound">Ses</string>
+    <string name="notification_toggle_bright_auto">AUTO</string>
+    <string name="notification_toggle_notification_ticker">GO Speed araç kutusu beklemede</string>
+    <string name="notification_toggle_notification_ticker_initializing">Araç kutusu bşlatılıyor…</string>
+
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Arama için içeriği yazıyor</string>
+    <string name="hot_word_search_next_batch">daha</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Fotoğrafları çoğalt</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s  fotoğraf temizlendi!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Tüm çoğaltılan fotoğraflar silindi!</string>
+    <string name="duplicate_photos_delete_alert_title">Kalıcı olarak sil</string>
+    <string name="duplicate_photos_delete_alert_desc">Kalıcı olarak silmek istediğinizden emin misiniz?</string>
+    <string name="duplicate_photos_scan_alert">Tarama biraz zaman alabilir, lütfen bekleyin</string>
+    <string name="duplicate_photos_no_content">Tebrikler çifte fotoğraflar temizlendi!</string>
+    <string name="duplicate_photos_suffix_selected">%s seçildi</string>
+    <string name="duplicate_photos_suffix_total">%s fotoğraf toplamı</string>
+
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">Haftanın oyunu </string>
+    <string name="game_ad_notification_label_weekly_best_app">Haftanın uygulaması</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">AppLock</string>
+    <string name="app_lock_perm_settings_title">Ayarlar</string>
+    <string name="app_lock_perm_settings_message">İzin isteği</string>
+    <string name="app_lock_notice_enable_usage_stats">Android 5.0 ve üstünde, AppLock uygulamasının kullanılması için buna izin vermeniz gerekir.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_enable_usage_stats">İzin ver</string>
+    <string name="install_app_mointor_locker">Kilitleme gerekir</string>
+    <string name="locker_header_forget_pwd">Parolayı unuttum</string>
+    <string name="locker_header_replce_number_locker">açmak için parolayı girin </string>
+    <string name="locker_header_replce_graphic_locker">Açmak için deseni girin</string>
+    <string name="initializationpassword_frist_prompt">Parolayı ayarla</string>
+    <string name="initializationpassword_second_prompt">Doğrulama için parolayı girin</string>
+    <string name="initializationpassword_pwd_not_equals">Parola uyuşmuyor tekrar deneyin </string>
+    <string name="init_email_prompt">Unutulan parola için e posta</string>
+    <string name="init_email_prompt1">Doğru e posta adresini girin</string>
+    <string name="init_mail_btn_text">Yapıldı</string>
+    <string name="forget_reset_pwd_success">Parola oluşturuldu</string>
+    <string name="activity_applock_group_apps">UYGULAMA</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">AppLock Ayarları</string>
+    <string name="app_lock_setting_parent_unlock_mode">Açma Modu</string>
+    <string name="app_lock_setting_passcode">Parola</string>
+    <string name="app_lock_setting_others">Diğer</string>
+    <string name="app_lock_setting_unlock_mode_numbers">Numaralar</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Desen</string>
+    <string name="app_lock_setting_passcode_change_passcode">Parolayı Değiştir</string>
+    <string name="app_lock_setting_passcode_email_setting">Eposta Ayarları</string>
+    <string name="app_lock_setting_others_brief_eixt">Kısa bir çıkışa izin ver</string>
+    <string name="app_lock_setting_others_relock">ekran açılınca tekrar kilitle</string>
+    <string name="app_lock_setting_brief_eixt_seconds">saniyeler</string>
+    <string name="app_lock_setting_brief_eixt_minutes">dakikalar</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">Paraloyı unuttum</string>
+    <string name="forget_email_prompt1">1)E posta adresinize doğrulama kodu göndereceğiz</string>
+    <string name="forget_email_prompt2">2)Doğrulama kodunu girin ve parolanızı alın.</string>
+    <string name="forget_email_btn_prompt">Gönder</string>
+    <string name="forget_email_btn_prompt2">PArolayı yenile</string>
+    <string name="forget_email_edit_prompt">Doğrulama kodu</string>
+    <string name="forget_check_code_not_right">Hatalı</string>
+    <string name="forget_check_code_out_of_time">Doğrulamanın süresi geçmiş lütfen yenisini isteyin.</string>
+    <string name="forget_send_email_error">Eposta gönderilemedi, Lütfen tekrar deneyin.</string>
+    <string name="forget_send_email_success">E posta başarıyla gönderildi lütfen posta kutunuzu kontrol edin.</string>
+    <string name="set_graphic_password_message_draw">Açmak için bir desen çizin</string>
+    <string name="set_graphic_password_message_too_short">En az 4 noktayı birleştirin. Tekrar deneyin:</string>
+    <string name="set_graphic_password_message_stored">Desen Kaydedildi.</string>
+    <string name="set_graphic_password_message_redraw">Doğrulamak için deseni tekrar çizin:</string>
+    <string name="set_graphic_password_btn_redraw">Tekrar dene</string>
+    <string name="set_graphic_password_message">Parola Ayarları</string>
+    <string name="set_graphic_password_message_wrong">Hata, Tekrar deneyin:</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">Pro Gizlilik kilidi kullanıma açık!</string>
+    <string name="lokcer_init_instruction_first">Özel uygulamalarınızın Kilit parola ayarları</string>
+    <string name="lokcer_init_instruction_second">Parolarınızı yeniden doğrulayın</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">AppLock</string>
+    <string name="finish_page_card_app_locker_desc">Uzak tutun &lt;big&gt;%s&lt;/big&gt; Applock öğesi ile uyguamalarınızdan!</string>
+    <string name="finish_page_card_app_locker_btn">Şimdi Koru</string>
+    <string name="finish_page_no_ad_app_lock_tips">Telefon daha hızlı olabilir</string>
+
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+
+    <!-- Storage 2.0改版 -->
+    <string name="filecategory_sec_picture_title">Resimler</string>
+    <string name="filecategory_sec_picture_unit">Tümü</string>
+    <string name="filecategory_sec_deep_clean_title">Derin Temizleme</string>
+    <string name="filecategory_sec_music_title">Müzik</string>
+    <string name="filecategory_sec_music_unit">Şarkı</string>
+    <string name="filecategory_sec_music_units">Şarkılar</string>
+    <string name="filecategory_sec_music_instruction">Dinlemediğiniz şarkıları temizleyin</string>
+    <string name="filecategory_sec_video_title">Video</string>
+    <string name="filecategory_sec_video_unit">Video</string>
+    <string name="filecategory_sec_video_units">Videolar</string>
+    <string name="filecategory_sec_video_instruction">İzlediklerini temizle ve depoda yer aç</string>
+    <string name="filecategory_sec_uninstall_title">Kaldır</string>
+    <string name="filecategory_sec_uninstall_unit">Uygulama</string>
+    <string name="filecategory_sec_uninstall_units">Uygulamalar</string>
+    <string name="filecategory_sec_uninstall_instruction">İhtiycın olmayanları kaldır</string>
+    <string name="filecategory_sec_big_file_title">Büyük Dosyalar</string>
+    <string name="filecategory_sec_big_file_unit">Dosya</string>
+    <string name="filecategory_sec_big_file_units">Dosyalar</string>
+    <string name="filecategory_sec_big_file_instruction">Geniş dosya ve dizinleri keşfet</string>
+    <string name="filecategory_sec_picture_duplicate_unit">Çoğalt</string>
+    <string name="filecategory_sec_deep_clean_other_instuction">Diğer %s Uygulamalar</string>
+    <string name="filecategory_sec_header_top_text">%1$s Kullanılan  %2$s Toplam</string>
+    <string name="filecategory_sec_bar_instuction_pic">Resimler</string>
+    <string name="filecategory_sec_bar_instuction_app">Uygulamalar</string>
+    <string name="filecategory_sec_bar_instuction_video">Videolar</string>
+    <string name="filecategory_sec_bar_instuction_music">Müzik</string>
+    <string name="filecategory_sec_bar_instuction_other">Diğerleri</string>
+    <string name="filecategory_sec_list_item_scanning">TARIYOR...</string>
+    <string name="filecategory_sec_list_item_check">KONTROL ET</string>
+    <string name="filecategory_sec_list_item_collapse">Çöküş</string>
+    <string name="filecategory_sec_list_item_empty_text">Dosya Yok</string>
+    <string name="filecategory_sec_list_item_empty_text_duplicate">Eşleşen fotoğraf yok</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_null">Bilinmeyen dosyalar</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_image">Resim dosyaları</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_other">Diğer Dosyalar</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_video">Video dosyaları</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_audio">Ses dosyaları</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_resource">Kaynak Paketler</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_apk">APKlar</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_game">Oyun Dosyaları</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_ad">Reklam Dosyaları</string>
+    <!-- 带删除的文件管理器 -->
+    <string name="filecategory_broswer_group_title">Tüm dosyalar</string>
+
+    <!-- BigFile -->
+    <string name="filecategory_bigfile_title">Büyük dosyalar</string>
+    <string name="filecategory_bigfile_title_select_text_one">&lt;font color="#f77071"&gt;siline dosyalar kurtarılamadı!&lt;/font&gt;</string>
+    <string name="filecategory_bigfile_title_select_text_two">Seçmek istediğinize emin misiniz?</string>
+    <string name="filecategory_bigfile_title_select_text_check">Geçici olarak gösterme</string>
+    <string name="big_file_group_item_size">&lt;font color="#ff0000"&gt;Boyut:%1$s&lt;/font&gt;</string>
+    <string name="big_file_group_item_path">Yol:%1$s</string>
+    <string name="big_file_scan_text">Taranıyor %1$s büyük dosyalar</string>
+    <string name="big_file_all_size"> %1$s toplamdaki dosyalar</string>
+    <string name="big_file_selected_size">%1$s dosyalar seçildi</string>
+    <string name="big_file_delete">Sil</string>
+    <string name="big_file_detail_view">Göster</string>
+    <string name="big_file_delete_detail">Seçilen dosyaları silmek istediğinizden emin misiniz?</string>
+    <string name="big_file_delete_size">%1$s dosyalar silindi!</string>
+
+    <!-- 应用专清页面 -->
+    <string name="deep_clean_single_page_title_suggestion">Toplam</string>
+    <string name="deep_clean_single_page_card_clean">TEMİZLE</string>
+    <string name="deep_clean_single_page_card_to_clean">KONTROL ET</string>
+    <string name="deep_clean_single_page_card_cleaning">TEMİZLENİYOR</string>
+    <string name="deep_clean_single_page_card_cleaned">TEMİZLENDİ</string>
+    <string name="deep_clean_warn_level_0_desc">Dosyalarınız temizleme işleminden etkilenmeyecek</string>
+    <string name="deep_clean_warn_level_1_desc">Temizleme tamamen güvenli</string>
+    <string name="deep_clean_warn_level_2_desc">Temizleme sonrasında tekrar yüklenmesi gerekecek</string>
+    <string name="deep_clean_warn_level_10_desc">Temizleme bunu tamamen silecek</string>
+    <string name="deep_clean_warn_level_11_desc">Temizleme ÖNERİLMEZ</string>
+
+    <!-- 主界面2.0 -->
+    <string name="home_page_ram_info_text">%1$s Boş / %2$s Toplaml</string>
+    <string name="home_page_storage_info_text">%1$s Boş / %2$s Toplaml</string>
+    <!-- 侧边栏页面 -->
+    <string name="home_page_drawer_like_us">Bizi Beğen</string>
+    <string name="home_page_drawer_z_family">GO  Ailesi</string>
+    <string name="home_page_drawer_theme">Temalar</string>
+
+
+    <!-- 省电 -->
+    <string name="setting_charge_group">Pil Koruyucu</string>
+    <string name="setting_charge">Hızlı Şarj</string>
+	<string name="power_saving_charging_text">Tam Şarj Kalan &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+	<string name="power_saving_left_power_text">MevcutZaman &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+    <string name="power_saving_mode_speed">Hız</string>
+    <string name="power_saving_mode_contiuous">Devam eden</string>
+    <string name="power_saving_mode_trickle">Damlama</string>
+    <string name="power_saving_mode_speed_instruction">Pil 80% e şarj oldu </string>
+    <string name="power_saving_mode_contiuous_instruction">Elektrik akımı şarjı yavaşlatıyor</string>
+    <string name="power_saving_mode_trickle_instruction">Pil ömrünü uzatmak için damlamayı kullan</string>
+    <string name="power_saving_accel_result_text">&lt;font color="#ffce54"&gt;%1$s&lt;/font&gt; Pili bitiren uygulamalardan kurtarıldı &lt;font color="#ffce54"&gt;%2$s&lt;/font&gt; şarj olurken</string>
+    <string name="power_saving_menu_clost">Kapat</string>
+    <string name="power_saving_menu_dialog_title">hızlı şarj etmeyi durdurmaya çalışıyor</string>
+    <string name="power_saving_menu_dialog_content">ŞArj etme hızın artırılmayacak. Kapatacak mısınız</string>
+    <string name="power_saving_menu_dialog_cancel">Şimdi değil </string>
+    <string name="power_saving_menu_dialog_confim">Kapat</string>
+    <string name="power_saving_time_unit_hour">saat</string>
+    <string name="power_saving_time_unit_minute">dakika</string>
+    <string name="power_saving_unlock_slide">Açmak için Kaydır &gt;</string>
+
+    <string name="power_saving_guide_title">Hızlı Şarj etme</string>
+    <string name="power_saving_guide_desc">Pilinizi daha hızlı şarj etmek ve zamandan kazanmak için Hızı Şarjı açın</string>
+    <string name="power_saving_guide_btn_enable">ETKİNLEŞTİR</string>
+
+    <string name="power_saving_ad_open">AÇ</string>
+    <string name="power_saving_ad_cancel">SİL</string>
+
+    <!--facebook点赞弹窗引导-->
+    <string name="facebook_like_dialog_title">Ne kadar uzak O kadar iyi?</string>
+    <string name="facebook_like_dialog_desc"> GO Speed hakkında daha fazla bilgi al &lt;font color="#4a89dc"&gt;Facebook&lt;/font&gt;</string>
+    <string name="facebook_like_dialog_btn_like">Beğen</string>
+    <string name="facebook_like_dialog_btn_cancel">Şimdi Değil</string>
+    
+    <!-- AppLock 优化 -->
+    <string name="applock_pre_header_last_step_text1">Tam koruma için bir adım kaldı</string>
+    <string name="applock_pre_header_last_step_text2">GO Speed için açın</string>
+    <string name="applock_pre_dialog_title">bir adım daha</string>
+    <string name="applock_pre_dialog_content">Tam koruma için bir adım kaldı</string>
+    <string name="applock_pre_dialog_cancel">Kapat</string>
+    <string name="applock_pre_dialog_confim">Devam</string>
+
+    <!--GO输入法推广弹窗-->
+    <string name="go_input_prom_pop_theme_desc">Input slowly and boring? 800 emoji ve tema ile daha fazla eğlen!</string>
+    <string name="go_input_prom_pop_theme_btn">Şimdi al</string>
+    <string name="go_input_prom_pop_memory_desc">Klavye hafızası telefonunuzu yavaşlatıyor!</string>
+    <string name="go_input_prom_pop_memory_btn">Şimdi Yükselt</string>
+
+    <string name="boost_banner_ad_toast_good">iyi</string>
+<string name="adchoice_about_setting">Reklam Tercihi</string>
+    <string name="app_lock_all_intruders">%s izinsiz giriş</string>
+    <string name="app_lock_anti_peep_img_app_info">&lt;font color="#FFFFFF"&gt;Yakalandın!  &lt;/font&gt;&lt;font color="#da4453"&gt;%1$s&lt;/font&gt; kilidini aç</string>
+    <string name="app_lock_camera_access_tips_fail">Kamera kullanmasına izin verme, izinsiz girişleri açma işlemi başarısız oldu.</string>
+    <string name="app_lock_camera_access_tips_suc">İzinsiz girişleri göster açık.</string>
+    <string name="app_lock_camera_auth_tip">Gizli girişleri yakalamak için GO Speed\'in kamera kullanmasına izin ver.</string>
+    <string name="app_lock_image_share_text_tip">Ne bulduğumu tahmin et! Güvenliğin için bunu sen de denemelisin.</string>
+    <string name="app_lock_new_intruders">&lt;b&gt;%s YENİ&lt;/b&gt; izinsiz giriş</string>
+    <string name="app_lock_setting_intruder">İzinsiz Girişler </string>
+    <string name="app_lock_setting_intruder_setting">İzinsiz giriş ayarı</string>
+    <string name="app_lock_setting_intruder_times">kez</string>
+    <string name="app_lock_setting_intruder_twice">iki kez</string>
+    <string name="app_lock_setting_intruder_wrong_times">Yanlış şifre izinleri</string>
+    <string name="app_lock_setting_reveal_intruder">İzinsiz girişleri göster</string>
+    <string name="app_manager_preinstall_disbale_subtitle">Kurtarmanın devre dışı bırakılması bu yanlış devre dışı bırakmanın sebep olduğu hatayı onarabilir</string>
+    <string name="app_manager_preinstall_disbale_title">Kurtarma Devre Dışı Bırakıldı</string>
+    <string name="applock_pre_header_text1_new">Kilitlenmesi önerilen öncelikli &lt;big&gt;%1$s&lt;/big&gt; uygulamalar</string>
+    <string name="applock_pre_header_text2_new">Bu uygulamaların gizli bilgilerini koru</string>
+    <string name="applock_pre_last_step_usage_guide_explanation">Tam koruma almak için GO Speed\'i aç.</string>
+    <string name="applock_pre_last_step_usage_guide_title">Android 5.0+ kullanıcıları için bir adım daha. </string>
+    <string name="boot_up_memory_intro_desc">Uygulamalar yeniden başlatma sonrasında kontrolün dışında otomatik olarak başlatılıyor.</string>
+    <string name="boot_up_memory_title">Otomatik Başlatılan Uygulamalar</string>
+    <string name="boot_up_notify_msg">Otomatik başlatılan uygulamalar algılandı! Şimdi incele.</string>
+    <string name="boot_up_optimize">İyileştir</string>
+    <string name="boot_up_time_intro_desc">Yeniden başlatma işleminden beri telefon saatinin yeniden başlatılması gerekiyor.</string>
+    <string name="boot_up_time_title">Telefon yeniden başlatma gerekli</string>
+    <string name="build_in_ad_go_battery_saver_btn">Hemen iyileştir</string>
+    <string name="build_in_ad_go_battery_saver_desc">Gerçek pil tasarrufu</string>
+    <string name="build_in_ad_go_battery_saver_title">Tek Tuşla Pil Tasarrufu</string>
+    <string name="build_in_ad_go_security_btn">taranıyor</string>
+    <string name="build_in_ad_go_security_desc">Telefonunun güvenliğini sağla</string>
+    <string name="build_in_ad_go_security_title">anti-virüs</string>
+    <string name="build_in_ad_safe_box_btn">Şifrele</string>
+    <string name="build_in_ad_safe_box_desc">Gizliliğin banka kadar güvende</string>
+    <string name="build_in_ad_safe_box_title">Şifre ve resimleri şifrele</string>
+    <string name="common_days">Gün</string>
+    <string name="common_deep_clean_backup">Yedek Dosyalar</string>
+    <string name="common_deep_clean_cache">Ön Bellek</string>
+    <string name="common_deep_clean_clean_cache_deleting">Siliniyor...</string>
+    <string name="common_deep_clean_clean_clean">Temizle</string>
+    <string name="common_deep_clean_clean_done">%1$s TEMİZLENDİ!</string>
+    <string name="common_deep_clean_clean_view">Görüntüle</string>
+    <string name="common_deep_clean_document">Belgeler</string>
+    <string name="common_deep_clean_image">Galeri</string>
+    <string name="common_deep_clean_music">Müzik</string>
+    <string name="common_deep_clean_video">Videolar</string>
+    <string name="common_dismiss">Reddet</string>
+    <string name="common_dismiss_message">Tüm bu mesajları reddet.</string>
+    <string name="common_view">Görüntüle</string>
+    <string name="deep_clean_promote_dialog_content">Ön bellek ve ekler bulunamadı.</string>
+    <string name="deep_clean_whatsapp_desc_backup">WhatsApp tarafından otomatik olarak kaydedilen yedek dosyalar.</string>
+    <string name="deep_clean_whatsapp_desc_cache">Rahatlıkla silebileceğin gereksiz veriler.</string>
+    <string name="deep_clean_whatsapp_desc_document">WhatsApp sohbetlerinden belgeler.</string>
+    <string name="deep_clean_whatsapp_desc_gallery">WhatsApp sohbetlerinden resimler.</string>
+    <string name="deep_clean_whatsapp_desc_music">WhatsApp sohbetlerinden müzikler.</string>
+    <string name="deep_clean_whatsapp_desc_video">WhatsApp sohbetlerinden videolar.</string>
+    <string name="deep_clean_whatsapp_no_backup">Otomatik olarak kaydedilen yedek dosya bulunamadı.</string>
+    <string name="deep_clean_whatsapp_no_cache">Gereksiz veri bulunamadı.</string>
+    <string name="deep_clean_whatsapp_no_document">Telefona kaydedilen sohbet belgesi yok.</string>
+    <string name="deep_clean_whatsapp_no_gallery">Telefona kaydedilen sohbet resmi yok.</string>
+    <string name="deep_clean_whatsapp_no_music">Telefona kaydedilen sohbet müziği yok.</string>
+    <string name="deep_clean_whatsapp_no_video">Telefona kaydedilen sohbet videosu yok.</string>
+    <string name="facebook_deep_clean_desc_cache">Daha fazla yer açmak için gereksiz ön belleği sil.</string>
+    <string name="facebook_deep_clean_desc_fb_img">Facebook\'taki resimlerini yönet.</string>
+    <string name="facebook_deep_clean_desc_message_img">Messenger\'daki resimlerini yönet.</string>
+    <string name="facebook_deep_clean_desc_message_video">Messenger\'daki hızlı kamera çekimlerini yönet.</string>
+    <string name="facebook_deep_clean_title_cache">Ön Bellek Verileri</string>
+    <string name="facebook_deep_clean_title_fb_img">Facebook Galerisi</string>
+    <string name="facebook_deep_clean_title_message_img">Messenger Galerisi</string>
+    <string name="facebook_deep_clean_title_message_video">Messenger Hızlı Kamera Çekimleri</string>
+    <string name="facebook_media_posted_tag">Yayınlandı</string>
+    <string name="facebook_media_saved_tag">Kaydedildi</string>
+    <string name="finish_page_card_activate_usage_stats_permission_btn">İzin ver</string>
+    <string name="finish_page_card_activate_usage_stats_permission_desc">Telefonunu etkili bir şekilde hızlandırmak için GO Speed\'in yeni android özelliğini kullanmasına izin ver!</string>
+    <string name="finish_page_card_activate_usage_stats_permission_title">Android &lt;big&gt;5.0+&lt;/big&gt; için Hızlandırma</string>
+    <string name="function_ad_page_chglock_desc_1">Bir sonraki şarj için Hızlı Şarjı etkinleştir.</string>
+    <string name="function_ad_page_chglock_desc_2">Telefon kullanımını uzatmak için hemen Hızlı Şarjı etkinleştir.</string>
+    <string name="function_ad_page_chglock_desc_3">Süreyi kısaltmak için Hızlı Şarjı etkinleştir.</string>
+    <string name="function_ad_page_chglock_desc_4">Pilini korumak için Dengeleme Şarjını etkinleştir</string>
+    <string name="function_ad_page_chglock_title_1">Daha profesyonel ve hızlı pil şarjı?</string>
+    <string name="function_ad_page_chglock_title_2">Kalan pil sadece %s%%!</string>
+    <string name="function_ad_page_chglock_title_3">%s şarj kaldı</string>
+    <string name="function_ad_page_chglock_title_4">Pil doldurulmaya hazır</string>
+    <string name="home_page_drawer_go_security">Anti-virüs</string>
+    <string name="home_page_drawer_notification_box">Bildirim Kutusu</string>
+    <string name="http_adchoice">https://m.facebook.com/ads/ad_choices</string>
+    <string name="intruder_gallery_menu_clear_all_pohtos">tüm fotoğrafları temizle</string>
+    <string name="intruder_gallery_no_content">Tebrikler! İzinsiz giriş yok!</string>
+    <string name="intruder_main_no_content">Yanlış kod girişi izinsiz giriş olarak algılanır.</string>
+    <string name="intruder_shot_info_desc">İki kez yanlış kod girilmesi izinsiz giriş olarak algılanır.</string>
+    <string name="intruder_shot_info_title">İzinsiz girişleri kapat</string>
+    <string name="menu_group_notification">Bildirim</string>
+    <string name="menu_group_notification_notification">@string/menu_group_notification</string>
+    <string name="menu_junk_file_interval">Gereksizleri şu aralıkla tara: </string>
+    <string name="menu_junk_file_scan">Gereksizleri tara</string>
+    <string name="menu_junk_file_size">Gereksiz boyutu doldu</string>
+    <string name="notification_box">Bildirimleri Sessize Al</string>
+    <string name="notification_box_guide_first_desc">Bildirimleri Sessize Al özelliğini etkinleştirmek için lütfen GO Speed\'e izin ver.</string>
+    <string name="notification_box_guide_float_title">Bildirim Yöneticisini aç</string>
+    <string name="notification_box_guide_second_desc">Bildirimleri günlük olarak al? Bildirimleri Sessize Al özelliğini kullanmayı dene.</string>
+    <string name="notification_box_main_fragment_empty_tips">Bildirim yok</string>
+    <string name="notification_box_main_group_title">%2$s alanından %1$s</string>
+    <string name="notification_box_main_launch_tips">%1$s alanına gidiliyor</string>
+    <string name="notification_box_main_title">&lt;font color="#f6bb42"&gt;%1$s &lt;/font&gt;&lt;font color="#8cc152"&gt; Uyarılar Sessize Alındı&lt;/font&gt;</string>
+    <string name="notification_box_settings_notice">Bildirimleri Sessize Al devre dışı bırakıldı.</string>
+    <string name="notification_box_settings_title">Bildirimleri Sessize Al Ayarı</string>
+    <string name="notification_box_switch_label">Bildirimleri Sessize Al özelliğini kullan</string>
+    <string name="notification_facebook_deep_clean_title_black">&lt;font color="#1d1d1d"&gt;Facebook gereksiz dosyalarında derin temizlik.&lt;/font&gt;</string>
+    <string name="notification_facebook_deep_clean_title_white">&lt;font color="#ffffff"&gt;Facebook gereksiz dosyalarında derin temizlik.&lt;/font&gt;</string>
+    <string name="notification_like_us_one_line_one">Şu Ana Kadar Güzel Miydi?</string>
+    <string name="notification_like_us_one_line_two">Facebook\'tan GO Speed hakkında daha fazla bilgi al. </string>
+    <string name="notification_like_us_two_line_one">Android hakkında iyileştirici bilgi mi almak istiyorsun?</string>
+    <string name="notification_like_us_two_line_two">GO Speed\'de var. Bizi beğen ve faydalı bilgileri al!</string>
+    <string name="notification_service_label">bildirim hizmeti</string>
+    <string name="notification_setting_auto">Akıllı Mod</string>
+    <string name="notification_setting_boost_level">Hafıza dolu</string>
+    <string name="notification_setting_boost_switch">Hafıza hızlandırma gerekli</string>
+    <string name="notification_setting_cpu_switch">CPU Monitör</string>
+    <string name="notification_setting_manual">Manüel mod</string>
+    <string name="notification_setting_manual_boost">Telefonu Hızlandır</string>
+    <string name="notification_setting_manual_clean">@string/junk_clean_setting</string>
+    <string name="notification_setting_mode">Mod</string>
+    <string name="notification_setting_storage_level">Kalan kullanılabilir alan</string>
+    <string name="notification_setting_storage_switch">Depo alanı bitiyor</string>
+    <string name="power_boost_shortcut_dialog_ok">Hızlandırmayı Etkinleştir</string>
+    <string name="power_boost_shortcut_dialog_text1">1. Otomatik başlatılan uygulamaları iptal et.</string>
+    <string name="power_boost_shortcut_dialog_text2">2. İnatçı uygulamaları iptal et.</string>
+    <string name="power_boost_shortcut_dialog_text3">3. Telefonunu yenisi gibi hızlandır.</string>
+    <string name="power_boost_shortcut_dialog_title">Hızlandırma için erişilebilirlik önemlidir:</string>
+    <string name="power_boost_shortcut_init_boost">Hızlandırma başlatılıyor…</string>
+    <string name="power_boost_shortcut_name">Hızlandır</string>
+    <string name="recommend_app_lock_dialog_desc">Gizli girişlere karşı &lt;font color="#4a89dc"&gt;%s&lt;/font&gt; kadar kilitle!</string>
+    <string name="recommend_app_lock_dialog_title">Uygulamaların gizliliğini koru</string>
+    <string name="recommend_app_lock_notify_desc">Bunu engellemek için hassas uygulamaları kilitle!</string>
+    <string name="recommend_app_lock_notify_title_black">&lt;font color="#1d1d1d"&gt;Birisi gizlice telefonuna mı giriyor?&lt;/font&gt;</string>
+    <string name="recommend_app_lock_notify_title_white">&lt;font color="#ffffff"&gt;Birisi gizlice telefonuna mı giriyor?&lt;/font&gt;</string>
+    <string name="recommend_notification_box_notify_desc">Bildirimleri Sessize Al özelliğini dene!</string>
+    <string name="recommend_notification_box_notify_title_black">&lt;font color="#1d1d1d"&gt;Bildirimleri günlük olarak al?&lt;/font&gt;</string>
+    <string name="recommend_notification_box_notify_title_white">&lt;font color="#ffffff"&gt;Bildirimleri günlük olarak al?&lt;/font&gt;</string>
+    <string name="setting_boost_ignorelist">Çalışan uygulamaları yok say listesi</string>
+    <string name="setting_boot_up_notice">Yeniden Başlatma Kontrolü</string>
+    <string name="setting_whatsapp_promote">WhatsApp gereksiz raporu</string>
+    <string name="uninstalled_app">Silinen uygulama</string>
+    <string name="whatsapp_delete_alert_desc">Bunları kalıcı olarak silmek istediğinden emin misin?</string>
+    <string name="whatsapp_deleted_msg">%1$s dosya %2$s silindi</string>
+    <string name="whatsapp_media_menu_select_all">Tümünü Seç</string>
+    <string name="whatsapp_media_receive_tag">Al</string>
+    <string name="whatsapp_media_sent_tag">Gönderildi</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/recommend_app_lock_layout_bg_selector"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerInside"
+        android:src="@drawable/recommend_applock_app_icon"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@string/font_families_roboto"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_marginRight="16dp"
+        android:maxWidth="200dp"
+        android:maxLines="2"
+        android:text="@string/recommend_app_lock_slogan"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="normal" />
+
+</LinearLayout>

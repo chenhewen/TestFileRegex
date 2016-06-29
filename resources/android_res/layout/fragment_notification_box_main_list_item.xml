@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/common_list_item_white_selector">
+
+    <TextView
+        android:id="@+id/notification_box_main_list_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/common_margin"
+        android:ellipsize="middle"
+        android:fontFamily="@string/font_families_roboto"
+        android:maxWidth="80dp"
+        android:singleLine="true"
+        android:textColor="#aab2bd"
+        android:textSize="14dp"
+        tools:text="10:00"/>
+
+    <TextView
+        android:id="@+id/notification_box_main_list_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_toLeftOf="@id/notification_box_main_list_item_time"
+        android:ellipsize="middle"
+        android:fontFamily="@string/font_families_roboto"
+        android:maxLines="2"
+        android:maxWidth="200dp"
+        android:textColor="@color/default_text_color_deep"
+        android:textSize="14dp"
+        tools:text="3 Notice From COC"/>
+
+
+    <include
+        android:id="@+id/notification_box_main_list_item_divider"
+        layout="@layout/common_listview_divider_level0_layout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.common.ui.ZoomItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:clipChildren="false" >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/file_category_image_item_bg" >
+
+    <ImageView
+        android:id="@+id/file_category_image_list_item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/file_category_image_list_item_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_50p_black"
+        android:visibility="gone" />
+
+    <com.gto.zero.zboost.view.GroupSelectBox
+        android:id="@+id/file_category_image_list_item_checkbox"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>
+</com.gto.zero.zboost.common.ui.ZoomItemLayout>

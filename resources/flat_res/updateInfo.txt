@@ -1,0 +1,4 @@
+本版本更新的语言:
+希伯来语: strings_iw.xml
+立陶宛语: strings_lt.xml
+挪威语: strings_nb.xml

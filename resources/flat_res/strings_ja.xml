@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Z Speed+</string>
+    <string name="action_settings">設定</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_ok">OK</string>
+    <string name="common_select">選択</string>
+    <string name="common_delete">削除</string>
+    <string name="common_others">その他</string>
+    <string name="common_stop">停止</string>
+    <string name="common_uninstall">アンインストール</string>
+    <string name="common_back_up">バックアップ</string>
+    <string name="common_cancel">キャンセル</string>
+    <string name="common_install">インストール</string>
+    <string name="common_installed">インストール完了</string>
+    <string name="common_vertion">バージョン</string>
+    <string name="common_update">更新</string>
+    <string name="common_insufficient_storate">記憶領域の不足</string>
+    <string name="common_no_sdcard">SDCard が見つかりません</string>
+    <string name="common_warning">警告</string>
+    <string name="common_no_content">中身がありません</string>
+    <string name="common_comma">,</string>
+    <string name="common_period">.</string>
+    <string name="common_uninstalled">アンインストール</string>
+    <string name="common_slogan">加速してより良い携帯に</string>
+    <string name="common_download">ダウンロード</string>
+    <string name="common_more">もっと</string>
+    <string name="common_off">オフ</string>
+    <string name="common_new">新</string>
+    
+    <!-- ========= 主界面 ========= -->
+    <string name="available">利用可能</string>
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">記憶領域</string>
+    <string name="main_button_boost">メモリー増量</string>
+    <string name="main_button_storage">ジャンクファイル</string>
+    <string name="main_button_manage">アプリケーション マネージャー</string>
+    <string name="main_ram_total">%s 合計</string>
+    <string name="main_storage_total">%s 合計</string>
+    <string name="tip_press_again_to_exit">再度押して終了してください</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">設定</string>
+    <string name="menu_update">更新</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_about">おおよそ</string>
+    <string name="menu_shuffle">シャッフル</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">クリスマス</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+    <string name="boost_main_act_title">メモリー増量</string>
+    <string name="boost_main_act_tab_running">実行中</string>
+    <string name="boost_main_act_tab_autostart">オートスタート</string>
+    <string name="boost_running_apps_custom">%1$d 選択されたアプリケーションン</string>
+    <string name="boosting_memory_act_title">メモリー増量</string>
+    <string name="boosting_tips">ブースト中</string>
+    <string name="boosting_power_tips">パワーブースト中</string>
+    <string name="boosted_to_optimus_tips">最適な状態にブースト完了!</string>
+    <string name="boosted_active_power_mode_tips">おっと!%1$dアプリケーションが自動で再起動しました。\nActive PowerModeが制御します!</string>
+    <string name="enable_super_boost_enable">有効にする</string>
+    <string name="enable_super_boost_title">Super Modeを有効にする</string>
+    <string name="enable_super_boost_main_text">更に効率的に加速するため、 アクセス機能をONにすることをお勧めします</string>
+    <string name="enable_super_boost_content_text1" formatted="false">完全にアプリケーションを停止、無効にします</string>
+    <string name="enable_super_boost_content_text2" formatted="false">バッテリーの消費を抑えます</string>
+    <string name="enable_super_boost_content_text3" formatted="false">85%以上のユーザーがこの機能を有効にしています。</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip"> Z Speedにタッチ+ 動作中</string>
+    <string name="boost_groups_list_title_running_app">運行中のアプリ</string>
+    <string name="boost_groups_list_title_cpu_temperature">CPU 温度</string>
+    <string name="boost_groups_list_title_lag_detected">ラグ検出</string>
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">上記のボタンをONにして Z Speed+ Power Mode を最大に加速させるために実行!\n\nZ Speed+は必要のないアプリケーションを停止するためにアクセス機能を用います。プライバシー危険のリマインダーが表示されても心配しないでください。これはアクセスサービスにはよくある通常の情報としての警告です。\n\nいかなる情報も取得いたしません。</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">オプション</string>
+    <string name="autostart_optimization_desr">最適化できます</string>
+    <string name="autostart_type_optimization">最適化されています</string>
+    <string name="autostart_type_allowed">承認されました</string>
+    <string name="autostart_type_blocked">ブロックされましたBlocked</string>
+    <string name="autostart_type_system">プレインストール アプリケーション</string>
+    <string name="autostart_type_system_description">プレインストール アプリケーション オートスタートをブロックするとシステムが不安定になる可能性があります。注意して進めてください</string>
+    <string name="autostart_preinstll_system">プレインストール アプリケーション</string>
+    <string name="autostart_on_boot_up">ブート アップ</string>
+    <string name="autostart_on_background">バックグラウンド</string>
+    <string name="autostart_on_boot_up_and_background">ブートアップ/バックグラウンド</string>
+    <string name="autostart_detail_title">%1$d の状態でオートスタート:</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="ignore_list_act_title">ブロックリスト</string>
+    <string name="add_to_ignore_list_act_title">ブロックリストに追加する</string>
+    <string name="dialog_memory_footprint">使用済みメモリ</string>
+    <string name="dialog_add_to_ignorelist">ブロックリストに追加する</string>
+    <string name="dialog_remove_from_ignorelist">ブロックリストから取り除く</string>
+    <string name="tip_ignore_list_appunchecked">これらのアプリケーションンはスキャン後初期設定によりチェックされません。</string>
+    <string name="tip_ignore_list_appadd">アプリケーションを無視するに追加するために \'+\' にタッチする。</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443">%s&lt;/font>スキャンされません.</string>
+    <string name="clean_ignore_empty_tips">ジャンクファイルでアイテムを長押してブラックリストに追加します。</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">アプリケーション マネージャー</string>
+    <string name="app_manager_my_backups">マイバックアップ</string>
+    <string name="app_manager_others">その他</string>
+    <string name="app_manager_back_up_success_tips">アプリケーションのバックアップは:</string>
+    <string name="app_manager_back_up_success_tips_for_one">アプリケーションのバックアップは:</string>
+    <string name="app_manager_back_up_fail_tips">アプリケーションが失敗しました</string>
+    <string name="app_manager_back_up_fail_tips_for_one">アプリケーションが失敗しました</string>
+    <string name="app_manager_pre_installed_apps">プレインストール アプリケーション</string>
+    <string name="app_manager_backing_up">バックアップ中</string>
+    <string name="app_manager_running">実行中</string>
+    <string name="app_manager_stop">停止</string>
+    <string name="app_manager_apps_running">アプリケーション実行中</string>
+    <string name="app_manager_apps_desc">使用頻度が少ないプレインストール アプリケーションを無効にすると消費を抑えることができます。</string>
+    <string name="app_manager_path">パス</string>
+    <string name="app_manager_no_backup_found">バックアップが見つかりません</string>
+    <string name="app_manager_tap_to_disable">無効にするには Disable/Turn offにタッチしてください</string>
+    <string name="app_manager_tap_to_enable">有効にするには Enable/Turn onにタッチしてください</string>
+    <string name="app_manager_select_app_first">最初にアプリケーションを選択してください</string>
+    <string name="app_manager_shit">OK</string>
+    <string name="app_manager_freed">解放されました</string>
+    <string name="app_manager_use_rare_month">ヶ月ほとんど使用されていません</string>
+    <string name="app_manager_use_rare_days">日間ほとんど使用されていません</string>
+    <string name="app_manager_use_commonly">よく使用されている</string>
+    <string name="app_manager_android_system">アンドロイド システム</string>
+    <string name="app_manager_use_rare">費用頻度が非常に少ない</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">ユーザーアプリケーション</string>
+    <string name="app_manager_tab_system">プレインストール</string>
+    <string name="app_manager_tab_text_date">日付</string>
+    <string name="app_manager_tab_text_frequance">頻度</string>
+    <string name="app_manager_tab_text_size">サイズ</string>
+    <string name="app_manager_tab_text_battery">バッテリー</string>
+    <string name="app_manager_tab_text_name">名前</string>
+    <string name="app_manager_dialog_cancel">キャンセル</string>
+    <string name="app_manager_dialog_backup">バックアップ</string>
+    <string name="app_manager_dialog_uninstall">アンインストール</string>
+    <string name="app_manager_preinstall_noyice"><![CDATA[&nbsp&nbsp&nbsp&nbsp<font color="#76B54B"> %sアプリケーション実行中 </font>無効にすると消費が少なくなります。安全です]]></string>
+    <string name="app_manager_no_uerapp">アプリケーションンがありません</string>
+    <string name="app_manager_preinstall_disbale_list">アプリケーションが無効になりました</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">無効になりました</string>
+    <string name="app_manager_preinstall_reommend_disable">% users 無効になりました</string>
+    <string name="app_manager_preinstall_reommend_keep">現状維持をお薦めします</string>
+    <string name="app_manager_preinstall_reommend_none">現状維持</string>
+    <string name="app_manager_preinstall_tip">使用頻度が少ないプレインストール アプリケーションを無効にすると消費が減少します。</string>
+    <string name="app_manager_preinstall_disable_toast">は無効になっています。</string>
+    <string name="app_manager_preinstall_enable_toast">は有効になっています。</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">一括処理が無効です</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">注意</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[このアプリケーションを無効にすると <font color="#fe6969">正常な機能に影響を及ぼす</font>可能性があります。]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">選択しますか？</string>
+    <string name="app_manager_preinstall_disable_loading">読み込み中…</string>
+    <string name="diable_lab_dialog_title">Z Speed+ Lab</string>
+    <string name="diable_lab_dialog_content_text"><![CDATA[Lab機能を試してみてください: <font color="#76b54b">一括処理を無効にするプレインストール アプリケーション</font>問題が生じたらフィードバックをお願いします。一緒に良くしていきましょう！]]></string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">ジャンクファイル</string>
+    <string name="clean_main_suggest">提案しました</string>
+    <string name="clean_main_selected">選択しました</string>
+    <string name="clean_dialog_title">注意</string>
+    <string name="clean_dialog_message1">選択したファイルには以下の内容が含まれています:</string>
+    <string name="gallery_thumbnails">ギャラリー サムネイル</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">削除するとギャラリーへ読み込んでいる最中は動作が遅くなります。</string>
+    <string name="clean_group_app_cache">アプリケーション キャッシュ</string>
+    <string name="clean_group_residue">常駐ファイル</string>
+    <string name="clean_group_cache">キャッシュ ジャンク</string>
+    <string name="clean_group_temp">システム 一時ファイル</string>
+    <string name="clean_group_apk">使われていないapks</string>
+    <string name="clean_group_big_file">ビッグ ファイル</string>
+    <string name="clean_group_memory">メモリー ジャンク</string>
+    <string name="clean_item_sys_cache">システム キャッシュ</string>
+    <string name="clean_done_tips">削除済み</string>
+    <string name="clean_dialog_app_cache_yes_btn">手動でクリーニング</string>
+    <string name="clean_dialog_folder_yes_btn">閲覧する</string>
+    <string name="clean_dialog_file_yes_btn">開く</string>
+    <string name="clean_dialog_media_yes_btn">再生する</string>
+    <string name="clean_dialog_message_size">サイズ</string>
+    <string name="clean_dialog_message_contain">抑える</string>
+    <string name="clean_dialog_message_path">パス</string>
+    <string name="clean_dialog_message_file">ファイル</string>
+    <string name="clean_dialog_message_folder">フォルダー</string>
+    <string name="clean_done_none_tips">すばらしい</string>
+    <string name="clean_file_browser_no_files">ファイルがありません</string>
+    <string name="clean_days_ago">日前</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color=&quot;#FE6969&quot;&gt;注意してください!&lt;/font&gt;%1$s</string>
+    <string name="clean_subitem_detail_connect">これは%2$sのうちの %1$sです</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color=&quot;#85C443&quot;&gt;削除してもおあなたのファイルには影響はありません&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color=&quot;#85C443&quot;&gt;安全に削除できます。&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color=&quot;#FE6969&quot;&gt;再度、ダウンロードが必要です。&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color=&quot;#FE6969&quot;&gt;これらを削除すれば二度と削除の必要はありません！&lt;/font&gt;</string>
+    <string name="clean_dialog_btn_all">任意に選択</string>
+    <string name="clean_dialog_btn_next">チェック</string>
+    <string name="clean_group_ad">ADジャンク</string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">削除する</string>
+    <string name="uninstall_dialog_message_1">%1$sの&lt;font color=&quot;#85c443&quot;&gt;%2$s&lt;/font&gt; 常駐ファイルが残っています。</string>
+    <string name="uninstall_dialog_message_2">含まれているもの:</string>
+    <string name="uninstall_clean_tips"> 常駐ファイルが削除されました!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">設定</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Feedback</string>
+    <string name="container_hint_setting_feedback">こちらに出来る限り詳細にご意見をご記入ください。常に皆様の声に耳を傾け、改善に取り組んでいます。</string>
+    <string name="mial_hint_setting_feedback">Email</string>
+    <string name="notice_setting_feedback">電話の型式とバージョンはお客様の問題を診断するために取得させていただきます。個人情報はお客様の許可無しに取得することは一切ございません。</string>
+    <string name="no_contain_setting_feedback">何か言って？</string>
+    <string name="sendok_setting_feedback">フェードバックのご協力ありがとうございます!</string>
+    <string name="checknet_setting_feedback">お客様のネットワークの接続をご確認ください。</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">&lt;u>「いいね」を押してください&lt;/u></string>
+    <string name="googleplus_about_setting">&lt;u>Join Google+ communication&lt;/u></string>
+    <string name="googleplay_about_setting">&lt;u>GooglePlayで評価してください&lt;/u></string>
+    <string name="title_about_setting">おおよそ</string>
+    <string name="share_setting_about">Z Speed+を使えば電話の速度が速く、聞こえやすくなります。試して!ここから取得: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014–2015 ZERO Team. All Rights Reserved.</string>
+    <string name="law_jump_setting_about">&lt;u>プライバシー ポリシー&lt;/u></string>
+    <string name="share_title_setting_about">Z Speed+を共有</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">接続を開くことができません</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">フローティング ウインド</string>
+    <string name="title_notice">お知らせ</string>
+    <string name="enable_widget_setting_setting">有効にする</string>
+    <string name="show_widget_setting_setting">デスクトップのみに表示</string>
+    <string name="memory_setting_setting">メモリーブーストが必要</string>
+    <string name="storge_setting_setting">記憶領域がなくなります</string>
+    <string name="junk_setting_setting">常駐ジャンクファイル</string>
+    <string name="autostart_setting_setting">新規のオートスタートリクエスト</string>
+    <string name="ignore_setting_setting">ブロックリスト</string>
+    <string name="memery_boost_setting_setting">実行中のアプリケーション</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">全般</string>
+    <string name="menu_general_setting_language">言語</string>
+    <string name="menu_general_setting_shortcut">ショートカットの作成</string>
+    <string name="menu_junk_setting">ジャンクファイル</string>
+    <string name="menu_junk_setting_scan_memory">メモリジャンをスキャン</string>
+    <string name="hide_widget_setting_setting">ステータスバーの時間に隠します</string>
+    <string name="clean_ignore_title">ジャンクファイルのブラックリスト</string>
+    <string name="clean_ignore_list_tips">これらのアイテムは、ジャンクファイルとしてスギャンされません</string>
+    <string name="menu_join_uep_plan">&lt;u>ユーザーエクスペリエンスプログラム&lt;/u></string>
+    <string name="menu_smart_boost">スマート加速</string>
+    <string name="smart_boost_screen_lock">画面ロックでスマート加速</string>
+    <string name="smart_boost_show_result">スマート加速後の結果を表示</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">フローティング ウインドウを無効にしますか?</string>
+    <string name="float_hide_float_message">フローティング ウインドウはステータスバーの時刻の場所に隠すこともできます。</string>
+    <string name="float_dialog_ok">OK</string>
+    <string name="float_dialog_cancel">キャンセル</string>
+    <string name="float_dialog_hide_ok">やってみて!</string>
+    <string name="float_dialog_hide_cancel">無効にする</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">許可がありませんオペレーションに失敗!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram">使用可能なメモリは %s%%未満です。</string>
+    <string name="notification_boost">ブーストする</string>
+    <string name="notification_sdcard">記憶領域がなくなります。タッチして削除!</string>
+    <string name="notification_release_more"><![CDATA[%s MB が解放されました。<font color="#85c443">更に解放!</font>]]></string>
+    <string name="notification_boost_phone_optimum"><![CDATA[電話は最適な状態です。<font color="#85c443">もっと機能を!</font>]]></string>
+    <string name="notification_ram_white">&lt;font color="#ffffff">使用可能なメモリがあります &lt;/font>&lt;font color="#fe6969">&lt;b>less than %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_line2">デバイスが極端に遅くなるかもしれません</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"> %s アプリは  &lt;/font>&lt;font color="#fe6969">電池を消耗してます&lt;/font></string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"> %sアプリは &lt;/font>&lt;font color="#fe6969">電池を消耗しています&lt;/font></string>
+    <string name="notification_ram_help_line2">加速してバッテリを節約する</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d">ストレージ不足.&lt;/font>&lt;font color="#fe6969">&lt;b>Only %s%% left&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff">ストレージ不足.&lt;/font>&lt;font color="#fe6969">&lt;b>Only %s%% left&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_line2">ダウンロードするにはスペースが足りません</string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d">デバイスは &lt;/font>&lt;font color="#fe6969">&lt;b>遅くなってます&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff">デバイスは &lt;/font>&lt;font color="#fe6969">&lt;b>遅くなってます&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block2">アプリはひどくCPUを消耗しています</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d">CPU は &lt;/font>&lt;font color="#fe6969">&lt;b>過熱です&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff">CPU は &lt;/font>&lt;font color="#fe6969">&lt;b>過熱です&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat2">あるアプリが異常にCPUを占有しています</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d">CPU Temp. は &lt;/font>&lt;font color="#fe6969">&lt;b>急速上昇中&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff">CPU Temp.は &lt;/font>&lt;font color="#fe6969">&lt;b>急速上昇中&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp2">あるアプリが異常にCPUを占有しています</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#1d1d1d">ジャンクはスペースを食べています&lt;/font></string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#ffffff">ジャンクはスペースを食べています&lt;/font></string>
+    <string name="notification_clean_scan_message">クリーンして携帯のメモリを解放する</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969">新しいジャンク &lt;/font>&lt;font color="#1d1d1d">が生まれた&lt;/font></string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969">新しいジャンク &lt;/font>&lt;font color="#ffffff">が生まれた&lt;/font></string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d">あなたのためのベスト天気アプリ&lt;/font></string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff">あなたのためのベスト天気アプリ&lt;/font></string>
+    <string name="notification_go_weather_message">新しいクリスマスウィジェットをリリース！</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d">デフォルトメッセージにうんざり?&lt;/font></string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff">デフォルトメッセージにうんざり?&lt;/font></string>
+    <string name="notification_go_sms_message">あなた特有のメッセージをカスタマイズ！</string>
+    <string name="go_launcher">GO Launcher Z</string>
+    <string name="go_weather">GO Weather - 予測&amp; ウィジェット</string>
+    <string name="go_weather_done_message">今の情報を提供 &amp; 未来の気象情報, 美しいウィジェット&amp;ライフ壁紙.</string>
+    <string name="notification_guide_text">トグルをオンにします</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">として開く</string>
+    <string name="filetype_text">テキスト</string>
+    <string name="filetype_video">ビデオ</string>
+    <string name="filetype_audio">オーディオ</string>
+    <string name="filetype_image">写真</string>
+    <string name="filetype_music">音楽</string>
+    <string name="filetype_document">ドキュメント</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">圧縮</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">新バージョン</string>
+    <string name="update_update">更新</string>
+    <string name="update_later">後で</string>
+    <string name="update_cancel">キャンセル</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">ブーストする</string>
+    <string name="shortcut">ショートカット</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">起動後</string>
+    <string name="auto_start_on_connectivity_change">ネットワーク変更の際</string>
+    <string name="auto_start_on_package_changed">アプリケーションのステータスが変更される際</string>
+    <string name="auto_start_on_package_added">アプリケーションをインストールの際</string>
+    <string name="auto_start_on_package_removed">アプリケーションをアンインストールの際</string>
+    <string name="auto_start_on_package_replaced">アプリケーションを変更の際</string>
+    <string name="auto_start_on_any_data_state">データが変更される際</string>
+    <string name="auto_start_on_outgoing_call">発信中</string>
+    <string name="auto_start_on_phone_state_changed">電話をきる際</string>
+    <string name="auto_start_on_user_present">ロックを解除する際</string>
+    <string name="auto_start_on_wifi_state_change">Wi-Fiに接続する際</string>
+    <string name="auto_start_on_wifi_enable_change">Wi-Fiをon/offにする際</string>
+    <string name="auto_start_on_time_set">時刻が設定される際</string>
+    <string name="auto_start_on_bluetooth_state_change">Bluetoothの状態が変更される際</string>
+    <string name="auto_start_on_power_connected">電源ケーブルをつなげる際</string>
+    <string name="auto_start_on_power_disconnected">電源ケールを切る際When disconnecting the power cable</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">通知トグル</string>
+    <string name="notification_toggle_nocal">計算機が見つかりません!</string>
+    <string name="notification_toggle_open">Z Speed+ 通知トグルが有効になりました。</string>
+    <string name="notification_toggle_noflash">フラッシュライトが装置にはありません!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">Z Speed+ Support %s,、適用しますか？</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">接続時におけるエラー</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">言語のダウンロードに失敗しました。</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">記憶領域</string>
+    <string name="storage_main_act_details">詳細</string>
+    <string name="storage_main_act_tab_used_space">使用済み記憶領域</string>
+    <string name="storage_main_act_tab_app_total">%s アプリケーション</string>
+    <string name="storage_main_act_tab_audio_total">%s ミュージック</string>
+    <string name="storage_main_act_tab_image_total">%s 写真</string>
+    <string name="storage_main_act_tab_document_total">%s ドキュメント</string>
+    <string name="storage_main_act_tab_other_total">その他</string>
+    <string name="file_category_image_title">写真</string>
+    <string name="file_category_image_delete_dialog_msg_1">ファイルが削除されます。</string>
+    <string name="file_category_image_delete_dialog_msg_2">削除されたファイルは復元できません！</string>
+    <string name="file_category_video_no_content">ビデオ無し</string>
+    <string name="file_category_video_delete_msg">ビデオが削除されます。</string>
+    
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">合計　%s ビデオ</string>
+    <string name="video_title_selected">%s のビデオが削除されました</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">ミュージック</string>
+    <string name="music_group_music">ミュージック</string>
+    <string name="music_group_rings">鳴る</string>
+    <string name="music_group_record">記録する</string>
+    <string name="music_dialog_title">警告</string>
+    <string name="music_dialog_delete_cancel">キャンセル</string>
+    <string name="music_dialog_delete_delete">削除</string>
+    <string name="music_dialog_delete_notice">ファイルが削除されます。</string>
+    <string name="music_dialog_delete_notice_below">削除されたファイルは回復できません!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">ドキュメント</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">その他</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">削除</string>
+    <string name="image_dialog_text1">このファイルは削除されます。</string>
+    <string name="image_dialog_text2">よろしいですか？</string>
+    <string name="image_no_selected">ファイルが選択されていません。</string>
+    <string name="image_size_notice">%s 削除されました!</string>
+    <string name="image_delete_layout_text">削除(%s)</string>
+    <string name="image_delete_ok">Yes</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">これらのファイルは削除できません。</string>
+    <string name="no_app_to_open_file">ローカルのアプリケーションはこのファイルを開くことはできません。</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">ここにドラッグして電話をブーストしてください。</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">無効にしています</string>
+    <string name="disable_apps_done_disable_count">%s 無効になりました!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">Z Speed+ はそれらが動かないようにしています</string>
+    <string name="disable_apps_wait_to_stop_tips">停止しようとしています。お待ちください...</string>
+    <string name="disable_list_no_app_tip">無効になったアプリケーションはありません</string>
+    <string name="disable_group_most_disable_title">大部分が無効です</string>
+    <string name="disable_group_recommend_keeping_title">そのまま維持することをお薦めします</string>
+    <string name="disable_group_recommend_keeping_subtitle">無効にするとシステムエラーが生じる可能性があります。</string>
+    <string name="disable_app_info_dialog_disable_btn_text">無効にする</string>
+    <string name="disable_app_info_dialog_enable_btn_text">有効にする</string>
+    <string name="disable_app_info_dialog_consuming_tip">このアプリケーションはシステムメモリを消耗しています。</string>
+    <string name="disable_app_info_dialog_system_error_tip">無効にするとシステムエラーが生じる可能性があります。</string>
+    <string name="disable_app_info_dialog_no_statement">必要がなければ無効にすることができます。</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">メーカー プレインストール サービス</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&lt;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">インストールを実行する</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">乾杯!</string>
+    <string name="rate_gp_dialog_feedback_title">Feedback</string>
+    <string name="rate_gp_dialog_rate_title">Z Speed+が大好き</string>
+    <string name="rate_gp_dialog_one_notice_boost">この %1$s 日間、 Z Speed+は &lt;font color=&quot;#85c443&quot;&gt; %2$s &lt;/font&gt;遅いアプリケーション&lt;br /&gt;をのプロセスを中止しました。 &lt;br/&gt; &lt;font color=&quot;#85c443&quot;&gt; Z Speed+を楽しんでいただけてますか？&lt;/font&gt;</string>
+    <string name="rate_gp_dialog_one_no_boost">あまり</string>
+    <string name="rate_gp_dialog_one_yes_boost">はい！</string>
+    <string name="rate_gp_dialog_one_notice_clean">。 &lt;font color=&quot;#85c443&quot;&gt; %s &lt;/font&gt; ジャンクを問題なく削除しました!&lt;br /&gt; &lt;br/&gt; Z Speed+ はどうですか？</string>
+    <string name="rate_gp_dialog_one_no_clean">大したことない</string>
+    <string name="rate_gp_dialog_one_yes_clean">大変お気に入り!</string>
+    <string name="rate_gp_dialog_two_notice">フィードバックを頂けませんか？\nお客様のご意見は全て私どもにとって貴重なご意見です。</string>
+    <string name="rate_gp_dialog_two_no">遠慮します</string>
+    <string name="rate_gp_dialog_two_yes">はい、わかりました</string>
+    <string name="rate_gp_dialog_three_notice">Play Storeの評価はどうですか？</string>
+    <string name="rate_gp_dialog_three_no">遠慮します</string>
+    <string name="rate_gp_dialog_three_yes">はい、わかりました</string>
+    <string name="rate_gp_notification_notice">現在までに%s の遅いアプリケーションのプロセスを停止しました。確認しますか？</string>
+
+    <!-- 启动页 -->
+    <string name="privacy_policy">&lt;u>プライバシー ポリシー&lt;/u></string>
+    <string name="private_agreement">に私は同意します </string>
+    <string name="private_start">スタート</string>
+    <string name="private_join_uep">&lt;u>ユーザーエクスペリエンスプログラム&lt;/u></string>
+    <string name="privacy_start_by_agree_policy">に同意します &lt;u>プライバシーポリシーに&lt;/u></string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+    
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">インストールされました、不要のAPKをクリーンしてスペースを節約する</string>
+    <string name="install_listen_installed_multiple_msg">アプリインストールされました、不要のAPKをクリーンしてスペースを節約する</string>
+    <string name="install_listen_delete_apk_tip">クリーンされた</string>
+    <string name="install_listen_dialog_clean_btn_text">クリーン</string>
+    <string name="install_listen_dialog_cancel_btn_text">キャンセル</string>
+    <string name="install_listen_dialog_eye_tip_on">3日間は問わない</string>
+    <string name="install_listen_dialog_eye_tip_off">ずっと尋ねる</string>
+    
+    
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">ゲーム加速</string>
+    <string name="game_boost_add_to_game_title">ゲーム追加</string>
+    <string name="game_boost_effect">加速 &lt;font color="#85c443">%s &lt;/font> ゲームのためにもっと多いRAMを.</string>
+    <string name="game_cell_add">ゲーム追加</string>
+    <string name="game_cell_ok">Ok</string>
+    <string name="game_boost_menu_about">どのように運行します</string>
+    <string name="game_boost_menu_add_shutcut">ゲームフォルダを作成します。</string>
+    <string name="game_boost_folder_create_success">ゲームフォルダ作成成功。</string>
+    <string name="game_boost_box_shortcut_name">ゲーム　加速</string>
+    <string name="game_boost_box_shortcut_name_new">私のゲーム</string>
+    <string name="game_boost_add_card_view_title_popular">人気ゲーム</string>
+    <string name="game_boost_add_new_game_to_boost">%s をゲーム加速に追加</string>
+    <string name="game_boost_add_new_games_to_boost">新しいゲーム　%sをゲーム加速に追加</string>
+    <!-- 游戏加速介绍 -->
+    <string name="game_boost_about_one">バックグラウンドでゲームのパフォーマンスに影響する無関係なアプリを自動的にシャットダウンします.</string>
+    <string name="game_boost_about_two">お使いの携帯をダイナミック・モニターして、不要なRAMをクリーンします</string>
+    <string name="game_boost_about_three">ランチャーで Z Speed+ゲームフォルダからゲームを開いて、ゲームを20~65％に加速します。</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">加速中&#8230;</string>
+    <string name="game_accel_anim_boost_toast_tip">加速しました, %s%% アップ.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">CPU 問題</string>
+    <string name="cpu_fix">修正</string>
+    <string name="cpu_check">チェック</string>
+    <string name="cpu_issue_type_temp_overheated">過熱!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">急速上昇中!</string>
+    <string name="cpu_issue_type_heavily_occupied">CPUが重く占有されてます!</string>
+    <string name="cpu_temp_issue_app">は問題を引き起こしています</string>
+    <string name="cpu_occupied_issue_app">消耗中 &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">CPU クーラー</string>
+    <string name="cpu_coll_down_cpu">CPUを冷やす</string>
+    <string name="cpu_temperature_issue">温度問題</string>
+    <string name="cpu_device_running_slow">デバイスは遅くなってんす</string>
+    <string name="cpu_issue_detected">問題検出</string>
+    <string name="cpu_cool_down_further">もっと冷やして、 %s 実行中のアプリをクリーン</string>
+    <string name="cpu_temp_well">CPUの温度は大丈夫です</string>
+    <string name="cpu_temp_hot">ちょっと熱い</string>
+    <string name="cpu_temp_overheated">過熱</string>
+    <string name="cpu_temp_chilling">冷却中</string>
+    <string name="cpu_temp_cooler">CPU クーラー</string>
+    <string name="cpu_occupy">占有されてます &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+    <string name="cpu_abnormal">異常なCPU使用率: &lt;font color="#D46565"> %s &lt;/font></string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">最適化されました</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">しばらくデバイスを休ませて冷却します</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">加熱させるアプリはありません</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">デバイスは冷却中です</string>
+    <string name="cpu_anim_cooldown_done_no_temp">加熱させるアプリをクリアしました</string>
+    <string name="cpu_anim_cooldown_done_dropped">ドロップされた</string>
+    <string name="cpu_anim_cooldown_process_tip_text">冷却始めます&#8230;</string>
+    <string name="cpu_anim_scan_process_tip_text">CPUをスギャン中&#8230;</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">ネットワーク接続を確認して、もう一度試してください</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">ゲームブースターを試してください</string>
+    <string name="finish_page_card_game_booster_desc_enabled">画面上にゲームのブースターを作成されました、今からチェックしてください:)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">有効</string>
+    <string name="finish_page_card_game_booster_desc">ゲーマーギフト！最も効果的で &amp; カッコいいゲーム - 加速機能</string>
+    <string name="finish_page_card_game_booster_desc_single_game">ゲームブースターを起動してスピードアップします &lt;big>%s&lt;/big>  65%%に?</string>
+    <string name="finish_page_card_game_booster_btn">試してみてください</string>
+
+    <string name="finish_page_card_whitelist_name">なぜ削除されないだろう</string>
+    <string name="finish_page_card_whitelist_desc">ブラックリストの重要アプリはブースターに削除されないです。リストは編集可能です。</string>
+    <string name="finish_page_card_whitelist_btn">チェック</string>
+    <string name="finish_page_card_autostart_name">自動起動のアプリを発見</string>
+    <string name="finish_page_card_autostart_desc">&lt;big>%s&lt;/big> 自動起動アプリが最適化されます</string>
+    <string name="finish_page_card_autostart_btn">チェック</string>
+    <string name="finish_page_card_photo_name">写真を整理</string>
+    <string name="finish_page_card_photo_desc"> &lt;big>%sよりの写真&lt;/big> が取りました、でもすべての写真はスペースを占有する価値があるわけではない、でしょう?</string>
+    <string name="finish_page_card_photo_btn">整理</string>
+    <string name="finish_page_card_clean_1_name">整理するジャンク</string>
+    <string name="finish_page_card_clean_1_desc">いたずら電話発生 &lt;big>%s&lt;/big> 最近のジャンク</string>
+
+    <string name="finish_page_card_clean_2_name">&lt;big>%s&lt;/big> ジャンク発見</string>
+    <string name="finish_page_card_clean_2_desc">クリーンした後 &lt;big>%s&lt;/big> 多くなって、新しい写真が撮られます</string>
+
+    <string name="finish_page_card_activate_power_mode_title">%sアプリ &lt;big>自動起動&lt;/big></string>
+    <string name="finish_page_card_activate_power_mode_desc">起動 &lt;big>パワーモード&lt;/big> 処理できます</string>
+    <string name="finish_page_card_activate_power_mode_btn">起動</string>
+    <string name="finish_page_card_feedback_name">あなたの考えるを聞かせてください</string>
+    <string name="finish_page_card_feedback_desc">お気に入りの機能、提案、何にも</string>
+    <string name="finish_page_card_feedback_btn">フィードバック</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">携帯加速</string>
+    <string name="finish_page_card_memory_boost_normal_desc">メモリを解放して携帯をスピードアップ</string>
+    <string name="finish_page_card_memory_boost_normal_btn">加速</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big>%s%% メモリ&lt;/big> 残る</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%sの実行アプリは、メモリをとって、携帯は非常に遅くなります。</string>
+    <string name="finish_page_card_memory_boost_strong_btn">今すぐ加速</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">無効のプリインストール</string>
+    <string name="finish_page_card_disable_desc">%1$sプリインストール　アプリ, &lt;big>%2$s&lt;/big> 無効にすることができます</string>
+    <string name="finish_page_card_disable_btn">チェック</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">密かに自動起動するアプリをチェック</string>
+
+    <string name="finish_page_no_ad_clean1_tips">ジャンクは毎日クリーンする必要があります</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">ゲームにもブースターが必要!</string>
+    <string name="finish_page_no_ad_disable_tips">一部のプリインストールは役に立ちません</string>
+    <string name="finish_page_no_ad_photo_tips">Much space could be saved!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">パワーモードは、タフなアプリを停止することができます!</string>
+    <string name="finish_page_no_ad_whitelist_tips">ミスして必要なアプリを削除しないことを注意!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">携帯は遅くなってます</string>
+    <string name="finish_page_no_ad_boost_normal_tips">もっと早くできます</string>
+
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">ゲーム追加</string>
+    <string name="game_accel_guide_title">ゲーム加速</string>
+    <string name="game_accel_guide_text2">起動されました</string>
+    <string name="game_accel_guide_try_text">タップしてみて!</string>
+    <string name="game_accel_guide_gamename_1">ショートカット作成された</string>
+    <string name="game_accel_guide_gamename_2">デスクトップでオープン</string>
+    <string name="game_accel_guide_gamename_3">ゲームをスキャン中…</string>
+    <string name="game_accel_guide_discovery_text_above">チャネル Z</string>
+    <string name="game_accel_guide_discovery_text_below">ここにも</string>
+    <string name="game_accel_sec_anim_title">ゲーム</string>
+    <string name="game_accel_shortcut_created">作成された</string>
+    <string name="game_accel_tip_dialog_content_text">ゲームブースター\"%s\"を起動にして、 40%%をアップしてみませんか?</string>
+    <string name="game_accel_tip_dialog_content_text_new">ゲームブースターを起動してスピードアップします&lt;font color="#85c443">\"%s\"&lt;/font> by up to 65%%?</string>
+    <string name="game_accel_sort_name">名前</string>
+    <string name="game_accel_sort_Date">日付</string>
+    <string name="game_accel_sort_Frequency">頻度</string>
+    <string name="game_accel_game_box_title">ゲーム管理</string>
+    <string name="game_accel_add_shortcut">ショートカット追加</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">発見</string>
+    <string name="game_distribute_connection_failed">接続失敗</string>
+    <string name="game_distribute_net_data_alert">無線LANでプレイすればデータ通信量が節約されます</string>
+    <string name="game_distribute_warning_title">Z Speed+ TV</string>
+    <string name="game_distribute_warning_content"> 動画に含まれる動き画像が信じられないです。\ビデオは家庭用だけでなく、他の\ nの権利でもある。このような動画の視聴またはタップに、Zスピード+は\n歓迎します。私たちは心から合理な時間でゲームを \nプレイすることをお勧めします。.</string>
+    <string name="game_distribute_video_title">チャンネル</string>
+    <string name="game_distribute_game_searching">ゲーム検索中...</string>
+
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534">大きいアプリ &lt;/font></string>
+    <string name="cpu_thieves_title">Top 3 &lt;font color="#6ac534">今日のCPU 盗賊 &lt;/font></string>
+    <string name="num_times">%s回</string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">利用可能なメモリは極めて低いです!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+    <string name="home_guide_card_boost_button">今すぐ加速</string>
+
+    <string name="home_guide_card_photo_desc1">写真を撮るのは簡単です</string>
+    <string name="home_guide_card_photo_desc2">削除することはそうではありません</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+    <string name="home_guide_card_photo_button">今クリーン</string>
+
+    <string name="home_guide_card_cpu_desc">過熱CPUはバッテリーを消耗します</string>
+    <string name="home_guide_card_cpu_button">冷却</string>
+
+    <string name="home_guide_card_disbale_desc">プリインストールを処理!</string>
+    <string name="home_guide_card_disbale_desc2">お使いの携帯はもっと早くなれます!</string>
+    <string name="home_guide_card_disbale_desc_big">%sアプリ</string>
+    <string name="home_guide_card_disbale_button">今すぐ無効にします</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">パワーモード加速中</string>
+    <string name="enable_super_boost_mode_normal">通常加速中</string>
+    <string name="enable_super_boost_desc_super">&lt;b>Boost:&lt;/b> 通常アプリ, &lt;mark>&lt;font color="red">自動起動アプリ&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">60％以上の加速パワーを与えます.&lt;/font>&lt;/b>&lt;br>
+        (次のステップでZ Speed+のアクセシビリティをONにしてください)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b>Boost:&lt;/b>通常アプリ, &lt;mark>&lt;font color="red">自動起動アプリ&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">60％以上の加速パワーを与えます.&lt;/font>&lt;/b>&lt;br>
+        (次のステップでZ Speed+のアクセシビリティをONにしてください)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b>加速:&lt;/b> 通常アプリ&lt;br>
+      自動起動アプリはパワーモード以外で加速できません。
+    </string>
+    <string name="enable_super_mode_check_desc_boost">今すぐ私の携帯をパワー加速!</string>
+
+
+    <string name="enable_super_disable_mode_super">一括-無効</string>
+    <string name="enable_super_disable_mode_normal">マニュアル-無効</string>
+    <string name="enable_super_disable_desc_super">&lt;mark>&lt;font color="red">&lt;b>Feature:&lt;/b> わずか1クリックで、無駄なアプリを一括-無効にします.&lt;/font> &lt;/mark>&lt;br>
+        (次のステップでZ Speed+のアクセシビリティをONにしてください)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark>&lt;font color="red">&lt;b>Feature:&lt;/b> わずか1クリックで、無駄なアプリを一括-無効にします.&lt;/font> &lt;/mark>&lt;br>
+        (次のステップでZ Speed+のアクセシビリティをONにしてください)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b>Feature:&lt;/b> 一個一個でアプリを無効にします. &lt;br>
+                    &lt;mark>&lt;font color="red">一括‐無効する機能の操作は簡単で、お勧めします.&lt;/font> &lt;/mark>
+    </string>
+    <string name="enable_super_mode_check_desc_disable">一括‐無効機能を有効にします</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">通知トグルの設定</string>
+    <string name="notification_toggle_settings_label_themes">テーマ</string>
+    <string name="notification_toggle_settings_label_toggles">トグル</string>
+
+    <string name="notification_toggle_settings_label_popular">一番人気</string>
+    <string name="notification_toggle_theme_name_green">デメテル</string>
+    <string name="notification_toggle_theme_name_pink">アテナ</string>
+    <string name="notification_toggle_theme_name_black">エレバス</string>
+    <string name="notification_toggle_theme_name_silver">天王星</string>
+    <string name="notification_toggle_theme_name_golden">クロノス</string>
+    <string name="notification_toggle_toggle_name_app">ホーム</string>
+    <string name="notification_toggle_toggle_name_boost">加速</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">トーチ</string>
+    <string name="notification_toggle_toggle_name_brightness">明かり</string>
+    <string name="notification_toggle_toggle_name_themes">テーマ</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">データ</string>
+    <string name="notification_toggle_toggle_name_camera">カメラ</string>
+    <string name="notification_toggle_toggle_name_calculator">電卓</string>
+    <string name="notification_toggle_toggle_name_rotate">ローテート</string>
+    <string name="notification_toggle_toggle_name_sound">音</string>
+    <string name="notification_toggle_bright_auto">自動</string>
+    <string name="notification_toggle_notification_ticker">Z Speed+ ツールバーは待機してます</string>
+    <string name="notification_toggle_notification_ticker_initializing">ツールバーは初期中です&#8230;</string>
+
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">コンテンツを入力すると検索します</string>
+    <string name="hot_word_search_next_batch">もっと</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">重複写真</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s 写真が削除されました!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">すべての重複した写真を削除されました!</string>
+    <string name="duplicate_photos_delete_alert_title">完全に削除</string>
+    <string name="duplicate_photos_delete_alert_desc">完全に削除してもよろしいですか?</string>
+    <string name="duplicate_photos_leave_alert_title">残してよろしいですか?</string>
+    <string name="duplicate_photos_leave_alert_desc">あなたはすでに削除の写真 %sを選びました.&lt;br>残してよろしいですか?</string>
+    <string name="duplicate_photos_leave_alert_leave_btn">残す</string>
+    <string name="duplicate_photos_scan_alert">スキャンは時間がかかりますが、しばらくお待ちください</string>
+    <string name="duplicate_photos_no_content">おめでとう！重複写真無し！</string>
+    <string name="duplicate_photos_suffix_selected">%s 選びました</string>
+    <string name="duplicate_photos_suffix_total">合計%s写真</string>
+
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">毎週ベストゲーム</string>
+    <string name="game_ad_notification_label_weekly_best_app">毎週のベストアプリ</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">APP LOCK</string>
+    <string name="app_lock_perm_settings_title">設定</string>
+    <string name="app_lock_perm_settings_message">許可要求</string>
+    <string name="app_lock_notice_enable_usage_stats">Androidの5.0以上の場合で、アプリロック機能を使用するには、App Lockのアクセスを許可する必要があります</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_notice_enable_usage_stats1">セットアップが失敗した場合、システム設定を経由してそれを有効にしてください > セキュリティ > 利用許可したアプリ</string>
+    <string name="app_lock_enable_usage_stats">許可</string>
+    <string name="install_app_mointor_locker">ロックする必要があります</string>
+    <string name="locker_header_forget_pwd">パスコード忘れました</string>
+    <string name="locker_header_replce_number_locker">パスコードロックに切り替え</string>
+    <string name="locker_header_replce_graphic_locker">パターンロックに切り替え</string>
+    <string name="initializationpassword_frist_prompt">パスコード設置</string>
+    <string name="initializationpassword_second_prompt">確認するためにパスコードをもう一度入力してください</string>
+    <string name="initializationpassword_pwd_not_equals">パスコードは一致してません、もう一度入力してください</string>
+    <string name="init_email_prompt">パスワードを忘れた場合の電子メール</string>
+    <string name="init_email_prompt1">正しいメールアドレスを入力してください</string>
+    <string name="init_mail_btn_text">次</string>
+    <string name="forget_reset_pwd_success">パスコードリセット成功</string>
+    <string name="activity_applock_group_apps">アプリ</string>
+    <string name="activity_applock_menu_update">アップグレードしました</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">AppLock 設定</string>
+    <string name="app_lock_setting_parent_unlock_mode">アンロック　モード</string>
+    <string name="app_lock_setting_passcode">パスコード</string>
+    <string name="app_lock_setting_others">Others</string>
+    <string name="app_lock_setting_unlock_mode_numbers">数字</string>
+    <string name="app_lock_setting_unlock_mode_pattern">パターン</string>
+    <string name="app_lock_setting_passcode_change_passcode">パスコード変更</string>
+    <string name="app_lock_setting_passcode_email_setting">メールの設定</string>
+    <string name="app_lock_setting_others_brief_eixt">簡単な出口を許可します</string>
+    <string name="app_lock_setting_others_relock">画面つく後に再ロック</string>
+    <string name="app_lock_setting_brief_eixt_seconds">秒</string>
+    <string name="app_lock_setting_brief_eixt_minutes">分</string>
+    <string name="app_lock_setting_pro">Pro</string>
+    <string name="app_lock_setting_pro_update">マスターロックに更新</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">パスコード忘れました</string>
+    <string name="forget_email_prompt1">1)あなたのメールに検証コードを送信します.</string>
+    <string name="forget_email_prompt2">2)検証コードを入力し、パスコードを取得.</string>
+    <string name="forget_email_btn_prompt">送信</string>
+    <string name="forget_email_btn_prompt2">パスコードリセット</string>
+    <string name="forget_email_edit_prompt">検証コード</string>
+    <string name="forget_check_code_not_right">不正確</string>
+    <string name="forget_check_code_out_of_time">検証は期限切れ、再びお申し付け下さい.</string>
+    <string name="forget_send_email_error">メールの送信失敗しました、もう一度やり直してください。</string>
+    <string name="forget_send_email_success">メール送信成功、あなたのメールをチェックしてください.</string>
+    <string name="set_graphic_password_message_draw">ロック解除パターンを描く</string>
+    <string name="set_graphic_password_message_too_short">少なくとも4ドットが必要です。もう一度ためしてください:</string>
+    <string name="set_graphic_password_message_stored">パターン記録.</string>
+    <string name="set_graphic_password_message_redraw">再確認のパターンを描いてください:</string>
+    <string name="set_graphic_password_btn_redraw">リトライ</string>
+    <string name="set_graphic_password_message">パスコードの設定</string>
+    <string name="set_graphic_password_message_wrong">エラー, リトライしてください:</string>
+    <string name="applock_recommend_dialog_title">おすすめアプリ</string>
+    <string name="applock_recommend_dialog_lockall">すべてロック</string>
+    <string name="applock_recommend_dialog_ok">OK</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">プロプライバシーロックを自由に使用できます!</string>
+    <string name="lokcer_init_instruction_first">パスワードを設定して、プライバシーアプリをロックします</string>
+    <string name="lokcer_init_instruction_second">パスワードを再度確認してください</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">App Lock</string>
+    <string name="finish_page_card_app_locker_desc"> &lt;big>%s&lt;/big> App lock 機能で盗聴されることを防ぎます!</string>
+    <string name="finish_page_card_app_locker_btn">今すぐ保護</string>
+    <string name="finish_page_no_ad_app_lock_tips">携帯はもっと早くなれます</string>
+
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff">%1$s&lt;/font></string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff">%1$s&lt;/font></string>
+</resources>

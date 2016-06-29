@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/applock_widget_locker_main_helper_panel"/>
+
+    <include
+        android:id="@+id/locker_header_view"
+        layout="@layout/applock_widget_locker_header"/>
+</RelativeLayout>

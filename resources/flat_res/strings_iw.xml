@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+
+    <string name="app_name">Z Speed+</string>
+    <string name="action_settings">הגדרות</string>
+
+    <!-- ==========字体模块========== -->
+    
+    
+    
+    
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_yes">כן</string>
+    <string name="common_no">לא</string>
+    <string name="common_ok">אוקיי</string>
+    <string name="common_select">בחר</string>
+    <string name="common_delete">מחק</string>
+    <string name="common_others">אחרים</string>
+    <string name="common_stop">עצור</string>
+    <string name="common_uninstall">הסר התקנה</string>
+    <string name="common_uninstalled">ההתקנה הוסרה</string>
+    <string name="common_back_up">גבה</string>
+    <string name="common_cancel">בטל</string>
+    <string name="common_install">התקן</string>
+    <string name="common_installed">מותקן</string>
+    <string name="common_vertion">גרסה</string>
+    <string name="common_update">עדכן</string>
+    <string name="common_insufficient_storate">אין מספיק מקום זכרון</string>
+    <string name="common_no_sdcard">כרטיס זכרון לא נמצא</string>
+    <string name="common_warning">אזהרה</string>
+    <string name="common_no_content">אין תכנים</string>
+    <string name="common_comma">,</string>
+    <string name="common_period">.</string>
+    <string name="common_slogan">השתגר אל טלפון טוב יותר</string>
+    <string name="common_download">הורד</string>
+    <string name="common_more">עוד</string>
+    <string name="common_on">פועל</string>
+    <string name="common_off">כבוי</string>
+    <string name="common_new">חדש</string>
+
+    <!-- 一周 -->
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- 月份 -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- ========= 主界面 ========= -->
+    <string name="available">זמין</string>
+    <string name="main_ram_title">זיכרון</string>
+    <string name="main_storage_title">אכסון</string>
+    <string name="main_button_boost">שיפור זיכרון</string>
+    <string name="main_button_storage">קבצי זבל</string>
+    <string name="main_button_manage">מנהל אפליקציות</string>
+    <string name="main_ram_total">%s סך הכל</string>
+    <string name="main_storage_total">%s סך הכל</string>
+    <string name="tip_press_again_to_exit">הקש שנית כדי לצאת</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">הגדרות</string>
+    <string name="menu_update">עדכן</string>
+    <string name="menu_feedback">פידבק</string>
+    <string name="menu_about">אודות</string>
+    <string name="menu_shuffle">ערבב</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">חג המולד</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">שיפור זיכרון</string>
+    <string name="boost_main_act_tab_running">עובד</string>
+    <string name="boost_main_act_tab_autostart">התחל אוטומטי</string>
+    <string name="boost_running_apps_custom">%1$d אפליקציות שנבחרו</string>
+    <string name="boosting_memory_act_title">שיפור זיכרון</string>
+    <string name="boosting_tips">משפר</string>
+    <string name="boosting_power_tips">שיפור כח</string>
+    <string name="boosted_to_optimus_tips">שופר למעמד אופטמ!</string>
+    <string name="boosted_active_power_mode_tips"/>
+    <string name="enable_super_boost_enable">אפשר</string>
+    <string name="enable_super_boost_title">אפשר מצב כח</string>
+    <string name="enable_super_boost_main_text">על מנת להאיץ בצורה יעילה יותר, אנו ממליצים לך להפעיל תכונות נגישות.</string>
+    <string formatted="false" name="enable_super_boost_content_text1">כדי לעזור לך להפסיק או לבטל יישומים לחלוטין..</string>
+    <string formatted="false" name="enable_super_boost_content_text2">להפחית את צריכת סוללה.</string>
+    <string formatted="false" name="enable_super_boost_content_text3">יותר מ -85% ממשתמשים אפשרו תכונה זו.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">+Z הקש בשירות</string>
+    <string name="boost_groups_list_title_running_app">אפליקציות עובדות</string>
+    <string name="boost_groups_list_title_cpu_temperature">טמפרטורת המעבד</string>
+    <string name="boost_groups_list_title_lag_detected">פיגור זוהה</string>
+
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description"> הפעל את הכפתור מעל להפעיל מהירות +Z מצב צריכת חשמל להאצה מרבי!\n\nתכונות מהירות נגישות שימוש כדי לעזור לעצור לא-משתמשים באפליקציות. Z+אנא אל תדאגו אם אתה רואה את תזכורת סיכון פרטיות, זה רק אזהרה אינפורמטיבי רגילה לשירות נגישות כל. 
+    \n\nאנו מבטיחים שלא לאסוף כל מידע שהוא.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">אפשרויות</string>
+    <string name="autostart_optimization_desr">ניתן להתאמה</string>
+    <string name="autostart_type_optimization">להתאמה</string>
+    <string name="autostart_type_allowed">מותר</string>
+    <string name="autostart_type_blocked">חסום</string>
+    <string name="autostart_type_system">אפליקציות מותקנות</string>
+    <string name="autostart_type_system_description">חסימה אוטומטית מתחילה יישומים מותקנים מראש עלולה לגרום לחוסר יציבות של מערכת. להתקדם בזהירות</string>
+    <string name="autostart_preinstll_system">אפליקציות מותקנות</string>
+    <string name="autostart_on_boot_up">אתחול</string>
+    <string name="autostart_on_background">רקע</string>
+    <string name="autostart_on_boot_up_and_background">אתחול/רקע</string>
+    <string name="autostart_detail_title">אתחול אוטומטי בעוד %1$d</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="ignore_list_act_title">רשימת חסומים</string>
+    <string name="add_to_ignore_list_act_title">הוסף לרשימת חסומים</string>
+    <string name="dialog_memory_footprint">זכרון בשימוש</string>
+    <string name="dialog_add_to_ignorelist">הוסף לרשימת חסומים</string>
+    <string name="dialog_remove_from_ignorelist">הסר מרשימת חסומים</string>
+    <string name="tip_ignore_list_appunchecked">אפליקציות אלה נחסמו על ידי ברירת מחדל לאחר הסריקה.</string>
+    <string name="tip_ignore_list_appadd">הקש + להוספה לרשימת חסומים</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443"&gt;&lt;/font&gt; לא ייסרק.</string>
+    <string name="clean_ignore_empty_tips">לחץ לחיצה ארוכה על פריטים בקבצי הזבל כדי להוסיף לרשימת ההתעלמות.</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">מנהל האפליקציות</string>
+    <string name="app_manager_my_backups">גיבויים</string>
+    <string name="app_manager_others">אחרים</string>
+    <string name="app_manager_back_up_success_tips">אפליקציות גובו ל:</string>
+    <string name="app_manager_back_up_success_tips_for_one">אפליקציה גובתה ל:</string>
+    <string name="app_manager_back_up_fail_tips">האפליקציות נכשלו</string>
+    <string name="app_manager_back_up_fail_tips_for_one">האפליקציה נכשלה</string>
+    <string name="app_manager_pre_installed_apps">אפליקציות מותקנות</string>
+    <string name="app_manager_backing_up">מגבה</string>
+    <string name="app_manager_running">עובד</string>
+    <string name="app_manager_stop">עצור</string>
+    <string name="app_manager_apps_running">אפליקציות עובדות</string>
+    <string name="app_manager_apps_desc">השבתת האפליקציות מותקנים מראש שמשמשים לעתים נדירות מסייעת להפחית את הצריכה.</string>
+    <string name="app_manager_path">כתובת</string>
+    <string name="app_manager_no_backup_found">לא נמצא גיבוי</string>
+    <string name="app_manager_tap_to_disable">הקש או כבה להשבית</string>
+    <string name="app_manager_tap_to_enable">הקש או הדלק להפעיל</string>
+    <string name="app_manager_select_app_first">נא בחר את האפליקציות קודם</string>
+    <string name="app_manager_shit">אוקיי</string>
+    <string name="app_manager_freed">שוחרר</string>
+    <string name="app_manager_use_rare_month">משומש לעתים רחוקות חודשית</string>
+    <string name="app_manager_use_rare_days">%s משומש לעתים רחוקות במספר ימים</string>
+    <string name="app_manager_use_commonly">שימוש נפוץ</string>
+    <string name="app_manager_android_system">מערכת אנדרואיד</string>
+    <string name="app_manager_use_rare">משומש לעתים רחוקות</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">אפליקציות משתמש</string>
+    <string name="app_manager_tab_system">מותקנות מראש</string>
+    <string name="app_manager_tab_text_date">תאריך</string>
+    <string name="app_manager_tab_text_frequance">תדירות</string>
+    <string name="app_manager_tab_text_size">גודל</string>
+    <string name="app_manager_tab_text_battery">בטריה</string>
+    <string name="app_manager_tab_text_name">שם</string>
+    <string name="app_manager_dialog_cancel">בטל</string>
+    <string name="app_manager_dialog_backup">גבה</string>
+    <string name="app_manager_dialog_uninstall">הסר התקנה</string>
+    <string name="app_manager_preinstall_noyice">&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;font color="#76B54B"&gt; %s אפליקציות פועלות &lt;/font&gt; השבתה מפחיתה את הצריכה. זה בטוח לחלוטין</string>
+    <string name="app_manager_no_uerapp">אין אפליקציות</string>
+    <string name="app_manager_preinstall_disbale_list">אפליקציות הושבתו</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">הושבת</string>
+    <string name="app_manager_preinstall_reommend_disable">% משתמש השבית</string>
+    <string name="app_manager_preinstall_reommend_keep">מומלץ לשמור</string>
+    <string name="app_manager_preinstall_reommend_none">שישאר כמו שזה</string>
+    <string name="app_manager_preinstall_tip">השבתת האפליקציות מותקנים מראש שמשמשים לעתים נדירות מפחיתה את הצריכה</string>
+    <string name="app_manager_preinstall_disable_toast">הושבת.</string>
+    <string name="app_manager_preinstall_enable_toast">הושבת.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">השבתה באצווה</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">זהירות</string>
+    <string name="app_manager_preinstall_disable_caution_msg1">השבתת אפליקציה זו עלול &lt;font color="#fe6969"&gt;להשפיע על פעולות מסוימות&lt;/font&gt;.</string>
+    <string name="app_manager_preinstall_disable_caution_msg2">אתה בטוח שאתה רוצה לבחור בו?</string>
+    <string name="app_manager_preinstall_disable_loading">טוען …</string>
+    <string name="diable_lab_dialog_title">מעבדה +Z מהירות</string>
+    <string name="diable_lab_dialog_content_text">You\'re invited to try our Lab feature: &lt;font color="#76b54b"&gt;Batch Disabling Pre-installed Apps. &lt;/font&gt;Any issues, write us feedback and let\'s improve it together!</string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">קבצי זבל</string>
+    <string name="clean_main_suggest">מומלץ</string>
+    <string name="clean_main_selected">נבחר</string>
+    <string name="clean_dialog_title">אזהרה</string>
+    <string name="clean_dialog_message1">הקובץ שבחרת מכיל להלן תוכן:</string>
+    <string name="clean_dialog_btn_all">בחר בכל אופן</string>
+    <string name="clean_dialog_btn_next">בדוק במשך</string>
+    <string name="gallery_thumbnails">גלרית תמונות ממוזערות</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">לאחר מחיקה זה יהיה איטי יותר במהלך טעינה בגלריה.</string>
+    <string name="clean_group_app_cache">אפליקציה זכרון המטמון</string>
+    <string name="clean_group_residue">קבצים שיורית</string>
+    <string name="clean_group_cache">זבל זכרון המטמון</string>
+    <string name="clean_group_temp">זמני מערכת קבצים</string>
+    <string name="clean_group_apk">רכיבי ה- APK מיושן</string>
+    <string name="clean_group_big_file">קבצים גדולים</string>
+    <string name="clean_group_ad">זבל לספירה AD</string>
+    <string name="clean_group_memory">זבל זיכרון</string>
+    <string name="clean_item_sys_cache">זכרון המטמון מערכת</string>
+    <string name="clean_done_tips">נוקה</string>
+    <string name="clean_dialog_app_cache_yes_btn">ניקוי ידני</string>
+    <string name="clean_dialog_folder_yes_btn">צפה</string>
+    <string name="clean_dialog_file_yes_btn">פתח</string>
+    <string name="clean_dialog_media_yes_btn">נגן</string>
+    <string name="clean_dialog_message_size">גודל</string>
+    <string name="clean_dialog_message_contain">מכיל</string>
+    <string name="clean_dialog_message_path">כתובת</string>
+    <string name="clean_dialog_message_file">קבצים</string>
+    <string name="clean_dialog_message_folder">ספריות</string>
+    <string name="clean_done_none_tips">מעולה</string>
+    <string name="clean_file_browser_no_files">אין קבצים</string>
+    <string name="clean_days_ago"> ישן בימים</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969"&gt;זהירות! &lt;/font&gt;%1$s</string>
+    <string name="clean_subitem_detail_connect">%2$s  מתוך %1$s חלק</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443"&gt;הקבצים שלך לא יושפעו לאחר ניקוי.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443"&gt;ניקוי הוא בטוח לחלוטין.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969"&gt;הם יצטרכו להיות מחדש שהורדתם.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969"&gt;ניקוי יסיר אלה לנצח!&lt;/font&gt;</string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">נקה</string>
+    <string name="uninstall_dialog_message_1">&lt;b&gt;%1$s&lt;/b&gt; left &lt;font color="#85c443"&gt;%2$s&lt;/font&gt; קבצים שיורית.</string>
+    <string name="uninstall_dialog_message_2">מכיל:</string>
+    <string name="uninstall_clean_tips"> קבצים שיורית נוקו!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">הגדרות</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">פידבק</string>
+    <string name="container_hint_setting_feedback">נא לכתוב את ההערות שלך כאן, לספק פרטים רבים ככל שתוכל. אנחנו תמיד מקשיבים ושיפור.</string>
+    <string name="mial_hint_setting_feedback">דואר אלקטרוני</string>
+    <string name="notice_setting_feedback">דגם טלפון וגרסה ייאספו לאבחון issue.We שלך לעולם לא אוסף מידע אישי ללא רשותך.</string>
+    <string name="no_contain_setting_feedback">היי, אמרת משהו?</string>
+    <string name="sendok_setting_feedback">תודה על המשוב!</string>
+    <string name="checknet_setting_feedback">אנא בדוק את חיבור הרשת שלך.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">&lt;u&gt;עשה לנו לייק בפייסבוק&lt;/u&gt;</string>
+    <string name="googleplus_about_setting">&lt;u&gt;הצטרף לתקשורת בגוגל+&lt;/u&gt;</string>
+    <string name="googleplay_about_setting">&lt;u&gt;דרג אותנו בחנות גוגל פליי&lt;/u&gt;</string>
+    
+    <string name="title_about_setting">אודות</string>
+    <string name="share_setting_about"> מהירות ז+ הופך את הטלפון שלי מהר יותר ונקי יותר. יש לנסות! תשיג את זה: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014–2015 אפס צוות. כל הזכויות שמורות.</string>
+    <string name="law_jump_setting_about">&lt;u&gt;מדיניות פרטיות&lt;/u&gt;</string>
+    <string name="share_title_setting_about">שתף מהירות Z+</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    
+    <string name="gp_not_connect">אין אפשרות לפתוח את החיבור</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">יישומון צף</string>
+    <string name="title_notice">התראות</string>
+    <string name="junk_clean_setting">ניקוי זבל</string>
+    <string name="enable_widget_setting_setting">אפשר</string>
+    <string name="hide_widget_setting_setting">הסתר לזמן של שורת מצב</string>
+    <string name="show_widget_setting_setting">הצג על שולחן עבודה בלבד</string>
+    <string name="memory_setting_setting">לשפר את הזיכרון נחוץ</string>
+    <string name="storge_setting_setting">שטח אחסון אוזל</string>
+    <string name="junk_setting_setting">קבצי זבל שיורית</string>
+    <string name="autostart_setting_setting">בקשת הפעלה אוטומטית חדשה</string>
+    <string name="ignore_setting_setting">רשימת חסומים</string>
+    <string name="memery_boost_setting_setting">אפליקציות עובדות</string>
+    <string name="clean_ignore_title">רשימת התעלמות של קבצי זבל</string>
+    <string name="clean_ignore_list_tips">פריטים אלה לא ייסרקו כקבצי זבל</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">כללי</string>
+    <string name="menu_general_setting_language">שפה</string>
+    <string name="menu_general_setting_shortcut">צור קיצור</string>
+    <string name="menu_junk_setting">קבצי זבל</string>
+    <string name="menu_junk_setting_scan_memory">זבל זיכרון סריקה</string>
+    <string name="menu_join_uep_plan">&lt;u&gt;תכנית חווית משתמש&lt;/u&gt;</string>
+    <string name="menu_smart_boost">שיפור ביצועים חכם</string>
+    <string name="smart_boost_screen_lock">שיפור ביצועים חכם במסך הנעילה</string>
+    <string name="smart_boost_show_result">הצג תוצאות לאחר שיפור ביצועים חכם</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">השבת את יישומון הצף?</string>
+    <string name="float_hide_float_message">גם אתה יכול להסתיר את יישומון צף הזמן של שורת מצב.</string>
+    <string name="float_dialog_ok">אוקיי</string>
+    <string name="float_dialog_cancel">בטל</string>
+    <string name="float_dialog_hide_ok">יש לנסות!</string>
+    <string name="float_dialog_hide_cancel">להשבית בכל מקרה</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">אין הרשאות. מבצע נכשל!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram_black">&lt;font color="#1d1d1d"&gt;זיכרון זמין הוא &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;פחות מ %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_white">&lt;font color="#ffffff"&gt;זיכרון זמין הוא &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;פחות מ %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_line2">מכשיר יכול לקבל מאוד איטי</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"&gt; %s אפליקציות &lt;/font&gt;&lt;font color="#fe6969"&gt;מרוקנות את הסוללה&lt;/font&gt;</string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"&gt; %s אפליקציות &lt;/font&gt;&lt;font color="#fe6969"&gt;מרוקנות את הסוללה&lt;/font&gt;</string>
+    <string name="notification_ram_help_line2">שפר ביצועים כדי להאריך את חיי הסוללה </string>
+    <string name="notification_boost">שפר</string>
+    <string name="notification_sdcard">האחסון שלך הולך ואוזל. הקש כדי לנקות!</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d"&gt;אחסון אוזל.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;רק %s%% נשאר&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff"&gt;אחסון אוזל.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;רק %s%% נשאר&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_line2">מרחב עשוי להיות לא מספיק עבור הורדות</string>
+    <string name="notification_release_more">%s MB שוחרר. &lt;font color="#85c443"&gt;שחרר עוד!&lt;/font&gt;</string>
+    
+    <string name="notification_release_sleep">הגבר מהירות של %s MB בזמן שינה</string>
+    <string name="notification_boost_phone_optimum">הטלפון שלך הוא בה האופטימלי &lt;font color="#85c443"&gt;תכונות נוספות!&lt;/font&gt;</string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d"&gt;המכשיר הוא &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;עובד איטי&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff"&gt;המכשיר הוא &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;עובד איטי&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block2">אפליקציה משתמשת במעבד בהגזמה</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d"&gt;המעבד הוא &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;חם מידי&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff"&gt;המעבד הוא &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;חם מידי&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat2">אפליקציה כובשת מעבד באופן חריג</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d"&gt;טמפרטורת המעבד היא &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;עולה במהרה&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff"&gt;טמפרטורת המעבד היא &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;עולה במהרה&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp2">אפליקציה כובשת מעבד באופן חריג</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#1d1d1d"&gt;הזבל אוכל את שטח האכסון&lt;/font&gt;</string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#ffffff"&gt;הזבל אוכל את שטח האכסון&lt;/font&gt;</string>
+    <string name="notification_clean_scan_message">נקה כדי לפנות שטח אחסון</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969"&gt;זבל חדש &lt;/font&gt;&lt;font color="#1d1d1d"&gt;נוצר&lt;/font&gt;</string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969"&gt;זבל חדש &lt;/font&gt;&lt;font color="#ffffff"&gt;נוצר&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d"&gt;אפליקציית מזג האוויר הטובה ביותר עבורך&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff"&gt;אפליקציית מזג האוויר הטובה ביותר עבורך&lt;/font&gt;</string>
+    <string name="notification_go_weather_message">שוחררו יישומונים חדשים לחג המולד!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d"&gt;נמאס לך מהודעת ברירת המחדל?&lt;/font&gt;</string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff"&gt;נמאס לך מהודעת ברירת המחדל?&lt;/font&gt;</string>
+    <string name="notification_go_sms_message">צור הודעה מותאמת אישית עכשיו!</string>
+    <string name="go_launcher">GO Launcher Z</string>
+    <string name="go_weather">GO Weather - תחזית ויישומון</string>
+    <string name="go_weather_done_message">מספק מידע עדכני ועתידי על מזג האוויר, יישומונים וטפטים חיים יפהפיים.</string>
+    <string name="notification_guide_text">הפעל את המתג האישי שלך</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">פתח כ</string>
+    <string name="filetype_text">טקסט</string>
+    <string name="filetype_video">וידאו</string>
+    <string name="filetype_audio">שמע</string>
+    <string name="filetype_image">תמונה</string>
+    <string name="filetype_music">מוזיקה</string>
+    <string name="filetype_document">מסמך</string>
+    <string name="filetype_apk">APK</string>
+    <string name="filetype_compression">דחיסה</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">גרסה חדשה</string>
+    <string name="update_update">עדכן</string>
+    <string name="update_later">אחר כך</string>
+    <string name="update_cancel">בטל</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">שפר</string>
+    <string name="shortcut">קיצור</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">לאחר אתחול</string>
+    <string name="auto_start_on_connectivity_change">בשינוי רשתות</string>
+    <string name="auto_start_on_package_changed">בשינוי מצב אפליקציה</string>
+    <string name="auto_start_on_package_added">בהתקנת אפליקציה</string>
+    <string name="auto_start_on_package_removed">בהסרת התקנות אפליקציה</string>
+    <string name="auto_start_on_package_replaced">בשינוי אפליקציה</string>
+    <string name="auto_start_on_any_data_state">בשינוי מידע</string>
+    <string name="auto_start_on_outgoing_call">בזמן שיחות יוצאות</string>
+    <string name="auto_start_on_phone_state_changed">בזמן ניתוק</string>
+    <string name="auto_start_on_user_present">בזמן פתיחה</string>
+    <string name="auto_start_on_wifi_state_change">בזמן חיבור לווי-פיי</string>
+    <string name="auto_start_on_wifi_enable_change">בזמן ניתוק לווי-פיי</string>
+    <string name="auto_start_on_time_set">בזמן הגדרת הזמן</string>
+    <string name="auto_start_on_bluetooth_state_change">בשינוי מצב בלותות</string>
+    <string name="auto_start_on_power_connected">בחיבור כבל</string>
+    <string name="auto_start_on_power_disconnected">בניתוק כבל</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">החלף מצב התראה</string>
+    <string name="notification_toggle_nocal">מחשבון לא נמצא!</string>
+    <string name="notification_toggle_open">מהירות ז+ מחליף מצב פתוח</string>
+    <string name="notification_toggle_noflash">למכשיר שלך אין פנס!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">תמיכה מהירות Z+ %s, להחיל עכשיו?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">שגיאה בחיבור.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">נכשל ניסיון להוריד את השפה.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">אכסון</string>
+    <string name="storage_main_act_details">פרטים</string>
+    <string name="storage_main_act_tab_used_space">אכסון בשימוש</string>
+    <string name="storage_main_act_tab_app_total">%s אפליקציות</string>
+    <string name="storage_main_act_tab_audio_total">%s מוזיקה</string>
+    <string name="storage_main_act_tab_image_total">%s תמונות</string>
+    <string name="storage_main_act_tab_document_total">%s מסמכים</string>
+    <string name="storage_main_act_tab_other_total">אחרים</string>
+    <string name="file_category_image_title">תמונות</string>
+    <string name="file_category_image_delete_dialog_msg_1">הקבצים ימחקו</string>
+    <string name="file_category_image_delete_dialog_msg_2">הקובץ שנמחק לא ניתן לשחזר!</string>
+    <string name="file_category_video_no_content">אין וידאו</string>
+    <string name="file_category_video_delete_msg">סרטוני הוידאו יימחקו.</string>
+
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">%s סרטונים בסך הכול</string>
+    <string name="video_title_selected">%s סרטונים נבחרו</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">מוזיקה</string>
+    <string name="music_group_music">מוזיקה</string>
+    <string name="music_group_rings">טבעות</string>
+    <string name="music_group_record">הקלט</string>
+    <string name="music_dialog_title">אזהרה</string>
+    <string name="music_dialog_delete_cancel">בטל</string>
+    <string name="music_dialog_delete_delete">מחק</string>
+    <string name="music_dialog_delete_notice">הקבצים ימחקו</string>
+    <string name="music_dialog_delete_notice_below">הקובץ שנמחק לא ניתן לשחזר!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">מסמכים</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">אחרים</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">מחק</string>
+    <string name="image_dialog_text1">הקובץ ימחק</string>
+    <string name="image_dialog_text2">אתה בטוח?</string>
+    <string name="image_no_selected">אין קבצים נבחרים.</string>
+    <string name="image_size_notice">%s נוקה!</string>
+    <string name="image_delete_layout_text">מחק(%s)</string>
+    <string name="image_delete_ok">כן</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">לא ניתן למחוק את הקבצים הללו.</string>
+    <string name="no_app_to_open_file">אין יישומים המקומי יכול לפתוח את הקובץ</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">גרור אותו לכאן כדי לשפר את הטלפון שלך.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">השבתה</string>
+    <string name="disable_apps_done_disable_count">%s מושבת!</string>
+    <string name="disable_apps_done_speed_up">%s מהירות+!</string>
+    <string name="disable_apps_done_description">Z+ מהירות שומר אותם לא פעילים</string>
+    <string name="disable_apps_wait_to_stop_tips">מנסה קשה לעצור, להמתין…</string>
+    <string name="disable_list_no_app_tip">אין אפליקציות מושבתות</string>
+    <string name="disable_group_most_disable_title">הרוב מושבת</string>
+    <string name="disable_group_recommend_keeping_title">מומלץ לשמור</string>
+    <string name="disable_group_recommend_keeping_subtitle">השבתה עלול לגרום לשגיאות מערכת</string>
+    <string name="disable_app_info_dialog_disable_btn_text">השבת</string>
+    <string name="disable_app_info_dialog_enable_btn_text">אפשר</string>
+    <string name="disable_app_info_dialog_consuming_tip">יישום זה הוא לצרוך זיכרון מערכת</string>
+    <string name="disable_app_info_dialog_system_error_tip">השבתה עלול לגרום לשגיאות מערכת</string>
+    <string name="disable_app_info_dialog_no_statement">אתה יכול לנסות לבטל את זה אם לא בצורך</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">שירות מותקן מראש יצרן</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&lt;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">התקן עכשיו</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">לחיים!</string>
+    <string name="rate_gp_dialog_feedback_title">פידבק</string>
+    <string name="rate_gp_dialog_rate_title">מת על מהירות Z+</string>
+    <string name="rate_gp_dialog_one_notice_boost">%1$s ימים, Z+ מהירות הרגה &lt;font color="#85c443"&gt; %2$s &lt;/font&gt;אפליקציות איטיות עבורך.&lt;br /&gt; &lt;br/&gt; &lt;font color="#85c443"&gt;האם אתה אוהב את מהירות Z+?&lt;/font&gt;</string>
+    <string name="rate_gp_dialog_one_no_boost">ממש לא</string>
+    <string name="rate_gp_dialog_one_yes_boost">כן!</string>
+    <string name="rate_gp_dialog_one_notice_clean">כרגע ניקית בהצלחה &lt;font color="#85c443"&gt; %s &lt;/font&gt; זבל! &lt;br /&gt; &lt;br/&gt;איך מהירות עובדת בשבילך Z+?</string>
+    <string name="rate_gp_dialog_one_no_clean">לא משהו</string>
+    <string name="rate_gp_dialog_one_yes_clean">מת על זה!</string>
+    <string name="rate_gp_dialog_two_notice">איכפת לך לתת לנו פידבק? \nהמילה שלך יקרה לנו.</string>
+    <string name="rate_gp_dialog_two_no">לא, תודה</string>
+    <string name="rate_gp_dialog_two_yes">אוקיי, בטח</string>
+    <string name="rate_gp_dialog_three_notice">מה דעתך על דירוג של חמישה כוכבים, אז?</string>
+    <string name="rate_gp_dialog_three_no">לא, תודה</string>
+    <string name="rate_gp_dialog_three_yes">אוקיי, בטח</string>
+    <string name="rate_gp_notification_notice">חיסלת %s אפליקציות איטיות עד היום, רוצה לראות?</string>
+
+    <!-- 启动页 -->
+    <string name="privacy_policy">&lt;u&gt;מדיניות פרטיות&lt;/u&gt;</string>
+    <string name="private_agreement">מסכים ל </string>
+    <string name="private_start">התחל</string>
+    <string name="private_join_uep">הצטרף לתכנית חווית משתמש</string>
+    <string name="privacy_start_by_agree_policy">קבל את &lt;u&gt;מדיניות הפרטיות&lt;/u&gt;</string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">התקנה, לנקות את APK המיותר כדי לחסוך</string>
+    <string name="install_listen_installed_multiple_msg">יישומים מותקנים, לנקות את רכיבי ה- APK המיותר כדי לחסוך</string>
+    <string name="install_listen_delete_apk_tip">נוקה</string>
+    <string name="install_listen_dialog_clean_btn_text">נקה</string>
+    <string name="install_listen_dialog_cancel_btn_text">בטל</string>
+    <string name="install_listen_dialog_eye_tip_on">אל תשאלו במשך 3 ימים</string>
+    <string name="install_listen_dialog_eye_tip_off">תמשיך לשאול אותי</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">משפר משחק</string>
+    <string name="game_boost_add_to_game_title">הוסף משחק</string>
+    <string name="game_boost_effect">שפר &lt;font color="#85c443"&gt;%s &lt;/font&gt; יותר זיכרון RAM ריצה למשחקים.</string>
+    <string name="game_cell_add">הוסף משחק</string>
+    <string name="game_cell_ok">אוקיי</string>
+    <string name="game_boost_menu_about">איך זה עובד</string>
+    <string name="game_boost_menu_add_shutcut">צור ספריית משחקים</string>
+    <string name="game_boost_folder_create_success">יצירת ספריית משחקים הצליחה</string>
+    <string name="game_boost_box_shortcut_name">שיפור משחק</string>
+    <string name="game_boost_box_shortcut_name_new">המשחקים שלי</string>
+    <string name="game_boost_add_card_view_title_popular">משחקים פופולרים</string>
+    <string name="game_boost_add_new_game_to_boost">%s הוסיף למשחק שיפור</string>
+    <string name="game_boost_add_new_games_to_boost">%s משחקים חדשים הוסיפו למשחק שיפור</string>
+    <!-- 游戏加速介绍 -->
+    <string name="game_boost_about_one">נסגר בזריזות ובאופן אוטומטי את יישומים ברקע שאינם קשורים בו להשפיע על ביצועי משחק.</string>
+    <string name="game_boost_about_two">דינמי לפקח הטלפון שלך ולנקות את זיכרון RAM המיותר.</string>
+    <string name="game_boost_about_three">משחקים פתוחים מתיקיית המשחקים + מהירות Z על משגר, שפר את המשחק שלך בשיעור של עד 20 ~ 65%.</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">משפר…</string>
+    <string name="game_accel_anim_boost_toast_tip">שופר, %s%% למעלה.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">בעיות מעבד</string>
+    <string name="cpu_fix">תקן</string>
+    <string name="cpu_check">בדוק</string>
+    <string name="cpu_issue_type_temp_overheated">חם מידי!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">גדל במהירות!</string>
+    <string name="cpu_issue_type_heavily_occupied">מעבד כבוש בכבדות!</string>
+    <string name="cpu_temp_issue_app">גורם לבעיה</string>
+    <string name="cpu_occupied_issue_app">צורך &lt;font color="#D46565"&gt; %s &lt;/font&gt; מעבד</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">מקרר המעבד</string>
+    <string name="cpu_coll_down_cpu">קרר המעבד</string>
+    <string name="cpu_temperature_issue">בעיית טמפרטורה</string>
+    <string name="cpu_device_running_slow">מכשיר פועל לאט</string>
+    <string name="cpu_issue_detected">בעיה זוהתה</string>
+    <string name="cpu_cool_down_further">קרר נוסף, נקה %s פועל האפליקציות</string>
+    <string name="cpu_temp_well">טמפרטורת מעבד היא בסדר</string>
+    <string name="cpu_temp_hot">קצת חמים</string>
+    <string name="cpu_temp_overheated">חי מידי</string>
+    <string name="cpu_temp_chilling">מתקרר</string>
+    <string name="cpu_temp_cooler">מקרר המעבד</string>
+    <string name="cpu_occupy">צורך &lt;font color="#D46565"&gt; %s &lt;/font&gt; מעבד</string>
+    <string name="cpu_abnormal">השימוש במעבד חריג: &lt;font color="#D46565"&gt; %s &lt;/font&gt;</string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">בדיוק אופטימלי</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">מכשיר לנוח קצת להתקרר</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">אין האפליקציות חימום</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">המכשיר מתקרר</string>
+    <string name="cpu_anim_cooldown_done_no_temp">האפליקציות חימום נוקו</string>
+    <string name="cpu_anim_cooldown_done_dropped">ירדנו מזה</string>
+    <string name="cpu_anim_cooldown_process_tip_text">החל להתקרר…</string>
+    <string name="cpu_anim_scan_process_tip_text">סריקת המעבד…</string>
+    <string name="cpu_anim_lag_done_tip_text">שופר!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">נא בדוק את חיבור רשת ונסה שוב</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">משפר משחק</string>
+    <string name="finish_page_card_game_booster_desc_enabled">תיקיית משפר משחק נוצרה על מסך בהצלחה, ללכת לבדוק את זה :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">אופשר</string>
+    <string name="finish_page_card_game_booster_desc">משחקים פתוחים מתיקיית מאיץ משחק, ליהנות מהירות שיגור משחק 65% מהר יותר</string>
+    <string name="finish_page_card_game_booster_desc_single_game">לשפר ביצועים של משחקים כדי לזרז &lt;big&gt;%s&lt;/big&gt; בעד כ-65%%?</string>
+    <string name="finish_page_card_game_booster_btn">אפשר עכשיו</string>
+
+    <string name="finish_page_card_whitelist_name">רשימה לבנה מאיץ עריכה</string>
+    <string name="finish_page_card_whitelist_desc">סימן האפליקציות כי צריך להישאר פועלת</string>
+    <string name="finish_page_card_whitelist_btn">ערוך עכשיו</string>
+    <string name="finish_page_card_autostart_name">התחלות אוטומטיות נמצאו</string>
+    <string name="finish_page_card_autostart_desc">&lt;big&gt;%s&lt;/big&gt; האפליקציות התחלה אוטומטית להיות מותאמות</string>
+    <string name="finish_page_card_autostart_btn">בדוק</string>
+    <string name="finish_page_card_photo_name">סידור תמונות</string>
+    <string name="finish_page_card_photo_desc">יותר מ&lt;big&gt;%s תמונות&lt;/big&gt; צולמו, אבל לא כולם שווים את נפח האכסון, נכון?</string>
+    <string name="finish_page_card_photo_btn">סדר פה</string>
+    <string name="finish_page_card_clean_1_name">זבל לנקות</string>
+    <string name="finish_page_card_clean_1_desc">טלפון שובב נוצר &lt;big&gt;%s&lt;/big&gt; מלא זבל לאחרונה</string>
+    <string name="finish_page_card_clean_1_btn">נקה</string>
+    <string name="finish_page_card_clean_2_name">&lt;big&gt;%s&lt;/big&gt;זבל נמצא</string>
+    <string name="finish_page_card_clean_2_desc">לאחר ניקוי, יותר מ &lt;big&gt;%s&lt;/big&gt; ניתן לקחת תמונות חדשות</string>
+    <string name="finish_page_card_clean_2_btn">נקה עכשיו</string>
+    <string name="finish_page_card_activate_power_mode_title">%s אפליקציות &lt;big&gt;התחיל-אוטומטי&lt;/big&gt;</string>
+    <string name="finish_page_card_activate_power_mode_desc">הפעל &lt;big&gt;מצב צריכת חשמל&lt;/big&gt; להתמודד עם זה</string>
+    <string name="finish_page_card_activate_power_mode_btn">הפעל</string>
+    <string name="finish_page_card_feedback_name">ספר לנו מה אתה חושב</string>
+    <string name="finish_page_card_feedback_desc">הכלי האהוב עליך, הצעה, כל דבר</string>
+    <string name="finish_page_card_feedback_btn">משוב</string>
+    
+    
+    
+
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">שיפור טלפון</string>
+    <string name="finish_page_card_memory_boost_normal_desc">שחרר את הזיכרון כדי לזרז את הטלפון</string>
+    <string name="finish_page_card_memory_boost_normal_btn">שפר</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big&gt;%s%% זכרון&lt;/big&gt; נשאר</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s פועל האפליקציות אכל את זיכרון, טלפון יכול להיות מאוד איטי</string>
+    <string name="finish_page_card_memory_boost_strong_btn">שפר עכשיו</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">השבת מותקנת מראש</string>
+    <string name="finish_page_card_disable_desc">%1$s התקין מראש האפליקציות, &lt;big&gt;%2$s&lt;/big&gt; ניתנות להשבתה</string>
+    <string name="finish_page_card_disable_btn">בדוק</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">בדקו מי אוטומטי להתחיל בסתר</string>
+    <string name="finish_page_no_ad_clean2_tips">זבל יהיה להאט את הטלפון</string>
+    <string name="finish_page_no_ad_clean1_tips">זבל צריך לנקות כל יום</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">משחקים צריכים משפר גם!</string>
+    <string name="finish_page_no_ad_disable_tips">כמה התקנות מראש הן באמת חסרות תועלת</string>
+    <string name="finish_page_no_ad_photo_tips">שטח הרבה יינצל!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">מצב צריכת חשמל יכול לעצור הקשים אלה!</string>
+    <string name="finish_page_no_ad_whitelist_tips">לא להרוג את האפליקציות שאתה צריך בטעות!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">טלפון פועל לאט</string>
+    <string name="finish_page_no_ad_boost_normal_tips">טלפון יכול להיות מהיר יותר</string>
+
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">הוסף משחקים</string>
+    <string name="game_accel_guide_title">שפר ביצועי משחקים</string>
+    <string name="game_accel_guide_text2">הופעל</string>
+    <string name="game_accel_guide_try_text">הקש בכדי לנסות!</string>
+    <string name="game_accel_guide_gamename_1">קיצור דרך נוצר</string>
+    <string name="game_accel_guide_gamename_2">פתח על שולחן העבודה</string>
+    <string name="game_accel_guide_gamename_3">סורק משחקים...</string>
+    <string name="game_accel_guide_discovery_text_above">Channel Z</string>
+    <string name="game_accel_guide_discovery_text_below">גם כאן</string>
+    <string name="game_accel_sec_anim_title">משחקים</string>
+    <string name="game_accel_shortcut_created">נוצרו</string>
+    <string name="game_accel_tip_dialog_content_text">האם ברצונך לשפר ביצועים של משחקים כדי לסייע לך לזרז \"%s\" בעד כ-40%%?</string>
+    <string name="game_accel_tip_dialog_content_text_new">לשפר ביצועים של משחקים כדי לזרז &lt;font color="#85c443"&gt;\"%s\"&lt;/font&gt; בעד כ-65%%?</string>
+    <string name="game_accel_sort_name">שם</string>
+    <string name="game_accel_sort_Date">תאריך</string>
+    <string name="game_accel_sort_Frequency">תדירות</string>
+    <string name="game_accel_game_box_title">נהל משחקים</string>
+    <string name="game_accel_add_shortcut">הוסף קיצור דרך</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">חקור וגלה</string>
+    <string name="game_distribute_connection_failed">החיבור נכשל</string>
+    <string name="game_distribute_net_data_alert">משחק על רשת WIFI עשוי לצרוך פחות מידע</string>
+    <string name="game_distribute_warning_title">טלוויזית Z Speed+</string>
+    <string name="game_distribute_warning_content"> הסרט המוצג בקטעי הוידאו הוא בלתי יאומן. הסרטונים מוצגים\n לא רק לשימוש ביתי, אלא גם לשימוש תחת זכויות אחרות.\n התחברות או צפייה בסרטים כאלה מתקבלת בברכה ב-Z Speed+.\n אנחנו ממליצים לך בחום לשחק במשחקים בשעות סבירות.</string>
+    <string name="game_distribute_video_title">ערוץ</string>
+    <string name="game_distribute_game_searching">מחפש משחקים...</string>
+
+    <!--完成页文案 -->
+    <string name="big_app_title">השלישיה המובילה &lt;font color="#6ac534"&gt;של אפליקציות גדולות &lt;/font&gt;</string>
+    <string name="cpu_thieves_title">השלישיה המובילה &lt;font color="#6ac534"&gt;של גונבי CPU כיום &lt;/font&gt;</string>
+    <string name="num_times">%s פעמים</string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">הזיכרון הזמין נמוך ביותר!</string>
+    <string name="home_guide_card_boost_desc_big">15%</string>
+    <string name="home_guide_card_boost_button">שפר ביצועים עכשיו</string>
+
+    
+    <string name="home_guide_card_photo_desc2">המחיקה שלהן אינה</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+    <string name="home_guide_card_photo_button">נקה עכשיו</string>
+
+    <string name="home_guide_card_cpu_desc">חימום יתר של ה-CPU מרוקן את הסוללה</string>
+    <string name="home_guide_card_cpu_button">התקררות</string>
+
+    <string name="home_guide_card_disbale_desc">התמודד עם השלבים שלפני ההתקנה!</string>
+    <string name="home_guide_card_disbale_desc2">הטלפון שלך יכול להיות מהיר יותר!</string>
+    <string name="home_guide_card_disbale_desc_big">%s אפליקציות</string>
+    <string name="home_guide_card_disbale_button">נטרל עכשיו</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">שיפור ביצועי צריכת חשמל</string>
+    <string name="enable_super_boost_mode_normal">שיפור ביצועים רגיל</string>
+    <string name="enable_super_boost_desc_super">שיפור ביצועים של: אפליקציות רגילות, &lt;mark&gt;&lt;font color="red"&gt;אפליקציות בהפעלה אוטומטית&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;font color="red"&gt;משפר ביצועים ב-60% נוספים, כמו בטלפונים פרוצים.&lt;/font&gt;&lt;br&gt;
+        (אנא הפעל את הגישה ל-Z Speed+ בשלב הבא)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">שיפור ביצועים של: אפליקציות רגילות, &lt;mark&gt;&lt;font color="red"&gt;אפליקציות בהפעלה אוטומטית&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;font color="red"&gt;משפר ביצועים ב-60% נוספים, כמו בטלפונים פרוצים.&lt;/font&gt;&lt;br&gt;
+        (אנא הפעל מחדש את הגישה ל-Z Speed+ בשלב הבא)</string>
+    <string name="enable_super_boost_desc_normal">שיפור ביצועים של: אפליקציות רגילות&lt;br&gt;
+      לא יתבצע שיפור ביצועים לאפליקציות בהפעלה אוטומטית פרט למצב צריכת חשמל.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">משפר כעת ביצועי צריכת חשמל לטלפון שלי!</string>
+
+
+    <string name="enable_super_disable_mode_super">נטרול סדרתי</string>
+    <string name="enable_super_disable_mode_normal">נטרול ידני</string>
+    <string name="enable_super_disable_desc_super">&lt;mark&gt;&lt;font color="red"&gt;אפשרות: נטרול סדרתי של אפליקציות מיותרות בקליק אחד.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (אנא הפעל את הגישה ל-Z Speed+ בשלב הבא)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark&gt;&lt;font color="red"&gt;אפשרות: נטרול סדרתי של אפליקציות מיותרות בקליק אחד.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (אנא הפעל מחדש את השימוש ב-Z Speed+ לאחר אתחול הטלפון שלך)
+    </string>
+    <string name="enable_super_disable_desc_normal">אפשרות: נטרל אפליקציות מיותרות אחת אחת. &lt;br&gt;
+                    &lt;mark&gt;&lt;font color="red"&gt;לשליטה קלה, מומלץ מאוד להשתמש בכלי הנטרול הסדרתי.&lt;/font&gt; &lt;/mark&gt;
+    </string>
+    <string name="enable_super_mode_check_desc_disable">אפשר את כלי הנטרול הסדרתי</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">הגדרות מתג ההתראות</string>
+    <string name="notification_toggle_settings_label_themes">ערכות נושא</string>
+    <string name="notification_toggle_settings_label_toggles">מתג</string>
+    <string name="notification_toggle_settings_label_zspeed">קלאסיקה</string>
+    <string name="notification_toggle_settings_label_popular">הפופולריים ביותר</string>
+    <string name="notification_toggle_theme_name_green">דמטר</string>
+    <string name="notification_toggle_theme_name_pink">אתנה</string>
+    <string name="notification_toggle_theme_name_black">אראבוס</string>
+    <string name="notification_toggle_theme_name_silver">אוראנוס</string>
+    <string name="notification_toggle_theme_name_golden">קרונוס</string>
+    <string name="notification_toggle_toggle_name_app">בית</string>
+    <string name="notification_toggle_toggle_name_boost">שיפור ביצועים</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">פנס</string>
+    <string name="notification_toggle_toggle_name_brightness">בהירות</string>
+    <string name="notification_toggle_toggle_name_themes">ערכות נושא</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">מידע</string>
+    <string name="notification_toggle_toggle_name_camera">מצלמה</string>
+    <string name="notification_toggle_toggle_name_calculator">מחשבון</string>
+    <string name="notification_toggle_toggle_name_rotate">סובב</string>
+    <string name="notification_toggle_toggle_name_sound">צליל</string>
+    <string name="notification_toggle_bright_auto">אוטומטי</string>
+    <string name="notification_toggle_notification_ticker">סרגל הכלים Z Speed+ מוכן לשימוש</string>
+    <string name="notification_toggle_notification_ticker_initializing">סרגל הכלים מבצע אתחול…</string>
+
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">הקלד תוכן לחיפוש</string>
+    <string name="hot_word_search_next_batch">עוד</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">תמונות כפולות</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s תמונות הוסרו!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">כל התמונות הכפולות הוסרו!</string>
+    <string name="duplicate_photos_delete_alert_title">מחק לצמיתות</string>
+    <string name="duplicate_photos_delete_alert_desc">האם אתה בטוח שברצונך למחוק אותן לצמיתות?</string>
+    <string name="duplicate_photos_leave_alert_title">בטוח שברצונך לצאת?</string>
+    <string name="duplicate_photos_leave_alert_desc">בחרת %s תמונות למחיקה.&lt;br&gt; אתה בטוח שברצונך לצאת?</string>
+    <string name="duplicate_photos_leave_alert_leave_btn">צא</string>
+    <string name="duplicate_photos_scan_alert">הסריקה עשויה להימשך זמן מה, אנא המתן</string>
+    <string name="duplicate_photos_no_content">ברכותינו! אין תמונות כפולות!</string>
+    <string name="duplicate_photos_suffix_selected">%s נבחרו</string>
+    <string name="duplicate_photos_suffix_total">%s תמונות בסך הכול</string>
+
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">המשחק הטוב של השבוע</string>
+    <string name="game_ad_notification_label_weekly_best_app">האפליקציה הטובה של השבוע</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">APP LOCK</string>
+    <string name="app_lock_perm_settings_title">הגדרות</string>
+    <string name="app_lock_perm_settings_message">בקשת אישור גישה</string>
+    <string name="app_lock_notice_enable_usage_stats">באנדרואיד 5.0 ומעלה, עליך לאשר גישה לשימושיות ל-AppLock על מנת שתוכל להשתמש באפשרות AppLock.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_notice_enable_usage_stats1">אם ההתקנה נכשלת, אנא אפשר אותה דרך הגדרות מערכת &gt; אבטחה &gt; אפליקציות עם גישה לשימושיות</string>
+    <string name="app_lock_enable_usage_stats">אשר גישה</string>
+    <string name="install_app_mointor_locker">יש צורך בנעילה</string>
+    <string name="locker_header_forget_pwd">שכחתי את קוד הגישה</string>
+    <string name="locker_header_replce_number_locker">עבור לנעילה באמצעות קוד גישה</string>
+    <string name="locker_header_replce_graphic_locker">עבור לנעילה באמצעות דפוס</string>
+    <string name="initializationpassword_frist_prompt">הגדר קוד גישה</string>
+    <string name="initializationpassword_second_prompt">הכנס שוב את קוד הגישה לאישור</string>
+    <string name="initializationpassword_pwd_not_equals">קוד גישה לא תואם, אנא הכנס אותו שוב</string>
+    <string name="init_email_prompt">כתובת מייל לשחזור סיסמה</string>
+    <string name="init_email_prompt1">אנא הכנס את כתובת המייל הנכונה</string>
+    <string name="init_mail_btn_text">הבא</string>
+    <string name="forget_reset_pwd_success">איפוס קוד גישה בוצע בהצלחה</string>
+    <string name="activity_applock_group_apps">אפליקציות</string>
+    <string name="activity_applock_menu_update">שדרג לגרסת Pro</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">הגדרות AppLock</string>
+    <string name="app_lock_setting_parent_unlock_mode">מצב שחרור נעילה</string>
+    <string name="app_lock_setting_passcode">קוד גישה</string>
+    <string name="app_lock_setting_others">אחרים</string>
+    <string name="app_lock_setting_unlock_mode_numbers">מספרים</string>
+    <string name="app_lock_setting_unlock_mode_pattern">דפוס</string>
+    <string name="app_lock_setting_passcode_change_passcode">שינוי קוד גישה</string>
+    <string name="app_lock_setting_passcode_email_setting">הגדרות דוא"ל</string>
+    <string name="app_lock_setting_others_brief_eixt">אפשר יציאה מהירה</string>
+    <string name="app_lock_setting_others_relock">נעילה חוזרת אחרי הדלקת המסך</string>
+    
+    <string name="app_lock_setting_brief_eixt_minutes">דקות</string>
+    <string name="app_lock_setting_pro">גרסת Pro</string>
+    <string name="app_lock_setting_pro_update">עדכון לנעילת העל</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">שכחתי את קוד הגישה</string>
+    <string name="forget_email_prompt1">1) אנחנו נשלח קוד אימות לכתובת המייל שלך.</string>
+    <string name="forget_email_prompt2">2) הכנס את קוד האימות שלך וקבל את קוד הגישה שלך.</string>
+    <string name="forget_email_btn_prompt">שלח</string>
+    <string name="forget_email_btn_prompt2">אפס קוד גישה</string>
+    <string name="forget_email_edit_prompt">קוד אימות</string>
+    <string name="forget_check_code_not_right">שגוי</string>
+    <string name="forget_check_code_out_of_time">פג תוקף האימות, אנא שלח בקשה נוספת.</string>
+    <string name="forget_send_email_error">שליחת המייל נכשלה, נסה שנית.</string>
+    <string name="forget_send_email_success">המייל נשלח בהצלחה, בדוק את תיבת הדואר שלך.</string>
+    <string name="set_graphic_password_message_draw">צייר דפוס לשחרור נעילה</string>
+    <string name="set_graphic_password_message_too_short">חבר לפחות 4 נקודות. נסה שנית:</string>
+    <string name="set_graphic_password_message_stored">דפוס נשמר.</string>
+    <string name="set_graphic_password_message_redraw">צייר דפוס בשנית לאישור:</string>
+    <string name="set_graphic_password_btn_redraw">נסה שנית</string>
+    <string name="set_graphic_password_message">הגדרות קוד גישה</string>
+    <string name="set_graphic_password_message_wrong">שגיאה: נסה שנית</string>
+    <string name="applock_recommend_dialog_title">אפליקציות מומלצות</string>
+    <string name="applock_recommend_dialog_lockall">נעל הכול</string>
+    <string name="applock_recommend_dialog_ok">אישור</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">ניתן להשתמש בגרסת Pro לנעילת פרטיות!</string>
+    <string name="lokcer_init_instruction_first">הגדרת סיסמה לנעילת אפליקציות הפרטיות שלך</string>
+    <string name="lokcer_init_instruction_second">אשר שוב סיסמה</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">נעילת אפליקציה</string>
+    <string name="finish_page_card_app_locker_desc">הגן על &lt;big&gt;%s&lt;/big&gt; ואחרות מפני רחרחנים באמצעות כלי נעילת האפליקציה!</string>
+    <string name="finish_page_card_app_locker_btn">הגן עכשיו</string>
+    
+
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+
+</resources>

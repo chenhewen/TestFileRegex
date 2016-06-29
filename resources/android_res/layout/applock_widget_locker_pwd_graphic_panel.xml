@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.function.applock.view.widget.graphic.LockerGraphicPasswordPanel xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/locker_pwd_graphic_panel"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/locker_graphic_pwd_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="9dip"
+            android:gravity="center_horizontal"
+            android:text="@string/initializationpassword_frist_prompt"
+            android:textColor="#00ffffff"
+            android:textSize="13sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/locker_pwd_graphic"
+            layout="@layout/applock_widget_locker_pwd_graphic"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/graphic_back_bg"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <include
+            android:id="@+id/graphic_back"
+            layout="@layout/applock_widget_locker_pwd_number_cell"/>
+    </RelativeLayout>
+</com.gto.zero.zboost.function.applock.view.widget.graphic.LockerGraphicPasswordPanel>

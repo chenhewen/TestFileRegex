@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6F6F6" >
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/common_title_height"
+        android:orientation="vertical" >
+
+        <!-- 主题选择区 -->
+
+        <LinearLayout
+            android:id="@+id/theme_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_families_roboto"
+                android:singleLine="true"
+                android:text="@string/notification_toggle_settings_label_themes"
+                android:textColor="#CC000000"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/theme_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="18dp" />
+
+            <com.gto.zero.zboost.common.ui.IndicatorView
+                android:id="@+id/theme_page_indicator_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <!-- 开关选择区 -->
+
+        <LinearLayout
+            android:id="@+id/toggle_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_families_roboto"
+                android:singleLine="true"
+                android:text="@string/notification_toggle_settings_label_toggles"
+                android:textColor="#CC000000"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <ListView
+                android:id="@+id/toggles_listView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="26dp"
+                android:layout_weight="1"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:dividerHeight="0dp"
+                android:fadingEdgeLength="0dp"
+                android:listSelector="#00000000"
+                android:overScrollFooter="@null"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/mask_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80FFFFFF" />
+
+    <include
+        android:id="@+id/notification_toggle_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        layout="@layout/common_title_layout"
+        android:background="@color/common_title_background" />
+
+</FrameLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_list_item_white_selector"
+    android:orientation="vertical" >
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_module_item_height"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/preinstall_disable_item_icon"
+                android:layout_width="@dimen/preinstall_disable_list_group_item_icon_width"
+                android:layout_height="@dimen/preinstall_disable_list_group_item_icon_width"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/preinstall_disable_list_group_item_icon_margin_left"
+                android:layout_marginRight="@dimen/preinstall_disable_list_group_item_icon_margin_left"
+                android:src="@drawable/preinstall_disabled_icon"
+                />
+
+            <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:layout_marginRight="@dimen/common_margin" >
+	            <TextView
+	                android:id="@+id/preinstall_disable_item_group_title"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:fontFamily="@string/font_families_roboto"
+	                android:text="@string/app_manager_preinstall_disbale_list"
+	                android:textColor="@color/common_module_name"
+	                android:textSize="@dimen/clean_list_common_text_size" />
+	            <TextView
+	                android:id="@+id/preinstall_disable_item_group_subtitle"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:fontFamily="@string/font_families_roboto"
+	                android:text="@string/app_manager_preinstall_disbale_list"
+	                android:textColor="@color/preinstall_disable_list_group_subtitle_color"
+	                android:textSize="@dimen/preinstall_disable_list_group_item_subtitle_textsize"
+	                android:visibility="gone"/>
+            </LinearLayout>
+            
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/preinstall_disable_item_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+            android:background="@drawable/appmanager_arrowmore" />
+    </LinearLayout>
+
+<!--     <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/common_listview_divider"/> -->
+        
+    <include
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/common_listview_divider_height_level0"
+       android:layout_alignParentBottom="true" 
+       android:layout_marginBottom="@dimen/common_listview_divider_margin_bottom"
+       layout="@layout/common_listview_divider_level0_layout" />   
+
+</LinearLayout>

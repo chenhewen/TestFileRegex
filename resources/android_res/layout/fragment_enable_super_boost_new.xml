@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B2000000"
+        >
+    </FrameLayout>
+
+
+    <include
+        android:id="@+id/fragment_enable_super_boost_new_anim_view_layout"
+        layout="@layout/enable_super_dialog_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        />
+
+
+    <com.gto.zero.zboost.common.ui.CommonRoundButton
+        android:id="@+id/fragment_enable_super_boost_new_button"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/common_round_button_layout_width"
+        android:layout_height="@dimen/common_round_button_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_shadow"/>
+
+        <ImageView
+            android:id="@+id/common_round_button_icon"
+            android:layout_width="@dimen/common_round_button_size"
+            android:layout_height="@dimen/common_round_button_size"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/fragment_enable_super_button"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/fragment_enable_super_button_label"/>
+
+    </com.gto.zero.zboost.common.ui.CommonRoundButton>
+
+
+</RelativeLayout>

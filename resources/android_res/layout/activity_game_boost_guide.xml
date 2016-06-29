@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <com.gto.zero.zboost.function.gameboost.view.GameAccelAnimView
+        android:id="@+id/game_accel_anim_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/trans"
+        >
+        <ImageView 
+            android:id = "@+id/guide_ok_image"
+            android:layout_width="@dimen/game_accel_guide_ok_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/game_accel_guide_ok_margin_top"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/game_boost_guide_ok"
+            android:visibility="invisible"
+            />
+        <TextView 
+            android:id = "@+id/guide_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/game_accel_guide_text1_margin_top"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/guide_ok_image"
+            android:textSize="@dimen/game_accel_guide_textsize"
+            android:textColor="#DDFFFFFF"
+            android:text="@string/game_accel_guide_title"
+            android:visibility="invisible"/>
+        <TextView 
+            android:id = "@+id/guide_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/game_accel_guide_text2_margin_top"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/guide_text_1"
+            android:textSize="@dimen/game_accel_guide_textsize"
+            android:textColor="#DDFFFFFF"
+            android:text="@string/game_accel_guide_text2"
+            android:visibility="invisible"/>
+        <ImageView 
+            android:id = "@+id/guide_try_btn"
+            android:layout_width="@dimen/game_accel_guide_try_btn_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/game_accel_guide_try_btn_margin_top"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/guide_text_2"
+            android:src="@drawable/game_boost_guide_icon"
+            android:visibility="gone"
+            />
+        <TextView 
+            android:id = "@+id/guide_tap_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/game_accel_guide_try_text_margin_top"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/guide_try_btn"
+            android:textSize="@dimen/game_accel_guide_try_text_textsize"
+            android:textColor="#DDFFFFFF"
+            android:text="@string/game_accel_guide_try_text"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    
+    <include
+        android:id="@+id/game_boost_guide_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/common_title_layout"
+        />
+
+</RelativeLayout>

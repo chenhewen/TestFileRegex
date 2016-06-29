@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/finish_page_feeling_lucky_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <RelativeLayout
+        android:id="@+id/feel_lucky_button_wraper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="150dp">
+
+        <com.gto.zero.zboost.common.ui.CommonRoundButton
+            android:id="@+id/feel_lucky_button"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+
+            android:layout_alignParentRight="true">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/main_shadow"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/common_shape_round_feel_lucky_btn">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/menu_main_7"/>
+            </RelativeLayout>
+        </com.gto.zero.zboost.common.ui.CommonRoundButton>
+    </RelativeLayout>
+</RelativeLayout>

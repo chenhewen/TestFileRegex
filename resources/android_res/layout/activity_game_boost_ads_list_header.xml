@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zboost="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/game_boost_distribute_header_title"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="16dp"
+            android:paddingTop="20dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/game_boost_distribute_header_main_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/game_boost_distribute_tv_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/game_boost_distribute_header_main_icon"
+                android:text="@string/game_distribute_discover"
+                android:textColor="#8affffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/game_ads_banner_video_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/game_boost_distribute_header_title"
+            android:background="#000">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.loopme.LoopMeBannerView
+                    android:id="@+id/game_ads_banner_video"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp" />
+
+                <RelativeLayout
+                    android:id="@+id/game_boost_distribute_video_warning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/game_boost_distribute_warn_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"
+                            android:background="#d41020"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:paddingTop="5dp"
+                            android:text="@string/game_distribute_warning_title"
+                            android:textColor="#fff"
+                            android:textSize="11dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="306dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/game_boost_distribute_warn_title"
+                            android:paddingLeft="5dp"
+                            android:text="@string/game_distribute_warning_content"
+                            android:textAlignment="center"
+                            android:textColor="#e9e9e9"
+                            android:textSize="11dp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/game_boost_distribute_video_data_alert"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/game_boost_distribute_video_data_alert_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/game_distribute_net_data_alert"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/game_boost_video_ads_play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/game_boost_distribute_videoplay_icon" />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <com.gto.zero.zboost.function.gameboost.view.GameAccelLoadingView
+                android:id="@+id/game_boost_video_ads_loading"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                zboost:loading_width="40dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/game_boost_distribute_ad_icon"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/main_icon" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CHANNEL"
+                        android:textColor="#deffffff"
+                        android:textSize="9dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PROMOTED"
+                        android:textColor="#deffffff"
+                        android:textSize="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_below="@+id/game_ads_banner_video_wrapper"
+            android:background="#AC8f8f8f"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/game_boost_distribute_video_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="3dp"
+                android:text="@string/game_distribute_video_title"
+                android:textColor="#deffffff"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/game_boost_distribute_network_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/game_boost_distribute_video_title"
+                android:src="@drawable/game_boost_distribute_wifi_icon" />
+
+            <ImageView
+                android:id="@+id/game_boost_distribute_next_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/game_boost_distribute_nextvideo_icon"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/game_boost_distribute_video_cion"
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:paddingBottom="8dp"
+            android:src="@drawable/ic_launcher"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</LinearLayout>

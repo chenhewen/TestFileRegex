@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <include
+        android:id="@+id/fragment_appmanager_preinstall_disable_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        layout="@layout/common_title_layout" />
+
+    <ListView
+        android:id="@+id/fragment_appmanager_preinstall_disable_list_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_appmanager_preinstall_disable_list_title"
+        android:divider="#00000000"
+        android:overScrollFooter="@null"
+        android:scrollbars="none" />
+    
+    <RelativeLayout 
+        android:id="@+id/fragment_appmanager_preinstall_disable_nodata_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        >
+        <ImageView 
+            android:id="@+id/fragment_appmanager_preinstall_disable_nodata_image"
+            android:layout_width="@dimen/preinstall_disable_list_no_data_image_width"
+        	android:layout_height="@dimen/preinstall_disable_list_no_data_image_height"
+        	android:layout_marginBottom="@dimen/preinstall_disable_list_no_data_image_margin_bottom"
+        	android:src="@drawable/disable_list_no_app"
+        	android:layout_centerHorizontal="true"
+        	/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_appmanager_preinstall_disable_nodata_image"
+            android:textSize="@dimen/common_text_size_item_name"
+            android:textColor="@color/preinstall_disable_text_color_grey"
+            android:text="@string/disable_list_no_app_tip"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

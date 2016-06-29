@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_gravity="center"
+    android:background="@drawable/install_listen_dialog_bg"
+    android:layout_marginLeft="@dimen/install_listen_dialog_margin_left"
+    android:layout_marginRight="@dimen/install_listen_dialog_margin_left">
+    
+	<ImageView 
+	    android:layout_width="@dimen/install_listen_dialog_corner_width"
+	    android:layout_height="@dimen/install_listen_dialog_corner_width"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/install_listen_dialog_corner"
+	    >
+	</ImageView>
+	
+	<ScrollView
+	       android:id="@+id/install_listen_dialog_icon_container_scroll"       
+	       android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="@dimen/install_listen_dialog_scroll_margin_top"
+		   android:layout_marginBottom="@dimen/install_listen_dialog_scroll_margin_bottom"
+	       android:layout_centerHorizontal="true">
+		<LinearLayout 
+		    android:id="@+id/install_listen_dialog_icon_container"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    ></LinearLayout>
+	</ScrollView>
+	
+	<TextView 
+	    android:id="@+id/install_listen_dialog_text"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/install_listen_dialog_content_text_margin_left"
+	    android:layout_marginRight="@dimen/install_listen_dialog_content_text_margin_left"
+	    android:layout_below="@id/install_listen_dialog_icon_container_scroll"
+	    android:text="Muzhiwan/UC Browser left residuayl files"
+	    android:textColor="@color/dialog_common_detail_color"
+	    android:textSize="@dimen/install_listen_dialog_content_textsize"
+	    android:gravity="left"/>
+	
+	<TextView 
+	    android:id="@+id/install_listen_dialog_size_text"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/install_listen_dialog_content_text_margin_left"
+	    android:layout_marginRight="@dimen/install_listen_dialog_content_text_margin_left"
+	    android:layout_below="@id/install_listen_dialog_text"
+	    android:text="12.3MB"
+	    android:textColor="@color/common_title_background"
+	    android:textSize="@dimen/install_listen_dialog_content_apksize_textSize"
+	    android:gravity="center"/>
+	
+	<RelativeLayout 
+	    android:id="@+id/install_listen_dialog_footer"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    >
+	    <ImageView 
+	        android:id="@+id/install_listen_dialog_eye_btn"
+	        android:layout_width="@dimen/install_listen_dialog_eye_width"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:paddingTop="@dimen/dialog_common_padding"
+	        android:paddingBottom="@dimen/dialog_common_padding"
+	        android:src="@drawable/install_listen_dialog_eyesicon"
+	        android:layout_marginLeft="@dimen/install_listen_dialog_eye_margin_left"
+	        android:layout_centerVertical="true"
+	        android:clickable="true"/>
+	    <TextView 
+	        android:id="@+id/install_listen_dialog_confirm_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/common_dialog_btn_selector"
+	        android:clickable="true"
+	        android:padding="@dimen/dialog_common_padding"
+	        android:text="Clean"
+	        android:textColor="@color/common_title_background"
+	        android:textSize="@dimen/install_listen_dialog_eye_footer_btn_textsize"
+	        />
+	    <TextView 
+	        android:id="@+id/install_listen_dialog_cancle_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/install_listen_dialog_confirm_btn"
+	        android:background="@drawable/common_dialog_btn_selector"
+	        android:clickable="true"
+	        android:padding="@dimen/dialog_common_padding"
+	        android:text="@string/install_listen_dialog_cancel_btn_text"
+	        android:textColor="@color/dialog_common_button_light"
+	        android:textSize="@dimen/install_listen_dialog_eye_footer_btn_textsize"
+	        />
+	</RelativeLayout>
+	
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/install_listen_dialog_diver_height"
+        android:layout_above="@+id/install_listen_dialog_footer"
+        android:background="@color/listview_expand_item_below" />
+	
+</RelativeLayout>

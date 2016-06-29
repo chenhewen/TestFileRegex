@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.function.rate.view.RateFeedbackDialogView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/dialog_common_padding" >
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dialog_common_padding" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/rate_dialog_feedback" />
+
+        <TextView
+            android:id="@+id/tv_top"
+            style="@style/dialog_common_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/icon"
+            android:paddingLeft="@dimen/dialog_common_padding"
+            android:text="@string/rate_gp_dialog_feedback_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_bottpm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" >
+
+        <TextView
+            android:id="@+id/tv_right"
+            style="@style/dialog_common_button_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/common_dialog_btn_selector"
+            android:clickable="true"
+            android:padding="@dimen/dialog_common_padding"
+            android:text="@string/rate_gp_dialog_two_yes" />
+
+        <TextView
+            android:id="@+id/tv_left"
+            style="@style/dialog_rate_button_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/tv_right"
+            android:background="@drawable/common_dialog_btn_selector"
+            android:clickable="true"
+            android:padding="@dimen/dialog_common_padding"
+            android:text="@string/rate_gp_dialog_two_no" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_bottpm"
+        android:layout_below="@id/layout_top" >
+
+        <TextView
+            android:id="@+id/tv_container"
+            style="@style/dialog_common_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingLeft="@dimen/dialog_common_padding"
+            android:paddingRight="@dimen/dialog_common_padding"
+            android:text="@string/rate_gp_dialog_two_notice" />
+    </RelativeLayout>
+
+</com.gto.zero.zboost.function.rate.view.RateFeedbackDialogView>

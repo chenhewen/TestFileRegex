@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="1dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/widget_boost_11_icon"
+        android:layout_width="@dimen/shortcut_widget_icon_size"
+        android:layout_height="@dimen/shortcut_widget_icon_size"
+        android:src="@drawable/shortcut_boost_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:shadowColor="#111"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="@string/shortcut_boost"
+        android:textColor="#FFF"
+        android:textSize="@dimen/shortcut_widget_text_size" />
+
+</LinearLayout>

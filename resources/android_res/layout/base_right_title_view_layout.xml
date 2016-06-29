@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.function.filecategory.image.view.AlbumTitleRightView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingRight="@dimen/common_title_extra_padding_right" >
+
+    <com.gto.zero.zboost.common.ui.ClickTransparentLayout
+        android:id="@+id/base_right_title_view_left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <com.gto.zero.zboost.view.GroupSelectBox2
+            android:id="@+id/base_right_title_view_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" />
+    </com.gto.zero.zboost.common.ui.ClickTransparentLayout>
+
+    <com.gto.zero.zboost.function.filecategory.image.view.ImageClickTransparenetLayout
+        android:id="@+id/base_right_title_view_right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="27dp" >
+
+        <ImageView
+            android:id="@+id/image_click_button_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" />
+    </com.gto.zero.zboost.function.filecategory.image.view.ImageClickTransparenetLayout>
+
+</com.gto.zero.zboost.function.filecategory.image.view.AlbumTitleRightView>

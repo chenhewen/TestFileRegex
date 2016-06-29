@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<com.jiubang.alock.locker.widget.LockerHeaderView-->
+<com.gto.zero.zboost.function.applock.view.widget.LockerHeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/locker_header_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:orientation="horizontal"
+        tools:background="#ffaaaaaa">
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            />
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@+id/locker_header_title_icon"
+            android:layout_toRightOf="@+id/app_icon"
+            android:singleLine="true"
+            android:textColor="#ffff"
+            android:textSize="17sp"
+            tools:text="skype"/>
+
+        <ImageView
+            android:id="@+id/locker_header_title_icon"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/locker_header_btn_selecter"
+            android:scaleType="centerInside"
+            android:src="@drawable/locker_header_btn"
+            tools:ignore="ContentDescription"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/locker_header_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/locker_header_content_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/locker_header_content_bg"
+            android:minWidth="@dimen/locker_header_menu_item_width"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <TextView
+                android:id="@+id/locker_header_forget_pwd"
+                style="@style/locker_header_menu_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/locker_header_menu_item_height"
+                android:text="@string/locker_header_forget_pwd"/>
+
+            <TextView
+                android:id="@+id/locker_header_replace_number_locker"
+                style="@style/locker_header_menu_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/locker_header_menu_item_height"
+                android:text="@string/locker_header_replce_number_locker"/>
+
+            <TextView
+                android:id="@+id/locker_header_replace_graphic_locker"
+                style="@style/locker_header_menu_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/locker_header_menu_item_height"
+                android:text="@string/locker_header_replce_graphic_locker"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.gto.zero.zboost.function.applock.view.widget.LockerHeaderView>

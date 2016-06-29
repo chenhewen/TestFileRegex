@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_gravity="center"
+    android:background="@drawable/install_listen_dialog_bg"
+    android:layout_marginLeft="@dimen/install_listen_dialog_margin_left"
+    android:layout_marginRight="@dimen/install_listen_dialog_margin_left">
+    
+	<ImageView 
+	    android:layout_width="@dimen/install_listen_dialog_corner_width"
+	    android:layout_height="@dimen/install_listen_dialog_corner_width"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/install_listen_dialog_corner"
+	    >
+	</ImageView>
+	
+	<ImageView 
+	    android:id="@+id/game_accel_tip_dialog_icon"
+	    android:layout_width="@dimen/install_listen_icon_view_icon_width"
+	    android:layout_height="@dimen/install_listen_icon_view_icon_width"
+	    android:layout_marginTop="@dimen/install_listen_dialog_scroll_margin_bottom"
+	    android:layout_marginBottom="@dimen/install_listen_dialog_scroll_margin_bottom"
+	    android:layout_centerHorizontal="true"
+	    />
+	
+	<TextView 
+	    android:id="@+id/game_accel_tip_dialog_text"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/install_listen_dialog_content_text_margin_left"
+	    android:layout_marginRight="@dimen/install_listen_dialog_content_text_margin_left"
+	    android:layout_below="@id/game_accel_tip_dialog_icon"
+	    android:text="Muzhiwan/UC Browser left residuayl files"
+	    android:textColor="@color/dialog_common_detail_color"
+	    android:textSize="@dimen/install_listen_dialog_content_textsize"
+	    android:gravity="left"/>
+	
+	<TextView
+		android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/install_listen_dialog_content_text_margin_left"
+	    android:layout_marginRight="@dimen/install_listen_dialog_content_text_margin_left"
+	    android:layout_below="@id/game_accel_tip_dialog_text"
+	    android:text="12.3MB"
+	    android:textColor="@color/common_title_background"
+	    android:textSize="@dimen/install_listen_dialog_content_apksize_textSize"
+	    android:gravity="center"
+	    android:visibility="gone"/>
+	
+	<RelativeLayout 
+	    android:id="@+id/game_accel_tip_dialog_footer"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    >
+	    <TextView 
+	        android:id="@+id/game_accel_tip_dialog_confirm_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/common_dialog_btn_selector"
+	        android:clickable="true"
+	        android:padding="@dimen/dialog_common_padding"
+	        android:text="Clean"
+	        android:textColor="@color/common_title_background"
+	        android:textSize="@dimen/install_listen_dialog_eye_footer_btn_textsize"
+	        />
+	    <TextView 
+	        android:id="@+id/game_accel_tip_dialog_cancle_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/game_accel_tip_dialog_confirm_btn"
+	        android:background="@drawable/common_dialog_btn_selector"
+	        android:clickable="true"
+	        android:padding="@dimen/dialog_common_padding"
+	        android:text="@string/install_listen_dialog_cancel_btn_text"
+	        android:textColor="@color/dialog_common_button_light"
+	        android:textSize="@dimen/install_listen_dialog_eye_footer_btn_textsize"
+	        />
+	</RelativeLayout>
+	
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/install_listen_dialog_diver_height"
+        android:layout_above="@+id/game_accel_tip_dialog_footer"
+        android:background="@color/listview_expand_item_below" />
+	
+</RelativeLayout>

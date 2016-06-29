@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- 清理界面 -->
+    <dimen name="clean_main_list_group_title_max_length">160dp</dimen>
+    <dimen name="clean_main_list_item_title_max_length">120dp</dimen>
+
+    <!-- 主界面 -->
+    <!-- 菜单 -->
+    <dimen name="main_menu_width">180dp</dimen>
+    <dimen name="main_menu_item_height">36dp</dimen>
+    <dimen name="main_menu_offset_x">8dp</dimen>
+
+	<!-- 一键加速 -->
+    <dimen name="shortcut_boost_padding_left">10dp</dimen>
+    <dimen name="shortcut_boost_padding_top">8dp</dimen>
+
+    <!-- 主界面功能引导 -->
+    <dimen name="home_guide_page_content_layout_top">45dp</dimen>
+    <dimen name="home_guide_page_btn_top">60dp</dimen>
+
+    <!--应用锁界面适配-->
+    <dimen name="applock_lock_panel_top">220dp</dimen>
+    <dimen name="applock_number_lock_panel_text_buttom">8dp</dimen>
+    <dimen name="applock_init_bevel_top">180dp</dimen>
+    <dimen name="applock_unlock_bevel_top">200dp</dimen>
+</resources>

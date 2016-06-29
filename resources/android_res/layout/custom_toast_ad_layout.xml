@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    >
+
+    <com.gto.zero.zboost.view.FlipInterceptRelativeLayout
+        android:id="@+id/toast_ad_container"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true" >
+
+        <RelativeLayout
+            android:id="@+id/toast_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/uninstall_dialog_bg"
+            android:paddingBottom="18dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="18dp" >
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/toast_icon" />
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/img"
+                android:fontFamily="@string/font_families_roboto_light"
+                android:text="160 M Freed. Release More!"
+                android:textColor="#858585"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        
+        <!-- ad -->
+        
+        <RelativeLayout
+            android:id="@+id/ad_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="14dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/toast_ad_bg" >
+
+            <com.gto.zero.zboost.view.HatImageView
+                android:id="@+id/ad_icon"
+                android:layout_marginTop="14dp"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_above="@+id/ad_button"
+                android:layout_marginRight="12dp"
+                 />
+
+            <TextView
+                android:id="@+id/ad_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/ad_icon"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/ad_icon"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@string/font_families_roboto"
+                android:maxWidth="170dp"
+                android:singleLine="true"
+                android:text="Zboost"
+                android:textColor="#7e7e7e"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ad_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/ad_button"
+                android:layout_below="@id/ad_name"
+                android:layout_toRightOf="@id/ad_icon"
+                android:fontFamily="@string/font_families_roboto"
+                android:gravity="left"
+                android:maxLines="2"
+                android:text="this is a pretty good app for your smart phone!"
+                android:textColor="#7e7e7e"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/ad_button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/storage_main_act_details"
+                android:textColor="@color/dialog_common_button_green"
+                android:textSize="16sp" />
+        </RelativeLayout>
+        
+    </com.gto.zero.zboost.view.FlipInterceptRelativeLayout>
+
+</RelativeLayout>

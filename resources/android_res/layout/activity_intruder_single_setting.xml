@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/intruder_single_setting_title"
+        layout="@layout/common_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        />
+
+    <include
+        layout="@layout/setting_setting_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <include
+        android:id="@+id/intruder_single_setting_child_item1"
+        layout="@layout/app_lock_setting_child_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <include
+        android:id="@+id/intruder_single_setting_child_item2"
+        layout="@layout/app_lock_setting_child_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+</LinearLayout>

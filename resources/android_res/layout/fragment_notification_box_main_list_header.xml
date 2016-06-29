@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:background="@color/common_item_alternative">
+
+    <TextView
+        android:id="@+id/notification_box_main_listview_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="middle"
+        android:fontFamily="@string/font_families_roboto"
+        android:paddingTop="30dp"
+        android:textSize="18dp"/>
+</RelativeLayout>

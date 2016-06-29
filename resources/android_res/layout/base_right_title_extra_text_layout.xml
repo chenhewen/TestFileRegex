@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.common.ui.ClickTransparentLayout
+    android:id="@+id/base_right_title_view_left_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:paddingLeft="5dp"
+    android:paddingRight="@dimen/common_title_extra_padding_right">
+
+    <TextView
+        android:id="@+id/base_right_title_extra_text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawablePadding="8dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/common_tab_title_text_size"/>
+</com.gto.zero.zboost.common.ui.ClickTransparentLayout>

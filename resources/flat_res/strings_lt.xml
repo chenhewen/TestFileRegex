@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+
+    <string name="app_name">Z Speed+</string>
+    <string name="action_settings">Nustatymai</string>
+
+    <!-- ==========字体模块========== -->
+    
+    
+    
+    
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_yes">Taip</string>
+    <string name="common_no">Ne</string>
+    <string name="common_ok">Gerai</string>
+    <string name="common_select">Pasirinkti</string>
+    <string name="common_delete">Ištrinti</string>
+    <string name="common_others">Kiti</string>
+    <string name="common_stop">Sustabdyti</string>
+    <string name="common_uninstall">Ištrinti</string>
+    
+    <string name="common_back_up">Padaryti kopiją</string>
+    <string name="common_cancel">Atšaukti</string>
+    <string name="common_install">Įrašyti</string>
+    <string name="common_installed">Įrašytas</string>
+    <string name="common_vertion">Versija</string>
+    <string name="common_update">Atnaujinimas</string>
+    <string name="common_insufficient_storate">Nepakanka vietos atmintyje</string>
+    <string name="common_no_sdcard">SD kortelė nerasta</string>
+    <string name="common_warning">Įspėjimas</string>
+    <string name="common_no_content">Nėra turinio</string>
+    <string name="common_comma">,</string>
+    <string name="common_period">.</string>
+    <string name="common_slogan">Pagreitinti į geresnį telefoną</string>
+    <string name="common_download">Atsisiųsti</string>
+    <string name="common_more">Daugiau</string>
+    <string name="common_on">ĮJUNGTA</string>
+    <string name="common_off">IŠJUNGTA</string>
+    <string name="common_new">naujas</string>
+
+    <!-- 一周 -->
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- 月份 -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- ========= 主界面 ========= -->
+    <string name="available">Galimas</string>
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">ATMINTIS</string>
+    <string name="main_button_boost">Atminties padidinimas</string>
+    <string name="main_button_storage">Šlamšto failai</string>
+    <string name="main_button_manage">Programėlės valdytojas</string>
+    <string name="main_ram_total">%s iš viso</string>
+    <string name="main_storage_total">%s iš viso</string>
+    <string name="tip_press_again_to_exit">Paspauskite dar kartą, kad išeitumėte</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Nustatymai</string>
+    <string name="menu_update">Atnaujinti</string>
+    <string name="menu_feedback">Nuomonė</string>
+    <string name="menu_about">Apie</string>
+    <string name="menu_shuffle">Sumaišyti</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">Kalėdos</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">Atminties padidinimas</string>
+    <string name="boost_main_act_tab_running">Veikiantis</string>
+    <string name="boost_main_act_tab_autostart">Automatinis paleidimas</string>
+    <string name="boost_running_apps_custom">%1$d programėlė(e) pasirinkta</string>
+    <string name="boosting_memory_act_title">Atminties padidinimas</string>
+    <string name="boosting_tips">Pagreitinimas</string>
+    <string name="boosting_power_tips">Energijos padidinimas</string>
+    <string name="boosted_to_optimus_tips">Pagreitinta iki optimalios būsenos!</string>
+    <string name="boosted_active_power_mode_tips">Ups! %1$d programėlės automatiškai buvo paleistos ir vėl.\nAktyvuokite energijos būseną, kad susitvarkytumėte su tuo!</string>
+    <string name="enable_super_boost_enable">Leisti</string>
+    <string name="enable_super_boost_title">Leisti energijos būseną</string>
+    <string name="enable_super_boost_main_text">Norėdami efektyviai pagreitinti, rekomenduojame jums įjungti Prieinamumo nustatymus.</string>
+    <string formatted="false" name="enable_super_boost_content_text1">Padėti sustabdyti arba apriboti programėlių veiklą visiškai.</string>
+    <string formatted="false" name="enable_super_boost_content_text2">Sumažinkite baterijos energijos naudojimą.</string>
+    <string formatted="false" name="enable_super_boost_content_text3">Daugiau nei 85% naudotojų naudojasi šia ypatybe.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">Paspauskite Z Speed+ Paslaugos</string>
+    <string name="boost_groups_list_title_running_app">Veikiančios programėlės</string>
+    <string name="boost_groups_list_title_cpu_temperature">CPU temperatūra</string>
+    <string name="boost_groups_list_title_lag_detected">Aptiktas trukdys</string>
+
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Norėdami pasiekti didžiausią įmanomą greitį, įjunkite aukščiau esantį mygtuką ir aktyvinkite Z Speed+ galios režimą!\n\nZ Speed+ naudoja prieinamumo funkcijas, kad sustabdytų nenaudojamas programas. Jei pamatysite priminimą dėl pavojaus privatumui, nesijaudinkite – tai įprastas įspėjimas naudojant prieinamumo paslaugas. 
+    \n\nPažadame NERINKTI JOKIOS informacijos.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Pasirinkimai</string>
+    <string name="autostart_optimization_desr">Gali būti optimizuoti</string>
+    <string name="autostart_type_optimization">Būti optimizuoti</string>
+    <string name="autostart_type_allowed">Leidžiama</string>
+    <string name="autostart_type_blocked">Blokuojama</string>
+    <string name="autostart_type_system">Iš anksto įrašytos programėlės</string>
+    <string name="autostart_type_system_description">Blokuojamų iš anksto įrašytos programėlių automatinis paleidimas gali sutrikdyti sistemos veiklą. Tęsti atsargiai</string>
+    <string name="autostart_preinstll_system">Iš anksto įrašomos programėlės</string>
+    <string name="autostart_on_boot_up">Įjungti</string>
+    <string name="autostart_on_background">Fonas</string>
+    <string name="autostart_on_boot_up_and_background">Įjungimas/Fonas</string>
+    <string name="autostart_detail_title">Automatiškai paleidžiama %1$d situacijoje(se)</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="ignore_list_act_title">Ignoruojamų sąrašas</string>
+    <string name="add_to_ignore_list_act_title">Pridėti į Ignoruojamų sąrašą</string>
+    <string name="dialog_memory_footprint">Naudojama atmintis</string>
+    <string name="dialog_add_to_ignorelist">Pridėti į Ignoruojamų sąrašą</string>
+    <string name="dialog_remove_from_ignorelist">Pašalinti iš Ignoruojamų sąrašo</string>
+    <string name="tip_ignore_list_appunchecked">Šios programėlės bus atžymėtos po skenavimo.</string>
+    <string name="tip_ignore_list_appadd">Paspauskite \'+\' pridėti nereikalingas programėles.</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443"&gt;%s&lt;/font&gt; nebus skenuojamas.</string>
+    <string name="clean_ignore_empty_tips">Kad iš Brukalų failų pridėtumėte elementus į sąrašą Nekreipti dėmesio, juos ilgai palaikykite paspaudę.</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">Programėlės valdytojas</string>
+    <string name="app_manager_my_backups">Mano atsargos</string>
+    <string name="app_manager_others">Kiti</string>
+    <string name="app_manager_back_up_success_tips">Programėlės buvo sugrąžintos į:</string>
+    <string name="app_manager_back_up_success_tips_for_one">Programėlės buvo sugrąžintos į:</string>
+    <string name="app_manager_back_up_fail_tips">Programėlės neatsidarė</string>
+    <string name="app_manager_back_up_fail_tips_for_one">Programėlė neatsidarė</string>
+    <string name="app_manager_pre_installed_apps">Iš anksto įrašytos programėlės</string>
+    <string name="app_manager_backing_up">Sugrąžinimas</string>
+    <string name="app_manager_running">Veikimas</string>
+    <string name="app_manager_stop">Sustabdyti</string>
+    <string name="app_manager_apps_running">Programėlės veikia</string>
+    <string name="app_manager_apps_desc">Iš anksto įrašytų programėlių, kurias retai naudojate, apribojimas, sumažina suvartojimą.</string>
+    <string name="app_manager_path">Būdas</string>
+    <string name="app_manager_no_backup_found">Jokių grąžinimų nerasta</string>
+    <string name="app_manager_tap_to_disable">Paspauskite Apriboti/Išjungti į apribota</string>
+    <string name="app_manager_tap_to_enable">Paspauskite Leisti/ Įjungti į leistina</string>
+    <string name="app_manager_select_app_first">Prašome iš pradžių pasirinkti programėles</string>
+    <string name="app_manager_shit">Gerai</string>
+    <string name="app_manager_freed">Laisva vieta</string>
+    <string name="app_manager_use_rare_month">Retai naudojama per mėnesį</string>
+    <string name="app_manager_use_rare_days">Retai naudojama %s dienomis</string>
+    <string name="app_manager_use_commonly">Dažnai naudojama</string>
+    <string name="app_manager_android_system">Android sistema</string>
+    <string name="app_manager_use_rare">Retai naudojama</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Naudotojo programėlės</string>
+    <string name="app_manager_tab_system">Iš anksto įrašyta</string>
+    <string name="app_manager_tab_text_date">Data</string>
+    <string name="app_manager_tab_text_frequance">Dažnumas</string>
+    <string name="app_manager_tab_text_size">Dydis</string>
+    <string name="app_manager_tab_text_battery">Baterija</string>
+    <string name="app_manager_tab_text_name">Vardas</string>
+    <string name="app_manager_dialog_cancel">Atšaukti</string>
+    <string name="app_manager_dialog_backup">Sugrąžinti</string>
+    <string name="app_manager_dialog_uninstall">Ištrinti</string>
+    <string name="app_manager_preinstall_noyice">&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&lt;font color="#76B54B"&gt; %s programėlės veikia &lt;/font&gt; apribojimas sumažina naudojimą. Tai yra visiškai saugu</string>
+    <string name="app_manager_no_uerapp">Jokių programėlių</string>
+    <string name="app_manager_preinstall_disbale_list">Programėlės apribotos</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Apribotas</string>
+    <string name="app_manager_preinstall_reommend_disable">% naudotojų apribota</string>
+    <string name="app_manager_preinstall_reommend_keep">Patartina turėti</string>
+    <string name="app_manager_preinstall_reommend_none">Tokį koks yra</string>
+    <string name="app_manager_preinstall_tip">Apribojant retai naudojamas iš anksto įrašytas programėles gali padėti sumažinti naudojimą.</string>
+    <string name="app_manager_preinstall_disable_toast">Buvo apribota.</string>
+    <string name="app_manager_preinstall_enable_toast">Buvo leistina.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Paketas apribotas</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Atsargumas</string>
+    <string name="app_manager_preinstall_disable_caution_msg1">Šios programėlės apribojimas  &lt;font color="#fe6969"&gt;gali daryti įtaką normaliai funkcijai&lt;/font&gt;.</string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Ar tikrai norite tai pasirinkti?</string>
+    <string name="app_manager_preinstall_disable_loading">Kraunama…</string>
+    <string name="diable_lab_dialog_title">Z Speed+ Laboratorija</string>
+    <string name="diable_lab_dialog_content_text">Jūs esate pakviestas išbandyti Laboratorijos naujienas: &lt;font color="#76b54b"&gt;Paketas apribojantis iš anksto įrašytas programėles. &lt;/font&gt;Turite klausimų, parašykite mums savo nuomonę ir gerinkime tai kartu!</string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">Šlamšto failai</string>
+    <string name="clean_main_suggest">Siūloma</string>
+    <string name="clean_main_selected">Pasirinkta</string>
+    <string name="clean_dialog_title">Atsargumai</string>
+    <string name="clean_dialog_message1">Failas, kurį pasirinkote, yra sudarytas iš:</string>
+    <string name="clean_dialog_btn_all">Pasirinkti vistiek</string>
+    <string name="clean_dialog_btn_next">Patikrinti dar kartą</string>
+    <string name="gallery_thumbnails">Miniatiūrų galerija</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">Jei tai ištrinsite, galerija bus kraunama ilgiau.</string>
+    <string name="clean_group_app_cache">Programėlių slėptuvė</string>
+    <string name="clean_group_residue">Nenaudojami failai</string>
+    <string name="clean_group_cache">Slėptuvės šlamštas</string>
+    <string name="clean_group_temp">Sistemos laikini failai</string>
+    <string name="clean_group_apk">Pasenę Android paketo sistemos failai</string>
+    <string name="clean_group_big_file">Dideli failai</string>
+    <string name="clean_group_ad">AD šlamštas</string>
+    <string name="clean_group_memory">Atminties šlamštas</string>
+    <string name="clean_item_sys_cache">Sistemos slėptuvė</string>
+    <string name="clean_done_tips">Išvalyta</string>
+    <string name="clean_dialog_app_cache_yes_btn">Rankinis išvalymas</string>
+    <string name="clean_dialog_folder_yes_btn">Žiūrėti</string>
+    <string name="clean_dialog_file_yes_btn">Atidaryti</string>
+    <string name="clean_dialog_media_yes_btn">Groti</string>
+    <string name="clean_dialog_message_size">Dydis</string>
+    <string name="clean_dialog_message_contain">Sudaryta</string>
+    <string name="clean_dialog_message_path">Būdas</string>
+    <string name="clean_dialog_message_file">Failai</string>
+    <string name="clean_dialog_message_folder">Aplankai</string>
+    <string name="clean_done_none_tips">Puiku</string>
+    <string name="clean_file_browser_no_files">NJokių failų</string>
+    <string name="clean_days_ago"> Dienų senumo</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969"&gt;Būkite atsargus!  &lt;/font&gt;%1$s</string>
+    <string name="clean_subitem_detail_connect">Tai yra %1$s iš %2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443"&gt;Jūsų failai nebus paveikti po valymo.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443"&gt;Valymas yra visiškai saugus.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969"&gt;Juos reikės iš naujo atsisiųsti.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969"&gt;Jie bus pašalinti visam laikui!&lt;/font&gt;</string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Išvalyti</string>
+    <string name="uninstall_dialog_message_1">&lt;b&gt;%1$s&lt;/b&gt; left &lt;font color="#85c443"&gt;%2$s&lt;/font&gt;  likę failai.</string>
+    <string name="uninstall_dialog_message_2">Sudaryti iš: </string>
+    <string name="uninstall_clean_tips">  Likę failai buvo pašalinti!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">Nustatymai</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Nuomonė</string>
+    <string name="container_hint_setting_feedback">Prašome palikti savo komentarą šią, pateikiant kaip įmanoma daugiau informacijos. Mes visada išklausome ir atsižvelgiame.</string>
+    <string name="mial_hint_setting_feedback">El.paštas</string>
+    <string name="notice_setting_feedback">Telefono modelis ir versija bus reikalinga diagnostikai. Mes niekada nerinksime asmeninės informacijos be jūsų leidimo.</string>
+    <string name="no_contain_setting_feedback">Labas, nori kažką pasakyti?</string>
+    <string name="sendok_setting_feedback">Ačiū už nuomonę!</string>
+    <string name="checknet_setting_feedback">Prašome patikrinti savo interneto ryšį.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">&lt;u&gt;Pamėkite mus  Facebook&lt;/u&gt;</string>
+    <string name="googleplus_about_setting">&lt;u&gt;Prisijunkite prie Google+&lt;/u&gt;</string>
+    <string name="googleplay_about_setting">&lt;u&gt;Įvertinkite mus GooglePlay&lt;/u&gt;</string>
+    
+    <string name="title_about_setting">Apie</string>
+    <string name="share_setting_about">Z Speed+ pagreitina ir išvalo mano telefoną. Pabandykite! Gaukite tai: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014–2015 ZERO Team. Visos teisės saugomos.</string>
+    <string name="law_jump_setting_about">&lt;u&gt;Privatumo Politika&lt;/u&gt;</string>
+    <string name="share_title_setting_about">pasidalinkite Z Speed+</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    
+    <string name="gp_not_connect">negalima atidaryti tinklo</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Nematomas plaukiantis dalykas</string>
+    <string name="title_notice">Naujienos</string>
+    <string name="junk_clean_setting">Šlamšto valymas</string>
+    <string name="enable_widget_setting_setting">Leisti</string>
+    <string name="hide_widget_setting_setting">Paslėpti nuo ekrano</string>
+    <string name="show_widget_setting_setting">Rodyti tik ant darbalaukio</string>
+    <string name="memory_setting_setting">Atminties padidinimas reikalingas</string>
+    <string name="storge_setting_setting">Vietos trūkumas</string>
+    <string name="junk_setting_setting">Likę šlamšto failai</string>
+    <string name="autostart_setting_setting">Naujas automatinio paleidimo prašymas</string>
+    <string name="ignore_setting_setting">Ignoruojamų sąrašas</string>
+    <string name="memery_boost_setting_setting">Veikiančios programėlės</string>
+    <string name="clean_ignore_title">Brukalų failų sąrašas Nekreipti dėmesio</string>
+    <string name="clean_ignore_list_tips">Šie elementai nebus skenuojami kaip brukalai</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">Bendra</string>
+    <string name="menu_general_setting_language">Kalba</string>
+    <string name="menu_general_setting_shortcut">Sukurti nuorodas</string>
+    <string name="menu_junk_setting">JŠlamšto failai</string>
+    <string name="menu_junk_setting_scan_memory">Skenuoti atmintyje esantį šlamštą</string>
+    <string name="menu_join_uep_plan">&lt;u&gt;Vartotojo atsiliepimų programa&lt;/u&gt;</string>
+    <string name="menu_smart_boost">Išmanusis spartinimas</string>
+    <string name="smart_boost_screen_lock">Išmanusis spartinimas užrakinant ekraną</string>
+    <string name="smart_boost_show_result">Rodyti rezultatus po išmaniojo spartinimo</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Apriboti nematomą plaukiantį dalyką?</string>
+    <string name="float_hide_float_message">Jūs taip pat galite paslėpti nematomą plaukiantį dalyką nuo ekrano.</string>
+    <string name="float_dialog_ok">Gerai</string>
+    <string name="float_dialog_cancel">Atšaukti</string>
+    <string name="float_dialog_hide_ok">Pabandykite!</string>
+    <string name="float_dialog_hide_cancel">Apriboti vistiek</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Jokių leidimų. Operacija nepavyko!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram_black">&lt;font color="#1d1d1d"&gt;Galima atmintis yra &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;mažiau nei  %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_white">&lt;font color="#ffffff"&gt;Galima atmintis yra &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;lmažiau nei %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_line2">Įrenginiai gali ypač sulėtėti</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"&gt; %s programos &lt;/font&gt;&lt;font color="#fe6969"&gt;vartoja daug energijos&lt;/font&gt;</string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"&gt; %s apps are &lt;/font&gt;&lt;font color="#fe6969"&gt;vartoja daug energijos&lt;/font&gt;</string>
+    <string name="notification_ram_help_line2">Spartinkite, kad akumuliatorius veiktų ilgiau</string>
+    <string name="notification_boost">Pagreitinti</string>
+    <string name="notification_sdcard">Jūsų atminti mažėja. Paspauskite išvalyti!</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d"&gt;Atmintis mažėja.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;Tik %s%% liko&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff"&gt;Atmintis mažėja.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;Tik %s%% liko&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_line2">Gali neužtekti laisvos vietos atsisiuntimams</string>
+    <string name="notification_release_more">%s MB laisvos vietos. &lt;font color="#85c443"&gt;Atlaisvinti daugiau!&lt;/font&gt;</string>
+    
+    <string name="notification_release_sleep">Miegojimo režimu paspartinkite %s MB</string>
+    <string name="notification_boost_phone_optimum">Jūsų telefonas yra optimalus. &lt;font color="#85c443"&gt;Daugiau galimybių!&lt;/font&gt;</string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d"&gt; Įrenginys  &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;veikia lėčiau&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff"&gt;Įrenginys &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;veikia lėčiau&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block2">Programėlė naudoja CPU</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d"&gt;CPU YR &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;rimtai perkaitęs&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff"&gt;CPU YR &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;rimtai perkaitęs&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat2">Programėlė okupuoja CPU nenormaliai</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d"&gt;CPU temperatūra &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;kyla greitai &lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff"&gt;CPU temperatūra &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;kyla greitai &lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp2">Programėlė okupuoja CPU nenormaliai</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#1d1d1d"&gt;šlamštas užima visą vietą&lt;/font&gt;</string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#ffffff"&gt;šlamštas užima visą vietą&lt;/font&gt;</string>
+    <string name="notification_clean_scan_message">Atlaisvinkite telefono atmintį</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969"&gt;Sukurtas naujas &lt;/font&gt;&lt;font color="#1d1d1d"&gt;brukalas&lt;/font&gt;</string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969"&gt;Sukurtas naujas &lt;/font&gt;&lt;font color="#ffffff"&gt;brukalas&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d"&gt;Geriausia orų programėlė jums&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff"&gt;Geriausia orų programėlė jums&lt;/font&gt;</string>
+    <string name="notification_go_weather_message">Pasirodė nauji Kalėdų valdikliai!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d"&gt;Nusibodo standartinis pranešimas?&lt;/font&gt;</string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff"&gt;Nusibodo standartinis pranešimas?&lt;/font&gt;</string>
+    <string name="notification_go_sms_message">Dabar galite susikurti, kokį norite!</string>
+    <string name="go_launcher">GO Launcher Z</string>
+    <string name="go_weather">GO Weažer - orų &amp; valdiklis</string>
+    <string name="go_weather_done_message">Informacija apie orą dabar &amp; vėliau, gražûs valdikliai &amp; ir besikeičiantis fonas.</string>
+    <string name="notification_guide_text">Įjunkite perjungimą</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Atidaryti kaip</string>
+    <string name="filetype_text">Žinutė</string>
+    <string name="filetype_video">Video</string>
+    <string name="filetype_audio">Audio</string>
+    <string name="filetype_image">Nuotrauka</string>
+    <string name="filetype_music">Muzika</string>
+    <string name="filetype_document">Dokumentas</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">Kompresija</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Nauja versija</string>
+    <string name="update_update">Atnaujinti</string>
+    <string name="update_later">Vėliau</string>
+    <string name="update_cancel">Atšaukti</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">Pagreitinti</string>
+    <string name="shortcut">Nuoroda</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">Pradėjus</string>
+    <string name="auto_start_on_connectivity_change">Kai keičiama tinklai</string>
+    <string name="auto_start_on_package_changed">Pasikeitus programėlės statusui</string>
+    <string name="auto_start_on_package_added">Įrašius programėles</string>
+    <string name="auto_start_on_package_removed">Ištrynus programėles</string>
+    <string name="auto_start_on_package_replaced">Keičiant programėles</string>
+    <string name="auto_start_on_any_data_state">Kai duomenys pasikeičia</string>
+    <string name="auto_start_on_outgoing_call">Įeinančių skambučių metu</string>
+    <string name="auto_start_on_phone_state_changed">Kai laukiama</string>
+    <string name="auto_start_on_user_present">Kai atrakinama</string>
+    <string name="auto_start_on_wifi_state_change">Kai prisijungiama prie Wi-Fi</string>
+    <string name="auto_start_on_wifi_enable_change">Kai įsijungiama /išjungiama Wi-Fi</string>
+    <string name="auto_start_on_time_set">Nustatant laiką</string>
+    <string name="auto_start_on_bluetooth_state_change">Kai pasikeičia Bluetooth statusas</string>
+    <string name="auto_start_on_power_connected">Kai prisijungiama prie energijos lizdo</string>
+    <string name="auto_start_on_power_disconnected">Kai atsijungiama nuo energijos lizdo</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">Iššokančios naujienos</string>
+    <string name="notification_toggle_nocal">Skaičiuotuvas nerastas!</string>
+    <string name="notification_toggle_open">Z Speed+ iššokančios naujienos leidžiamos.</string>
+    <string name="notification_toggle_noflash">Jūsų įrenginys neturi žibintuvėlio!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">Z Speed+ Pagalba %s, kreiptis dabar?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Prisijungimo klaida.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">Nepavyko atsisiųsti kalbos.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Atmintis</string>
+    <string name="storage_main_act_details">Detalės</string>
+    <string name="storage_main_act_tab_used_space">Naudojama atmintis</string>
+    <string name="storage_main_act_tab_app_total">%s programėlės</string>
+    <string name="storage_main_act_tab_audio_total">%s Muzika</string>
+    <string name="storage_main_act_tab_image_total">%s nuotraukos</string>
+    <string name="storage_main_act_tab_document_total">%s Dokumentai</string>
+    <string name="storage_main_act_tab_other_total">Kita</string>
+    <string name="file_category_image_title">Nuotraukos</string>
+    <string name="file_category_image_delete_dialog_msg_1">fFailas(i) bus ištrintas.</string>
+    <string name="file_category_image_delete_dialog_msg_2">Ištrintas failas(i) negali būti sugrąžintas!</string>
+    <string name="file_category_video_no_content">Jokių vaizdo įrašų</string>
+    <string name="file_category_video_delete_msg">Vaizdo įrašai bus ištrinti.</string>
+
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">Iš viso %s vaizdo įrašų</string>
+    <string name="video_title_selected">Pasirinkti %s vaizdo įrašai</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Muzika</string>
+    <string name="music_group_music">Muzika</string>
+    <string name="music_group_rings">Skambučiai</string>
+    <string name="music_group_record">Įrašai</string>
+    <string name="music_dialog_title">Įspėjimai</string>
+    <string name="music_dialog_delete_cancel">Atšaukti</string>
+    <string name="music_dialog_delete_delete">Ištrinti</string>
+    <string name="music_dialog_delete_notice">Failas(i) bus ištrinti.</string>
+    <string name="music_dialog_delete_notice_below">Ištrintas failas(i) negali būti sugrąžintas!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">Dokumentai</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">KITI</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">Ištrinti</string>
+    <string name="image_dialog_text1">Šis failas bus ištrintas.</string>
+    <string name="image_dialog_text2">Ar tikrai to norite?</string>
+    <string name="image_no_selected">Jokie failai nepasirinkti.</string>
+    <string name="image_size_notice">%s buvo ištrinta!</string>
+    <string name="image_delete_layout_text">Ištrinta(%s)</string>
+    <string name="image_delete_ok">Taip</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Šie failai negali būti ištrinti.</string>
+    <string name="no_app_to_open_file">Jokios vietinės programėlės negali atidaryti šio failo</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Tempkite jį čia ir pagreitinkite savo telefoną.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">Apribojama</string>
+    <string name="disable_apps_done_disable_count">%s apribota!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">Z Speed+ laiko juos neaktyvius</string>
+    <string name="disable_apps_wait_to_stop_tips">Bandoma sustabdyti, palaukite…</string>
+    <string name="disable_list_no_app_tip">Jokių apribotų programėlių</string>
+    <string name="disable_group_most_disable_title">Labiausia apribota</string>
+    <string name="disable_group_recommend_keeping_title">Patariama laikyti</string>
+    <string name="disable_group_recommend_keeping_subtitle">Apribojimas gali pakenkti sistemai</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Apriboti</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Leisti</string>
+    <string name="disable_app_info_dialog_consuming_tip">Ši programėlė naudoja sistemos atmintį</string>
+    <string name="disable_app_info_dialog_system_error_tip">Apribojimas gali pakenkti sistemai</string>
+    <string name="disable_app_info_dialog_no_statement">Jūs galite bandyti tai apriboti, jei nenaudojate</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Iš anksto įrašytų paslaugų gamintojas</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&lt;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">Įrašyti dabar</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Valio!</string>
+    <string name="rate_gp_dialog_feedback_title">Nuomonė</string>
+    <string name="rate_gp_dialog_rate_title">Myliu Z Speed+</string>
+    <string name="rate_gp_dialog_one_notice_boost">Anksčiau %1$s dienas, Z Speed+ sunaikino &lt;font color="#85c443"&gt; %2$s &lt;/font&gt;stringančias programėles jums.&lt;br /&gt; &lt;br/&gt; &lt;font color="#85c443"&gt;Ar jums patinka Z Speed+?&lt;/font&gt;</string>
+    <string name="rate_gp_dialog_one_no_boost">Nelabai</string>
+    <string name="rate_gp_dialog_one_yes_boost">Taip!!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Jūs sėkmingai atsikratėte &lt;font color="#85c443"&gt; %s &lt;/font&gt;šlamšto! &lt;br /&gt; &lt;br/&gt;Kaip\'s Z Speed+ jums?</string>
+    <string name="rate_gp_dialog_one_no_clean">Nelabai gerai</string>
+    <string name="rate_gp_dialog_one_yes_clean">Dievinu!</string>
+    <string name="rate_gp_dialog_two_notice">Ar galite pasidalinti savo nuomone? \n Kiekvienas jūsų žodis yra svarbus.</string>
+    <string name="rate_gp_dialog_two_no">Ne, ačiū</string>
+    <string name="rate_gp_dialog_two_yes">Gerai, žinoma</string>
+    <string name="rate_gp_dialog_three_notice">O kaip dėl penkių žvaigždučių vertinimo?</string>
+    <string name="rate_gp_dialog_three_no">Ne, ačiū</string>
+    <string name="rate_gp_dialog_three_yes">Gerai, žinoma</string>
+    <string name="rate_gp_notification_notice">Jūs sunaikinote %s stringančias programėles. Norite pamatyti?</string>
+
+    <!-- 启动页 -->
+    <string name="privacy_policy">&lt;u&gt;Privatumo politika&lt;/u&gt;</string>
+    <string name="private_agreement">Sutinku su </string>
+    <string name="private_start">PRADĖTI</string>
+    <string name="private_join_uep">Naudotis įrašyta vartotojų programa</string>
+    <string name="privacy_start_by_agree_policy">Sutikite su &lt;u&gt;Privatumo politika&lt;/u&gt;</string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">išvalyti nereikalingus Android sistemos paketo failus, kad išsaugoti programėles</string>
+    <string name="install_listen_installed_multiple_msg">išvalyti nereikalingus Android sistemos paketo failus</string>
+    <string name="install_listen_delete_apk_tip">Išvalyta</string>
+    <string name="install_listen_dialog_clean_btn_text">Išvalyti</string>
+    <string name="install_listen_dialog_cancel_btn_text">Neklausti 3 dienas</string>
+    <string name="install_listen_dialog_eye_tip_on">Klausti</string>
+    <string name="install_listen_dialog_eye_tip_off">Klausti</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">Žaidimų pagreitinimas</string>
+    <string name="game_boost_add_to_game_title">Pridėti žaidimą</string>
+    <string name="game_boost_effect">Pagreitinimas  &lt;font color="#85c443"&gt;%s &lt;/font&gt; daugiau veikiančių RAM žaidimų.</string>
+    <string name="game_cell_add">Pridėti žaidimą</string>
+    <string name="game_cell_ok">Gerai</string>
+    <string name="game_boost_menu_about">Kaip tai veikia</string>
+    <string name="game_boost_menu_add_shutcut">Sukurkite žaidimų aplanką</string>
+    <string name="game_boost_folder_create_success">Žaidimų aplankas sukurtas sėkmingai.</string>
+    <string name="game_boost_box_shortcut_name">Žaidimų pagreitinimas</string>
+    <string name="game_boost_box_shortcut_name_new">Mano žaidimai</string>
+    <string name="game_boost_add_card_view_title_popular">Populiarūs žaidimai</string>
+    <string name="game_boost_add_new_game_to_boost">%s pridėti į žaidimų pagreitinimą</string>
+    <string name="game_boost_add_new_games_to_boost">%s nauji žaidimai pridėti į žaidimų pagreitinimą</string>
+    <!-- 游戏加速介绍 -->
+    <string name="game_boost_about_one">Sumaniai ir automatiškai išjunkite nesusijusias fono programėles, kurios kenkia žaidimo veikimui.</string>
+    <string name="game_boost_about_two">Dinamiškai sekite savo telefoną ir išvalykite nereikalingą RAM.</string>
+    <string name="game_boost_about_three">Atidarykite žaidimus iš Z Speed+ žaidimų aplankų internete, pagreitinkite savo žaidimus 20~65%.</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Pagreitinima…</string>
+    <string name="game_accel_anim_boost_toast_tip">Pagreitinta %s%%.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">CPU Problemos</string>
+    <string name="cpu_fix">SUTVARKYTI</string>
+    <string name="cpu_check">Patikrinti</string>
+    <string name="cpu_issue_type_temp_overheated">Perkaitęs</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Greitai kylantis</string>
+    <string name="cpu_issue_type_heavily_occupied">CPU užimta</string>
+    <string name="cpu_temp_issue_app">Sudaro problemą</string>
+    <string name="cpu_occupied_issue_app">Naudojimas  &lt;font color="#D46565"&gt; %s &lt;/font&gt; CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">CPU vėsintojas</string>
+    <string name="cpu_coll_down_cpu">Atvėsinti CPU</string>
+    <string name="cpu_temperature_issue">Temperatūros problemos</string>
+    <string name="cpu_device_running_slow">Įrenginys veikia lėtai</string>
+    <string name="cpu_issue_detected">Problema aptikta</string>
+    <string name="cpu_cool_down_further">Pirmiausia atvėsinti, išvalyti %s veikiančių programėlių</string>
+    <string name="cpu_temp_well">CPU temperatūra gera</string>
+    <string name="cpu_temp_hot">Truputi karšta</string>
+    <string name="cpu_temp_overheated">Per karšta</string>
+    <string name="cpu_temp_chilling">Vesta</string>
+    <string name="cpu_temp_cooler">CPU vėsintojas</string>
+    <string name="cpu_occupy">Užima  &lt;font color="#D46565"&gt; %s &lt;/font&gt; CPU</string>
+    <string name="cpu_abnormal">Nenormalus CPU naudojimas: &lt;font color="#D46565"&gt; %s &lt;/font&gt;</string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Tik pritaikyta</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Leiskite įrenginiui atvėsti</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Jokių kaitinimo programėlių</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Įrenginys vėsta</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Karščio programėlė išvalyta</string>
+    <string name="cpu_anim_cooldown_done_dropped">Nukrito</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Pradeda atvėsti…</string>
+    <string name="cpu_anim_scan_process_tip_text">Skenuoja CPU…</string>
+    <string name="cpu_anim_lag_done_tip_text">Pagreitinta!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">Prašome patikrinti tinklo ryšį ir bandyti iš naujo</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Žaidimų pagreitinimas</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Žaidimo pagreitinimo aplankas ant ekrano sėkmingai sukurtas, prašome patikrinti J</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Leidžiamas</string>
+    <string name="finish_page_card_game_booster_desc">Dovana žaidėjams! Efektyviausia &amp; kiečiausia žaidimų spartinimo funkcija</string>
+    
+    <string name="finish_page_card_game_booster_btn">Leisti dabar</string>
+
+    <string name="finish_page_card_whitelist_name">Koreguoti pagreitinimo Baltąjį sąrašą</string>
+    <string name="finish_page_card_whitelist_desc">Pažymėti programėles, kurios turi būti veikiančios</string>
+    <string name="finish_page_card_whitelist_btn">Redaguoti dabar</string>
+    <string name="finish_page_card_autostart_name">Automatiniai paleidimai rasti</string>
+    <string name="finish_page_card_autostart_desc">&lt;big&gt;%s&lt;/big&gt; automatinio paleidimo programėlė(s) pritaikomos</string>
+    <string name="finish_page_card_autostart_btn">Patikrinti</string>
+    <string name="finish_page_card_photo_name">Tvarkyti nuotraukas</string>
+    <string name="finish_page_card_photo_desc">Daugiau  &lt;big&gt;%s nuotraukų&lt;/big&gt;, tačiau ar jos visos yra vertos užimti vietą?</string>
+    <string name="finish_page_card_photo_btn">Sutvarkykite</string>
+    <string name="finish_page_card_clean_1_name">Šlamštas išvalymui</string>
+    <string name="finish_page_card_clean_1_desc">Išdykęs telefonas prigamino &lt;big&gt;%s&lt;/big&gt; pastaruoju metu šlamšto</string>
+    <string name="finish_page_card_clean_1_btn">Išvalyti</string>
+    <string name="finish_page_card_clean_2_name">&lt;big&gt;%s&lt;/big&gt; šlamštas rastas</string>
+    <string name="finish_page_card_clean_2_desc">Po valymo galima padaryti daugiau nei &lt;big&gt;%s&lt;/big&gt; naujų nuotraukų</string>
+    <string name="finish_page_card_clean_2_btn">Išvalyti dabar</string>
+    <string name="finish_page_card_activate_power_mode_title">%s programėles &lt;big&gt;automatinis paleidimas&lt;/big&gt;</string>
+    <string name="finish_page_card_activate_power_mode_desc">Aktyvuoti &lt;big&gt;Energijos būseną&lt;/big&gt; atlaikymui</string>
+    <string name="finish_page_card_activate_power_mode_btn">Aktyvuoti</string>
+    <string name="finish_page_card_feedback_name">Pasidalinkite savo nuomone</string>
+    <string name="finish_page_card_feedback_desc">Mėgstama funkcija, pasiûlymai – bet kas</string>
+    <string name="finish_page_card_feedback_btn">Atsiliepimai</string>
+    
+    
+    
+
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Pagreitinti telefoną</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Atlaisvinti vietos, kad pagreitinti telefoną</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Pagreitinti</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big&gt;%s%%  atmintis&lt;/big&gt; Left</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s veikiančios programėles sunaudojo visą atmintį, telefonas gali būti labai lėtas</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Pagreitinti dabar</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Apriboti iš anksto įrašytus</string>
+    <string name="finish_page_card_disable_desc">%1$s iš anksto įrašytos programėlės,  &lt;big&gt;%2$s&lt;/big&gt; gali būti apribotos</string>
+    <string name="finish_page_card_disable_btn">Patikrinti</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Patikrinkite, kad yra automatiškai paslapčia paleidžiama</string>
+    <string name="finish_page_no_ad_clean2_tips">JŠlamštas sulėtins telefoną</string>
+    <string name="finish_page_no_ad_clean1_tips">Šlamštas turi būti pašalinamas kasdien</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">Žaidimams reikia pagreitinimo taip pat!</string>
+    <string name="finish_page_no_ad_disable_tips">Kai kurie iš anksto įrašyti yra nereikalingi</string>
+    <string name="finish_page_no_ad_photo_tips">Galima sutaupyti daugiau vietos!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">Energijos būsena gali sustabdyti stipriausius!</string>
+    <string name="finish_page_no_ad_whitelist_tips">Nesunaikinkite programėlių, kurių jums reikia!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">Telefonas yra lėtas</string>
+    <string name="finish_page_no_ad_boost_normal_tips">Telefonas gali būti greitesnis</string>
+
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">Pridėti žaidimų</string>
+    <string name="game_accel_guide_title">Žaidimo spartinimas</string>
+    <string name="game_accel_guide_text2">įjungtas</string>
+    <string name="game_accel_guide_try_text">Palieskite ir išmėginkite!</string>
+    <string name="game_accel_guide_gamename_1">Nuoroda sukurta</string>
+    <string name="game_accel_guide_gamename_2">Atidaryti darbalaukyje</string>
+    <string name="game_accel_guide_gamename_3">Skenuojami žaidimai?€¦</string>
+    <string name="game_accel_guide_discovery_text_above">Z kanalas</string>
+    <string name="game_accel_guide_discovery_text_below">ir čia</string>
+    <string name="game_accel_sec_anim_title">ŽAIDIMAI</string>
+    <string name="game_accel_shortcut_created">Sukurta</string>
+    <string name="game_accel_tip_dialog_content_text">Ar norite aktyvinti Žaidimo spartinimą, kad \"%s\" paspartėtų iki 40%%?</string>
+    <string name="game_accel_tip_dialog_content_text_new">Aktyvinkite Žaidimo spartinimą, kad paspartintumėte &lt;font color="#85c443"&gt;\"%s\"&lt;/font&gt; iki 65%%?</string>
+    <string name="game_accel_sort_name">Pavadinimas</string>
+    <string name="game_accel_sort_Date">Data</string>
+    <string name="game_accel_sort_Frequency">Dažnumas</string>
+    <string name="game_accel_game_box_title">Valdyti žaidimus</string>
+    <string name="game_accel_add_shortcut">Pridėti nuorodą</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">ATRASKITE</string>
+    <string name="game_distribute_connection_failed">Prisijungti nepavyko</string>
+    <string name="game_distribute_net_data_alert">Žaidimas WIFI ryšiu gali sumažinti duomenų naudojimą</string>
+    <string name="game_distribute_warning_title">Z Speed+ TV</string>
+    <string name="game_distribute_warning_content"> Vaizdo įrašuose esantis vaizdas neįtikėtinas.\nVaizdo įrašai skirti ne tik žiûrėjimui namuose bet kitur. Su Z Speed+ galite žiûrėti tokius filmus. Žaidimus patariame žaisti ribotą laiką.</string>
+    <string name="game_distribute_video_title">Kanalas</string>
+    <string name="game_distribute_game_searching">Ieškoma žaidimų...</string>
+
+    <!--完成页文案 -->
+    <string name="big_app_title">3 populiariausios &lt;font color="#6ac534"&gt;didžiosios programos &lt;/font&gt;</string>
+    
+    <string name="num_times">%s kartų</string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Laisvos atminties labai mažai!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+    <string name="home_guide_card_boost_button">Spartinti dabar</string>
+
+    <string name="home_guide_card_photo_desc1">Fotografuoti nėra sunku</string>
+    <string name="home_guide_card_photo_desc2">trinti nuotraukas – netgi labai</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+    <string name="home_guide_card_photo_button">Valyti dabar</string>
+
+    <string name="home_guide_card_cpu_desc">Perkaitęs CPU tuština akumuliatorių</string>
+    <string name="home_guide_card_cpu_button">Vėsinti</string>
+
+    <string name="home_guide_card_disbale_desc">Suvarkite įdiegimus!</string>
+    <string name="home_guide_card_disbale_desc2">Jûsų telefonas galėtų veikti sparčiau!</string>
+    <string name="home_guide_card_disbale_desc_big">%s programos</string>
+    <string name="home_guide_card_disbale_button">Išjungti dabar</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Galios režimo spartinimas</string>
+    <string name="enable_super_boost_mode_normal">Normalus spartinimas</string>
+    <string name="enable_super_boost_desc_super">&lt;b&gt;Spartinti:&lt;/b&gt; normalias programas, &lt;mark&gt;&lt;font color="red"&gt;automatiškai paleistas programas&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;60% spartesnis veikimas, kaip rûtintų telefonų.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (Kitame žingsnyje įjunkite Z Speed+ prieinamumą)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b&gt;Spartinti:&lt;/b&gt; normalias programas, &lt;mark&gt;&lt;font color="red"&gt;automatiškai paleistas programas&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;60% spartesnis veikimas, kaip rûtintų telefonų.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (Kitame žingsnyje grįžkite ir įjunkite Z Speed+ prieinamumą)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b&gt;Spartinti:&lt;/b&gt; normalias programas&lt;br&gt;
+      Automatiškai paleistos programos nebus spartinamos, tik įjungtu režimu.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">Spartinti mano telefoną dabar!</string>
+
+
+    <string name="enable_super_disable_mode_super">Paketinis išjungimas</string>
+    <string name="enable_super_disable_mode_normal">Rankinis išjungimas</string>
+    <string name="enable_super_disable_desc_super">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;Funkcija:&lt;/b&gt; Paketinis išjungimas – nenaudojamos programos vos vienu spustelėjimu.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (Kitame žingsnyje įjunkite Z Speed+ prieinamumą)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;Funkcija:&lt;/b&gt; Paketinis išjungimas – nenaudojamos programos vos vienu spustelėjimu.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (Telefonui persikrovus grįžkite ir įjunkite Z Speed+)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b&gt;Funkcija:&lt;/b&gt; išjungti nenaudojamas programas po vieną. &lt;br&gt;
+                    &lt;mark&gt;&lt;font color="red"&gt;Rekomenduojame naudoti paketinį išjungimą – taip lengviau.&lt;/font&gt; &lt;/mark&gt;
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Įjungti paketinio išjungimo funkciją</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Pranešimų perjungimo nustatymai</string>
+    
+    <string name="notification_toggle_settings_label_toggles">Perjungimas</string>
+    <string name="notification_toggle_settings_label_zspeed">KLASIKINËS</string>
+    <string name="notification_toggle_settings_label_popular">POPULIARIAUSIOS</string>
+    
+    
+    
+    
+    
+    <string name="notification_toggle_toggle_name_app">Pradžia</string>
+    <string name="notification_toggle_toggle_name_boost">Spartinti</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">Žibintas</string>
+    <string name="notification_toggle_toggle_name_brightness">Ryškumas</string>
+    
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">Duomenys</string>
+    <string name="notification_toggle_toggle_name_camera">Kamera</string>
+    <string name="notification_toggle_toggle_name_calculator">Kalkuliatorius</string>
+    <string name="notification_toggle_toggle_name_rotate">Sukti</string>
+    <string name="notification_toggle_toggle_name_sound">Garsas</string>
+    <string name="notification_toggle_bright_auto">AUTO</string>
+    <string name="notification_toggle_notification_ticker">Z Speed+ įrankių juosta parengta</string>
+    <string name="notification_toggle_notification_ticker_initializing">Įrankių juosta įsijungia…</string>
+
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Įrašyti ieškomą tekstą</string>
+    <string name="hot_word_search_next_batch">Daugiau</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Vienodos nuotraukos</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s  nuotraukos pašalintos!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Visos vienodos nuotraukos pašalintos!</string>
+    <string name="duplicate_photos_delete_alert_title">Visiškai pašalinti</string>
+    <string name="duplicate_photos_delete_alert_desc">Ar tikrai norite jas visiškai pašalinti?</string>
+    <string name="duplicate_photos_leave_alert_title">Tikrai norite palikti?</string>
+    <string name="duplicate_photos_leave_alert_desc">Pasirinkote ištrinti %s nuotraukas.&lt;br&gt;Tikrai norite palikti?</string>
+    <string name="duplicate_photos_leave_alert_leave_btn">palikti</string>
+    <string name="duplicate_photos_scan_alert">Skenavimas šiek tiek užtruks, palaukite</string>
+    <string name="duplicate_photos_no_content">Sveikiname! Vienodų nuotraukų nėra!</string>
+    <string name="duplicate_photos_suffix_selected">%s pasirinkta</string>
+    <string name="duplicate_photos_suffix_total">Iš viso %s nuotraukų</string>
+
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">Geriausias savaitės žaidimas</string>
+    <string name="game_ad_notification_label_weekly_best_app">Geriausia savaitės programa</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">PROGRAMOS UŽRAKTAS</string>
+    <string name="app_lock_perm_settings_title">Nustatymas</string>
+    <string name="app_lock_perm_settings_message">Leidimo prašymas</string>
+    <string name="app_lock_notice_enable_usage_stats">Android 5.0 ir aukštesnėse versijose turite leisti naudoti AppLock, kad galėtumėte naudoti AppLock funkciją.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_notice_enable_usage_stats1">Jei sąranka nepavyko, įjunkite ją per Sistemos nustatymai &gt; Saugumas &gt; Programos su naudojimo prieiga</string>
+    <string name="app_lock_enable_usage_stats">Leisti</string>
+    <string name="install_app_mointor_locker">Reikia užrakinti</string>
+    <string name="locker_header_forget_pwd">Pamiršau slaptą kodą</string>
+    <string name="locker_header_replce_number_locker">Perjungti į slapto kodo užraktą</string>
+    <string name="locker_header_replce_graphic_locker">Perjungti į piešinio užraktą</string>
+    <string name="initializationpassword_frist_prompt">nustatyti slaptą kodą</string>
+    <string name="initializationpassword_second_prompt">Dar kartą įvskite slaptą kodą</string>
+    <string name="initializationpassword_pwd_not_equals">Slaptas kodas neteisingas, įveskite dar kartą</string>
+    <string name="init_email_prompt">Prašyti užmiršto slaptažodžio el. paštu</string>
+    <string name="init_email_prompt1">Įveskite teisingą el. pašto adresą</string>
+    <string name="init_mail_btn_text">Toliau</string>
+    <string name="forget_reset_pwd_success">Slaptas kodas atkurtas</string>
+    <string name="activity_applock_group_apps">PROGRAMOS</string>
+    <string name="activity_applock_menu_update">Atnaujinti į Pro versiją</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">AppLock nustatymas</string>
+    <string name="app_lock_setting_parent_unlock_mode">Atrakinnimo režimas</string>
+    <string name="app_lock_setting_passcode">Slaptas kodas</string>
+    
+    <string name="app_lock_setting_unlock_mode_numbers">Numeriai</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Piešinys</string>
+    <string name="app_lock_setting_passcode_change_passcode">Keisti slaptą kodąPasscode</string>
+    <string name="app_lock_setting_passcode_email_setting">El. pašto nustatymai</string>
+    
+    
+    <string name="app_lock_setting_brief_eixt_seconds">sek.</string>
+    <string name="app_lock_setting_brief_eixt_minutes">min.</string>
+    <string name="app_lock_setting_pro">Pro</string>
+    <string name="app_lock_setting_pro_update">atnaujinti iki pagrindinio užrakto</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">Pamiršau slaptą kodą</string>
+    <string name="forget_email_prompt1">1)Kontrolinį kodą atsiųsime el. paštu.</string>
+    <string name="forget_email_prompt2">2)Įveskite kontrolinį kodą ir gaukite savo slaptą kodą.</string>
+    <string name="forget_email_btn_prompt">Siųsti</string>
+    <string name="forget_email_btn_prompt2">Atkurti slaptą kodą</string>
+    <string name="forget_email_edit_prompt">Kontrolinis kodas</string>
+    <string name="forget_check_code_not_right">Neteisingai</string>
+    <string name="forget_check_code_out_of_time">Kontrolinis kodas nebegalioja, prašykite naujo kodo.</string>
+    <string name="forget_send_email_error">Laiško išsiųsti nepavyko, mėginkite dar kartą.</string>
+    <string name="forget_send_email_success">Laiškas išsiųstas, patikrinkite savo pašto dėžutę.</string>
+    <string name="set_graphic_password_message_draw">Nupieškite atrakinimo piešinį</string>
+    <string name="set_graphic_password_message_too_short">Sujunkite bent 4 taškus. Mėginkite dar kartą:</string>
+    <string name="set_graphic_password_message_stored">Piešinys užfiksuotas.</string>
+    <string name="set_graphic_password_message_redraw">Patvirtinimui nupieškite jį dar kartą:</string>
+    <string name="set_graphic_password_btn_redraw">Dar kartą</string>
+    <string name="set_graphic_password_message">Slapto kodo nustatymas</string>
+    <string name="set_graphic_password_message_wrong">Klaida, mėginkite dar kartą:</string>
+    <string name="applock_recommend_dialog_title">Rekomenduojamos programos</string>
+    <string name="applock_recommend_dialog_lockall">Užrakinti viską</string>
+    <string name="applock_recommend_dialog_ok">OK</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">Galite naudoti Pro privatumo užraktą!</string>
+    <string name="lokcer_init_instruction_first">Privačių programų užrakto slaptažodžio nustatymas</string>
+    <string name="lokcer_init_instruction_second">Pakartokite slaptažodį</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">Programų užraktas</string>
+    <string name="finish_page_card_app_locker_desc">Programų užrakto funkcija neleidžia &lt;big&gt;%s&lt;/big&gt; ir kitiems šniukštinėti jûsų programų!</string>
+    <string name="finish_page_card_app_locker_btn">Apsaugokite dabar</string>
+    <string name="finish_page_no_ad_app_lock_tips">Telefonas gali veikti sparčiau</string>
+
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+
+    
+</resources>

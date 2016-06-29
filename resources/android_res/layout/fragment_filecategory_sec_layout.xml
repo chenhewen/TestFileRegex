@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/file_category_sec_bg_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF434A54" >
+
+        <com.gto.zero.zboost.common.ui.LinearGradientView
+            android:id="@+id/file_category_sec_bg_gradient_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+        <View
+            android:id="@+id/file_category_sec_bg_streak_view"
+            android:layout_width="match_parent"
+            android:background="@drawable/storage_main_act_bg"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/file_category_sec_common_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_title_height"
+            layout="@layout/common_title_layout" />
+
+        <ListView
+            android:id="@+id/file_category_sec_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#e6e9ed"
+            android:dividerHeight="0.5dp"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" 
+            android:overScrollMode="never">
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

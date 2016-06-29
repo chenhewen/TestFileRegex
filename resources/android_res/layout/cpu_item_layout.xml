@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+    android:layout_height="@dimen/common_item_height"
+    android:background="@drawable/common_list_item_gray_white_selector" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/common_icon_width"
+        android:layout_height="@dimen/common_icon_width"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_icon_width"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/preinstall_listview_item_right_container"
+        android:layout_toRightOf="@id/icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/common_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="123131131" />
+
+        <TextView
+            android:id="@+id/desc"
+            style="@style/common_item_info_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+             />
+        
+    </LinearLayout>
+    
+   <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/common_listview_divider"
+        android:layout_alignParentBottom="true"/>
+        
+</RelativeLayout>

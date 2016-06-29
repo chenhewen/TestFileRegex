@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@android:color/transparent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/toast_body"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/game_accel_anim_toast_height"
+        android:background="@drawable/uninstall_dialog_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="@dimen/game_accel_anim_toast_padding_left"
+        android:paddingLeft="@dimen/game_accel_anim_toast_padding_left"
+        >
+
+        <ImageView
+            android:id="@+id/toast_icon"
+            android:layout_width="@dimen/game_accel_anim_toast_icon_width"
+            android:layout_height="@dimen/game_accel_anim_toast_icon_width"
+            android:layout_centerVertical="true"
+            android:background="@drawable/game_accel_toast_icon" />
+
+        <TextView
+            android:id="@+id/toast_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/toast_icon"
+            android:layout_marginLeft="@dimen/game_accel_anim_toast_text_margin_left"
+            android:fontFamily="@string/font_families_roboto"
+            android:text="Cheers!45% speed up"
+            android:singleLine="true"
+            android:textColor="#404040"
+            android:textSize="@dimen/game_accel_anim_toast_text_textsize" />
+    </RelativeLayout>
+        
+
+</RelativeLayout>

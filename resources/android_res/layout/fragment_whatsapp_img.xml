@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:wheel="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <include
+        android:id="@+id/whatsapp_img_title_common_title"
+        layout="@layout/common_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/whatsapp_img_title_common_title"
+            android:orientation="vertical">
+
+            <com.gto.zero.zboost.common.ui.floatlistview.FloatingGroupExpandableListView
+                android:id="@+id/whatsapp_img_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:childDivider="@color/common_listview_divider"
+                android:divider="#00000000"
+                android:fadingEdge="none"
+                android:overScrollFooter="@null"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:groupIndicator="@null"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/whatsapp_img_scan_alert_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/duplicate_photos_scan_alert"
+                    android:textColor="#8a000000"
+                    android:textSize="14sp"/>
+
+                <com.gto.zero.zboost.view.ProgressWheel
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_above="@id/whatsapp_img_scan_alert_text"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="16dp"
+                    wheel:matProg_barColor="@color/common_green_normal"
+                    wheel:matProg_barWidth="2dp"
+                    wheel:matProg_progressIndeterminate="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/whatsapp_img_no_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/whatsapp_img_no_content_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/no_content"
+                    />
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/whatsapp_img_no_content_img"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/duplicate_photos_no_content"
+                    android:textColor="#8a000000"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    <com.gto.zero.zboost.common.ui.CommonRoundButton
+        android:id="@+id/whatsapp_img_clean_btn"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/common_round_button_layout_width"
+        android:layout_height="@dimen/common_round_button_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_shadow"/>
+
+        <ImageView
+            android:id="@+id/common_round_button_icon"
+            android:layout_width="@dimen/common_round_button_size"
+            android:layout_height="@dimen/common_round_button_size"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/common_button_round_red_selector"
+            android:contentDescription="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/apkmanager_delete"/>
+
+    </com.gto.zero.zboost.common.ui.CommonRoundButton>
+
+    <LinearLayout
+        android:id="@+id/whatsapp_img_menu"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/whatsapp_img_menu_content"
+            android:minWidth="@dimen/locker_header_menu_item_width"
+            android:background="@drawable/locker_header_content_bg">
+
+            <TextView
+                style="@style/locker_header_menu_item"
+                android:id="@+id/whatsapp_img_menu_clear_all"
+                android:text="@string/whatsapp_media_menu_select_all"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/locker_header_menu_item_height"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

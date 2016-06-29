@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEBA85D"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingTop="@dimen/common_title_height" >
+
+    <com.gto.zero.zboost.function.functionad.view.AdsLayout
+        android:id="@+id/ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical" >
+    </com.gto.zero.zboost.function.functionad.view.AdsLayout>
+
+    <FrameLayout
+        android:id="@+id/function_ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:clipChildren="false"
+        android:clipToPadding="false" >
+    </FrameLayout>
+
+</FrameLayout>

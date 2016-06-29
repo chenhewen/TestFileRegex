@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_item_height"
+    android:paddingLeft="@dimen/common_margin"
+    android:paddingRight="@dimen/common_margin" >
+
+    <ImageView
+        android:id="@+id/shortcut_setting_item_icon"
+        android:layout_width="@dimen/common_icon_width"
+        android:layout_height="@dimen/common_icon_width"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/shortcut_setting_item_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:src="@drawable/app_add"
+        android:textColor="@color/common_green_normal" />
+
+    <TextView
+        android:id="@+id/shortcut_setting_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin"
+        android:layout_toLeftOf="@id/shortcut_setting_item_btn"
+        android:layout_toRightOf="@id/shortcut_setting_item_icon"
+        android:fontFamily="@string/font_families_roboto"
+        android:gravity="left"
+        android:singleLine="true"
+        android:textColor="#FF777777"
+        android:textSize="17sp" />
+
+</RelativeLayout>

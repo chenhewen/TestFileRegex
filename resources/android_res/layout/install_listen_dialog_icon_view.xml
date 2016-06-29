@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/install_listen_icon_view_width"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout 
+        android:layout_width="@dimen/install_listen_icon_view_icon_container_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/install_listen_icon_view_icon_margin_top"
+	    android:layout_marginRight="@dimen/install_listen_icon_view_icon_margin_top"
+        >
+	   <ImageView 
+	       android:id="@+id/install_listen_icon"
+	       android:layout_width="@dimen/install_listen_icon_view_icon_width"
+	       android:layout_height="@dimen/install_listen_icon_view_icon_width"
+	       android:layout_centerHorizontal="true"
+	       />
+	   
+	  <TextView 
+	      android:id="@+id/install_listen_app_size"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_centerHorizontal="true"
+	      android:layout_below="@id/install_listen_icon"
+	      android:layout_marginTop="@dimen/install_listen_icon_view_text_margin_top"
+	      android:text="10MB"
+	      android:textColor="@color/dialog_common_button_light"
+	      android:textSize="@dimen/install_listen_icon_view_textsize"/>
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/install_listen_select_box"
+        android:layout_width="@dimen/install_listen_icon_view_select_box_width"
+        android:layout_height="@dimen/install_listen_icon_view_select_box_width"
+        android:src="@drawable/common_select_all"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+   
+
+</RelativeLayout>

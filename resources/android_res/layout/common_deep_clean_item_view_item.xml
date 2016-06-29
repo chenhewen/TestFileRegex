@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.function.filecategory.deepclean.common.view.CommonDeepCleanItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/deep_clean_img_icon"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/icon"
+            android:layout_marginLeft="14dp"
+            >
+
+            <TextView
+                android:id="@+id/size_num"
+                style="@style/common_deep_clean_size_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                tools:text="122"
+                />
+
+            <TextView
+                android:id="@+id/size_unit"
+                style="@style/common_deep_clean_size_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/size_num"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/size_num"
+                android:includeFontPadding="false"
+                tools:text="MB"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/common_deep_clean_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_layout"
+        android:layout_marginLeft="38dp"
+        android:includeFontPadding="false"
+        tools:text="Pictures"
+        />
+
+</com.gto.zero.zboost.function.filecategory.deepclean.common.view.CommonDeepCleanItemView>

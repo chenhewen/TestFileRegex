@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/duplicate_photo_parent_list_top_blank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/boost_group_list_top_divider"
+            layout="@layout/common_listview_divider_level0_layout"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/duplicate_photo_parent_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/common_title_item_height"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:ellipsize="middle"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="2015.11.23 15:23"
+            android:textColor="#FF808080"
+            android:textSize="12sp"/>
+            <ImageView
+                android:id="@+id/duplicate_photo_parent_group_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dp"
+                android:src="@drawable/install_listen_dialog_eyesicon"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

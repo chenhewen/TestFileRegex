@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Z Speed+</string>
+    <string name="action_settings">Instellingen</string>
+
+    <!-- ==========字体模块========== -->
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_families_roboto_thin">sans-serif-dun</string>
+    <string name="font_families_roboto_light">sans-serif-licht</string>
+    <string name="font_families_roboto_condensed">sans-serif-donker</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_yes">Ja</string>
+    <string name="common_no">Nee</string>
+    <string name="common_ok">OK</string>
+    <string name="common_select">Selecteer</string>
+    <string name="common_delete">Verwijder</string>
+    <string name="common_others">Anderen</string>
+    <string name="common_stop">Stop</string>
+    <string name="common_uninstall">Deïnstalleer</string>
+    <string name="common_back_up">Back Up</string>
+    <string name="common_cancel">Annuleer</string>
+    <string name="common_install">Installeer</string>
+    <string name="common_installed">Geïnstalleerd</string>
+    <string name="common_vertion">Versie</string>
+    <string name="common_update">Update</string>
+    <string name="common_insufficient_storate">Onvoldoende bewaarruimte</string>
+    <string name="common_no_sdcard">SDCard Niet Gevonden</string>
+    <string name="common_warning">Waarschuwing</string>
+    <string name="common_no_content">Geen inhoud</string>
+    <string name="common_comma">,</string>
+    <string name="common_period">.</string>
+    <string name="common_slogan">Boost naar een betere GSM</string>
+    <string name="common_download">Download</string>
+    <string name="common_uninstalled">Gedeïnstalleerd</string>
+    <string name="common_more">Meer</string>
+    <string name="common_on">AAN</string>
+    <string name="common_off">UIT</string>
+    <string name="common_new">nieuw</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="available">Beschikbaar</string>
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">Bewaarruimte</string>
+    <string name="main_button_boost">Geheugenboost</string>
+    <string name="main_button_storage">Junk Files</string>
+    <string name="main_button_manage">App Manager</string>
+    <string name="main_ram_total">%s Totaal</string>
+    <string name="main_storage_total">%s Totaal</string>
+    <string name="tip_press_again_to_exit">Druk opnieuw om te verlaten</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Instellingen</string>
+    <string name="menu_update">Update</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_about">Over</string>
+    <string name="menu_shuffle">Shuffle</string>
+    <string name="menu_zero_plus">NUL+</string>
+    <string name="menu_chrimas">Christmas</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">GeheugenBoost</string>
+    <string name="boost_main_act_tab_running">Uitvoeren</string>
+    <string name="boost_main_act_tab_autostart">Autostart</string>
+    <string name="boost_running_apps_custom">%1$d App(s) geselecteerd</string>
+    <string name="boosting_memory_act_title">Geheugenboost</string>
+    <string name="boosting_tips">Boosten</string>
+    <string name="boosting_power_tips">Power Boosten</string>
+    <string name="boosted_to_optimus_tips">Naar de optimale status geboost!</string>
+    <string name="boosted_active_power_mode_tips">Oeps! %1$d Apps opnieuw zelf gestart.\nActiveer Power Mode om het te verhelpen!</string>
+    <string name="enable_super_boost_enable">Schakel in</string>
+    <string name="enable_super_boost_title">Schakel Power Mode in</string>
+    <string name="enable_super_boost_main_text">Om effectiever te versnellen, raden we je aan de toegankelijkheidsfuncties in te schakelen.</string>
+    <string name="enable_super_boost_content_text1" formatted="false">Het helpt je om apps volledig te stoppen of uit te schakelen.</string>
+    <string name="enable_super_boost_content_text2" formatted="false">Verminder batterij verbruik.</string>
+    <string name="enable_super_boost_content_text3" formatted="false">Meer dan 85% van de gebruikers hebben deze functie ingeschakeld.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">Tap Z Speed+ in Gebruik</string>
+    <string name="boost_groups_list_title_running_app">Apps Uitvoeren</string>
+    <string name="boost_groups_list_title_cpu_temperature">CPU Temperatuur</string>
+    <string name="boost_groups_list_title_lag_detected">Vertraging gedetecteerd</string>
+
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Schakel bovenstaande knop in om Z Speed+ Power Mode te activeren voor maximum versnelling!\n\nZ Speed+ gebruikt toegankelijkheidsfuncties om niet gebruikte apps te helpen afsluiten. Wees niet ongerust als u een privacy risico herinnering ziet, dat is gewoon een periodieke informatieve waarschuwing voor elke toegankelijkheidsdienst. 
+    \n\nWe beloven GEEN ENKELE informatie te verzamelen.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Opties</string>
+    <string name="autostart_optimization_desr">Kan geoptimaliseerd worden</string>
+    <string name="autostart_type_optimization">Te Optimaliseren</string>
+    <string name="autostart_type_allowed">Toegestaan</string>
+    <string name="autostart_type_blocked">Geblokkeerd</string>
+    <string name="autostart_type_system">Voor-geïnstalleerde Apps</string>
+    <string name="autostart_type_system_description">Blokkeren van voor-geïnstalleerde apps autostarts kan systeeminstabiliteit veroorzaken. Ga voorzichtig te werk</string>
+    <string name="autostart_preinstll_system">Voor-geïnstalleerde Apps</string>
+    <string name="autostart_on_boot_up">Boot up</string>
+    <string name="autostart_on_background">Achtergrond</string>
+    <string name="autostart_on_boot_up_and_background">Boot up/Achtergrond</string>
+    <string name="autostart_detail_title">Autostarts in %1$d situatie(s):</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="ignore_list_act_title">Negeer Lijst</string>
+    <string name="add_to_ignore_list_act_title">Voeg toe aan negeer lijst</string>
+    <string name="dialog_memory_footprint">Geheugen gebruikt</string>
+    <string name="dialog_add_to_ignorelist">Voeg toe aan negeer lijst</string>
+    <string name="dialog_remove_from_ignorelist">Verwijder van negeer lijst</string>
+    <string name="tip_ignore_list_appunchecked">Deze apps zullen standaard niet geselecteerd zijn na scannen.</string>
+    <string name="tip_ignore_list_appadd">Klik '+' om negeer apps toe te voegen.</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443">%s&lt;/font> worden niet gescand.</string>
+    <string name="clean_ignore_empty_tips">Oudere items in Ongewenste Bestanden om toe te voegen aan Negeer Lijst.</string>
+    <string name="clean_ignore_title">Ongewenste Bestanden Negeer Lijst</string>
+    <string name="clean_ignore_list_tips">Deze items worden niet gescand als ongewenste bestanden</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">App Manager</string>
+    <string name="app_manager_my_backups">Mijn Backups</string>
+    <string name="app_manager_others">Anderen</string>
+    <string name="app_manager_back_up_success_tips">Back-up van apps gemaakt naar:</string>
+    <string name="app_manager_back_up_success_tips_for_one">Back-up van app is gemaakt naar:</string>
+    <string name="app_manager_back_up_fail_tips">apps gefaald</string>
+    <string name="app_manager_back_up_fail_tips_for_one">app gefaald</string>
+    <string name="app_manager_pre_installed_apps">Voor-geïnstalleerde Apps</string>
+    <string name="app_manager_backing_up">Back-Up maken</string>
+    <string name="app_manager_running">Uitvoeren</string>
+    <string name="app_manager_stop">Stop</string>
+    <string name="app_manager_apps_running">Apps uitvoeren</string>
+    <string name="app_manager_apps_desc">Voor-geïnstalleerde apps die zelden gebruikt worden uitschakelen, helpt het verbruikt te verminderen.</string>
+    <string name="app_manager_path">Pad</string>
+    <string name="app_manager_no_backup_found">Geen Back-up gevonden</string>
+    <string name="app_manager_tap_to_disable">Klik Uitschakelen/Afzetten om uit te schakelen</string>
+    <string name="app_manager_tap_to_enable">Klik Inschakelen/Aanzetten om in te schakkelen</string>
+    <string name="app_manager_select_app_first">Gelieve eerst de apps te selecteren</string>
+    <string name="app_manager_shit">OK</string>
+    <string name="app_manager_freed">Vrijgemaakt</string>
+    <string name="app_manager_use_rare_month">Zelden gebruikt in een maand</string>
+    <string name="app_manager_use_rare_days">Zelden gebruikt in %s dagen</string>
+    <string name="app_manager_use_commonly">Vaak gebruikt</string>
+    <string name="app_manager_android_system">Android Systeem</string>
+    <string name="app_manager_use_rare">Zelden gebruikt</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Gebruikers Apps</string>
+    <string name="app_manager_tab_system">Voor-geïnstalleerde</string>
+    <string name="app_manager_tab_text_date">Datum</string>
+    <string name="app_manager_tab_text_frequance">Regelmaat</string>
+    <string name="app_manager_tab_text_size">Grootte</string>
+    <string name="app_manager_tab_text_battery">Batterij</string>
+    <string name="app_manager_tab_text_name">Naam</string>
+    <string name="app_manager_dialog_cancel">Annuleer</string>
+    <string name="app_manager_dialog_backup">Back-Up</string>
+    <string name="app_manager_dialog_uninstall">Deïnstalleer</string>
+    <string name="app_manager_preinstall_noyice"><![CDATA[&nbsp&nbsp&nbsp&nbsp<font color="#76B54B"> %s Apps uitvoeren </font> Uitschakeling vermindert gebruik. Het is volledig veilig]]></string>
+    <string name="app_manager_no_uerapp">Geen apps</string>
+    <string name="app_manager_preinstall_disbale_list">Apps uitgeschakeld</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Uitgeschakeld</string>
+    <string name="app_manager_preinstall_reommend_disable">% gebruikers uitgeschakeld</string>
+    <string name="app_manager_preinstall_reommend_keep">Aangeraden om te houden</string>
+    <string name="app_manager_preinstall_reommend_none">Behoud zoals het is</string>
+    <string name="app_manager_preinstall_tip">Voor-geïnstalleerde apps die zelden gebruikt worden, uitschakelen, vermindert verbruik.</string>
+    <string name="app_manager_preinstall_disable_toast">is uitgeschakeld.</string>
+    <string name="app_manager_preinstall_enable_toast">is ingeschakeld.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Batch Uitgeschakeld</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Voorzichtig</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[Uitschakelen van deze app kan <font color="#fe6969">de normale functie veranderen</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Ben je zeker dat je het wil selecteren?</string>
+    <string name="app_manager_preinstall_disable_loading">Laden&#8230;</string>
+    <string name="diable_lab_dialog_title">Z Speed+ Lab</string>
+    <string name="diable_lab_dialog_content_text"><![CDATA[Je bent uitgenodigd om onze Lab functie te proberen: <font color="#76b54b">Batch uitschakeling voor-geïnstalleerde Apps. </font>Bij eender welke problemen, geef ons feedback en laten we de app samen verbeteren!]]></string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">Junk Files</string>
+    <string name="clean_main_suggest">Aangeraden</string>
+    <string name="clean_main_selected">Geselecteerd</string>
+    <string name="clean_dialog_title">Voorzichtig</string>
+    <string name="clean_dialog_message1">De file die je geselecteerd hebt bevat volgende inhoud:</string>
+    <string name="clean_dialog_btn_all">Selecteer toch</string>
+    <string name="clean_dialog_btn_next">Check Opnieuw</string>
+    <string name="gallery_thumbnails">Gallerij Thumbnails</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">Na verwijderen zal het trager laden in de gallerij.</string>
+    <string name="clean_group_app_cache">App Cache</string>
+    <string name="clean_group_residue">Resterende Files</string>
+    <string name="clean_group_cache">Cache Junk</string>
+    <string name="clean_group_temp">Systeem Temp Files</string>
+    <string name="clean_group_apk">Onnodige apks</string>
+    <string name="clean_group_big_file">Grote Files</string>
+    <string name="clean_group_ad">AD Junk</string>
+    <string name="clean_group_memory">Geheugen Junk</string>
+    <string name="clean_item_sys_cache">Systeem Cache</string>
+    <string name="clean_done_tips">Opgeruimd</string>
+    <string name="clean_dialog_app_cache_yes_btn">Manuele opruiming</string>
+    <string name="clean_dialog_folder_yes_btn">Bekijk</string>
+    <string name="clean_dialog_file_yes_btn">Open</string>
+    <string name="clean_dialog_media_yes_btn">Speel</string>
+    <string name="clean_dialog_message_size">Grootte</string>
+    <string name="clean_dialog_message_contain">Bevat</string>
+    <string name="clean_dialog_message_path">Pad</string>
+    <string name="clean_dialog_message_file">files</string>
+    <string name="clean_dialog_message_folder">mappen</string>
+    <string name="clean_done_none_tips">Uitstekend</string>
+    <string name="clean_file_browser_no_files">Geen Files</string>
+    <string name="clean_days_ago"> dagen oud</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969">Wees voorzichtig! &lt;/font>%1$s</string>
+    <string name="clean_subitem_detail_connect">Dit is %1$s van %2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443">Jouw files worden niet aangepast na opruiming.&lt;/font></string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443">Opruimen is volledig veilig.&lt;/font></string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969">Ze moeten herladen worden.&lt;/font></string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969">Opruiming zal dit voor altijd verwijderen!&lt;/font></string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Ruim op</string>
+    <string name="uninstall_dialog_message_1">&lt;b>%1$s&lt;/b> over &lt;font color="#85c443">%2$s&lt;/font> resterende files.</string>
+    <string name="uninstall_dialog_message_2">Bevat: </string>
+    <string name="uninstall_clean_tips">&#160;resterende files zijn opgeruimd!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">instellingen</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Feedback</string>
+    <string name="container_hint_setting_feedback">Gelieve jouw bemerkingen hier te schrijven, geef zoveel mogelijk details. We luisteren steeds en verbeteren de app continu.</string>
+    <string name="mial_hint_setting_feedback">E-mail</string>
+    <string name="notice_setting_feedback">GSM model en versie zullen verzameld worden voor de diagnose van jouw probleem.We zullen nooit persoonlijke informatie verzamelen zonder jouw toestemming.</string>
+    <string name="no_contain_setting_feedback">Hallo,zeg iets?</string>
+    <string name="sendok_setting_feedback">Bedankt voor jouw feedback!</string>
+    <string name="checknet_setting_feedback">Gelieve jouw netwerk connectie te controleren.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">&lt;u>Like ons op facebook&lt;/u></string>
+    <string name="googleplus_about_setting">&lt;u>Word deel van de Google+ communicatie&lt;/u></string>
+    <string name="googleplay_about_setting">&lt;u>Waardeer ons op GooglePlay&lt;/u></string>
+    <string name="title_about_setting">Over</string>
+    <string name="share_setting_about">Z Speed+ maakt mijn GSM sneller en geeft me meer ruimte. Probeer het! Krijg het hier: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014&#8211;2015 ZERO Team. Alle rechten voorbehouden.</string>
+    <string name="law_jump_setting_about">&lt;u>Privacy Beleid&lt;/u></string>
+    <string name="share_title_setting_about">deel Z Speed+</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">Kan connectie niet openen</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Floating Widget</string>
+    <string name="title_notice">Notificaties</string>
+    <string name="junk_clean_setting">Junk Opruimen</string>
+    <string name="enable_widget_setting_setting">Ingeschakeld</string>
+    <string name="hide_widget_setting_setting">Verberg naar tijd van statusbalk</string>
+    <string name="show_widget_setting_setting">Toon enkel op desktop </string>
+    <string name="memory_setting_setting">Geheugenboost nodig</string>
+    <string name="storge_setting_setting">Bewaarruimte is bijna vol</string>
+    <string name="junk_setting_setting">Resterende junk files</string>
+    <string name="autostart_setting_setting">Nieuwe autostart aanvraag</string>
+    <string name="ignore_setting_setting">Negeer Lijst</string>
+    <string name="memery_boost_setting_setting">Apps uitvoeren</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">Algemeen</string>
+    <string name="menu_general_setting_language">Taal</string>
+    <string name="menu_general_setting_shortcut">Creëer Snelkoppeling</string>
+    <string name="menu_junk_setting">Junk Files</string>
+    <string name="menu_junk_setting_scan_memory">Scan Geheugen Junk</string>
+    <string name="menu_join_uep_plan">&lt;u>Gebruikerservaring Programma&lt;/u></string>
+    <string name="menu_smart_boost">Slimme boost</string>
+    <string name="smart_boost_screen_lock">Slimme boost bij vergrendeld scherm</string>
+    <string name="smart_boost_show_result">Geef resultaten na smart boost weer</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Schakel de floating widget uit?</string>
+    <string name="float_hide_float_message">Je kan de floating widget ook verbergen naar de tijd van de statusbalk.</string>
+    <string name="float_dialog_ok">OK</string>
+    <string name="float_dialog_cancel">Annuleer</string>
+    <string name="float_dialog_hide_ok">Probeer het!</string>
+    <string name="float_dialog_hide_cancel">Schakel het toch uit</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Geen toegang. Uitvoering mislukt!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram_black">&lt;font color="#1d1d1d">Beschikbaar geheugen is &lt;/font>&lt;font color="#fe6969">&lt;b>minder dan %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_white">&lt;font color="#ffffff">Beschikbaar geheugen is &lt;/font>&lt;font color="#fe6969">&lt;b>minder dan %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_line2">Apparaat kan zeer traag worden</string>
+    <string name="notification_boost">Boost</string>
+    <string name="notification_sdcard">Jouw bewaarruimte is bijna vol. Klik om op te ruimen!</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d">Bewaarruimte is bijna vol.&lt;/font>&lt;font color="#fe6969">&lt;b>Enkel %s%% over&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff">Bewaarruimte is bijna vol.&lt;/font>&lt;font color="#fe6969">&lt;b>Enkel %s%% over&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_line2">Misschien niet genoeg ruimte voor de download</string>
+    <string name="notification_release_more"><![CDATA[%s MB vrijgemaakt. <font color="#85c443">Maak meer vrij!</font>]]></string>
+    <string name="notification_boost_phone_optimum"><![CDATA[Jouw gsm is in zijn optimale status. <font color="#85c443">Meer Functies!</font>]]></string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d">Het apparaat &lt;/font>&lt;font color="#fe6969">&lt;b>werkt trager&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff">Het apparaat &lt;/font>&lt;font color="#fe6969">&lt;b>werkt trager&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block2">Een app is zeer veel CPU aan het verbruiken</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d">CPU is &lt;/font>&lt;font color="#fe6969">&lt;b>serieus oververhit&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff">CPU is &lt;/font>&lt;font color="#fe6969">&lt;b>serieus oververhit&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat2">Een app is de CPU abnormaal aan het gebruiken</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d">CPU Temp. is &lt;/font>&lt;font color="#fe6969">&lt;b>snel aan het stijgen&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff">CPU Temp. is &lt;/font>&lt;font color="#fe6969">&lt;b>snel aan het stijgen&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp2">Een app is de CPU abnormaal aan het gebruiken</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#1d1d1d">junk is ruimte aan het verbruiken&lt;/font></string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#ffffff">junk is ruimte aan het verbruiken&lt;/font></string>
+    <string name="notification_clean_scan_message">Ruim op om bewaarruimte vrij te maken</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"> %s apps &lt;/font>&lt;font color="#fe6969">trekken de batterij leeg&lt;/font></string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"> %s apps &lt;/font>&lt;font color="#fe6969">trekken de batterij leeg&lt;/font></string>
+    <string name="notification_ram_help_line2">Boost om batterijduur te verlengen</string>
+    <string name="notification_release_sleep">Versnel %s MB tijdens slaapstand</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969">Nieuw ongewenst &lt;/font>&lt;font color="#1d1d1d">is gegenereerd&lt;/font></string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969">New junk &lt;/font>&lt;font color="#ffffff">is gegenereerd&lt;/font></string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d">Beste Weer App Voor Jou&lt;/font></string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff">Beste Weer App Voor Jou&lt;/font></string>
+    <string name="notification_go_weather_message">Nieuwe Kerst Widgets Beschikbaar!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d">Standaard berichten saai?&lt;/font></string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff">Standaard berichten saai?&lt;/font></string>
+    <string name="notification_go_sms_message">Personaliseer je eigen bericht nu!</string>
+    <string name="go_launcher">GO Launcher Z</string>
+    <string name="go_weather">GO Weer - Voorspelling &amp; Widget</string>
+    <string name="go_weather_done_message">Biedt huidige &amp; toekomstige weer info, prachtige widgets &amp; live wallpapers.</string>
+    <string name="notification_guide_text">Zet je eigen toggle aan</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Open als</string>
+    <string name="filetype_text">Tekst</string>
+    <string name="filetype_video">Video</string>
+    <string name="filetype_audio">Audio</string>
+    <string name="filetype_image">Foto</string>
+    <string name="filetype_music">Muziek</string>
+    <string name="filetype_document">Document</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">Compressie</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Nieuwe Versie</string>
+    <string name="update_update">Update</string>
+    <string name="update_later">Later</string>
+    <string name="update_cancel">Annuleer</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">Boost</string>
+    <string name="shortcut">Snelkoppeling</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">Na opstarten</string>
+    <string name="auto_start_on_connectivity_change">Waneer netwerk verandert</string>
+    <string name="auto_start_on_package_changed">Wanneer app status verandert</string>
+    <string name="auto_start_on_package_added">Wanneer apps geïnstalleerd worden</string>
+    <string name="auto_start_on_package_removed">Wanneer apps gedeïnstalleerd worden</string>
+    <string name="auto_start_on_package_replaced">Wanneer apps veranderen</string>
+    <string name="auto_start_on_any_data_state">Wanneer data veranderd is</string>
+    <string name="auto_start_on_outgoing_call">Tijdens uitgaande gesprekken</string>
+    <string name="auto_start_on_phone_state_changed">Bij het inhaken</string>
+    <string name="auto_start_on_user_present">Bij het ontgrendelen</string>
+    <string name="auto_start_on_wifi_state_change">Bij het verbinden met Wi-Fi</string>
+    <string name="auto_start_on_wifi_enable_change">Wanneer Wi-Fi in-/uitgeschakeld wordt</string>
+    <string name="auto_start_on_time_set">Wanneer de tijd bepaald wordt</string>
+    <string name="auto_start_on_bluetooth_state_change">Wanneer de Bluetooth status verandert</string>
+    <string name="auto_start_on_power_connected">Wanneer de laadkabel bevestigd wordt</string>
+    <string name="auto_start_on_power_disconnected">Wanneer de laadkabel verwijderd wordt</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">Notificatie Toggle</string>
+    <string name="notification_toggle_nocal">Rekenmachine niet gevonden!</string>
+    <string name="notification_toggle_open">Z Speed+ Notificatie Toggle ingeschakeld.</string>
+    <string name="notification_toggle_noflash">Jouw apparaat heeft geen zaklamp/FlashLight!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">Z Speed+ ondersteuning %s, appliceer nu?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Fout in verbinding.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">Dowloaden van taal mislukt.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Bewaarruimte</string>
+    <string name="storage_main_act_details">Details</string>
+    <string name="storage_main_act_tab_used_space">Bewaarruimte gebruikt</string>
+    <string name="storage_main_act_tab_app_total">%s APPs</string>
+    <string name="storage_main_act_tab_audio_total">%s Muziek</string>
+    <string name="storage_main_act_tab_image_total">%s Foto's</string>
+    <string name="storage_main_act_tab_document_total">%s Documenten</string>
+    <string name="storage_main_act_tab_other_total">Anderen</string>
+    <string name="file_category_image_title">Foto's</string>
+    <string name="file_category_image_delete_dialog_msg_1">file(s) zal/zullen verwijderd worden.</string>
+    <string name="file_category_image_delete_dialog_msg_2">De verwijderde file(s) kan/kunnen niet hersteld worden!</string>
+    <string name="file_category_video_no_content">Geen Video</string>
+    <string name="file_category_video_delete_msg">Videos worden verwijderd.</string>
+    
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">%s videos totaal</string>
+    <string name="video_title_selected">%s videos geselecteerd</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Muziek</string>
+    <string name="music_group_music">Muziek</string>
+    <string name="music_group_rings">Ringen</string>
+    <string name="music_group_record">Opnemen</string>
+    <string name="music_dialog_title">waarschuwing</string>
+    <string name="music_dialog_delete_cancel">Annuleer</string>
+    <string name="music_dialog_delete_delete">Verwijder</string>
+    <string name="music_dialog_delete_notice">file(s) zal/zullen verwijderd worden.</string>
+    <string name="music_dialog_delete_notice_below">De verwijderde file(s) kan/kunnen niet hersteld worden!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">Documenten</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">Anderen</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">Verwijder</string>
+    <string name="image_dialog_text1">De file zal verwijderd worden.</string>
+    <string name="image_dialog_text2">Ben je zeker?</string>
+    <string name="image_no_selected">Geen files geslecteerd.</string>
+    <string name="image_size_notice">%s was opgeruimd!</string>
+    <string name="image_delete_layout_text">Verwijder(%s)</string>
+    <string name="image_delete_ok">Ja</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Deze files kunnen niet verwijderd worden.</string>
+    <string name="no_app_to_open_file">Geen Lokale App kan de file openen</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Sleep het hier om jouw GSM te boosten.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">Uitschakelen</string>
+    <string name="disable_apps_done_disable_count">%s Uitgeschakeld!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">Z Speed+ houdt hen inactief</string>
+    <string name="disable_apps_wait_to_stop_tips">Probeert hard om te stoppen, wacht&#8230;</string>
+    <string name="disable_list_no_app_tip">Niet uitgeschakelde apps</string>
+    <string name="disable_group_most_disable_title">Meest uitgeschakeld</string>
+    <string name="disable_group_recommend_keeping_title">Aangeraden te houden</string>
+    <string name="disable_group_recommend_keeping_subtitle">Uitschakelen kan systeemfouten veroorzaken</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Uitgeschakeld</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Ingeschakeld</string>
+    <string name="disable_app_info_dialog_consuming_tip">Deze app is systeemgeheugen aan het verbruiken</string>
+    <string name="disable_app_info_dialog_system_error_tip">Uitschakelen kan systeemfouten veroorzaken</string>
+    <string name="disable_app_info_dialog_no_statement">Je kan ze proberen uit te schakelen als ze niet in gebruik zijn</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Fabrikant voor-geïnstalleerde dienst</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&#60;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">Installeer Nu</string>
+    <string name="ad_btn_detail">@string/storage_main_act_details</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Hoi!</string>
+    <string name="rate_gp_dialog_feedback_title">Feedback</string>
+    <string name="rate_gp_dialog_rate_title">Love Z Speed+</string>
+    <string name="rate_gp_dialog_one_notice_boost">De de laatste %1$s dagen, Z Speed+ heef &lt;font color="#85c443"> %2$s &lt;/font>vertragende apps voor jou vernietigd.&lt;br /> &lt;br/> &lt;font color="#85c443">Vind je Z Speed+ leuk?&lt;/font></string>
+    <string name="rate_gp_dialog_one_no_boost">Niet Echt</string>
+    <string name="rate_gp_dialog_one_yes_boost">Ja!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Je hebt net succesvol &lt;font color="#85c443"> %s &lt;/font> junk opgeruimd! &lt;br /> &lt;br/>Hoe is Z Speed+ voor jou?</string>
+    <string name="rate_gp_dialog_one_no_clean">Niet geweldig</string>
+    <string name="rate_gp_dialog_one_yes_clean">I love it!</string>
+    <string name="rate_gp_dialog_two_notice">Zou je ons feedback willen geven? \nElk woord van jou is waardevol voor ons.</string>
+    <string name="rate_gp_dialog_two_no">Nee, bedankt</string>
+    <string name="rate_gp_dialog_two_yes">OK, zeker</string>
+    <string name="rate_gp_dialog_three_notice">Kan je ons dan ook een 5-ster waardering geven?</string>
+    <string name="rate_gp_dialog_three_no">Nee, bedankt</string>
+    <string name="rate_gp_dialog_three_yes">OK, zeker</string>
+    <string name="rate_gp_notification_notice">Je hebt %s vertragende apps vernietigd tot nog toe. Bekijk het?</string>
+
+    <!-- 启动页 -->
+    <string name="privacy_policy">&lt;u>Privacy Beleid&lt;/u></string>
+    <string name="private_agreement">Ga akkoord met de&#160;</string>
+    <string name="private_start">START</string>
+    <string name="private_join_uep">Word deel van ons gebruikerservaring programma</string>
+    <string name="privacy_start_by_agree_policy">Stem in met het &lt;u>Privacybeleid&lt;/u></string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">geïnstalleerd, ruim de onnodige apk om te bewaren</string>
+    <string name="install_listen_installed_multiple_msg">Apps geïnstalleerd, ruim de onnodige apks op om te bewaren</string>
+    <string name="install_listen_delete_apk_tip">Opgeruimd</string>
+    <string name="install_listen_dialog_clean_btn_text">Ruim op</string>
+    <string name="install_listen_dialog_cancel_btn_text">Annuleer</string>
+    <string name="install_listen_dialog_eye_tip_on">Vraag het me niet voor 3 dagen</string>
+    <string name="install_listen_dialog_eye_tip_off">Blijf het me vragen</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">Game Boost</string>
+    <string name="game_boost_add_to_game_title">Voeg Game toe</string>
+    <string name="game_boost_effect">Boost &lt;font color="#85c443">%s &lt;/font> meer uitvoerend RAM voor games.</string>
+    <string name="game_cell_add">Voeg Game toe</string>
+    <string name="game_cell_ok">Ok</string>
+    <string name="game_boost_menu_about">Hoe het werkt</string>
+    <string name="game_boost_menu_add_shutcut">Maak Game Map aan</string>
+    <string name="game_boost_folder_create_success">Game Map succesvol aangemaakt.</string>
+    <string name="game_boost_box_shortcut_name">Game Boost</string>
+    <string name="game_boost_box_shortcut_name_new">Mijn Games</string>
+    <string name="game_boost_add_card_view_title_popular">Populaire Games</string>
+    <string name="game_boost_add_new_game_to_boost">%s toegevoegd in Game Boost</string>
+    <string name="game_boost_add_new_games_to_boost">%s nieuwe games added aan Game Boost</string>
+    <!-- 游戏加速介绍 -->
+    <string name="game_boost_about_one">Slim en automatisch uitschakelen van onnodige achtergrond apps die de performance van jouw game beïnvloeden.</string>
+    <string name="game_boost_about_two">Dynamische monitor voor jouw GSM en ruim onnodig gebruikte RAM op.</string>
+    <string name="game_boost_about_three">Open games van Z Speed+ Games map op de launcher, Boost jouw game tot 20~65%.</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Boosting&#8230;</string>
+    <string name="game_accel_anim_boost_toast_tip">Geboost, %s%% op.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">CPU Problemen</string>
+    <string name="cpu_fix">LOS OP</string>
+    <string name="cpu_check">Controleer</string>
+    <string name="cpu_issue_type_temp_overheated">Oververhit!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Verhoog snel!</string>
+    <string name="cpu_issue_type_heavily_occupied">CPU veel in gebruik!</string>
+    <string name="cpu_temp_issue_app">veroorzaakt het probleem</string>
+    <string name="cpu_occupied_issue_app">Verbruikt &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">CPU Koeler</string>
+    <string name="cpu_coll_down_cpu">Koel de CPU af</string>
+    <string name="cpu_temperature_issue">Temperatuur probleem</string>
+    <string name="cpu_device_running_slow">Apparaat werkt traag</string>
+    <string name="cpu_issue_detected">Probleem ontdekt</string>
+    <string name="cpu_cool_down_further">Koel verder af, ruim %s werkende apps op</string>
+    <string name="cpu_temp_well">CPU temp. is OK</string>
+    <string name="cpu_temp_hot">Een beetje warm</string>
+    <string name="cpu_temp_overheated">Oververhit</string>
+    <string name="cpu_temp_chilling">Afkoelen</string>
+    <string name="cpu_temp_cooler">CPU koeler</string>
+    <string name="cpu_occupy">Bezet &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+    <string name="cpu_abnormal">Abnormaal CPU gebruik: &lt;font color="#D46565"> %s &lt;/font></string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Net Geoptimalizeerd</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Laat het apparaat even rusten tijdens het afkoelen</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Geen verhittende apps</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Apparaat is aan het afkoelen</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Hitte apps opgeruimd</string>
+    <string name="cpu_anim_cooldown_done_dropped">Gedaald</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Start afkoelen&#8230;</string>
+    <string name="cpu_anim_scan_process_tip_text">Scannen van de CPU&#8230;</string>
+    <string name="cpu_anim_lag_done_tip_text">Geboost!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">Gelieve netwerk verbinding te controleren en probeer opnieuw</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Game Booster</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Game Booster map succesvol op scherm aangemaakt, bekijk het :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Ingeschakeld</string>
+    <string name="finish_page_card_game_booster_desc">Open games van game booster map, geniet van 65% sneller opstartende games</string>
+    <string name="finish_page_card_game_booster_btn">Schakel nu in</string>
+    <string name="finish_page_card_whitelist_name">Pas booster Whitelist aan</string>
+    <string name="finish_page_card_whitelist_desc">Markeer apps die moeten behouden worden</string>
+    <string name="finish_page_card_game_booster_desc_single_game">Activeer Game Boost om te versnellen &lt;big>%s&lt;/big> met tot wel 65%% ?</string>
+    <string name="finish_page_card_feedback_name">Geef je mening</string>
+    <string name="finish_page_card_feedback_desc">Favoriete functie,suggestie,alles</string>
+    <string name="finish_page_card_feedback_btn">Feedback</string>
+    <string name="finish_page_card_whitelist_btn">Pas nu aan</string>
+    <string name="finish_page_card_autostart_name">Autostarts gevonden</string>
+    <string name="finish_page_card_autostart_desc">&lt;big>%s&lt;/big> autostart app(s) die geoptimaliseerd moeten worden</string>
+    <string name="finish_page_card_autostart_btn">Controleer</string>
+    <string name="finish_page_card_photo_name">Ruim foto's op</string>
+    <string name="finish_page_card_photo_desc">Meer dan &lt;big>%s foto's&lt;/big> zijn gemaakt, maar niet alle foto's zijn de ruimte waard, misschien?</string>
+    <string name="finish_page_card_photo_btn">Ruim op</string>
+    <string name="finish_page_card_clean_1_name">Ruim op Junk </string>
+    <string name="finish_page_card_clean_1_desc">De stoute GSM maakte &lt;big>%s&lt;/big> junk aan in de laatste paar dagen</string>
+    <string name="finish_page_card_clean_1_btn">Opgeruimd</string>
+    <string name="finish_page_card_clean_2_name">&lt;big>%s&lt;/big> Junk Gevonden</string>
+    <string name="finish_page_card_clean_2_desc">Na het opruimen kunnen meer dan &lt;big>%s&lt;/big> nieuwe foto's worden gemaakt</string>
+    <string name="finish_page_card_clean_2_btn">Ruim nu op</string>
+    <string name="finish_page_card_activate_power_mode_title">%s apps &lt;big>auto-gestart&lt;/big></string>
+    <string name="finish_page_card_activate_power_mode_desc">Activeer &lt;big>Power Mode&lt;/big> om het te verhelpen</string>
+    <string name="finish_page_card_activate_power_mode_btn">Activeer</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Boost GSM</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Maak geheugen vrij om gsm te versnellen</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Boost</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big>%s%% Geheugen&lt;/big> Vrij</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s werkende apps hebben het geheugen opgegeten, de GSM is erg traag</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Boost Nu</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Schakel voor-geïnstalleerden uit</string>
+    <string name="finish_page_card_disable_desc">%1$s voor-geïnstalleerde apps, &lt;big>%2$s&lt;/big> kunnen uitgeschakeld worden</string>
+    <string name="finish_page_card_disable_btn">Controleer</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Controleer welke apps stiekem automatisch starten</string>
+    <string name="finish_page_no_ad_clean2_tips">Junk vertraagt jouw GSM</string>
+    <string name="finish_page_no_ad_clean1_tips">Junk moet elke dag opgeruimd worden</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">Games hebben ook een booster nodig!</string>
+    <string name="finish_page_no_ad_disable_tips">Sommige voor-geïnstalleerde apps zijn echt nutteloos</string>
+    <string name="finish_page_no_ad_photo_tips">Meer ruimte kan verkregen worden!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">Power Mode kan de hardnekkige apps stoppen!</string>
+    <string name="finish_page_no_ad_whitelist_tips">Vernietig niet perongeluk de apps die je nodig hebt!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">GSM werkt zeer traag</string>
+    <string name="finish_page_no_ad_boost_normal_tips">GSM kan sneller werken</string>
+
+     <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">Voeg Games Toe</string>
+    <string name="game_accel_guide_title">Game Boost</string>
+    <string name="game_accel_guide_text2">is geactiveerd</string>
+    <string name="game_accel_guide_try_text">Klik om te proberen!</string>
+    <string name="game_accel_guide_gamename_1">Shortcut Gemaakt</string>
+    <string name="game_accel_guide_gamename_2">Open op desktop</string>
+    <string name="game_accel_guide_gamename_3">Games scannen…</string>
+    <string name="game_accel_guide_discovery_text_above">Kanaal Z</string>
+    <string name="game_accel_guide_discovery_text_below">hier ook</string>
+    <string name="game_accel_sec_anim_title">GAMES</string>
+    <string name="game_accel_shortcut_created">Aangemaakt</string>
+    <string name="game_accel_tip_dialog_content_text">Wil je de Game Boost activeren om je te helpen boosten \"%s\" met tot wel 40%%?</string>
+    <string name="game_accel_tip_dialog_content_text_new">Activeer Game Boost om te versnellen met &lt;font color="#85c443">\"%s\"&lt;/font> tot wel 65%%?</string>
+    <string name="game_accel_sort_name">Naam</string>
+    <string name="game_accel_sort_Date">Datum</string>
+    <string name="game_accel_sort_Frequency">Frequentie</string>
+    <string name="game_accel_game_box_title">Beheer Games</string>
+    <string name="game_accel_add_shortcut">Voeg Shortcut toe</string>
+    
+     <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">ONTDEK</string>
+    <string name="game_distribute_connection_failed">Connectie mislukt</string>
+    <string name="game_distribute_net_data_alert">Spelen met WIFI verlaagt je datagebruik</string>
+    <string name="game_distribute_warning_title">Z Snelheid+ TV</string>
+    <string name="game_distribute_warning_content">De film in de video's is ongelooflijk.\n De video's worden niet alleen voor thuisgebruik weergegeven, maar ook andere \n rechten. Het aanblikken of bekijken van deze films is \n welkom op Z Speed +. Wij raden je aan \n games te spelen op redelijke tijden.</string>
+    <string name="game_distribute_video_title">Kanaal</string>
+    <string name="game_distribute_game_searching">Games Zoeken…</string>
+    
+     <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534">Grote Apps &lt;/font></string>
+    <string name="cpu_thieves_title">Top 3 &lt;font color="#6ac534">CPU Dieven Vandaag &lt;/font></string>
+    <string name="num_times">%s tijden</string>
+    
+     <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Beschikbaar Geheugen Extreem Laag!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+    <string name="home_guide_card_boost_button">Boost Nu</string>
+
+    <string name="home_guide_card_photo_desc1">Foto’s maken is makkelijk</string>
+    <string name="home_guide_card_photo_desc2">foto’s verwijderen niet</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+    <string name="home_guide_card_photo_button">Ruim nu op</string>
+
+    <string name="home_guide_card_cpu_desc">Oververhitte CPU trekt de batterij leeg</string>
+    <string name="home_guide_card_cpu_button">Koel Af</string>
+
+    <string name="home_guide_card_disbale_desc">Gebruik de Pre-installatie!</string>
+    <string name="home_guide_card_disbale_desc2">Je telefoon kan sneller worden!</string>
+    <string name="home_guide_card_disbale_desc_big">%s Apps</string>
+    <string name="home_guide_card_disbale_button">Schakel nu uit</string>
+    
+     <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Power Mode Boosten</string>
+    <string name="enable_super_boost_mode_normal">Normaal Boosten</string>
+    <string name="enable_super_boost_desc_super">&lt;b>Boost:&lt;/b> Normale Apps, &lt;mark>&lt;font color="red">Zelfstartende Apps&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">Geeft 60% extra boost kracht bij Gewortelde telefoons.&lt;/font>&lt;/b>&lt;br>
+        (Zet de toegankelijkheid voor Z Speed+ aan in de volgende stap)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b>Boost:&lt;/b> Normale Apps, &lt;mark>&lt;font color="red">Zelfstartende Apps&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">Geeft 60% extra boost kracht bij Gewortelde telefoons.&lt;/font>&lt;/b>&lt;br>
+        (Zet de toegankelijkheid voor Z Speed+ weer aan in de volgende stap)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b>Boost:&lt;/b> Normale Apps&lt;br>
+      Zelfsturende apps worden niet geboost behalve in de power mode.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">Power Boost mijn telefoon nu!</string>
+
+
+    <string name="enable_super_disable_mode_super">Bulk-Uitzetten</string>
+    <string name="enable_super_disable_mode_normal">Handmatig-Uitzetten</string>
+    <string name="enable_super_disable_desc_super">&lt;mark>&lt;font color="red">&lt;b>Functie:&lt;/b> Zet nutteloze apps in bulk uit, met maar 1 klik.&lt;/font> &lt;/mark>&lt;br>
+	(Zet de toegankelijkheid voor Z Speed+ aan in de volgende stap)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark>&lt;font color="red">&lt;b>Functie:&lt;/b> Zet nutteloze apps in bulk uit, met maar 1 klik.&lt;/font> &lt;/mark>&lt;br>
+        (Zet Z Speed+ weer aan als je telefoon opnieuw is opgestart)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b>Feature:&lt;/b> Zet nutteloze apps 1 voor 1 uit. &lt;br>
+                    &lt;mark>&lt;font color="red">De uitzetten in bulk functie voor makkelijke bediening wordt sterk aangeraden.&lt;/font> &lt;/mark>
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Zet Uitschakelen In Bulk Functie Aan</string>
+    
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Notificatie Toggle Instellingen</string>
+    <string name="notification_toggle_settings_label_themes">Thema’s</string>
+    <string name="notification_toggle_settings_label_toggles">Toggle</string>
+    <string name="notification_toggle_settings_label_zspeed">CLASSIEK</string>
+    <string name="notification_toggle_settings_label_popular">POPULAIRSTE</string>
+    <string name="notification_toggle_theme_name_green">Demeter</string>
+    <string name="notification_toggle_theme_name_pink">Athene</string>
+    <string name="notification_toggle_theme_name_black">Erebus</string>
+    <string name="notification_toggle_theme_name_silver">Uranus</string>
+    <string name="notification_toggle_theme_name_golden">Kronos</string>
+    <string name="notification_toggle_toggle_name_app">Home</string>
+    <string name="notification_toggle_toggle_name_boost">Boost</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">Fakkel</string>
+    <string name="notification_toggle_toggle_name_brightness">Helderheid</string>
+    <string name="notification_toggle_toggle_name_themes">Thema’s</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">Data</string>
+    <string name="notification_toggle_toggle_name_camera">Camera</string>
+    <string name="notification_toggle_toggle_name_calculator">Calculator</string>
+    <string name="notification_toggle_toggle_name_rotate">Draaien</string>
+    <string name="notification_toggle_toggle_name_sound">Geluid</string>
+    <string name="notification_toggle_bright_auto">AUTO</string>
+    <string name="notification_toggle_notification_ticker">Z Speed+ toolbar in stand by</string>
+    <string name="notification_toggle_notification_ticker_initializing">Toolbar is aan het initialiseren&#8230;</string>
+    
+     <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Typ content in om te zoeken</string>
+    <string name="hot_word_search_next_batch">Meer</string>
+    
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Dupliceer Foto’s</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s  foto’s opgeruimd!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Alle dubbele foto’s opgeruimd!</string>
+    <string name="duplicate_photos_delete_alert_title">Verwijder definitief</string>
+    <string name="duplicate_photos_delete_alert_desc">Weet je zeker dat je ze definitief wil verwijderen?</string>
+    <string name="duplicate_photos_leave_alert_title">Weet je zeker dat je wil stoppen?</string>
+    <string name="duplicate_photos_leave_alert_desc">Je heft %s foto’s geselecteerd om te verwijderen.&lt;br>Weet je zeker dat je wil stoppen?</string>
+    <string name="duplicate_photos_leave_alert_leave_btn">stoppen</string>
+    <string name="duplicate_photos_scan_alert">De scan kan wat tijd in beslag nemen, even geduld.</string>
+    <string name="duplicate_photos_no_content">Gefeliciteerd! Geen dubbele foto’s!</string>
+    <string name="duplicate_photos_suffix_selected">%s geselecteerd</string>
+    <string name="duplicate_photos_suffix_total">%s foto’s totaal</string>
+    
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">Beste Game Van De Week</string>
+    <string name="game_ad_notification_label_weekly_best_app">Beste App Van De Week</string>
+    
+    <!-- app lock -->
+    <string name="activity_applock_title">APP LOCKEN</string>
+    <string name="app_lock_perm_settings_title">Instellingen</string>
+    <string name="app_lock_perm_settings_message">Toestemming aanvraag</string>
+    <string name="app_lock_notice_enable_usage_stats">In Android 5.0 of nieuwer, moet je toegang tot AppLock toestaan om de AppLock functie te gebruiken.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+　<string name="app_lock_notice_enable_usage_stats1">Als de setup niet gelukt is, schakel hem dan uit via de systeem instellingen> beveiliging > Apps met gebruikstoegang</string>
+    <string name="app_lock_enable_usage_stats">Toestaan</string>
+    <string name="install_app_mointor_locker">Moet beveiligd zijn</string>
+    <string name="locker_header_forget_pwd">Pascode vergeten</string>
+    <string name="locker_header_replce_number_locker">Ga naar pascode beveiliging</string>
+    <string name="locker_header_replce_graphic_locker">Ga naar patroon beveiliging</string>
+    <string name="initializationpassword_frist_prompt">stek pascode in</string>
+    <string name="initializationpassword_second_prompt">Voer de pascode opnieuw in te bevestiging</string>
+    <string name="initializationpassword_pwd_not_equals">Pascode komt niet overeen, voer hem opnieuw in</string>
+    <string name="init_email_prompt">E-mail voor vergeten wachtwoord</string>
+    <string name="init_email_prompt1">Voer het juiste e-mailadres in</string>
+    <string name="init_mail_btn_text">Volgende</string>
+    <string name="forget_reset_pwd_success">Pascode succesvol opnieuw ingesteld</string>
+    <string name="activity_applock_group_apps">APPS</string>
+    <string name="activity_applock_menu_update">upgrade naar Pro</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">AppLock Instellingen</string>
+    <string name="app_lock_setting_parent_unlock_mode">Unlock Mode</string>
+    <string name="app_lock_setting_passcode">Pascode</string>
+    <string name="app_lock_setting_others">Andere</string>
+    <string name="app_lock_setting_unlock_mode_numbers">Cijfers</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Patroon</string>
+    <string name="app_lock_setting_passcode_change_passcode">Wijzig Pascode</string>
+    <string name="app_lock_setting_passcode_email_setting">E-mail Instellingen</string>
+    <string name="app_lock_setting_others_brief_eixt">Snel afsluiten toestaan</string>
+    <string name="app_lock_setting_others_relock">Opnieuw beveiligen als het scherm aangaat</string>
+    <string name="app_lock_setting_brief_eixt_seconds">secondes</string>
+    <string name="app_lock_setting_brief_eixt_minutes">minuten</string>
+    <string name="app_lock_setting_pro">Pro</string>
+    <string name="app_lock_setting_pro_update">update naar master beveiliging</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">Pascode vergeten</string>
+    <string name="forget_email_prompt1">1)We sturen een verificatiecode naar je e-mailadres.</string>
+    <string name="forget_email_prompt2">2)Voer de verificatiecode in om je pascode te krijgen.</string>
+    <string name="forget_email_btn_prompt">Verzenden</string>
+    <string name="forget_email_btn_prompt2">Stel pascode opnieuw in</string>
+    <string name="forget_email_edit_prompt">Verificatie Code</string>
+    <string name="forget_check_code_not_right">Onjuist</string>
+    <string name="forget_check_code_out_of_time">The verificatie is verlopen, vraag hem opnieuw aan.</string>
+    <string name="forget_send_email_error">E-mail verzenden mislukt, probeer het opnieuw.</string>
+    <string name="forget_send_email_success">E-mail verzonden, controleer je mailbox.</string>
+    <string name="set_graphic_password_message_draw">Teken een unlock patroon</string>
+    <string name="set_graphic_password_message_too_short">Verbind ten minste 4 bolletjes. Probeer het opnieuw:</string>
+    <string name="set_graphic_password_message_stored">Patroon opgeslagen.</string>
+    <string name="set_graphic_password_message_redraw">Teken patroon opnieuw om te bevestigen:</string>
+    <string name="set_graphic_password_btn_redraw">Probeer opnieuw</string>
+    <string name="set_graphic_password_message">Pascode Instelling</string>
+    <string name="set_graphic_password_message_wrong">Fout, probeer opnieuw:</string>
+    <string name="applock_recommend_dialog_title">Aanbevolen apps</string>
+    <string name="applock_recommend_dialog_lockall">Beveilig allen</string>
+    <string name="applock_recommend_dialog_ok">OK</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">Gebruik gratis Pro privacy beveiliging!</string>
+    <string name="lokcer_init_instruction_first">Stel een pasword in om je privacy apps te beveiligen</string>
+    <string name="lokcer_init_instruction_second">Bevestig je wachtwoord opnieuw</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">App Beveiligen</string>
+    <string name="finish_page_card_app_locker_desc">Hou &lt;big>%s&lt;/big> en andere nieuwsgierigen weg met de App beveiligingsfunctie!</string>
+    <string name="finish_page_card_app_locker_btn">Bescherm Nu</string>
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff">%1$s&lt;/font></string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff">%1$s&lt;/font></string>
+    
+</resources>

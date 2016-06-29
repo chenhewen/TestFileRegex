@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- 应用锁入侵者主界面入口 -->
+
+    <LinearLayout
+        android:id="@+id/applock_intruder_entrance_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/applock_intruder_entrance_bg_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin"
+        android:paddingRight="@dimen/common_margin" >
+
+        <ImageView
+            android:id="@+id/applock_intruder_entrance_icon_view"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="12dp"
+            android:contentDescription="@null"
+            android:padding="4dp"
+            android:src="@drawable/home_icon_intruder_normal" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_families_roboto"
+                android:text="@string/app_lock_setting_reveal_intruder"
+                android:textColor="#FF434A54"
+                android:textSize="16dp" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" >
+
+                <TextView
+                    android:id="@+id/applock_intruder_entrance_new_count_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:text="@string/app_lock_setting_reveal_intruder"
+                    android:textColor="#FF434A54"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/applock_intruder_entrance_all_count_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:text="@string/app_lock_setting_reveal_intruder"
+                    android:textColor="#FF434A54"
+                    android:textSize="10dp"
+                    android:visibility="invisible" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/applock_intruder_entrance_arrow_view"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerInside"
+            android:contentDescription="@null"
+            android:src="@drawable/common_icon_next" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_listview_divider_height_level0"
+        android:layout_marginBottom="@dimen/common_listview_divider_height_level0"
+        android:background="#FFE6E9ED" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<com.gto.zero.zboost.floatwindow.guide.MyFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:arrow="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.gto.zero.zboost.floatwindow.guide.ArrowView
+        android:id="@+id/dotted_curve"
+		arrow:paintStrokeWidth2="2dp"
+		arrow:headWidth="8dp"
+		arrow:headHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <com.gto.zero.zboost.floatwindow.guide.Ripple
+        android:id="@+id/ripple"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        ripple:circleCount="5"
+        ripple:speed="5dp"
+        ripple:circleGap="6dp"
+        ripple:directionOut="true"
+        ripple:fadeOut="true"
+        ripple:minRadius="6dp"
+        ripple:paintStrokeWidth="1dp"
+        ripple:repeatCount="0"
+        ripple:rippleGap="20dp" />
+
+</com.gto.zero.zboost.floatwindow.guide.MyFrameLayout>

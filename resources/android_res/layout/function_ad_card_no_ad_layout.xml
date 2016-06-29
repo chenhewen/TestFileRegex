@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|bottom"
+    android:layout_marginLeft="@dimen/common_margin"
+    android:layout_marginRight="@dimen/common_margin"
+    android:layout_marginTop="38dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/no_ad_tips_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/function_ad_tips_bg"
+        android:fontFamily="@string/font_families_roboto"
+        android:gravity="center_vertical|start"
+        android:minWidth="48dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp"
+        android:text="Wow, cool ! NO AD!"
+        android:textColor="#FF777777"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/tips_boy_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:contentDescription="@null"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="85dp"
+    android:layout_height="match_parent"
+    android:background="@color/file_category_image_item_bg" >
+
+    <ImageView
+        android:id="@+id/clean_comfirm_image_item"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/video_tap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/clean_residue_video_tag"
+        android:visibility="gone" />
+
+</RelativeLayout>

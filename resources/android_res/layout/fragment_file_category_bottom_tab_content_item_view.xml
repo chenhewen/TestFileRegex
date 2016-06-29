@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_list_item_white_selector"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp" >
+
+    <TextView
+        android:id="@+id/files_total_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@string/font_families_roboto"
+        android:includeFontPadding="false"
+        android:paddingTop="0dp"
+        android:text="@string/storage_main_act_tab_other_total"
+        android:textColor="@color/common_green_normal"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/storage_used_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/files_total_view"
+        android:layout_below="@id/files_total_view"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@string/font_families_roboto"
+        android:includeFontPadding="false"
+        android:paddingTop="0dp"
+        android:text="@string/storage_main_act_tab_used_space"
+        android:textColor="#FFBDBDBD"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/storage_size_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/storage_used_view"
+        android:fontFamily="@string/font_families_roboto_thin"
+        android:includeFontPadding="false"
+        android:paddingTop="0dp"
+        android:text="520"
+        android:textColor="@color/common_item_name"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/storage_unit_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/storage_size_view"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/storage_size_view"
+        android:fontFamily="@string/font_families_roboto_light"
+        android:includeFontPadding="false"
+        android:paddingTop="10dp"
+        android:text="MB"
+        android:textColor="@color/common_item_name"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/detail_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:drawablePadding="16dp"
+        android:drawableRight="@drawable/common_icon_next"
+        android:fontFamily="@string/font_families_roboto"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/storage_main_act_details"
+        android:textColor="@color/common_green_normal"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+    <LinearLayout
+        android:id="@+id/file_category_duplicate_photos_entrance_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/duplicate_photos_entrance_orange_bg_selector"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/duplicate_photos_icon_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/duplicate_photos_small_icon" />
+
+        <TextView
+            android:id="@+id/duplicate_photos_title_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="14dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="left|center_vertical"
+            android:maxWidth="160dp"
+            android:singleLine="true"
+            android:text="@string/duplicate_photos_main_act_title"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/duplicate_photos_entrance_new_flag_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/common_new_flag_bg_red"
+        android:ellipsize="end"
+        android:fontFamily="@string/font_families_roboto"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="2dp"
+        android:singleLine="true"
+        android:text="@string/common_new"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="normal" />
+
+    <com.gto.zero.zboost.view.ProgressWheel
+        android:id="@+id/loading_view"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        wheel:matProg_barColor="@color/common_green_normal"
+        wheel:matProg_barWidth="2dp"
+        wheel:matProg_progressIndeterminate="true" />
+
+</RelativeLayout>

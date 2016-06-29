@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/applock_intruder_entrance_bg_selector"
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/common_margin">
+
+    <ImageView
+        android:contentDescription="@null"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_width="wrap_content"
+        android:padding="4dp"
+        android:src="@drawable/home_icon_intruder_normal" />
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@string/font_families_roboto"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/app_lock_camera_auth_tip"
+            android:textColor="#FF434A54"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

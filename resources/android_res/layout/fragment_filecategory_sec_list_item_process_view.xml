@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    >
+    
+    <TextView 
+        android:id="@+id/filecategory_sec_item_loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#89000000"
+        android:text="@string/filecategory_sec_list_item_scanning"
+        android:layout_centerVertical="true"
+        />
+    <com.gto.zero.zboost.view.ProgressWheel
+        android:id="@+id/filecategory_sec_item_loading_view"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="16dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        wheel:matProg_barColor="@color/common_green_normal"
+        wheel:matProg_barWidth="2dp"
+        wheel:matProg_progressIndeterminate="true"
+        />
+    
+    <ImageView 
+        android:id="@+id/filecategory_sec_item_empty_image"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/common_select"
+        android:visibility="gone"
+        />
+    
+     <TextView 
+        android:id="@+id/filecategory_sec_item_empty_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/common_green_normal"
+        android:text="@string/filecategory_sec_list_item_empty_text"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/filecategory_sec_item_empty_image"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        />
+     
+</merge>

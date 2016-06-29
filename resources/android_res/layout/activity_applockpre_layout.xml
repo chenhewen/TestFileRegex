@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA" >
+
+    <include
+        android:id="@+id/applock_pre_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        layout="@layout/common_base_right_title_layout" />
+
+    <include
+        android:id="@+id/applock_pre_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        layout="@layout/applock_search_bar"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/applock_pre_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/applock_pre_title"
+        android:background="#F5F7FA"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:drawSelectorOnTop="false"
+        android:listSelector="#00000000"
+        android:overScrollFooter="@null"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <com.gto.zero.zboost.view.ProgressWheel
+        android:id="@+id/applock_pre_progress"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        wheel:matProg_barColor="@color/common_green_normal"
+        wheel:matProg_barWidth="3dp"
+        wheel:matProg_progressIndeterminate="true" />
+
+    <!-- 最后一步，引导开启usage -->
+
+    <TextView
+        android:id="@+id/applock_pre_last_step_usage_guide_title_tv"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/applock_pre_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@string/font_families_roboto"
+        android:gravity="center"
+        android:text="@string/applock_pre_last_step_usage_guide_title"
+        android:textColor="#FF85C443"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/applock_pre_last_step_usage_guide_diagram_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/applock_pre_last_step_usage_guide_title_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:contentDescription="@null"
+        android:src="@drawable/applock_turn_on_usage_diagram" />
+
+    <TextView
+        android:id="@+id/applock_pre_last_step_usage_guide_explanation_tv"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/applock_pre_last_step_usage_guide_diagram_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@string/font_families_roboto"
+        android:gravity="center"
+        android:text="@string/applock_pre_last_step_usage_guide_explanation"
+        android:textColor="#FF656D78"
+        android:textSize="14dp" />
+
+    <include
+        android:id="@+id/lock_btn"
+        android:layout_width="@dimen/common_round_button_layout_width"
+        android:layout_height="@dimen/common_round_button_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/common_round_button_layout" />
+
+</RelativeLayout>

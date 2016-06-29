@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_item_height"
+    android:background="@drawable/common_list_item_white_selector"
+    android:paddingLeft="@dimen/common_margin">
+
+    <com.gto.zero.zboost.view.GroupSelectBox
+        android:id="@+id/bigfile_group_checkbox"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:paddingLeft="@dimen/clean_list_common_horizontal_margin"
+        android:paddingRight="@dimen/clean_list_common_horizontal_margin"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/bigfile_group_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/bigfile_group_checkbox"
+        android:fontFamily="@string/font_families_roboto"
+        android:textColor="@color/clean_group_size_color"
+        android:textSize="@dimen/clean_list_group_total_size_text_size"/>
+
+    <ImageView
+        android:id="@+id/bigfile_group_icon"
+        android:layout_width="@dimen/common_icon_width"
+        android:layout_height="@dimen/common_icon_width"
+        android:padding="2dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/bigfile_group_icon"
+        android:layout_marginRight="@dimen/common_margin"
+        android:layout_toLeftOf="@id/bigfile_group_size"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bigfile_group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="middle"
+            android:fontFamily="@string/font_families_roboto"
+            android:singleLine="true"
+            android:textColor="@color/common_module_name"
+            android:textSize="@dimen/clean_list_common_text_size"/>
+
+        <TextView
+            android:id="@+id/bigfile_group_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="middle"
+            android:fontFamily="@string/font_families_roboto"
+            android:singleLine="true"
+            android:textColor="@color/preinstall_disable_list_group_subtitle_color"
+            android:textSize="@dimen/preinstall_disable_list_group_item_subtitle_textsize"/>
+    </LinearLayout>
+
+</RelativeLayout>

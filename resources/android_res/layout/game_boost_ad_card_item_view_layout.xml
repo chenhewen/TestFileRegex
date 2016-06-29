@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_list_item_white_selector"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/top_divider_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_listview_divider_height"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_listview_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ad_icon_view"
+            android:layout_width="@dimen/game_boost_cell_item_icon_size"
+            android:layout_height="@dimen/game_boost_cell_item_icon_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="18dp"
+            android:contentDescription="@null"
+            android:src="@drawable/common_no_icon"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/ad_title_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="#FF404040"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingRight="5dp" >
+
+                <ImageView
+                    android:id="@+id/rate_star0_iv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:contentDescription="@null"
+                    android:layout_weight="1"
+                    android:src="@drawable/common_rate_one_star"/>
+
+                <ImageView
+                    android:id="@+id/rate_star1_iv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:contentDescription="@null"
+                    android:layout_weight="1"
+                    android:src="@drawable/common_rate_one_star" />
+
+                <ImageView
+                    android:id="@+id/rate_star2_iv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:contentDescription="@null"
+                    android:layout_weight="1"
+                    android:src="@drawable/common_rate_one_star" />
+
+                <ImageView
+                    android:id="@+id/rate_star3_iv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:contentDescription="@null"
+                    android:layout_weight="1"
+                    android:src="@drawable/common_rate_one_star" />
+
+                <ImageView
+                    android:id="@+id/rate_star4_iv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:contentDescription="@null"
+                    android:layout_weight="1"
+                    android:src="@drawable/common_rate_one_star" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/download_view"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/game_boost_ad_button_bg_selector"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="4dp"
+            android:singleLine="true"
+            android:text="@string/common_download"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ad_description_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/app_name"
+        android:textColor="#FF777777"
+        android:textSize="12dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_listview_divider_height"
+        android:layout_marginLeft="16dp"
+        android:background="@color/common_listview_divider" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    
+    <RelativeLayout 
+        android:id="@+id/activity_game_boost_header"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/game_boost_header_banner"
+        android:layout_alignParentTop="true">
+        
+        <TextView 
+            android:id="@+id/activity_game_boost_add_shortcut_btn"
+            android:layout_width="148dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="28dp"
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical"
+            android:textSize="14dp"
+            android:text="@string/game_accel_add_shortcut"
+            android:textColor="@color/white"
+            android:background="@drawable/activity_game_boost_addshortcut_selector"
+            android:clickable="true"
+            />
+        
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/activity_game_boost_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        layout="@layout/common_title_layout" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_game_boost_header" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/game_boost_cards_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <include
+                    android:id="@+id/local_game_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/game_boost_card_view_game_box_layout" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</RelativeLayout>

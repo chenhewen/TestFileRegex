@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/notice_toggles_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/notice_toggle_icon_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/notification_toggle_click_selector"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/notification_toggle_icon" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/notification_toggle_xu" />
+
+        <FrameLayout
+            android:id="@+id/notice_toggle_one_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/notification_toggle_click_selector"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/notice_toggle_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/notification_toggle_xu" />
+
+        <FrameLayout
+            android:id="@+id/notice_toggle_two_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/notification_toggle_click_selector"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/notice_toggle_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/notification_toggle_xu" />
+
+        <FrameLayout
+            android:id="@+id/notice_toggle_three_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/notification_toggle_click_selector"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/notice_toggle_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/notification_toggle_xu" />
+
+        <FrameLayout
+            android:id="@+id/notice_toggle_four_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/notification_toggle_click_selector"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/notice_toggle_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/notification_toggle_xu" />
+
+        <FrameLayout
+            android:id="@+id/notice_toggle_five_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/notification_toggle_click_selector"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/notice_toggle_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.home.view.RamLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    android:orientation="horizontal" >
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <!-- 火箭区 -->
+
+    <com.gto.zero.zboost.common.ui.ZoomLinearLayout
+        android:id="@+id/home_page_rocket_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/home_page_rocket_head_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@null"
+            android:src="@drawable/home_image_rocket_head" />
+
+        <ImageView
+            android:id="@+id/home_page_rocket_body_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@null"
+            android:src="@drawable/home_image_rocket_body" />
+
+        <com.gto.zero.zboost.home.view.RocketJetView
+            android:id="@+id/home_page_rocket_jet_view"
+            android:layout_width="88dp"
+            android:layout_height="160dp" />
+    </com.gto.zero.zboost.common.ui.ZoomLinearLayout>
+
+    <!-- RAM信息区 -->
+
+    <com.gto.zero.zboost.common.ui.ZoomLinearLayout
+        android:id="@+id/home_page_ram_info_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="42dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/home_page_ram_num_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="6dp"
+                android:fontFamily="@string/font_families_roboto_thin"
+                android:text="72"
+                android:textColor="#FFFFFFFF"
+                android:textSize="48dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/home_page_ram_num_symbol_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="8dp"
+                android:layout_toRightOf="@id/home_page_ram_num_view"
+                android:fontFamily="@string/font_families_roboto"
+                android:text="%"
+                android:textColor="#FFFFFFFF"
+                android:textSize="14dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/home_page_ram_label_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="1dp"
+                android:fontFamily="@string/font_families_roboto"
+                android:text="@string/main_ram_title"
+                android:textColor="#FFFFFFFF"
+                android:textSize="14dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/home_page_ram_info_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="left"
+            android:maxLines="2"
+            android:text="3.0 GB Free / 5.4 GB Total"
+            android:textColor="#8AFFFFFF"
+            android:textSize="14dp"
+            android:textStyle="normal" />
+    </com.gto.zero.zboost.common.ui.ZoomLinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/home_page_ram_click_flag_icon_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="42dp"
+        android:contentDescription="@null"
+        android:src="@drawable/common_icon_next" />
+
+</com.gto.zero.zboost.home.view.RamLayout>

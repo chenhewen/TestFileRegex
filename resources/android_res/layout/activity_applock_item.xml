@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/common_list_item_gray_white_selector" >
+
+    <ImageView
+        android:id="@+id/activity_applock_item_icon"
+        style="@style/common_item_name"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/activity_applock_item_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/activity_applock_item_icon"
+        android:textColor="#ff6a6a6a" />
+
+    <com.gto.zero.zboost.view.GroupSelectBox
+        android:id="@+id/activity_applock_item_selectbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_listview_divider_height_level0"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1px"
+        android:background="#ffd5d5d5" />
+
+</RelativeLayout>

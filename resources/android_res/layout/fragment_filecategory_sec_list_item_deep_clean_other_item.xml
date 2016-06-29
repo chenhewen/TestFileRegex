@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:paddingLeft="16dp"
+    android:background="@drawable/filcategory_sec_item_bg_selector">
+    
+    <View
+       android:layout_width="match_parent"
+       android:layout_height="0.5dp"
+       android:background="#e6e9ed"/>
+    
+    <RelativeLayout 
+       android:id="@+id/filecategory_sec_item_deep_clean_other_container"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true">
+       
+	    <ImageView 
+	        android:id="@+id/filecategory_sec_item_deep_clean_other_icon"
+	        android:layout_width="24dp"
+	        android:layout_height="24dp"
+	        android:src="@drawable/ic_launcher"
+	        android:layout_centerVertical="true"
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/filecategory_sec_item_deep_clean_other_count_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="24dp"
+	        android:textColor="#ED5565"
+	        android:text="436"
+	        android:layout_toRightOf="@id/filecategory_sec_item_deep_clean_other_icon"
+	        android:layout_marginLeft="14dp"
+	        android:layout_centerVertical="true"
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/filecategory_sec_item_deep_clean_other_unit_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="6dp"
+	        android:layout_toRightOf="@id/filecategory_sec_item_deep_clean_other_count_text"
+	        android:layout_alignBaseline="@id/filecategory_sec_item_deep_clean_other_count_text"
+	        android:textSize="14dp"
+	        android:textColor="#ED5565"
+	        android:text="MB"
+	        />
+	    
+	    <ImageView
+			android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/storage_new_next_btn"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    
+   </RelativeLayout>
+
+</RelativeLayout>
+

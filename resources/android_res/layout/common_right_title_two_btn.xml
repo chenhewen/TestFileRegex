@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.common.ui.RightTileWithTwoBtn xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingRight="@dimen/common_title_extra_padding_right" >
+
+    <com.gto.zero.zboost.common.ui.ClickTransparentLayout
+        android:id="@+id/common_right_title_two_btn_layout_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/common_right_title_two_btn_left_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"/>
+    </com.gto.zero.zboost.common.ui.ClickTransparentLayout>
+
+    <com.gto.zero.zboost.common.ui.ClickTransparentLayout
+        android:id="@+id/common_right_title_two_btn_layout_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp" >
+
+        <ImageView
+            android:id="@+id/common_right_title_two_btn_right_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"/>
+    </com.gto.zero.zboost.common.ui.ClickTransparentLayout>
+
+</com.gto.zero.zboost.common.ui.RightTileWithTwoBtn>

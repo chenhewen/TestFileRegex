@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_item_alternative" >
+
+    <RelativeLayout
+        android:id="@+id/head_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/clean_main_top_height"
+        android:layout_alignParentTop="true"
+        android:background="#ffD46565" >
+        
+        <TextView
+            android:id="@+id/head_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textSize="14sp"
+            android:drawablePadding="10dp"
+            android:textColor="#ffffffff"
+            android:layout_centerHorizontal="true"
+            />
+        
+        <ImageView
+            android:id="@+id/head_temp_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:contentDescription="@null"
+            android:src="@drawable/cpu_temp_pic" />
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        layout="@layout/common_title_layout"
+        android:background="#000000" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/blank_place"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/clean_main_scrollview_float_height"
+                android:visibility="invisible" />
+
+            <!--
+            <ViewStub 
+                android:id="@+id/fragment_cpu_listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/fragment_cpu_listview"
+                />
+            
+            <ViewStub 
+                android:id="@+id/fragment_cpu_floating_listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/fragment_cpu_floating_listview"
+                />
+            -->
+
+            <com.gto.zero.zboost.common.ui.floatlistview.FloatingGroupExpandableListView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/floating_listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:childDivider="@color/common_listview_divider"
+                android:divider="#00000000"
+                android:fadingEdge="none"
+                android:overScrollFooter="@null"
+                android:overScrollMode="never"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <ViewStub
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/clean_main_scrollview_height"
+            android:layout="@layout/fragment_clean_main_scrollview" />
+        
+    </FrameLayout>
+
+    <include
+        android:id="@+id/btn"
+        android:layout_width="@dimen/common_round_button_layout_width"
+        android:layout_height="@dimen/common_round_button_layout_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/common_round_button_layout"
+         />
+
+</RelativeLayout>

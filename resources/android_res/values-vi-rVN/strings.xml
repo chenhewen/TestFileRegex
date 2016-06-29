@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+
+     <!-- 越南语 -->
+    <string name="app_name">GO Speed</string>
+
+    <!-- ==========字体模块========== -->
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_families_roboto_thin">sans-serif-thin</string>
+    <string name="font_families_roboto_light">sans-serif-light</string>
+    <string name="font_families_roboto_condensed">sans-serif-condensed</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_ok">Đồng ý</string>
+    <string name="common_select">Chọn</string>
+    <string name="common_delete">Xóa</string>
+    <string name="common_others">Khác</string>
+    <string name="common_uninstall">Gỡ cài đặt</string>
+    <string name="common_back_up">Sao lưu</string>
+    <string name="common_cancel">Hủy</string>
+    <string name="common_install">Cài đặt</string>
+    <string name="common_installed">Đã cài đặt</string>
+    <string name="common_vertion">Phiên bản</string>
+    <string name="common_update">Cập nhật</string>
+    <string name="common_insufficient_storate">Không đủ dung lượng trống</string>
+    <string name="common_no_sdcard">Không tìm thấy thẻ nhớ</string>
+    <string name="common_warning">Cảnh báo</string>
+    <string name="common_uninstalled">Đã gỡ cài đặt</string>
+    <string name="common_no_content">Không có nội dung</string>
+    <string name="common_comma">,</string>
+    <string name="common_slogan">Tăng tốc điện thoại tốt hơn</string>
+    <string name="common_download">Tải xuống</string>
+    <string name="common_more">Thêm</string>
+    <string name="common_on">BẬT</string>
+    <string name="common_off">TẮT</string>
+    <string name="common_new">mới</string>
+    
+    <!-- 一周 -->
+    <string name="sunday">CN</string>
+    <string name="monday">THỨ 2</string>
+    <string name="tuesday">THỨ 3</string>
+    <string name="wednesday">THỨ 4</string>
+    <string name="thursday">THỨ 5</string>
+    <string name="friday">THỨ 6</string>
+    <string name="saturday">THỨ 7</string>
+
+    <!-- 月份 -->
+    <string name="jan">Tháng 1.</string>
+    <string name="feb">Tháng 2.</string>
+    <string name="mar">Tháng 3.</string>
+    <string name="apr">Tháng 4.</string>
+    <string name="may">Tháng 5.</string>
+    <string name="june">Tháng 6.</string>
+    <string name="july">Tháng 7.</string>
+    <string name="aug">Tháng 8.</string>
+    <string name="sept">Tháng 9.</string>
+    <string name="oct">Tháng 10.</string>
+    <string name="nov">Tháng 11.</string>
+    <string name="dec">Tháng 12.</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">Dung lượng</string>
+    <string name="main_button_boost">Tăng tốc bộ nhớ</string>
+    <string name="main_button_storage">Tập tin rác</string>
+    <string name="main_button_manage">Trình quản lý ứng dụng</string>
+    <string name="tip_press_again_to_exit">Nhấn lần nữa để thoát</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Cài đặt</string>
+    <string name="menu_update">Cập nhật</string>
+    <string name="menu_feedback">Phản hồi</string>
+    <string name="menu_about">Giới thiệu</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">Giáng sinh</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">Tăng tốc bộ nhớ</string>
+    <string name="boost_main_act_tab_running">Đang chạy</string>
+    <string name="boost_main_act_tab_autostart">Tự động khởi động</string>
+    <string name="boost_running_apps_custom">Đã chọn %1$d ứng dụng</string>
+    <string name="boosting_tips">Tăng tốc</string>
+    <string name="boosting_power_tips">Tăng thời lượng pin</string>
+    <string name="boosted_to_optimus_tips">Đã chuyển sang trạng thái tối ưu</string>
+    <string name="boosted_active_power_mode_tips">%1$d ứng dụng tự động khởi động lần nữa.\nKích hoạt Chế độ sức mạnh để xử lý!</string>
+    <string name="enable_super_boost_enable">Kích hoạt</string>
+    <string name="enable_super_boost_title">Kích hoạt Siêu chế độ</string>
+    <string name="enable_super_boost_main_text">Để tăng tốc hiệu quả hơn, chúng tôi đề nghị bạn bật tính năng tiếp cận.</string>
+    <string formatted="false" name="enable_super_boost_content_text1">Giúp ngừng hay vô hiệu hóa ứng dụng hoàn toàn.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">Gõ GO Speed trong Dịch vụ</string>
+    <string name="boost_groups_list_title_running_app">Ứng dụng đang chạy</string>
+    <string name="boost_groups_list_title_cpu_temperature">Nhiệt độ CPU</string>
+    <string name="boost_groups_list_title_lag_detected">Phát hiện độ trễ</string>
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Bật nút ở trên để kích hoạt chế độ sức mạnh của GO Speed để tăng tốc tối đa! \n\nGO Speed sử dụng tính năng tiếp cận giúp ngừng các ứng dụng không sử dụng. Xin đừng lo lắng nếu bạn thấy nhắc nhở nguy cơ bảo mật, đó chỉ là cảnh báo thông thường của dịch vụ tiếp cận.
+\n\nChúng tôi cam kết KHÔNG thu thập BẤT KỲ thông tin nào.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Tùy chọn</string>
+    <string name="autostart_type_optimization">Sẽ được tối ưu hóa</string>
+    <string name="autostart_type_allowed">Cho phép</string>
+    <string name="autostart_type_blocked">Bị khóa</string>
+    <string name="autostart_type_system">Ứng dụng đã cài đặt</string>
+    <string name="autostart_type_system_description">Khóa các ứng dụng đã cài đặt tự khởi động có thể gây bất ổn hệ thống. Xin tiến hành thận trọng</string>
+    <string name="autostart_preinstll_system">Ứng dụng đã cài đặt</string>
+    <string name="autostart_on_boot_up">Khởi động</string>
+    <string name="autostart_on_background">Nền</string>
+    <string name="autostart_on_boot_up_and_background">Khởi động nền</string>
+    <string name="autostart_detail_title">Tự khởi động trong %1$d tình huống:</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="add_to_ignore_list_act_title">Thêm vào danh sách bỏ qua</string>
+    <string name="dialog_memory_footprint">Bộ nhớ sử dụng</string>
+    <string name="dialog_add_to_ignorelist">Thêm vào bộ nhớ sử dụng</string>
+    <string name="dialog_remove_from_ignorelist">Xóa khỏi danh sách bỏ qua</string>
+    <string name="tip_ignore_list_appunchecked">Những ứng dụng này sẽ được mặc định bỏ chọn sau khi quét.</string>
+    <string name="tip_ignore_list_appadd">Gõ \'+\' để thêm ứng dụng bỏ qua.</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443"&gt;%s&lt;/font&gt; sẽ không bị quét.</string>
+    <string name="clean_ignore_empty_tips">Nhấn giữ các mục trong Tập tin rác để thêm vào Danh sách bỏ qua.</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">Trình quản lý ứng dụng</string>
+    <string name="app_manager_back_up_success_tips">ứng dụng đã được sao lưu đến:</string>
+    <string name="app_manager_back_up_success_tips_for_one">ứng dụng đã được sao lưu đến:</string>
+    <string name="app_manager_back_up_fail_tips_for_one">ứng dụng thất bại</string>
+    <string name="app_manager_backing_up">Đang sao lưu</string>
+    <string name="app_manager_running">Đang chạy</string>
+    <string name="app_manager_path">Đường dẫn</string>
+    <string name="app_manager_no_backup_found">Không tìm thấy sao lưu</string>
+    <string name="app_manager_tap_to_disable">Gõ Vô hiệu hóa/Tắt để vô hiệu hóa</string>
+    <string name="app_manager_tap_to_enable">Gõ Kích hoạt/Bật để kích hoạt</string>
+    <string name="app_manager_select_app_first">Vui lòng chọn ứng dụng trước</string>
+    <string name="app_manager_shit">Đồng ý</string>
+    <string name="app_manager_freed">Đã giải phóng</string>
+    <string name="app_manager_use_rare_month">Ít sử dụng trong tháng</string>
+    <string name="app_manager_use_rare_days">Ít sử dụng trong %s ngày</string>
+    <string name="app_manager_use_commonly">Sử dụng thường xuyên</string>
+    <string name="app_manager_android_system">Hệ thống Android</string>
+    <string name="app_manager_use_rare">Ít sử dụng</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Ứng dụng người dùng</string>
+    <string name="app_manager_tab_system">Đã cài đặt</string>
+    <string name="app_manager_tab_text_date">Ngày</string>
+    <string name="app_manager_tab_text_frequance">Tần xuất</string>
+    <string name="app_manager_tab_text_size">Kích thước</string>
+    <string name="app_manager_tab_text_battery">Pin</string>
+    <string name="app_manager_dialog_cancel">Hủy</string>
+    <string name="app_manager_dialog_backup">Sao lưu</string>
+    <string name="app_manager_dialog_uninstall">Gỡ cài đặt</string>
+    <string name="app_manager_no_uerapp">Không có ứng dụng</string>
+    
+    <string name="app_manager_preinstall_disbale_list">Ứng dụng đã vô hiệu hóa</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Vô hiệu hóa</string>
+    <string name="app_manager_preinstall_reommend_disable">% người dùng đã vô hiệu hóa</string>
+    <string name="app_manager_preinstall_reommend_keep">Đề xuất giữ lại</string>
+    <string name="app_manager_preinstall_reommend_none">Giữ nguyên</string>
+    <string name="app_manager_preinstall_tip">Vô hiệu hóa các ứng dụng ít sử dụng giúp giảm hao phí.</string>
+    <string name="app_manager_preinstall_disable_toast">đã bị vô hiệu hóa.</string>
+    <string name="app_manager_preinstall_enable_toast">đã được kích hoạt.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Vô hiệu hóa hàng loạt</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Chú ý</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[Vô hiệu hóa ứng dụng này có thể <font color="#fe6969">ảnh hưởng tính năng thông thường</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Bạn có chắc muốn chọn nó?</string>
+    <string name="app_manager_preinstall_disable_loading">Đang tải…</string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">Tập tin rác</string>
+    <string name="clean_main_suggest">Đã đề xuất</string>
+    <string name="clean_main_selected">Đã chọn</string>
+    <string name="clean_dialog_title">Chú ý</string>
+    <string name="clean_dialog_message1">Tập tin bạn chọn chứa các nội dung sau:</string>
+    <string name="gallery_thumbnails">Ảnh bộ sưu tập</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">Sau khi xóa có thể quá trình tải Bộ sưu tập sẽ chậm hơn.</string>
+    <string name="clean_group_residue">Tập tin thừa</string>
+    <string name="clean_group_cache">Tập tin đệm</string>
+    <string name="clean_group_temp">Tập tin tạm hệ thống</string>
+    <string name="clean_group_apk">Tập tin apk cũ</string>
+    <string name="clean_group_big_file">Tập tin lớn</string>
+    <string name="clean_done_tips">Đã xóa</string>
+    <string name="clean_dialog_app_cache_yes_btn">Xóa bằng tay</string>
+    <string name="clean_dialog_folder_yes_btn">Xem</string>
+    <string name="clean_dialog_file_yes_btn">Mở</string>
+    <string name="clean_dialog_media_yes_btn">Chơi</string>
+    <string name="clean_dialog_message_size">Kích thước</string>
+    <string name="clean_dialog_message_contain">Chứa</string>
+    <string name="clean_dialog_message_path">Đường dẫn</string>
+    <string name="clean_dialog_message_file">tập tin</string>
+    <string name="clean_dialog_message_folder">thư mục</string>
+    <string name="clean_done_none_tips">Xuất sắc</string>
+    <string name="clean_dialog_btn_all">Vẫn chọn</string>
+    <string name="clean_dialog_btn_next">Kiểm tra lại</string>
+    <string name="clean_group_ad">Rác quảng cáo</string>
+    <string name="clean_group_memory">Rác bộ nhớ</string>
+    <string name="clean_item_sys_cache">Bộ đệm hệ thống</string>
+    <string name="clean_file_browser_no_files">Không có tập tin</string>
+    <string name="clean_days_ago"> ngày tuổi</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969"&gt;Cẩn thận! &lt;/font&gt;%1$s</string>
+    <string name="clean_subitem_detail_connect">Đây là %1$ trong %2$</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443"&gt;Các tập tin của bạn sẽ không bị ảnh hưởng sau khi dọn sạch.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443"&gt;Việc dọn sạch hoàn toàn an toàn.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969"&gt;Bạn sẽ cần phải tải xuống lại.&lt;/font&gt;</string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969"&gt;Việc dọn sạch sẽ loại bỏ chúng mãi mãi!&lt;/font&gt;</string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Xóa</string>
+    <string name="uninstall_dialog_message_1">&lt;b&gt;%1$s&lt;/b&gt; left &lt;font color="#85c443"&gt;%2$s&lt;/font&gt; tập tin thừa.</string>
+    <string name="uninstall_dialog_message_2">Chứa: </string>
+    <string name="uninstall_clean_tips"> tập tin thừa đã bị xóa!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">Cài đặt</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Phản hồi</string>
+    <string name="container_hint_setting_feedback">Vui lòng viết bình luận tại đây, cung cấp càng chi tiết càng tốt. Chúng tôi luôn lắng nghe và cải thiện.</string>
+    <string name="notice_setting_feedback">Mẫu và phiên bản điện thoại sẽ được thu thập để phân tích vấn đề của bạn. Chúng tôi không bao giờ thu thập thông tin cá nhân của bạn khi không được phép.</string>
+    <string name="no_contain_setting_feedback">Chào, bạn có điều muốn nói à?</string>
+    <string name="sendok_setting_feedback">Cảm ơn đã nhận xét!</string>
+    <string name="checknet_setting_feedback">Vui lòng kiểm tra kết nối mạng của bạn.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">
+        <u>Thích chúng tôi trên Facebook</u>
+    </string>
+    <string name="googleplus_about_setting">
+        <u>Tham gia cộng đồng Google+</u>
+    </string>
+    <string name="googleplay_about_setting">
+        <u>Đánh giá chúng tôi trên GooglePlay</u>
+    </string>
+    <string name="title_about_setting">Giới thiệu</string>
+    <string name="share_setting_about">GO Speed giúp điện thoại của tôi nhanh hơn và sạch hơn. Thử xem! Tải xuống tại: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014–2015 ZERO Team. Mọi quyền được bảo lưu.</string>
+    <string name="law_jump_setting_about">
+        <u>Chính sách bảo mật</u>
+    </string>
+    <string name="share_title_setting_about">Chia sẻ GO Speed</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">Không thể mở kết nối</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Widget nổi</string>
+    <string name="title_notice">Thông báo</string>
+    <string name="enable_widget_setting_setting">Kích hoạt</string>
+    <string name="hide_widget_setting_setting">Giấu xuống thời gian của thanh trạng thái</string>
+    <string name="show_widget_setting_setting">Chỉ hiển thị ở màn hình chính</string>
+    <string name="memory_setting_setting">Cần tăng tốc bộ nhớ</string>
+    <string name="storge_setting_setting">Sắp hết dung lượng trống</string>
+    <string name="junk_setting_setting">Tập tin rác thừa</string>
+    <string name="autostart_setting_setting">Yêu cầu tự khởi động mới</string>
+    <string name="ignore_setting_setting">Danh sách bỏ qua</string>
+    <string name="memery_boost_setting_setting">Ứng dụng đang chạy</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">Tổng quát</string>
+    <string name="menu_general_setting_language">Ngôn ngữ</string>
+    <string name="menu_general_setting_shortcut">Tạo shortcut</string>
+    <string name="junk_clean_setting">Dọn sạch rác</string>
+    <string name="clean_ignore_title">Danh sách bỏ qua tập tin rác</string>
+    <string name="clean_ignore_list_tips">Những mục này sẽ không bị quét như tập tin rác</string>
+    <string name="menu_junk_setting">Tập tin rác</string>
+    <string name="menu_junk_setting_scan_memory">Quét rác bộ nhớ</string>
+    <string name="menu_join_uep_plan">&lt;u&gt;Chương trình trải nghiệm người dùng&lt;/u&gt;</string>
+    <string name="menu_smart_boost">Tăng tốc thông minh</string>
+    <string name="smart_boost_screen_lock">Tăng tốc thông minh ở màn hình khóa</string>
+    <string name="smart_boost_show_result">Hiển thị kết quả sau khi tăng tốc thông minh</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Bạn muốn vô hiệu hóa widget nổi?</string>
+    <string name="float_hide_float_message">Bạn cũng có thể giấu widget nổi xuống thời gian của thanh trạng thái.</string>
+    <string name="float_dialog_ok">Đồng ý</string>
+    <string name="float_dialog_cancel">Hủy</string>
+    <string name="float_dialog_hide_ok">Thử xem nào!</string>
+    <string name="float_dialog_hide_cancel">Vô hiệu hóa</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Không được phép. Vận hành thất bại!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_boost">Tăng tốc</string>
+    <string name="notification_release_more"><![CDATA[%s MB được giải phóng. <font color="#85c443">Giải phóng thêm nào!</font>]]></string>
+    <string name="notification_boost_phone_optimum"><![CDATA[Điện thoại của bạn đã ở trạng thái tối ưu. <font color="#85c443">Nhiều tính năng hơn!</font>]]></string>
+    <string name="notification_ram_black">&lt;font color="#1d1d1d"&gt;Bộ nhớ khả dụng &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;ít hơn %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_white">&lt;font color="#ffffff"&gt;Bộ nhớ khả dụng &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;ít hơn %s%%&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_ram_line2">Thiết bị có thể bị chậm khủng khiếp</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"&gt; %s các ứng dụng đang &lt;/font&gt;&lt;font color="#fe6969"&gt;làm hao pin&lt;/font&gt;</string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"&gt; %s ác ứng dụng đang &lt;/font&gt;&lt;font color="#fe6969"&gt;làm hao pin&lt;/font&gt;</string>
+    <string name="notification_ram_help_line2">Tăng tốc để tiết kiệm thời lượng pin</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d"&gt;Dung lượng sắp hết.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;Chỉ còn %s%% &lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff"&gt;Dung lượng sắp hết.&lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;Chỉ còn %s%% &lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_sdcard2_line2">Dung lượng trống có thể không đủ để tải xuống</string>
+    <string name="notification_release_more_banner">Đã làm trống. Giải phóng nhiều hơn!</string>
+    <string name="notification_release_sleep">Tăng tốc %s MB trong khi ngủ</string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d"&gt;Thiết bị đang &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;chạy chậm hơn&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff"&gt;Thiết bị đang &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;chạy chậm hơn&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_block2">Một ứng dụng đang tốn CPU nghiêm trọng</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d"&gt;CPU đang &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;nóng quá mức&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff"&gt;CPU đang &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;nóng quá mức&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_overheat2">Một ứng dụng đang chiếm CPU bất thường</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d"&gt;Nhiệt độ CPU đang &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;tăng nhanh&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff"&gt;Nhiệt độ CPU đang &lt;/font&gt;&lt;font color="#fe6969"&gt;&lt;b&gt;tăng nhanh&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="notification_cpu_hightemp2">Một ứng dụng đang chiếm CPU bất thường</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#1d1d1d"&gt;rác đang chiếm dần dung lượng trống&lt;/font&gt;</string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969"&gt;%s &lt;/font&gt;&lt;font color="#ffffff"&gt;rác đang chiếm dần dung lượng trống&lt;/font&gt;</string>
+    <string name="notification_clean_scan_message">Dọn sạch để giải phóng dung lượng điện thoại</string>
+    <string name="notification_clean_scan_help_title_black">&lt;font color="#fe6969"&gt;Rác mới &lt;/font&gt;&lt;font color="#1d1d1d"&gt;đã được tạo ra&lt;/font&gt;</string>
+    <string name="notification_clean_scan_help_title_white">&lt;font color="#fe6969"&gt;Rác mới &lt;/font&gt;&lt;font color="#ffffff"&gt;đã được tạo ra&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d"&gt;Ứng dụng thời tiết tốt nhất cho bạn&lt;/font&gt;</string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff"&gt;Ứng dụng thời tiết tốt nhất cho bạn&lt;/font&gt;</string>
+    <string name="notification_go_weather_message">Tiện ích Giáng sinh mới ra mắt!</string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d"&gt;Đã chán ngấy tin nhắn mặc định?&lt;/font&gt;</string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff"&gt;Đã chán ngấy tin nhắn mặc định?&lt;/font&gt;</string>
+    <string name="notification_go_sms_message">Tùy chỉnh tin nhắn của riêng bạn ngay!</string>
+    <string name="go_weather">GO Weather - Dự báo &amp; Tiện ích</string>
+    <string name="go_weather_done_message">Cung cấp thông tin thời tiết hiện tại &amp; tương lai, tiện ích &amp; hình nền động tuyệt đẹp.</string>
+    <string name="notification_guide_text">Bật công tắc của riêng bạn</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Mở như</string>
+    <string name="filetype_text">Văn bản</string>
+    <string name="filetype_video">Video</string>
+    <string name="filetype_audio">Âm thanh</string>
+    <string name="filetype_image">Hình ảnh</string>
+    <string name="filetype_music">Âm nhạc</string>
+    <string name="filetype_document">Tài liệu</string>
+    <string name="filetype_apk">Apk</string>
+    <string name="filetype_compression">Nén</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Phiên bản mới</string>
+    <string name="update_update">Cập nhật</string>
+    <string name="update_later">Để sau</string>
+    <string name="update_cancel">Hủy</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">Tăng tốc</string>
+    <string name="shortcut">Shortcut</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">Sau khi khởi động</string>
+    <string name="auto_start_on_connectivity_change">Khi thay đổi mạng</string>
+    <string name="auto_start_on_package_changed">Khi trạng thái ứng dụng thay đổi</string>
+    <string name="auto_start_on_package_added">Khi cài đặt ứng dụng</string>
+    <string name="auto_start_on_package_removed">Khi gỡ cài đặt ứng dụng</string>
+    <string name="auto_start_on_package_replaced">Khi thay đổi ứng dụng</string>
+    <string name="auto_start_on_any_data_state">Khi dữ liệu bị thay đổi</string>
+    <string name="auto_start_on_outgoing_call">Trong suốt cuộc gọi đi</string>
+    <string name="auto_start_on_phone_state_changed">Khi gác máy</string>
+    <string name="auto_start_on_user_present">Khi mở khóa</string>
+    <string name="auto_start_on_wifi_state_change">Khi kết nối Wi-Fi</string>
+    <string name="auto_start_on_wifi_enable_change">Khi Bật/Tắt Wi-Fi</string>
+    <string name="auto_start_on_time_set">Khi thiết đặt thời gian</string>
+    <string name="auto_start_on_bluetooth_state_change">Khi thay đổi trạng thái Bluetooth</string>
+    <string name="auto_start_on_power_connected">Khi kết nối với dây sạc</string>
+    <string name="auto_start_on_power_disconnected">Khi gỡ dây sạc</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">Bật tắt thông báo</string>
+    <string name="notification_toggle_nocal">Không tìm thấy máy tính!</string>
+    <string name="notification_toggle_open">Bật tắt thông báo GO Speed được kích hoạt.</string>
+    <string name="notification_toggle_noflash">Thiết bị của bạn không có đèn pin!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">GO Speed hỗ trợ %s, áp dụng ngay?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Lỗi kết nối.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">Tải xuống ngôn ngữ thất bại.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Dung lượng</string>
+    <string name="storage_main_act_details">Chi tiết</string>
+    <string name="storage_main_act_tab_used_space">Dung lượng đã sử dụng</string>
+    <string name="storage_main_act_tab_app_total">%s Ứng dụng</string>
+    <string name="storage_main_act_tab_audio_total">%s Âm nhạc</string>
+    <string name="storage_main_act_tab_image_total">%s Hình ảnh</string>
+    <string name="storage_main_act_tab_document_total">%s Tài liệu</string>
+    <string name="storage_main_act_tab_other_total">Khác</string>
+    <string name="file_category_image_title">Hình ảnh</string>
+    <string name="file_category_image_delete_dialog_msg_1">tập tin sẽ bị xóa.</string>
+    <string name="file_category_image_delete_dialog_msg_2">Các tập tin bị xóa không thể phục hồi!</string>
+    <string name="file_category_video_no_content">Không có video</string>
+    <string name="file_category_video_delete_msg">Video sẽ bị xóa.</string>
+    
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">Tổng cộng %s video</string>
+    <string name="video_title_selected">Đã chọn %s video</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Âm nhạc</string>
+    <string name="music_group_music">Âm nhạc</string>
+    <string name="music_group_rings">Chuông</string>
+    <string name="music_group_record">Ghi âm</string>
+    <string name="music_dialog_title">Cảnh báo</string>
+    <string name="music_dialog_delete_cancel">Hủy</string>
+    <string name="music_dialog_delete_delete">Xóa</string>
+    <string name="music_dialog_delete_notice">tập tin sẽ bị xóa.</string>
+    <string name="music_dialog_delete_notice_below">Các tập tin bị xóa không thể phục hồi!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">Tài liệu</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">KHÁC</string>
+    <string name="image_dialog_title">Xóa</string>
+    <string name="image_dialog_text1">Tập tin này sẽ bị xóa.</string>
+    <string name="image_dialog_text2">Bạn chắc chắn?</string>
+    <string name="image_no_selected">Không có tập tin nào được chọn.</string>
+    <string name="image_size_notice">%s đã được dọn sạch!</string>
+    <string name="image_delete_layout_text">Xóa(%s)</string>
+    <string name="image_delete_ok">Có</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Không thể xóa các tập tin này.</string>
+    <string name="no_app_to_open_file">Không mở được tập tin</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Kéo nó tới đây để tăng tốc điện thoại của bạn.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">Đang vô hiệu hóa</string>
+    <string name="disable_apps_done_disable_count">%s vô hiệu hóa!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">GO Speed đang giữ chúng không hoạt động</string>
+    <string name="disable_apps_wait_to_stop_tips">Đang cố ngừng, xin chờ…</string>
+    <string name="disable_list_no_app_tip">Không có ứng dụng bị vô hiệu hóa</string>
+    
+    
+    <!-- 预装应用禁用 -->
+    <string name="disable_group_most_disable_title">Vô hiệu hóa nhiều nhất</string>
+    <string name="disable_group_recommend_keeping_title">Đề nghị giữ lại</string>
+    <string name="disable_group_recommend_keeping_subtitle">Vô hiệu hóa có thể gây lỗi hệ thống</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Vô hiệu hóa</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Kích hoạt</string>
+    <string name="disable_app_info_dialog_consuming_tip">Ứng dụng này có thể tiêu hao bộ nhớ hệ thống</string>
+    <string name="disable_app_info_dialog_system_error_tip">Vô hiệu hóa có thể gây lỗi hệ thống</string>
+    <string name="disable_app_info_dialog_no_statement">Bạn có thể thử vô hiệu hóa nó nếu không cần thiết</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Dịch vụ cài đặt sẵn của nhà sản xuất</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&lt;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">Cài đặt ngay</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Hoan hô!</string>
+    <string name="rate_gp_dialog_feedback_title">Phản hồi</string>
+    <string name="rate_gp_dialog_rate_title">Yêu GO Speed</string>
+    <string name="rate_gp_dialog_one_notice_boost">Trong %1$s ngày qua, GO Speed đã tiêu diệt &lt;font color="#85c443"&gt; %2$s &lt;/font&gt;ứng dụng gây trễ cho bạn.&lt;br /&gt; &lt;br/&gt; &lt;font color="#85c443"&gt;Bạn thích GO Speed chứ?&lt;/font&gt;</string>
+    <string name="rate_gp_dialog_one_no_boost">Không thích lắm</string>
+    <string name="rate_gp_dialog_one_yes_boost">Có!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Bạn vừa thành công dọn sạch &lt;font color="#85c443"&gt; %s &lt;/font&gt; rác! &lt;br /&gt; &lt;br/&gt;Bạn thấy GO Speed thế nào?</string>
+    <string name="rate_gp_dialog_one_no_clean">Không tuyệt lắm</string>
+    <string name="rate_gp_dialog_one_yes_clean">Yêu rồi!</string>
+    <string name="rate_gp_dialog_two_notice">Bạn sẵn lòng cho chúng tôi ý kiến phản hồi chứ?? \nMọi ý kiến của bạn đều quan trọng đối với chúng tôi.</string>
+    <string name="rate_gp_dialog_two_no">Không, cảm ơn</string>
+    <string name="rate_gp_dialog_two_yes">OK, chắc chắn rồi</string>
+    <string name="rate_gp_dialog_three_notice">Thế một đánh giá 5 sao thì sao?</string>
+    <string name="rate_gp_dialog_three_no">Không, cảm ơn</string>
+    <string name="rate_gp_dialog_three_yes">OK, chắc chắn rồi</string>
+    <string name="rate_gp_notification_notice">Đến nay bạn đã tiêu diệt %s ứng dụng gây trễ. Xem qua nhé?</string>
+
+    <!-- 启动页 -->
+    <string name="private_start">BẮT ĐẦU</string>
+    <string name="private_join_uep">&lt;u&gt;Chương trình trải nghiệm người dùng&lt;/u&gt;</string>
+    <string name="privacy_start_by_agree_policy">Đồng ý với &lt;u&gt;Chính sách bảo mật&lt;/u&gt;</string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">đã cài đặt, dọn sạch apk không cần thiết để tiết kiệm</string>
+    <string name="install_listen_installed_multiple_msg">Đã cài đặt ứng dụng, dọn sạch apk không cần thiết để tiết kiệm</string>
+    <string name="install_listen_delete_apk_tip">Đã dọn sạch</string>
+    <string name="install_listen_dialog_clean_btn_text">Dọn sạch</string>
+    <string name="install_listen_dialog_cancel_btn_text">Hủy</string>
+    <string name="install_listen_dialog_eye_tip_on">Đừng hỏi lại trong 3 ngày</string>
+    <string name="install_listen_dialog_eye_tip_off">Cứ hỏi tôi</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">Tăng tốc game</string>
+    <string name="game_boost_add_to_game_title">Thêm game</string>
+    <string name="game_boost_effect">Tăng tốc &lt;font color="#85c443"&gt;%s &lt;/font&gt; thêm RAM đang chạy cho game.</string>
+    <string name="game_cell_add">Thêm game</string>
+    <string name="game_cell_ok">OK</string>
+    <string name="game_boost_menu_about">Cách thức hoạt động</string>
+    <string name="game_boost_menu_add_shutcut">Tạo thư mục game</string>
+    <string name="game_boost_folder_create_success">Tạo thư mục game thành công.</string>
+    <string name="game_boost_box_shortcut_name">Tăng tốc game</string>
+    <string name="game_boost_box_shortcut_name_new">Game của tôi</string>
+    <string name="game_boost_add_card_view_title_popular">Game phổ biến</string>
+    <string name="game_boost_add_new_game_to_boost">%s được thêm vào Tăng tốc game</string>
+    <string name="game_boost_add_new_games_to_boost">%s game mới được thêm vào Tăng tốc game</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Đang tăng tốc…</string>
+    <string name="game_accel_anim_boost_toast_tip">Đã tăng tốc, tăng %s%%.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">Trục tặc CPU</string>
+    <string name="cpu_fix">SỬA CHỮA</string>
+    <string name="cpu_check">Kiểm tra</string>
+    <string name="cpu_issue_type_temp_overheated">Quá nóng!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Đang tăng nhanh!</string>
+    <string name="cpu_issue_type_heavily_occupied">CPU bị chiếm dụng nặng!</string>
+    <string name="cpu_temp_issue_app">đang gây ra vấn đề</string>
+    <string name="cpu_occupied_issue_app">Tiêu hao &lt;font color="#D46565"&gt; %s &lt;/font&gt; CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">Trình làm mát CPU</string>
+    <string name="cpu_coll_down_cpu">Làm mát CPU</string>
+    <string name="cpu_temperature_issue">Vấn đề về nhiệt độ</string>
+    <string name="cpu_device_running_slow">Thiết bị chạy chậm</string>
+    <string name="cpu_issue_detected">Phát hiện vấn đề</string>
+    <string name="cpu_cool_down_further">Làm mát hơn nữa, dọn sạch %s ứng dụng đang chạy</string>
+    <string name="cpu_temp_well">Nhiệt độ CPU đang ổn</string>
+    <string name="cpu_temp_hot">Hơi nóng</string>
+    <string name="cpu_temp_overheated">Quá nóng</string>
+    <string name="cpu_temp_chilling">Đang làm mát</string>
+    <string name="cpu_temp_cooler">Trình làm mát CPU</string>
+    <string name="cpu_occupy">Chiếm dụng &lt;font color="#D46565"&gt; %s &lt;/font&gt; CPU</string>
+    <string name="cpu_abnormal">Sử dụng CPU bất thường: &lt;font color="#D46565"&gt; %s &lt;/font&gt;</string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Vừa được tối ưu hóa</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Cho thiết bị nghỉ một lát để làm mát</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Không có ứng dụng gây nóng</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Thiết bị đang mát dần</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Ứng dụng gây nóng đã được dọn sạch</string>
+    <string name="cpu_anim_cooldown_done_dropped">Đã hạ</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Bắt đầu làm mát…</string>
+    <string name="cpu_anim_scan_process_tip_text">Đang quét CPU…</string>
+    <string name="cpu_anim_lag_done_tip_text">Đã tăng tốc!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">Vui lòng kiểm tra kết nối mạng và thử lại</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Thử trình tăng tốc game</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Trình tăng tốc game được tạo trên màn hình thành công, mời bạn thử xem :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Đã kích hoạt</string>
+    <string name="finish_page_card_game_booster_desc">Quà tặng cho game thủ! Tính năng tăng tốc game hiệu quả &amp; hấp dẫn nhất</string>
+    <string name="finish_page_card_game_booster_desc_single_game">Kích hoạt Tăng tốc game để tăng tốc &lt;big&gt;%s&lt;/big&gt; lên đến 65%% ?</string>
+    <string name="finish_page_card_game_booster_btn">Thử ngay</string>
+
+    <string name="finish_page_card_whitelist_name">Các ứng dụng không bị tiêu diệt</string>
+    <string name="finish_page_card_whitelist_desc">Các ứng dụng quan trọng trong Danh sách bỏ qua sẽ không bị tiêu diệt bởi trình tăng tốc. Có thể chỉnh sửa danh sách này.</string>
+    <string name="finish_page_card_whitelist_btn">Thử ngay</string>
+    <string name="finish_page_card_autostart_name">Tìm thấy tự động chạy</string>
+    <string name="finish_page_card_autostart_desc">&lt;big&gt;%s&lt;/big&gt; ứng dụng tự động chạy cần tối ưu hóa</string>
+    <string name="finish_page_card_autostart_btn">Kiểm tra</string>
+    <string name="finish_page_card_photo_name">Dọn sạch ảnh</string>
+    <string name="finish_page_card_photo_desc">Hơn &lt;big&gt;%s ảnh&lt;/big&gt; đã chụp, nhưng có lẽ không phải tất cả đều đáng lưu trữ?</string>
+    <string name="finish_page_card_photo_btn">Dọn sạch</string>
+    <string name="finish_page_card_clean_1_name">Rác cần xóa</string>
+    <string name="finish_page_card_clean_1_desc">Chiếc điện thoại lì lợm đã tạo ra &lt;big&gt;%s&lt;/big&gt; rác gần đây</string>
+    <string name="finish_page_card_clean_1_btn">Dọn sạch</string>
+    <string name="finish_page_card_activate_power_mode_title">%s ứng dụng &lt;big&gt;tự động chạy&lt;/big&gt;</string>
+    <string name="finish_page_card_activate_power_mode_desc">Kích hoạt &lt;big&gt;Chế độ pin&lt;/big&gt; để xử lý</string>
+    <string name="finish_page_card_activate_power_mode_btn">Kích hoạt</string>
+    <string name="finish_page_card_feedback_name">Cho chúng tôi biết cảm nghĩ của bạn</string>
+    <string name="finish_page_card_feedback_desc">Tính năng ưa thích, đề xuất, bất cứ điều gì</string>
+    <string name="finish_page_card_feedback_btn">Phản hồi</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Tăng tốc điện thoại</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Giải phóng bộ nhớ để tăng tốc điện thoại</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Tăng tốc</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big&gt;%s%% bộ nhớ&lt;/big&gt; còn lại</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s ứng dụng đang chạy đang chiếm dụng bộ nhớ, điện thoại có thể rất chậm</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Tăng tốc ngay</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Vô hiệu hóa cài đặt sẵn</string>
+    <string name="finish_page_card_disable_desc">%1$s ứng dụng cài đặt sẵn, &lt;big&gt;%2$s&lt;/big&gt; có thể bị vô hiệu hóa</string>
+    <string name="finish_page_card_disable_btn">Kiểm tra</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Kiểm tra xem ai bí mật tự động chạy</string>
+    <string name="finish_page_no_ad_clean2_tips">Rác sẽ làm chậm điện thoại</string>
+    <string name="finish_page_no_ad_clean1_tips">Rác cần được dọn sạch hàng ngày</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">Game cũng cần trình tăng tốc!</string>
+    <string name="finish_page_no_ad_disable_tips">Một số ứng dụng cài đặt sẵn thực sự vô ích</string>
+    <string name="finish_page_no_ad_photo_tips">Có thể tiết kiệm thật nhiều dung lượng!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">Chế độ pin có thể chặn đứng những ứng dụng khó nhằn!</string>
+    <string name="finish_page_no_ad_whitelist_tips">Đừng tiêu diệt nhầm ứng dụng bạn cần!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">Điện thoại đang chạy chậm</string>
+    <string name="finish_page_no_ad_boost_normal_tips">Điện thoại có thể nhanh hơn</string>
+
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">Thêm game</string>
+    <string name="game_accel_guide_title">Tăng tốc game</string>
+    <string name="game_accel_guide_text2">đã được kích hoạt</string>
+    <string name="game_accel_guide_try_text">Chạm để thử!</string>
+    <string name="game_accel_guide_gamename_1">Đã tạo shortcut</string>
+    <string name="game_accel_guide_gamename_2">Mở trên desktop</string>
+    <string name="game_accel_guide_gamename_3">Đang quét game game…</string>
+    <string name="game_accel_guide_discovery_text_above">Channel Z</string>
+    <string name="game_accel_sec_anim_title">GAME</string>
+    <string name="game_accel_shortcut_created">Đã tạo</string>
+    <string name="game_accel_tip_dialog_content_text_new">Kích hoạt Tăng tốc game để tăng tốc &lt;font color="#85c443"&gt;\"%s\"&lt;/font&gt; lên đến 65%%?</string>
+    <string name="game_accel_sort_name">Tên</string>
+    <string name="game_accel_sort_Date">Ngày</string>
+    <string name="game_accel_sort_Frequency">Tần suất</string>
+    <string name="game_accel_game_box_title">Quản lý game</string>
+    <string name="game_accel_add_shortcut">Thêm shortcut</string>
+
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">KHÁM PHÁ</string>
+    <string name="game_distribute_connection_failed">Kết nối thất bại</string>
+    <string name="game_distribute_net_data_alert">Chơi bằng WIFI có thể giảm tiêu hao dữ liệu</string>
+    <string name="game_distribute_warning_title">GO Speed TV</string>
+    <string name="game_distribute_warning_content"> Những ảnh động có trong video thật khó tin.\nVideo được hiển thị không chỉ cho mục đích sử dụng tại gia mà còn vì \n những quyền lợi khác. Việc chạm hay xem những ảnh động này rất\n được hoan nghênh với GO Speed. Chúng tôi chân thành khuyên bạn \n chơi game điều độ.</string>
+    <string name="game_distribute_video_title">Kênh</string>
+    <string name="game_distribute_game_searching">Đang tìm game...</string>
+
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534"&gt;ứng dụng nặng &lt;/font&gt;</string>
+    <string name="cpu_thieves_title">Top 3 &lt;font color="#6ac534"&gt;trộm CPU hôm nay &lt;/font&gt;</string>
+    <string name="num_times">%s lần</string>
+
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Bộ nhớ khả dụng vô cùng thấp!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+
+    <string name="home_guide_card_photo_desc1">Chụp ảnh rất dễ</string>
+    <string name="home_guide_card_photo_desc2">xóa chúng lại không hề dễ dàng</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+
+    <string name="home_guide_card_cpu_desc">CPU quá nóng gây hao pin</string>
+
+    <string name="home_guide_card_disbale_desc">Xử lý ứng dụng cài đặt sẵn!</string>
+    <string name="home_guide_card_disbale_desc2">Điện thoại của bạn có thể nhanh hơn!</string>
+    <string name="home_guide_card_disbale_desc_big">%s ứng dụng</string>
+
+    <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Tăng tốc Chế độ pin</string>
+    <string name="enable_super_boost_mode_normal">Tăng tốc bình thường</string>
+    <string name="enable_super_boost_desc_super">&lt;b&gt;Tăng tốc:&lt;/b&gt; Ứng dụng bình thường, &lt;mark&gt;&lt;font color="red"&gt;Ứng dụng tự động chạy&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;Mang lại thêm 60% năng lượng tăng tốc giống điện thoại đã root.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (Vui lòng mở khả năng truy cập cho GO Speed ở bước tiếp theo)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b&gt;Tăng tốc:&lt;/b&gt; Ứng dụng bình thường, &lt;mark&gt;&lt;font color="red"&gt;Ứng dụng tự động chạy&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+    &lt;b&gt;&lt;font color="red"&gt;Mang lại thêm 60% năng lượng tăng tốc giống điện thoại đã root.&lt;/font&gt;&lt;/b&gt;&lt;br&gt;
+        (Vui lòng mở lại khả năng truy cập cho GO Speed ở bước tiếp theo)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b&gt;Tăng tốc:&lt;/b&gt; Ứng dụng bình thường&lt;br&gt;
+      Ứng dụng tự động chạy sẽ không được tăng tốc ngoại trừ chế độ pin.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">Tăng tốc điện thoại ngay!</string>
+
+
+    <string name="enable_super_disable_mode_super">Vô hiệu hóa hàng loạt</string>
+    <string name="enable_super_disable_mode_normal">Vô hiệu hóa bằng tay</string>
+    <string name="enable_super_disable_desc_super">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;Tín năng:&lt;/b&gt; Vô hiệu hóa hàng loạt ứng dụng vô ích chỉ với 1 cú nhấp.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (Vui lòng mở khả năng truy cập cho GO Speed ở bước tiếp theo)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark&gt;&lt;font color="red"&gt;&lt;b&gt;Tính năng:&lt;/b&gt; Vô hiệu hóa hàng loạt ứng dụng vô ích chỉ với 1 cú nhấp.&lt;/font&gt; &lt;/mark&gt;&lt;br&gt;
+        (Vui lòng mở lại công tắc cho GO Speed khi điện thoại của bạn đã khởi động lại)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b&gt;Tính năng:&lt;/b&gt; Vô hiệu hóa từng ứng dụng vô ích một. &lt;br&gt;
+                    &lt;mark&gt;&lt;font color="red"&gt;Tính năng vô hiệu hóa hàng loạt giúp dễ điều khiển được khuyên dùng.&lt;/font&gt; &lt;/mark&gt;
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Kích hoạt tính năng vô hiệu hóa hàng loạt</string>
+
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Cài đặt công tắc thông báo</string>
+    <string name="notification_toggle_settings_label_themes">Chủ đề</string>
+    <string name="notification_toggle_settings_label_toggles">Công tắc</string>
+    <string name="notification_toggle_settings_label_zspeed">CỔ ĐIỂN</string>
+    <string name="notification_toggle_settings_label_popular">PHỔ BIẾN NHẤT</string>
+    <string name="notification_toggle_theme_name_green">Demeter</string>
+    <string name="notification_toggle_theme_name_pink">Athena</string>
+    <string name="notification_toggle_theme_name_black">Erebus</string>
+    <string name="notification_toggle_theme_name_silver">Uranus</string>
+    <string name="notification_toggle_theme_name_golden">Kronos</string>
+    <string name="notification_toggle_toggle_name_app">Màn hình chính</string>
+    <string name="notification_toggle_toggle_name_boost">Tăng tốc</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">Đèn pin</string>
+    <string name="notification_toggle_toggle_name_brightness">Độ sáng</string>
+    <string name="notification_toggle_toggle_name_themes">Chủ đề</string>
+    <string name="notification_toggle_toggle_name_wifi">Wifi</string>
+    <string name="notification_toggle_toggle_name_data">Dữ liệu</string>
+    <string name="notification_toggle_toggle_name_camera">Máy ảnh</string>
+    <string name="notification_toggle_toggle_name_calculator">Máy tính</string>
+    <string name="notification_toggle_toggle_name_rotate">Xoay</string>
+    <string name="notification_toggle_toggle_name_sound">Âm thanh</string>
+    <string name="notification_toggle_bright_auto">TỰ ĐỘNG</string>
+    <string name="notification_toggle_notification_ticker">Thanh công cụ GO Speed bên cạnh</string>
+    <string name="notification_toggle_notification_ticker_initializing">Thanh công cụ đang khởi động…</string>
+
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Gõ nội dung cần tìm kiếm</string>
+    <string name="hot_word_search_next_batch">Thêm</string>
+
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Ảnh trùng lặp</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">đã dọn sạch %1$s ảnh!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Tất cả ảnh trùng lặp đã được dọn sạch!</string>
+    <string name="duplicate_photos_delete_alert_title">Xóa vĩnh viễn</string>
+    <string name="duplicate_photos_delete_alert_desc">Bạn có chắc muốn xóa chúng vĩnh viễn?</string>
+    <string name="duplicate_photos_scan_alert">Quá trình quét có thể mất một lát, vui lòng đợi</string>
+    <string name="duplicate_photos_no_content">Chúc mừng! Không có ảnh trùng lặp!</string>
+    <string name="duplicate_photos_suffix_selected">đã chọn %s</string>
+    <string name="duplicate_photos_suffix_total">tổng cộng %s ảnh</string>
+
+    <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">Game hay nhất tuần</string>
+    <string name="game_ad_notification_label_weekly_best_app">Ứng dụng hay nhất tuần</string>
+
+    <!-- app lock -->
+    <string name="activity_applock_title">KHÓA ỨNG DỤNG</string>
+    <string name="app_lock_perm_settings_title">Cài đặt</string>
+    <string name="app_lock_perm_settings_message">Yêu cầu cấp phép</string>
+    <string name="app_lock_notice_enable_usage_stats">Ở Android 5.0 trở lên, bạn phải cấp quyền truy cập sử dụng cho AppLock để có thể sử dụng tính năng Khóa ứng dụng.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_enable_usage_stats">Cấp phép</string>
+    <string name="install_app_mointor_locker">Cần phải khóa</string>
+    <string name="locker_header_forget_pwd">Quên mã khóa</string>
+    <string name="locker_header_replce_number_locker">Chuyển sang khóa bằng mã khóa</string>
+    <string name="locker_header_replce_graphic_locker">Chuyển sang khóa bằng họa tiết</string>
+    <string name="initializationpassword_frist_prompt">đặt mã khóa</string>
+    <string name="initializationpassword_second_prompt">Điền mã khóa lần nữa để xác nhận</string>
+    <string name="initializationpassword_pwd_not_equals">Mã khóa không khớp, vui lòng điền lại</string>
+    <string name="init_email_prompt">Email nếu quên mật khẩu</string>
+    <string name="init_email_prompt1">Vui lòng điền mail đúng</string>
+    <string name="init_mail_btn_text">Xong</string>
+    <string name="forget_reset_pwd_success">Đặt lại mã khóa thành công</string>
+    <string name="activity_applock_group_apps">ỨNG DỤNG</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">Cài đặt Khóa ứng dụng</string>
+    <string name="app_lock_setting_parent_unlock_mode">Chế độ mở khóa</string>
+    <string name="app_lock_setting_passcode">Mã khóa</string>
+    <string name="app_lock_setting_others">Khác</string>
+    <string name="app_lock_setting_unlock_mode_numbers">Số</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Họa tiết</string>
+    <string name="app_lock_setting_passcode_change_passcode">Đổi mã khóa</string>
+    <string name="app_lock_setting_passcode_email_setting">Cài đặt email</string>
+    <string name="app_lock_setting_others_brief_eixt">Cho phép thoát nhanh</string>
+    <string name="app_lock_setting_others_relock">Khóa lại sau khi bật màn hình</string>
+    <string name="app_lock_setting_brief_eixt_seconds">giây</string>
+    <string name="app_lock_setting_brief_eixt_minutes">phút</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">Quên mã khóa</string>
+    <string name="forget_email_prompt1">1)Chúng tôi sẽ gửi mã xác thực đến mail của bạn.</string>
+    <string name="forget_email_prompt2">2)Điền mã xác thực để nhận mã khóa của bạn.</string>
+    <string name="forget_email_btn_prompt">Gửi</string>
+    <string name="forget_email_btn_prompt2">Đặt lại mã khóa</string>
+    <string name="forget_email_edit_prompt">Mã xác thực</string>
+    <string name="forget_check_code_not_right">Sai</string>
+    <string name="forget_check_code_out_of_time">Xác thực hết hạn, vui lòng yêu cầu lại.</string>
+    <string name="forget_send_email_error">Gửi email thất bại, vui lòng thử lại.</string>
+    <string name="forget_send_email_success">Gửi email thành công, vui lòng kiểm tra hộp thư.</string>
+    <string name="set_graphic_password_message_draw">Vẽ một họa tiết mở khóa</string>
+    <string name="set_graphic_password_message_too_short">Nối tối thiểu 4 điểm với nhau. Vui lòng thử lại:</string>
+    <string name="set_graphic_password_message_stored">Họa tiết đã lưu.</string>
+    <string name="set_graphic_password_message_redraw">Vẽ lại để xác nhận:</string>
+    <string name="set_graphic_password_btn_redraw">Thử lại</string>
+    <string name="set_graphic_password_message">Cài đặt mã khóa</string>
+    <string name="set_graphic_password_message_wrong">Lỗi, vui lòng thử lại:</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">Khóa bảo mật chuyên nghiệp miễn phí!</string>
+    <string name="lokcer_init_instruction_first">Cài đặt mật khẩu để khóa ứng dụng riêng tư của bạn</string>
+    <string name="lokcer_init_instruction_second">Xác nhận lại mật khẩu của bạn</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">Khóa ứng dụng</string>
+    <string name="finish_page_card_app_locker_desc">Giữ &lt;big&gt;%s&lt;/big&gt; và những thứ khác khỏi bị nhìn trộm bằng tính năng Khóa ứng dụng!</string>
+    <string name="finish_page_card_app_locker_btn">Bảo vệ ngay</string>
+    <string name="finish_page_no_ad_app_lock_tips">Điện thoại có thể nhanh hơn</string>
+
+    <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff"&gt;%1$s&lt;/font&gt;</string>
+
+    <!-- Storage 2.0改版 -->
+    <string name="filecategory_sec_picture_title">Hình ảnh</string>
+    <string name="filecategory_sec_picture_unit">Tất cả</string>
+    <string name="filecategory_sec_deep_clean_title">Dọn sạch kỹ càng</string>
+    <string name="filecategory_sec_music_title">Âm nhạc</string>
+    <string name="filecategory_sec_music_unit">Bài hát</string>
+    <string name="filecategory_sec_music_units">Bài hát</string>
+    <string name="filecategory_sec_music_instruction">Dọn sạch các bài hát bạn không nghe nữa</string>
+    <string name="filecategory_sec_video_title">Video</string>
+    <string name="filecategory_sec_video_unit">Video</string>
+    <string name="filecategory_sec_video_units">Video</string>
+    <string name="filecategory_sec_video_instruction">Dọn sạch những video đã xem để tiết kiệm dung lượng</string>
+    <string name="filecategory_sec_uninstall_title">Gỡ cài đặt</string>
+    <string name="filecategory_sec_uninstall_unit">Ứng dụng</string>
+    <string name="filecategory_sec_uninstall_units">Ứng dụng</string>
+    <string name="filecategory_sec_uninstall_instruction">Gỡ cài đặt những thứ  không còn cần thiết</string>
+    <string name="filecategory_sec_big_file_title">Tập tin lớn</string>
+    <string name="filecategory_sec_big_file_unit">Tập tin</string>
+    <string name="filecategory_sec_big_file_units">Tập tin</string>
+    <string name="filecategory_sec_big_file_instruction">Khám phá các thư mục và tập tin lớn</string>
+    <string name="filecategory_sec_picture_duplicate_unit">Trùng lặp</string>
+    <string name="filecategory_sec_deep_clean_other_instuction">%s Ứng dụng khác</string>
+    <string name="filecategory_sec_header_top_text">Đã dùng %1$s  Tổng cộng %2$s</string>
+    <string name="filecategory_sec_bar_instuction_pic">Hình ảnh</string>
+    <string name="filecategory_sec_bar_instuction_app">Ứng dụng</string>
+    <string name="filecategory_sec_bar_instuction_video">Video</string>
+    <string name="filecategory_sec_bar_instuction_music">Âm nhạc</string>
+    <string name="filecategory_sec_bar_instuction_other">Khác</string>
+    <string name="filecategory_sec_list_item_scanning">ĐANG QUÉT...</string>
+    <string name="filecategory_sec_list_item_check">KIỂM TRA</string>
+    <string name="filecategory_sec_list_item_collapse">Thu gọn</string>
+    <string name="filecategory_sec_list_item_empty_text">Không có tập tin</string>
+    <string name="filecategory_sec_list_item_empty_text_duplicate">Không có ảnh trùng lặp</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_null">Tập tin không rõ</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_image">Tập tin ảnh</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_other">Tập tin khác</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_video">Tập tin video</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_audio">Tập tin âm thanh</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_resource">Gói tài nguyên</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_apk">APK</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_game">Tập tin game</string>
+    <string name="filecategory_sec_deep_clean_file_type_name_ad">Tập tin quảng cáo</string>
+    <!-- 带删除的文件管理器 -->
+    <string name="filecategory_broswer_group_title">Tất cả tập tin</string>
+
+    <!-- BigFile -->
+    <string name="filecategory_bigfile_title">Tập tin lớn</string>
+    <string name="filecategory_bigfile_title_select_text_one">&lt;font color="#f77071"&gt;Tập tin đã xóa không thể phục hồi!&lt;/font&gt;</string>
+    <string name="filecategory_bigfile_title_select_text_two">Chắc chắn chọn?</string>
+    <string name="filecategory_bigfile_title_select_text_check">Tạm thời không hiển thị</string>
+    <string name="big_file_group_item_size">&lt;font color="#ff0000"&gt;Dung lượng:%1$s&lt;/font&gt;</string>
+    <string name="big_file_group_item_path">Đường dẫn:%1$s</string>
+    <string name="big_file_scan_text">Đang quét %1$s tập tin lớn</string>
+    <string name="big_file_all_size"> Tổng cộng %1$s tập tin</string>
+    <string name="big_file_selected_size">Đã chọn %1$s tập tin</string>
+    <string name="big_file_delete">Xóa</string>
+    <string name="big_file_detail_view">Xem</string>
+    <string name="big_file_delete_detail">Chắc chắn muốn xóa các tập tin đã chọn?</string>
+    <string name="big_file_delete_size">Đã xóa %1$s tập tin!</string>
+
+    <!-- 应用专清页面 -->
+    <string name="deep_clean_single_page_title_suggestion">Tổng cộng</string>
+    <string name="deep_clean_single_page_card_clean">Dọn sạch</string>
+    <string name="deep_clean_single_page_card_to_clean">KIỂM TRA</string>
+    <string name="deep_clean_single_page_card_cleaning">ĐANG DỌN SẠCH</string>
+    <string name="deep_clean_single_page_card_cleaned">ĐÃ DỌN SẠCH</string>
+    <string name="deep_clean_warn_level_0_desc">Các tập tin của bạn sẽ không bị ảnh hưởng sau khi dọn sạch</string>
+    <string name="deep_clean_warn_level_1_desc">Việc dọn sạch hoàn toàn an toàn</string>
+    <string name="deep_clean_warn_level_2_desc">Bạn sẽ cần phải tải xuống lại sau khi dọn sạch</string>
+    <string name="deep_clean_warn_level_10_desc">Việc dọn sạch sẽ loại bỏ chúng mãi mãi</string>
+    <string name="deep_clean_warn_level_11_desc">KHÔNG khuyến khích dọn sạch</string>
+
+    <!-- 主界面2.0 -->
+    <string name="home_page_ram_info_text">%1$s Trống / %2$s Tổng</string>
+    <string name="home_page_storage_info_text">%1$s Trống / %2$s Tổng</string>
+    <!-- 侧边栏页面 -->
+    <string name="home_page_drawer_like_us">Thích chúng tôi</string>
+    <string name="home_page_drawer_z_family">Gia đình GO </string>
+    <string name="home_page_drawer_theme">Chủ đề</string>
+
+
+    <!-- 省电 -->
+    <string name="setting_charge_group">Trình tiết kiệm pin</string>
+    <string name="setting_charge">Sạc nhanh</string>
+	<string name="power_saving_charging_text">Sạch đầy còn lại &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+	<string name="power_saving_left_power_text">Thời gian khả dụng &lt;font color="#ffce54"&gt;%1$s&lt;/font&gt;</string>
+    <string name="power_saving_mode_speed">Tốc độ</string>
+    <string name="power_saving_mode_contiuous">Liên tục</string>
+    <string name="power_saving_mode_trickle">Từng giọt</string>
+    <string name="power_saving_mode_speed_instruction">Pin sạc nhanh đến 80%</string>
+    <string name="power_saving_mode_contiuous_instruction">Dòng điện được hạ xuống để sạc pin</string>
+    <string name="power_saving_mode_trickle_instruction">Dùng sạc từng giọt giúp tăng thời lượng pin</string>
+    <string name="power_saving_accel_result_text">&lt;font color="#ffce54"&gt;%1$s&lt;/font&gt; ứng dụng hao pin đã bị ngừng để tiết kiệm &lt;font color="#ffce54"&gt;%2$s&lt;/font&gt; thời gian sạc</string>
+    <string name="power_saving_menu_clost">Tắt</string>
+    <string name="power_saving_menu_dialog_title">Thử tắt Sạc nhanh</string>
+    <string name="power_saving_menu_dialog_content">Tốc độ sạc của bạn sẽ không được tăng tốc. Vẫn muốn tắt?</string>
+    <string name="power_saving_menu_dialog_cancel">Không phải bây giờ</string>
+    <string name="power_saving_menu_dialog_confim">Tắt</string>
+    <string name="power_saving_time_unit_hour">giờ</string>
+    <string name="power_saving_time_unit_minute">phút</string>
+    <string name="power_saving_unlock_slide">Trượt để mở khóa &gt;</string>
+
+    <string name="power_saving_guide_title">Sạc nhanh</string>
+    <string name="power_saving_guide_desc">Bật tính năng Sạc nhanh để bảo vệ pin và rút ngắn thời gian sạc một cách chuyên nghiệp</string>
+    <string name="power_saving_guide_btn_enable">KÍCH HOẠT</string>
+
+    <string name="power_saving_ad_open">MỞ</string>
+    <string name="power_saving_ad_cancel">XÓA</string>
+
+    <!--facebook点赞弹窗引导-->
+    <string name="facebook_like_dialog_title">Vẫn tốt chứ?</string>
+    <string name="facebook_like_dialog_desc">Tìm hiểu thêm về GO Speed trên &lt;font color="#4a89dc"&gt;Facebook&lt;/font&gt;</string>
+    <string name="facebook_like_dialog_btn_like">Thích chúng tôi</string>
+    <string name="facebook_like_dialog_btn_cancel">Không phải bây giờ</string>
+    
+    <!-- AppLock 优化 -->
+    <string name="applock_pre_header_last_step_text1">Thêm bước nữa để được bảo vệ đầy đủ</string>
+    <string name="applock_pre_header_last_step_text2">Bật công tắc cho  GO Speed</string>
+    <string name="applock_pre_dialog_title">Thêm bước nữa</string>
+    <string name="applock_pre_dialog_content">Thêm bước nữa để được bảo vệ đầy đủ</string>
+    <string name="applock_pre_dialog_cancel">Thoát</string>
+    <string name="applock_pre_dialog_confim">Tiếp tục</string>
+
+    <!--GO输入法推广弹窗-->
+    <string name="go_input_prom_pop_theme_desc">Nhập liệu chậm và buồn chán? Gõ thêm vui với 800+ emoji và chủ đề!</string>
+    <string name="go_input_prom_pop_theme_btn">Nhận ngay</string>
+    <string name="go_input_prom_pop_memory_desc">Bộ nhớ bàn phím đang làm chậm điện thoại của bạn!</string>
+    <string name="go_input_prom_pop_memory_btn">Tăng tốc ngay</string>
+
+    <string name="boost_banner_ad_toast_good">Tốt</string>
+<string name="adchoice_about_setting">Quản lý quảng cáo</string>
+    <string name="app_lock_all_intruders">%s kẻ xâm nhập</string>
+    <string name="app_lock_anti_peep_img_app_info">&lt;font color="#FFFFFF"&gt;Bắt kịp mày rồi! Mở khóa &lt;/font&gt;&lt;font color="#da4453"&gt;%1$s&lt;/font&gt; của tôi</string>
+    <string name="app_lock_camera_access_tips_fail">Không cho phép sử dụng camera, thất bại để bật phát giác những kẻ xâm nhập.</string>
+    <string name="app_lock_camera_access_tips_suc">Phát giác những kẻ xâm nhập được bật thành công.</string>
+    <string name="app_lock_camera_auth_tip">Cho phép GO Speed sử dụng camera để bắt những kẻ rình mò.</string>
+    <string name="app_lock_image_share_text_tip">Đoán xem tôi đã tìm được gì! Bạn nên thử điều này cũng với lý do an toàn.</string>
+    <string name="app_lock_new_intruders">&lt;b&gt;%s&lt;/b&gt; kẻ xâm nhập MỚI</string>
+    <string name="app_lock_setting_intruder">Kẻ xâm nhập</string>
+    <string name="app_lock_setting_intruder_setting">Thiết lập dành cho kẻ xâm nhập</string>
+    <string name="app_lock_setting_intruder_times">lần</string>
+    <string name="app_lock_setting_intruder_twice">hai lần</string>
+    <string name="app_lock_setting_intruder_wrong_times">Mật khẩu sai cho phép</string>
+    <string name="app_lock_setting_reveal_intruder">Phát giác những kẻ xâm nhập</string>
+    <string name="app_manager_preinstall_disbale_subtitle">Tắt khôi phục có thể sửa được lỗi gây ra bởi tắt nhầm</string>
+    <string name="app_manager_preinstall_disbale_title">Tắt khôi phục</string>
+    <string name="applock_pre_header_text1_new">Tốp &lt;big&gt;%1$s&lt;/big&gt; các ứng dụng được khuyến nghị nên được khóa</string>
+    <string name="applock_pre_header_text2_new">Đảm bảo các dữ liệu cá nhân cho những ứng dụng này</string>
+    <string name="applock_pre_last_step_usage_guide_explanation">Bật chế độ chuyển dành cho GO Speed để được bảo vệ hoàn toàn.</string>
+    <string name="applock_pre_last_step_usage_guide_title">Thêm một bước dành cho người dùng Android 5.0 trở lên.</string>
+    <string name="boot_up_memory_intro_desc">Các ứng dụng tự khởi động mà không có sự điều khiển của bạn sau khi khởi động lại máy.</string>
+    <string name="boot_up_memory_title">Ứng dụng tự khởi động </string>
+    <string name="boot_up_notify_msg">Các ứng dụng tự khởi động được phát hiện! Kiểm tra ngay.</string>
+    <string name="boot_up_optimize">Tối ưu</string>
+    <string name="boot_up_time_intro_desc">Thời gian yêu cầu để điện thoại hoàn thành việc khởi tạo kể từ lúc khởi động.</string>
+    <string name="boot_up_time_title">Khởi động điện thoại yêu cầu</string>
+    <string name="build_in_ad_go_battery_saver_btn">Tối ưu ngay</string>
+    <string name="build_in_ad_go_battery_saver_desc">Thật sự tiết kiệm pin của bạn</string>
+    <string name="build_in_ad_go_battery_saver_title">Tiết Kiệm Pin Với Một Chạm</string>
+    <string name="build_in_ad_go_security_btn">quét</string>
+    <string name="build_in_ad_go_security_desc">Đảm bảo sự an toàn trên điện thoại của bạn</string>
+    <string name="build_in_ad_go_security_title">diệt virus</string>
+    <string name="build_in_ad_safe_box_btn">Mã hóa</string>
+    <string name="build_in_ad_safe_box_desc">Bảo vệ sự riêng tư của bạn với độ an toàn như ngân hàng</string>
+    <string name="build_in_ad_safe_box_title">Mã hóa mật khẩu và hình ảnh</string>
+    <string name="common_days">Ngày</string>
+    <string name="common_deep_clean_backup">Sao lưu</string>
+    <string name="common_deep_clean_cache">Bộ nhớ cache</string>
+    <string name="common_deep_clean_clean_cache_deleting">Đang xóa...</string>
+    <string name="common_deep_clean_clean_clean">Xóa</string>
+    <string name="common_deep_clean_clean_done">%1$s ĐƯỢC XÓA!</string>
+    <string name="common_deep_clean_clean_view">Lượt xem</string>
+    <string name="common_deep_clean_document">Tài liệu</string>
+    <string name="common_deep_clean_image">Thư viện ảnh</string>
+    <string name="common_deep_clean_music">Nhạc</string>
+    <string name="common_deep_clean_video">Video</string>
+    <string name="common_dismiss">Bỏ qua</string>
+    <string name="common_dismiss_message">Bỏ qua tất cả các tin nhắn.</string>
+    <string name="common_view">Lượt xem</string>
+    <string name="deep_clean_promote_dialog_content">Bộ nhớ cache và đính kèm được tìm thấy.</string>
+    <string name="deep_clean_whatsapp_desc_backup">Các sao lưu tự động được lưu lại bởi WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_cache">Các dữ liệu không cần thiết mà bạn có thể xóa không cần phải lo lắng.</string>
+    <string name="deep_clean_whatsapp_desc_document">Những dữ liệu trong quá trình trò chuyện trong WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_gallery">Những hình ảnh trong quá trình trò chuyện trong WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_music">Những bài nhạc trong quá trình trò chuyện trong WhatsApp.</string>
+    <string name="deep_clean_whatsapp_desc_video">Những video trong quá trình trò chuyện trong WhatsApp.</string>
+    <string name="deep_clean_whatsapp_no_backup">Không có sao lưu tự động được tìm thấy.</string>
+    <string name="deep_clean_whatsapp_no_cache">Không có dữ liệu không cần thiết được tìm thấy.</string>
+    <string name="deep_clean_whatsapp_no_document">Không có dữ liệu trong cuộc trò chuyện được lưu trên điện thoại.</string>
+    <string name="deep_clean_whatsapp_no_gallery">Không có hình ảnh trong cuộc trò chuyện được lưu trên điện thoại.</string>
+    <string name="deep_clean_whatsapp_no_music">Không có bài nhạc trong cuộc trò chuyện được lưu trên điện thoại.</string>
+    <string name="deep_clean_whatsapp_no_video">Không có video trong cuộc trò chuyện được lưu trên điện thoại.</string>
+    <string name="facebook_deep_clean_desc_cache">Xóa bộ nhớ cache không cần thiết để thêm không gian lưu trữ.</string>
+    <string name="facebook_deep_clean_desc_fb_img">Quản lý hình ảnh của bạn trên Facebook.</string>
+    <string name="facebook_deep_clean_desc_message_img">Quản lý hình ảnh của bạn trong Tin nhắn.</string>
+    <string name="facebook_deep_clean_desc_message_video">Quản lý camera lướt của bạn trong Tin nhắn</string>
+    <string name="facebook_deep_clean_title_cache">Dữ liệu Bộ nhớ cache</string>
+    <string name="facebook_deep_clean_title_fb_img">Thư viện ảnh Facebook</string>
+    <string name="facebook_deep_clean_title_message_img">Thư viện ảnh Tin nhắn</string>
+    <string name="facebook_deep_clean_title_message_video">Camera lướt trong Tin nhắn</string>
+    <string name="facebook_media_posted_tag">Đã đăng</string>
+    <string name="facebook_media_saved_tag">Đã lưu</string>
+    <string name="finish_page_card_activate_usage_stats_permission_btn">Cho phép</string>
+    <string name="finish_page_card_activate_usage_stats_permission_desc">Cho phép GO Speed sử dụng chức năng mới của android để tăng tốc điện thoại của bạn hiệu quả!</string>
+    <string name="finish_page_card_activate_usage_stats_permission_title">Tiết kiệm Pin dành cho Android &lt;big&gt;5.0 trở lên&lt;/big&gt;</string>
+    <string name="function_ad_page_chglock_desc_1">Mở Sạc Nhanh cho lần sạc pin tiếp theo của bạn.</string>
+    <string name="function_ad_page_chglock_desc_2">Mở Sạc Nhanh ngay để tăng thời gian sử dụng.</string>
+    <string name="function_ad_page_chglock_desc_3">Mở Sạc Nhanh để rút ngắn thời gian.</string>
+    <string name="function_ad_page_chglock_desc_4">Mở Sạc Duy Trì để bảo vệ pin của bạn</string>
+    <string name="function_ad_page_chglock_title_1">Muốn sạc pin chuyên nghiệp và nhanh chóng hơn?</string>
+    <string name="function_ad_page_chglock_title_2">Pin khả dụng còn %s%%!</string>
+    <string name="function_ad_page_chglock_title_3">%s còn lại để sạc</string>
+    <string name="function_ad_page_chglock_title_4">Pin của bạn đã đầy</string>
+    <string name="home_page_drawer_go_security">Diệt virus</string>
+    <string name="home_page_drawer_notification_box">Hộp Thông Báo</string>
+    <string name="http_adchoice">https://m.facebook.com/ads/ad_choices</string>
+    <string name="intruder_gallery_menu_clear_all_pohtos">xóa toàn bộ ảnh</string>
+    <string name="intruder_gallery_no_content">Xin chúc mừng! Không có kẻ xâm nhập nào!</string>
+    <string name="intruder_main_no_content">Nhập mã sai hơn sẽ bị lưu lại hình ảnh như một kẻ xâm nhập.</string>
+    <string name="intruder_shot_info_desc">Nhập mã sai hơn hai lần sẽ bị lưu lại hình ảnh như một kẻ xâm nhập.</string>
+    <string name="intruder_shot_info_title">Tấn công những kẻ xâm nhập</string>
+    <string name="menu_group_notification">Thông báo</string>
+    <string name="menu_group_notification_notification">Thông báo</string>
+    <string name="menu_junk_file_interval">Quét rác mỗi</string>
+    <string name="menu_junk_file_scan">Quét rác</string>
+    <string name="menu_junk_file_size">Kích thước rác trên</string>
+    <string name="notification_box">Thông báo Yên lặng</string>
+    <string name="notification_box_guide_first_desc">Vui lòng cấp quyền truy cập cho GO Speed để kích hoạt Thông báo Yên lặng.</string>
+    <string name="notification_box_guide_float_title">Bật Quản lý thông báo</string>
+    <string name="notification_box_guide_second_desc">Nhận thông báo mới? Thử dùng Thông báo Yên lặng.</string>
+    <string name="notification_box_main_fragment_empty_tips">Không có thông báo</string>
+    <string name="notification_box_main_group_title">%1$s từ %2$s</string>
+    <string name="notification_box_main_launch_tips">Đi đến %1$s</string>
+    <string name="notification_box_main_title">&lt;font color="#f6bb42"&gt;%1$s &lt;/font&gt;&lt;font color="#8cc152"&gt; thông báo được tắt tiếng&lt;/font&gt;</string>
+    <string name="notification_box_settings_notice">Thông báo Yên lặng được tắt.</string>
+    <string name="notification_box_settings_title">Cài đặt Thông báo Yên lặng</string>
+    <string name="notification_box_switch_label">Sử dụng Thông báo Yên lặng</string>
+    <string name="notification_facebook_deep_clean_title_black">&lt;font color="#1d1d1d"&gt;Xóa rác của bạn trên FB.&lt;/font&gt;</string>
+    <string name="notification_facebook_deep_clean_title_white">&lt;font color="#ffffff"&gt;Xóa rác của bạn trên FB.&lt;/font&gt;</string>
+    <string name="notification_like_us_one_line_one">Bây Giờ Vẫn Ổn Chứ?</string>
+    <string name="notification_like_us_one_line_two">Tìm hiểu thêm về GO Speed trên Fb.</string>
+    <string name="notification_like_us_two_line_one">Muốn tối ưu hóa thông tin về Android?</string>
+    <string name="notification_like_us_two_line_two">GO Speed có. Hãy nhấn Thích chúng tôi &amp; nhận những thông tin hữu ích!</string>
+    <string name="notification_service_label">dịch vụ thông báo</string>
+    <string name="notification_setting_auto">Chế độ Thông minh</string>
+    <string name="notification_setting_boost_level">Hết bộ nhớ</string>
+    <string name="notification_setting_boost_switch">Tăng bộ nhớ cần thiết</string>
+    <string name="notification_setting_cpu_switch">Màn hình CPU</string>
+    <string name="notification_setting_manual">Chế độ Điều khiển bằng tay</string>
+    <string name="notification_setting_manual_boost">Tăng tốc điện thoại</string>
+    <string name="notification_setting_manual_clean">Dọn sạch rác</string>
+    <string name="notification_setting_mode">Chế độ</string>
+    <string name="notification_setting_storage_level">Lưu trữ còn lại</string>
+    <string name="notification_setting_storage_switch">Hết không gian lưu trữ</string>
+    <string name="power_boost_shortcut_dialog_ok">Bật tăng tốc</string>
+    <string name="power_boost_shortcut_dialog_text1">1. Xóa các ứng dụng tự khởi động.</string>
+    <string name="power_boost_shortcut_dialog_text2">2. Xóa các ứng dụng gây khó khăn khi sử dụng.</string>
+    <string name="power_boost_shortcut_dialog_text3">3. Tăng tốc điện thoại của bạn như đã được root máy.</string>
+    <string name="power_boost_shortcut_dialog_title">Tầm quan trọng của khả năng kết nối để tăng tốc:</string>
+    <string name="power_boost_shortcut_init_boost">Khởi tạo tiết kiệm pin…</string>
+    <string name="power_boost_shortcut_name">Tiết kiệm Pin</string>
+    <string name="recommend_app_lock_dialog_desc">Khóa &lt;font color="#4a89dc"&gt;%s&lt;/font&gt; để chống lại những kẻ rình mò!</string>
+    <string name="recommend_app_lock_dialog_title">Bảo vệ các ứng dụng cá nhân của bạn</string>
+    <string name="recommend_app_lock_notify_desc">Khóa các ứng dụng nhạy cảm để ngăn chặn điều này!</string>
+    <string name="recommend_app_lock_notify_title_black">&lt;font color="#1d1d1d"&gt;Ai đó có thể ăn cắp điện thoại của bạn?&lt;/font&gt;</string>
+    <string name="recommend_app_lock_notify_title_white">&lt;font color="#ffffff"&gt;Ai đó có thể ăn cắp điện thoại của bạn?&lt;/font&gt;</string>
+    <string name="recommend_notification_box_notify_desc">Thử Thông báo Yên lặng!</string>
+    <string name="recommend_notification_box_notify_title_black">&lt;font color="#1d1d1d"&gt;Nhận thông báo mới?&lt;/font&gt;</string>
+    <string name="recommend_notification_box_notify_title_white">&lt;font color="#ffffff"&gt;Nhận thông báo mới?&lt;/font&gt;</string>
+    <string name="setting_boost_ignorelist">Danh sách bỏ qua các ứng dụng đang chạy</string>
+    <string name="setting_boot_up_notice">Kiểm tra khởi động</string>
+    <string name="setting_whatsapp_promote">Bản báo cáo rác của WhatsApp</string>
+    <string name="uninstalled_app">Ứng dụng đã xóa</string>
+    <string name="whatsapp_delete_alert_desc">Bạn có chắc muốn xóa chúng vĩnh viễn?</string>
+    <string name="whatsapp_deleted_msg">%1$s tập tin %2$s được xóa</string>
+    <string name="whatsapp_media_menu_select_all">Chọn Tất cả</string>
+    <string name="whatsapp_media_receive_tag">Nhận</string>
+    <string name="whatsapp_media_sent_tag">Đã gửi</string>
+</resources>

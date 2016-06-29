@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/applock_setting_title"
+        layout="@layout/common_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+    />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--unlock mode-->
+            <include
+                android:id="@+id/unlock_mode"
+                layout="@layout/setting_setting_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:text="@string/app_lock_setting_unlock_mode_numbers"
+                    android:textColor="@color/menu_setting_ok"
+                    android:textSize="16dp"/>
+
+                <com.gto.zero.zboost.view.ItemCheckBox
+                    android:id="@+id/number_mode_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:text="@string/app_lock_setting_unlock_mode_pattern"
+                    android:textColor="@color/menu_setting_ok"
+                    android:textSize="16dp"/>
+
+                <com.gto.zero.zboost.view.ItemCheckBox
+                    android:id="@+id/graphic_mode_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="16dp"/>
+            </RelativeLayout>
+
+            <!--reset password-->
+            <include
+                android:id="@+id/reset_password"
+                layout="@layout/setting_setting_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:id="@+id/reset_numbe_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:text="@string/app_lock_setting_passcode_change_passcode"
+                    android:textColor="@color/menu_setting_ok"
+                    android:textSize="16dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/reset_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/reset_email_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginRight="16dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:singleLine="true"
+                    android:text="@string/app_lock_setting_passcode_email_setting"
+                    android:textColor="@color/menu_setting_ok"
+                    android:textSize="16dp"/>
+            </RelativeLayout>
+
+            <!--other-->
+            <include
+                android:id="@+id/other"
+                layout="@layout/setting_setting_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:id="@+id/brief_exit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginRight="60dp"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:text="@string/app_lock_setting_others_brief_eixt"
+                    android:textColor="@color/menu_setting_ok"
+                    android:textSize="16dp"/>
+
+                <com.gto.zero.zboost.view.ItemCheckBox
+                    android:id="@+id/brief_exit_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="0dp"
+                    android:padding="16dp"/>
+
+                <TextView
+                    android:id="@+id/brief_eixt_statu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/brief_exit_btn"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:text="15seconds"
+                    android:textColor="@color/menu_setting_ok"
+                    android:textSize="14dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginRight="60dp"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:text="@string/app_lock_setting_others_relock"
+                    android:textColor="@color/menu_setting_ok"
+                    android:textSize="16dp"/>
+
+                <com.gto.zero.zboost.view.ItemCheckBox
+                    android:id="@+id/auto_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="0dp"
+                    android:padding="16dp"/>
+            </RelativeLayout>
+
+            <!--intruder-->
+            <include
+                android:id="@+id/intruder"
+                layout="@layout/setting_setting_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:id="@+id/reveal_intruder"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginRight="60dp"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:text="@string/app_lock_setting_reveal_intruder"
+                    android:textColor="@color/menu_setting_ok"
+                    android:textSize="16dp"/>
+
+                <com.gto.zero.zboost.view.ItemCheckBox
+                    android:id="@+id/reveal_intruder_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="0dp"
+                    android:padding="16dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/intruder_times_limit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/intruder_times_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginRight="60dp"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:text="@string/app_lock_setting_intruder_wrong_times"
+                    android:textColor="@color/menu_setting_ok"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:id="@+id/intruder_times_statu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@string/font_families_roboto"
+                    android:paddingRight="16dp"
+                    android:text="twice"
+                    android:textColor="@color/menu_setting_ok"
+                    android:textSize="14dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

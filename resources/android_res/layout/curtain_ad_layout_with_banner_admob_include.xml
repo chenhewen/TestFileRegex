@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/curtain_ad_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/curtain_ad_core_cortainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/curtain_ad_layout_ad_padding"
+        android:layout_marginRight="@dimen/curtain_ad_layout_padding"
+        android:gravity="right"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/curtain_ad_icon"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="14dp"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:id="@+id/curtain_ad_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/curtain_ad_icon"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@id/curtain_ad_icon"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@string/font_families_roboto"
+            android:maxEms="25"
+            android:singleLine="true"
+            android:layout_alignRight="@+id/curtain_ad_desc_container"
+            android:text="A Pretty App A Pretty App"
+            android:textColor="#7e7e7e"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/curtain_ad_desc_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/curtain_ad_name"
+            android:layout_toLeftOf="@id/curtain_ad_icon"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/admob_ad_attribution"
+                />
+        <TextView
+            android:id="@+id/curtain_ad_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="right"
+            android:maxLines="2"
+            android:text="this is a pretty good app for your smart phone!"
+            android:layout_weight="1"
+            android:textColor="#7e7e7e"
+            android:textSize="12sp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/curtain_ad_banner"
+        android:layout_width="294dp"
+        android:layout_height="154dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/curtain_ad_layout_padding"
+        android:layout_marginRight="@dimen/curtain_ad_layout_padding"
+        android:layout_marginTop="10dp"
+        android:antialias="true"/>
+
+    <TextView
+        android:id="@+id/curtain_ad_button"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/curtain_ad_layout_padding"
+        android:layout_marginRight="@dimen/curtain_ad_layout_padding"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/ad_button_red_selector"
+        android:gravity="center"
+        android:text="@string/storage_main_act_details"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+
+</LinearLayout>

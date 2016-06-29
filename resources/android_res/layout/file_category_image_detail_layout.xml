@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000" >
+
+    <include
+        android:id="@+id/file_category_image_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/common_title_layout" />
+
+    <com.gto.zero.zboost.common.ui.ClickTransparentLayout
+        android:id="@+id/file_category_image_detail_delete_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:layout_alignParentBottom="true"
+        android:background="#FFff696a"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/file_category_image_detail__delete_layout_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Delete(2.1MB)"
+            android:textSize="16dp" />
+    </com.gto.zero.zboost.common.ui.ClickTransparentLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/file_category_image_detail_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/file_category_image_detail_delete_layout"
+        android:layout_below="@id/file_category_image_detail_title" />
+
+</RelativeLayout>

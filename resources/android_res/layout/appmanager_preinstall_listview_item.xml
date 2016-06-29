@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+    android:layout_height="@dimen/common_item_height"
+    android:background="@drawable/common_list_item_gray_white_selector" >
+
+    <ImageView
+        android:id="@+id/preinstall_listview_item_icon"
+        android:layout_width="@dimen/common_icon_width"
+        android:layout_height="@dimen/common_icon_width"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_icon_width"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/preinstall_listview_item_right_container"
+        android:layout_toRightOf="@id/preinstall_listview_item_icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/preinstall_listview_item_name"
+            style="@style/common_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="123131131" />
+
+        <TextView
+            android:id="@+id/preinstall_listview_item_run_state"
+            style="@style/common_item_info_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/preinstall_listview_item_right_container"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_item_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/preinstall_listview_item_text_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@string/font_families_roboto"
+            android:gravity="center_vertical"
+            android:text="88%"
+            android:textColor="@color/preinstall_disable_text_color_red"
+            android:textSize="@dimen/preinstall_disable_list_child_item_rate_textsize" />
+
+        <ImageView
+            android:id="@+id/preinstall_listview_item_batch_check"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/common_margin"
+            android:paddingRight="@dimen/common_margin" />
+
+        <CheckBox
+            android:id="@+id/preinstall_listview_item_single_check"
+            style="@style/common_horizontal_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
+            android:clickable="false"
+            android:focusable="false"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!--
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/common_listview_divider"
+        android:layout_alignParentBottom="true"/>
+    -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_listview_divider_height_level1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/common_listview_divider_margin_bottom"
+        layout="@layout/common_listview_divider_level1_layout" />
+
+</RelativeLayout>

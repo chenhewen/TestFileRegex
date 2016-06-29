@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Z Speed+</string>
+    <string name="action_settings">Postavke</string>
+
+    <!-- ==========字体模块========== -->
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_families_roboto_thin">sans-serif-thin</string>
+    <string name="font_families_roboto_light">sans-serif-light</string>
+    <string name="font_families_roboto_condensed">sans-serif-condensed</string>
+
+    <!-- ========= 共用模块 ========= -->
+    <string name="common_yes">Da</string>
+    <string name="common_no">Ne</string>
+    <string name="common_ok">OK</string>
+    <string name="common_select">Odaberi</string>
+    <string name="common_delete">Obriši</string>
+    <string name="common_others">Ostalo</string>
+    <string name="common_stop">Stop</string>
+    <string name="common_uninstall">Deinstaliraj</string>
+    <string name="common_back_up">Back Up</string>
+    <string name="common_more">Više</string>
+    <string name="common_on">Uključi</string>
+    <string name="common_off">Isključi</string>
+    <string name="common_new">novo</string>
+    <string name="common_cancel">Prekid</string>
+    <string name="common_install">Instaliraj</string>
+    <string name="common_installed">Instalirano</string>
+    <string name="common_vertion">Verzija</string>
+    <string name="common_update">Ažuriraj</string>
+    <string name="common_insufficient_storate">Nedovoljno mjesta u pohrani</string>
+    <string name="common_no_sdcard">SD kartica nije pronađena</string>
+    <string name="common_warning">Upozorenje</string>
+    <string name="common_no_content">Nema sadržaja</string>
+    <string name="common_comma">,</string>
+    <string name="common_period">.</string>
+    <string name="common_slogan">Pretvori telefon u raketu</string>
+    <string name="common_download">Preuzmi</string>
+
+    <!-- ========= 主界面 ========= -->
+    <string name="available">Dostupno</string>
+    <string name="main_ram_title">RAM</string>
+    <string name="main_storage_title">POHRANA</string>
+    <string name="main_button_boost">Povećanje memorije</string>
+    <string name="main_button_storage">Nepotrebne datoteke</string>
+    <string name="main_button_manage">Upravitelj aplikacija</string>
+    <string name="main_ram_total">%s Ukupno</string>
+    <string name="main_storage_total">%s Ukupno</string>
+    <string name="tip_press_again_to_exit">Pritisnite ponovno za izlaz</string>
+
+    <!-- ========= 菜单 ========= -->
+    <string name="menu_setting">Postavke</string>
+    <string name="menu_update">Ažuriraj</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_about">O aplikaciji</string>
+    <string name="menu_shuffle">Miješanje</string>
+    <string name="menu_zero_plus">ZERO+</string>
+    <string name="menu_chrimas">Božić</string>
+
+    <!-- ========= 内存加速模块 ========= -->
+
+    <string name="boost_main_act_title">Povećanje memorije</string>
+    <string name="boost_main_act_tab_running">Pokrenuto</string>
+    <string name="boost_main_act_tab_autostart">Autopokretanje</string>
+    <string name="boost_running_apps_custom">%1$d odabranih aplikacija</string>
+    <string name="boosting_memory_act_title">Povećanje memorije</string>
+    <string name="boosting_tips">Ubrzanje</string>
+    <string name="boosting_power_tips">Temeljito ubrzanje</string>
+    <string name="boosted_to_optimus_tips">Ubrzano na optimalno stanje!</string>
+    <string name="boosted_active_power_mode_tips">Ups! %1$d ponovno pokrenutih aplikacija.\nAktiviraj temeljito ubrzanje za popravak!</string>
+    <string name="enable_super_boost_enable">Omogući</string>
+    <string name="enable_super_boost_title">Omogući temeljito ubrzanje</string>
+    <string name="enable_super_boost_main_text">U svrhu učinkovitijeg ubrzanja, preporuča se uključivanje značajki pristupa.</string>
+    <string name="enable_super_boost_content_text1" formatted="false">Za potpuno zaustavljanje ili onemogućavanje aplikacija.</string>
+    <string name="enable_super_boost_content_text2" formatted="false">Smanji potrošnju baterije.</string>
+    <string name="enable_super_boost_content_text3" formatted="false">Više od 85% korisnika je omogućilo ovu značajku.</string>
+    <string name="boost_turn_on_boost_accessibility_service_tip">Pritisni Z Speed+ u usluzi</string>
+    <string name="boost_groups_list_title_running_app">Pokrenute aplikacije</string>
+    <string name="boost_groups_list_title_cpu_temperature">Temperatura procesora</string>
+    <string name="boost_groups_list_title_lag_detected">Detektirano usporenje</string>
+
+    <!-- =========boost_accessibility======== -->
+    <string name="boost_accessibility_service_description">Uključite gornji gumb za aktivaciju Z Speed+ temeljitog ubrzanja za maksimalno ubrzanje!\n\nZ Speed+ koristi značajke pristupa da bi zatvorio aplikacije koje se ne koriste. Molimo ne brinite ako vidite podsjetnik o riziku privatnosti, to je uobičajeno informativno upozorenje za sve usluge pristupa. 
+    \n\nObećajemo da NEĆEMO prikupiti BILO KAKVE informacije.</string>
+
+    <!-- =========auto start======== -->
+    <string name="autostart_app_desr">Opcije</string>
+    <string name="autostart_optimization_desr">Može se optimizirati</string>
+    <string name="autostart_type_optimization">Za optimiziranje</string>
+    <string name="autostart_type_allowed">Omogućeno</string>
+    <string name="autostart_type_blocked">Blokirano</string>
+    <string name="autostart_type_system">Predinstalirane aplikacije</string>
+    <string name="autostart_type_system_description">Blokiranje automatskog pokretanja predinstaliranih aplikacija može uzrokovati nestabilnost sustava. Nastavite s oprezom</string>
+    <string name="autostart_preinstll_system">Predinstalirane aplikacije</string>
+    <string name="autostart_on_boot_up">Pokretanje sustava</string>
+    <string name="autostart_on_background">Pozadina</string>
+    <string name="autostart_on_boot_up_and_background">Pokretanje sustava/Pozadina</string>
+    <string name="autostart_detail_title">Autopokretanje u %1$d situacija(e):</string>
+
+    <!-- ========= 白名单模块 ========= -->
+    <string name="ignore_list_act_title">Popis ignoriranja</string>
+    <string name="add_to_ignore_list_act_title">Dodaj na popis ignoriranja</string>
+    <string name="dialog_memory_footprint">Korištena memorija</string>
+    <string name="dialog_add_to_ignorelist">Dodaj na popis ignoriranja</string>
+    <string name="dialog_remove_from_ignorelist">Ukloni s popisa ignoriranja</string>
+    <string name="tip_ignore_list_appunchecked">Ove aplikacije će po defaultu biti odznačene nakon skeniranja.</string>
+    <string name="tip_ignore_list_appadd">Pritisnite '+' za dodavanje aplikacija za ignoriranje.</string>
+    <string name="ignore_dialog_content">&lt;font color="#85C443">%s&lt;/font> neće biti skenirano.</string>
+    <string name="clean_ignore_empty_tips">Pritisnite i dugo držite stavke u junk datotekama za dodavanje na listu za ignoriranje.</string>
+
+    <!-- ========= 应用管理模块 ========= -->
+    <string name="app_manager">Upravitelj aplikacija</string>
+    <string name="app_manager_my_backups">Moji backup-ovi</string>
+    <string name="app_manager_others">Ostalo</string>
+    <string name="app_manager_back_up_success_tips">napravljen je backup aplikacije na:</string>
+    <string name="app_manager_back_up_success_tips_for_one">napravljen je backup aplikacije na:</string>
+    <string name="app_manager_back_up_fail_tips">aplikacije neuspješne</string>
+    <string name="app_manager_back_up_fail_tips_for_one">aplikacija neuspješna</string>
+    <string name="app_manager_pre_installed_apps">Predinstalirane aplikacije</string>
+    <string name="app_manager_backing_up">Kreiranje backup-a</string>
+    <string name="app_manager_running">Pokrenuto</string>
+    <string name="app_manager_stop">Stop</string>
+    <string name="app_manager_apps_running">Pokrenute aplikacije</string>
+    <string name="app_manager_apps_desc">Onemogućavanje predinstaliranih aplikacija koje se rijetko koriste pomaže pri smanjenju potrošnje.</string>
+    <string name="app_manager_path">Lokacija</string>
+    <string name="app_manager_no_backup_found">Backup nije pronađen</string>
+    <string name="app_manager_tap_to_disable">Pritisni Onemogući/Isključi za onemogućavanje</string>
+    <string name="app_manager_tap_to_enable">Pritisni Omogući/Uključi za omogućavanje</string>
+    <string name="app_manager_select_app_first">Molimo, najprije odaberi aplikacije</string>
+    <string name="app_manager_shit">OK</string>
+    <string name="app_manager_freed">Oslobođeno</string>
+    <string name="app_manager_use_rare_month">Mjesečno rijetko korišteno</string>
+    <string name="app_manager_use_rare_days">Rijetko korišteno u %s dana</string>
+    <string name="app_manager_use_commonly">Često korišteno</string>
+    <string name="app_manager_android_system">Android sustav</string>
+    <string name="app_manager_use_rare">Rijetko korišteno</string>
+    <!-- wy -->
+    <string name="app_manager_tab_userapps">Korisničke aplikacije</string>
+    <string name="app_manager_tab_system">Predinstalirano</string>
+    <string name="app_manager_tab_text_date">Datum</string>
+    <string name="app_manager_tab_text_frequance">Učestalost</string>
+    <string name="app_manager_tab_text_size">Veličina</string>
+    <string name="app_manager_tab_text_battery">Baterija</string>
+    <string name="app_manager_tab_text_name">Naziv</string>
+    <string name="app_manager_dialog_cancel">Prekid</string>
+    <string name="app_manager_dialog_backup">Backup</string>
+    <string name="app_manager_dialog_uninstall">Deinstaliraj</string>
+    <string name="app_manager_preinstall_noyice"><![CDATA[&nbsp&nbsp&nbsp&nbsp<font color="#76B54B"> %s Pokrenute aplikacije </font> Onemogućavanje smanjuje potrošnju. Potpuno je sigurno]]></string>
+    <string name="app_manager_no_uerapp">Nema aplikacija</string>
+    <string name="app_manager_preinstall_disbale_list">Aplikacije onemogućene</string>
+    <string name="app_manager_preinstall_disbale_list_item_statement">Onemogućeno</string>
+    <string name="app_manager_preinstall_reommend_disable">% korisnika onemogućeno</string>
+    <string name="app_manager_preinstall_reommend_keep">Preporučeno zadržavanje</string>
+    <string name="app_manager_preinstall_reommend_none">Neka ovako ostane</string>
+    <string name="app_manager_preinstall_tip">Onemogućavanje predinstaliranih aplikacija koje se rijetko koriste smanjuje potrošnju.</string>
+    <string name="app_manager_preinstall_disable_toast">je onemogućeno.</string>
+    <string name="app_manager_preinstall_enable_toast">je omogućeno.</string>
+    <string name="app_manager_preinstall_disable_batch_button_text">Onemogućavanje skupine</string>
+    <string name="app_manager_preinstall_disable_caution_dialog_title">Oprez</string>
+    <string name="app_manager_preinstall_disable_caution_msg1"><![CDATA[Onemogućavanje ove aplikacije može <font color="#fe6969">utjecati na normalno funkcioniranje</font>.]]></string>
+    <string name="app_manager_preinstall_disable_caution_msg2">Jeste li sigurni da želite odabrati?</string>
+    <string name="app_manager_preinstall_disable_loading">Učitavanje&#8230;</string>
+    <string name="diable_lab_dialog_title">Z Speed+ laboratorij</string>
+    <string name="diable_lab_dialog_content_text"><![CDATA[Pozvani ste da isprobate našu značajku laboratorija: <font color="#76b54b">Onemogućavanje skupine, predinstalirane aplikacije. </font>Za sva pitanja, napišite nam feedback kako bismo zajednički riješili problem!]]></string>
+
+    <!-- ========= 清理加速模块 ========= -->
+    <string name="clean_main_act_title">Nepotrebne datoteke</string>
+    <string name="clean_main_suggest">Predloženo</string>
+    <string name="clean_main_selected">Odabrano</string>
+    <string name="clean_dialog_title">Upozorenja</string>
+    <string name="clean_dialog_message1">Odabrana datoteka sadrži sljedeći sadržaj:</string>
+    <string name="clean_dialog_btn_all">Svejedno odaberi</string>
+    <string name="clean_dialog_btn_next">Provjeri</string>
+    <string name="gallery_thumbnails">Sličice galerije</string>
+    <string name="clean_gallery_thumbnails_dialog_tips">Nakon brisanja, bilo bi sporije tijekom učitavanja u galeriji.</string>
+    <string name="clean_group_app_cache">Cache aplikacije</string>
+    <string name="clean_group_residue">Rezidualne datoteke</string>
+    <string name="clean_group_cache">Nepotreban cache</string>
+    <string name="clean_group_temp">Privremene datoteke sustava</string>
+    <string name="clean_group_apk">Zastarjele aplikacije</string>
+    <string name="clean_group_big_file">Velike datoteke</string>
+    <string name="clean_group_ad">Nepotrebni oglasi</string>
+    <string name="clean_group_memory">Nepotrebna memorija</string>
+    <string name="clean_item_sys_cache">Cache sustava</string>
+    <string name="clean_done_tips">Očišćeno</string>
+    <string name="clean_dialog_app_cache_yes_btn">Ručno čišćenje</string>
+    <string name="clean_dialog_folder_yes_btn">Pregled</string>
+    <string name="clean_dialog_file_yes_btn">Otvori</string>
+    <string name="clean_dialog_media_yes_btn">Pokreni</string>
+    <string name="clean_dialog_message_size">Veličina</string>
+    <string name="clean_dialog_message_contain">Sadrži</string>
+    <string name="clean_dialog_message_path">Lokacija</string>
+    <string name="clean_dialog_message_file">datoteke</string>
+    <string name="clean_dialog_message_folder">mape</string>
+    <string name="clean_done_none_tips">Odlično</string>
+    <string name="clean_file_browser_no_files">Nema datoteka</string>
+    <string name="clean_days_ago"> dana staro</string>
+    <string name="clean_subitem_detail_warn_desc_pre">&lt;font color="#FE6969">Pažljivo! &lt;/font>%1$s</string>
+    <string name="clean_subitem_detail_connect">Ovo je %1$s od %2$s</string>
+    <string name="clean_subitem_detail_result_0">%1$s &lt;font color="#85C443">Neće biti utjecaja na vaše datoteke nakon čišćenja.&lt;/font></string>
+    <string name="clean_subitem_detail_result_1">%1$s &lt;font color="#85C443">Čišćenje je potpuno sigurno.&lt;/font></string>
+    <string name="clean_subitem_detail_result_2">%1$s &lt;font color="#FE6969">Trebat će ih ponovno preuzeti.&lt;/font></string>
+    <string name="clean_subitem_detail_result_10">%1$s &lt;font color="#FE6969">Čišćenje će ih zauvijek ukloniti!&lt;/font></string>
+
+    <!-- ========= 卸载弹窗界面 ============= -->
+    <string name="uninstall_dialog">Clean</string>
+    <string name="uninstall_dialog_message_1">&lt;b>%1$s&lt;/b> left &lt;font color="#85c443">%2$s&lt;/font> rezidualne datoteke.</string>
+    <string name="uninstall_dialog_message_2">Sadrži: </string>
+    <string name="uninstall_clean_tips">&#160;rezidualne datoteke su očišćene!</string>
+
+    <!-- ========= 菜单界面 ============= -->
+    <string name="commontitle_setting_setting">Postavke</string>
+
+    <!-- ========= 菜单feedback =========== -->
+    <string name="title_feedback_setting">Feedback</string>
+    <string name="container_hint_setting_feedback">Molimo, ovdje što detaljnije napišite svoje komentare. Uvijek slušamo i unapređujemo.</string>
+    <string name="mial_hint_setting_feedback">Email</string>
+    <string name="notice_setting_feedback">Model i verzija telefona bit će prikupljeni radi dijagnosticiranja vašeg problema. Nikada nećemo prikupljati osobne informacije bez vašeg dopuštenja.</string>
+    <string name="no_contain_setting_feedback">Pozdrav, recite nešto?</string>
+    <string name="sendok_setting_feedback">Hvala vam za feedback!</string>
+    <string name="checknet_setting_feedback">Molimo provjerite vašu internetsku vezu.</string>
+
+    <!-- ========= 菜单about =========== -->
+    <string name="facebook_about_setting">&lt;u>Lajkajte nas na Facebooku&lt;/u></string>
+    <string name="googleplus_about_setting">&lt;u>Pridružite se zajednici na Google+&lt;/u></string>
+    <string name="googleplay_about_setting">&lt;u>Ocijenite nas na GooglePlay&lt;/u></string>
+    <string name="title_about_setting">O nama</string>
+    <string name="share_setting_about">Z Speed+ ubrzava i čisti moj telefon. Pokušajte! Nabavite ga na: http://goo.gl/q10oHl</string>
+    <string name="law_one_setting_about">©2014&#8211;2015 ZERO Team. Sva prava pridržana.</string>
+    <string name="law_jump_setting_about">&lt;u>Izjava o privatnosti&lt;/u></string>
+    <string name="share_title_setting_about">podijelite Z Speed+</string>
+    <string name="http_facebook">https://www.facebook.com/pages/Z-Boost/318325038361225</string>
+    <string name="http_gplus">https://plus.google.com/b/112348125604156072635/communities/104671237601119272862</string>
+    <string name="gp_not_connect">Onemogućeno pokretanje veze</string>
+
+    <!-- ========= 菜单setting ========== -->
+    <string name="title_float_widget">Plutajući widget</string>
+    <string name="title_notice">Obavijesti</string>
+    <string name="junk_clean_setting">Čišćenje nepotrebnih datoteka</string>
+    <string name="enable_widget_setting_setting">Omogući</string>
+    <string name="hide_widget_setting_setting">Sakrij pored vremena na statusnoj traci</string>
+    <string name="show_widget_setting_setting">Prikaži samo na početnom zaslonu</string>
+    <string name="memory_setting_setting">Potrebno je ubrzanje memorije</string>
+    <string name="storge_setting_setting">Ponestaje slobodnog mjesta za pohranu</string>
+    <string name="junk_setting_setting">Nepotrebne rezidualne datoteke</string>
+    <string name="autostart_setting_setting">Novi zahtjev za autopokretanjem</string>
+    <string name="ignore_setting_setting">Popis za ignoriranje</string>
+    <string name="memery_boost_setting_setting">Pokrenute aplikacije</string>
+    <string name="clean_ignore_title">Lista za ignoriranje junk datoteka</string>
+    <string name="clean_ignore_list_tips">Ove stavke neće biti skenirane kao junk datoteke</string>
+    <string name="law_setting_about_url">http://goappdl.goforandroid.com/soft/zboost/privacy/privacy_en.htm</string>
+    <string name="menu_general_setting">Općenito</string>
+    <string name="menu_general_setting_language">Jezik</string>
+    <string name="menu_general_setting_shortcut">Stvori prečice</string>
+    <string name="menu_junk_setting">Nepotrebne datoteke</string>
+    <string name="menu_junk_setting_scan_memory">Skeniraj nepotrebnu memoriju</string>
+    <string name="menu_join_uep_plan">&lt;u>Program korisničkog iskustva&lt;/u></string>
+    <string name="menu_smart_boost">Smart boost</string>
+    <string name="smart_boost_screen_lock">Smart boost na zaključanom zaslonu</string>
+    <string name="smart_boost_show_result">Prikazati rezultate nakon smart boosta</string>
+
+    <!-- ========== 悬浮窗 ============= -->
+    <string name="float_close_float_message">Onemogući plutajući widget?</string>
+    <string name="float_hide_float_message">Također, možete sakriti plutajući widget pored vremena na statusnoj traci.</string>
+    <string name="float_dialog_ok">OK</string>
+    <string name="float_dialog_cancel">Prekid</string>
+    <string name="float_dialog_hide_ok">Pokušajte!</string>
+    <string name="float_dialog_hide_cancel">Svejedno onemogući</string>
+
+    <!-- ==Root 相关 -->
+    <string name="fail_to_Operation">Nema dopuštenja. Radnja nije uspjela!</string>
+
+    <!-- ========== 通知栏 ============= -->
+    <string name="notification_ram_black">&lt;font color="#1d1d1d">Dostupna memorija je &lt;/font>&lt;font color="#fe6969">&lt;b>manja od %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_white">&lt;font color="#ffffff">Dostupna memorija je &lt;/font>&lt;font color="#fe6969">&lt;b>manja od %s%%&lt;/b>&lt;/font></string>
+    <string name="notification_ram_line2">Uređaj može postati ekstremno spor</string>
+    <string name="notification_boost">Ubrzaj</string>
+    <string name="notification_sdcard">Ponestaje mjesta za pohranu. Pritisni za čišćenje!</string>
+    <string name="notification_sdcard2_black">&lt;font color="#1d1d1d">Ponestaje mjesta za pohranu.&lt;/font>&lt;font color="#fe6969">&lt;b>Only %s%% left&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_white">&lt;font color="#ffffff">Ponestaje mjesta za pohranu.&lt;/font>&lt;font color="#fe6969">&lt;b>Only %s%% left&lt;/b>&lt;/font></string>
+    <string name="notification_sdcard2_line2">Može biti nedovoljno mjesta za preuzimanja</string>
+    <string name="notification_release_more"><![CDATA[%s MB oslobođeno. <font color="#85c443">Oslobodi više!</font>]]></string>
+    <string name="notification_boost_phone_optimum"><![CDATA[Vaš telefon optimalno funkcionira. <font color="#85c443">Više značajki!</font>]]></string>
+    <string name="notification_cpu_block1_black">&lt;font color="#1d1d1d">Uređaj &lt;/font>&lt;font color="#fe6969">&lt;b>je sporiji&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block1_white">&lt;font color="#ffffff">Uređaj &lt;/font>&lt;font color="#fe6969">&lt;b>je sporiji&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_block2">Aplikacija intenzivno konzumira CPU</string>
+    <string name="notification_cpu_overheat1_black">&lt;font color="#1d1d1d">CPU je &lt;/font>&lt;font color="#fe6969">&lt;b>opasno pregrijan&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat1_white">&lt;font color="#ffffff">CPU is &lt;/font>&lt;font color="#fe6969">&lt;b>opasno pregrijan&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_overheat2">Aplikacija abnormalno konzumira CPU</string>
+    <string name="notification_cpu_hightemp1_black">&lt;font color="#1d1d1d">Temperatura procesora &lt;/font>&lt;font color="#fe6969">&lt;b>brzo raste&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp1_white">&lt;font color="#ffffff">Temperatura procesora &lt;/font>&lt;font color="#fe6969">&lt;b>brzo raste&lt;/b>&lt;/font></string>
+    <string name="notification_cpu_hightemp2">Aplikacija abnormalno konzumira CPU</string>
+    <string name="notification_clean_scan_title_black">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#1d1d1d">nepotrebne datoteke zauzimaju prostor&lt;/font></string>
+    <string name="notification_clean_scan_title_white">&lt;font color="#fe6969">%s &lt;/font>&lt;font color="#ffffff">nepotrebne datoteke zauzimaju prostor&lt;/font></string>
+    <string name="notification_clean_scan_message">Očisti za oslobađanje prostora na telefonu</string>
+    <string name="notification_ram_help_black">&lt;font color="#1d1d1d"> %s apps are &lt;/font>&lt;font color="#fe6969">pražnjenje baterije&lt;/font></string>
+    <string name="notification_ram_help_white">&lt;font color="#ffffff"> %s apps are &lt;/font>&lt;font color="#fe6969">pražnjenje baterije&lt;/font></string>
+    <string name="notification_release_sleep">Ubrzajte %s MB za vrijeme mirovanja</string>
+    <string name="notification_go_weather_title_black">&lt;font color="#1d1d1d">Najbolja aplikacija vremenske prognoze za Vas&lt;/font></string>
+    <string name="notification_go_weather_title_white">&lt;font color="#ffffff">Najbolja aplikacija vremenske prognoze za Vas&lt;/font></string>
+    <string name="notification_go_sms_title_black">&lt;font color="#1d1d1d">Dosadile su Vam zadane poruke?&lt;/font></string>
+    <string name="notification_go_sms_title_white">&lt;font color="#ffffff">Dosadile su Vam zadane poruke?&lt;/font></string>
+    <string name="notification_go_sms_message">Prilagodite sada svoju vlastitu poruku!</string>
+    <string name="go_launcher">GO Launcher Z</string>
+    <string name="go_weather">GO Weather - vremenska prognoza &amp; Widget</string>
+    <string name="go_weather_done_message">Pruža trenutnu &amp; buduću prognozu, prekrasne widgete &amp; live wallpapere.</string>
+    <string name="notification_guide_text">Uključite svoj vlastiti prekidač</string>
+
+    <!-- 文件类型 -->
+    <string name="file_open_as">Otvori kao</string>
+    <string name="filetype_text">Tekst</string>
+    <string name="filetype_video">Video</string>
+    <string name="filetype_audio">Zvuk</string>
+    <string name="filetype_image">Slika</string>
+    <string name="filetype_music">Glazba</string>
+    <string name="filetype_document">Dokument</string>
+    <string name="filetype_apk">Aplikacija</string>
+    <string name="filetype_compression">Komprimirano</string>
+
+    <!-- 版本更新 -->
+    <string name="update_notice">Nova verzija</string>
+    <string name="update_update">Ažuriraj</string>
+    <string name="update_later">Kasnije</string>
+    <string name="update_cancel">Prekid</string>
+
+    <!-- 快捷方式 -->
+    <string name="shortcut_boost">Ubrzaj</string>
+    <string name="shortcut">Prečica</string>
+
+    <!-- 自启方式 -->
+    <string name="auto_start_on_boot">Nakon pokretanja sutava</string>
+    <string name="auto_start_on_connectivity_change">Kod promjene mreže</string>
+    <string name="auto_start_on_package_changed">Kad se promijeni status aplikacije</string>
+    <string name="auto_start_on_package_added">Kod instaliranja aplikacija</string>
+    <string name="auto_start_on_package_removed">Kod deinstaliranja aplikacija</string>
+    <string name="auto_start_on_package_replaced">Kod promjene aplikacija</string>
+    <string name="auto_start_on_any_data_state">Kad su podaci promijenjeni</string>
+    <string name="auto_start_on_outgoing_call">Tijekom odlaznih poziva</string>
+    <string name="auto_start_on_phone_state_changed">Kod prekida razgovora</string>
+    <string name="auto_start_on_user_present">Kod otključavanja</string>
+    <string name="auto_start_on_wifi_state_change">Kod povezivanja na Wi-Fi</string>
+    <string name="auto_start_on_wifi_enable_change">Kod uključivanja/isključivanja Wi-Fi veze</string>
+    <string name="auto_start_on_time_set">Kod podešavanja vremena</string>
+    <string name="auto_start_on_bluetooth_state_change">Kad se promijeni stanje bluetootha</string>
+    <string name="auto_start_on_power_connected">Kod spajanja ponjača</string>
+    <string name="auto_start_on_power_disconnected">Kod uklanjanja punjača</string>
+
+    <!-- 通知栏快捷开关 -->
+    <string name="notificationtoggle_notificationtoggle">Prikaz obavijesti</string>
+    <string name="notification_toggle_nocal">Kalkulator nije pronađen!</string>
+    <string name="notification_toggle_open">Z Speed+ prikaz obavijesti omogućen.</string>
+    <string name="notification_toggle_noflash">vaš uređaj nema bljeskalicu!</string>
+
+    <!-- ========= 语言设置模块 ========= -->
+    <!-- 语言支持提示 -->
+    <string name="tip_language_support">Z Speed+ podrška %s, prijaviti se sada?</string>
+    <!-- 网络错误提示 -->
+    <string name="error_in_connection">Pogreška u vezi.</string>
+    <!-- 服务器下载语言错误提示 -->
+    <string name="fail_to_download_the_language">Neuspješno preuzimanje jezika.</string>
+
+    <!-- ===========Storage模块========== -->
+    <string name="storage_main_act_title">Pohrana</string>
+    <string name="storage_main_act_details">Detalji</string>
+    <string name="storage_main_act_tab_used_space">Iskorišteni prostor</string>
+    <string name="storage_main_act_tab_app_total">%s aplikacije</string>
+    <string name="storage_main_act_tab_audio_total">%s glazba</string>
+    <string name="storage_main_act_tab_image_total">%s fotografije</string>
+    <string name="storage_main_act_tab_document_total">%s dokumenti</string>
+    <string name="storage_main_act_tab_other_total">Ostalo</string>
+    <string name="file_category_image_title">Fotografije</string>
+    <string name="file_category_image_delete_dialog_msg_1">datoteka(e) će biti obrisano(e).</string>
+    <string name="file_category_image_delete_dialog_msg_2">Obrisana(e) datoteka(e) ne može se povratiti!</string>
+    <string name="file_category_video_no_content">Nema videa</string>
+    <string name="file_category_video_delete_msg">Videi će se obrisati.</string>
+    
+    <!-- 视频分析模块 -->
+    <string name="video_title_total">ukupno videa: %s</string>
+    <string name="video_title_selected">odabrano videa: %s</string>
+
+    <!-- 音乐分析模块 -->
+    <string name="storage_music">Glazba</string>
+    <string name="music_group_music">Glazba</string>
+    <string name="music_group_rings">Tonovi</string>
+    <string name="music_group_record">Snimka</string>
+    <string name="music_dialog_title">Upozorenje</string>
+    <string name="music_dialog_delete_cancel">Prekid</string>
+    <string name="music_dialog_delete_delete">Obriši</string>
+    <string name="music_dialog_delete_notice">datoteka(e) će biti obrisano(e).</string>
+    <string name="music_dialog_delete_notice_below">Obrisana(e) datoteka(e) ne može se povratiti!</string>
+
+    <!-- 文档分析模块 -->
+    <string name="storage_document">Dokumenti</string>
+    <string name="document_group_word">WORD</string>
+    <string name="document_group_pdf">PDF</string>
+    <string name="document_group_ppt">PPT</string>
+    <string name="document_group_xls">Excel</string>
+    <string name="document_group_txt">TXT</string>
+    <string name="document_group_others">OSTALO</string>
+    <!-- V1.13 wy 添加 -->
+    <string name="image_dialog_title">Obriši</string>
+    <string name="image_dialog_text1">Ova datoteka bit će obrisana.</string>
+    <string name="image_dialog_text2">Jeste li sigurni?</string>
+    <string name="image_no_selected">Nije odabrana nijedna datoteka.</string>
+    <string name="image_size_notice">%s je očišćeno!</string>
+    <string name="image_delete_layout_text">Obriši(%s)</string>
+    <string name="image_delete_ok">Da</string>
+
+    <!-- 文件没有删除成功 -->
+    <string name="file_can_not_delete">Ove datoteke ne mogu se obrisati.</string>
+    <string name="no_app_to_open_file">Nijedna lokalna aplikacija ne može otvoriti datoteku</string>
+
+    <!-- 浮窗引导 -->
+    <string name="float_guide_tips">Dovucite je ovdje kako biste ubrzali vaš telefon.</string>
+
+    <!-- 预装应用禁用 -->
+    <string name="disable_apps_process_anim_tips">Onemogućavanje</string>
+    <string name="disable_apps_done_disable_count">%s Onemogućeno!</string>
+    <string name="disable_apps_done_speed_up">%s Speed+!</string>
+    <string name="disable_apps_done_description">Z Speed+ ih drži neaktivnima</string>
+    <string name="disable_apps_wait_to_stop_tips">Pokušava se zaustaviti, čekajte&#8230;</string>
+    <string name="disable_list_no_app_tip">Nema onemogućenih aplikacija</string>
+    <string name="disable_group_most_disable_title">Najčešće onemogućeno</string>
+    <string name="disable_group_recommend_keeping_title">Preporučeno zadržavanje</string>
+    <string name="disable_group_recommend_keeping_subtitle">Onemogućavanje može uzrokovati pogreške u sustavu</string>
+    <string name="disable_app_info_dialog_disable_btn_text">Onemogući</string>
+    <string name="disable_app_info_dialog_enable_btn_text">Omogući</string>
+    <string name="disable_app_info_dialog_consuming_tip">Ova aplikacija konzumira memoriju sustava</string>
+    <string name="disable_app_info_dialog_system_error_tip">Onemogućavanje može uzrokovati pogreške u sustavu</string>
+    <string name="disable_app_info_dialog_no_statement">Možete je pokušati onemogućiti ako nije potrebna</string>
+    <string name="disable_app_info_dialog_no_statement_for_recommend">Usluga predinstalirana od proizvođača</string>
+    <string name="disable_app_info_dialog_user_rate_for_norecommend">&#60;10%</string>
+
+    <!-- 广告 -->
+    <string name="ad_install_now">Instaliraj sada</string>
+
+    <!-- 评分引导 -->
+    <string name="rate_gp_dialog_main_title">Zdravo!</string>
+    <string name="rate_gp_dialog_feedback_title">Feedback</string>
+    <string name="rate_gp_dialog_rate_title">Obožavam Z Speed+</string>
+    <string name="rate_gp_dialog_one_notice_boost">U prethodnih %1$s dana, Z Speed+ je za vas uklonio &lt;font color="#85c443"> %2$s &lt;/font>usporavajućih aplikacija.&lt;br /> &lt;br/> &lt;font color="#85c443">Sviđa li vam se Z Speed+?&lt;/font></string>
+    <string name="rate_gp_dialog_one_no_boost">Ne baš</string>
+    <string name="rate_gp_dialog_one_yes_boost">Da!</string>
+    <string name="rate_gp_dialog_one_notice_clean">Upravo ste uspješno očistili &lt;font color="#85c443"> %s &lt;/font> nepotrebne datoteke! &lt;br /> &lt;br/>Kako vam se sviđa Z Speed+?</string>
+    <string name="rate_gp_dialog_one_no_clean">Nije nešto</string>
+    <string name="rate_gp_dialog_one_yes_clean">Obožavam ga!</string>
+    <string name="rate_gp_dialog_two_notice">Hoćete li nam ostaviti feedback? \nVrijedna nam je svaka vaša riječ.</string>
+    <string name="rate_gp_dialog_two_no">Ne, hvala</string>
+    <string name="rate_gp_dialog_two_yes">OK, naravno</string>
+    <string name="rate_gp_dialog_three_notice">Hoćete li nam dati ocjenu od 5 zvjezdica?</string>
+    <string name="rate_gp_dialog_three_no">Ne, hvala</string>
+    <string name="rate_gp_dialog_three_yes">OK, naravno</string>
+    <string name="rate_gp_notification_notice">Dosad ste uklonili %s usporavajućih aplikacija. Hoćete li provjeriti?</string>
+
+    <!-- 启动页 -->
+    <string name="privacy_policy">&lt;u>Izjava o privatnosti&lt;/u></string>
+    <string name="private_agreement">Slažem se s&#160;</string>
+    <string name="private_start">POČETAK</string>
+    <string name="private_join_uep">Pridruži se programu korisničkog iskustva</string>
+    <string name="privacy_start_by_agree_policy">Prihvatite &lt;u>uvjete privatnosti&lt;/u></string>
+    <string name="privacy_uep_plan_info_page">http://godfs.3g.cn/soft/zboost/privacy/user_plan_en.html</string>
+
+    <!-- 新装应用弹框 -->
+    <string name="install_listen_installed_msg">instalirano, očistite nepotrebne aplikacije kako biste uštedili</string>
+    <string name="install_listen_installed_multiple_msg">Instalirane aplikacije, očistite nepotrebne aplikacije kako biste uštedili</string>
+    <string name="install_listen_delete_apk_tip">Očišćeno</string>
+    <string name="install_listen_dialog_clean_btn_text">Očisti</string>
+    <string name="install_listen_dialog_cancel_btn_text">Prekid</string>
+    <string name="install_listen_dialog_eye_tip_on">Ne pitaj 3 dana</string>
+    <string name="install_listen_dialog_eye_tip_off">Nastavi me pitati</string>
+
+    <!-- 游戏加速 -->
+    <string name="game_boost_title">Ubrzivač igara</string>
+    <string name="game_boost_add_to_game_title">Dodaj igru</string>
+    <string name="game_boost_effect">Oslobodi &lt;font color="#85c443">%s &lt;/font> više RAM-a za igre.</string>
+    <string name="game_cell_add">Dodaj igru</string>
+    <string name="game_cell_ok">Ok</string>
+    <string name="game_boost_menu_about">Kako funkcionira</string>
+    <string name="game_boost_menu_add_shutcut">Stvori mapu igre</string>
+    <string name="game_boost_folder_create_success">Mapa igre je uspješno stvorena.</string>
+    <string name="game_boost_box_shortcut_name">Ubrzivač igara</string>
+    <string name="game_boost_box_shortcut_name_new">Moje igre</string>
+    <string name="game_boost_add_card_view_title_popular">Popularne igre</string>
+    <string name="game_boost_add_new_game_to_boost">%s dodano u ubrzivač igara</string>
+    <string name="game_boost_add_new_games_to_boost">%s novih igara dodano u ubrzivač igara</string>
+    <!-- 游戏加速介绍 -->
+    <string name="game_boost_about_one">Pametno i automatski isključite nebitne pozadinske aplikacije koje utječu na performanse igre.</string>
+    <string name="game_boost_about_two">Dinamično praćenje vašeg telefona i čišćenje nepotrebnog RAM-a.</string>
+    <string name="game_boost_about_three">Otvorite igre iz Z Speed+ mape igara na pokretaču, ubrzajte igru do 20~65%.</string>
+
+    <!-- 游戏加速动画 -->
+    <string name="game_accel_anim_boost_text">Ubrzavanje&#8230;</string>
+    <string name="game_accel_anim_boost_toast_tip">Ubrzano, %s%%.</string>
+
+    <!-- CPU高温提醒 -->
+    <string name="cpu_notice_setting">CPU problemi</string>
+    <string name="cpu_fix">POPRAVI</string>
+    <string name="cpu_check">Provjeri</string>
+    <string name="cpu_issue_type_temp_overheated">Pregrijan!</string>
+    <string name="cpu_issue_type_temp_increasing_rapidly">Ubrzano povećavanje!</string>
+    <string name="cpu_issue_type_heavily_occupied">CPU teško opterećen!</string>
+    <string name="cpu_temp_issue_app">uzrokuje problem</string>
+    <string name="cpu_occupied_issue_app">Konzumira &lt;font color="#D46565"> %s &lt;/font> CPU</string>
+
+    <!-- cpu页面 -->
+    <string name="cpu_cooler">CPU rashlađivač</string>
+    <string name="cpu_coll_down_cpu">Rashlađuje CPU</string>
+    <string name="cpu_temperature_issue">Problem s temperaturom</string>
+    <string name="cpu_device_running_slow">Uređaj je spor</string>
+    <string name="cpu_issue_detected">Detektiran je problem</string>
+    <string name="cpu_cool_down_further">Dodatno rashladite, očistite %s pokrenutih aplikacija</string>
+    <string name="cpu_temp_well">CPU temp. je OK</string>
+    <string name="cpu_temp_hot">Malo prevelika</string>
+    <string name="cpu_temp_overheated">Pregrijan</string>
+    <string name="cpu_temp_chilling">Rashlađivanje</string>
+    <string name="cpu_temp_cooler">CPU rashlađivač</string>
+    <string name="cpu_occupy">Konzumiranje &lt;font color="#D46565"> %s &lt;/font> CPU-a</string>
+    <string name="cpu_abnormal">Abnormalno korištenje CPU-a: &lt;font color="#D46565"> %s &lt;/font></string>
+
+    <!-- CPU动画 -->
+    <string name="cpu_anim_cooldown_done_scantype_cool_above">Upravo optimizirano</string>
+    <string name="cpu_anim_cooldown_done_scantype_cool_below">Pustite uređaj neko vrijeme da se rashladi</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_below">Nema aplikacija koje zagrijavaju uređaj</string>
+    <string name="cpu_anim_cooldown_done_scantype_memory_above">Uređaj se rashlađuje</string>
+    <string name="cpu_anim_cooldown_done_no_temp">Zagrijavajuće aplikacije su očišćene</string>
+    <string name="cpu_anim_cooldown_done_dropped">Spušteno</string>
+    <string name="cpu_anim_cooldown_process_tip_text">Početak rashlađivanja&#8230;</string>
+    <string name="cpu_anim_scan_process_tip_text">Skreniranje CPU-a&#8230;</string>
+    <string name="cpu_anim_lag_done_tip_text">Ubrzano!</string>
+
+    <!-- 试试手气 -->
+    <string name="shuffle_no_network">Molimo provjerite internetsku vezu i pokušajte ponovno</string>
+
+    <!-- 完成页跳转卡片 -->
+    <string name="finish_page_card_game_booster_name">Ubrzivač igara</string>
+    <string name="finish_page_card_game_booster_desc_enabled">Mapa ubrzivača igara uspješno je stvorena, provjerite je :)</string>
+    <string name="finish_page_card_game_booster_btn_enabled">Omogućeno</string>
+    <string name="finish_page_card_game_booster_desc">Otvarajte igre iz mape ubrzivača igara, uživajte u 65% bržem lansiranju igre</string>
+    <string name="finish_page_card_game_booster_desc_single_game">Aktivirajte Pojačanje igre za ubrzavanje &lt;big>%s&lt;/big> do 65%% ?</string>
+    <string name="finish_page_card_feedback_name">Recite nam što mislite</string>
+    <string name="finish_page_card_feedback_desc">Najdraže svojstvo, prijedlog, bilo što</string>
+    <string name="finish_page_card_feedback_btn">Feedback</string>
+    <string name="finish_page_card_game_booster_btn">Omogući sada</string>
+    <string name="finish_page_card_whitelist_name">Uredi popis dopuštenja ubrzivača</string>
+    <string name="finish_page_card_whitelist_desc">Označi aplikacije koje moraju ostati pokrenute</string>
+    <string name="finish_page_card_whitelist_btn">Uredi sada</string>
+    <string name="finish_page_card_autostart_name">Pronađene aplikacije s automatskim pokretanjem</string>
+    <string name="finish_page_card_autostart_desc">&lt;big>%s&lt;/big> aplikacije s automatskim pokretanjem za optimizaciju</string>
+    <string name="finish_page_card_autostart_btn">Provjeri</string>
+    <string name="finish_page_card_photo_name">Očisti fotografije</string>
+    <string name="finish_page_card_photo_desc">Više od &lt;big>%s fotografija&lt;/big> je uslikano, ali možda nisu sve vrijedne čuvanja?</string>
+    <string name="finish_page_card_photo_btn">Očisti</string>
+    <string name="finish_page_card_clean_1_name">Nepotrebne datoteke za čišćenje</string>
+    <string name="finish_page_card_clean_1_desc">Zločesti telefon nedavno je stvorio &lt;big>%s&lt;/big> nepotrebne datoteke</string>
+    <string name="finish_page_card_clean_1_btn">Očisti</string>
+    <string name="finish_page_card_clean_2_name">&lt;big>%s&lt;/big> Pronađene nepotrebne datoteke</string>
+    <string name="finish_page_card_clean_2_desc">Nakon čišćenja, možete fotografirati više od &lt;big>%s&lt;/big> novih slika</string>
+    <string name="finish_page_card_clean_2_btn">Očisti sada</string>
+    <string name="finish_page_card_activate_power_mode_title">%s aplikacija &lt;big>se automatski pokreću&lt;/big></string>
+    <string name="finish_page_card_activate_power_mode_desc">Aktiviraj &lt;big>temeljito ubrzanje&lt;/big> za rješavanje problema</string>
+    <string name="finish_page_card_activate_power_mode_btn">Aktiviraj</string>
+    <!-- 内存加速卡片 -->
+    <string name="finish_page_card_memory_boost_normal_name">Ubrzaj telefon</string>
+    <string name="finish_page_card_memory_boost_normal_desc">Oslobodi memoriju radi ubrzavanja telefona</string>
+    <string name="finish_page_card_memory_boost_normal_btn">Ubrzaj</string>
+    <string name="finish_page_card_memory_boost_strong_name">&lt;big>%s%% memorije&lt;/big> preostalo</string>
+    <string name="finish_page_card_memory_boost_strong_desc">%s pokrenutih aplikacija iskorištavaju memoriju, telefon može biti vrlo spor</string>
+    <string name="finish_page_card_memory_boost_strong_btn">Ubrzaj sada</string>
+    <!-- 禁用应用 -->
+    <string name="finish_page_card_disable_name">Onemogući predinstalirane aplikacije</string>
+    <string name="finish_page_card_disable_desc">%1$s predinstaliranih aplikacija, &lt;big>%2$s&lt;/big> može se onemogućiti</string>
+    <string name="finish_page_card_disable_btn">Provjeri</string>
+    <!-- 无广告时的提示语 -->
+    <string name="finish_page_no_ad_autostart_tips">Provjerite što se skriveno automatski pokreće</string>
+    <string name="finish_page_no_ad_clean2_tips">Nepotrebne datoteke će usporiti telefon</string>
+    <string name="finish_page_no_ad_clean1_tips">Nepotrebne datoteke moraju se svakodnevno čistiti</string>
+    <string name="finish_page_no_ad_game_shortcut_tips">I igre trebaju ubrzanje!</string>
+    <string name="finish_page_no_ad_disable_tips">Neke predinstalirane aplikacije su stvarno beskorisne</string>
+    <string name="finish_page_no_ad_photo_tips">Može se uštediti mnogo prostora!</string>
+    <string name="finish_page_no_ad_activite_power_mode_tips">Temeljito ubrzanje može zaustaviti i one najtvrdoglavije!</string>
+    <string name="finish_page_no_ad_whitelist_tips">Nemojte zaustaviti potrebne aplikacije!</string>
+    <string name="finish_page_no_ad_boost_strong_tips">Telefon je usporen</string>
+    <string name="finish_page_no_ad_boost_normal_tips">Telefon može biti brži</string>
+    
+    <!-- 游戏加速动画二期 -->
+    <string name="game_accel_sec_add_game">Dodaj igre</string>
+    <string name="game_accel_guide_title">Pojačanje igre</string>
+    <string name="game_accel_guide_text2">aktivirano</string>
+    <string name="game_accel_guide_try_text">Dodirni za probu!</string>
+    <string name="game_accel_guide_gamename_1">Prečac stvoren</string>
+    <string name="game_accel_guide_gamename_2">Otvori na radnoj površini</string>
+    <string name="game_accel_guide_gamename_3">Skeniranje igara…</string>
+    <string name="game_accel_guide_discovery_text_above">Channel Z</string>
+    <string name="game_accel_guide_discovery_text_below">i ovdje</string>
+    <string name="game_accel_sec_anim_title">IGRE</string>
+    <string name="game_accel_shortcut_created">Stvoreno</string>
+    <string name="game_accel_tip_dialog_content_text">Želite li aktivirati Pojačanje igre za pomoć ubrzanja \"%s\" do 40%%?</string>
+    <string name="game_accel_tip_dialog_content_text_new">Aktivirajte Pojačanje igre za ubrzavanje &lt;font color="#85c443">\"%s\"&lt;/font> do 65%%?</string>
+    <string name="game_accel_sort_name">Ime</string>
+    <string name="game_accel_sort_Date">Datum</string>
+    <string name="game_accel_sort_Frequency">Frekvencija</string>
+    <string name="game_accel_game_box_title">Upravljajte igrama</string>
+    <string name="game_accel_add_shortcut">Dodajte prećac</string>
+    
+    <!-- 游戏加速游戏分发-->
+    <string name="game_distribute_discover">ISTRAŽITE</string>
+    <string name="game_distribute_connection_failed">Povezivanje neuspješno</string>
+    <string name="game_distribute_net_data_alert">Igranje preko Wi-Fi može smanjiti podatkovnu potrošnju</string>
+    <string name="game_distribute_warning_title">Z Speed+ TV</string>
+    <string name="game_distribute_warning_content"> Kretnja slike sadržane u videima je nevjerojatna.\nVidei nisu prikazani samo za doma, već i druge\n mogućnosti. Ikakvo dodirivanje ili gledanje takvih slika u pokretu su\n dobrodošle Z Speedu+. S poštovanjem preporučamo \n igranje igara u razumnom vremenu.</string>
+    <string name="game_distribute_video_title">Kanal</string>
+    <string name="game_distribute_game_searching">Traženje igara...</string>
+    
+    <!--完成页文案 -->
+    <string name="big_app_title">Top 3 &lt;font color="#6ac534">Velike aplikacije &lt;/font></string>
+    <string name="cpu_thieves_title">Top 3 &lt;font color="#6ac534">Današnji kradljivci CPU-a &lt;/font></string>
+    <string name="num_times">%s vremena</string>
+    
+    <!-- 主屏幕引导 -->
+    <string name="home_guide_card_boost_desc">Dostupna memorija ekstremno niska!</string>
+    <string name="home_guide_card_boost_desc_big">&lt; 15%</string>
+    <string name="home_guide_card_boost_button">Povećaj odmah</string>
+
+    <string name="home_guide_card_photo_desc1">Fotografiranje je jednostavno</string>
+    <string name="home_guide_card_photo_desc2">Brisanje nije</string>
+    <string name="home_guide_card_photo_desc_big">%s GB</string>
+    <string name="home_guide_card_photo_button">Očisti odmah</string>
+
+    <string name="home_guide_card_cpu_desc">Pregrijani CPU troši bateriju</string>
+    <string name="home_guide_card_cpu_button">Ohladi</string>
+
+    <string name="home_guide_card_disbale_desc">Bavite se predinstaliranjem!</string>
+    <string name="home_guide_card_disbale_desc2">Vaš uređaj može biti brži!</string>
+    <string name="home_guide_card_disbale_desc_big">%s aplikacije</string>
+    <string name="home_guide_card_disbale_button">Onemogući odmah</string>
+    
+     <!--辅助功能引导-->
+    <string name="enable_super_boost_mode_super">Naćin pojačanja snage</string>
+    <string name="enable_super_boost_mode_normal">Normalno ubrzavanje</string>
+    <string name="enable_super_boost_desc_super">&lt;b>Pojačaj:&lt;/b> normalne aplikacije, &lt;mark>&lt;font color="red">automatski pokrenute aplikacije&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">Daje dodatnih 60% snage pojačanja, poput rootanih uređaja.&lt;/font>&lt;/b>&lt;br>
+        (Molimo uključite pristup za Z Speed+ u sljedećem koraku)
+    </string>
+    <string name="enable_super_boost_desc_super_restart">&lt;b>Pojačaj:&lt;/b> normalne aplikacije, &lt;mark>&lt;font color="red">automatski pokrenute aplikacije&lt;/font> &lt;/mark>&lt;br>
+    &lt;b>&lt;font color="red">Daje dodatnih 60% snage pojačanja, poput rootanih uređaja.&lt;/font>&lt;/b>&lt;br>
+        (Molimo ponovo uključite pristup za Z Speed+ u sljedećem koraku)</string>
+    <string name="enable_super_boost_desc_normal">&lt;b>Pojačaj:&lt;/b> normalne aplikacije&lt;br>
+      Automatski pokrenute aplikacije neće biti pojačane, osim načina snage.
+    </string>
+    <string name="enable_super_mode_check_desc_boost">Odmah pojačaj snagu mog uređaja!</string>
+
+
+    <string name="enable_super_disable_mode_super">Skupno isključivanje</string>
+    <string name="enable_super_disable_mode_normal">Ručno isključivanje</string>
+    <string name="enable_super_disable_desc_super">&lt;mark>&lt;font color="red">&lt;b>Svojstvo:&lt;/b> skupno isključivanje nekorištenih aplikacija sa samo 1 klikomk.&lt;/font> &lt;/mark>&lt;br>
+        (Molimo uključite pristup za Z Speed+ u sljedećem koraku)
+    </string>
+    <string name="enable_super_disable_desc_super_restart">&lt;mark>&lt;font color="red">&lt;b>Feature:&lt;/b> skupno isključivanje nekorištenih aplikacija sa samo 1 klikom.&lt;/font> &lt;/mark>&lt;br>
+        (Molimo ponovo uključite pristup za Z Speed+ nakon što se Vaš uređaj ponovno pokrenuo)
+    </string>
+    <string name="enable_super_disable_desc_normal">&lt;b>Svojstvo:&lt;/b> Isključivanje nekorištenih aplikacija jednu po jednu. &lt;br>
+                    &lt;mark>&lt;font color="red">Preporučeno je koristiti svojstvo skupnog isključivanja za jednostavnu kontrolu.&lt;/font> &lt;/mark>
+    </string>
+    <string name="enable_super_mode_check_desc_disable">Uključi svojstvo skupnog isključivanja</string>
+    
+    <!-- 通知栏开关设置页 -->
+    <string name="notification_toggle_settings_title">Postavke obavijesti prekidača</string>
+    <string name="notification_toggle_settings_label_themes">Teme</string>
+    <string name="notification_toggle_settings_label_toggles">Prekidač</string>
+    <string name="notification_toggle_settings_label_zspeed">KLASIČNO</string>
+    <string name="notification_toggle_settings_label_popular">NAJPOPULARNIJE</string>
+    <string name="notification_toggle_theme_name_green">Demeter</string>
+    <string name="notification_toggle_theme_name_pink">Atena</string>
+    <string name="notification_toggle_theme_name_black">Erebus</string>
+    <string name="notification_toggle_theme_name_silver">Uran</string>
+    <string name="notification_toggle_theme_name_golden">Kronos</string>
+    <string name="notification_toggle_toggle_name_app">Početna</string>
+    <string name="notification_toggle_toggle_name_boost">Pojačavanje</string>
+    <string name="notification_toggle_toggle_name_cpu">CPU</string>
+    <string name="notification_toggle_toggle_name_torch">Baklja</string>
+    <string name="notification_toggle_toggle_name_brightness">Svjetlina</string>
+    <string name="notification_toggle_toggle_name_themes">Teme</string>
+    <string name="notification_toggle_toggle_name_wifi">Wi-Fi</string>
+    <string name="notification_toggle_toggle_name_data">Podaci</string>
+    <string name="notification_toggle_toggle_name_camera">Kamera</string>
+    <string name="notification_toggle_toggle_name_calculator">Kalkulator</string>
+    <string name="notification_toggle_toggle_name_rotate">Rotacija</string>
+    <string name="notification_toggle_toggle_name_sound">Zvuk</string>
+    <string name="notification_toggle_bright_auto">AUTO</string>
+    <string name="notification_toggle_notification_ticker">Z Speed+ alatna traka samo u stanju mirovanja</string>
+    <string name="notification_toggle_notification_ticker_initializing">Alatna traka se učitava&#8230;</string>
+    
+    <!-- 热词搜索 -->
+    <string name="hot_word_search_hint">Unos sadržaja za pretragu</string>
+    <string name="hot_word_search_next_batch">Više</string>
+    
+    <!-- 重复照片 -->
+    <string name="duplicate_photos_main_act_title">Duplicirane fotografije</string>
+    <string name="duplicate_photo_detail_toast_clean_finish">%1$s  fotografija očišćeno!</string>
+    <string name="duplicate_photo_detail_toast_clean_all">Sve duplicirane fotografije su očišćene!</string>
+    <string name="duplicate_photos_delete_alert_title">Trajno brisanje</string>
+    <string name="duplicate_photos_delete_alert_desc">Jeste li sigurni da ih želite trajno izbrisati?</string>
+    <string name="duplicate_photos_leave_alert_title">Sigurno želite izaći?</string>
+    <string name="duplicate_photos_leave_alert_desc">Odabrali ste %s slika za brisanje.&lt;br>Sigurno želite izaći?</string>
+    <string name="duplicate_photos_leave_alert_leave_btn">Izađi</string>
+    <string name="duplicate_photos_scan_alert">Skeniranje može potrajati, molimo pričekajte</string>
+    <string name="duplicate_photos_no_content">Čestitamo! Nema duplih fotografija!</string>
+    <string name="duplicate_photos_suffix_selected">Odabrano: %s</string>
+    <string name="duplicate_photos_suffix_total">Ukupno slika: %s</string>
+    
+     <!-- 定时游戏广告通知栏 -->
+    <string name="game_ad_notification_label_game_of_last_week">Najbolja igra tjedna</string>
+    <string name="game_ad_notification_label_weekly_best_app">Najbolja aplikacija tjedna</string>
+    
+    <!-- app lock -->
+    <string name="activity_applock_title">APP LOCK</string>
+    <string name="app_lock_perm_settings_title">Postavke</string>
+    <string name="app_lock_perm_settings_message">Zahtjev za dopuštenje</string>
+    <string name="app_lock_notice_enable_usage_stats">Na Android 5.0 ili višim verzijama, morate odobriti pristup korištenja za AppLock kako biste mogli koristiti svojstvo AppLock.</string>
+    <!--当没有相应设置页面, 会在notice_enable_usage_stats后面加这一句-->
+    <string name="app_lock_notice_enable_usage_stats1">Ako je instalacija neuspješna, molimo uključite preko Postavke > Sigurnost > Aplikacije s pristupom korištenja</string>
+    <string name="app_lock_enable_usage_stats">Dozvola</string>
+    <string name="install_app_mointor_locker">Mora biti zaključano</string>
+    <string name="locker_header_forget_pwd">Zaboravljena lozinka</string>
+    <string name="locker_header_replce_number_locker">Promijeniti na otključavanje lozinkom</string>
+    <string name="locker_header_replce_graphic_locker">Promijeniti na otključavanje uzorkom</string>
+    <string name="initializationpassword_frist_prompt">Postavite lozinku</string>
+    <string name="initializationpassword_second_prompt">Za potvrdu, unesite lozinku ponovo</string>
+    <string name="initializationpassword_pwd_not_equals">Lozinka ne odgovara, molimo ponovite</string>
+    <string name="init_email_prompt">E-mail adresa za zaboravljenu lozinku</string>
+    <string name="init_email_prompt1">Molimo unesite točnu e-mail adresu</string>
+    <string name="init_mail_btn_text">Dalje</string>
+    <string name="forget_reset_pwd_success">Lozinka uspješno promijenjena</string>
+    <string name="activity_applock_group_apps">APLIKACIJE</string>
+    <string name="activity_applock_menu_update">nadogradnja na Pro</string>
+    <!-- 应用锁设置页 -->
+    <string name="app_lock_setting_title">AppLock postavke</string>
+    <string name="app_lock_setting_parent_unlock_mode">Način otključavanja</string>
+    <string name="app_lock_setting_passcode">Lozinka</string>
+    <string name="app_lock_setting_others">Ostalo</string>
+    <string name="app_lock_setting_unlock_mode_numbers">Brojevi</string>
+    <string name="app_lock_setting_unlock_mode_pattern">Uzorak</string>
+    <string name="app_lock_setting_passcode_change_passcode">Promjena lozinke</string>
+    <string name="app_lock_setting_passcode_email_setting">E-mail postavke</string>
+    <string name="app_lock_setting_others_brief_eixt">Dopusti kratak izlaz</string>
+    <string name="app_lock_setting_others_relock">Ponovno zaključavanje nakon uključivanja zaslona</string>
+    <string name="app_lock_setting_brief_eixt_seconds">sekunde</string>
+    <string name="app_lock_setting_brief_eixt_minutes">minute</string>
+    <string name="app_lock_setting_pro">Pro</string>
+    <string name="app_lock_setting_pro_update">nadogradnja na master lock</string>
+    <!-- 应用锁找回密码 -->
+    <string name="forget_title">Zaboravljena lozinka</string>
+    <string name="forget_email_prompt1">1)Poslat ćemo Vam kontrolni kôd na Vašu e-mail adresu.</string>
+    <string name="forget_email_prompt2">2)Unesite kontrolni kôd i dobit ćete svoju lozinku.</string>
+    <string name="forget_email_btn_prompt">Pošalji</string>
+    <string name="forget_email_btn_prompt2">Promijeni lozinku</string>
+    <string name="forget_email_edit_prompt">Kontrolni kôd</string>
+    <string name="forget_check_code_not_right">Netočno</string>
+    <string name="forget_check_code_out_of_time">Kontrolni köd je istekao, molimo zatražite novi.</string>
+    <string name="forget_send_email_error">Neuspješno slanje e-maila, pokušajte ponovo.</string>
+    <string name="forget_send_email_success">E-mail uspješno poslan, provjerite svoj mailbox.</string>
+    <string name="set_graphic_password_message_draw">Unesite uzorak za otključavanje</string>
+    <string name="set_graphic_password_message_too_short">Povežite najmanje 4 točke. Pokušajte ponovo:</string>
+    <string name="set_graphic_password_message_stored">Uzorak snimljen.</string>
+    <string name="set_graphic_password_message_redraw">Za potvrdu, unesite ponovo uzorak:</string>
+    <string name="set_graphic_password_btn_redraw">Pokušaj ponovo</string>
+    <string name="set_graphic_password_message">Postavke lozinke</string>
+    <string name="set_graphic_password_message_wrong">Greška, pokušajte ponovo:</string>
+    <string name="applock_recommend_dialog_title">Preporučene aplikacije</string>
+    <string name="applock_recommend_dialog_lockall">Zaključaj sve</string>
+    <string name="applock_recommend_dialog_ok">OK</string>
+    <!-- 推APP LOCKER -->
+    <string name="recommend_app_lock_slogan">Pro privacy lock besplatan za korištenje!</string>
+    <string name="lokcer_init_instruction_first">Postavljanje lozinke za zaključavanje Vaših privatnih aplikacija</string>
+    <string name="lokcer_init_instruction_second">Ponovo potvrdite lozinku</string>
+    <!-- 应用锁卡片 -->
+    <string name="finish_page_card_app_locker_name">App Lock</string>
+    <string name="finish_page_card_app_locker_desc">Držite &lt;big>%s&lt;/big> i ostale podalje od njuškala sa AppLock svojstvom!</string>
+    <string name="finish_page_card_app_locker_btn">Zaštiti odmah</string>
+    <string name="finish_page_no_ad_app_lock_tips">Phone could be faster</string>
+     <!-- 远程通知栏弹窗 -->
+    <string name="notification_remote_pop_up_white">&lt;font color="#ffffff">%1$s&lt;/font></string>
+    <string name="notification_remote_pop_up_black">&lt;font color="#ffffff">%1$s&lt;/font></string>
+
+</resources>

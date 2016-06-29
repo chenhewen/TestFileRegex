@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_title_item_height"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/boost_group_list_top_divider"
+        layout="@layout/common_listview_divider_level0_layout" />
+
+    <TextView
+        android:id="@+id/boost_group_list_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:ellipsize="middle"
+        android:fontFamily="@string/font_families_roboto"
+        android:maxLines="1"
+        android:text="@string/boost_groups_list_title_running_app"
+        android:textColor="#FF808080"
+        android:textSize="12sp" />
+
+</FrameLayout>

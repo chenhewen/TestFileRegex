@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/locker_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/locker_main_bg_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4498a0aa"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/app_lock_ads_layout_recover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:id="@+id/panel_top_bg_whole"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <RelativeLayout
+            android:id="@+id/panel_top_bg"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_alignParentTop="true"
+            android:background="#FF76B54B">
+            <View
+                android:id="@+id/panel_top_bg_streak_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/storage_main_act_bg"
+            />
+        </RelativeLayout>
+        <com.gto.zero.zboost.common.ui.BevelFrameLayout
+            android:id="@+id/panel_bevel_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/applock_unlock_bevel_top"
+            android:background="@color/white"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/app_lock_ads_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="?android:attr/actionBarSize"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/locker_main_icon"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription"/>
+            <TextView
+                android:id="@+id/locker_app_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#fff"
+                android:textSize="16sp"/>
+            <ViewStub
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:layout="@layout/recommend_app_lock_banner_layout"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/applock_lock_panel_top">
+
+        <ImageView
+            android:id="@+id/locker_main_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            tools:ignore="ContentDescription"/>
+
+        <ViewStub
+            android:id="@+id/view_stub_pwd_number_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:layout="@layout/applock_widget_locker_pwd_number_panel"/>
+
+        <ViewStub
+            android:id="@+id/view_stub_pwd_graphic_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:layout="@layout/applock_widget_locker_pwd_graphic_panel"/>
+    </RelativeLayout>
+
+</RelativeLayout>

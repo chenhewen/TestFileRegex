@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:wheel="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f6f6f6">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@color/menu_setting_title">
+    </FrameLayout>
+
+    <include
+        android:id="@+id/title_setting_zero_plus"
+        layout="@layout/common_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_title_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"/>
+
+    <WebView
+        android:id="@+id/webview_setting_zero_plus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_setting_zero_plus">
+
+    </WebView>
+
+
+</RelativeLayout>

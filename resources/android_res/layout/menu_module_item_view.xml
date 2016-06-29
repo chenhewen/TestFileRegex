@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gto.zero.zboost.function.menu.v2.view.MenuModuleItemView
+    android:id="@+id/menu_module_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    >
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp">
+
+        <RelativeLayout
+            android:id="@+id/menu_module_item_switch_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/menu_module_item_switch_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/open_setting_setting"/>
+
+            <TextView
+                android:id="@+id/menu_module_item_switch_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_families_roboto"
+                android:text="@string/common_on"
+                android:textColor="@color/menu_setting_ok"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/menu_module_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/menu_module_item_switch_container"
+            android:fontFamily="@string/font_families_roboto"
+            android:textColor="@color/menu_setting_ok"
+            android:textSize="16dp"/>
+
+    </RelativeLayout>
+
+</com.gto.zero.zboost.function.menu.v2.view.MenuModuleItemView>
