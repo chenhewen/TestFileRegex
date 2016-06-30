@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- 测试 标准字符串 -->
+<string name="a1">this is a</string>
+
+<!-- 测试 转移字符 -->
+<string name="a2">Hi &amp;  Hello</string>
+<string name="a3">4  &lt;  8</string>
+<string name="a4">10  &gt;  5</string>
+<string name="a5">Hi &quot;  Hello</string>
+<string name="a6">Hi &apos;  Hello</string>
+<string name="a7">\'</string>
+<string name="a8">\n</string>
+
+<!-- 测试 空格 -->
+<string      name="a9">this is c</string     > 
+<!-- 测试换行 -->
+<string 
+name="a10">this 
+id c</string
+>
+
+<!-- 测试多个标签, 属性 -->
+<string name="a11"><u>Hello Underline</u></string>
+<string name="a12" formatted="false">Hello multi-attributes</string>
+
+<string name="a16">this is a</string>
+</resources>
